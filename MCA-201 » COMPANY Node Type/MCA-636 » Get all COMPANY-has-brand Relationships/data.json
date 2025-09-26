@@ -1,0 +1,18 @@
+{
+  "id": "MCA-636",
+  "parent_id": "MCA-201",
+  "title": "Get all COMPANY-has-brand Relationships",
+  "user_story": "As an API consumer\\\nI want to be able to get a list of all connected BRANDS for a COMPANY\\\nSo I can find out which BRANDS are owned by which COMPANY\n",
+  "description": "* A list of all ›has-brand‹ relationships for the selected COMPANY is returned when there exists at least one of them. -> Status Code \\`200\\`\n* Each item in the list contains the relationship ID and the two node IDs, but not the nodes itself.\n* An empty list is returned when no ›has-brand‹ relationship exists. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a COMPANY. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/companies/<company-id>/has-brand",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.20.0"
+  ],
+  "created_at": "2025-09-26T16:41:33.936+0200",
+  "updated_at": "2025-09-26T16:55:08.424+0200"
+}
