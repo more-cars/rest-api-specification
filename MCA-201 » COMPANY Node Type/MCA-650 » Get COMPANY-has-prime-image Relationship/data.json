@@ -1,0 +1,18 @@
+{
+  "id": "MCA-650",
+  "parent_id": "MCA-201",
+  "title": "Get COMPANY-has-prime-image Relationship",
+  "user_story": "As an API consumer\\\nI want to be able to request the prime image of a COMPANY\\\nSo I can represent the node in the best possible form in my frontend application\\\n(Because I don't know which image from the node's gallery is the best one)\n",
+  "description": "* The ›has-prime-image‹ relationship for the selected COMPANY is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID and the two node IDs, but not the nodes itself.\n* An empty response is returned when the the selected COMPANY has no ›has-prime-image‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a COMPANY. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/companies/<company-id>/has-prime-image",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.20.0"
+  ],
+  "created_at": "2025-09-29T09:07:58.284+0200",
+  "updated_at": "2025-09-29T09:55:15.595+0200"
+}

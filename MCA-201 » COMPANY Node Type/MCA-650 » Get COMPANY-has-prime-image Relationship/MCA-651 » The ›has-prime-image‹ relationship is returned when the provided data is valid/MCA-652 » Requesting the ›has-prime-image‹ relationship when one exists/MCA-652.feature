@@ -1,0 +1,17 @@
+@REQ_MCA-650
+Feature: Get COMPANY-has-prime-image Relationship
+  As an API consumer\
+  I want to be able to request the prime image of a COMPANY\
+  So I can represent the node in the best possible form in my frontend application\
+  (Because I don't know which image from the node's gallery is the best one)
+
+  @RULE_MCA-651
+  Rule: The ›has-prime-image‹ relationship is returned when the provided data is valid
+
+    @TEST_MCA-652
+    Scenario: Requesting the ›has-prime-image‹ relationship when one exists
+      Given there exists a "COMPANY" "Renault S.A."
+      And there exist a "has-prime-image" relationship "R" for "Renault S.A."
+      When the user requests the "has-prime-image" relationship for "Renault S.A."
+      Then the request should be confirmed with status code 200
+      And the response should contain the relationship "R"
