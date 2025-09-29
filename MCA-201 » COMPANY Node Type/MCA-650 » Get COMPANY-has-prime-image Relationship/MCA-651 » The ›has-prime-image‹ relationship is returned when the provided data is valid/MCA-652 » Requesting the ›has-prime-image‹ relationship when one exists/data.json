@@ -2,8 +2,10 @@
   "id": "MCA-652",
   "parent_id": "MCA-651",
   "title": "Requesting the ›has-prime-image‹ relationship when one exists",
-  "gherkin": "Given there exists a \"COMPANY\" \"Renault S.A.\"\nAnd there exist a \"has-prime-image\" relationship \"R\" for \"Renault S.A.\"\nWhen the user requests the \"has-prime-image\" relationship for \"Renault S.A.\"\nThen the request should be confirmed with status code 200\nAnd the response should contain the relationship \"R\"",
-  "labels": [],
+  "gherkin": "Given there exists a \"COMPANY\" \"Renault S.A.\"\nAnd there exists a \"has-prime-image\" relationship \"R\" for \"Renault S.A.\"\nWhen the user requests the \"has-prime-image\" relationship for \"Renault S.A.\"\nThen the request should be confirmed with status code 200\nAnd the response should contain the relationship \"R\"",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-09-29T09:08:03.004+0200",
-  "updated_at": "2025-09-29T09:55:56.953+0200"
+  "updated_at": "2025-09-29T15:18:16.299+0200"
 }

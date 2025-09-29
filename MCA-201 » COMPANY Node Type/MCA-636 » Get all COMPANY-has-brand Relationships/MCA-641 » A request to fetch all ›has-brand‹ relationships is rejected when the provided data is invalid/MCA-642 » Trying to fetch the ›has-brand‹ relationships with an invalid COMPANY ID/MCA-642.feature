@@ -7,7 +7,7 @@ Feature: Get all COMPANY-has-brand Relationships
   @RULE_MCA-641
   Rule: A request to fetch all ›has-brand‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-642
+    @TEST_MCA-642 @implemented
     Scenario: Trying to fetch the ›has-brand‹ relationships with an invalid COMPANY ID
       Given "COMPANY" "Ford Motor Company" does NOT exist
       When the user requests all "has-brand" relationships for "Ford Motor Company"

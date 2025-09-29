@@ -7,7 +7,7 @@ Feature: Get all COMPANY-has-brand Relationships
   @RULE_MCA-639
   Rule: An empty list is returned when there exist no ›has-brand‹ relationships for the given COMPANY
 
-    @TEST_MCA-640
+    @TEST_MCA-640 @implemented
     Scenario: Requesting the ›has-brand‹ relationships when there are none
       Given there exists a "COMPANY" "Ford Motor Company"
       And there exist 0 "has-brand" relationships for "Ford Motor Company"
