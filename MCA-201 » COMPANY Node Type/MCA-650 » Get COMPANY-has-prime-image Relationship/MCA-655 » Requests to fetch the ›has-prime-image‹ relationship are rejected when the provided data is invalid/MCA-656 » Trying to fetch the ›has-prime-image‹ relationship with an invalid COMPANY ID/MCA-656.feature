@@ -8,7 +8,7 @@ Feature: Get COMPANY-has-prime-image Relationship
   @RULE_MCA-655
   Rule: Requests to fetch the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-656
+    @TEST_MCA-656 @implemented
     Scenario: Trying to fetch the ›has-prime-image‹ relationship with an invalid COMPANY ID
       Given "COMPANY" "Renault S.A." does NOT exist
       When the user requests the "has-prime-image" relationship for "Renault S.A."

@@ -7,7 +7,7 @@ Feature: Create COMPANY-has-prime-image Relationship
   @RULE_MCA-667
   Rule: Requests to create a ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-670
+    @TEST_MCA-670 @implemented
     Scenario: Trying to create a ›has-prime-image‹ relationship where both IDs are invalid
       Given "COMPANY" "Bugatti" does NOT exist
       And "IMAGE" "logo" does NOT exist
