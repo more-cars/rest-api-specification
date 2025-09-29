@@ -8,7 +8,7 @@ Feature: Get COMPANY-has-prime-image Relationship
   @RULE_MCA-653
   Rule: An empty response is returned when there exists no ›has-prime-image‹ relationship for the given COMPANY
 
-    @TEST_MCA-654
+    @TEST_MCA-654 @implemented
     Scenario: Requesting the ›has-prime-image‹ relationship when there exists none
       Given there exists a "COMPANY" "Renault S.A."
       And there exists NO "has-prime-image" relationship for "Renault S.A."
