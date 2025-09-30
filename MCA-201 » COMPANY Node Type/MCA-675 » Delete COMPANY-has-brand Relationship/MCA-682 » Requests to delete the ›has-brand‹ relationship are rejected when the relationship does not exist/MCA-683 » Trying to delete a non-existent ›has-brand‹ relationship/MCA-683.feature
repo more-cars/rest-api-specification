@@ -7,7 +7,7 @@ Feature: Delete COMPANY-has-brand Relationship
   @RULE_MCA-682
   Rule: Requests to delete the ›has-brand‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-683
+    @TEST_MCA-683 @implemented
     Scenario: Trying to delete a non-existent ›has-brand‹ relationship
       Given there exists a "COMPANY" "BMW AG"
       And there exists a "BRAND" "Toyota"
