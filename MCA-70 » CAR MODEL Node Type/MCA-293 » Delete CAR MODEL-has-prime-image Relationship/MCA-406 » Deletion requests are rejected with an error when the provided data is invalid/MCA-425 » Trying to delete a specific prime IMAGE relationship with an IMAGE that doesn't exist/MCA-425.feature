@@ -1,5 +1,5 @@
 @REQ_MCA-293
-Feature: Delete CAR MODEL-has-prime-image-IMAGE Relationship
+Feature: Delete CAR MODEL-has-prime-image Relationship
   As an API contributor\
   I want to be able to detach the prime IMAGE from a CAR MODEL\
   So I can clean up bad data or test data

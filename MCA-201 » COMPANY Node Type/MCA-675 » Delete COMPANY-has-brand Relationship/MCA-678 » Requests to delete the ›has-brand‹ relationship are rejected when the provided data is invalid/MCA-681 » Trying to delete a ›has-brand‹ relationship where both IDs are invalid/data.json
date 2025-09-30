@@ -1,0 +1,9 @@
+{
+  "id": "MCA-681",
+  "parent_id": "MCA-678",
+  "title": "Trying to delete a ›has-brand‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"COMPANY\" \"BMW AG\" does NOT exist\nAnd \"BRAND\" \"Toyota\" does NOT exist\nWhen the user deletes the \"has-brand\" relationship between \"BMW AG\" and \"Toyota\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2025-09-30T10:26:07.633+0200",
+  "updated_at": "2025-09-30T10:38:54.906+0200"
+}
