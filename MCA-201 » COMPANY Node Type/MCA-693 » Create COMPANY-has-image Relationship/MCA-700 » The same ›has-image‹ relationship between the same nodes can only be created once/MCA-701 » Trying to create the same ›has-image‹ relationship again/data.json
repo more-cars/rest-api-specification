@@ -3,7 +3,9 @@
   "parent_id": "MCA-700",
   "title": "Trying to create the same ›has-image‹ relationship again",
   "gherkin": "Given there exists a \"COMPANY\" \"Audi AG\"\nAnd there exists a \"IMAGE\" \"logo\"\nAnd there exists a \"has-image\" relationship between \"Audi AG\" and \"logo\"\nWhen the user creates a \"has-image\" relationship between \"Audi AG\" and \"logo\"\nThen the response should return with status code 304\nAnd the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-09-30T16:01:37.033+0200",
-  "updated_at": "2025-09-30T16:36:05.428+0200"
+  "updated_at": "2025-09-30T17:22:46.366+0200"
 }

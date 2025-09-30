@@ -7,7 +7,7 @@ Feature: Delete COMPANY-has-image Relationship
   @RULE_MCA-714
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-715
+    @TEST_MCA-715 @implemented
     Scenario: Trying to delete a ›has-image‹ relationship with invalid COMPANY ID
       Given "COMPANY" "Audi AG" does NOT exist
       And there exists a "IMAGE" "BMW logo"

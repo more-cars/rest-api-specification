@@ -7,7 +7,7 @@ Feature: Get all COMPANY-has-image Relationships
   @RULE_MCA-707
   Rule: An empty list is returned when there exist no ›has-image‹ relationships for the given COMPANY
 
-    @TEST_MCA-708
+    @TEST_MCA-708 @implemented
     Scenario: Requesting the ›has-image‹ relationships when there are none
       Given there exists a "COMPANY" "Audi AG"
       And there exist 0 "has-image" relationships for "Audi AG"

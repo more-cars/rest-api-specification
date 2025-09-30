@@ -7,7 +7,7 @@ Feature: Create COMPANY-has-image Relationship
   @RULE_MCA-700
   Rule: The same ›has-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-701
+    @TEST_MCA-701 @implemented
     Scenario: Trying to create the same ›has-image‹ relationship again
       Given there exists a "COMPANY" "Audi AG"
       And there exists a "IMAGE" "logo"

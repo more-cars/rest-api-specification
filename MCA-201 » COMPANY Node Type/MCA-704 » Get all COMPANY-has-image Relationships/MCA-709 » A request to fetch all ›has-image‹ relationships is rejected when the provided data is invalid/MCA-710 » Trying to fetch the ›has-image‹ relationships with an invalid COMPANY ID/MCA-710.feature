@@ -7,7 +7,7 @@ Feature: Get all COMPANY-has-image Relationships
   @RULE_MCA-709
   Rule: A request to fetch all ›has-image‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-710
+    @TEST_MCA-710 @implemented
     Scenario: Trying to fetch the ›has-image‹ relationships with an invalid COMPANY ID
       Given "COMPANY" "Audi AG" does NOT exist
       When the user requests all "has-image" relationships for "Audi AG"

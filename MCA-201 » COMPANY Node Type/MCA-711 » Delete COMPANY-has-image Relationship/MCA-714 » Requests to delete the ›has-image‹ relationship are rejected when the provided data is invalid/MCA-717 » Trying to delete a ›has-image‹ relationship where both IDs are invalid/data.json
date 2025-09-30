@@ -3,7 +3,9 @@
   "parent_id": "MCA-714",
   "title": "Trying to delete a ›has-image‹ relationship where both IDs are invalid",
   "gherkin": "Given \"COMPANY\" \"Audi AG\" does NOT exist\nAnd \"IMAGE\" \"BMW logo\" does NOT exist\nWhen the user deletes the \"has-image\" relationship between \"Audi AG\" and \"BMW logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-09-30T16:13:35.048+0200",
-  "updated_at": "2025-09-30T16:38:19.379+0200"
+  "updated_at": "2025-09-30T17:21:28.034+0200"
 }

@@ -7,7 +7,7 @@ Feature: Create COMPANY-has-image Relationship
   @RULE_MCA-696
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-699
+    @TEST_MCA-699 @implemented
     Scenario: Trying to create a ›has-image‹ relationship where both IDs are invalid
       Given "COMPANY" "Audi AG" does NOT exist
       And "IMAGE" "logo" does NOT exist

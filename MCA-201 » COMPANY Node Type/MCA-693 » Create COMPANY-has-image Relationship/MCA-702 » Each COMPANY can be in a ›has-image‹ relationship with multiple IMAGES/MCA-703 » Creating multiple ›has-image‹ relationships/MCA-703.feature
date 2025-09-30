@@ -7,7 +7,7 @@ Feature: Create COMPANY-has-image Relationship
   @RULE_MCA-702
   Rule: Each COMPANY can be in a ›has-image‹ relationship with multiple IMAGES
 
-    @TEST_MCA-703
+    @TEST_MCA-703 @implemented
     Scenario: Creating multiple ›has-image‹ relationships
       Given there exists a "COMPANY" "Audi AG"
       And there exists a "IMAGE" "logo"

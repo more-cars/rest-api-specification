@@ -7,7 +7,7 @@ Feature: Get all COMPANY-has-image Relationships
   @RULE_MCA-705
   Rule: A list of all ›has-image‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-706
+    @TEST_MCA-706 @implemented
     Scenario: Requesting the ›has-image‹ relationships when at least one exists
       Given there exists a "COMPANY" "Audi AG"
       And there exist 3 "has-image" relationships for "Audi AG"
