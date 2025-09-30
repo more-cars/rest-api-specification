@@ -1,0 +1,18 @@
+{
+  "id": "MCA-704",
+  "parent_id": "MCA-201",
+  "title": "Get all COMPANY-has-image Relationships",
+  "user_story": "As an API consumer\\\nI want to be fetch all IMAGES that are attached to a COMPANY\\\nSo I can create an image gallery for the COMPANY\n",
+  "description": "* A list of all ›has-image‹ relationships for the selected COMPANY is returned when there exists at least one of them. -> Status Code \\`200\\`\n* Each item in the list contains the relationship ID and the two node IDs, but not the nodes itself.\n* An empty list is returned when no ›has-image‹ relationship exists. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a COMPANY. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/companies/<company-id>/has-image",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.20.0"
+  ],
+  "created_at": "2025-09-30T16:11:10.521+0200",
+  "updated_at": "2025-09-30T16:32:54.553+0200"
+}

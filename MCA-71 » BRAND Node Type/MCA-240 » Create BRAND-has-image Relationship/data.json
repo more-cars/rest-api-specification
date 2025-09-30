@@ -2,17 +2,18 @@
   "id": "MCA-240",
   "parent_id": "MCA-71",
   "title": "Create BRAND-has-image Relationship",
-  "user_story": "As an API contributor\\\nI want to be able to attach IMAGEs to BRANDs\\\nSo I can illustrate them\n",
-  "description": "# **Response**\n\n**Happy path**\n\n* positive HTTP status code (201)\n* a JSON confirming that both entities have been connected:\n  * `brand_id`: integer\n  * `image_id`: integer\n  * `relationship_id`: integer\n  * `relationship_name`: string\n  * `created_at`: string\n  * `updated_at`: string\n\n**Unhappy path**\n\n* negative HTTP status code (404)\n* a plain text response stating the problem\n\n# **Acceptance Criteria**\n\n**Behavior (Business Logic)**\n\n* the relationship is successfully created when provided with valid data\n  * status code `201`\n* the relationship is not created when the provided data was not valid\n  * `brand` and/or `image` not found → status code `404`\n  * `brand` cannot be attached to itself → `422` → already covered by the rule above\n  * `brand` cannot be attached to other `brand` → `422` → already covered by the rule above\n* the user can trigger the creation of the same relationship over and over again\n  * the result is always the same (idempotency)\n  * however this is achieved in the code resp. the database, the `More Cars ID` needs to stay the same\n* a `brand` can have 0, 1 or multiple `images`\n\n# **NOT in scope for this iteration**\n\n* auth / security\n* proper JSON structure according to the JSON:API\n* returning the relationships in other places\n* deleting the relationship\n",
+  "user_story": "As an API contributor\\\nI want to be able to attach IMAGES to BRANDS\\\nSo an API consumer can illustrate BRAND nodes in a frontend application\n",
+  "description": "* The relationship ›has-image‹ is created when the provided IDs of the BRAND and IMAGE are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship and the IDs of both nodes.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›has-image‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* Each BRAND can be in a ›has-image‹ relationship with multiple IMAGES\n",
   "api_verb": "POST",
   "api_path": "/brands/<brand-id>/has-image/<image-id>",
   "response_options": [
     "201",
+    "304",
     "404"
   ],
   "release_versions": [
     "0.12.0"
   ],
   "created_at": "2025-06-27T11:02:37.250+0200",
-  "updated_at": "2025-09-26T15:38:47.007+0200"
+  "updated_at": "2025-09-30T16:08:05.761+0200"
 }

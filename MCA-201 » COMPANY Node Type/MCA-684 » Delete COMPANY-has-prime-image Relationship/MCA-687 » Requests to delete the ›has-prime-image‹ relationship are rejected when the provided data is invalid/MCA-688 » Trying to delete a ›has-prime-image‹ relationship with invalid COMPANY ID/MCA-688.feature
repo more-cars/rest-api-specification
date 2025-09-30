@@ -7,7 +7,7 @@ Feature: Delete COMPANY-has-prime-image Relationship
   @RULE_MCA-687
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-688
+    @TEST_MCA-688 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship with invalid COMPANY ID
       Given "COMPANY" "BMW AG" does NOT exist
       And there exists a "IMAGE" "ferrari logo"

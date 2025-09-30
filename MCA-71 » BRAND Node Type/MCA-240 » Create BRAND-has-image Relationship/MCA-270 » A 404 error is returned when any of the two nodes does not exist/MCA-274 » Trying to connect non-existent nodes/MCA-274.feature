@@ -1,8 +1,8 @@
 @REQ_MCA-240
 Feature: Create BRAND-has-image Relationship
   As an API contributor\
-  I want to be able to attach IMAGEs to BRANDs\
-  So I can illustrate them
+  I want to be able to attach IMAGES to BRANDS\
+  So an API consumer can illustrate BRAND nodes in a frontend application
 
   @RULE_MCA-270
   Rule: A 404 error is returned when any of the two nodes does not exist
