@@ -14,4 +14,4 @@ Feature: Get COMPANY-has-prime-image Relationship
       And there exists a "has-prime-image" relationship "R" for "Renault S.A."
       When the user requests the "has-prime-image" relationship for "Renault S.A."
       Then the request should be confirmed with status code 200
-      And the response should contain the relationship "R"
+      And the response should return the relationship "R"
