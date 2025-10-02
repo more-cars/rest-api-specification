@@ -6,19 +6,24 @@ Feature: Paginate node collection
   So I don't have to wait for and parse a giant response object
 
   @RULE_MCA-385
-  Rule: Requests with an invalid page number respond with an error
+  Rule: Requests with an invalid page number are rejected
 
-    @TEST_MCA-470
+    @TEST_MCA-470 @implemented
     Scenario Outline: Requesting a node collection with invalid pagination parameter
       When the user requests page 0 of the "<node_type>" collection
-      Then the response should return with status code 422
+      Then the response should return with status code 400
       When the user requests page -1 of the "<node_type>" collection
-      Then the response should return with status code 422
+      Then the response should return with status code 400
       When the user requests page "three" of the "<node_type>" collection
-      Then the response should return with status code 422
+      Then the response should return with status code 400
+      When the user requests page "true" of the "<node_type>" collection
+      Then the response should return with status code 400
+      When the user requests page "false" of the "<node_type>" collection
+      Then the response should return with status code 400
 
       Examples:
         | node_type |
+        | COMPANY   |
         | BRAND     |
         | CAR_MODEL |
         | IMAGE     |
