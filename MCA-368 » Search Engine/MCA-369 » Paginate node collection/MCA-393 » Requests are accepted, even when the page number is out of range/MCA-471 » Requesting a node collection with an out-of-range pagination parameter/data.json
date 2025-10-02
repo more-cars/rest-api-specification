@@ -1,0 +1,11 @@
+{
+  "id": "MCA-471",
+  "parent_id": "MCA-393",
+  "title": "Requesting a node collection with an out-of-range pagination parameter",
+  "gherkin": "Given there exist 3 \"<node_type>\"s\nWhen the user requests page 17 of the \"<node_type>\" collection\nThen the response should return with status code 200\nAnd the response should return an empty list\n\nExamples:\n  | node_type |\n  | COMPANY   |\n  | BRAND     |\n  | CAR MODEL |\n  | IMAGE     |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-08-31T19:07:02.353+0200",
+  "updated_at": "2025-10-02T15:21:03.576+0200"
+}

@@ -6,11 +6,11 @@ Feature: Paginate node collection
   So I don't have to wait for and parse a giant response object
 
   @RULE_MCA-384
-  Rule: Each page contains different nodes
+  Rule: Each page contains a different set of nodes
 
-    @TEST_MCA-469
+    @TEST_MCA-469 @implemented
     Scenario Outline: Expecting each page to contain different nodes
-      Given there exist 110 <node_type>s
+      Given there exist 110 "<node_type>"s
       When the user requests page 1 of the "<node_type>" collection as "C1"
       And the user requests page 2 of the "<node_type>" collection as "C2"
       Then collection "C1" should not contain items of collection "C2"
@@ -18,6 +18,7 @@ Feature: Paginate node collection
 
       Examples:
         | node_type |
+        | COMPANY   |
         | BRAND     |
-        | CAR_MODEL |
+        | CAR MODEL |
         | IMAGE     |

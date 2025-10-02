@@ -19,5 +19,5 @@ Feature: Paginate node collection
         | node_type |
         | COMPANY   |
         | BRAND     |
-        | CAR_MODEL |
+        | CAR MODEL |
         | IMAGE     |
