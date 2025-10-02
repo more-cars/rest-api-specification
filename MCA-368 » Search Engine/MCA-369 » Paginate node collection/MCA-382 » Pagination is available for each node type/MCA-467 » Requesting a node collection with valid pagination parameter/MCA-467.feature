@@ -8,13 +8,16 @@ Feature: Paginate node collection
   @RULE_MCA-382
   Rule: Pagination is available for each node type
 
-    @TEST_MCA-467
+    @TEST_MCA-467 @implemented
     Scenario Outline: Requesting a node collection with valid pagination parameter
       When the user requests page 1 of the "<node_type>" collection
+      Then the response should return with status code 200
+      When the user requests page 2 of the "<node_type>" collection
       Then the response should return with status code 200
 
       Examples:
         | node_type |
+        | COMPANY   |
         | BRAND     |
         | CAR_MODEL |
         | IMAGE     |
