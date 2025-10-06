@@ -1,3 +1,11 @@
+# external dependencies
+/node_modules/
+
 # IDE
 /.idea/
 
+# artifacts
+_temp
+
+# config files
+.env

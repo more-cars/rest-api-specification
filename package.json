@@ -1,0 +1,12 @@
+{
+  "name": "rest-api-specification",
+  "version": "0.1.0",
+  "description": "Contains a copy of the specification of the More Cars API and the tools to download the spec.",
+  "license": "MIT",
+  "author": "Dennis Gerike",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run -c tests/vite.config.ts"
+  }
+}
