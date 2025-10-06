@@ -53,7 +53,7 @@ export async function downloadFullSpec() {
         console.error("Acceptance criteria tickets could not be downloaded.")
         return
     }
-    cacheJiraTickets('acceptance_criteria', downloadedAcs)
+    cacheJiraTickets('acceptance_criterion', downloadedAcs)
     const extractedAcs = extractJiraAcceptanceCriteria(downloadedAcs)
     const storedAcceptanceCriteria = storeAcceptanceCriteria(extractedAcs, ticketList)
     ticketList = ticketList.concat(storedAcceptanceCriteria)

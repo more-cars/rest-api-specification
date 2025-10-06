@@ -20,7 +20,7 @@ export function storeAcceptanceCriteria(data: Array<AcceptanceCriterion>, refere
         fs.writeFileSync(folderName + fileName, JSON.stringify(ac, null, 2) + "\n")
 
         processedTickets.push({
-            type: 'acceptance_criteria',
+            type: 'acceptance_criterion',
             id: ac.id,
             sub_path: subPath,
             data: ac,
