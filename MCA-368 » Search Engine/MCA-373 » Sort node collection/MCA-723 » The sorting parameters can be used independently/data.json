@@ -1,0 +1,9 @@
+{
+  "id": "MCA-723",
+  "parent_id": "MCA-373",
+  "title": "The sorting parameters can be used independently",
+  "description": "* only `sort_by_property` or\n* `sort_by_property` and `sort_direction` or\n* only `sort_direction`\n",
+  "release_version": null,
+  "created_at": "2025-10-02T17:08:48.258+0200",
+  "updated_at": "2025-10-03T17:46:49.229+0200"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MCA-373",
+  "parent_id": "MCA-368",
+  "title": "Sort node collection",
+  "user_story": "As an API consumer\\\nI want to be able to request NODE collections as sorted lists\\\nSo I can find information faster and with fewer requests\n",
+  "description": "When requesting a node collection the user should be able to provide sorting parameters, so the data is returned in the most useful form. E.g. sorting BRANDS by its *founded date* to quickly find all nodes where this information is missing. Or sorting a CAR MODEL collection by *max. power* to create a top-10 list of the fastest cars. The alternative for the user would be to download each and every node and then sort them with a separate tool. That option would be much worse in respect to usability, user acceptance and performance.\n\n# Specification\n\n* The user can attach the parameter `sort_by_property` to every “get all nodes of node type” request, e.g. `GET /brands?sort_by_property=name`.\n* All “official“ properties of the node type are available to be sorted by. Those can be user-provided properties (e.g. name), meta properties (e.g. id or created\\_at), generated properties (e.g. slugs), calculated properties (e.g. normalized top speed) or acquired properties (image data from flickr). They are “official“ when they are documented in the OpenAPI specification.\n* With the parameter `sort_direction` the user can switch between the two options `asc` and `desc` (ascending and descending).\n* By default the returned collection is sorted by ID.\n* By default the returned collection is sorted ascending.&#x20;\n* Both parameters are optional. They can be omitted, used together or alone.\n* Valid requests return a collection of nodes. → Status code `200`\n* There is no change to the number of returned nodes. The rules defined in <https://dennis-gerike.atlassian.net/browse/MCA-558>  and <https://dennis-gerike.atlassian.net/browse/MCA-369>  still apply. → TLDR: Empty collections and empty pages materialize as an empty list and status code `200`\n* Invalid requests are rejected. → Status code `400`\n* Invalid cases are:\n  * the `sort_direction` is anything other than `asc` or `desc` or empty\n  * the `sort_by_property` value is a property that is NOT specified for the node type\n* The data structure of the returned node collection does not change in any way or form.\n\n# Scope & Limits\n\n* Meta information is not returned in this iteration (sort property, sort direction, next page, etc.)\n",
+  "api_verb": "GET",
+  "api_path": "?sort_by=<node-property>&sort_direction=<asc|desc>",
+  "response_options": [
+    "200",
+    "400"
+  ],
+  "release_versions": [
+    "0.21.0"
+  ],
+  "created_at": "2025-08-18T15:23:12.308+0200",
+  "updated_at": "2025-10-03T17:47:02.347+0200"
+}
