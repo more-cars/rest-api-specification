@@ -1,3 +1,4 @@
+import fs from "fs"
 import type {ReferenceTicket} from "./lib/types/ReferenceTicket"
 import {downloadEpics} from "./lib/downloadEpics"
 import {cacheJiraTickets, cacheXrayTickets} from "./lib/cacheJiraTickets"
@@ -22,6 +23,9 @@ import {storeFeatureFile} from "./lib/storeFeatureFile"
 
 export async function downloadFullSpec() {
     let ticketList: Array<ReferenceTicket> = []
+
+    // completely deleting the spec folder to avoid creating zombie files
+    fs.rmSync(__dirname + '/spec', {recursive: true})
 
     // epics
     const downloadedEpics = await downloadEpics()
