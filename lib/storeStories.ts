@@ -4,7 +4,7 @@ import type {ReferenceTicket} from "./types/ReferenceTicket"
 import {findReferenceTicket} from "./findReferenceTicket"
 import filenamify from "filenamify"
 
-export function storeStories(data: Array<Story>, referenceTickets: Array<ReferenceTicket> = [], basepath: string = __dirname + '/../') {
+export function storeStories(data: Array<Story>, referenceTickets: Array<ReferenceTicket> = [], basepath: string = __dirname + '/../spec/') {
     const processedTickets: Array<ReferenceTicket> = []
 
     data.forEach(story => {

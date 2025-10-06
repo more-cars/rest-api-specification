@@ -79,7 +79,7 @@ export async function downloadFullSpec() {
 
         const data = collectFeatureFileData(test, acRef?.data as AcceptanceCriterion, storyRef?.data as Story)
         const feature = await assembleFeatureFile(data)
-        const basePath = __dirname + '/'
+        const basePath = __dirname + '/spec/'
         const subPath = testRef?.sub_path
         storeFeatureFile(feature, basePath + subPath, data.scenario.id)
     }
