@@ -7,7 +7,7 @@ Feature: Sort node collection
   @RULE_MCA-723
   Rule: The sorting parameters can be used independently
 
-    @TEST_MCA-729
+    @TEST_MCA-729 @implemented
     Scenario Outline: Using the sorting parameters independently
       Given there exist 3 "<node_type>"s
       When the user requests a "<node_type>" collection, sorted "asc"
