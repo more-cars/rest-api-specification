@@ -7,7 +7,7 @@ Feature: Sort node collection
   @RULE_MCA-722
   Rule: Requests are rejected when the provided sorting parameters are invalid
 
-    @TEST_MCA-728
+    @TEST_MCA-728 @implemented
     Scenario Outline: Requesting a node collection with invalid sorting parameters
       When the user requests a "<node_type>" collection, sorted "ascending" by "name"
       Then the response should return with status code 400

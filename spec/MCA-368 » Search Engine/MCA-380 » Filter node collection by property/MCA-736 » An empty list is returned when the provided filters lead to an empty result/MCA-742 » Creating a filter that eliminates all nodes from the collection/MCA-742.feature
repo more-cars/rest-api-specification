@@ -7,7 +7,7 @@ Feature: Filter node collection by property
   @RULE_MCA-736
   Rule: An empty list is returned when the provided filters lead to an empty result
 
-    @TEST_MCA-742
+    @TEST_MCA-742 @implemented
     Scenario Outline: Creating a filter that eliminates all nodes from the collection
       Given there exist 4 "<node_type>"s
       When the user requests a "<node_type>" collection, filtered by "id" "eq" "-1"

@@ -7,7 +7,7 @@ Feature: Filter node collection by property
   @RULE_MCA-733
   Rule: Requests are accepted when the provided filtering parameters are valid
 
-    @TEST_MCA-739
+    @TEST_MCA-739 @implemented
     Scenario Outline: Requesting a node collection with valid filtering parameters
       Given there exist 4 "<node_type>"s
       When the user requests a "<node_type>" collection, filtered by "id" "eq" "1"

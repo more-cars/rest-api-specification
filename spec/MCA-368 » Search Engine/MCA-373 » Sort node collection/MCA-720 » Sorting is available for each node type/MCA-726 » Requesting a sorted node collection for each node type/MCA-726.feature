@@ -7,7 +7,7 @@ Feature: Sort node collection
   @RULE_MCA-720
   Rule: Sorting is available for each node type
 
-    @TEST_MCA-726
+    @TEST_MCA-726 @implemented
     Scenario Outline: Requesting a sorted node collection for each node type
       Given there exist 5 "<node_type>"s
       When the user requests a "<node_type>" collection, sorted "asc" by "name"

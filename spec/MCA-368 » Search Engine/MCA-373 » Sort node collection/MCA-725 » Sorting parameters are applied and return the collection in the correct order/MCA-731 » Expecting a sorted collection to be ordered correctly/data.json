@@ -2,8 +2,10 @@
   "id": "MCA-731",
   "parent_id": "MCA-725",
   "title": "Expecting a sorted collection to be ordered correctly",
-  "gherkin": "Given there exist 3 \"<node_type>\"s\nWhen the user requests a \"<node_type>\" collection, sorted \"desc\" by \"name\"\nThen the returned nodes should be sorted \"desc\" by \"name\"\n\nExamples:\n  | node_type |\n  | COMPANY   |\n  | BRAND     |\n  | CAR MODEL |\n  | IMAGE     |",
-  "labels": [],
+  "gherkin": "Given there exist 0 \"<node_type>\"s\nAnd there exists a \"<node_type>\" \"<node_1>\" with \"name\" \"<node_1>\"\nAnd there exists a \"<node_type>\" \"<node_2>\" with \"name\" \"<node_2>\"\nAnd there exists a \"<node_type>\" \"<node_3>\" with \"name\" \"<node_3>\"\nWhen the user requests a \"<node_type>\" collection, sorted \"desc\" by \"name\"\nThen the response should return a collection of 3 \"<node_type>\"s\nAnd the response should contain a node with \"name\" \"<node_2>\" at position 1\nAnd the response should contain a node with \"name\" \"<node_3>\" at position 2\nAnd the response should contain a node with \"name\" \"<node_1>\" at position 3\n\nExamples:\n  | node_type |  node_1    | node_2             | node_3    |\n  | COMPANY   |  AUDI AG   | Ford Motor Company | BMW AG    |\n  | BRAND     |  Audi      | Ford               | BMW       |\n  | CAR MODEL |  A8        | Focus              | B3 Alpina |\n  | IMAGE     |  audi logo | ford logo          | bmw logo  |",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-03T09:29:07.242+0200",
-  "updated_at": "2025-10-04T09:12:47.893+0200"
+  "updated_at": "2025-10-07T17:18:54.815+0200"
 }

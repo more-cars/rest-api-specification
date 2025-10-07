@@ -7,19 +7,19 @@ Feature: Filter node collection by property
   @RULE_MCA-734
   Rule: Requests are rejected when the provided filtering parameters are invalid
 
-    @TEST_MCA-740
+    @TEST_MCA-740 @implemented
     Scenario Outline: Requesting a node collection with invalid filtering parameters
       Given there exist 4 "<node_type>"s
-      When the user requests a "<node_type>" collection, filtered by "id" "iquell" "1"
-      Then the response should return with status code 200
-      When the user requests a "<node_type>" collection, filtered by "id" "" "1"
-      Then the response should return with status code 200
       When the user requests a "<node_type>" collection, filtered by "unknown_property" "lt" "1"
-      Then the response should return with status code 200
-      When the user requests a "<node_type>" collection, filtered by "" "gt" "1"
-      Then the response should return with status code 200
+      Then the response should return with status code 400
+      When the user requests a "<node_type>" collection, filtered by "id" "iquell" "1"
+      Then the response should return with status code 400
+      When the user requests a "<node_type>" collection, filtered by "id" "gte" ""
+      Then the response should return with status code 400
+      When the user requests a "<node_type>" collection, filtered by "" "gte" "1"
+      Then the response should return with status code 400
       When the user requests a "<node_type>" collection, filtered by "" "" "1"
-      Then the response should return with status code 200
+      Then the response should return with status code 400
 
       Examples:
         | node_type |

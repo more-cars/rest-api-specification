@@ -20,8 +20,8 @@ Feature: Sort node collection
       And the response should contain a node with "name" "<node_1>" at position 3
 
       Examples:
-        | node_type |  node_1    | node_2             | node_3    |
-        | COMPANY   |  AUDI AG   | Ford Motor Company | BMW AG    |
-        | BRAND     |  Audi      | Ford               | BMW       |
-        | CAR MODEL |  A8        | Focus              | B3 Alpina |
-        | IMAGE     |  audi logo | ford logo          | bmw logo  |
+        | node_type | node_1    | node_2             | node_3    |
+        | COMPANY   | AUDI AG   | Ford Motor Company | BMW AG    |
+        | BRAND     | Audi      | Ford               | BMW       |
+        | CAR MODEL | A8        | Focus              | B3 Alpina |
+        | IMAGE     | audi logo | ford logo          | bmw logo  |

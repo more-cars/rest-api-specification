@@ -7,7 +7,7 @@ Feature: Sort node collection
   @RULE_MCA-721
   Rule: Requests are accepted when the provided sorting parameters are valid
 
-    @TEST_MCA-727
+    @TEST_MCA-727 @implemented
     Scenario Outline: Requesting a node collection with valid sorting parameters
       Given there exist 7 "<node_type>"s
       When the user requests a "<node_type>" collection, sorted "asc" by "name"
