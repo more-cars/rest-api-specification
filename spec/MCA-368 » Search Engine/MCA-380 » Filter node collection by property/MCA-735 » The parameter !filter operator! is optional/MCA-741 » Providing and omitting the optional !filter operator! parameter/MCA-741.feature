@@ -7,7 +7,7 @@ Feature: Filter node collection by property
   @RULE_MCA-735
   Rule: The parameter "filter operator" is optional
 
-    @TEST_MCA-741
+    @TEST_MCA-741 @implemented
     Scenario Outline: Providing and omitting the optional "filter operator" parameter
       Given there exist 4 "<node_type>"s
       When the user requests a "<node_type>" collection, filtered by "id" "gt" "1"
