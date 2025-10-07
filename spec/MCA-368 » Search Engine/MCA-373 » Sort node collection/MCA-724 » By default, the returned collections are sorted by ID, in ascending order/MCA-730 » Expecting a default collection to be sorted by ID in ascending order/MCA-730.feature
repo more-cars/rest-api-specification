@@ -7,7 +7,7 @@ Feature: Sort node collection
   @RULE_MCA-724
   Rule: By default, the returned collections are sorted by ID, in ascending order
 
-    @TEST_MCA-730
+    @TEST_MCA-730 @implemented
     Scenario Outline: Expecting a default collection to be sorted by ID in ascending order
       Given there exist 3 "<node_type>"s
       When the user requests a "<node_type>" collection
