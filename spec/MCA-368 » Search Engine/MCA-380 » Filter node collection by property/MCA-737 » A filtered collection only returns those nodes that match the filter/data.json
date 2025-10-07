@@ -1,0 +1,9 @@
+{
+  "id": "MCA-737",
+  "parent_id": "MCA-380",
+  "title": "A filtered collection only returns those nodes that match the filter",
+  "description": "",
+  "release_version": null,
+  "created_at": "2025-10-06T15:58:41.921+0200",
+  "updated_at": "2025-10-07T13:59:07.389+0200"
+}

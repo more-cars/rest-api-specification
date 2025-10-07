@@ -3,7 +3,7 @@
   "parent_id": "MCA-373",
   "title": "By default, the returned collections are sorted by ID, in ascending order",
   "description": "",
-  "release_version": null,
+  "release_version": "0.21.0",
   "created_at": "2025-10-02T17:09:32.447+0200",
-  "updated_at": "2025-10-03T17:46:53.123+0200"
+  "updated_at": "2025-10-06T15:01:16.650+0200"
 }

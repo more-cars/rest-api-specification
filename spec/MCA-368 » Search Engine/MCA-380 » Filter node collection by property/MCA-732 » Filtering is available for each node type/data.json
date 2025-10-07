@@ -1,0 +1,9 @@
+{
+  "id": "MCA-732",
+  "parent_id": "MCA-380",
+  "title": "Filtering is available for each node type",
+  "description": "* GET /brands?filter\\_by\\_property=id\\&filter\\_value=1234\\&filter\\_operator=eq\n* GET /car-models?filter\\_by\\_property=name\\&filter\\_value=test\\&filter\\_operator=neq\n* …\n",
+  "release_version": null,
+  "created_at": "2025-10-06T15:52:26.750+0200",
+  "updated_at": "2025-10-07T13:58:35.057+0200"
+}

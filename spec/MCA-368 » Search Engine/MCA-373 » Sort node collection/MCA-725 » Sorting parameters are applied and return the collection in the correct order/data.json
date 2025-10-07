@@ -3,7 +3,7 @@
   "parent_id": "MCA-373",
   "title": "Sorting parameters are applied and return the collection in the correct order",
   "description": "",
-  "release_version": null,
+  "release_version": "0.21.0",
   "created_at": "2025-10-02T17:09:56.503+0200",
-  "updated_at": "2025-10-03T17:46:57.537+0200"
+  "updated_at": "2025-10-06T15:01:25.330+0200"
 }

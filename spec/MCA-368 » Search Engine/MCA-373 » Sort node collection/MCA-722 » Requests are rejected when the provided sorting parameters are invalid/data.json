@@ -3,7 +3,7 @@
   "parent_id": "MCA-373",
   "title": "Requests are rejected when the provided sorting parameters are invalid",
   "description": "* the `sort_direction` is anything other than `asc` or `desc` or empty\n* the `sort_by_property` value is a property that is NOT specified for the node type\n",
-  "release_version": null,
+  "release_version": "0.21.0",
   "created_at": "2025-10-02T17:08:16.537+0200",
-  "updated_at": "2025-10-03T17:46:45.430+0200"
+  "updated_at": "2025-10-06T15:01:10.011+0200"
 }

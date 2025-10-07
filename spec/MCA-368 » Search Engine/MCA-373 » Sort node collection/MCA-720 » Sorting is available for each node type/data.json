@@ -3,7 +3,7 @@
   "parent_id": "MCA-373",
   "title": "Sorting is available for each node type",
   "description": "* GET /brands?sort\\_by\\_property=name\n* GET /car-models?sort\\_by\\_property=name\\&sort\\_direction=desc\n* GET /images?sort\\_direction=desc\n* …\n",
-  "release_version": null,
+  "release_version": "0.21.0",
   "created_at": "2025-10-02T17:07:00.430+0200",
-  "updated_at": "2025-10-03T17:46:36.551+0200"
+  "updated_at": "2025-10-06T15:01:02.685+0200"
 }

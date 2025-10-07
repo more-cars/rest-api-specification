@@ -1,0 +1,18 @@
+{
+  "id": "MCA-380",
+  "parent_id": "MCA-368",
+  "title": "Filter node collection by property",
+  "user_story": "As an API consumer\\\nI want to be able to filter a NODE collection by one of its properties\\\nSo I can find information faster in the reduced result list\n",
+  "description": "For most node types there exist hundreds or thousands of nodes. Finding specific ones in there can be difficult and time-consuming. To give the user a chance to find the wanted information faster they should be able to provide a filter parameter when requesting a node collection. The returned result should then be a reduced node collection that only contains the matching nodes.&#x20;\n\n# Specification\n\n* The user can attach the parameter tuple `filter_by_property`, `filter_value` and `filter_operator` to every “get all nodes of node type” request\n  * e.g. `GET /car-model-variants?filter_by_property=engine_type&filter_value=diesel&filter_operator=eq`.\n* All “official“ properties of the node type are available to be filtered by. Those can be user-provided properties (e.g. name), meta properties (e.g. id or created\\_at), generated properties (e.g. slugs), calculated properties (e.g. normalized top speed) or acquired properties (image data from flickr). They are “official“ when they are documented in the OpenAPI specification.\n* When none of the parameters are supplied, then no filtering is applied\n* The parameter `filter_operator` is optional. When not provided, it will default to `eq` (equal).\n* Valid requests return a filtered collection of nodes. → Status code `200`\n* When the filter parameters lead to an empty result then an empty list is returned → Status code `200`\n* Invalid requests are rejected. → Status code `400`\n  * `filter_by_property` is provided, but not `filter_value`\n  * `filter_value` is provided, but not `filter_by_property`\n  * `filter_operator` is anything other than `eq`, `neq`, `gt`, `lt`, `gte`, `lte` or empty\n  * `filter_by_property` is a property that is NOT specified for the node type\n* The data structure of the returned node collection does not change in any way or form.\n\n# Scope & Limits\n\n* Meta information is not returned in this iteration (filter params, next page, etc.)\n* Not all input combinations make sense, but they might lead to results anyway. This is okay for the moment. Restricting the inputs and making the validator stricter will be part of a future iteration.\n* Only one property can be filtered. Multiple property filters will be implemented in a future iteration.\n",
+  "api_verb": "GET",
+  "api_path": "?filter_by_property=<property>&filter_value=<value>&filter_operator=<eq|neq|gt|lt|gte|lte>",
+  "response_options": [
+    "200",
+    "400"
+  ],
+  "release_versions": [
+    "0.21.0"
+  ],
+  "created_at": "2025-08-22T09:32:27.846+0200",
+  "updated_at": "2025-10-07T13:58:00.492+0200"
+}
