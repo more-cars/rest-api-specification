@@ -1,0 +1,9 @@
+{
+  "id": "MCA-762",
+  "parent_id": "MCA-759",
+  "title": "Trying to delete a ›has-car-model‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"BRAND\" \"Bugati\" does NOT exist\nAnd \"CAR MODEL\" \"Veyron\" does NOT exist\nWhen the user deletes the \"has-car-model\" relationship between \"Bugati\" and \"Veyron\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2025-10-08T17:11:49.632+0200",
+  "updated_at": "2025-10-08T17:11:53.984+0200"
+}

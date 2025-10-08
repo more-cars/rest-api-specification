@@ -1,0 +1,9 @@
+{
+  "id": "MCA-770",
+  "parent_id": "MCA-768",
+  "title": "Trying to delete a ›has-image‹ relationship with invalid IMAGE ID",
+  "gherkin": "Given there exists a \"BRAND\" \"Bugatti\"\nAnd \"IMAGE\" \"logo\" does NOT exist\nWhen the user deletes the \"has-image\" relationship between \"Bugatti\" and \"logo\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2025-10-08T17:18:34.452+0200",
+  "updated_at": "2025-10-08T17:18:38.187+0200"
+}

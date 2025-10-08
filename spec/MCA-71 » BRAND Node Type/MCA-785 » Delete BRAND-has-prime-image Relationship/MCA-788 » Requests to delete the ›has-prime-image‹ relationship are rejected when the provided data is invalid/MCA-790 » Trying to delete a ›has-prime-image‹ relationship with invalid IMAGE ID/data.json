@@ -1,0 +1,9 @@
+{
+  "id": "MCA-790",
+  "parent_id": "MCA-788",
+  "title": "Trying to delete a ›has-prime-image‹ relationship with invalid IMAGE ID",
+  "gherkin": "Given there exists a \"BRAND\" \"Bugatti\"\nAnd \"IMAGE\" \"Ferrari logo\" does NOT exist\nWhen the user deletes the \"has-prime-image\" relationship between \"Bugatti\" and \"Ferrari logo\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2025-10-08T17:33:10.006+0200",
+  "updated_at": "2025-10-08T17:33:13.508+0200"
+}

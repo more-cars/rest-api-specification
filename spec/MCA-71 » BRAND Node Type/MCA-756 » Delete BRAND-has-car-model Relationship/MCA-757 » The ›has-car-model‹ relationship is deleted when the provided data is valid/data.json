@@ -1,0 +1,9 @@
+{
+  "id": "MCA-757",
+  "parent_id": "MCA-756",
+  "title": "The ›has-car-model‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a BRAND and the second node needs to be a CAR MODEL.\n",
+  "release_version": null,
+  "created_at": "2025-10-08T17:11:29.020+0200",
+  "updated_at": "2025-10-08T17:11:36.003+0200"
+}

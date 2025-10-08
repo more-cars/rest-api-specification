@@ -1,0 +1,17 @@
+{
+  "id": "MCA-774",
+  "parent_id": "MCA-71",
+  "title": "Create BRAND-has-prime-image Relationship",
+  "user_story": "",
+  "description": "* The relationship ›has-prime-image‹ is created when the provided IDs of the BRAND and IMAGE are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship and the IDs of both nodes.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›has-prime-image‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* At the same time a BRAND can only be in a ›has-prime-image‹ relationship with one IMAGE\n",
+  "api_verb": "POST",
+  "api_path": "/brands/<brand-id>/has-prime-image/<image-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2025-10-08T17:29:29.973+0200",
+  "updated_at": "2025-10-08T17:30:20.176+0200"
+}
