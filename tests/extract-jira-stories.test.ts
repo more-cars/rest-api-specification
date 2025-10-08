@@ -1,6 +1,6 @@
 import fs from "fs"
 import {expect, test} from "vitest"
-import {validateJson} from "../../tests/_toolbox/validateJson.ts"
+import {validateJson} from "./_toolbox/validateJson.ts"
 import {StorySchema} from "./schemas/StorySchema"
 import type {JiraStory} from "../lib/types/JiraStory"
 import {extractJiraStories} from "../lib/extractJiraStories"

@@ -1,5 +1,5 @@
 import {assert, expect, test} from "vitest"
-import {validateJson} from "../../tests/_toolbox/validateJson.ts"
+import {validateJson} from "./_toolbox/validateJson.ts"
 import {downloadAcceptanceCriteria} from "../lib/downloadAcceptanceCriteria"
 import {GetAcceptanceCriteriaResponseSchema} from "./schemas/GetAcceptanceCriteriaResponseSchema"
 

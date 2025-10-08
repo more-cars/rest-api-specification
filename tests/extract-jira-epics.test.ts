@@ -2,7 +2,7 @@ import fs from "fs"
 import {expect, test} from "vitest"
 import type {JiraEpic} from "../lib/types/JiraEpic"
 import {extractJiraEpics} from "../lib/extractJiraEpics"
-import {validateJson} from "../../tests/_toolbox/validateJson.ts"
+import {validateJson} from "./_toolbox/validateJson.ts"
 import {EpicSchema} from "./schemas/EpicSchema"
 
 test('Extracting all epic data from the Jira response', async () => {
