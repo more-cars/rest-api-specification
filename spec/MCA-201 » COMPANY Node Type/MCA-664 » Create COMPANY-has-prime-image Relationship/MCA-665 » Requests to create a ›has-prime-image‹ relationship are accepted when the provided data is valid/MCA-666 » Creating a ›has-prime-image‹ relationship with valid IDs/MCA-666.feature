@@ -14,7 +14,7 @@ Feature: Create COMPANY-has-prime-image Relationship
       When the user creates a "has-prime-image" relationship between "Bugatti" and "logo"
       Then the request should be confirmed with status code 201
       And the response should contain the following keys
-        | key             |
-        | company_id      |
-        | image_id        |
-        | relationship_id |
+        | key                  |
+        | relationship_id      |
+        | relationship_name    |
+        | relationship_partner |

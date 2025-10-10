@@ -2,7 +2,7 @@
   "id": "MCA-625",
   "parent_id": "MCA-624",
   "title": "Creating a ›has-brand‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"COMPANY\" \"Volkswagen AG\"\nAnd there exists a \"BRAND\" \"VW\"\nWhen the user creates a \"has-brand\" relationship between \"Volkswagen AG\" and \"VW\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key |\n| company_id |\n| brand_id |\n| relationship_id |",
+  "gherkin": "Given there exists a \"COMPANY\" \"Volkswagen AG\"\nAnd there exists a \"BRAND\" \"VW\"\nWhen the user creates a \"has-brand\" relationship between \"Volkswagen AG\" and \"VW\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n  | key                  |\n  | relationship_id      |\n  | relationship_name    |\n  | relationship_partner |",
   "labels": [
     "implemented"
   ],

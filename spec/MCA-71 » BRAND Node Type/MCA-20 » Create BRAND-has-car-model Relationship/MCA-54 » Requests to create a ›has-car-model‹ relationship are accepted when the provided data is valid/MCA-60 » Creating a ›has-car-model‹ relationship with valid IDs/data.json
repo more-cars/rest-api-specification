@@ -2,7 +2,7 @@
   "id": "MCA-60",
   "parent_id": "MCA-54",
   "title": "Creating a ›has-car-model‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"BRAND\" \"VW\"\nAnd there exists a \"CAR MODEL\" \"Jetta\"\nWhen the user creates a \"has-car-model\" relationship between \"VW\" and \"Jetta\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key |\n| brand_id |\n| car_model_id |\n| relationship_id |",
+  "gherkin": "Given there exists a \"BRAND\" \"VW\"\nAnd there exists a \"CAR MODEL\" \"Jetta\"\nWhen the user creates a \"has-car-model\" relationship between \"VW\" and \"Jetta\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n  | key                  |\n  | relationship_id      |\n  | relationship_name    |\n  | relationship_partner |",
   "labels": [
     "implemented"
   ],

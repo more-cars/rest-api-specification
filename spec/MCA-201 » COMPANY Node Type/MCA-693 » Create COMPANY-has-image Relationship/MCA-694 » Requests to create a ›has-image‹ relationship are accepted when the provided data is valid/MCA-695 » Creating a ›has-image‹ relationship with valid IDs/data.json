@@ -2,7 +2,7 @@
   "id": "MCA-695",
   "parent_id": "MCA-694",
   "title": "Creating a ›has-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"COMPANY\" \"Audi AG\"\nAnd there exists a \"IMAGE\" \"logo\"\nWhen the user creates a \"has-image\" relationship between \"Audi AG\" and \"logo\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key |\n| company_id |\n| image_id |\n| relationship_id |",
+  "gherkin": "Given there exists a \"COMPANY\" \"Audi AG\"\nAnd there exists a \"IMAGE\" \"logo\"\nWhen the user creates a \"has-image\" relationship between \"Audi AG\" and \"logo\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n  | key                  |\n  | relationship_id      |\n  | relationship_name    |\n  | relationship_partner |",
   "labels": [
     "implemented"
   ],

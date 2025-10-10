@@ -11,7 +11,7 @@ Feature: Get CAR MODEL-belongs-to-brand Relationship
     Scenario: Requesting the attached BRAND
       Given there exists a "CAR MODEL" "Yaris"
       And there exists a "BRAND" "Toyota"
-      And there exists a relationship "R" between "BRAND" "Toyota" and "CAR MODEL" "Yaris"
+      And there exists a relationship "R" between "CAR MODEL" "Yaris" and "BRAND" "Toyota"
       When the user requests the "belongs to brand" relationship for "Yaris"
       Then the response should return with status code 200
       And the response should return the relationship "R"

@@ -14,7 +14,7 @@ Feature: Create COMPANY-has-brand Relationship
       When the user creates a "has-brand" relationship between "Volkswagen AG" and "VW"
       Then the request should be confirmed with status code 201
       And the response should contain the following keys
-        | key             |
-        | company_id      |
-        | brand_id        |
-        | relationship_id |
+        | key                  |
+        | relationship_id      |
+        | relationship_name    |
+        | relationship_partner |
