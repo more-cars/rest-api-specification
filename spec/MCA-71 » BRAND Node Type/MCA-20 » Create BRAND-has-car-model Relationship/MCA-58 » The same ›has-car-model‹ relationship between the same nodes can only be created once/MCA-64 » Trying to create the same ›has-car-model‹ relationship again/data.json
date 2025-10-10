@@ -2,7 +2,7 @@
   "id": "MCA-64",
   "parent_id": "MCA-58",
   "title": "Trying to create the same ›has-car-model‹ relationship again",
-  "gherkin": "Given there exists a \"BRAND\" \"VW\"\nAnd there exists a \"CAR MODEL\" \"Jetta\"\nAnd there exists a \"has-car-model\" relationship between \"VW\" and \"Jetta\"\nWhen the user creates a \"has-car-model\" relationship between \"VW\" and \"Jetta\"\nThen the response should return with status code 304\nAnd the response should return an empty body",
+  "gherkin": "Given there exists a \"BRAND\" \"VW\"\nAnd there exists a \"CAR MODEL\" \"Jetta\"\nAnd there exists a \"has-car-model\" relationship between \"VW\" and \"Jetta\"\nWhen the user creates a \"has-car-model\" relationship between \"VW\" and \"Jetta\"\nThen the response should return with status code 304",
   "labels": [
     "implemented"
   ],

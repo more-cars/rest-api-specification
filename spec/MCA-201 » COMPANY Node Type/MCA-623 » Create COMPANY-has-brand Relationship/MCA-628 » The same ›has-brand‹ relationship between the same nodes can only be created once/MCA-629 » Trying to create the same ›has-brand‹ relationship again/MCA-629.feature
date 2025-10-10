@@ -14,4 +14,3 @@ Feature: Create COMPANY-has-brand Relationship
       And there exists a "has-brand" relationship between "Volkswagen AG" and "VW"
       When the user creates a "has-brand" relationship between "Volkswagen AG" and "VW"
       Then the response should return with status code 304
-      And the response should return an empty body

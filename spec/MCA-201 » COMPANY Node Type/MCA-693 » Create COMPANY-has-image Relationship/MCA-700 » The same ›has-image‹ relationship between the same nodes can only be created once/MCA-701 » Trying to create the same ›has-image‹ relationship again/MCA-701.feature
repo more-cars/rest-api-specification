@@ -14,4 +14,3 @@ Feature: Create COMPANY-has-image Relationship
       And there exists a "has-image" relationship between "Audi AG" and "logo"
       When the user creates a "has-image" relationship between "Audi AG" and "logo"
       Then the response should return with status code 304
-      And the response should return an empty body

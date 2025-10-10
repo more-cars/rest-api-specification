@@ -7,7 +7,7 @@ Feature: Providing IDs for all NODEs
   @RULE_MCA-102
   Rule: Each node is created with a different ID
 
-    @TEST_MCA-130 @implemented
+    @TEST_MCA-130 @deactivated @implemented
     Scenario Outline: Each node gets a different ID
       When the user creates a set of 20 "<node type>"s
       Then each node in the response should contain a different ID

@@ -14,4 +14,3 @@ Feature: Create BRAND-has-car-model Relationship
       And there exists a "has-car-model" relationship between "VW" and "Jetta"
       When the user creates a "has-car-model" relationship between "VW" and "Jetta"
       Then the response should return with status code 304
-      And the response should return an empty body

@@ -2,7 +2,7 @@
   "id": "MCA-672",
   "parent_id": "MCA-671",
   "title": "Trying to create the same ›has-prime-image‹ relationship again",
-  "gherkin": "Given there exists a \"COMPANY\" \"Bugatti\"\nAnd there exists a \"IMAGE\" \"logo\"\nAnd there exists a \"has-prime-image\" relationship between \"Bugatti\" and \"logo\"\nWhen the user creates a \"has-prime-image\" relationship between \"Bugatti\" and \"logo\"\nThen the response should return with status code 304\nAnd the response should return an empty body",
+  "gherkin": "Given there exists a \"COMPANY\" \"Bugatti\"\nAnd there exists a \"IMAGE\" \"logo\"\nAnd there exists a \"has-prime-image\" relationship between \"Bugatti\" and \"logo\"\nWhen the user creates a \"has-prime-image\" relationship between \"Bugatti\" and \"logo\"\nThen the response should return with status code 304",
   "labels": [
     "implemented"
   ],

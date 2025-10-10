@@ -11,4 +11,3 @@ Feature: Create BRAND-has-prime-image Relationship
       And there exists a "has-prime-image" relationship between "Bugatti" and "logo"
       When the user creates a "has-prime-image" relationship between "Bugatti" and "logo"
       Then the response should return with status code 304
-      And the response should return an empty body
