@@ -7,7 +7,7 @@ Feature: Delete BRAND-has-car-model Relationship
   @RULE_MCA-759
   Rule: Requests to delete the ›has-car-model‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-761
+    @TEST_MCA-761 @implemented
     Scenario: Trying to delete a ›has-car-model‹ relationship with invalid CAR MODEL ID
       Given there exists a "BRAND" "Bugati"
       And "CAR MODEL" "Veyron" does NOT exist

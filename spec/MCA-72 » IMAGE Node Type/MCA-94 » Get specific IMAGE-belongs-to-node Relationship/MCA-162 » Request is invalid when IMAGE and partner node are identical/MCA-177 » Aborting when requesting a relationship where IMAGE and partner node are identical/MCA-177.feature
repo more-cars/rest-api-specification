@@ -11,4 +11,4 @@ Feature: Get specific IMAGE-belongs-to-node Relationship
     Scenario: Aborting when requesting a relationship where IMAGE and partner node are identical
       Given there exists an "IMAGE" "logo.jpg"
       When the user requests the "belongs to node" relationship between "logo.jpg" and "logo.jpg"
-      Then the response should return with status code 422
+      Then the response should return with status code 404

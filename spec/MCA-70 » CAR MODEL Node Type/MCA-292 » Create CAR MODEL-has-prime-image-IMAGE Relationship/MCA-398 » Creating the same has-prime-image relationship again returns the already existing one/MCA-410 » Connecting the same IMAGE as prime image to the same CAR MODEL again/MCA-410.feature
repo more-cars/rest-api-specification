@@ -11,7 +11,6 @@ Feature: Create CAR MODEL-has-prime-image-IMAGE Relationship
     Scenario: Connecting the same IMAGE as prime image to the same CAR MODEL again
       Given there exists a "CAR MODEL" "Mondeo"
       And there exists an "IMAGE" "front-left.jpg"
-      And there exists a "has prime image" relationship "prime" between "Mondeo" and "front-left.jpg"
-      When the user requests to connect "front-left.jpg" to "Mondeo" as prime image
-      Then the request should be confirmed with status code 201
-      And the response should return the relationship "prime"
+      And there exists a "has prime image" relationship between "Mondeo" and "front-left.jpg"
+      When the user creates a "has prime image" relationship between "Mondeo" and "front-left.jpg"
+      Then the response should return with status code 304
