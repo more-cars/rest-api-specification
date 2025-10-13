@@ -1,0 +1,18 @@
+{
+  "id": "MCA-812",
+  "parent_id": "MCA-72",
+  "title": "Delete IMAGE-belongs-to-node Relationship",
+  "user_story": "As an API contributor\nI want to be able to disconnect NODES from IMAGES\nSo I can clean up bad data or test data\n",
+  "description": "* The ›belongs-to-node‹ relationship is deleted when it actually exists. -> Status Code \\`204\\`\n* A successful request returns with an empty body.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* Requests are rejected when there exists no ›belongs-to-node‹ relationship between the provided nodes. -> Status Code \\`404\\`\n",
+  "api_verb": "DELETE",
+  "api_path": "/images/<image-id>/belongs-to-node/<node-id>",
+  "response_options": [
+    "204",
+    "404"
+  ],
+  "release_versions": [
+    "0.22.0"
+  ],
+  "created_at": "2025-10-13T17:06:13.012+0200",
+  "updated_at": "2025-10-13T17:46:11.503+0200"
+}

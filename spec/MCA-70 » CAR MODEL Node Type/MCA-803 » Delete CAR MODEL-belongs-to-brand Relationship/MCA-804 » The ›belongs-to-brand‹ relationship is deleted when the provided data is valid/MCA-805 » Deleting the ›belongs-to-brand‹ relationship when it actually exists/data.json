@@ -1,0 +1,11 @@
+{
+  "id": "MCA-805",
+  "parent_id": "MCA-804",
+  "title": "Deleting the ›belongs-to-brand‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"XJ220\"\nAnd there exists a \"BRAND\" \"Audi\"\nAnd there exists a \"belongs to brand\" relationship \"R\" between \"XJ220\" and \"Audi\"\nWhen the user deletes the \"belongs to brand\" relationship between \"XJ220\" and \"Audi\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-13T16:04:04.157+0200",
+  "updated_at": "2025-10-13T16:57:54.147+0200"
+}

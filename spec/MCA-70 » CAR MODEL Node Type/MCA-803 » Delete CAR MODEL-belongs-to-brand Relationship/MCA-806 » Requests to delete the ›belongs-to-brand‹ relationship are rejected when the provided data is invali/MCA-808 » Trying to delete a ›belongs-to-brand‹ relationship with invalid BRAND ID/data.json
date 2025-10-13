@@ -1,0 +1,11 @@
+{
+  "id": "MCA-808",
+  "parent_id": "MCA-806",
+  "title": "Trying to delete a ›belongs-to-brand‹ relationship with invalid BRAND ID",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"XJ220\"\nAnd \"BRAND\" \"Audi\" does NOT exist\nWhen the user deletes the \"belongs to brand\" relationship between \"XJ220\" and \"Audi\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-13T16:04:20.191+0200",
+  "updated_at": "2025-10-13T16:57:59.510+0200"
+}

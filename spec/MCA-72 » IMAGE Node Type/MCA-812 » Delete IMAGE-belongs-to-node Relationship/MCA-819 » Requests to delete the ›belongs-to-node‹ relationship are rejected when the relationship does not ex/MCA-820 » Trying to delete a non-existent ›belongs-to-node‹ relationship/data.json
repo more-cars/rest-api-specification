@@ -1,0 +1,11 @@
+{
+  "id": "MCA-820",
+  "parent_id": "MCA-819",
+  "title": "Trying to delete a non-existent ›belongs-to-node‹ relationship",
+  "gherkin": "Given there exists an \"IMAGE\" \"Ferrari HQ\"\nAnd there exists a \"BRAND\" \"Toyota\"\nAnd there exists NO \"belongs to node\" relationship between \"Ferrari HQ\" and \"Toyota\"\nWhen the user deletes the \"belongs to node\" relationship between \"Ferrari HQ\" and \"Toyota\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-13T17:06:42.478+0200",
+  "updated_at": "2025-10-13T17:46:06.902+0200"
+}

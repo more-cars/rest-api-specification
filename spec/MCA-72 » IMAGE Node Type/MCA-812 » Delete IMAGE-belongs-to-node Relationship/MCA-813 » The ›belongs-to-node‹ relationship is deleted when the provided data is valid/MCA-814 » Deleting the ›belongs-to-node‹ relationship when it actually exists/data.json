@@ -1,0 +1,11 @@
+{
+  "id": "MCA-814",
+  "parent_id": "MCA-813",
+  "title": "Deleting the ›belongs-to-node‹ relationship when it actually exists",
+  "gherkin": "Given there exists an \"IMAGE\" \"Ferrari HQ\"\nAnd there exists a \"BRAND\" \"Toyota\"\nAnd there exists a \"belongs to node\" relationship \"R\" between \"Ferrari HQ\" and \"Toyota\"\nWhen the user deletes the \"belongs to node\" relationship between \"Ferrari HQ\" and \"Toyota\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-13T17:06:19.284+0200",
+  "updated_at": "2025-10-13T17:45:57.933+0200"
+}
