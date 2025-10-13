@@ -7,7 +7,7 @@ Feature: Delete BRAND-has-image Relationship
   @RULE_MCA-768
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-769
+    @TEST_MCA-769 @implemented
     Scenario: Trying to delete a ›has-image‹ relationship with invalid BRAND ID
       Given "BRAND" "Bugatti" does NOT exist
       And there exists a "IMAGE" "logo"

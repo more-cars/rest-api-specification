@@ -3,7 +3,7 @@
   "parent_id": "MCA-765",
   "title": "Requests to delete the ›has-image‹ relationship are rejected when the relationship does not exist",
   "description": "The relationship might have never existed or it has already been deleted. No matter the reason, an error will be returned.\n",
-  "release_version": null,
+  "release_version": "0.22.0",
   "created_at": "2025-10-08T17:18:42.251+0200",
-  "updated_at": "2025-10-08T17:18:48.152+0200"
+  "updated_at": "2025-10-13T13:59:42.503+0200"
 }
