@@ -1,0 +1,20 @@
+{
+  "id": "MCA-821",
+  "parent_id": "MCA-70",
+  "title": "Create CAR MODEL-has-successor Relationship",
+  "user_story": "",
+  "description": "* The relationship ›has-successor‹ is created when the provided IDs of the CAR MODELS are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›has-successor‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* At the same time a CAR MODEL can only be in a ›has-successor‹ relationship with one CAR MODEL\n* A CAR MODEL cannot be connected to itself\n",
+  "api_verb": "POST",
+  "api_path": "/car-models/<car-model-1-id>/has-successor/<car-model-2-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404",
+    "422"
+  ],
+  "release_versions": [
+    "0.22.0"
+  ],
+  "created_at": "2025-10-14T16:12:31.067+0200",
+  "updated_at": "2025-10-14T17:18:06.050+0200"
+}

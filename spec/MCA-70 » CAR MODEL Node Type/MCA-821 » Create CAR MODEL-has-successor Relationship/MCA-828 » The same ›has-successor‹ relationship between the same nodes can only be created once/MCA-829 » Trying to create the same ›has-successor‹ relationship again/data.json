@@ -1,0 +1,9 @@
+{
+  "id": "MCA-829",
+  "parent_id": "MCA-828",
+  "title": "Trying to create the same ›has-successor‹ relationship again",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Countach\"\nAnd there exists a \"CAR MODEL\" \"Diablo\"\nAnd there exists a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nWhen the user creates a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nThen the response should return with status code 304",
+  "labels": [],
+  "created_at": "2025-10-14T16:13:01.677+0200",
+  "updated_at": "2025-10-14T16:13:06.003+0200"
+}

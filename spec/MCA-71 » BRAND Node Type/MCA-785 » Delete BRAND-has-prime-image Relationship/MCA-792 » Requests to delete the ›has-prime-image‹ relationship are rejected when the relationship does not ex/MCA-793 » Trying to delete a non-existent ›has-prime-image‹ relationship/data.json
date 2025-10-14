@@ -2,8 +2,10 @@
   "id": "MCA-793",
   "parent_id": "MCA-792",
   "title": "Trying to delete a non-existent ›has-prime-image‹ relationship",
-  "gherkin": "Given there exists a \"BRAND\" \"Bugatti\"\nAnd there exists a \"IMAGE\" \"Ferrari logo\"\nAnd there exists NO \"has-prime-image\" relationship between \"Bugatti\" and \"Ferrari logo\"\nWhen the user deletes the \"has-prime-image\" relationship between \"Bugatti\" and \"Ferrari logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "gherkin": "Given there exists a \"BRAND\" \"Bugatti\"\nAnd there exists a \"IMAGE\" \"Ferrari logo\"\nAnd there exists NO \"has prime image\" relationship between \"Bugatti\" and \"Ferrari logo\"\nWhen the user deletes the \"has prime image\" relationship between \"Bugatti\" and \"Ferrari logo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-08T17:33:20.856+0200",
-  "updated_at": "2025-10-08T17:33:24.655+0200"
+  "updated_at": "2025-10-14T15:47:19.069+0200"
 }

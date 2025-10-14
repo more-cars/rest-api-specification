@@ -14,4 +14,4 @@ Feature: Get BRAND-has-prime-image Relationship
       And there exists a "has prime image" relationship "R" for "Bentley"
       When the user requests the "has prime image" relationship for "Bentley"
       Then the request should be confirmed with status code 200
-      And the response should contain the relationship "R"
+      And the response should return the relationship "R"

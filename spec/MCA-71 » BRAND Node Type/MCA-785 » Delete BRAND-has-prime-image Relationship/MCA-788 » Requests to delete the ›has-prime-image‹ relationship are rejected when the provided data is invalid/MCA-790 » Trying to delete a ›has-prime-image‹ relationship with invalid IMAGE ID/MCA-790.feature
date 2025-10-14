@@ -7,9 +7,9 @@ Feature: Delete BRAND-has-prime-image Relationship
   @RULE_MCA-788
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-790
+    @TEST_MCA-790 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship with invalid IMAGE ID
       Given there exists a "BRAND" "Bugatti"
       And "IMAGE" "Ferrari logo" does NOT exist
-      When the user deletes the "has-prime-image" relationship between "Bugatti" and "Ferrari logo"
+      When the user deletes the "has prime image" relationship between "Bugatti" and "Ferrari logo"
       Then the request should be rejected with status code 404
