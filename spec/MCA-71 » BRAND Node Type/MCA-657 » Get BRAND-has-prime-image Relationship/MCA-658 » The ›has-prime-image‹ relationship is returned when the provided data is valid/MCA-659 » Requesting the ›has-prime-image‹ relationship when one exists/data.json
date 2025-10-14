@@ -2,7 +2,7 @@
   "id": "MCA-659",
   "parent_id": "MCA-658",
   "title": "Requesting the ›has-prime-image‹ relationship when one exists",
-  "gherkin": "Given there exists a \"BRAND\" \"Bentley\"\nAnd there exists a \"has prime image\" relationship \"R\" for \"Bentley\"\nWhen the user requests the \"has prime image\" relationship for \"Bentley\"\nThen the request should be confirmed with status code 200\nAnd the response should contain the relationship \"R\"",
+  "gherkin": "Given there exists a \"BRAND\" \"Bentley\"\nAnd there exists a \"has prime image\" relationship \"R\" for \"Bentley\"\nWhen the user requests the \"has prime image\" relationship for \"Bentley\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
   "labels": [
     "implemented"
   ],

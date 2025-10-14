@@ -4,7 +4,7 @@ Feature: Create CAR MODEL-has-successor Relationship
   @RULE_MCA-824
   Rule: Requests to create a ›has-successor‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-827
+    @TEST_MCA-827 @implemented
     Scenario: Trying to create a ›has-successor‹ relationship where both IDs are invalid
       Given "CAR MODEL" "Countach" does NOT exist
       And "CAR MODEL" "Diablo" does NOT exist

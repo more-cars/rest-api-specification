@@ -4,7 +4,7 @@ Feature: Create CAR MODEL-has-successor Relationship
   @RULE_MCA-828
   Rule: The same ›has-successor‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-829
+    @TEST_MCA-829 @implemented
     Scenario: Trying to create the same ›has-successor‹ relationship again
       Given there exists a "CAR MODEL" "Countach"
       And there exists a "CAR MODEL" "Diablo"

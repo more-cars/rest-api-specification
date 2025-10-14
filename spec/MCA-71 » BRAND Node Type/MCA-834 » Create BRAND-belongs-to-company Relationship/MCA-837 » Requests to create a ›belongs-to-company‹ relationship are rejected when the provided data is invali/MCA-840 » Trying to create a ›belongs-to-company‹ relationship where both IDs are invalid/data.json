@@ -1,0 +1,9 @@
+{
+  "id": "MCA-840",
+  "parent_id": "MCA-837",
+  "title": "Trying to create a ›belongs-to-company‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"BRAND\" \"Bentley\" does NOT exist\nAnd \"COMPANY\" \"VW AG\" does NOT exist\nWhen the user creates a \"belongs to company\" relationship between \"Bentley\" and \"VW AG\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2025-10-14T17:53:51.180+0200",
+  "updated_at": "2025-10-14T17:53:54.740+0200"
+}

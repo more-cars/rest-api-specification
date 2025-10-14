@@ -3,7 +3,9 @@
   "parent_id": "MCA-824",
   "title": "Trying to create a ›has-successor‹ relationship where both IDs are invalid",
   "gherkin": "Given \"CAR MODEL\" \"Countach\" does NOT exist\nAnd \"CAR MODEL\" \"Diablo\" does NOT exist\nWhen the user creates a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-14T16:12:55.542+0200",
-  "updated_at": "2025-10-14T16:13:00.805+0200"
+  "updated_at": "2025-10-14T17:36:34.036+0200"
 }

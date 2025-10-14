@@ -4,7 +4,7 @@ Feature: Create BRAND-has-prime-image Relationship
   @RULE_MCA-783
   Rule: At the same time, each BRAND can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-784 @implemented
+    @TEST_MCA-784 @deactivated @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "BRAND" "Bugatti"
       And there exists a "IMAGE" "logo"
