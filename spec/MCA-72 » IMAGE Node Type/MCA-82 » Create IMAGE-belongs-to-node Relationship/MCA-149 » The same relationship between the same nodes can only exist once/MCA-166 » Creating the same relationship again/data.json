@@ -1,0 +1,11 @@
+{
+  "id": "MCA-166",
+  "parent_id": "MCA-149",
+  "title": "Creating the same relationship again",
+  "gherkin": "Given there exists an \"IMAGE\" \"<image>\"\nAnd there exists a \"<node type>\" \"<node>\"\nAnd there exists a \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nWhen the user creates a \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nThen the response should return with status code 304\n\nExamples:\n  | node type | node     | image                          |\n  | COMPANY   | VW AG    | vw-hq.jpg                      |\n  | BRAND     | Ferrari  | ferrari-logo.jpg               |\n  | CAR MODEL | Countach | lamborghini-countach-front.jpg |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-05-24T11:37:44.798+0200",
+  "updated_at": "2025-10-14T11:43:36.668+0200"
+}

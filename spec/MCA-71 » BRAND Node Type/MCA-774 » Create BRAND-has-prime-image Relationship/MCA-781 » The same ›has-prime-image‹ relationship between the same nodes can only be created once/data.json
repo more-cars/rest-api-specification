@@ -3,7 +3,7 @@
   "parent_id": "MCA-774",
   "title": "The same ›has-prime-image‹ relationship between the same nodes can only be created once",
   "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
-  "release_version": null,
+  "release_version": "0.22.0",
   "created_at": "2025-10-08T17:29:55.908+0200",
-  "updated_at": "2025-10-08T17:30:02.071+0200"
+  "updated_at": "2025-10-14T11:10:10.250+0200"
 }

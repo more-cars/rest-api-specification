@@ -8,10 +8,10 @@ Feature: Get BRAND-has-prime-image Relationship
   @RULE_MCA-660
   Rule: An empty response is returned when there exists no ›has-prime-image‹ relationship for the given BRAND
 
-    @TEST_MCA-661
+    @TEST_MCA-661 @implemented
     Scenario: Requesting the ›has-prime-image‹ relationship when there exists none
       Given there exists a "BRAND" "Bentley"
-      And there exists NO "has-prime-image" relationship for "Bentley"
-      When the user requests the "has-prime-image" relationship for "Bentley"
+      And there exists NO "has prime image" relationship for "Bentley"
+      When the user requests the "has prime image" relationship for "Bentley"
       Then the request should be confirmed with status code 200
       But the response should return an empty body

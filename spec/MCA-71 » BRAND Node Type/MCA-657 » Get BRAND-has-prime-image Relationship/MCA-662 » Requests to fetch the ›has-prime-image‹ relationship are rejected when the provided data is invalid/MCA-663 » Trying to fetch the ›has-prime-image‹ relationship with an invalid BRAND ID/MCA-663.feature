@@ -8,8 +8,8 @@ Feature: Get BRAND-has-prime-image Relationship
   @RULE_MCA-662
   Rule: Requests to fetch the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-663
+    @TEST_MCA-663 @implemented
     Scenario: Trying to fetch the ›has-prime-image‹ relationship with an invalid BRAND ID
       Given "BRAND" "Bentley" does NOT exist
-      When the user requests the "has-prime-image" relationship for "Bentley"
+      When the user requests the "has prime image" relationship for "Bentley"
       Then the request should be rejected with status code 404

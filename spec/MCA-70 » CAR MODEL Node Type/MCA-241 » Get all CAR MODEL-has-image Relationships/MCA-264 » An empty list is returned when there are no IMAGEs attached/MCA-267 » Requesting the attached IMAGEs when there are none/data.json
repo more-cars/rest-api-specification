@@ -2,7 +2,7 @@
   "id": "MCA-267",
   "parent_id": "MCA-264",
   "title": "Requesting the attached IMAGEs when there are none",
-  "gherkin": "Given there exists a \"CAR MODEL\" \"Jetta\"\nAnd there are no IMAGEs attached to CAR MODEL \"Jetta\"\nWhen the user requests all IMAGEs that are connected to CAR MODEL \"Jetta\"\nThen the response should return an empty list",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Jetta\"\nAnd there exist 0 \"has image\" relationships for \"Jetta\"\nWhen the user requests all \"has image\" relationships for \"Jetta\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
   "labels": [
     "implemented"
   ],

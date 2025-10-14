@@ -8,10 +8,10 @@ Feature: Get BRAND-has-prime-image Relationship
   @RULE_MCA-658
   Rule: The ›has-prime-image‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-659
+    @TEST_MCA-659 @implemented
     Scenario: Requesting the ›has-prime-image‹ relationship when one exists
       Given there exists a "BRAND" "Bentley"
-      And there exist a "has-prime-image" relationship "R" for "Bentley"
-      When the user requests the "has-prime-image" relationship for "Bentley"
+      And there exists a "has prime image" relationship "R" for "Bentley"
+      When the user requests the "has prime image" relationship for "Bentley"
       Then the request should be confirmed with status code 200
       And the response should contain the relationship "R"

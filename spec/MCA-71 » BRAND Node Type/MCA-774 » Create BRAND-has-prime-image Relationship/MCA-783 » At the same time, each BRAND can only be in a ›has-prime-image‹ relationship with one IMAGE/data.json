@@ -3,7 +3,7 @@
   "parent_id": "MCA-774",
   "title": "At the same time, each BRAND can only be in a ›has-prime-image‹ relationship with one IMAGE",
   "description": "Connecting a different IMAGE will delete the previous relationship.\n",
-  "release_version": null,
+  "release_version": "0.22.0",
   "created_at": "2025-10-08T17:30:02.596+0200",
-  "updated_at": "2025-10-08T17:30:08.641+0200"
+  "updated_at": "2025-10-14T11:10:12.506+0200"
 }

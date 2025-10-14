@@ -2,7 +2,7 @@
   "id": "MCA-743",
   "parent_id": "MCA-737",
   "title": "Expecting a filtered collection to only return those nodes that match the filter",
-  "gherkin": "Given there exists a \"<node_type>\" \"<node_1>\" with \"name\" \"<node_1>\"\nAnd there exists a \"<node_type>\" \"<node_2>\" with \"name\" \"<node_2>\"\nAnd there exists a \"<node_type>\" \"<node_3>\" with \"name\" \"<node_3>\"\nWhen the user requests a \"<node_type>\" collection, filtered by \"name\" \"eq\" \"<node_1>\"\nThen the response should return with status code 200\nAnd the response should return a collection of 1 \"<node_type>\"s\n\nExamples:\n  | node_type | node_1   | node_2    | node_3             |\n  | COMPANY   | BMW AG   | AUDI AG   | Ford Motor Company |\n  | BRAND     | BMW      | Audi      | Ford               |\n  | CAR MODEL | Z8       | RS 4      | Mustang            |\n  | IMAGE     | bmw logo | audi logo | ford logo          |",
+  "gherkin": "Given there exist 0 \"<node_type>\"s\nAnd there exists a \"<node_type>\" \"<node_1>\" with \"name\" \"<node_1>\"\nAnd there exists a \"<node_type>\" \"<node_2>\" with \"name\" \"<node_2>\"\nAnd there exists a \"<node_type>\" \"<node_3>\" with \"name\" \"<node_3>\"\nWhen the user requests a \"<node_type>\" collection, filtered by \"name\" \"eq\" \"<node_1>\"\nThen the response should return with status code 200\nAnd the response should return a collection of 1 \"<node_type>\"s\n\nExamples:\n  | node_type | node_1   | node_2    | node_3             |\n  | COMPANY   | BMW AG   | AUDI AG   | Ford Motor Company |\n  | BRAND     | BMW      | Audi      | Ford               |\n  | CAR MODEL | Z8       | RS 4      | Mustang            |\n  | IMAGE     | bmw logo | audi logo | ford logo          |",
   "labels": [
     "implemented"
   ],

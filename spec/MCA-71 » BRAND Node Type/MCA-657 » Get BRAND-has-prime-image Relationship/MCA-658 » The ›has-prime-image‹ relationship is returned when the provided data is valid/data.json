@@ -3,7 +3,7 @@
   "parent_id": "MCA-657",
   "title": "The ›has-prime-image‹ relationship is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a BRAND node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.22.0",
   "created_at": "2025-09-29T09:51:59.856+0200",
-  "updated_at": "2025-10-08T17:41:50.075+0200"
+  "updated_at": "2025-10-14T12:44:08.523+0200"
 }

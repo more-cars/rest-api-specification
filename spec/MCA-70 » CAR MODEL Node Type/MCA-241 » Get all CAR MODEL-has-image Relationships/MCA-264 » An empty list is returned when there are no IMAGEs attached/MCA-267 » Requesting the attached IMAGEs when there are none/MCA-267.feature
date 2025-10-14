@@ -10,6 +10,7 @@ Feature: Get all CAR MODEL-has-image Relationships
     @TEST_MCA-267 @implemented
     Scenario: Requesting the attached IMAGEs when there are none
       Given there exists a "CAR MODEL" "Jetta"
-      And there are no IMAGEs attached to CAR MODEL "Jetta"
-      When the user requests all IMAGEs that are connected to CAR MODEL "Jetta"
-      Then the response should return an empty list
+      And there exist 0 "has image" relationships for "Jetta"
+      When the user requests all "has image" relationships for "Jetta"
+      Then the request should be confirmed with status code 200
+      And the response should return an empty list

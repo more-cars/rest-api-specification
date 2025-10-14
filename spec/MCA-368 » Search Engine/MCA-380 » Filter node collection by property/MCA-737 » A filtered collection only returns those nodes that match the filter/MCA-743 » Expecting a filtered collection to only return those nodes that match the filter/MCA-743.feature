@@ -9,7 +9,8 @@ Feature: Filter node collection by property
 
     @TEST_MCA-743 @implemented
     Scenario Outline: Expecting a filtered collection to only return those nodes that match the filter
-      Given there exists a "<node_type>" "<node_1>" with "name" "<node_1>"
+      Given there exist 0 "<node_type>"s
+      And there exists a "<node_type>" "<node_1>" with "name" "<node_1>"
       And there exists a "<node_type>" "<node_2>" with "name" "<node_2>"
       And there exists a "<node_type>" "<node_3>" with "name" "<node_3>"
       When the user requests a "<node_type>" collection, filtered by "name" "eq" "<node_1>"
