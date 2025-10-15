@@ -1,0 +1,11 @@
+{
+  "id": "MCA-865",
+  "parent_id": "MCA-864",
+  "title": "Requesting the ›has-successor‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Diablo\"\nAnd there exists NO \"has successor\" relationship for \"Diablo\"\nWhen the user requests the \"has successor\" relationship for \"Diablo\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T12:51:40.073+0200",
+  "updated_at": "2025-10-15T13:26:31.546+0200"
+}

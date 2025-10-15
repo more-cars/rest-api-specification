@@ -1,0 +1,11 @@
+{
+  "id": "MCA-867",
+  "parent_id": "MCA-866",
+  "title": "Trying to fetch the ›has-successor‹ relationship with an invalid CAR MODEL ID",
+  "gherkin": "Given \"CAR MODEL\" \"Diablo\" does NOT exist\nWhen the user requests the \"has successor\" relationship for \"Diablo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T12:51:45.997+0200",
+  "updated_at": "2025-10-15T13:26:33.563+0200"
+}

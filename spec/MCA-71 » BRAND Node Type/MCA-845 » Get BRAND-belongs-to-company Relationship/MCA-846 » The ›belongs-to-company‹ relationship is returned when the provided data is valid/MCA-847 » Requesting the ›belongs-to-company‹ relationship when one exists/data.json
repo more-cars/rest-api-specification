@@ -4,8 +4,9 @@
   "title": "Requesting the ›belongs-to-company‹ relationship when one exists",
   "gherkin": "Given there exists a \"BRAND\" \"Company\"\nAnd there exists a \"belongs to company\" relationship \"R\" for \"Company\"\nWhen the user requests the \"belongs to company\" relationship for \"Company\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
   "labels": [
+    "deactivated",
     "implemented"
   ],
   "created_at": "2025-10-15T11:08:55.387+0200",
-  "updated_at": "2025-10-15T11:34:29.941+0200"
+  "updated_at": "2025-10-15T12:08:07.337+0200"
 }

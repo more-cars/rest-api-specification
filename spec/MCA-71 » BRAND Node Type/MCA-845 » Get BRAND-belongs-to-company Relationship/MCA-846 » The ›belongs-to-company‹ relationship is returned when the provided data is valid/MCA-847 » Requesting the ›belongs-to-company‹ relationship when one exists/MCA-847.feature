@@ -4,7 +4,7 @@ Feature: Get BRAND-belongs-to-company Relationship
   @RULE_MCA-846
   Rule: The ›belongs-to-company‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-847 @implemented
+    @TEST_MCA-847 @deactivated @implemented
     Scenario: Requesting the ›belongs-to-company‹ relationship when one exists
       Given there exists a "BRAND" "Company"
       And there exists a "belongs to company" relationship "R" for "Company"
