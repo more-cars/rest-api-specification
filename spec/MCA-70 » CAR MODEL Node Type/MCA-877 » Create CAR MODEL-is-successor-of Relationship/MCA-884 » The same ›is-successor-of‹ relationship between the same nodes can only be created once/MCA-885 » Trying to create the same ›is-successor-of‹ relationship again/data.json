@@ -1,0 +1,11 @@
+{
+  "id": "MCA-885",
+  "parent_id": "MCA-884",
+  "title": "Trying to create the same ›is-successor-of‹ relationship again",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Golf IV\"\nAnd there exists a \"CAR MODEL\" \"Golf III\"\nAnd there exists a \"is successor of\" relationship between \"Golf IV\" and \"Golf III\"\nWhen the user creates a \"is successor of\" relationship between \"Golf IV\" and \"Golf III\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T16:34:41.343+0200",
+  "updated_at": "2025-10-15T17:45:44.454+0200"
+}

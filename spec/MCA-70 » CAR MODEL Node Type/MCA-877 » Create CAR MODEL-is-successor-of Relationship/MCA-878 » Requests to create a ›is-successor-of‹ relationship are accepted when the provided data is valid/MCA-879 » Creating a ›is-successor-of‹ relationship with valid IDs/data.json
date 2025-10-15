@@ -1,0 +1,11 @@
+{
+  "id": "MCA-879",
+  "parent_id": "MCA-878",
+  "title": "Creating a ›is-successor-of‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Golf IV\"\nAnd there exists a \"CAR MODEL\" \"Golf III\"\nWhen the user creates a \"is successor of\" relationship between \"Golf IV\" and \"Golf III\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T16:34:09.724+0200",
+  "updated_at": "2025-10-15T17:44:06.960+0200"
+}

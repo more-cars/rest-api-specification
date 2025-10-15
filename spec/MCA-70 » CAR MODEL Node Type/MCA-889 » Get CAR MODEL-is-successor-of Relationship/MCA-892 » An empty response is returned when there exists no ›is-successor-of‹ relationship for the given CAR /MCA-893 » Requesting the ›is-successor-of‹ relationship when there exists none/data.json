@@ -1,0 +1,11 @@
+{
+  "id": "MCA-893",
+  "parent_id": "MCA-892",
+  "title": "Requesting the ›is-successor-of‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Aventador\"\nAnd there exists NO \"is successor of\" relationship for \"Aventador\"\nWhen the user requests the \"is successor of\" relationship for \"Aventador\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T17:18:49.545+0200",
+  "updated_at": "2025-10-15T18:40:58.847+0200"
+}

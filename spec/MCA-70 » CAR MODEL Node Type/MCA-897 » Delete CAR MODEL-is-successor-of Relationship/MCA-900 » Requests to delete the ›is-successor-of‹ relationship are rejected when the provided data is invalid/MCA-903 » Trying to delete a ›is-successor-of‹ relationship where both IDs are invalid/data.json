@@ -1,0 +1,11 @@
+{
+  "id": "MCA-903",
+  "parent_id": "MCA-900",
+  "title": "Trying to delete a ›is-successor-of‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"CAR MODEL\" \"Golf IV\" does NOT exist\nAnd \"CAR MODEL\" \"Corsa C\" does NOT exist\nWhen the user deletes the \"is successor of\" relationship between \"Golf IV\" and \"Corsa C\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T18:42:55.275+0200",
+  "updated_at": "2025-10-15T19:51:35.158+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-880",
+  "parent_id": "MCA-877",
+  "title": "Requests to create a ›is-successor-of‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no CAR MODEL with the provided ID? -> rejected.\n",
+  "release_version": "0.22.0",
+  "created_at": "2025-10-15T16:34:20.914+0200",
+  "updated_at": "2025-10-15T17:27:54.598+0200"
+}

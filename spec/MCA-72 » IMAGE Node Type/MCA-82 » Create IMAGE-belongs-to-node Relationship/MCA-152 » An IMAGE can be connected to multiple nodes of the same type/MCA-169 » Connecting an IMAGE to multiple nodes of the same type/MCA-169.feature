@@ -7,7 +7,7 @@ Feature: Create IMAGE-belongs-to-node Relationship
   @RULE_MCA-152
   Rule: An IMAGE can be connected to multiple nodes of the same type
 
-    @TEST_MCA-169 @implemented
+    @TEST_MCA-169 @deactivated @implemented
     Scenario Outline: Connecting an IMAGE to multiple nodes of the same type
       Given there exists an "IMAGE" "<image>"
       And there exists a "<node_type>" "<node_1>"

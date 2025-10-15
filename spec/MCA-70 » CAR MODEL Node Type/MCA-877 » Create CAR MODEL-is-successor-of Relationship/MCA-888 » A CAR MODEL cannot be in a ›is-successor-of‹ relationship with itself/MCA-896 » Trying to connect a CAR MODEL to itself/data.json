@@ -1,0 +1,11 @@
+{
+  "id": "MCA-896",
+  "parent_id": "MCA-888",
+  "title": "Trying to connect a CAR MODEL to itself",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Golf IV\"\nWhen the user creates a \"is successor of\" relationship between \"Golf IV\" and \"Golf IV\"\nThen the request should be rejected with status code 422",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T17:43:47.269+0200",
+  "updated_at": "2025-10-15T17:47:54.343+0200"
+}
