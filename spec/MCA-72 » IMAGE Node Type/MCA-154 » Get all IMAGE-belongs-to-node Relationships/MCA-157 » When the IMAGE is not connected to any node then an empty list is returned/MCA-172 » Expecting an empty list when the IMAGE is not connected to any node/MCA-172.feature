@@ -9,8 +9,8 @@ Feature: Get all IMAGE-belongs-to-node Relationships
 
     @TEST_MCA-172 @implemented
     Scenario: Expecting an empty list when the IMAGE is not connected to any node
-      Given there exists an "IMAGE" "A"
-      And there exist 0 relationships for IMAGE "A"
-      When the user requests all relationships for IMAGE "A"
+      Given there exists an "IMAGE" "cadillac.jpg"
+      And there exist 0 "belongs to node" relationships for "cadillac.jpg"
+      When the user requests all "belongs to node" relationships for "cadillac.jpg"
       Then the response should return with status code 200
-      And the response should return a collection of 0 IMAGE relationships
+      And the response should return a collection with 0 relationships

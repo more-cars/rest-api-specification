@@ -2,7 +2,7 @@
   "id": "MCA-276",
   "parent_id": "MCA-272",
   "title": "Connecting multiple IMAGEs to a BRAND",
-  "gherkin": "Given there exists a \"BRAND\" \"Maserati\"\nAnd there exists an \"IMAGE\" \"logo 1960\"\nAnd there exists an \"IMAGE\" \"logo 1980\"\nAnd there exists an \"IMAGE\" \"logo 2010\"\n\nWhen the user connects \"IMAGE\" \"logo 1960\" to \"BRAND\" \"Maserati\"\nAnd the user connects \"IMAGE\" \"logo 1980\" to \"BRAND\" \"Maserati\"\nAnd the user connects \"IMAGE\" \"logo 2010\" to \"BRAND\" \"Maserati\"\n\nThen the IMAGE \"logo 1960\" should be connected to the BRAND \"Maserati\"\nAnd the IMAGE \"logo 1980\" should be connected to the BRAND \"Maserati\"\nAnd the IMAGE \"logo 2010\" should be connected to the BRAND \"Maserati\"",
+  "gherkin": "Given there exists a \"BRAND\" \"Maserati\"\nAnd there exists an \"IMAGE\" \"logo 1960\"\nAnd there exists an \"IMAGE\" \"logo 1980\"\nAnd there exists an \"IMAGE\" \"logo 2010\"\n\nWhen the user creates a \"has image\" relationship between \"Maserati\" and \"logo 1960\"\nAnd the user creates a \"has image\" relationship between \"Maserati\" and \"logo 1980\"\nAnd the user creates a \"has image\" relationship between \"Maserati\" and \"logo 2010\"\n\nThen there should exist a \"has image\" relationship between \"Maserati\" and \"logo 1960\"\nAnd there should exist a \"has image\" relationship between \"Maserati\" and \"logo 1980\"\nAnd there should exist a \"has image\" relationship between \"Maserati\" and \"logo 2010\"",
   "labels": [
     "implemented"
   ],

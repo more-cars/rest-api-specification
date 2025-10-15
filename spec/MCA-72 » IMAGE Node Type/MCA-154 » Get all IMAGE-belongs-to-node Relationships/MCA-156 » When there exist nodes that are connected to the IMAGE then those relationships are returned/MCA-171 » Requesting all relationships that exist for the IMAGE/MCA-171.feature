@@ -9,8 +9,8 @@ Feature: Get all IMAGE-belongs-to-node Relationships
 
     @TEST_MCA-171 @deactivated @implemented
     Scenario: Requesting all relationships that exist for the IMAGE
-      Given there exists an "IMAGE" "A"
-      And there exist 7 relationships for IMAGE "A"
-      When the user requests all relationships for IMAGE "A"
+      Given there exists an "IMAGE" "corvette.jpg"
+      And there exist 3 "belongs to node" relationships for "corvette.jpg"
+      When the user requests all "belongs to node" relationships for "corvette.jpg"
       Then the response should return with status code 200
-      And the response should return a collection of 7 IMAGE relationships
+      And the response should return a collection with 3 "belongs to node" relationships

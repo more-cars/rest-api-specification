@@ -2,7 +2,7 @@
   "id": "MCA-171",
   "parent_id": "MCA-156",
   "title": "Requesting all relationships that exist for the IMAGE",
-  "gherkin": "Given there exists an \"IMAGE\" \"A\"\nAnd there exist 7 relationships for IMAGE \"A\"\nWhen the user requests all relationships for IMAGE \"A\"\nThen the response should return with status code 200\nAnd the response should return a collection of 7 IMAGE relationships",
+  "gherkin": "Given there exists an \"IMAGE\" \"corvette.jpg\"\nAnd there exist 3 \"belongs to node\" relationships for \"corvette.jpg\"\nWhen the user requests all \"belongs to node\" relationships for \"corvette.jpg\"\nThen the response should return with status code 200\nAnd the response should return a collection with 3 \"belongs to node\" relationships",
   "labels": [
     "deactivated",
     "implemented"

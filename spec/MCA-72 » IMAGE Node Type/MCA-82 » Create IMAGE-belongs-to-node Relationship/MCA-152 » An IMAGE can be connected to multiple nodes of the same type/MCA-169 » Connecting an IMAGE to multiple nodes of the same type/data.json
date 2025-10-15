@@ -2,8 +2,10 @@
   "id": "MCA-169",
   "parent_id": "MCA-152",
   "title": "Connecting an IMAGE to multiple nodes of the same type",
-  "gherkin": "Given there exists a \"<node type>\" \"<node 1>\"\nAnd there exists a \"<node type>\" \"<node 2>\"\nAnd there exists an \"IMAGE\" \"<image>\"\n\nWhen the user attaches the \"<node type>\" \"<node 1>\" to the IMAGE \"<image>\"\nAnd the user attaches the \"<node type>\" \"<node 2>\" to the IMAGE \"<image>\"\n\nThen \"<node type>\" \"<node 1>\" should be connected to IMAGE \"<image>\"\nAnd \"<node type>\" \"<node 2>\" should be connected to IMAGE \"<image>\"\n\nExamples:\n  | node type | node 1   | node 2 | image                    |\n  | BRAND     | Ferrari  | Toyota | brand-collection.jpg     |\n  | CAR MODEL | Countach | Golf   | car-model-collection.jpg |",
-  "labels": [],
+  "gherkin": "Given there exists an \"IMAGE\" \"<image>\"\nAnd there exists a \"<node_type>\" \"<node_1>\"\nAnd there exists a \"<node_type>\" \"<node_2>\"\nWhen the user creates a \"belongs to node\" relationship between \"<image>\" and \"<node_1>\"\nAnd the user creates a \"belongs to node\" relationship between \"<image>\" and \"<node_2>\"\nThen there should exist a \"belongs to node\" relationship between \"<image>\" and \"<node_1>\"\nAnd there should exist a \"belongs to node\" relationship between \"<image>\" and \"<node_2>\"\n\nExamples:\n  | node_type | node_1   | node_2 | image                    |\n  | BRAND     | Ferrari  | Toyota | brand-collection.jpg     |\n  | CAR MODEL | Countach | Golf   | car-model-collection.jpg |",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-05-24T11:55:06.916+0200",
-  "updated_at": "2025-08-24T17:39:11.818+0200"
+  "updated_at": "2025-10-15T10:15:02.655+0200"
 }

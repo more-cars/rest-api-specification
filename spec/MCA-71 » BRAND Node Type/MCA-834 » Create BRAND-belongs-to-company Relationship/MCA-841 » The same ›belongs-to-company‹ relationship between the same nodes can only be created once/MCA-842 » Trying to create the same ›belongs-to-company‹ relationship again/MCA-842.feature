@@ -4,7 +4,7 @@ Feature: Create BRAND-belongs-to-company Relationship
   @RULE_MCA-841
   Rule: The same ›belongs-to-company‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-842
+    @TEST_MCA-842 @implemented
     Scenario: Trying to create the same ›belongs-to-company‹ relationship again
       Given there exists a "BRAND" "Bentley"
       And there exists a "COMPANY" "VW AG"

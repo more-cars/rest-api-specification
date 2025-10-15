@@ -4,7 +4,7 @@ Feature: Create BRAND-belongs-to-company Relationship
   @RULE_MCA-837
   Rule: Requests to create a ›belongs-to-company‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-840
+    @TEST_MCA-840 @implemented
     Scenario: Trying to create a ›belongs-to-company‹ relationship where both IDs are invalid
       Given "BRAND" "Bentley" does NOT exist
       And "COMPANY" "VW AG" does NOT exist

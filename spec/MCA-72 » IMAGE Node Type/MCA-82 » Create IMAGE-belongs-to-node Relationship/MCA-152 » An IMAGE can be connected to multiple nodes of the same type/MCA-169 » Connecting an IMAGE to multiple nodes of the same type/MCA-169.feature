@@ -7,17 +7,17 @@ Feature: Create IMAGE-belongs-to-node Relationship
   @RULE_MCA-152
   Rule: An IMAGE can be connected to multiple nodes of the same type
 
-    @TEST_MCA-169
+    @TEST_MCA-169 @implemented
     Scenario Outline: Connecting an IMAGE to multiple nodes of the same type
-      Given there exists a "<node type>" "<node 1>"
-      And there exists a "<node type>" "<node 2>"
-      And there exists an "IMAGE" "<image>"
-      When the user attaches the "<node type>" "<node 1>" to the IMAGE "<image>"
-      And the user attaches the "<node type>" "<node 2>" to the IMAGE "<image>"
-      Then "<node type>" "<node 1>" should be connected to IMAGE "<image>"
-      And "<node type>" "<node 2>" should be connected to IMAGE "<image>"
+      Given there exists an "IMAGE" "<image>"
+      And there exists a "<node_type>" "<node_1>"
+      And there exists a "<node_type>" "<node_2>"
+      When the user creates a "belongs to node" relationship between "<image>" and "<node_1>"
+      And the user creates a "belongs to node" relationship between "<image>" and "<node_2>"
+      Then there should exist a "belongs to node" relationship between "<image>" and "<node_1>"
+      And there should exist a "belongs to node" relationship between "<image>" and "<node_2>"
 
       Examples:
-        | node type | node 1   | node 2 | image                    |
+        | node_type | node_1   | node_2 | image                    |
         | BRAND     | Ferrari  | Toyota | brand-collection.jpg     |
         | CAR MODEL | Countach | Golf   | car-model-collection.jpg |

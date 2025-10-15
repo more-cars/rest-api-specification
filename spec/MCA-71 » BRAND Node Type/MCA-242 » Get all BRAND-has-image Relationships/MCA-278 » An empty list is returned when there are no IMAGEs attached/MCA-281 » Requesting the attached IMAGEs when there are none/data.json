@@ -2,7 +2,7 @@
   "id": "MCA-281",
   "parent_id": "MCA-278",
   "title": "Requesting the attached IMAGEs when there are none",
-  "gherkin": "Given there exists a \"BRAND\" \"Maserati\"\nAnd there are no IMAGEs attached to BRAND \"Maserati\"\nWhen the user requests all IMAGEs that are connected to BRAND \"Maserati\"\nThen the response should return an empty list",
+  "gherkin": "Given there exists a \"BRAND\" \"Maserati\"\nAnd there exist 0 \"has image\" relationships for \"Maserati\"\nWhen the user requests all IMAGEs that are connected to BRAND \"Maserati\"\nThen the response should return an empty list",
   "labels": [
     "implemented"
   ],

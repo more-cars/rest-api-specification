@@ -7,12 +7,12 @@ Feature: Create IMAGE-belongs-to-node Relationship
   @RULE_MCA-153
   Rule: An IMAGE can be connected to multiple nodes of different type
 
-    @TEST_MCA-170
+    @TEST_MCA-170 @implemented
     Scenario: Connecting an IMAGE to multiple nodes of different type
-      Given there exists a "BRAND" "Porsche"
+      Given there exists an "IMAGE" "porsche-cayman.jpg"
+      And there exists a "BRAND" "Porsche"
       And there exists a "CAR MODEL" "Cayman"
-      And there exists an "IMAGE" "porsche-cayman.jpg"
-      When the user attaches the "BRAND" "Porsche" to the image "porsche-cayman.jpg"
-      And the user attaches the "CAR MODEL" "Cayman" to the image "porsche-cayman.jpg"
-      Then "BRAND" "Porsche" should be connected to image "porsche-cayman.jpg"
-      And "CAR MODEL" "Cayman" should be connected to image "porsche-cayman.jpg"
+      When the user creates a "belongs to node" relationship between "porsche-cayman.jpg" and "Porsche"
+      And the user creates a "belongs to node" relationship between "porsche-cayman.jpg" and "Cayman"
+      Then there should exist a "belongs to node" relationship between "porsche-cayman.jpg" and "Porsche"
+      And there should exist a "belongs to node" relationship between "porsche-cayman.jpg" and "Cayman"
