@@ -1,0 +1,11 @@
+{
+  "id": "MCA-860",
+  "parent_id": "MCA-859",
+  "title": "Trying to delete a non-existent ›belongs-to-company‹ relationship",
+  "gherkin": "Given there exists a \"BRAND\" \"Cadillac\"\nAnd there exists a \"COMPANY\" \"VW AG\"\nAnd there exists NO \"belongs to company\" relationship between \"Cadillac\" and \"VW AG\"\nWhen the user deletes the \"belongs to company\" relationship between \"Cadillac\" and \"VW AG\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T11:37:18.229+0200",
+  "updated_at": "2025-10-15T12:03:58.200+0200"
+}

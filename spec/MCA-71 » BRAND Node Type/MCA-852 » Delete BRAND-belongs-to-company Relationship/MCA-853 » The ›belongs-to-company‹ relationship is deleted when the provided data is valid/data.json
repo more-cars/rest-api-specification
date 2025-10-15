@@ -1,0 +1,9 @@
+{
+  "id": "MCA-853",
+  "parent_id": "MCA-852",
+  "title": "The ›belongs-to-company‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a BRAND and the second node needs to be a COMPANY.\n",
+  "release_version": "0.22.0",
+  "created_at": "2025-10-15T11:36:51.771+0200",
+  "updated_at": "2025-10-15T12:02:19.169+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-851",
+  "parent_id": "MCA-850",
+  "title": "Trying to fetch the ›belongs-to-company‹ relationship with an invalid BRAND ID",
+  "gherkin": "Given \"BRAND\" \"Company\" does NOT exist\nWhen the user requests the \"belongs to company\" relationship for \"Company\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T11:09:14.863+0200",
+  "updated_at": "2025-10-15T11:34:31.646+0200"
+}

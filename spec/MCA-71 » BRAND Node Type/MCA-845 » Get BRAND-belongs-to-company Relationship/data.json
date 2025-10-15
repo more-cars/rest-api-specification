@@ -1,0 +1,18 @@
+{
+  "id": "MCA-845",
+  "parent_id": "MCA-71",
+  "title": "Get BRAND-belongs-to-company Relationship",
+  "user_story": "",
+  "description": "* The ›belongs-to-company‹ relationship for the selected BRAND is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID and the two node IDs, but not the nodes itself.\n* An empty response is returned when the the selected BRAND has no ›belongs-to-company‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a BRAND. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/brands/<brand-id>/belongs-to-company",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.22.0"
+  ],
+  "created_at": "2025-10-15T11:08:49.325+0200",
+  "updated_at": "2025-10-15T11:29:17.480+0200"
+}

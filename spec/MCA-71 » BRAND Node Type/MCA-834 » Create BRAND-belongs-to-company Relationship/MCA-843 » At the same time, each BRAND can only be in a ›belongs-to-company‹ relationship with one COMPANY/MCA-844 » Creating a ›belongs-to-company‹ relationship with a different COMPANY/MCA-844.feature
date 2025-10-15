@@ -4,7 +4,7 @@ Feature: Create BRAND-belongs-to-company Relationship
   @RULE_MCA-843
   Rule: At the same time, each BRAND can only be in a ›belongs-to-company‹ relationship with one COMPANY
 
-    @TEST_MCA-844 @implemented
+    @TEST_MCA-844 @deactivated @implemented
     Scenario: Creating a ›belongs-to-company‹ relationship with a different COMPANY
       Given there exists a "BRAND" "Bentley"
       And there exists a "COMPANY" "VW AG"

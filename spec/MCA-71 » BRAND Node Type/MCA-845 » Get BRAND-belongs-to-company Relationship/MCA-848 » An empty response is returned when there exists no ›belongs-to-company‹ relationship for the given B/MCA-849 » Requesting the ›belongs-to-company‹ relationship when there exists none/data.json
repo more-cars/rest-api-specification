@@ -1,0 +1,11 @@
+{
+  "id": "MCA-849",
+  "parent_id": "MCA-848",
+  "title": "Requesting the ›belongs-to-company‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"BRAND\" \"Company\"\nAnd there exists NO \"belongs to company\" relationship for \"Company\"\nWhen the user requests the \"belongs to company\" relationship for \"Company\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-15T11:09:03.431+0200",
+  "updated_at": "2025-10-15T11:34:30.154+0200"
+}
