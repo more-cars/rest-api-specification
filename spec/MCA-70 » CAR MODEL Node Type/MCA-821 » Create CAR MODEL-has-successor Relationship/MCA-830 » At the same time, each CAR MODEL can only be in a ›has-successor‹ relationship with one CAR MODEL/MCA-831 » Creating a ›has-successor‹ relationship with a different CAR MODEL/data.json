@@ -4,9 +4,8 @@
   "title": "Creating a ›has-successor‹ relationship with a different CAR MODEL",
   "gherkin": "Given there exists a \"CAR MODEL\" \"Countach\"\nAnd there exists a \"CAR MODEL\" \"Diablo\"\nAnd there exists a \"CAR MODEL\" \"Diablo (Alternative)\"\nWhen the user creates a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nThen there should exist a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nWhen the user creates a \"has successor\" relationship between \"Countach\" and \"Diablo (Alternative)\"\nThen there should exist a \"has successor\" relationship between \"Countach\" and \"Diablo (Alternative)\"\nBut there should exist NO \"has successor\" relationship between \"Countach\" and \"Diablo\"",
   "labels": [
-    "deactivated",
     "implemented"
   ],
   "created_at": "2025-10-14T16:13:08.584+0200",
-  "updated_at": "2025-10-14T18:21:53.161+0200"
+  "updated_at": "2025-10-16T13:09:15.811+0200"
 }

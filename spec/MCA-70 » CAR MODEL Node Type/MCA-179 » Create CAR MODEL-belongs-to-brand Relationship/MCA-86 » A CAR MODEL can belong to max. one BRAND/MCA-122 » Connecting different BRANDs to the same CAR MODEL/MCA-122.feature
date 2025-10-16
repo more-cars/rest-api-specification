@@ -7,7 +7,7 @@ Feature: Create CAR MODEL-belongs-to-brand Relationship
   @RULE_MCA-86
   Rule: A CAR MODEL can belong to max. one BRAND
 
-    @TEST_MCA-122 @deactivated @implemented
+    @TEST_MCA-122 @implemented
     Scenario: Connecting different BRANDs to the same CAR MODEL
       Given there exists a "CAR MODEL" "Veyron"
       And there exists a "BRAND" "Chevrolet"

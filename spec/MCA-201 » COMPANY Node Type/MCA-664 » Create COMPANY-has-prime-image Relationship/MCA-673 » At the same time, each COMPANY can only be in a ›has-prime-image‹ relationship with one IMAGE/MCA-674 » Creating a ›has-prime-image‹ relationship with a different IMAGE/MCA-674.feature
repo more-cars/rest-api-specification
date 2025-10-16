@@ -7,7 +7,7 @@ Feature: Create COMPANY-has-prime-image Relationship
   @RULE_MCA-673
   Rule: At the same time, each COMPANY can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-674 @deactivated @implemented
+    @TEST_MCA-674 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "COMPANY" "Bugatti"
       And there exists a "IMAGE" "logo"
