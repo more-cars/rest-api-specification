@@ -2,7 +2,7 @@
   "id": "MCA-847",
   "parent_id": "MCA-846",
   "title": "Requesting the ›belongs-to-company‹ relationship when one exists",
-  "gherkin": "Given there exists a \"BRAND\" \"Company\"\nAnd there exists a \"belongs to company\" relationship \"R\" for \"Company\"\nWhen the user requests the \"belongs to company\" relationship for \"Company\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
+  "gherkin": "Given there exists a \"BRAND\" \"Audi\"\nAnd there exists a \"belongs to company\" relationship \"R\" for \"Audi\"\nWhen the user requests the \"belongs to company\" relationship for \"Audi\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
   "labels": [
     "deactivated",
     "implemented"

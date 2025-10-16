@@ -6,8 +6,8 @@ Feature: Get BRAND-belongs-to-company Relationship
 
     @TEST_MCA-849 @implemented
     Scenario: Requesting the ›belongs-to-company‹ relationship when there exists none
-      Given there exists a "BRAND" "Company"
-      And there exists NO "belongs to company" relationship for "Company"
-      When the user requests the "belongs to company" relationship for "Company"
+      Given there exists a "BRAND" "Audi"
+      And there exists NO "belongs to company" relationship for "Audi"
+      When the user requests the "belongs to company" relationship for "Audi"
       Then the request should be confirmed with status code 200
       But the response should return an empty body
