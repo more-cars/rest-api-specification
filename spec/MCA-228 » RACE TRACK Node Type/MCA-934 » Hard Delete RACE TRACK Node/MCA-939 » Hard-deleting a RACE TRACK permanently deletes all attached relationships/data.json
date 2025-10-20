@@ -1,0 +1,9 @@
+{
+  "id": "MCA-939",
+  "parent_id": "MCA-934",
+  "title": "Hard-deleting a RACE TRACK permanently deletes all attached relationships",
+  "description": "This affects all attached relationships (no matter the type) - be it internal or public relationships. Features that rely on those relationships are responsible to copy, backup or persist the data themselves.\n",
+  "release_version": "0.23.0",
+  "created_at": "2025-10-20T17:00:14.571+0200",
+  "updated_at": "2025-10-20T17:59:55.217+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-936",
+  "parent_id": "MCA-935",
+  "title": "Hard-deleting an existing RACE TRACK",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"AVUS\"\nWhen the user hard-deletes the \"RACE TRACK\" \"AVUS\"\nThen the response should return with status code 204\nAnd the \"RACE TRACK\" \"AVUS\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-20T17:00:03.750+0200",
+  "updated_at": "2025-10-20T18:00:32.697+0200"
+}

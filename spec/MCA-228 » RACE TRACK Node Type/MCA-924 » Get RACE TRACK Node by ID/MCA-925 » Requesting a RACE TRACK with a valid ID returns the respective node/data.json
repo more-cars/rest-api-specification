@@ -1,0 +1,9 @@
+{
+  "id": "MCA-925",
+  "parent_id": "MCA-924",
+  "title": "Requesting a RACE TRACK with a valid ID returns the respective node",
+  "description": "An ID is deemed valid when there exists a node with that ID AND the node is from type RACE TRACK.\n",
+  "release_version": "0.23.0",
+  "created_at": "2025-10-20T16:33:45.236+0200",
+  "updated_at": "2025-10-20T16:54:46.818+0200"
+}
