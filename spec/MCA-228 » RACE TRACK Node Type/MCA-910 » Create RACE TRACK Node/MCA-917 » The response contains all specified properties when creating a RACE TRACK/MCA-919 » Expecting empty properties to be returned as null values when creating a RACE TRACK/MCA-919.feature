@@ -13,10 +13,10 @@ Feature: Create RACE TRACK Node
         | key  | value       | datatype |
         | name | Lausitzring | string   |
       Then the response should contain the following properties
-        | key          | value       | number |
-        | name         | Lausitzring | string |
-        | opened       |             | number |
-        | closed       |             | number |
-        | type         |             | string |
-        | location     |             | string |
-        | geo_position |             | string |
+        | key          | value       | datatype |
+        | name         | Lausitzring | string   |
+        | opened       |             | number   |
+        | closed       |             | number   |
+        | type         |             | string   |
+        | location     |             | string   |
+        | geo_position |             | string   |

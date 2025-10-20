@@ -2,7 +2,7 @@
   "id": "MCA-919",
   "parent_id": "MCA-917",
   "title": "Expecting empty properties to be returned as null values when creating a RACE TRACK",
-  "gherkin": "When the user creates a \"RACE TRACK\" \"Lausitzring\" with the following data\n  | key | value | datatype |\n  | name | Lausitzring | string |\nThen the response should contain the following properties\n  | key | value | number |\n  | name | Lausitzring | string |\n  | opened | | number |\n  | closed | | number |\n  | type | | string |\n  | location | | string |\n  | geo_position | | string |",
+  "gherkin": "When the user creates a \"RACE TRACK\" \"Lausitzring\" with the following data\n  | key | value | datatype |\n  | name | Lausitzring | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Lausitzring | string |\n  | opened | | number |\n  | closed | | number |\n  | type | | string |\n  | location | | string |\n  | geo_position | | string |",
   "labels": [
     "implemented"
   ],
