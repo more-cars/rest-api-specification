@@ -1,0 +1,11 @@
+{
+  "id": "MCA-919",
+  "parent_id": "MCA-917",
+  "title": "Expecting empty properties to be returned as null values when creating a RACE TRACK",
+  "gherkin": "When the user creates a \"RACE TRACK\" \"Lausitzring\" with the following data\n  | key | value | datatype |\n  | name | Lausitzring | string |\nThen the response should contain the following properties\n  | key | value | number |\n  | name | Lausitzring | string |\n  | opened | | number |\n  | closed | | number |\n  | type | | string |\n  | location | | string |\n  | geo_position | | string |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-17T10:58:09.034+0200",
+  "updated_at": "2025-10-20T11:54:25.162+0200"
+}
