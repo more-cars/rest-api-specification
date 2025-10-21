@@ -2,7 +2,7 @@
   "id": "MCA-991",
   "parent_id": "MCA-990",
   "title": "Requesting the ›has-layout‹ relationships when at least one exists",
-  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exist 3 \"has-layout\" relationships for \"Hockenheimring\"\nWhen the user requests all \"has-layout\" relationships for \"Hockenheimring\"\nThen the request should be confirmed with status code 200\nAnd the response should contain a collection of 3 \"has-layout\" relationships",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exist 3 \"has-layout\" relationships for \"Hockenheimring\"\nWhen the user requests all \"has-layout\" relationships for \"Hockenheimring\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has-layout\" relationships",
   "labels": [
     "implemented"
   ],

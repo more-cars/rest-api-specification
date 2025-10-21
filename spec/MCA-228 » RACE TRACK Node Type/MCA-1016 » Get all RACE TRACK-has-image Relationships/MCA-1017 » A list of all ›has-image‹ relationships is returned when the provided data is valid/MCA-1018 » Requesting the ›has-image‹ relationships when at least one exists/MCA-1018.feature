@@ -10,4 +10,4 @@ Feature: Get all RACE TRACK-has-image Relationships
       And there exist 3 "has-image" relationships for "Hockenheimring"
       When the user requests all "has-image" relationships for "Hockenheimring"
       Then the request should be confirmed with status code 200
-      And the response should contain a collection of 3 "has-image" relationships
+      And the response should return a collection with 3 "has-image" relationships

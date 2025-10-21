@@ -10,4 +10,4 @@ Feature: Get all RACE TRACK-has-layout Relationships
       And there exist 3 "has-layout" relationships for "Hockenheimring"
       When the user requests all "has-layout" relationships for "Hockenheimring"
       Then the request should be confirmed with status code 200
-      And the response should contain a collection of 3 "has-layout" relationships
+      And the response should return a collection with 3 "has-layout" relationships
