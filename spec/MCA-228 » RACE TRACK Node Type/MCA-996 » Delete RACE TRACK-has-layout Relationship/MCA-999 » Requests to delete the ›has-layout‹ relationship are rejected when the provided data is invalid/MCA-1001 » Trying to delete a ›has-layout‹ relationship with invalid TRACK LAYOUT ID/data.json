@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1001",
+  "parent_id": "MCA-999",
+  "title": "Trying to delete a ›has-layout‹ relationship with invalid TRACK LAYOUT ID",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd \"TRACK LAYOUT\" \"GP Circuit\" does NOT exist\nWhen the user deletes the \"has layout\" relationship between \"Hockenheimring\" and \"GP Circuit\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:19:04.008+0200",
+  "updated_at": "2025-10-21T19:25:55.425+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1110",
+  "parent_id": "MCA-1107",
+  "title": "Trying to delete a ›has-image‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"TRACK LAYOUT\" \"GP Circuit\" does NOT exist\nAnd \"IMAGE\" \"BMW logo\" does NOT exist\nWhen the user deletes the \"has image\" relationship between \"GP Circuit\" and \"BMW logo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T18:01:44.631+0200",
+  "updated_at": "2025-10-21T19:29:30.702+0200"
+}

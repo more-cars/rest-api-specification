@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1133",
+  "parent_id": "MCA-1132",
+  "title": "Deleting the ›has-prime-image‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exists a \"IMAGE\" \"Hot Wheels Corvette\"\nAnd there exists a \"has prime image\" relationship \"R\" between \"GP Circuit\" and \"Hot Wheels Corvette\"\nWhen the user deletes the \"has prime image\" relationship between \"GP Circuit\" and \"Hot Wheels Corvette\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T18:11:39.649+0200",
+  "updated_at": "2025-10-21T19:29:33.911+0200"
+}

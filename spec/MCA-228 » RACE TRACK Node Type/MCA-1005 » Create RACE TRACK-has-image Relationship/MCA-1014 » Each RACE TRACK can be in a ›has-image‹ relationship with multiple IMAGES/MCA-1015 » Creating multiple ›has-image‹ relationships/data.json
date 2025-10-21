@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1015",
+  "parent_id": "MCA-1014",
+  "title": "Creating multiple ›has-image‹ relationships",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exists a \"IMAGE\" \"start-finish-line\"\nAnd there exists a \"IMAGE\" \"start-finish-line (Alternative)\"\nWhen the user creates a \"has image\" relationship between \"Hockenheimring\" and \"start-finish-line\"\nAnd the user creates a \"has image\" relationship between \"Hockenheimring\" and \"start-finish-line (Alternative)\"\nThen there should exist a \"has image\" relationship between \"Hockenheimring\" and \"start-finish-line\"\nAnd there should exist a \"has image\" relationship between \"Hockenheimring\" and \"start-finish-line (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:30:05.473+0200",
+  "updated_at": "2025-10-21T19:25:58.435+0200"
+}

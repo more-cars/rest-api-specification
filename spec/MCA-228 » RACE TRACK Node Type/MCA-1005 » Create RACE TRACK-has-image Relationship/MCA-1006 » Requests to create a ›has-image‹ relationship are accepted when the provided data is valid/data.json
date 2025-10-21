@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1006",
+  "parent_id": "MCA-1005",
+  "title": "Requests to create a ›has-image‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type RACE TRACK resp. IMAGE.\n",
+  "release_version": "0.23.0",
+  "created_at": "2025-10-21T11:29:31.411+0200",
+  "updated_at": "2025-10-21T19:16:01.432+0200"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MCA-1043",
+  "parent_id": "MCA-228",
+  "title": "Get RACE TRACK-has-prime-image Relationship",
+  "user_story": "",
+  "description": "* The ›has-prime-image‹ relationship for the selected RACE TRACK is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* An empty response is returned when the selected RACE TRACK has no ›has-prime-image‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a RACE TRACK. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/race-tracks/<race-track-id>/has-prime-image",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.23.0"
+  ],
+  "created_at": "2025-10-21T11:46:50.594+0200",
+  "updated_at": "2025-10-21T19:20:54.039+0200"
+}

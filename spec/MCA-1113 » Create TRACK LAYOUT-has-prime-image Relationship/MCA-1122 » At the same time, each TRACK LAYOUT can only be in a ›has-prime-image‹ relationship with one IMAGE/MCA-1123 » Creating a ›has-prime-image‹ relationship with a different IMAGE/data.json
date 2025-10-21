@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1123",
+  "parent_id": "MCA-1122",
+  "title": "Creating a ›has-prime-image‹ relationship with a different IMAGE",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exists a \"IMAGE\" \"latest circuit map\"\nAnd there exists a \"IMAGE\" \"latest circuit map (Alternative)\"\nWhen the user creates a \"has prime image\" relationship between \"GP Circuit\" and \"latest circuit map\"\nThen there should exist a \"has prime image\" relationship between \"GP Circuit\" and \"latest circuit map\"\nWhen the user creates a \"has prime image\" relationship between \"GP Circuit\" and \"latest circuit map (Alternative)\"\nThen there should exist a \"has prime image\" relationship between \"GP Circuit\" and \"latest circuit map (Alternative)\"\nBut there should exist NO \"has prime image\" relationship between \"GP Circuit\" and \"latest circuit map\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T18:06:12.198+0200",
+  "updated_at": "2025-10-21T19:29:32.346+0200"
+}

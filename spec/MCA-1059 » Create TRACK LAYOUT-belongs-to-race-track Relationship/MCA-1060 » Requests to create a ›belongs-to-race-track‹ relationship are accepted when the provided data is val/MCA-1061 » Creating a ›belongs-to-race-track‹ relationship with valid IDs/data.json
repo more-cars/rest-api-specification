@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1061",
+  "parent_id": "MCA-1060",
+  "title": "Creating a ›belongs-to-race-track‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nAnd there exists a \"RACE TRACK\" \"Silverstone\"\nWhen the user creates a \"belongs to race track\" relationship between \"Club Circuit\" and \"Silverstone\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:40:32.951+0200",
+  "updated_at": "2025-10-21T19:29:21.602+0200"
+}

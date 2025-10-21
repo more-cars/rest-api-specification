@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1007",
+  "parent_id": "MCA-1006",
+  "title": "Creating a ›has-image‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exists a \"IMAGE\" \"start-finish-line\"\nWhen the user creates a \"has image\" relationship between \"Hockenheimring\" and \"start-finish-line\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:29:34.772+0200",
+  "updated_at": "2025-10-21T19:25:56.123+0200"
+}

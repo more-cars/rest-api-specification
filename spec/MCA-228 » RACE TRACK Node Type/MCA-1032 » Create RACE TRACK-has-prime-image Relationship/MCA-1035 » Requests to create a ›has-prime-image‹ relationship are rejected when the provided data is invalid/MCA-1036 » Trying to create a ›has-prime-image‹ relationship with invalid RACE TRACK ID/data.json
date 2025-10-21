@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1036",
+  "parent_id": "MCA-1035",
+  "title": "Trying to create a ›has-prime-image‹ relationship with invalid RACE TRACK ID",
+  "gherkin": "Given \"RACE TRACK\" \"Hockenheimring\" does NOT exist\nAnd there exists a \"IMAGE\" \"first-corner\"\nWhen the user creates a \"has prime image\" relationship between \"Hockenheimring\" and \"first-corner\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:45:07.824+0200",
+  "updated_at": "2025-10-21T19:26:01.569+0200"
+}

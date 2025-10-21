@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1013",
+  "parent_id": "MCA-1012",
+  "title": "Trying to create the same ›has-image‹ relationship again",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exists a \"IMAGE\" \"start-finish-line\"\nAnd there exists a \"has image\" relationship between \"Hockenheimring\" and \"start-finish-line\"\nWhen the user creates a \"has image\" relationship between \"Hockenheimring\" and \"start-finish-line\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:29:58.736+0200",
+  "updated_at": "2025-10-21T19:25:57.940+0200"
+}

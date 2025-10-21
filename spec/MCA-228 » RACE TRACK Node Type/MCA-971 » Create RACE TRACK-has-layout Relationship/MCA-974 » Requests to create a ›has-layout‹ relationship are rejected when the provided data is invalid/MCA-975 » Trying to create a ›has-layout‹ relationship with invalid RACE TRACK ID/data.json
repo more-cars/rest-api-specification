@@ -1,0 +1,11 @@
+{
+  "id": "MCA-975",
+  "parent_id": "MCA-974",
+  "title": "Trying to create a ›has-layout‹ relationship with invalid RACE TRACK ID",
+  "gherkin": "Given \"RACE TRACK\" \"Hockenheimring\" does NOT exist\nAnd there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nWhen the user creates a \"has layout\" relationship between \"Hockenheimring\" and \"GP Circuit\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:07:43.995+0200",
+  "updated_at": "2025-10-21T19:25:50.347+0200"
+}

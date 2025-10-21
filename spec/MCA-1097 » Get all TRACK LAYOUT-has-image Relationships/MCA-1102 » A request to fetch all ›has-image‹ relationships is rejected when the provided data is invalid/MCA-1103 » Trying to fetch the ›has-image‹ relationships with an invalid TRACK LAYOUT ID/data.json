@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1103",
+  "parent_id": "MCA-1102",
+  "title": "Trying to fetch the ›has-image‹ relationships with an invalid TRACK LAYOUT ID",
+  "gherkin": "Given \"TRACK LAYOUT\" \"GP Circuit\" does NOT exist\nWhen the user requests all \"has-image\" relationships for \"GP Circuit\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:57:45.739+0200",
+  "updated_at": "2025-10-21T19:29:28.857+0200"
+}

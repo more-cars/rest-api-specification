@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1074",
+  "parent_id": "MCA-1073",
+  "title": "Requesting the ›belongs-to-race-track‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nAnd there exists NO \"belongs to race track\" relationship for \"Club Circuit\"\nWhen the user requests the \"belongs to race track\" relationship for \"Club Circuit\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:43:43.624+0200",
+  "updated_at": "2025-10-21T19:29:24.064+0200"
+}

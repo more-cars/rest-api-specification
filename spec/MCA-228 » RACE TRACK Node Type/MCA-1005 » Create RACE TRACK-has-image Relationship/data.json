@@ -1,0 +1,19 @@
+{
+  "id": "MCA-1005",
+  "parent_id": "MCA-228",
+  "title": "Create RACE TRACK-has-image Relationship",
+  "user_story": "",
+  "description": "* The relationship ›has-image‹ is created when the provided IDs of the RACE TRACK and IMAGE are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›has-image‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* Each RACE TRACK can be in a ›has-image‹ relationship with multiple IMAGES\n",
+  "api_verb": "POST",
+  "api_path": "/race-tracks/<race-track-id>/has-image/<image-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [
+    "0.23.0"
+  ],
+  "created_at": "2025-10-21T11:29:28.747+0200",
+  "updated_at": "2025-10-21T19:20:55.516+0200"
+}

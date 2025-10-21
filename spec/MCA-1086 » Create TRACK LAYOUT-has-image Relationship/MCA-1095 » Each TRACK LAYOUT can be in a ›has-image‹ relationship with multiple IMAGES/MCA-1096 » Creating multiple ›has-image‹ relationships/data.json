@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1096",
+  "parent_id": "MCA-1095",
+  "title": "Creating multiple ›has-image‹ relationships",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exists a \"IMAGE\" \"circuit map\"\nAnd there exists a \"IMAGE\" \"circuit map (Alternative)\"\nWhen the user creates a \"has image\" relationship between \"GP Circuit\" and \"circuit map\"\nAnd the user creates a \"has image\" relationship between \"GP Circuit\" and \"circuit map (Alternative)\"\nThen there should exist a \"has image\" relationship between \"GP Circuit\" and \"circuit map\"\nAnd there should exist a \"has image\" relationship between \"GP Circuit\" and \"circuit map (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:53:36.269+0200",
+  "updated_at": "2025-10-21T19:29:28.100+0200"
+}

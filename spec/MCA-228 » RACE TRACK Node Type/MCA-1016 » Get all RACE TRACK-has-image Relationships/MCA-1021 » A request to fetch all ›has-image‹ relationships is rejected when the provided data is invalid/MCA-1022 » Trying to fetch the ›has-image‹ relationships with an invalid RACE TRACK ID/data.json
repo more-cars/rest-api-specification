@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1022",
+  "parent_id": "MCA-1021",
+  "title": "Trying to fetch the ›has-image‹ relationships with an invalid RACE TRACK ID",
+  "gherkin": "Given \"RACE TRACK\" \"Hockenheimring\" does NOT exist\nWhen the user requests all \"has-image\" relationships for \"Hockenheimring\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:34:54.422+0200",
+  "updated_at": "2025-10-21T19:25:59.098+0200"
+}

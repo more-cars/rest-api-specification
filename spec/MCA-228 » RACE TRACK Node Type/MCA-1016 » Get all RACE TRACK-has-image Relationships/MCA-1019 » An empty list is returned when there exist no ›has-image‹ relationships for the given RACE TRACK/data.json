@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1019",
+  "parent_id": "MCA-1016",
+  "title": "An empty list is returned when there exist no ›has-image‹ relationships for the given RACE TRACK",
+  "description": "",
+  "release_version": "0.23.0",
+  "created_at": "2025-10-21T11:34:40.972+0200",
+  "updated_at": "2025-10-21T19:15:59.590+0200"
+}

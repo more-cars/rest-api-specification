@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1092",
+  "parent_id": "MCA-1089",
+  "title": "Trying to create a ›has-image‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"TRACK LAYOUT\" \"GP Circuit\" does NOT exist\nAnd \"IMAGE\" \"circuit map\" does NOT exist\nWhen the user creates a \"has image\" relationship between \"GP Circuit\" and \"circuit map\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:53:22.883+0200",
+  "updated_at": "2025-10-21T19:29:27.549+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1031",
+  "parent_id": "MCA-1030",
+  "title": "Trying to delete a non-existent ›has-image‹ relationship",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exists a \"IMAGE\" \"rally-track\"\nAnd there exists NO \"has image\" relationship between \"Hockenheimring\" and \"rally-track\"\nWhen the user deletes the \"has image\" relationship between \"Hockenheimring\" and \"rally-track\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:38:35.952+0200",
+  "updated_at": "2025-10-21T19:26:01.545+0200"
+}

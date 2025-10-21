@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1136",
+  "parent_id": "MCA-1134",
+  "title": "Trying to delete a ›has-prime-image‹ relationship with invalid IMAGE ID",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd \"IMAGE\" \"Hot Wheels Corvette\" does NOT exist\nWhen the user deletes the \"has prime image\" relationship between \"GP Circuit\" and \"Hot Wheels Corvette\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T18:11:50.554+0200",
+  "updated_at": "2025-10-21T19:29:34.256+0200"
+}

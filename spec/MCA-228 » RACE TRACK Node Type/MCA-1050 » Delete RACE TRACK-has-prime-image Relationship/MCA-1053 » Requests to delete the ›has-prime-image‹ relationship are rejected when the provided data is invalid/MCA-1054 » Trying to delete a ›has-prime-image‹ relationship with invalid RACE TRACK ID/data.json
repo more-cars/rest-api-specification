@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1054",
+  "parent_id": "MCA-1053",
+  "title": "Trying to delete a ›has-prime-image‹ relationship with invalid RACE TRACK ID",
+  "gherkin": "Given \"RACE TRACK\" \"Hockenheimring\" does NOT exist\nAnd there exists a \"IMAGE\" \"grand-stand\"\nWhen the user deletes the \"has prime image\" relationship between \"Hockenheimring\" and \"grand-stand\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:48:52.264+0200",
+  "updated_at": "2025-10-21T19:26:04.695+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1099",
+  "parent_id": "MCA-1098",
+  "title": "Requesting the ›has-image‹ relationships when at least one exists",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exist 3 \"has-image\" relationships for \"GP Circuit\"\nWhen the user requests all \"has-image\" relationships for \"GP Circuit\"\nThen the request should be confirmed with status code 200\nAnd the response should contain a collection of 3 \"has-image\" relationships",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:57:31.581+0200",
+  "updated_at": "2025-10-21T19:29:28.247+0200"
+}

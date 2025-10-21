@@ -1,0 +1,11 @@
+{
+  "id": "MCA-981",
+  "parent_id": "MCA-980",
+  "title": "Creating multiple ›has-layout‹ relationships",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exists a \"TRACK LAYOUT\" \"GP Circuit (Alternative)\"\nWhen the user creates a \"has layout\" relationship between \"Hockenheimring\" and \"GP Circuit\"\nAnd the user creates a \"has layout\" relationship between \"Hockenheimring\" and \"GP Circuit (Alternative)\"\nThen there should exist a \"has layout\" relationship between \"Hockenheimring\" and \"GP Circuit\"\nAnd there should exist a \"has layout\" relationship between \"Hockenheimring\" and \"GP Circuit (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T11:08:07.579+0200",
+  "updated_at": "2025-10-21T19:25:51.840+0200"
+}

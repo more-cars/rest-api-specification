@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1076",
+  "parent_id": "MCA-1075",
+  "title": "Trying to fetch the ›belongs-to-race-track‹ relationship with an invalid TRACK LAYOUT ID",
+  "gherkin": "Given \"TRACK LAYOUT\" \"Club Circuit\" does NOT exist\nWhen the user requests the \"belongs to race track\" relationship for \"Club Circuit\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:43:52.038+0200",
+  "updated_at": "2025-10-21T19:29:24.184+0200"
+}

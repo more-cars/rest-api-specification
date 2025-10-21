@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1114",
+  "parent_id": "MCA-1113",
+  "title": "Requests to create a ›has-prime-image‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type TRACK LAYOUT resp. IMAGE.\n",
+  "release_version": "0.23.0",
+  "created_at": "2025-10-21T18:05:37.550+0200",
+  "updated_at": "2025-10-21T19:15:47.456+0200"
+}

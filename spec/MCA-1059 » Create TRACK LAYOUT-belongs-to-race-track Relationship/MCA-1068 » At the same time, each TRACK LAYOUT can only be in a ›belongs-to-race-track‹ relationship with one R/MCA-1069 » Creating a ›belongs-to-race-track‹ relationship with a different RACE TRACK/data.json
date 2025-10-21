@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1069",
+  "parent_id": "MCA-1068",
+  "title": "Creating a ›belongs-to-race-track‹ relationship with a different RACE TRACK",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nAnd there exists a \"RACE TRACK\" \"Silverstone\"\nAnd there exists a \"RACE TRACK\" \"Silverstone (Alternative)\"\nWhen the user creates a \"belongs to race track\" relationship between \"Club Circuit\" and \"Silverstone\"\nThen there should exist a \"belongs to race track\" relationship between \"Club Circuit\" and \"Silverstone\"\nWhen the user creates a \"belongs to race track\" relationship between \"Club Circuit\" and \"Silverstone (Alternative)\"\nThen there should exist a \"belongs to race track\" relationship between \"Club Circuit\" and \"Silverstone (Alternative)\"\nBut there should exist NO \"belongs to race track\" relationship between \"Club Circuit\" and \"Silverstone\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:41:05.719+0200",
+  "updated_at": "2025-10-21T19:29:23.169+0200"
+}

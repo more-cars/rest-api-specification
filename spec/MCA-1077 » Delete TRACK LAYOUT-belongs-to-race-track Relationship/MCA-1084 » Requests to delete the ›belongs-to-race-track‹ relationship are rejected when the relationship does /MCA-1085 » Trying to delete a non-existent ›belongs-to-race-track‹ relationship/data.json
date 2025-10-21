@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1085",
+  "parent_id": "MCA-1084",
+  "title": "Trying to delete a non-existent ›belongs-to-race-track‹ relationship",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nAnd there exists a \"RACE TRACK\" \"Silverstone\"\nAnd there exists NO \"belongs to race track\" relationship between \"Nordschleife\" and \"Silverstone\"\nWhen the user deletes the \"belongs to race track\" relationship between \"Nordschleife\" and \"Silverstone\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:46:43.459+0200",
+  "updated_at": "2025-10-21T19:29:25.971+0200"
+}

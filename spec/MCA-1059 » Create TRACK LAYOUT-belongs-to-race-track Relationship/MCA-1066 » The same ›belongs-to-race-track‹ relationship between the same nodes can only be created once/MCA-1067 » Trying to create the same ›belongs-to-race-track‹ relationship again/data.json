@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1067",
+  "parent_id": "MCA-1066",
+  "title": "Trying to create the same ›belongs-to-race-track‹ relationship again",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nAnd there exists a \"RACE TRACK\" \"Silverstone\"\nAnd there exists a \"belongs to race track\" relationship between \"Club Circuit\" and \"Silverstone\"\nWhen the user creates a \"belongs to race track\" relationship between \"Club Circuit\" and \"Silverstone\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:40:58.688+0200",
+  "updated_at": "2025-10-21T19:29:23.101+0200"
+}

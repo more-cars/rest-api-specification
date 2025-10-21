@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1075",
+  "parent_id": "MCA-1070",
+  "title": "Requests to fetch the ›belongs-to-race-track‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no TRACK LAYOUT with the provided ID? -> rejected.\n",
+  "release_version": "0.23.0",
+  "created_at": "2025-10-21T17:43:48.785+0200",
+  "updated_at": "2025-10-21T19:15:52.333+0200"
+}

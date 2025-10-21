@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1101",
+  "parent_id": "MCA-1100",
+  "title": "Requesting the ›has-image‹ relationships when there are none",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exist 0 \"has-image\" relationships for \"GP Circuit\"\nWhen the user requests all \"has-image\" relationships for \"GP Circuit\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:57:38.696+0200",
+  "updated_at": "2025-10-21T19:29:28.554+0200"
+}

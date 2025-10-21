@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1079",
+  "parent_id": "MCA-1078",
+  "title": "Deleting the ›belongs-to-race-track‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nAnd there exists a \"RACE TRACK\" \"Silverstone\"\nAnd there exists a \"belongs to race track\" relationship \"R\" between \"Nordschleife\" and \"Silverstone\"\nWhen the user deletes the \"belongs to race track\" relationship between \"Nordschleife\" and \"Silverstone\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-21T17:46:19.512+0200",
+  "updated_at": "2025-10-21T19:29:25.158+0200"
+}
