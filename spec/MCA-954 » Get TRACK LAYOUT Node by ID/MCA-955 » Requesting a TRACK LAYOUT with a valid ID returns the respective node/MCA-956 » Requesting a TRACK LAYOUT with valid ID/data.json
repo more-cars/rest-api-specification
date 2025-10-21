@@ -1,0 +1,11 @@
+{
+  "id": "MCA-956",
+  "parent_id": "MCA-955",
+  "title": "Requesting a TRACK LAYOUT with valid ID",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nWhen the user requests the \"TRACK LAYOUT\" \"GP Circuit\"\nThen the response should return with status code 200\nAnd the response should return the \"TRACK LAYOUT\" \"GP Circuit\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-20T18:48:39.464+0200",
+  "updated_at": "2025-10-21T10:19:42.885+0200"
+}

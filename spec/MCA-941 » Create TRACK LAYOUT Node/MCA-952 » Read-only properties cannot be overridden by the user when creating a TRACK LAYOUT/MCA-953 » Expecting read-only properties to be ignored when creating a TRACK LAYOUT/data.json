@@ -1,0 +1,11 @@
+{
+  "id": "MCA-953",
+  "parent_id": "MCA-952",
+  "title": "Expecting read-only properties to be ignored when creating a TRACK LAYOUT",
+  "gherkin": "When the user creates a \"TRACK LAYOUT\" \"GP Circuit\" with the following data\n  | key | value | datatype |\n  | name | GP Circuit | string |\n  | year_from | 1967 | number |\n  | year_to | 1999 | number |\n  | length | 5.397 | number |\n  | length_unit | km | string |\n  | direction | clockwise | string |\n  | elevation_change | 73 | number |\n  | elevation_change_unit | m | string |\n  | surface | asphalt | string |\n  | id         | 1234       | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain the following keys\n  | id         |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the following properties\n  | id         | 1234       | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-20T18:33:59.559+0200",
+  "updated_at": "2025-10-21T09:34:19.476+0200"
+}

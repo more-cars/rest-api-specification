@@ -1,0 +1,11 @@
+{
+  "id": "MCA-970",
+  "parent_id": "MCA-969",
+  "title": "Expecting all attached relationships to be removed when hard-deleting a TRACK LAYOUT",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exists a \"has image\" relationship \"R1\" for \"GP Circuit\"\nAnd there exists a \"has prime image\" relationship \"R2\" for \"GP Circuit\"\nWhen the user hard-deletes the \"TRACK LAYOUT\" \"GP Circuit\"\nThen the \"TRACK LAYOUT\" \"GP Circuit\" should not exist anymore\nAnd the relationship \"R1\" should not exist anymore\nAnd the relationship \"R2\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-20T18:52:02.899+0200",
+  "updated_at": "2025-10-21T10:59:41.061+0200"
+}

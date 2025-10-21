@@ -1,0 +1,11 @@
+{
+  "id": "MCA-968",
+  "parent_id": "MCA-967",
+  "title": "Trying to hard-delete a non-existing TRACK LAYOUT",
+  "gherkin": "Given \"TRACK LAYOUT\" \"GP Circuit\" does NOT exist\nWhen the user hard-deletes the \"TRACK LAYOUT\" \"GP Circuit\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-20T18:51:55.868+0200",
+  "updated_at": "2025-10-21T10:59:39.089+0200"
+}

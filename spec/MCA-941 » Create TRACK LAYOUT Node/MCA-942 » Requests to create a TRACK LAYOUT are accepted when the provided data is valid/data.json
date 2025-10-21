@@ -1,0 +1,9 @@
+{
+  "id": "MCA-942",
+  "parent_id": "MCA-941",
+  "title": "Requests to create a TRACK LAYOUT are accepted when the provided data is valid",
+  "description": "Data is valid when its structure is correct, has no syntax errors and contains all mandatory fields.\n",
+  "release_version": "0.23.0",
+  "created_at": "2025-10-20T18:33:14.706+0200",
+  "updated_at": "2025-10-21T09:32:11.913+0200"
+}

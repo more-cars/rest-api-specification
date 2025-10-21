@@ -1,0 +1,9 @@
+{
+  "id": "MCA-960",
+  "parent_id": "MCA-959",
+  "title": "Requesting all nodes returns a list of TRACK LAYOUTS",
+  "description": "In general, all existing TRACK LAYOUTS are to be returned. But, depending on the actual amount of nodes and other features that can restrict the returned collection (like pagination or soft-deleted nodes) the response might be truncated.\n",
+  "release_version": "0.23.0",
+  "created_at": "2025-10-20T18:49:14.736+0200",
+  "updated_at": "2025-10-21T10:39:49.590+0200"
+}
