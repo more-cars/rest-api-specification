@@ -1,11 +1,11 @@
 {
-  "id": "MCA-908",
+  "id": "MCA-1140",
   "parent_id": "MCA-906",
-  "title": "Requesting a relationship that exists",
+  "title": "Requesting an existing reverse relationship",
   "gherkin": "Given there exists a \"CAR MODEL\" \"Corolla\"\nAnd there exists a \"belongs to brand\" relationship \"R\" for \"Corolla\"\nWhen the user requests the relationship \"R\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
   "labels": [
     "implemented"
   ],
-  "created_at": "2025-10-16T09:08:49.862+0200",
-  "updated_at": "2025-10-16T11:25:20.097+0200"
+  "created_at": "2025-10-22T11:38:30.989+0200",
+  "updated_at": "2025-10-22T11:40:04.064+0200"
 }

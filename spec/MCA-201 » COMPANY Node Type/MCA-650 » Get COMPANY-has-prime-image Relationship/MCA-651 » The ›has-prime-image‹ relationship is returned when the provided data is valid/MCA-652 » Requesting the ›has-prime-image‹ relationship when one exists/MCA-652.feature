@@ -11,7 +11,7 @@ Feature: Get COMPANY-has-prime-image Relationship
     @TEST_MCA-652 @implemented
     Scenario: Requesting the ›has-prime-image‹ relationship when one exists
       Given there exists a "COMPANY" "Renault S.A."
-      And there exists a "has-prime-image" relationship "R" for "Renault S.A."
-      When the user requests the "has-prime-image" relationship for "Renault S.A."
+      And there exists a "has prime image" relationship "R" for "Renault S.A."
+      When the user requests the "has prime image" relationship for "Renault S.A."
       Then the request should be confirmed with status code 200
       And the response should return the relationship "R"

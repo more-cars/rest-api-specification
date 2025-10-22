@@ -7,8 +7,8 @@ Feature: Get RELATIONSHIP by ID
   @RULE_MCA-906
   Rule: The requested relationship is returned when the provided data is valid
 
-    @TEST_MCA-908 @implemented
-    Scenario: Requesting a relationship that exists
+    @TEST_MCA-1140 @implemented
+    Scenario: Requesting an existing reverse relationship
       Given there exists a "CAR MODEL" "Corolla"
       And there exists a "belongs to brand" relationship "R" for "Corolla"
       When the user requests the relationship "R"
