@@ -11,5 +11,5 @@ Feature: Get all CAR MODEL-has-image Relationships
     Scenario: Requesting the attached IMAGEs
       Given there exists a "CAR MODEL" "Jetta"
       And there exist 3 "has image" relationships for "Jetta"
-      When the user requests all IMAGEs that are connected to CAR MODEL "Jetta"
+      When the user requests all "has image" relationships for "Jetta"
       Then the response should return a collection with 3 relationships
