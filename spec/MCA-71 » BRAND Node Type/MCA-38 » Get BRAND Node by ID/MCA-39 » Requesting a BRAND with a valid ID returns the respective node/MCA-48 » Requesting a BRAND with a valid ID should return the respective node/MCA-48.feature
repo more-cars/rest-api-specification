@@ -10,7 +10,7 @@ Feature: Get BRAND Node by ID
 
     @TEST_MCA-48 @implemented
     Scenario: Requesting a BRAND with a valid ID should return the respective node
-      Given there exists a "BRAND" "A"
-      When the user requests the "BRAND" "A"
-      Then the response should return the BRAND "A"
-      And the response should return with status code 200
+      Given there exists a "BRAND" "Audi"
+      When the user requests the "BRAND" "Audi"
+      Then the response should return with status code 200
+      And the response should return the "BRAND" "Audi"

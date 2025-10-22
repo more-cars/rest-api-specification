@@ -11,5 +11,5 @@ Feature: Create CAR MODEL-has-prime-image Relationship
     Scenario: Trying to connect a non-existent IMAGE to a non-existent CAR MODEL
       Given "CAR MODEL" "Mondeo" does NOT exist
       And "IMAGE" "front-left.jpg" does NOT exist
-      When the user requests to connect "front-left.jpg" to "Mondeo" as prime image
+      When the user creates a "has prime image" relationship between "Mondeo" and "front-left.jpg"
       Then the request should be rejected with status code 404

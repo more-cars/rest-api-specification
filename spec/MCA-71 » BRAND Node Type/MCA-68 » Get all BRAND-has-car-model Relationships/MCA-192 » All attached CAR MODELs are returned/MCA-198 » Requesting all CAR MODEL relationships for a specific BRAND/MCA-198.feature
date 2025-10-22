@@ -14,7 +14,7 @@ Feature: Get all BRAND-has-car-model Relationships
       And there exists a "CAR MODEL" "i20"
       And there exists a relationship "R1" between "BRAND" "Hyundai" and "CAR MODEL" "i10"
       And there exists a relationship "R2" between "BRAND" "Hyundai" and "CAR MODEL" "i20"
-      When the user requests a list of all CAR MODEL relationships for the BRAND "Hyundai"
+      When the user requests all "has car model" relationships for "Hyundai"
       Then the response should return with status code 200
       And the response should contain the relationship "R1"
       And the response should contain the relationship "R2"

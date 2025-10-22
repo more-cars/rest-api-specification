@@ -10,6 +10,6 @@ Feature: Get all BRAND-has-car-model Relationships
     @TEST_MCA-199 @implemented
     Scenario: Requesting all CAR MODEL relationships when there exist none
       When the user creates a "BRAND" "Hyundai"
-      And the user requests a list of all CAR MODEL relationships for the BRAND "Hyundai"
+      And the user requests all "has car model" relationships for "Hyundai"
       Then the response should return with status code 200
       And the response should return an empty list

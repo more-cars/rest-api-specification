@@ -11,10 +11,10 @@ Feature: Get specific IMAGE-belongs-to-node Relationship
     Scenario Outline: Requesting the relationship between a specific IMAGE and specific node
       Given there exists an "IMAGE" "<image>"
       And there exists a "<node type>" "<node>"
-      And there exists a relationship "R" between "IMAGE" "<image>" and "<node type>" "<node>"
+      And there exists a "belongs to node" relationship "R" between "<image>" and "<node>"
       When the user requests the "belongs to node" relationship between "<image>" and "<node>"
       Then the response should return with status code 200
-      And the response should return the IMAGE relationship "R"
+      And the response should return the relationship "R"
 
       Examples:
         | node type | node     | image                          |

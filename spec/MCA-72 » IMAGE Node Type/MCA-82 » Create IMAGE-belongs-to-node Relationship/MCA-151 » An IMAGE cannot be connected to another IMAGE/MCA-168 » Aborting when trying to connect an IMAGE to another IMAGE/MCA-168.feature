@@ -11,5 +11,5 @@ Feature: Create IMAGE-belongs-to-node Relationship
     Scenario: Aborting when trying to connect an IMAGE to another IMAGE
       Given there exists an "IMAGE" "front.jpg"
       And there exists an "IMAGE" "back.jpg"
-      When the user attaches the "IMAGE" "front.jpg" to the IMAGE "back.jpg"
-      Then the response should return with status code 422
+      When the user creates a "belongs to node" relationship between "front.jpg" and "back.jpg"
+      Then the request should be rejected with status code 422

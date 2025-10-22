@@ -11,5 +11,5 @@ Feature: Get all BRAND-has-image Relationships
     Scenario: Requesting the attached IMAGEs
       Given there exists a "BRAND" "Maserati"
       And there exist 3 "has image" relationships for "Maserati"
-      When the user requests all IMAGEs that are connected to BRAND "Maserati"
-      Then the response should return a collection with 3 relationships
+      When the user requests all "has image" relationships for "Maserati"
+      Then the response should return a collection with 3 "has image" relationships

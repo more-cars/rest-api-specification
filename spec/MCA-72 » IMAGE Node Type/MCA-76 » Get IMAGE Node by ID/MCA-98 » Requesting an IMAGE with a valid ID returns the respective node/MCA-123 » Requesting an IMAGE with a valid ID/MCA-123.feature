@@ -9,7 +9,7 @@ Feature: Get IMAGE Node by ID
 
     @TEST_MCA-123 @implemented
     Scenario: Requesting an IMAGE with a valid ID
-      Given there exists an "IMAGE" "A"
-      When the user requests the "IMAGE" "A"
+      Given there exists an "IMAGE" "Bentley logo"
+      When the user requests the "IMAGE" "Bentley logo"
       Then the response should return with status code 200
-      And the response should return the IMAGE "A"
+      And the response should return the "IMAGE" "Bentley logo"

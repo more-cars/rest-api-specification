@@ -10,5 +10,5 @@ Feature: Get all BRAND-has-car-model Relationships
     @TEST_MCA-200 @implemented
     Scenario: Requesting all CAR MODEL relationships when the BRAND does not exist
       Given "BRAND" "Hyundai" does NOT exist
-      When the user requests a list of all CAR MODEL relationships for the BRAND "Hyundai"
+      When the user requests all "has car model" relationships for "Hyundai"
       Then the response should return with status code 404

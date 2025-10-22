@@ -11,5 +11,5 @@ Feature: Get all BRAND-has-image Relationships
     Scenario: Requesting the attached IMAGEs when there are none
       Given there exists a "BRAND" "Maserati"
       And there exist 0 "has image" relationships for "Maserati"
-      When the user requests all IMAGEs that are connected to BRAND "Maserati"
+      When the user requests all "has image" relationships for "Maserati"
       Then the response should return an empty list

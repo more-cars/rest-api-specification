@@ -12,6 +12,6 @@ Feature: Create CAR MODEL-has-prime-image Relationship
       Given there exists a "CAR MODEL" "Mondeo"
       And there exists an "IMAGE" "front-left.jpg"
       And there exists an "IMAGE" "rear-spoiler.jpg"
-      When the user requests to connect "front-left.jpg" to "Mondeo" as prime image
-      And the user requests to connect "rear-spoiler.jpg" to "Mondeo" as prime image
+      When the user creates a "has prime image" relationship between "Mondeo" and "front-left.jpg"
+      And the user creates a "has prime image" relationship between "Mondeo" and "rear-spoiler.jpg"
       Then there should exist exactly one "has prime image" relationship for "Mondeo"

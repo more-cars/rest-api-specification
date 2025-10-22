@@ -11,8 +11,8 @@ Feature: Create IMAGE-belongs-to-node Relationship
     Scenario Outline: Connecting an IMAGE to another node
       Given there exists a "<node type>" "<node>"
       And there exists an "IMAGE" "<image>"
-      When the user attaches the "<node type>" "<node>" to the IMAGE "<image>"
-      Then the response should return with status code 201
+      When the user creates a "belongs to node" relationship between "<image>" and "<node>"
+      Then the request should be confirmed with status code 201
 
       Examples:
         | node type | node     | image                          |

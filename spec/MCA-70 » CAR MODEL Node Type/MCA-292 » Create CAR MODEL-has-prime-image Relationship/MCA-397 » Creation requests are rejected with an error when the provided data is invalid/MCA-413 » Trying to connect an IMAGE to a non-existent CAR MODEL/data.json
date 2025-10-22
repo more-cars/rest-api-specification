@@ -2,7 +2,7 @@
   "id": "MCA-413",
   "parent_id": "MCA-397",
   "title": "Trying to connect an IMAGE to a non-existent CAR MODEL",
-  "gherkin": "Given \"CAR MODEL\" \"Mondeo\" does NOT exist\nAnd there exists an \"IMAGE\" \"front-left.jpg\"\nWhen the user requests to connect \"front-left.jpg\" to \"Mondeo\" as prime image\nThen the request should be rejected with status code 404",
+  "gherkin": "Given \"CAR MODEL\" \"Mondeo\" does NOT exist\nAnd there exists an \"IMAGE\" \"front-left.jpg\"\nWhen the user creates a \"has prime image\" relationship between \"Mondeo\" and \"front-left.jpg\"\nThen the request should be rejected with status code 404",
   "labels": [
     "implemented"
   ],
