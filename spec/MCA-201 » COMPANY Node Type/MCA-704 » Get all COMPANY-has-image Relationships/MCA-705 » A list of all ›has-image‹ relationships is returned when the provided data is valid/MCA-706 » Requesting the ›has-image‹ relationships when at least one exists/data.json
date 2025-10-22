@@ -2,7 +2,7 @@
   "id": "MCA-706",
   "parent_id": "MCA-705",
   "title": "Requesting the ›has-image‹ relationships when at least one exists",
-  "gherkin": "Given there exists a \"COMPANY\" \"Audi AG\"\nAnd there exist 3 \"has-image\" relationships for \"Audi AG\"\nWhen the user requests all \"has-image\" relationships for \"Audi AG\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has-image\" relationships",
+  "gherkin": "Given there exists a \"COMPANY\" \"Audi AG\"\nAnd there exist 3 \"has image\" relationships for \"Audi AG\"\nWhen the user requests all \"has image\" relationships for \"Audi AG\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has image\" relationships",
   "labels": [
     "implemented"
   ],

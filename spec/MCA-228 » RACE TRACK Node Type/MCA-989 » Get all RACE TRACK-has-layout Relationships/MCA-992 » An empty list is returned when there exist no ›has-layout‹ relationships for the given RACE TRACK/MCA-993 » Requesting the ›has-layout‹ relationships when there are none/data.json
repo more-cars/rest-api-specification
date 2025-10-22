@@ -2,7 +2,7 @@
   "id": "MCA-993",
   "parent_id": "MCA-992",
   "title": "Requesting the ›has-layout‹ relationships when there are none",
-  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exist 0 \"has-layout\" relationships for \"Hockenheimring\"\nWhen the user requests all \"has-layout\" relationships for \"Hockenheimring\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exist 0 \"has layout\" relationships for \"Hockenheimring\"\nWhen the user requests all \"has layout\" relationships for \"Hockenheimring\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
   "labels": [
     "implemented"
   ],

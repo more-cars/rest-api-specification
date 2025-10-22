@@ -10,7 +10,7 @@ Feature: Get all COMPANY-has-brand Relationships
     @TEST_MCA-640 @implemented
     Scenario: Requesting the ›has-brand‹ relationships when there are none
       Given there exists a "COMPANY" "Ford Motor Company"
-      And there exist 0 "has-brand" relationships for "Ford Motor Company"
-      When the user requests all "has-brand" relationships for "Ford Motor Company"
+      And there exist 0 "has brand" relationships for "Ford Motor Company"
+      When the user requests all "has brand" relationships for "Ford Motor Company"
       Then the request should be confirmed with status code 200
       And the response should return an empty list

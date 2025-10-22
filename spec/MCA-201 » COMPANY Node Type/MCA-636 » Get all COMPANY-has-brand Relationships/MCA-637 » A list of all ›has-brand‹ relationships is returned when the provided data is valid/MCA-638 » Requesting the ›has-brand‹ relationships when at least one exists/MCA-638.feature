@@ -10,7 +10,7 @@ Feature: Get all COMPANY-has-brand Relationships
     @TEST_MCA-638 @implemented
     Scenario: Requesting the ›has-brand‹ relationships when at least one exists
       Given there exists a "COMPANY" "Ford Motor Company"
-      And there exist 3 "has-brand" relationships for "Ford Motor Company"
-      When the user requests all "has-brand" relationships for "Ford Motor Company"
+      And there exist 3 "has brand" relationships for "Ford Motor Company"
+      When the user requests all "has brand" relationships for "Ford Motor Company"
       Then the request should be confirmed with status code 200
-      And the response should return a collection with 3 "has-brand" relationships
+      And the response should return a collection with 3 "has brand" relationships

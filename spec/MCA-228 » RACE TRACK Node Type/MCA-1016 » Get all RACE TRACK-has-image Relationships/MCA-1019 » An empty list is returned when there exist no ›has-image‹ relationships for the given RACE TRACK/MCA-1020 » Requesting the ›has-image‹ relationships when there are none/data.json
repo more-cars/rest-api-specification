@@ -2,7 +2,7 @@
   "id": "MCA-1020",
   "parent_id": "MCA-1019",
   "title": "Requesting the ›has-image‹ relationships when there are none",
-  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exist 0 \"has-image\" relationships for \"Hockenheimring\"\nWhen the user requests all \"has-image\" relationships for \"Hockenheimring\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exist 0 \"has image\" relationships for \"Hockenheimring\"\nWhen the user requests all \"has image\" relationships for \"Hockenheimring\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
   "labels": [
     "implemented"
   ],

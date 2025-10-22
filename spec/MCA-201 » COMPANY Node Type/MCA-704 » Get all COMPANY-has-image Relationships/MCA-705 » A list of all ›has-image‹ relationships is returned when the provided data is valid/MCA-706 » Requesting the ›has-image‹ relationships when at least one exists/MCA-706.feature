@@ -10,7 +10,7 @@ Feature: Get all COMPANY-has-image Relationships
     @TEST_MCA-706 @implemented
     Scenario: Requesting the ›has-image‹ relationships when at least one exists
       Given there exists a "COMPANY" "Audi AG"
-      And there exist 3 "has-image" relationships for "Audi AG"
-      When the user requests all "has-image" relationships for "Audi AG"
+      And there exist 3 "has image" relationships for "Audi AG"
+      When the user requests all "has image" relationships for "Audi AG"
       Then the request should be confirmed with status code 200
-      And the response should return a collection with 3 "has-image" relationships
+      And the response should return a collection with 3 "has image" relationships

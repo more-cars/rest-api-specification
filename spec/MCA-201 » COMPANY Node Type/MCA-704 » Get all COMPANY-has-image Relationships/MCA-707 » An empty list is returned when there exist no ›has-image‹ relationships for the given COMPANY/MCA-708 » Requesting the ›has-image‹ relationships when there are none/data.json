@@ -2,7 +2,7 @@
   "id": "MCA-708",
   "parent_id": "MCA-707",
   "title": "Requesting the ›has-image‹ relationships when there are none",
-  "gherkin": "Given there exists a \"COMPANY\" \"Audi AG\"\nAnd there exist 0 \"has-image\" relationships for \"Audi AG\"\nWhen the user requests all \"has-image\" relationships for \"Audi AG\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "gherkin": "Given there exists a \"COMPANY\" \"Audi AG\"\nAnd there exist 0 \"has image\" relationships for \"Audi AG\"\nWhen the user requests all \"has image\" relationships for \"Audi AG\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCA-638",
   "parent_id": "MCA-637",
   "title": "Requesting the ›has-brand‹ relationships when at least one exists",
-  "gherkin": "Given there exists a \"COMPANY\" \"Ford Motor Company\"\nAnd there exist 3 \"has-brand\" relationships for \"Ford Motor Company\"\nWhen the user requests all \"has-brand\" relationships for \"Ford Motor Company\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has-brand\" relationships",
+  "gherkin": "Given there exists a \"COMPANY\" \"Ford Motor Company\"\nAnd there exist 3 \"has brand\" relationships for \"Ford Motor Company\"\nWhen the user requests all \"has brand\" relationships for \"Ford Motor Company\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has brand\" relationships",
   "labels": [
     "implemented"
   ],

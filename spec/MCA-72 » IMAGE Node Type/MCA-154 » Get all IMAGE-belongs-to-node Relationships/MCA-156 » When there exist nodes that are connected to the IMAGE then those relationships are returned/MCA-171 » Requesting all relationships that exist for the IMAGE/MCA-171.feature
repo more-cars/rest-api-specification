@@ -7,7 +7,7 @@ Feature: Get all IMAGE-belongs-to-node Relationships
   @RULE_MCA-156
   Rule: When there exist nodes that are connected to the IMAGE then those relationships are returned
 
-    @TEST_MCA-171 @deactivated @implemented
+    @TEST_MCA-171 @implemented
     Scenario: Requesting all relationships that exist for the IMAGE
       Given there exists an "IMAGE" "corvette.jpg"
       And there exist 3 "belongs to node" relationships for "corvette.jpg"
