@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1500",
+  "parent_id": "MCA-1499",
+  "title": "Creating a ›was-used-by-racing-event‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nAnd there exists a \"RACING EVENT\" \"GP Silverstone\"\nWhen the user creates a \"was used by racing event\" relationship between \"Grand Prix Circuit\" and \"GP Silverstone\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:33:14.285+0200",
+  "updated_at": "2025-10-23T18:55:26.306+0200"
+}

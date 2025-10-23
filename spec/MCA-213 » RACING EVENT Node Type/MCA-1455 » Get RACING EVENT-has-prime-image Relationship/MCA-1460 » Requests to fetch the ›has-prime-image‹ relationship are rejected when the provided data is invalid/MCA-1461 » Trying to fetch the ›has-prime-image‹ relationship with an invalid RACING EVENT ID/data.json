@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1461",
+  "parent_id": "MCA-1460",
+  "title": "Trying to fetch the ›has-prime-image‹ relationship with an invalid RACING EVENT ID",
+  "gherkin": "Given \"RACING EVENT\" \"GP Monaco\" does NOT exist\nWhen the user requests the \"has prime image\" relationship for \"GP Monaco\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:09:53.680+0200",
+  "updated_at": "2025-10-23T18:55:31.644+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1194",
+  "parent_id": "MCA-1193",
+  "title": "Creating multiple ›has-racing-event‹ relationships",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"Formula 1\"\nAnd there exists a \"RACING EVENT\" \"GP Monaco\"\nAnd there exists a \"RACING EVENT\" \"GP Monaco (Alternative)\"\nWhen the user creates a \"has racing event\" relationship between \"Formula 1\" and \"GP Monaco\"\nAnd the user creates a \"has racing event\" relationship between \"Formula 1\" and \"GP Monaco (Alternative)\"\nThen there should exist a \"has racing event\" relationship between \"Formula 1\" and \"GP Monaco\"\nAnd there should exist a \"has racing event\" relationship between \"Formula 1\" and \"GP Monaco (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:10:37.283+0200",
+  "updated_at": "2025-10-23T18:56:07.412+0200"
+}

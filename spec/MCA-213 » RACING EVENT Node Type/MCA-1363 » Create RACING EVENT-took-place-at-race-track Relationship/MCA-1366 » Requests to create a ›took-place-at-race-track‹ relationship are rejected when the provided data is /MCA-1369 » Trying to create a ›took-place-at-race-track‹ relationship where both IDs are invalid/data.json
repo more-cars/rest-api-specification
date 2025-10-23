@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1369",
+  "parent_id": "MCA-1366",
+  "title": "Trying to create a ›took-place-at-race-track‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"RACING EVENT\" \"GP Austria\" does NOT exist\nAnd \"RACE TRACK\" \"Red Bull Ring\" does NOT exist\nWhen the user creates a \"took place at race track\" relationship between \"GP Austria\" and \"Red Bull Ring\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T16:42:49.035+0200",
+  "updated_at": "2025-10-23T18:55:44.553+0200"
+}

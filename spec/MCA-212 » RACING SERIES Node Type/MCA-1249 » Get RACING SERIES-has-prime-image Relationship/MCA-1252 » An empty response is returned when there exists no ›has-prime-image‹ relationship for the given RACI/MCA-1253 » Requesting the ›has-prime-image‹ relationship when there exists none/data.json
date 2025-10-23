@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1253",
+  "parent_id": "MCA-1252",
+  "title": "Requesting the ›has-prime-image‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"BTCC\"\nAnd there exists NO \"has prime image\" relationship for \"BTCC\"\nWhen the user requests the \"has prime image\" relationship for \"BTCC\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:34:36.575+0200",
+  "updated_at": "2025-10-23T18:55:59.552+0200"
+}

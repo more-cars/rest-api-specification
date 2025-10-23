@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1466",
+  "parent_id": "MCA-1465",
+  "title": "Trying to delete a ›has-prime-image‹ relationship with invalid RACING EVENT ID",
+  "gherkin": "Given \"RACING EVENT\" \"GP Monaco\" does NOT exist\nAnd there exists a \"IMAGE\" \"DTM race\"\nWhen the user deletes the \"has prime image\" relationship between \"GP Monaco\" and \"DTM race\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:14:23.646+0200",
+  "updated_at": "2025-10-23T18:55:31.115+0200"
+}

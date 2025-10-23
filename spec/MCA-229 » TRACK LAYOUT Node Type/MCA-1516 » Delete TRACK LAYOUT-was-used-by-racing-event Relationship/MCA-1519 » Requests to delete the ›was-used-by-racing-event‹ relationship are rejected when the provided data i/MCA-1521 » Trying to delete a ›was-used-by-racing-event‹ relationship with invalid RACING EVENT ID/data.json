@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1521",
+  "parent_id": "MCA-1519",
+  "title": "Trying to delete a ›was-used-by-racing-event‹ relationship with invalid RACING EVENT ID",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nAnd \"RACING EVENT\" \"GP Silverstone\" does NOT exist\nWhen the user deletes the \"was used by racing event\" relationship between \"Club Circuit\" and \"GP Silverstone\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:38:10.761+0200",
+  "updated_at": "2025-10-23T18:55:23.090+0200"
+}

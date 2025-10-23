@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1493",
+  "parent_id": "MCA-1492",
+  "title": "Trying to delete a ›hosted-racing-event‹ relationship with invalid RACE TRACK ID",
+  "gherkin": "Given \"RACE TRACK\" \"Red Bull Ring\" does NOT exist\nAnd there exists a \"RACING EVENT\" \"Goodwood Festival of Speed\"\nWhen the user deletes the \"hosted racing event\" relationship between \"Red Bull Ring\" and \"Goodwood Festival of Speed\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:28:17.203+0200",
+  "updated_at": "2025-10-23T18:55:27.375+0200"
+}

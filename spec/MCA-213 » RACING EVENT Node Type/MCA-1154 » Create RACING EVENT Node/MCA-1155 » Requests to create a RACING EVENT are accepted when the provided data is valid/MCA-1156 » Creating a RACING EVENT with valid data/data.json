@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1156",
+  "parent_id": "MCA-1155",
+  "title": "Creating a RACING EVENT with valid data",
+  "gherkin": "When the user creates a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key | value | datatype |\n  | name | GP Monaco | string |\n  | round | 7 | number |\n  | date_from | 2025-05-20 | string |\n  | date_to | 2025-05-22 | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"RACING EVENT\" \"GP Monaco\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T14:47:19.235+0200",
+  "updated_at": "2025-10-23T18:56:12.216+0200"
+}

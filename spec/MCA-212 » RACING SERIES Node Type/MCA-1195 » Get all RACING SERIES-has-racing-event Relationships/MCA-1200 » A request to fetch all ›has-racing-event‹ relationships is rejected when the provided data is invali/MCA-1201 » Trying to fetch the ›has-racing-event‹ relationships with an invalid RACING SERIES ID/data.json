@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1201",
+  "parent_id": "MCA-1200",
+  "title": "Trying to fetch the ›has-racing-event‹ relationships with an invalid RACING SERIES ID",
+  "gherkin": "Given \"RACING SERIES\" \"Formula 1\" does NOT exist\nWhen the user requests all \"has racing event\" relationships for \"Formula 1\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:12:02.977+0200",
+  "updated_at": "2025-10-23T18:56:06.599+0200"
+}

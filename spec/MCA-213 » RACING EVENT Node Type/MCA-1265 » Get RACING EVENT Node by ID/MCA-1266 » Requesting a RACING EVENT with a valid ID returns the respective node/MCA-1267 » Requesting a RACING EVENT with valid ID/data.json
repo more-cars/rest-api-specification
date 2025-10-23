@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1267",
+  "parent_id": "MCA-1266",
+  "title": "Requesting a RACING EVENT with valid ID",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nWhen the user requests the \"RACING EVENT\" \"GP Monaco\"\nThen the response should return with status code 200\nAnd the response should return the \"RACING EVENT\" \"GP Monaco\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:53:26.537+0200",
+  "updated_at": "2025-10-23T18:55:57.837+0200"
+}

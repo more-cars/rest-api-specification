@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1215",
+  "parent_id": "MCA-1214",
+  "title": "Trying to create a ›has-image‹ relationship with invalid RACING SERIES ID",
+  "gherkin": "Given \"RACING SERIES\" \"DTM\" does NOT exist\nAnd there exists a \"IMAGE\" \"BMW M4 DTM poster\"\nWhen the user creates a \"has image\" relationship between \"DTM\" and \"BMW M4 DTM poster\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:17:14.052+0200",
+  "updated_at": "2025-10-23T18:56:04.670+0200"
+}

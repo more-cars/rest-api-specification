@@ -7,7 +7,7 @@ Feature: Delete RACE TRACK-has-layout Relationship
   @RULE_MCA-1003
   Rule: Requests to delete the ›has-layout‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-1004
+    @TEST_MCA-1004 @implemented
     Scenario: Trying to delete a non-existent ›has-layout‹ relationship
       Given there exists a "RACE TRACK" "Hockenheimring"
       And there exists a "TRACK LAYOUT" "GP Circuit"

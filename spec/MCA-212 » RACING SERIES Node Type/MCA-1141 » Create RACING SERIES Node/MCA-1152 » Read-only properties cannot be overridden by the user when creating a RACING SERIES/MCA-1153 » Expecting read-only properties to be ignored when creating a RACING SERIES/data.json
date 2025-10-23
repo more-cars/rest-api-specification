@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1153",
+  "parent_id": "MCA-1152",
+  "title": "Expecting read-only properties to be ignored when creating a RACING SERIES",
+  "gherkin": "When the user creates a \"RACING SERIES\" \"DTM\" with the following data\n  | key | value | datatype |\n  | name | Deutsche Tourenwagen-Masters | string |\n  | short_name | DTM | string |\n  | founded | 2000 | number |\n  | defunct |  | number |\n  | organized_by | ITR | string |\n  | vehicle_type | touring cars | string |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain the following keys\n  | key        |\n  | id         |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T14:43:58.264+0200",
+  "updated_at": "2025-10-23T18:56:12.495+0200"
+}

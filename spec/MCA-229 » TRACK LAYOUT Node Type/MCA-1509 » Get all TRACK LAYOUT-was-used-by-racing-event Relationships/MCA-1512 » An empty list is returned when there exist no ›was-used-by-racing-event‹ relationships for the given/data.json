@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1512",
+  "parent_id": "MCA-1509",
+  "title": "An empty list is returned when there exist no ›was-used-by-racing-event‹ relationships for the given TRACK LAYOUT",
+  "description": "",
+  "release_version": "0.24.0",
+  "created_at": "2025-10-22T17:36:11.411+0200",
+  "updated_at": "2025-10-23T18:44:27.922+0200"
+}

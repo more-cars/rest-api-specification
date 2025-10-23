@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1181",
+  "parent_id": "MCA-1180",
+  "title": "Trying to hard-delete a non-existing RACING SERIES",
+  "gherkin": "Given \"RACING SERIES\" \"DTM\" does NOT exist\nWhen the user hard-deletes the \"RACING SERIES\" \"DTM\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:01:37.060+0200",
+  "updated_at": "2025-10-23T18:56:09.159+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1248",
+  "parent_id": "MCA-1247",
+  "title": "Creating a ›has-prime-image‹ relationship with a different IMAGE",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"DTM\"\nAnd there exists a \"IMAGE\" \"DTM logo\"\nAnd there exists a \"IMAGE\" \"DTM logo (Alternative)\"\nWhen the user creates a \"has prime image\" relationship between \"DTM\" and \"DTM logo\"\nThen there should exist a \"has prime image\" relationship between \"DTM\" and \"DTM logo\"\nWhen the user creates a \"has prime image\" relationship between \"DTM\" and \"DTM logo (Alternative)\"\nThen there should exist a \"has prime image\" relationship between \"DTM\" and \"DTM logo (Alternative)\"\nBut there should exist NO \"has prime image\" relationship between \"DTM\" and \"DTM logo\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:31:47.175+0200",
+  "updated_at": "2025-10-23T18:56:00.095+0200"
+}

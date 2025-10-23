@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1477",
+  "parent_id": "MCA-1474",
+  "title": "Trying to create a ›hosted-racing-event‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"RACE TRACK\" \"Red Bull Ring\" does NOT exist\nAnd \"RACING EVENT\" \"GP Austria\" does NOT exist\nWhen the user creates a \"hosted racing event\" relationship between \"Red Bull Ring\" and \"GP Austria\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:24:04.365+0200",
+  "updated_at": "2025-10-23T18:55:29.307+0200"
+}

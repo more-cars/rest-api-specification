@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1297",
+  "parent_id": "MCA-1296",
+  "title": "Requesting the ›belongs-to-racing-series‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"Silverstone GP\"\nAnd there exists NO \"belongs to racing series\" relationship for \"Silverstone GP\"\nWhen the user requests the \"belongs to racing series\" relationship for \"Silverstone GP\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T16:05:42.348+0200",
+  "updated_at": "2025-10-23T18:55:54.290+0200"
+}

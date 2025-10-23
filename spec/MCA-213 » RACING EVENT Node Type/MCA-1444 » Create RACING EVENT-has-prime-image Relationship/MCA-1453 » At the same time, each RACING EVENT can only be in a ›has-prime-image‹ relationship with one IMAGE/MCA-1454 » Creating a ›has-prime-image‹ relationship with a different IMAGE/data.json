@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1454",
+  "parent_id": "MCA-1453",
+  "title": "Creating a ›has-prime-image‹ relationship with a different IMAGE",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nAnd there exists a \"IMAGE\" \"Race Start\"\nAnd there exists a \"IMAGE\" \"Race Start (Alternative)\"\nWhen the user creates a \"has prime image\" relationship between \"GP Monaco\" and \"Race Start\"\nThen there should exist a \"has prime image\" relationship between \"GP Monaco\" and \"Race Start\"\nWhen the user creates a \"has prime image\" relationship between \"GP Monaco\" and \"Race Start (Alternative)\"\nThen there should exist a \"has prime image\" relationship between \"GP Monaco\" and \"Race Start (Alternative)\"\nBut there should exist NO \"has prime image\" relationship between \"GP Monaco\" and \"Race Start\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:08:07.795+0200",
+  "updated_at": "2025-10-23T18:55:32.469+0200"
+}

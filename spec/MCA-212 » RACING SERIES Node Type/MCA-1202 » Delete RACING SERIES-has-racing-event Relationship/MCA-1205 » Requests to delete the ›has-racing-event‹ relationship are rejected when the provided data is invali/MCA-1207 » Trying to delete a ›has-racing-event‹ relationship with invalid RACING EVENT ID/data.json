@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1207",
+  "parent_id": "MCA-1205",
+  "title": "Trying to delete a ›has-racing-event‹ relationship with invalid RACING EVENT ID",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"Formula 1\"\nAnd \"RACING EVENT\" \"Thruxton Club Event\" does NOT exist\nWhen the user deletes the \"has racing event\" relationship between \"Formula 1\" and \"Thruxton Club Event\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:14:13.843+0200",
+  "updated_at": "2025-10-23T18:56:05.665+0200"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "MCA-229",
+  "title": "TRACK LAYOUT Node Type",
+  "data_structure": "```\n[\n  {\n    \"name\": \"name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"GP Circuit\"\n  },\n  {\n    \"name\": \"year_from\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"1967\"\n  },\n  {\n    \"name\": \"year_to\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"1999\"\n  },\n  {\n    \"name\": \"length\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"5.397\"\n  },\n  {\n    \"name\": \"length_unit\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"km\"\n  },\n  {\n    \"name\": \"direction\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"clockwise\"\n  },\n  {\n    \"name\": \"elevation_change\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"73\"\n  },\n  {\n    \"name\": \"elevation_change_unit\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"m\"\n  },\n  {\n    \"name\": \"surface\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"asphalt\"\n  }\n]\n```\n",
+  "created_at": "2025-06-10T15:01:44.990+0200",
+  "updated_at": "2025-10-22T15:10:23.027+0200"
+}

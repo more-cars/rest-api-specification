@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1515",
+  "parent_id": "MCA-1514",
+  "title": "Trying to fetch the ›was-used-by-racing-event‹ relationships with an invalid TRACK LAYOUT ID",
+  "gherkin": "Given \"TRACK LAYOUT\" \"Grand Prix Circuit\" does NOT exist\nWhen the user requests all \"was used by racing event\" relationships for \"Grand Prix Circuit\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:36:20.500+0200",
+  "updated_at": "2025-10-23T18:55:23.965+0200"
+}

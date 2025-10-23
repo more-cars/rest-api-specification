@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1290",
+  "parent_id": "MCA-1289",
+  "title": "Trying to create the same ›belongs-to-racing-series‹ relationship again",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"Silverstone GP\"\nAnd there exists a \"RACING SERIES\" \"Formula 1\"\nAnd there exists a \"belongs to racing series\" relationship between \"Silverstone GP\" and \"Formula 1\"\nWhen the user creates a \"belongs to racing series\" relationship between \"Silverstone GP\" and \"Formula 1\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T16:03:01.661+0200",
+  "updated_at": "2025-10-23T18:55:55.024+0200"
+}

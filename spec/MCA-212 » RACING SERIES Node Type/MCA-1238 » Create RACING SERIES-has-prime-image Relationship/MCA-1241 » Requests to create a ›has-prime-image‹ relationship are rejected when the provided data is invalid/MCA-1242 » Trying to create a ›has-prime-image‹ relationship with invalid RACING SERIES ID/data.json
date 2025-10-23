@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1242",
+  "parent_id": "MCA-1241",
+  "title": "Trying to create a ›has-prime-image‹ relationship with invalid RACING SERIES ID",
+  "gherkin": "Given \"RACING SERIES\" \"DTM\" does NOT exist\nAnd there exists a \"IMAGE\" \"DTM logo\"\nWhen the user creates a \"has prime image\" relationship between \"DTM\" and \"DTM logo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:31:22.993+0200",
+  "updated_at": "2025-10-23T18:56:01.136+0200"
+}

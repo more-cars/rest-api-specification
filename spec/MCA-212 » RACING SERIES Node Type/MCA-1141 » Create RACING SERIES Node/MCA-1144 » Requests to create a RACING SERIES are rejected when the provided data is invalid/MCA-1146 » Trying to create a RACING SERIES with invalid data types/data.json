@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1146",
+  "parent_id": "MCA-1144",
+  "title": "Trying to create a RACING SERIES with invalid data types",
+  "gherkin": "When the user tries to create a \"RACING SERIES\" \"DTM\" with the following data\n  | key | value | datatype |\n  | name | Deutsche Tourenwagen-Masters | boolean |\n  | short_name | DTM | boolean |\n  | founded | 2000 | boolean |\n  | defunct |  | boolean |\n  | organized_by | ITR | boolean |\n  | vehicle_type | touring cars | boolean |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T14:43:31.986+0200",
+  "updated_at": "2025-10-23T18:56:13.517+0200"
+}

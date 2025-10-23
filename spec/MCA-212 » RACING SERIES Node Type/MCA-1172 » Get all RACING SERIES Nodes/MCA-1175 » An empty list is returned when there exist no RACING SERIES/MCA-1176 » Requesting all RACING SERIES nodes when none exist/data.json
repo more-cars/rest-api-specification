@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1176",
+  "parent_id": "MCA-1175",
+  "title": "Requesting all RACING SERIES nodes when none exist",
+  "gherkin": "Given there exist 0 \"RACING SERIES\"s\nWhen the user requests all \"RACING SERIES\"s\nThen the response should return a collection of 0 \"RACING SERIES\"s\nAnd the response should return with status code 200",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:00:41.941+0200",
+  "updated_at": "2025-10-23T18:56:09.670+0200"
+}

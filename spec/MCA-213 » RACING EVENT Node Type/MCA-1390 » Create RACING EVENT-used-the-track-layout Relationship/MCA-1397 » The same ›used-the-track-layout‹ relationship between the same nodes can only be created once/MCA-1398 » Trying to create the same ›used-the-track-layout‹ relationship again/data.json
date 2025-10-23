@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1398",
+  "parent_id": "MCA-1397",
+  "title": "Trying to create the same ›used-the-track-layout‹ relationship again",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Austria\"\nAnd there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nAnd there exists a \"used the track layout\" relationship between \"GP Austria\" and \"Grand Prix Circuit\"\nWhen the user creates a \"used the track layout\" relationship between \"GP Austria\" and \"Grand Prix Circuit\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T16:53:23.397+0200",
+  "updated_at": "2025-10-23T18:55:40.583+0200"
+}

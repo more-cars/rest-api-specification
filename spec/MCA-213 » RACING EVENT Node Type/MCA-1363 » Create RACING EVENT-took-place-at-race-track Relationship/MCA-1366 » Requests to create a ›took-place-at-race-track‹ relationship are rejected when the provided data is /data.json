@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1366",
+  "parent_id": "MCA-1363",
+  "title": "Requests to create a ›took-place-at-race-track‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no RACING EVENT with the provided ID? -> rejected.\nThere exists no RACE TRACK with the provided ID? -> rejected.\n",
+  "release_version": "0.24.0",
+  "created_at": "2025-10-22T16:42:35.463+0200",
+  "updated_at": "2025-10-23T18:44:45.000+0200"
+}

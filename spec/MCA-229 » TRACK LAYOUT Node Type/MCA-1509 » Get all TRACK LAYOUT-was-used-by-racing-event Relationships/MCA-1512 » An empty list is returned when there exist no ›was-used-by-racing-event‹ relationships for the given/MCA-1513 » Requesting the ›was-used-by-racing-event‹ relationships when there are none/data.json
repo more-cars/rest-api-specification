@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1513",
+  "parent_id": "MCA-1512",
+  "title": "Requesting the ›was-used-by-racing-event‹ relationships when there are none",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nAnd there exist 0 \"was used by racing event\" relationships for \"Grand Prix Circuit\"\nWhen the user requests all \"was used by racing event\" relationships for \"Grand Prix Circuit\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:36:14.451+0200",
+  "updated_at": "2025-10-23T18:55:24.227+0200"
+}

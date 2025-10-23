@@ -1,0 +1,19 @@
+{
+  "id": "MCA-1498",
+  "parent_id": "MCA-229",
+  "title": "Create TRACK LAYOUT-was-used-by-racing-event Relationship",
+  "user_story": "",
+  "description": "* The relationship ›was-used-by-racing-event‹ is created when the provided IDs of the TRACK LAYOUT and RACING EVENT are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›was-used-by-racing-event‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* Each TRACK LAYOUT can be in a ›was-used-by-racing-event‹ relationship with multiple RACING EVENTS\n",
+  "api_verb": "POST",
+  "api_path": "/track-layouts/<track-layout-id>/was-used-by-racing-event/<racing-event-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [
+    "0.24.0"
+  ],
+  "created_at": "2025-10-22T17:33:08.015+0200",
+  "updated_at": "2025-10-23T18:47:02.877+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1179",
+  "parent_id": "MCA-1178",
+  "title": "Hard-deleting an existing RACING SERIES",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"DTM\"\nWhen the user hard-deletes the \"RACING SERIES\" \"DTM\"\nThen the response should return with status code 204\nAnd the \"RACING SERIES\" \"DTM\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:01:29.354+0200",
+  "updated_at": "2025-10-23T18:56:09.423+0200"
+}

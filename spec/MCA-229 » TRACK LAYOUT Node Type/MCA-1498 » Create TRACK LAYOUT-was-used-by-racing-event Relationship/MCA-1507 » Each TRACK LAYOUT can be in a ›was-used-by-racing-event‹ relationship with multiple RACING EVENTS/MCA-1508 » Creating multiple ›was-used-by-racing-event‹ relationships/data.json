@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1508",
+  "parent_id": "MCA-1507",
+  "title": "Creating multiple ›was-used-by-racing-event‹ relationships",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nAnd there exists a \"RACING EVENT\" \"GP Silverstone\"\nAnd there exists a \"RACING EVENT\" \"GP Silverstone (Alternative)\"\nWhen the user creates a \"was used by racing event\" relationship between \"Grand Prix Circuit\" and \"GP Silverstone\"\nAnd the user creates a \"was used by racing event\" relationship between \"Grand Prix Circuit\" and \"GP Silverstone (Alternative)\"\nThen there should exist a \"was used by racing event\" relationship between \"Grand Prix Circuit\" and \"GP Silverstone\"\nAnd there should exist a \"was used by racing event\" relationship between \"Grand Prix Circuit\" and \"GP Silverstone (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:33:44.219+0200",
+  "updated_at": "2025-10-23T18:55:24.804+0200"
+}

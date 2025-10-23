@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1402",
+  "parent_id": "MCA-1401",
+  "title": "The ›used-the-track-layout‹ relationship is returned when the provided data is valid",
+  "description": "To be a valid request the provided ID has to point to a RACING EVENT node that actually exists.\n",
+  "release_version": "0.24.0",
+  "created_at": "2025-10-22T16:56:31.893+0200",
+  "updated_at": "2025-10-23T18:44:40.843+0200"
+}

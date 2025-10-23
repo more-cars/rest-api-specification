@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1199",
+  "parent_id": "MCA-1198",
+  "title": "Requesting the ›has-racing-event‹ relationships when there are none",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"Formula 1\"\nAnd there exist 0 \"has racing event\" relationships for \"Formula 1\"\nWhen the user requests all \"has racing event\" relationships for \"Formula 1\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:11:55.699+0200",
+  "updated_at": "2025-10-23T18:56:06.840+0200"
+}

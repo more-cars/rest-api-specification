@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1169",
+  "parent_id": "MCA-1168",
+  "title": "Requesting a RACING SERIES with valid ID",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"DTM\"\nWhen the user requests the \"RACING SERIES\" \"DTM\"\nThen the response should return with status code 200\nAnd the response should return the \"RACING SERIES\" \"DTM\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T14:59:55.969+0200",
+  "updated_at": "2025-10-23T18:56:10.461+0200"
+}

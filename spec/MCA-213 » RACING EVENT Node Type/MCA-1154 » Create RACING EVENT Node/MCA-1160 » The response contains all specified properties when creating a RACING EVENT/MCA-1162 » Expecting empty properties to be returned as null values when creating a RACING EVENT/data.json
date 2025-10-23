@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1162",
+  "parent_id": "MCA-1160",
+  "title": "Expecting empty properties to be returned as null values when creating a RACING EVENT",
+  "gherkin": "When the user creates a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key | value | datatype |\n  | name | GP Monaco | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | GP Monaco | string |\n  | round |  | number |\n  | date_from |  | string |\n  | date_to |  | string |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T14:47:45.991+0200",
+  "updated_at": "2025-10-23T18:56:11.223+0200"
+}

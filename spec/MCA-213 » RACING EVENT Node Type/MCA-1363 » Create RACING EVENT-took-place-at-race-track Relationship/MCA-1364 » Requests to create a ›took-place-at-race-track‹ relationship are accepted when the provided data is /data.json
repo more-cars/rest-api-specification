@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1364",
+  "parent_id": "MCA-1363",
+  "title": "Requests to create a ›took-place-at-race-track‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type RACING EVENT resp. RACE TRACK.\n",
+  "release_version": "0.24.0",
+  "created_at": "2025-10-22T16:42:28.154+0200",
+  "updated_at": "2025-10-23T18:44:45.286+0200"
+}

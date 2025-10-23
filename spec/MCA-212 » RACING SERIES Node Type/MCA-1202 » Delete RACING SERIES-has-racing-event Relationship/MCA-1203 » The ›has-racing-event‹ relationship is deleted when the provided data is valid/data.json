@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1203",
+  "parent_id": "MCA-1202",
+  "title": "The ›has-racing-event‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a RACING SERIES and the second node needs to be a RACING EVENT.\n",
+  "release_version": "0.24.0",
+  "created_at": "2025-10-22T15:13:59.641+0200",
+  "updated_at": "2025-10-23T18:45:03.700+0200"
+}

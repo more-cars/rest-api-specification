@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1225",
+  "parent_id": "MCA-1222",
+  "title": "An empty list is returned when there exist no ›has-image‹ relationships for the given RACING SERIES",
+  "description": "",
+  "release_version": "0.24.0",
+  "created_at": "2025-10-22T15:19:54.656+0200",
+  "updated_at": "2025-10-23T18:45:01.147+0200"
+}

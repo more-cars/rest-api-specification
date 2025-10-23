@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1492",
+  "parent_id": "MCA-1489",
+  "title": "Requests to delete the ›hosted-racing-event‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no RACE TRACK with the provided ID? -> rejected.\nThere exists no RACING EVENT with the provided ID? -> rejected.\n",
+  "release_version": "0.24.0",
+  "created_at": "2025-10-22T17:28:14.561+0200",
+  "updated_at": "2025-10-23T18:44:30.208+0200"
+}

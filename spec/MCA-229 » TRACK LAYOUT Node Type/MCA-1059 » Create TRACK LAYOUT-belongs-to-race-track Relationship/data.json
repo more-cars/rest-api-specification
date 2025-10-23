@@ -1,0 +1,19 @@
+{
+  "id": "MCA-1059",
+  "parent_id": "MCA-229",
+  "title": "Create TRACK LAYOUT-belongs-to-race-track Relationship",
+  "user_story": "",
+  "description": "* The relationship ›belongs-to-race-track‹ is created when the provided IDs of the TRACK LAYOUT and RACE TRACK are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›belongs-to-race-track‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* At the same time a TRACK LAYOUT can only be in a ›belongs-to-race-track‹ relationship with one RACE TRACK\n",
+  "api_verb": "POST",
+  "api_path": "/track-layouts/<track-layout-id>/belongs-to-race-track/<race-track-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [
+    "0.23.0"
+  ],
+  "created_at": "2025-10-21T17:40:26.217+0200",
+  "updated_at": "2025-10-22T13:45:07.209+0200"
+}

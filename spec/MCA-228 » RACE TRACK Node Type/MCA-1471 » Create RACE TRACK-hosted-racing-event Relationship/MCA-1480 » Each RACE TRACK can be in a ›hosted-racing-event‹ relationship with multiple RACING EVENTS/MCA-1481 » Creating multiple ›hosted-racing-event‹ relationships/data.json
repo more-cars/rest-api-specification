@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1481",
+  "parent_id": "MCA-1480",
+  "title": "Creating multiple ›hosted-racing-event‹ relationships",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Red Bull Ring\"\nAnd there exists a \"RACING EVENT\" \"GP Austria\"\nAnd there exists a \"RACING EVENT\" \"GP Austria (Alternative)\"\nWhen the user creates a \"hosted racing event\" relationship between \"Red Bull Ring\" and \"GP Austria\"\nAnd the user creates a \"hosted racing event\" relationship between \"Red Bull Ring\" and \"GP Austria (Alternative)\"\nThen there should exist a \"hosted racing event\" relationship between \"Red Bull Ring\" and \"GP Austria\"\nAnd there should exist a \"hosted racing event\" relationship between \"Red Bull Ring\" and \"GP Austria (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:24:17.737+0200",
+  "updated_at": "2025-10-23T18:55:28.773+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1255",
+  "parent_id": "MCA-1254",
+  "title": "Trying to fetch the ›has-prime-image‹ relationship with an invalid RACING SERIES ID",
+  "gherkin": "Given \"RACING SERIES\" \"BTCC\" does NOT exist\nWhen the user requests the \"has prime image\" relationship for \"BTCC\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:34:43.294+0200",
+  "updated_at": "2025-10-23T18:55:59.331+0200"
+}

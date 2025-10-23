@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1423",
+  "parent_id": "MCA-1420",
+  "title": "Trying to create a ›has-image‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"RACING EVENT\" \"GP Silverstone\" does NOT exist\nAnd \"IMAGE\" \"starting grid\" does NOT exist\nWhen the user creates a \"has image\" relationship between \"GP Silverstone\" and \"starting grid\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:01:13.925+0200",
+  "updated_at": "2025-10-23T18:55:37.006+0200"
+}

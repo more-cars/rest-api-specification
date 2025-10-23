@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1235",
+  "parent_id": "MCA-1232",
+  "title": "Trying to delete a ›has-image‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"RACING SERIES\" \"DTM\" does NOT exist\nAnd \"IMAGE\" \"Formula 1 logo\" does NOT exist\nWhen the user deletes the \"has image\" relationship between \"DTM\" and \"Formula 1 logo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T15:25:51.063+0200",
+  "updated_at": "2025-10-23T18:56:01.900+0200"
+}

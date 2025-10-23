@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1486",
+  "parent_id": "MCA-1485",
+  "title": "Requesting the ›hosted-racing-event‹ relationships when there are none",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Red Bull Ring\"\nAnd there exist 0 \"hosted racing event\" relationships for \"Red Bull Ring\"\nWhen the user requests all \"hosted racing event\" relationships for \"Red Bull Ring\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:25:22.000+0200",
+  "updated_at": "2025-10-23T18:55:28.224+0200"
+}

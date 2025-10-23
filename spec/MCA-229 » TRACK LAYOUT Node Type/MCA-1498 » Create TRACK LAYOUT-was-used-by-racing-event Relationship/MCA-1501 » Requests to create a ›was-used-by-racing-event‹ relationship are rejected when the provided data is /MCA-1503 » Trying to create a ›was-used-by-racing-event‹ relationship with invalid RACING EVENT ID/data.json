@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1503",
+  "parent_id": "MCA-1501",
+  "title": "Trying to create a ›was-used-by-racing-event‹ relationship with invalid RACING EVENT ID",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nAnd \"RACING EVENT\" \"GP Silverstone\" does NOT exist\nWhen the user creates a \"was used by racing event\" relationship between \"Grand Prix Circuit\" and \"GP Silverstone\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:33:25.311+0200",
+  "updated_at": "2025-10-23T18:55:25.766+0200"
+}

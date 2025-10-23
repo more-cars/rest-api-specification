@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1434",
+  "parent_id": "MCA-1433",
+  "title": "Trying to fetch the ›has-image‹ relationships with an invalid RACING EVENT ID",
+  "gherkin": "Given \"RACING EVENT\" \"GP Silverstone\" does NOT exist\nWhen the user requests all \"has image\" relationships for \"GP Silverstone\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-22T17:02:21.935+0200",
+  "updated_at": "2025-10-23T18:55:35.637+0200"
+}
