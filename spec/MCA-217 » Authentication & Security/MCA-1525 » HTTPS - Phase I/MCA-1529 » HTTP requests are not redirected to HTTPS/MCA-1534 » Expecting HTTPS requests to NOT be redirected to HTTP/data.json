@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1534",
+  "parent_id": "MCA-1529",
+  "title": "Expecting HTTPS requests to NOT be redirected to HTTP",
+  "gherkin": "When the user requests a \"BRAND\" collection via \"HTTPS\"\nThen the request should not be redirected",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-23T17:25:02.098+0200",
+  "updated_at": "2025-10-24T13:04:14.788+0200"
+}

@@ -3,7 +3,7 @@
   "parent_id": "MCA-1525",
   "title": "HTTP requests are not redirected to HTTPS",
   "description": "",
-  "release_version": null,
+  "release_version": "0.24.0",
   "created_at": "2025-10-23T17:15:58.695+0200",
-  "updated_at": "2025-10-23T17:35:04.723+0200"
+  "updated_at": "2025-10-24T10:51:41.797+0200"
 }

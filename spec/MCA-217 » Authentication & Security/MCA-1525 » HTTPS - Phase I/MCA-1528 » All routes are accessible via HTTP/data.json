@@ -3,7 +3,7 @@
   "parent_id": "MCA-1525",
   "title": "All routes are accessible via HTTP",
   "description": "",
-  "release_version": null,
+  "release_version": "0.24.0",
   "created_at": "2025-10-23T17:15:37.207+0200",
-  "updated_at": "2025-10-23T17:35:02.486+0200"
+  "updated_at": "2025-10-24T10:51:39.738+0200"
 }

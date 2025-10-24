@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1532",
+  "parent_id": "MCA-1527",
+  "title": "Accessing the API via HTTPS",
+  "gherkin": "When the user requests a \"BRAND\" collection via \"HTTPS\"\nThen the request should be confirmed with status code 200",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-23T17:24:47.890+0200",
+  "updated_at": "2025-10-24T13:04:10.821+0200"
+}
