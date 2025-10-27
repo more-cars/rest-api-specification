@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1565",
+  "parent_id": "MCA-1564",
+  "title": "Requests to create a RACING SESSION are accepted when the provided data is valid",
+  "description": "Data is valid when its structure is correct, has no syntax errors and contains all mandatory fields.\n",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-24T16:30:00.103+0200",
+  "updated_at": "2025-10-26T17:15:26.966+0100"
+}

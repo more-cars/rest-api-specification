@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1556",
+  "parent_id": "MCA-1555",
+  "title": "The ›is-prime-image-of-node‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a IMAGE and the second node needs to be a NODE.\n",
+  "release_version": null,
+  "created_at": "2025-10-24T15:44:14.293+0200",
+  "updated_at": "2025-10-24T15:44:20.773+0200"
+}

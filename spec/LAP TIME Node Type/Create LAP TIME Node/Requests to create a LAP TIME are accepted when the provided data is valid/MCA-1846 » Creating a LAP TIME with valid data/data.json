@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1846",
+  "parent_id": "MCA-1845",
+  "title": "Creating a LAP TIME with valid data",
+  "gherkin": "When the user creates a \"LAP TIME\" \"AVUS record\" with the following data\n  | key | value | datatype |\n  | time | PT1M33.294S | string |\n  | driver_name | Klaus Ludwig | string |\n  | date | 1996-08-03 | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"LAP TIME\" \"AVUS record\"",
+  "labels": [],
+  "created_at": "2025-10-26T17:28:45.571+0100",
+  "updated_at": "2025-10-26T17:28:48.144+0100"
+}

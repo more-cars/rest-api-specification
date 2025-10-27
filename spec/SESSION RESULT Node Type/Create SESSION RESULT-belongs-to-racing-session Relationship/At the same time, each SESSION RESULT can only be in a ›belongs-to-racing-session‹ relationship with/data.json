@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1772",
+  "parent_id": "MCA-1763",
+  "title": "At the same time, each SESSION RESULT can only be in a ›belongs-to-racing-session‹ relationship with one RACING SESSION",
+  "description": "Connecting a different RACING SESSION will delete the previous relationship.\n",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-25T19:05:32.032+0200",
+  "updated_at": "2025-10-26T17:15:07.973+0100"
+}

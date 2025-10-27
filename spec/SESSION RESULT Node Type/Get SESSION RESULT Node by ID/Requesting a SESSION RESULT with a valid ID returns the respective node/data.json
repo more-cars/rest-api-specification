@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1747",
+  "parent_id": "MCA-1746",
+  "title": "Requesting a SESSION RESULT with a valid ID returns the respective node",
+  "description": "An ID is deemed valid when there exists a node with that ID AND the node is from type SESSION RESULT.\n",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-25T18:56:58.651+0200",
+  "updated_at": "2025-10-26T17:15:10.397+0100"
+}

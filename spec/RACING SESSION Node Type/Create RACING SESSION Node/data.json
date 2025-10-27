@@ -1,0 +1,18 @@
+{
+  "id": "MCA-1564",
+  "parent_id": "MCA-214",
+  "title": "Create RACING SESSION Node",
+  "user_story": "As an API contributor\nI want to be able to create RACING SESSIONS\nSo I can fill gaps in the database\n",
+  "description": "* A RACING SESSION node is successfully created when the request contains valid data. The required data structure is specified in parent (epic) ticket MCA-214. -> Status Code \\`201\\`\n* A successful request returns the created node with all specified properties.\n* Properties are returned, even when they are empty (optional fields). They are returned with value \\`null\\`.\n* Unknown properties are ignored. They are not processed. They do not produce any info, warning or error messages for the user. -> Status Code \\`201\\`\n* Read-only properties (\\`id\\`, \\`created\\_at\\`, \\`updated\\_at\\`) are ignored. They are not processed. They do not produce any info, warning or error messages for the user. -> Status Code \\`201\\`\n* Requests with invalid data are rejected. Cases for invalid data include: missing mandatory fields, syntax errors, wrong data types or wrong data structure. -> Status Code \\`400\\`\n",
+  "api_verb": "POST",
+  "api_path": "/racing-session",
+  "response_options": [
+    "201",
+    "400"
+  ],
+  "release_versions": [
+    "0.25.0"
+  ],
+  "created_at": "2025-10-24T16:29:57.563+0200",
+  "updated_at": "2025-10-26T17:13:34.484+0100"
+}

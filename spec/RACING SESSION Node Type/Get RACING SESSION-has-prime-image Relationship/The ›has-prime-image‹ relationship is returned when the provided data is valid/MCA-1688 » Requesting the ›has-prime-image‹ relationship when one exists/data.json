@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1688",
+  "parent_id": "MCA-1687",
+  "title": "Requesting the ›has-prime-image‹ relationship when one exists",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Grand Prix\"\nAnd there exists a \"has prime image\" relationship \"R\" for \"Grand Prix\"\nWhen the user requests the \"has prime image\" relationship for \"Grand Prix\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
+  "labels": [],
+  "created_at": "2025-10-24T17:49:48.986+0200",
+  "updated_at": "2025-10-24T17:49:51.832+0200"
+}

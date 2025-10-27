@@ -1,0 +1,15 @@
+{
+  "id": "MCA-1862",
+  "parent_id": "MCA-216",
+  "title": "Get all LAP TIME Nodes",
+  "user_story": "As an API consumer\nI want to be able to load all LAP TIMES at once\nSo I can find out which even exist\nAnd to be able to compare and analyze them without having to load them all individually\n",
+  "description": "* A list of all LAP TIME nodes is returned when there exists at least 1. -> Status Code \\`200\\`\n* When no LAP TIMES exist then an empty list is returned. -> Status Code \\`200\\`\n* Each returned list item contains all specified properties (see corresponding 'epic' ticket).\n* Properties are returned, even when they are empty (optional fields). They are returned with value \\`null\\`.\n",
+  "api_verb": "GET",
+  "api_path": "/lap-times",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [],
+  "created_at": "2025-10-26T17:34:09.642+0100",
+  "updated_at": "2025-10-26T17:34:11.328+0100"
+}

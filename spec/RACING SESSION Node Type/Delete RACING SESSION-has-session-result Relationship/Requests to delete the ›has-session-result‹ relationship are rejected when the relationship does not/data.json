@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1646",
+  "parent_id": "MCA-1639",
+  "title": "Requests to delete the ›has-session-result‹ relationship are rejected when the relationship does not exist",
+  "description": "The relationship might have never existed or it has already been deleted. No matter the reason, an error will be returned.\n",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-24T17:22:37.493+0200",
+  "updated_at": "2025-10-26T17:15:19.442+0100"
+}

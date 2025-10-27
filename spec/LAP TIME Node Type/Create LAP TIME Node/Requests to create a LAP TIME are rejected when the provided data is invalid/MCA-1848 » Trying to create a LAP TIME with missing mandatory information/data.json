@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1848",
+  "parent_id": "MCA-1847",
+  "title": "Trying to create a LAP TIME with missing mandatory information",
+  "gherkin": "When the user tries to create a \"LAP TIME\" \"AVUS record\" with the following data\n  | key | value | datatype |\nThen the request should be rejected with status code 400",
+  "labels": [],
+  "created_at": "2025-10-26T17:28:51.942+0100",
+  "updated_at": "2025-10-26T17:28:54.250+0100"
+}

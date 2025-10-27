@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1590",
+  "parent_id": "MCA-1587",
+  "title": "Requests are rejected when there exists no RACING SESSION with the provided ID",
+  "description": "When there exists no node with the provided ID -> rejected.\nWhen there exists a node with the provided ID, but it is not from type RACING SESSION -> rejected.\n",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-24T16:46:25.779+0200",
+  "updated_at": "2025-10-26T17:15:24.521+0100"
+}

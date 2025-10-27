@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1800",
+  "parent_id": "MCA-1799",
+  "title": "Creating multiple ›has-image‹ relationships",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists a \"IMAGE\" \"podium\"\nAnd there exists a \"IMAGE\" \"podium (Alternative)\"\nWhen the user creates a \"has image\" relationship between \"1st place\" and \"podium\"\nAnd the user creates a \"has image\" relationship between \"1st place\" and \"podium (Alternative)\"\nThen there should exist a \"has image\" relationship between \"1st place\" and \"podium\"\nAnd there should exist a \"has image\" relationship between \"1st place\" and \"podium (Alternative)\"",
+  "labels": [],
+  "created_at": "2025-10-25T19:15:08.667+0200",
+  "updated_at": "2025-10-25T19:15:11.076+0200"
+}

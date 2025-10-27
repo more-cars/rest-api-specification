@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1818",
+  "parent_id": "MCA-1817",
+  "title": "Requests to create a ›has-prime-image‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type SESSION RESULT resp. IMAGE.\n",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-25T19:23:39.891+0200",
+  "updated_at": "2025-10-26T17:15:03.740+0100"
+}

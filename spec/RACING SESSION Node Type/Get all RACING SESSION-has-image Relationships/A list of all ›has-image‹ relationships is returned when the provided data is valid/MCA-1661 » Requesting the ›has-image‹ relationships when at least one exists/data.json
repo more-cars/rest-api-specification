@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1661",
+  "parent_id": "MCA-1660",
+  "title": "Requesting the ›has-image‹ relationships when at least one exists",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Grand Prix\"\nAnd there exist 3 \"has image\" relationships for \"Grand Prix\"\nWhen the user requests all \"has image\" relationships for \"Grand Prix\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has image\" relationships",
+  "labels": [],
+  "created_at": "2025-10-24T17:35:19.807+0200",
+  "updated_at": "2025-10-24T17:35:22.607+0200"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MCA-1537",
+  "parent_id": "MCA-72",
+  "title": "Create IMAGE-is-prime-image-of-node Relationship",
+  "user_story": "",
+  "description": "* The relationship ›is-prime-image-of-node‹ is created when the provided IDs of the IMAGE and NODE are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* An IMAGE cannot be connected to itself. -> Status Code \\`422\\`\n* An IMAGE cannot be connected to another IMAGE. -> Status Code \\`422\\`\n* The same ›is-prime-image-of-node‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* Each IMAGE can be in a ›is-prime-image-of-node‹ relationship with multiple NODES of the same type.\n* Each IMAGE can be in a ›is-prime-image-of-node‹ relationship with multiple NODES of different types.\n",
+  "api_verb": "POST",
+  "api_path": "/images/<image-id>/is-prime-image-of-node/<node-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404",
+    "422"
+  ],
+  "release_versions": [],
+  "created_at": "2025-10-24T15:39:57.238+0200",
+  "updated_at": "2025-10-26T17:29:17.760+0100"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "MCA-215",
+  "title": "SESSION RESULT Node Type",
+  "data_structure": "```\n[\n  {\n    \"name\": \"position\",\n    \"mandatory\": true,\n    \"datatype\": \"number\",\n    \"example\": \"1\"\n  },\n  {\n    \"name\": \"race_number\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"44\"\n  },\n  {\n    \"name\": \"driver_name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"Lewis Hamilton\"\n  },\n  {\n    \"name\": \"team_name\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"Mercedes\"\n  },\n  {\n    \"name\": \"race_time\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"PT1H23M45.678S\"\n  },\n  {\n    \"name\": \"laps\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"51\"\n  },\n  {\n    \"name\": \"status\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"finished\"\n  },\n  {\n    \"name\": \"points\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"25\"\n  }\n]\n```\n",
+  "created_at": "2025-06-10T13:09:43.378+0200",
+  "updated_at": "2025-10-26T17:12:32.288+0100"
+}

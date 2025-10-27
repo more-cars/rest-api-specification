@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1701",
+  "parent_id": "MCA-1700",
+  "title": "Trying to delete a non-existent ›has-prime-image‹ relationship",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Grand Prix\"\nAnd there exists a \"IMAGE\" \"BMW logo\"\nAnd there exists NO \"has prime image\" relationship between \"Grand Prix\" and \"BMW logo\"\nWhen the user deletes the \"has prime image\" relationship between \"Grand Prix\" and \"BMW logo\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2025-10-24T17:53:17.973+0200",
+  "updated_at": "2025-10-24T17:53:20.652+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1943",
+  "parent_id": "MCA-1942",
+  "title": "Requesting the ›has-image‹ relationships when there are none",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exist 0 \"has image\" relationships for \"fastest lap\"\nWhen the user requests all \"has image\" relationships for \"fastest lap\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [],
+  "created_at": "2025-10-26T18:31:02.218+0100",
+  "updated_at": "2025-10-26T18:31:04.477+0100"
+}

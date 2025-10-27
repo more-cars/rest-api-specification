@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1553",
+  "parent_id": "MCA-1548",
+  "title": "A request to fetch all ›is-prime-image-of-node‹ relationships is rejected when the provided data is invalid",
+  "description": "There exists no IMAGE with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2025-10-24T15:42:10.589+0200",
+  "updated_at": "2025-10-24T15:42:16.344+0200"
+}

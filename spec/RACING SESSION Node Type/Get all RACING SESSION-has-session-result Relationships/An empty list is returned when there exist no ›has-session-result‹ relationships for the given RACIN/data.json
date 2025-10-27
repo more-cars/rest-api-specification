@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1635",
+  "parent_id": "MCA-1632",
+  "title": "An empty list is returned when there exist no ›has-session-result‹ relationships for the given RACING SESSION",
+  "description": "",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-24T17:19:44.012+0200",
+  "updated_at": "2025-10-26T17:15:20.385+0100"
+}

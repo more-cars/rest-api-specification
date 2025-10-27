@@ -1,0 +1,19 @@
+{
+  "id": "MCA-1594",
+  "parent_id": "MCA-214",
+  "title": "Create RACING SESSION-belongs-to-racing-event Relationship",
+  "user_story": "",
+  "description": "* The relationship ›belongs-to-racing-event‹ is created when the provided IDs of the RACING SESSION and RACING EVENT are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›belongs-to-racing-event‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* At the same time a RACING SESSION can only be in a ›belongs-to-racing-event‹ relationship with one RACING EVENT\n",
+  "api_verb": "POST",
+  "api_path": "/racing-sessions/<racing-session-id>/belongs-to-racing-event/<racing-event-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [
+    "0.25.0"
+  ],
+  "created_at": "2025-10-24T16:54:08.146+0200",
+  "updated_at": "2025-10-26T17:13:33.389+0100"
+}

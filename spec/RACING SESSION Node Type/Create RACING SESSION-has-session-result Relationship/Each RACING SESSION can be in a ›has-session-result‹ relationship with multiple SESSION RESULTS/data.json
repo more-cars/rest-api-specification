@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1630",
+  "parent_id": "MCA-1621",
+  "title": "Each RACING SESSION can be in a ›has-session-result‹ relationship with multiple SESSION RESULTS",
+  "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-24T17:16:03.505+0200",
+  "updated_at": "2025-10-26T17:15:20.872+0100"
+}

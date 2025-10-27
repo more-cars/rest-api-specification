@@ -1,0 +1,18 @@
+{
+  "id": "MCA-1720",
+  "parent_id": "MCA-213",
+  "title": "Delete RACING EVENT-has-racing-session Relationship",
+  "user_story": "As an API contributor\nI want to be able to disconnect RACING SESSIONS from RACING EVENTS\nSo I can clean up bad data or test data\n",
+  "description": "* The ›has-racing-session‹ relationship is deleted when it actually exists. -> Status Code \\`204\\`\n* A successful request returns with an empty body.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* Requests are rejected when there exists no ›has-racing-session‹ relationship between the provided nodes. -> Status Code \\`404\\`\n",
+  "api_verb": "DELETE",
+  "api_path": "/racing-events/<racing-event-id>/has-racing-session/<racing-session-id>",
+  "response_options": [
+    "204",
+    "404"
+  ],
+  "release_versions": [
+    "0.25.0"
+  ],
+  "created_at": "2025-10-24T18:04:11.663+0200",
+  "updated_at": "2025-10-26T17:13:29.618+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1964",
+  "parent_id": "MCA-1955",
+  "title": "At the same time, each LAP TIME can only be in a ›has-prime-image‹ relationship with one IMAGE",
+  "description": "Connecting a different IMAGE will delete the previous relationship.\n",
+  "release_version": null,
+  "created_at": "2025-10-26T18:38:31.617+0100",
+  "updated_at": "2025-10-26T18:38:36.641+0100"
+}

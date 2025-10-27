@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1719",
+  "parent_id": "MCA-1718",
+  "title": "Trying to fetch the ›has-racing-session‹ relationships with an invalid RACING EVENT ID",
+  "gherkin": "Given \"RACING EVENT\" \"GP Monaco\" does NOT exist\nWhen the user requests all \"has racing session\" relationships for \"GP Monaco\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2025-10-24T18:00:44.544+0200",
+  "updated_at": "2025-10-24T18:00:47.376+0200"
+}

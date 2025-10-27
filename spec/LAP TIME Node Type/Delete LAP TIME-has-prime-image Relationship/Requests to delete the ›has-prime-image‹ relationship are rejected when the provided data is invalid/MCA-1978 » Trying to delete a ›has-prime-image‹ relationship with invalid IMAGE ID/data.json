@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1978",
+  "parent_id": "MCA-1976",
+  "title": "Trying to delete a ›has-prime-image‹ relationship with invalid IMAGE ID",
+  "gherkin": "Given there exists a \"LAP TIME\" \"test lap\"\nAnd \"IMAGE\" \"track record\" does NOT exist\nWhen the user deletes the \"has prime image\" relationship between \"test lap\" and \"track record\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2025-10-26T18:41:04.762+0100",
+  "updated_at": "2025-10-26T18:41:07.073+0100"
+}

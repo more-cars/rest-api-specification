@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1631",
+  "parent_id": "MCA-1630",
+  "title": "Creating multiple ›has-session-result‹ relationships",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Grand Prix\"\nAnd there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists a \"SESSION RESULT\" \"1st place (Alternative)\"\nWhen the user creates a \"has session result\" relationship between \"Grand Prix\" and \"1st place\"\nAnd the user creates a \"has session result\" relationship between \"Grand Prix\" and \"1st place (Alternative)\"\nThen there should exist a \"has session result\" relationship between \"Grand Prix\" and \"1st place\"\nAnd there should exist a \"has session result\" relationship between \"Grand Prix\" and \"1st place (Alternative)\"",
+  "labels": [],
+  "created_at": "2025-10-24T17:16:06.682+0200",
+  "updated_at": "2025-10-24T17:23:50.389+0200"
+}

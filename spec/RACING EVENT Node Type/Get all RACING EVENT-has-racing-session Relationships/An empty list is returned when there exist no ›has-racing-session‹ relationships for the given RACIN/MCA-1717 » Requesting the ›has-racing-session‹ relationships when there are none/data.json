@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1717",
+  "parent_id": "MCA-1716",
+  "title": "Requesting the ›has-racing-session‹ relationships when there are none",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nAnd there exist 0 \"has racing session\" relationships for \"GP Monaco\"\nWhen the user requests all \"has racing session\" relationships for \"GP Monaco\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [],
+  "created_at": "2025-10-24T18:00:38.581+0200",
+  "updated_at": "2025-10-24T18:00:41.440+0200"
+}

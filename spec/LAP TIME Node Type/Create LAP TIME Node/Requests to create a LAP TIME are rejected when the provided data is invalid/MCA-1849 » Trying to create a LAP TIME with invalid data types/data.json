@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1849",
+  "parent_id": "MCA-1847",
+  "title": "Trying to create a LAP TIME with invalid data types",
+  "gherkin": "When the user tries to create a \"LAP TIME\" \"AVUS record\" with the following data\n  | key | value | datatype |\n  | time | PT1M33.294S | boolean |\n  | driver_name | Klaus Ludwig | boolean |\n  | date | 1996-08-03 | boolean |\nThen the request should be rejected with status code 400",
+  "labels": [],
+  "created_at": "2025-10-26T17:28:57.199+0100",
+  "updated_at": "2025-10-26T17:28:59.607+0100"
+}

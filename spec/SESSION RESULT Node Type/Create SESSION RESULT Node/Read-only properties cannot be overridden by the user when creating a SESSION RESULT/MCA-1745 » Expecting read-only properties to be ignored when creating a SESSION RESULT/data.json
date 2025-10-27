@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1745",
+  "parent_id": "MCA-1744",
+  "title": "Expecting read-only properties to be ignored when creating a SESSION RESULT",
+  "gherkin": "When the user creates a \"SESSION RESULT\" \"1st place\" with the following data\n  | key | value | datatype |\n  | position | 1 | number |\n  | race_number | 44 | string |\n  | driver_name | Lewis Hamilton | string |\n  | team_name | Mercedes | string |\n  | race_time | PT1H23M45.678S | string |\n  | laps | 51 | number |\n  | status | finished | string |\n  | points | 25 | number |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain the following keys\n  | key        |\n  | id         |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
+  "labels": [],
+  "created_at": "2025-10-25T18:53:47.776+0200",
+  "updated_at": "2025-10-25T18:53:50.050+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1883",
+  "parent_id": "MCA-1874",
+  "title": "At the same time, each LAP TIME can only be in a ›belongs-to-session-result‹ relationship with one SESSION RESULT",
+  "description": "Connecting a different SESSION RESULT will delete the previous relationship.\n",
+  "release_version": null,
+  "created_at": "2025-10-26T17:52:17.473+0100",
+  "updated_at": "2025-10-26T17:52:22.914+0100"
+}
