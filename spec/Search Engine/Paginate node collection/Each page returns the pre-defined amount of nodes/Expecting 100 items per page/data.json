@@ -2,7 +2,7 @@
   "id": "MCA-468",
   "parent_id": "MCA-383",
   "title": "Expecting 100 items per page",
-  "gherkin": "Given there exist 102 \"<node_type>\"s\nWhen the user requests page 1 of the \"<node_type>\" collection\nThen the response should return a collection of 100 \"<node_type>\"s\nWhen the user requests page 2 of the \"<node_type>\" collection\nThen the response should return a collection of 2 \"<node_type>\"s\n\nExamples:\n  | node_type |\n  | COMPANY   |\n  | BRAND     |\n  | CAR MODEL |\n  | IMAGE     |",
+  "gherkin": "Given there exist 102 \"<node_type>\"s\nWhen the user requests page 1 of the \"<node_type>\" collection\nThen the response should return a collection of 100 \"<node_type>\"s\nWhen the user requests page 2 of the \"<node_type>\" collection\nThen the response should return a collection of 2 \"<node_type>\"s\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
   "labels": [
     "implemented"
   ],

@@ -15,8 +15,12 @@ Feature: Filter node collection by property
       And the response should return a collection of 0 "<node_type>"s
 
       Examples:
-        | node_type |
-        | COMPANY   |
-        | BRAND     |
-        | CAR MODEL |
-        | IMAGE     |
+        | node_type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |

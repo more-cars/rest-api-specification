@@ -14,8 +14,12 @@ Feature: Sort node collection
       Then the returned nodes should be sorted "asc" by "id"
 
       Examples:
-        | node_type |
-        | COMPANY   |
-        | BRAND     |
-        | CAR MODEL |
-        | IMAGE     |
+        | node_type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |

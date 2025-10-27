@@ -2,7 +2,7 @@
   "id": "MCA-24",
   "parent_id": "MCA-21",
   "title": "A requested NODE should contain valid timestamps",
-  "gherkin": "Given there exists a \"<node type>\" \"A\"\nWhen the user requests the \"<node type>\" \"A\"\nAnd the following properties in the response should contain a valid timestamp\n  | key        |\n  | created_at |\n  | updated_at |\n\nExamples:\n  | node type |\n  | COMPANY   |\n  | BRAND     |\n  | CAR MODEL |\n  | IMAGE     |",
+  "gherkin": "Given there exists a \"<node_type>\" \"A\"\nWhen the user requests the \"<node_type>\" \"A\"\nAnd the following properties in the response should contain a valid timestamp\n  | key        |\n  | created_at |\n  | updated_at |\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
   "labels": [
     "implemented"
   ],

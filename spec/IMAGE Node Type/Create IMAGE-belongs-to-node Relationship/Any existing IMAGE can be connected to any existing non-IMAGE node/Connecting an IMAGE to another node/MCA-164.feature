@@ -9,12 +9,12 @@ Feature: Create IMAGE-belongs-to-node Relationship
 
     @TEST_MCA-164 @implemented
     Scenario Outline: Connecting an IMAGE to another node
-      Given there exists a "<node type>" "<node>"
+      Given there exists a "<node_type>" "<node>"
       And there exists an "IMAGE" "<image>"
       When the user creates a "belongs to node" relationship between "<image>" and "<node>"
       Then the request should be confirmed with status code 201
 
       Examples:
-        | node type | node     | image                          |
+        | node_type | node     | image                          |
         | BRAND     | Ferrari  | ferrari-logo.jpg               |
         | CAR MODEL | Countach | lamborghini-countach-front.jpg |

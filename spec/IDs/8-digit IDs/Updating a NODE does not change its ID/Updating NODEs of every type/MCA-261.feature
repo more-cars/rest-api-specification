@@ -17,7 +17,12 @@ Feature: 8-digit IDs
       And the response should contain the id of node "A"
 
       Examples:
-        | node_type |
-        | brand     |
-        | car model |
-        | image     |
+        | node_type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |

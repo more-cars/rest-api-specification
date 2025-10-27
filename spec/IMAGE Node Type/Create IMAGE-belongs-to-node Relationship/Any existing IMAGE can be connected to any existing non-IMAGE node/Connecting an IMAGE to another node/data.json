@@ -2,7 +2,7 @@
   "id": "MCA-164",
   "parent_id": "MCA-146",
   "title": "Connecting an IMAGE to another node",
-  "gherkin": "Given there exists a \"<node type>\" \"<node>\"\nAnd there exists an \"IMAGE\" \"<image>\"\nWhen the user creates a \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nThen the request should be confirmed with status code 201\n\nExamples:\n  | node type | node     | image                          |\n  | BRAND     | Ferrari  | ferrari-logo.jpg               |\n  | CAR MODEL | Countach | lamborghini-countach-front.jpg |",
+  "gherkin": "Given there exists a \"<node_type>\" \"<node>\"\nAnd there exists an \"IMAGE\" \"<image>\"\nWhen the user creates a \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nThen the request should be confirmed with status code 201\n\nExamples:\n  | node_type | node     | image                          |\n  | BRAND     | Ferrari  | ferrari-logo.jpg               |\n  | CAR MODEL | Countach | lamborghini-countach-front.jpg |",
   "labels": [
     "implemented"
   ],

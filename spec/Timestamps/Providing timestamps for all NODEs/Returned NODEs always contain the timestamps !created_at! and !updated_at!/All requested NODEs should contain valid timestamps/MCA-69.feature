@@ -9,16 +9,20 @@ Feature: Providing timestamps for all NODEs
 
     @TEST_MCA-69 @implemented
     Scenario Outline: All requested NODEs should contain valid timestamps
-      Given there exist 5 "<node type>"s
-      When the user requests all "<node type>"s
+      Given there exist 5 "<node_type>"s
+      When the user requests all "<node_type>"s
       And for each item the following properties in the response should contain a valid timestamp
         | key        |
         | created_at |
         | updated_at |
 
       Examples:
-        | node type |
-        | COMPANY   |
-        | BRAND     |
-        | CAR MODEL |
-        | IMAGE     |
+        | node_type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |

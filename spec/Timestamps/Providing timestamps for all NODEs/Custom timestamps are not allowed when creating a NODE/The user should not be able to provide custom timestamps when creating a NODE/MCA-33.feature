@@ -9,7 +9,7 @@ Feature: Providing timestamps for all NODEs
 
     @TEST_MCA-33 @implemented
     Scenario Outline: The user should not be able to provide custom timestamps when creating a NODE
-      When the user creates a "<node type>" with the following data
+      When the user creates a "<node_type>" with the following data
         | key            | value                |
         | name           | Test                 |
         | image_provider | Test                 |
@@ -23,8 +23,12 @@ Feature: Providing timestamps for all NODEs
         | created_at | 2022-07-23T03:00:00Z |
 
       Examples:
-        | node type |
-        | COMPANY   |
-        | BRAND     |
-        | CAR MODEL |
-        | IMAGE     |
+        | node_type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |

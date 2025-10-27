@@ -2,7 +2,7 @@
   "id": "MCA-742",
   "parent_id": "MCA-736",
   "title": "Creating a filter that eliminates all nodes from the collection",
-  "gherkin": "Given there exist 4 \"<node_type>\"s\nWhen the user requests a \"<node_type>\" collection, filtered by \"id\" \"eq\" \"-1\"\nThen the response should return with status code 200\nAnd the response should return a collection of 0 \"<node_type>\"s\n\nExamples:\n  | node_type |\n  | COMPANY   |\n  | BRAND     |\n  | CAR MODEL |\n  | IMAGE     |",
+  "gherkin": "Given there exist 4 \"<node_type>\"s\nWhen the user requests a \"<node_type>\" collection, filtered by \"id\" \"eq\" \"-1\"\nThen the response should return with status code 200\nAnd the response should return a collection of 0 \"<node_type>\"s\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
   "labels": [
     "implemented"
   ],

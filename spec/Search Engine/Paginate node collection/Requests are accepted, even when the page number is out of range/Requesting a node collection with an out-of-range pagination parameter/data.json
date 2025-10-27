@@ -2,7 +2,7 @@
   "id": "MCA-471",
   "parent_id": "MCA-393",
   "title": "Requesting a node collection with an out-of-range pagination parameter",
-  "gherkin": "Given there exist 3 \"<node_type>\"s\nWhen the user requests page 17 of the \"<node_type>\" collection\nThen the response should return with status code 200\nAnd the response should return an empty list\n\nExamples:\n  | node_type |\n  | COMPANY   |\n  | BRAND     |\n  | CAR MODEL |\n  | IMAGE     |",
+  "gherkin": "Given there exist 3 \"<node_type>\"s\nWhen the user requests page 17 of the \"<node_type>\" collection\nThen the response should return with status code 200\nAnd the response should return an empty list\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCA-130",
   "parent_id": "MCA-102",
   "title": "Each node gets a different ID",
-  "gherkin": "When the user creates a set of 10 \"<node type>\"s\nThen each node in the response should contain a different ID\n\nExamples:\n  | node type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
+  "gherkin": "When the user creates a set of 10 \"<node_type>\"s\nThen each node in the response should contain a different ID\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
   "labels": [
     "implemented"
   ],

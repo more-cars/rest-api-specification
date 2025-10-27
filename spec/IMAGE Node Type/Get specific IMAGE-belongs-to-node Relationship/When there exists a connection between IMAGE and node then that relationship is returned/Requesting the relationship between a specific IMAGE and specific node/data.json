@@ -2,7 +2,7 @@
   "id": "MCA-174",
   "parent_id": "MCA-159",
   "title": "Requesting the relationship between a specific IMAGE and specific node",
-  "gherkin": "Given there exists an \"IMAGE\" \"<image>\"\nAnd there exists a \"<node type>\" \"<node>\"\nAnd there exists a \"belongs to node\" relationship \"R\" between \"<image>\" and \"<node>\"\nWhen the user requests the \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nThen the response should return with status code 200\nAnd the response should return the relationship \"R\"\n\nExamples:\n  | node type | node     | image                          |\n  | BRAND     | Ferrari  | ferrari-logo.jpg               |\n  | CAR MODEL | Countach | lamborghini-countach-front.jpg |",
+  "gherkin": "Given there exists an \"IMAGE\" \"<image>\"\nAnd there exists a \"<node_type>\" \"<node>\"\nAnd there exists a \"belongs to node\" relationship \"R\" between \"<image>\" and \"<node>\"\nWhen the user requests the \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nThen the response should return with status code 200\nAnd the response should return the relationship \"R\"\n\nExamples:\n  | node_type | node     | image                          |\n  | BRAND     | Ferrari  | ferrari-logo.jpg               |\n  | CAR MODEL | Countach | lamborghini-countach-front.jpg |",
   "labels": [
     "implemented"
   ],

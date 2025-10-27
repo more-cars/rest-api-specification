@@ -21,7 +21,12 @@ Feature: 8-digit IDs
         | id  | 1234  |
 
       Examples:
-        | node_type |
-        | brand     |
-        | car model |
-        | image     |
+        | node_type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |

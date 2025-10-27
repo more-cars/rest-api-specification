@@ -1,7 +1,7 @@
 {
   "id": "MCA-201",
   "title": "COMPANY Node Type",
-  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"name\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"BMW AG\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"founded\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"1916\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"defunct\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"headquarters\\_location\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"Munich\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"legal\\_headquarters\\_location\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"Munich\"\n&#x20; }\n]\n",
+  "data_structure": "```\n[\n  {\n    \"name\": \"name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"BMW AG\"\n  },\n  {\n    \"name\": \"founded\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"1916\"\n  },\n  {\n    \"name\": \"defunct\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"\"\n  },\n  {\n    \"name\": \"headquarters_location\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"Munich\"\n  },\n  {\n    \"name\": \"legal_headquarters_location\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"Munich\"\n  }\n]\n```\n",
   "created_at": "2025-06-10T12:45:54.996+0200",
-  "updated_at": "2025-09-27T10:44:34.892+0200"
+  "updated_at": "2025-10-27T15:12:51.335+0100"
 }

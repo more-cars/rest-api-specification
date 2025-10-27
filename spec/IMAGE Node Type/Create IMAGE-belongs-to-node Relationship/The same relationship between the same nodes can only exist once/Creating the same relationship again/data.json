@@ -2,7 +2,7 @@
   "id": "MCA-166",
   "parent_id": "MCA-149",
   "title": "Creating the same relationship again",
-  "gherkin": "Given there exists an \"IMAGE\" \"<image>\"\nAnd there exists a \"<node type>\" \"<node>\"\nAnd there exists a \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nWhen the user creates a \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nThen the response should return with status code 304\n\nExamples:\n  | node type | node     | image                          |\n  | COMPANY   | VW AG    | vw-hq.jpg                      |\n  | BRAND     | Ferrari  | ferrari-logo.jpg               |\n  | CAR MODEL | Countach | lamborghini-countach-front.jpg |",
+  "gherkin": "Given there exists an \"IMAGE\" \"<image>\"\nAnd there exists a \"<node_type>\" \"<node>\"\nAnd there exists a \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nWhen the user creates a \"belongs to node\" relationship between \"<image>\" and \"<node>\"\nThen the response should return with status code 304\n\nExamples:\n  | node_type     | node         | image                          |\n  | COMPANY       | VW AG        | vw-hq.jpg                      |\n  | BRAND         | Ferrari      | ferrari-logo.jpg               |\n  | CAR MODEL     | Countach     | lamborghini-countach-front.jpg |\n  | RACE TRACK    | Nürburgring  | nuerburgring.jpg               |\n  | TRACK LAYOUT  | Nordschleife | nordschleife.jpg               |\n  | RACING SERIES | Formula 1    | f1.jpg                         |\n  | RACING EVENT  | GP Monaco    | monaco-gp.jpg                  |",
   "labels": [
     "implemented"
   ],
