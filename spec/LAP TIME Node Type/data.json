@@ -1,7 +1,7 @@
 {
   "id": "MCA-216",
   "title": "LAP TIME Node Type",
-  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"time\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"PT1M33.294S\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"driver\\_name\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"Klaus Ludwig\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"date\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"1996-08-03\"\n&#x20; }\n]\n",
+  "data_structure": "```\n[\n  {\n    \"name\": \"time\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"PT1M33.294S\"\n  },\n  {\n    \"name\": \"driver_name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"Klaus Ludwig\"\n  },\n  {\n    \"name\": \"date\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"1996-08-03\"\n  }\n]\n```\n",
   "created_at": "2025-06-10T13:10:05.787+0200",
-  "updated_at": "2025-10-27T09:24:49.994+0100"
+  "updated_at": "2025-10-27T09:46:16.250+0100"
 }

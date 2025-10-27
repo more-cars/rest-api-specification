@@ -14,8 +14,12 @@ Feature: Providing IDs for all NODEs
       And the property "id" in the response should be a number lesser than 4294967296
 
       Examples:
-        | node type |
-        | COMPANY   |
-        | BRAND     |
-        | CAR MODEL |
-        | IMAGE     |
+        | node type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |

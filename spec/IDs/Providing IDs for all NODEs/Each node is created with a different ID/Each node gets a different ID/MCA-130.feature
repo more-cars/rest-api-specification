@@ -13,8 +13,12 @@ Feature: Providing IDs for all NODEs
       Then each node in the response should contain a different ID
 
       Examples:
-        | node type |
-        | COMPANY   |
-        | BRAND     |
-        | CAR MODEL |
-        | IMAGE     |
+        | node type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |

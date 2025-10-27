@@ -16,8 +16,12 @@ Feature: 8-digit IDs
       And the property "id" in the response should be a number lesser than 99999999
 
       Examples:
-        | node type |
-        | COMPANY   |
-        | BRAND     |
-        | CAR MODEL |
-        | IMAGE     |
+        | node type     |
+        | COMPANY       |
+        | BRAND         |
+        | CAR MODEL     |
+        | RACE TRACK    |
+        | TRACK LAYOUT  |
+        | RACING SERIES |
+        | RACING EVENT  |
+        | IMAGE         |
