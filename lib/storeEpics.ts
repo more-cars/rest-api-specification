@@ -9,7 +9,7 @@ export function storeEpics(data: Array<Epic>, referenceTickets: Array<ReferenceT
 
     data.forEach(epic => {
         const parentSubPath = findReferenceTicket('', referenceTickets)?.sub_path ?? ''
-        const subPath = parentSubPath + epic.id + ' » ' + filenamify(epic.title) + '/'
+        const subPath = parentSubPath + filenamify(epic.title) + '/'
         const folderName = basepath + subPath
         const fileName = 'data.json'
 

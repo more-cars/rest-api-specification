@@ -9,7 +9,7 @@ export function storeStories(data: Array<Story>, referenceTickets: Array<Referen
 
     data.forEach(story => {
         const parentSubPath = findReferenceTicket(story.parent_id, referenceTickets)?.sub_path ?? ''
-        const subPath = parentSubPath + story.id + ' » ' + filenamify(story.title) + '/'
+        const subPath = parentSubPath + filenamify(story.title) + '/'
         const folderName = basepath + subPath
         const fileName = 'data.json'
 

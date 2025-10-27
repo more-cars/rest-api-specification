@@ -9,7 +9,7 @@ export function storeAcceptanceCriteria(data: Array<AcceptanceCriterion>, refere
 
     data.forEach(ac => {
         const parentSubPath = findReferenceTicket(ac.parent_id, referenceTickets)?.sub_path ?? ''
-        const subPath = parentSubPath + ac.id + ' » ' + filenamify(ac.title) + '/'
+        const subPath = parentSubPath + filenamify(ac.title) + '/'
         const folderName = basepath + subPath
         const fileName = 'data.json'
 
