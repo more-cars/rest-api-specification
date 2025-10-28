@@ -7,7 +7,7 @@ Feature: Hard Delete SESSION RESULT Node
   @RULE_MCA-1761
   Rule: Hard-deleting a SESSION RESULT permanently deletes all attached relationships
 
-    @TEST_MCA-1762
+    @TEST_MCA-1762 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a SESSION RESULT
       Given there exists a "SESSION RESULT" "999th place"
       And there exists a "has image" relationship "R1" for "999th place"

@@ -7,7 +7,7 @@ Feature: Delete SESSION RESULT-has-image Relationship
   @RULE_MCA-1809
   Rule: The ›has-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-1810
+    @TEST_MCA-1810 @implemented
     Scenario: Deleting the ›has-image‹ relationship when it actually exists
       Given there exists a "SESSION RESULT" "1st place"
       And there exists a "IMAGE" "BMW logo"

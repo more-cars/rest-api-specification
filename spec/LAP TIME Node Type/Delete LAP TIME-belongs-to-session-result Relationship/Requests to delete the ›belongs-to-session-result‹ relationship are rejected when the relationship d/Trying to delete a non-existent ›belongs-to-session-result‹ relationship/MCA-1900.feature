@@ -7,7 +7,7 @@ Feature: Delete LAP TIME-belongs-to-session-result Relationship
   @RULE_MCA-1899
   Rule: Requests to delete the ›belongs-to-session-result‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-1900
+    @TEST_MCA-1900 @implemented
     Scenario: Trying to delete a non-existent ›belongs-to-session-result‹ relationship
       Given there exists a "LAP TIME" "test lap"
       And there exists a "SESSION RESULT" "Grand Prix"

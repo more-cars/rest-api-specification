@@ -7,7 +7,7 @@ Feature: Hard Delete LAP TIME Node
   @RULE_MCA-1872
   Rule: Hard-deleting a LAP TIME permanently deletes all attached relationships
 
-    @TEST_MCA-1873
+    @TEST_MCA-1873 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a LAP TIME
       Given there exists a "LAP TIME" "test lap"
       And there exists a "has image" relationship "R1" for "test lap"

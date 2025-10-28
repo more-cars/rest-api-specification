@@ -4,7 +4,7 @@ Feature: Get LAP TIME-belongs-to-session-result Relationship
   @RULE_MCA-1886
   Rule: The ›belongs-to-session-result‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-1887
+    @TEST_MCA-1887 @implemented
     Scenario: Requesting the ›belongs-to-session-result‹ relationship when one exists
       Given there exists a "LAP TIME" "fastest lap"
       And there exists a "belongs to session result" relationship "R" for "fastest lap"

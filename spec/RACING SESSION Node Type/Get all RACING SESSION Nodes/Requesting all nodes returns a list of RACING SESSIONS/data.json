@@ -5,5 +5,5 @@
   "description": "In general, all existing RACING SESSIONS are to be returned. But, depending on the actual amount of nodes and other features that can restrict the returned collection (like pagination or soft-deleted nodes) the response might be truncated.\n",
   "release_version": "0.25.0",
   "created_at": "2025-10-24T16:45:21.008+0200",
-  "updated_at": "2025-10-26T17:15:25.291+0100"
+  "updated_at": "2025-10-28T14:49:03.983+0100"
 }

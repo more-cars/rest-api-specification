@@ -7,7 +7,7 @@ Feature: Delete RACING SESSION-has-image Relationship
   @RULE_MCA-1673
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-1674
+    @TEST_MCA-1674 @implemented
     Scenario: Trying to delete a non-existent ›has-image‹ relationship
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "IMAGE" "qualifying photo"

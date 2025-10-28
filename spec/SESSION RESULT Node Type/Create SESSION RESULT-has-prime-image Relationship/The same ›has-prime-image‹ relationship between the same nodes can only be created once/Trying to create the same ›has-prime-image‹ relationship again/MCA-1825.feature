@@ -4,7 +4,7 @@ Feature: Create SESSION RESULT-has-prime-image Relationship
   @RULE_MCA-1824
   Rule: The same ›has-prime-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-1825
+    @TEST_MCA-1825 @implemented
     Scenario: Trying to create the same ›has-prime-image‹ relationship again
       Given there exists a "SESSION RESULT" "1st place"
       And there exists a "IMAGE" "finish line"

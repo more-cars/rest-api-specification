@@ -3,7 +3,9 @@
   "parent_id": "MCA-1723",
   "title": "Trying to delete a ›has-racing-session‹ relationship with invalid RACING EVENT ID",
   "gherkin": "Given \"RACING EVENT\" \"GP Monaco\" does NOT exist\nAnd there exists a \"RACING SESSION\" \"DTM Training\"\nWhen the user deletes the \"has racing session\" relationship between \"GP Monaco\" and \"DTM Training\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T18:04:24.381+0200",
-  "updated_at": "2025-10-24T18:04:27.202+0200"
+  "updated_at": "2025-10-28T14:56:20.204+0100"
 }

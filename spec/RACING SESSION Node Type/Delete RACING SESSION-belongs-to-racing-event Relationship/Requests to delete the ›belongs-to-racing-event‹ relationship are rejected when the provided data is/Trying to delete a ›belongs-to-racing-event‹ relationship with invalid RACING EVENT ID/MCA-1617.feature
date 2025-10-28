@@ -7,7 +7,7 @@ Feature: Delete RACING SESSION-belongs-to-racing-event Relationship
   @RULE_MCA-1615
   Rule: Requests to delete the ›belongs-to-racing-event‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1617
+    @TEST_MCA-1617 @implemented
     Scenario: Trying to delete a ›belongs-to-racing-event‹ relationship with invalid RACING EVENT ID
       Given there exists a "RACING SESSION" "Grand Prix"
       And "RACING EVENT" "DTM Norisring" does NOT exist

@@ -4,7 +4,7 @@ Feature: Get all RACING SESSION-has-session-result Relationships
   @RULE_MCA-1633
   Rule: A list of all ›has-session-result‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-1634
+    @TEST_MCA-1634 @implemented
     Scenario: Requesting the ›has-session-result‹ relationships when at least one exists
       Given there exists a "RACING SESSION" "Qualifying"
       And there exist 3 "has session result" relationships for "Qualifying"

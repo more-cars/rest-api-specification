@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-belongs-to-racing-event Relationship
   @RULE_MCA-1601
   Rule: The same ›belongs-to-racing-event‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-1602
+    @TEST_MCA-1602 @implemented
     Scenario: Trying to create the same ›belongs-to-racing-event‹ relationship again
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists a "RACING EVENT" "GP Monaco"

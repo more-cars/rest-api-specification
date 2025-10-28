@@ -3,7 +3,9 @@
   "parent_id": "MCA-1739",
   "title": "Expecting empty properties to be returned as null values when creating a SESSION RESULT",
   "gherkin": "When the user creates a \"SESSION RESULT\" \"1st place\" with the following data\n  | key | value | datatype |\n  | position | 1 | number |\n  | driver_name | Lewis Hamilton | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | position | 1 | number |\n  | race_number |  | string |\n  | driver_name | Lewis Hamilton | string |\n  | team_name |  | string |\n  | race_time |  | string |\n  | laps |  | number |\n  | status |  | string |\n  | points |  | number |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T18:53:36.542+0200",
-  "updated_at": "2025-10-25T18:53:38.993+0200"
+  "updated_at": "2025-10-28T14:56:18.108+0100"
 }

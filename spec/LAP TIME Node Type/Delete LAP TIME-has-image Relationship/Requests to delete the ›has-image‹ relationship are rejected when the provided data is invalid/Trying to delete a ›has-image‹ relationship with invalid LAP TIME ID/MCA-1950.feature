@@ -7,7 +7,7 @@ Feature: Delete LAP TIME-has-image Relationship
   @RULE_MCA-1949
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1950
+    @TEST_MCA-1950 @implemented
     Scenario: Trying to delete a ›has-image‹ relationship with invalid LAP TIME ID
       Given "LAP TIME" "fastest lap" does NOT exist
       And there exists a "IMAGE" "BMW logo"

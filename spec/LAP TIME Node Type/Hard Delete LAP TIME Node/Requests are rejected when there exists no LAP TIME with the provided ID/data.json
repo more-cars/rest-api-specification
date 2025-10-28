@@ -3,7 +3,7 @@
   "parent_id": "MCA-1867",
   "title": "Requests are rejected when there exists no LAP TIME with the provided ID",
   "description": "When there exists no node with the provided ID -> rejected.\nWhen there exists a node with the provided ID, but it is not from type LAP TIME -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T17:41:47.905+0100",
-  "updated_at": "2025-10-26T17:41:53.718+0100"
+  "updated_at": "2025-10-28T14:48:29.818+0100"
 }

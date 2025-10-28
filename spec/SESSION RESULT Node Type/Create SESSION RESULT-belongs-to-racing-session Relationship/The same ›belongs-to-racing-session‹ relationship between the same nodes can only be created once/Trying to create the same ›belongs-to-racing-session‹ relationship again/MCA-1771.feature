@@ -4,7 +4,7 @@ Feature: Create SESSION RESULT-belongs-to-racing-session Relationship
   @RULE_MCA-1770
   Rule: The same ›belongs-to-racing-session‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-1771
+    @TEST_MCA-1771 @implemented
     Scenario: Trying to create the same ›belongs-to-racing-session‹ relationship again
       Given there exists a "SESSION RESULT" "1st place"
       And there exists a "RACING SESSION" "Grand Prix"

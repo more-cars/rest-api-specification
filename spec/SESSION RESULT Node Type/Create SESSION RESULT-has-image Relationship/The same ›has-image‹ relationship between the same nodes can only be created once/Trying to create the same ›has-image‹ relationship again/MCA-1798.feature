@@ -4,7 +4,7 @@ Feature: Create SESSION RESULT-has-image Relationship
   @RULE_MCA-1797
   Rule: The same ›has-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-1798
+    @TEST_MCA-1798 @implemented
     Scenario: Trying to create the same ›has-image‹ relationship again
       Given there exists a "SESSION RESULT" "1st place"
       And there exists a "IMAGE" "podium"

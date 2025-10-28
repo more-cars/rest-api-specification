@@ -4,7 +4,7 @@ Feature: Create RACING EVENT-has-racing-session Relationship
   @RULE_MCA-1709
   Rule: The same ›has-racing-session‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-1710
+    @TEST_MCA-1710 @implemented
     Scenario: Trying to create the same ›has-racing-session‹ relationship again
       Given there exists a "RACING EVENT" "GP Monaco"
       And there exists a "RACING SESSION" "Qualifying"

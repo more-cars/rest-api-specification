@@ -3,7 +3,9 @@
   "parent_id": "MCA-1619",
   "title": "Trying to delete a non-existent ›belongs-to-racing-event‹ relationship",
   "gherkin": "Given there exists a \"RACING SESSION\" \"Grand Prix\"\nAnd there exists a \"RACING EVENT\" \"DTM Norisring\"\nAnd there exists NO \"belongs to racing event\" relationship between \"Grand Prix\" and \"DTM Norisring\"\nWhen the user deletes the \"belongs to racing event\" relationship between \"Grand Prix\" and \"DTM Norisring\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:12:28.421+0200",
-  "updated_at": "2025-10-24T17:12:31.247+0200"
+  "updated_at": "2025-10-28T14:56:34.234+0100"
 }

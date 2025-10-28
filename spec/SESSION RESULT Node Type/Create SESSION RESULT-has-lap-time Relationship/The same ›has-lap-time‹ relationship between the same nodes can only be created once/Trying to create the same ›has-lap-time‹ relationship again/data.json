@@ -3,7 +3,9 @@
   "parent_id": "MCA-1908",
   "title": "Trying to create the same ›has-lap-time‹ relationship again",
   "gherkin": "Given there exists a \"SESSION RESULT\" \"Grand Prix\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"has lap time\" relationship between \"Grand Prix\" and \"fastest lap\"\nWhen the user creates a \"has lap time\" relationship between \"Grand Prix\" and \"fastest lap\"\nThen the response should return with status code 304",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:13:56.682+0100",
-  "updated_at": "2025-10-26T18:13:58.809+0100"
+  "updated_at": "2025-10-28T14:55:56.103+0100"
 }

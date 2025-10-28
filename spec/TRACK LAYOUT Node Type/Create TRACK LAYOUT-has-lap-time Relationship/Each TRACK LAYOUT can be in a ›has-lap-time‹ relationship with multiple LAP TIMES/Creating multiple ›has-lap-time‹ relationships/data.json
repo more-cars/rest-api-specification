@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2019",
+  "parent_id": "MCA-2018",
+  "title": "Creating multiple ›has-lap-time‹ relationships",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"LAP TIME\" \"fastest lap (Alternative)\"\nWhen the user creates a \"has lap time\" relationship between \"Club Circuit\" and \"fastest lap\"\nAnd the user creates a \"has lap time\" relationship between \"Club Circuit\" and \"fastest lap (Alternative)\"\nThen there should exist a \"has lap time\" relationship between \"Club Circuit\" and \"fastest lap\"\nAnd there should exist a \"has lap time\" relationship between \"Club Circuit\" and \"fastest lap (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:39:55.406+0100",
+  "updated_at": "2025-10-28T14:55:40.963+0100"
+}

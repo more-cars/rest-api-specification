@@ -3,7 +3,9 @@
   "parent_id": "MCA-1624",
   "title": "Trying to create a ›has-session-result‹ relationship where both IDs are invalid",
   "gherkin": "Given \"RACING SESSION\" \"Grand Prix\" does NOT exist\nAnd \"SESSION RESULT\" \"1st place\" does NOT exist\nWhen the user creates a \"has session result\" relationship between \"Grand Prix\" and \"1st place\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:15:53.960+0200",
-  "updated_at": "2025-10-24T17:23:31.248+0200"
+  "updated_at": "2025-10-28T14:56:33.189+0100"
 }

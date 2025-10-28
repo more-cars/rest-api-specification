@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-has-image Relationship
   @RULE_MCA-1649
   Rule: Requests to create a ›has-image‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-1650
+    @TEST_MCA-1650 @implemented
     Scenario: Creating a ›has-image‹ relationship with valid IDs
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "IMAGE" "starting grid"

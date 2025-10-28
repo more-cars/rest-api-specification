@@ -7,7 +7,7 @@ Feature: Get LAP TIME Node by ID
   @RULE_MCA-1860
   Rule: Requests are rejected when there exists no LAP TIME with the provided ID
 
-    @TEST_MCA-1861
+    @TEST_MCA-1861 @implemented
     Scenario: Requesting a LAP TIME with invalid ID
       When the user requests a non-existing "LAP TIME"
       Then the request should be rejected with status code 404

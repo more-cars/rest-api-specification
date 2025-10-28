@@ -7,7 +7,7 @@ Feature: Delete SESSION RESULT-belongs-to-racing-session Relationship
   @RULE_MCA-1788
   Rule: Requests to delete the ›belongs-to-racing-session‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-1789
+    @TEST_MCA-1789 @implemented
     Scenario: Trying to delete a non-existent ›belongs-to-racing-session‹ relationship
       Given there exists a "SESSION RESULT" "999th place"
       And there exists a "RACING SESSION" "Grand Prix"

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2006",
+  "parent_id": "MCA-2003",
+  "title": "Trying to delete a ›achieved-on-track-layout‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"LAP TIME\" \"AVUS fastest lap\" does NOT exist\nAnd \"TRACK LAYOUT\" \"Norschleife\" does NOT exist\nWhen the user deletes the \"achieved on track layout\" relationship between \"AVUS fastest lap\" and \"Norschleife\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:35:47.862+0100",
+  "updated_at": "2025-10-28T14:55:42.804+0100"
+}

@@ -3,7 +3,7 @@
   "parent_id": "MCA-1857",
   "title": "Requesting a LAP TIME with a valid ID returns the respective node",
   "description": "An ID is deemed valid when there exists a node with that ID AND the node is from type LAP TIME.\n",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T17:32:58.075+0100",
-  "updated_at": "2025-10-26T17:33:03.062+0100"
+  "updated_at": "2025-10-28T14:48:31.366+0100"
 }

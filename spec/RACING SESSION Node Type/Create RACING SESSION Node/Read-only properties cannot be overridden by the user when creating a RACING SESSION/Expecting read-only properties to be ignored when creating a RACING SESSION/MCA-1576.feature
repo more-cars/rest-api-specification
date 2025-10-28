@@ -7,7 +7,7 @@ Feature: Create RACING SESSION Node
   @RULE_MCA-1575
   Rule: Read-only properties cannot be overridden by the user when creating a RACING SESSION
 
-    @TEST_MCA-1576
+    @TEST_MCA-1576 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a RACING SESSION
       When the user creates a "RACING SESSION" "Grand Prix" with the following data
         | key           | value      | datatype |

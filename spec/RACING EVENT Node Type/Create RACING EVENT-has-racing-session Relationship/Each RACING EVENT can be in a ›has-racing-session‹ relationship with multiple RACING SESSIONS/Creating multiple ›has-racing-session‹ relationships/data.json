@@ -3,7 +3,9 @@
   "parent_id": "MCA-1711",
   "title": "Creating multiple ›has-racing-session‹ relationships",
   "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nAnd there exists a \"RACING SESSION\" \"Qualifying\"\nAnd there exists a \"RACING SESSION\" \"Qualifying (Alternative)\"\nWhen the user creates a \"has racing session\" relationship between \"GP Monaco\" and \"Qualifying\"\nAnd the user creates a \"has racing session\" relationship between \"GP Monaco\" and \"Qualifying (Alternative)\"\nThen there should exist a \"has racing session\" relationship between \"GP Monaco\" and \"Qualifying\"\nAnd there should exist a \"has racing session\" relationship between \"GP Monaco\" and \"Qualifying (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:58:41.074+0200",
-  "updated_at": "2025-10-24T17:58:43.821+0200"
+  "updated_at": "2025-10-28T14:56:21.585+0100"
 }

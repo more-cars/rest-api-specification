@@ -3,7 +3,9 @@
   "parent_id": "MCA-1820",
   "title": "Trying to create a ›has-prime-image‹ relationship with invalid SESSION RESULT ID",
   "gherkin": "Given \"SESSION RESULT\" \"1st place\" does NOT exist\nAnd there exists a \"IMAGE\" \"finish line\"\nWhen the user creates a \"has prime image\" relationship between \"1st place\" and \"finish line\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T19:23:47.722+0200",
-  "updated_at": "2025-10-25T19:23:49.890+0200"
+  "updated_at": "2025-10-28T14:56:08.041+0100"
 }

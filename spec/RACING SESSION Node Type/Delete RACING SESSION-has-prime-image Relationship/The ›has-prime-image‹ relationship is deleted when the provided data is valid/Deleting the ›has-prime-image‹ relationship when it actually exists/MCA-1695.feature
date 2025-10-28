@@ -7,7 +7,7 @@ Feature: Delete RACING SESSION-has-prime-image Relationship
   @RULE_MCA-1694
   Rule: The ›has-prime-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-1695
+    @TEST_MCA-1695 @implemented
     Scenario: Deleting the ›has-prime-image‹ relationship when it actually exists
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "IMAGE" "BMW logo"

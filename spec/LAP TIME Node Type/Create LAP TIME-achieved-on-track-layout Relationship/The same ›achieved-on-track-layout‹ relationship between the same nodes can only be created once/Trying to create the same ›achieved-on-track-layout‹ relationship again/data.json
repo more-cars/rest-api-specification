@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1990",
+  "parent_id": "MCA-1989",
+  "title": "Trying to create the same ›achieved-on-track-layout‹ relationship again",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nAnd there exists a \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit\"\nWhen the user creates a \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:32:39.320+0100",
+  "updated_at": "2025-10-28T14:55:44.958+0100"
+}

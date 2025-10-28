@@ -3,7 +3,9 @@
   "parent_id": "MCA-1899",
   "title": "Trying to delete a non-existent ›belongs-to-session-result‹ relationship",
   "gherkin": "Given there exists a \"LAP TIME\" \"test lap\"\nAnd there exists a \"SESSION RESULT\" \"Grand Prix\"\nAnd there exists NO \"belongs to session result\" relationship between \"test lap\" and \"Grand Prix\"\nWhen the user deletes the \"belongs to session result\" relationship between \"test lap\" and \"Grand Prix\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:07:17.510+0100",
-  "updated_at": "2025-10-26T18:07:19.722+0100"
+  "updated_at": "2025-10-28T14:55:57.404+0100"
 }

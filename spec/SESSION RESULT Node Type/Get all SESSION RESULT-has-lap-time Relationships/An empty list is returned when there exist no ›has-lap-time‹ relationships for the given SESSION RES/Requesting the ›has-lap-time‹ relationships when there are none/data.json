@@ -3,7 +3,9 @@
   "parent_id": "MCA-1915",
   "title": "Requesting the ›has-lap-time‹ relationships when there are none",
   "gherkin": "Given there exists a \"SESSION RESULT\" \"Grand Prix\"\nAnd there exist 0 \"has lap time\" relationships for \"Grand Prix\"\nWhen the user requests all \"has lap time\" relationships for \"Grand Prix\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:16:52.865+0100",
-  "updated_at": "2025-10-26T18:16:55.292+0100"
+  "updated_at": "2025-10-28T14:55:55.343+0100"
 }

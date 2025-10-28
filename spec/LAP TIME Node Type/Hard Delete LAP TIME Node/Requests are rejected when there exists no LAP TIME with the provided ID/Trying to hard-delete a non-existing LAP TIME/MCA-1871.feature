@@ -7,7 +7,7 @@ Feature: Hard Delete LAP TIME Node
   @RULE_MCA-1870
   Rule: Requests are rejected when there exists no LAP TIME with the provided ID
 
-    @TEST_MCA-1871
+    @TEST_MCA-1871 @implemented
     Scenario: Trying to hard-delete a non-existing LAP TIME
       Given "LAP TIME" "test lap" does NOT exist
       When the user hard-deletes the "LAP TIME" "test lap"

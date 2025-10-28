@@ -4,7 +4,7 @@ Feature: Get RACING SESSION-belongs-to-racing-event Relationship
   @RULE_MCA-1608
   Rule: An empty response is returned when there exists no ›belongs-to-racing-event‹ relationship for the given RACING SESSION
 
-    @TEST_MCA-1609
+    @TEST_MCA-1609 @implemented
     Scenario: Requesting the ›belongs-to-racing-event‹ relationship when there exists none
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists NO "belongs to racing event" relationship for "Qualifying"

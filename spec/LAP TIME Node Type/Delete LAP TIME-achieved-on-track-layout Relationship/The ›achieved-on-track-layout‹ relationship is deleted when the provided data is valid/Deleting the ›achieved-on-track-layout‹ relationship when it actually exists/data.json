@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2002",
+  "parent_id": "MCA-2001",
+  "title": "Deleting the ›achieved-on-track-layout‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"LAP TIME\" \"AVUS fastest lap\"\nAnd there exists a \"TRACK LAYOUT\" \"Norschleife\"\nAnd there exists a \"achieved on track layout\" relationship \"R\" between \"AVUS fastest lap\" and \"Norschleife\"\nWhen the user deletes the \"achieved on track layout\" relationship between \"AVUS fastest lap\" and \"Norschleife\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:35:32.732+0100",
+  "updated_at": "2025-10-28T14:55:43.614+0100"
+}

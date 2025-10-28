@@ -7,7 +7,7 @@ Feature: Delete SESSION RESULT-has-image Relationship
   @RULE_MCA-1815
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-1816
+    @TEST_MCA-1816 @implemented
     Scenario: Trying to delete a non-existent ›has-image‹ relationship
       Given there exists a "SESSION RESULT" "1st place"
       And there exists a "IMAGE" "BMW logo"

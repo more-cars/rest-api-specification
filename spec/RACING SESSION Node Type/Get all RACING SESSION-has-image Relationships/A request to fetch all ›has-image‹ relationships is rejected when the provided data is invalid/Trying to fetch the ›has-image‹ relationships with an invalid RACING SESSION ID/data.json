@@ -3,7 +3,9 @@
   "parent_id": "MCA-1664",
   "title": "Trying to fetch the ›has-image‹ relationships with an invalid RACING SESSION ID",
   "gherkin": "Given \"RACING SESSION\" \"Grand Prix\" does NOT exist\nWhen the user requests all \"has image\" relationships for \"Grand Prix\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:35:33.465+0200",
-  "updated_at": "2025-10-24T17:35:36.604+0200"
+  "updated_at": "2025-10-28T14:56:28.076+0100"
 }

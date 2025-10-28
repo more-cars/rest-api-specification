@@ -7,7 +7,7 @@ Feature: Create RACING SESSION Node
   @RULE_MCA-1570
   Rule: The response contains all specified properties when creating a RACING SESSION
 
-    @TEST_MCA-1572
+    @TEST_MCA-1572 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a RACING SESSION
       When the user creates a "RACING SESSION" "Grand Prix" with the following data
         | key  | value      | datatype |

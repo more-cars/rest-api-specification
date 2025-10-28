@@ -8,7 +8,7 @@ Feature: Get all RACING SESSION Nodes
   @RULE_MCA-1585
   Rule: An empty list is returned when there exist no RACING SESSIONS
 
-    @TEST_MCA-1586
+    @TEST_MCA-1586 @implemented
     Scenario: Requesting all RACING SESSION nodes when none exist
       Given there exist 0 "RACING SESSION"s
       When the user requests all "RACING SESSION"s

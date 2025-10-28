@@ -4,7 +4,7 @@ Feature: Get SESSION RESULT-has-prime-image Relationship
   @RULE_MCA-1833
   Rule: Requests to fetch the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1834
+    @TEST_MCA-1834 @implemented
     Scenario: Trying to fetch the ›has-prime-image‹ relationship with an invalid SESSION RESULT ID
       Given "SESSION RESULT" "1st place" does NOT exist
       When the user requests the "has prime image" relationship for "1st place"

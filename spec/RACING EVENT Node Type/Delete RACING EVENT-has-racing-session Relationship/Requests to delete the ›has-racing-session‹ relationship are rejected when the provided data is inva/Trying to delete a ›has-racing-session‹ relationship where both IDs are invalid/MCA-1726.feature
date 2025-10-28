@@ -7,7 +7,7 @@ Feature: Delete RACING EVENT-has-racing-session Relationship
   @RULE_MCA-1723
   Rule: Requests to delete the ›has-racing-session‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1726
+    @TEST_MCA-1726 @implemented
     Scenario: Trying to delete a ›has-racing-session‹ relationship where both IDs are invalid
       Given "RACING EVENT" "GP Monaco" does NOT exist
       And "RACING SESSION" "DTM Training" does NOT exist

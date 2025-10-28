@@ -4,7 +4,7 @@ Feature: Create LAP TIME-has-image Relationship
   @RULE_MCA-1935
   Rule: The same ›has-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-1936
+    @TEST_MCA-1936 @implemented
     Scenario: Trying to create the same ›has-image‹ relationship again
       Given there exists a "LAP TIME" "fastest lap"
       And there exists a "IMAGE" "track record"

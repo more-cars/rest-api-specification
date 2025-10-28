@@ -3,7 +3,9 @@
   "parent_id": "MCA-1980",
   "title": "Trying to delete a non-existent ›has-prime-image‹ relationship",
   "gherkin": "Given there exists a \"LAP TIME\" \"test lap\"\nAnd there exists a \"IMAGE\" \"track record\"\nAnd there exists NO \"has prime image\" relationship between \"test lap\" and \"track record\"\nWhen the user deletes the \"has prime image\" relationship between \"test lap\" and \"track record\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:41:14.524+0100",
-  "updated_at": "2025-10-26T18:41:16.748+0100"
+  "updated_at": "2025-10-28T14:55:46.188+0100"
 }

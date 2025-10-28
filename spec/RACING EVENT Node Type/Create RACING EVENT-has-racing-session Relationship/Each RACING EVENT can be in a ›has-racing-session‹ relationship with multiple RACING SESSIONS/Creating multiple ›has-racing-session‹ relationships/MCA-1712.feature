@@ -4,7 +4,7 @@ Feature: Create RACING EVENT-has-racing-session Relationship
   @RULE_MCA-1711
   Rule: Each RACING EVENT can be in a ›has-racing-session‹ relationship with multiple RACING SESSIONS
 
-    @TEST_MCA-1712
+    @TEST_MCA-1712 @implemented
     Scenario: Creating multiple ›has-racing-session‹ relationships
       Given there exists a "RACING EVENT" "GP Monaco"
       And there exists a "RACING SESSION" "Qualifying"

@@ -4,7 +4,7 @@ Feature: Create LAP TIME-has-prime-image Relationship
   @RULE_MCA-1958
   Rule: Requests to create a ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1961
+    @TEST_MCA-1961 @implemented
     Scenario: Trying to create a ›has-prime-image‹ relationship where both IDs are invalid
       Given "LAP TIME" "fastest lap" does NOT exist
       And "IMAGE" "track record" does NOT exist

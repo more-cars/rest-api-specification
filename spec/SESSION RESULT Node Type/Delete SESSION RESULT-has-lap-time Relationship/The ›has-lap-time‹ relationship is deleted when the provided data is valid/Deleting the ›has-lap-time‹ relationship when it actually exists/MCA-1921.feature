@@ -7,7 +7,7 @@ Feature: Delete SESSION RESULT-has-lap-time Relationship
   @RULE_MCA-1920
   Rule: The ›has-lap-time‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-1921
+    @TEST_MCA-1921 @implemented
     Scenario: Deleting the ›has-lap-time‹ relationship when it actually exists
       Given there exists a "SESSION RESULT" "Grand Prix"
       And there exists a "LAP TIME" "test lap"

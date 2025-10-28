@@ -3,7 +3,9 @@
   "parent_id": "MCA-1782",
   "title": "Deleting the ›belongs-to-racing-session‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"SESSION RESULT\" \"999th place\"\nAnd there exists a \"RACING SESSION\" \"Grand Prix\"\nAnd there exists a \"belongs to racing session\" relationship \"R\" between \"999th place\" and \"Grand Prix\"\nWhen the user deletes the \"belongs to racing session\" relationship between \"999th place\" and \"Grand Prix\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T19:09:28.213+0200",
-  "updated_at": "2025-10-25T19:09:30.529+0200"
+  "updated_at": "2025-10-28T14:56:13.288+0100"
 }

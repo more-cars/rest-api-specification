@@ -3,7 +3,9 @@
   "parent_id": "MCA-1601",
   "title": "Trying to create the same ›belongs-to-racing-event‹ relationship again",
   "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nAnd there exists a \"RACING EVENT\" \"GP Monaco\"\nAnd there exists a \"belongs to racing event\" relationship between \"Qualifying\" and \"GP Monaco\"\nWhen the user creates a \"belongs to racing event\" relationship between \"Qualifying\" and \"GP Monaco\"\nThen the response should return with status code 304",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T16:54:45.858+0200",
-  "updated_at": "2025-10-24T16:54:48.510+0200"
+  "updated_at": "2025-10-28T14:56:36.792+0100"
 }

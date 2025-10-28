@@ -3,7 +3,7 @@
   "parent_id": "MCA-1912",
   "title": "An empty list is returned when there exist no ›has-lap-time‹ relationships for the given SESSION RESULT",
   "description": "",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T18:16:50.409+0100",
-  "updated_at": "2025-10-26T18:16:55.318+0100"
+  "updated_at": "2025-10-28T14:48:24.638+0100"
 }

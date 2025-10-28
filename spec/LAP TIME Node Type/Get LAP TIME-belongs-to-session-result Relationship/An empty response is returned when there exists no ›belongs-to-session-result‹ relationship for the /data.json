@@ -3,7 +3,7 @@
   "parent_id": "MCA-1885",
   "title": "An empty response is returned when there exists no ›belongs-to-session-result‹ relationship for the given LAP TIME",
   "description": "",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T18:02:19.851+0100",
-  "updated_at": "2025-10-26T18:02:25.471+0100"
+  "updated_at": "2025-10-28T14:48:27.661+0100"
 }

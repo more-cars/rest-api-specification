@@ -7,7 +7,7 @@ Feature: Delete SESSION RESULT-has-prime-image Relationship
   @RULE_MCA-1838
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1839
+    @TEST_MCA-1839 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship with invalid SESSION RESULT ID
       Given "SESSION RESULT" "1st place" does NOT exist
       And there exists a "IMAGE" "BMW logo"

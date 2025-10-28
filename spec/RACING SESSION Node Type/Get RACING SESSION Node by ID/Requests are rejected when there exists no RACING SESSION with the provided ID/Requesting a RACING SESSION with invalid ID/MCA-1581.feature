@@ -7,7 +7,7 @@ Feature: Get RACING SESSION Node by ID
   @RULE_MCA-1580
   Rule: Requests are rejected when there exists no RACING SESSION with the provided ID
 
-    @TEST_MCA-1581
+    @TEST_MCA-1581 @implemented
     Scenario: Requesting a RACING SESSION with invalid ID
       When the user requests a non-existing "RACING SESSION"
       Then the request should be rejected with status code 404

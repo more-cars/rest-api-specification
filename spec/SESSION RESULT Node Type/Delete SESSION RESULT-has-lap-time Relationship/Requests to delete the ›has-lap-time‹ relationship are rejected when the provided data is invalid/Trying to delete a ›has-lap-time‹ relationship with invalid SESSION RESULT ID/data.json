@@ -3,7 +3,9 @@
   "parent_id": "MCA-1922",
   "title": "Trying to delete a ›has-lap-time‹ relationship with invalid SESSION RESULT ID",
   "gherkin": "Given \"SESSION RESULT\" \"Grand Prix\" does NOT exist\nAnd there exists a \"LAP TIME\" \"test lap\"\nWhen the user deletes the \"has lap time\" relationship between \"Grand Prix\" and \"test lap\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:19:58.354+0100",
-  "updated_at": "2025-10-26T18:20:00.885+0100"
+  "updated_at": "2025-10-28T14:55:54.569+0100"
 }

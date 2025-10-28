@@ -4,7 +4,7 @@ Feature: Get all SESSION RESULT-has-lap-time Relationships
   @RULE_MCA-1915
   Rule: An empty list is returned when there exist no ›has-lap-time‹ relationships for the given SESSION RESULT
 
-    @TEST_MCA-1916
+    @TEST_MCA-1916 @implemented
     Scenario: Requesting the ›has-lap-time‹ relationships when there are none
       Given there exists a "SESSION RESULT" "Grand Prix"
       And there exist 0 "has lap time" relationships for "Grand Prix"

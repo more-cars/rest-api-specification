@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2026",
+  "parent_id": "MCA-2025",
+  "title": "Trying to fetch the ›has-lap-time‹ relationships with an invalid TRACK LAYOUT ID",
+  "gherkin": "Given \"TRACK LAYOUT\" \"Club Circuit\" does NOT exist\nWhen the user requests all \"has lap time\" relationships for \"Club Circuit\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:41:08.954+0100",
+  "updated_at": "2025-10-28T14:55:40.120+0100"
+}

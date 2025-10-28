@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2003",
+  "parent_id": "MCA-2000",
+  "title": "Requests to delete the ›achieved-on-track-layout‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no LAP TIME with the provided ID? -> rejected.\nThere exists no TRACK LAYOUT with the provided ID? -> rejected.\n",
+  "release_version": "0.25.0",
+  "created_at": "2025-10-27T17:35:36.140+0100",
+  "updated_at": "2025-10-28T14:48:13.446+0100"
+}

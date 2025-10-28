@@ -7,7 +7,7 @@ Feature: Delete SESSION RESULT-belongs-to-racing-session Relationship
   @RULE_MCA-1782
   Rule: The ›belongs-to-racing-session‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-1783
+    @TEST_MCA-1783 @implemented
     Scenario: Deleting the ›belongs-to-racing-session‹ relationship when it actually exists
       Given there exists a "SESSION RESULT" "999th place"
       And there exists a "RACING SESSION" "Grand Prix"

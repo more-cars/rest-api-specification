@@ -7,7 +7,7 @@ Feature: Create RACING SESSION Node
   @RULE_MCA-1567
   Rule: Requests to create a RACING SESSION are rejected when the provided data is invalid
 
-    @TEST_MCA-1568
+    @TEST_MCA-1568 @implemented
     Scenario: Trying to create a RACING SESSION with missing mandatory information
       When the user tries to create a "RACING SESSION" "Grand Prix" with the following data
         | key | value | datatype |

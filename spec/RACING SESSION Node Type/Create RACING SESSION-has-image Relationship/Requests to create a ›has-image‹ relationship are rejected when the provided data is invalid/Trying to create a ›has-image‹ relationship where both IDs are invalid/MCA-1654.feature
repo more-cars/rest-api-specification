@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-has-image Relationship
   @RULE_MCA-1651
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1654
+    @TEST_MCA-1654 @implemented
     Scenario: Trying to create a ›has-image‹ relationship where both IDs are invalid
       Given "RACING SESSION" "Grand Prix" does NOT exist
       And "IMAGE" "starting grid" does NOT exist

@@ -4,7 +4,7 @@ Feature: Get all LAP TIME-has-image Relationships
   @RULE_MCA-1940
   Rule: A list of all ›has-image‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-1941
+    @TEST_MCA-1941 @implemented
     Scenario: Requesting the ›has-image‹ relationships when at least one exists
       Given there exists a "LAP TIME" "fastest lap"
       And there exist 3 "has image" relationships for "fastest lap"

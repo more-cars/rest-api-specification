@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1992",
+  "parent_id": "MCA-1991",
+  "title": "Creating a ›achieved-on-track-layout‹ relationship with a different TRACK LAYOUT",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nAnd there exists a \"TRACK LAYOUT\" \"Club Circuit (Alternative)\"\nWhen the user creates a \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit\"\nThen there should exist a \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit\"\nWhen the user creates a \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit (Alternative)\"\nThen there should exist a \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit (Alternative)\"\nBut there should exist NO \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:32:45.145+0100",
+  "updated_at": "2025-10-28T14:55:44.715+0100"
+}

@@ -7,7 +7,7 @@ Feature: Delete RACING SESSION-has-image Relationship
   @RULE_MCA-1667
   Rule: The ›has-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-1668
+    @TEST_MCA-1668 @implemented
     Scenario: Deleting the ›has-image‹ relationship when it actually exists
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "IMAGE" "qualifying photo"

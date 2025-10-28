@@ -7,7 +7,7 @@ Feature: Delete LAP TIME-has-prime-image Relationship
   @RULE_MCA-1976
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1979
+    @TEST_MCA-1979 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship where both IDs are invalid
       Given "LAP TIME" "test lap" does NOT exist
       And "IMAGE" "track record" does NOT exist

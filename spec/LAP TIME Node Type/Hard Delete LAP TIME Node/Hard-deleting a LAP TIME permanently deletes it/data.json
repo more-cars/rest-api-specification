@@ -3,7 +3,7 @@
   "parent_id": "MCA-1867",
   "title": "Hard-deleting a LAP TIME permanently deletes it",
   "description": "The only way to recover a hard-deleted node is to restore the database.\n",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T17:41:42.249+0100",
-  "updated_at": "2025-10-26T17:41:47.486+0100"
+  "updated_at": "2025-10-28T14:48:30.147+0100"
 }

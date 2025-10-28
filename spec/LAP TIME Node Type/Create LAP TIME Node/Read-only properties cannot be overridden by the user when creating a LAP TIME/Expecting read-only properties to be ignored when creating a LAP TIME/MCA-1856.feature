@@ -7,7 +7,7 @@ Feature: Create LAP TIME Node
   @RULE_MCA-1855
   Rule: Read-only properties cannot be overridden by the user when creating a LAP TIME
 
-    @TEST_MCA-1856
+    @TEST_MCA-1856 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a LAP TIME
       When the user creates a "LAP TIME" "AVUS record" with the following data
         | key         | value        | datatype |

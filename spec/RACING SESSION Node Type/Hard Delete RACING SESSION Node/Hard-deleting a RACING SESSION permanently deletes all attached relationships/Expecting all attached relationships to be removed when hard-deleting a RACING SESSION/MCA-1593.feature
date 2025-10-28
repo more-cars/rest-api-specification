@@ -7,7 +7,7 @@ Feature: Hard Delete RACING SESSION Node
   @RULE_MCA-1592
   Rule: Hard-deleting a RACING SESSION permanently deletes all attached relationships
 
-    @TEST_MCA-1593
+    @TEST_MCA-1593 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a RACING SESSION
       Given there exists a "RACING SESSION" "Free Practice 4"
       And there exists a "has image" relationship "R1" for "Free Practice 4"

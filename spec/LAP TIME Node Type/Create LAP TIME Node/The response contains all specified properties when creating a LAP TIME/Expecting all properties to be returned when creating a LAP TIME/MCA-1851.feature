@@ -7,7 +7,7 @@ Feature: Create LAP TIME Node
   @RULE_MCA-1850
   Rule: The response contains all specified properties when creating a LAP TIME
 
-    @TEST_MCA-1851
+    @TEST_MCA-1851 @implemented
     Scenario: Expecting all properties to be returned when creating a LAP TIME
       When the user creates a "LAP TIME" "AVUS record" with the following data
         | key         | value        | datatype |

@@ -4,7 +4,7 @@ Feature: Create SESSION RESULT-belongs-to-racing-session Relationship
   @RULE_MCA-1772
   Rule: At the same time, each SESSION RESULT can only be in a ›belongs-to-racing-session‹ relationship with one RACING SESSION
 
-    @TEST_MCA-1773
+    @TEST_MCA-1773 @implemented
     Scenario: Creating a ›belongs-to-racing-session‹ relationship with a different RACING SESSION
       Given there exists a "SESSION RESULT" "1st place"
       And there exists a "RACING SESSION" "Grand Prix"

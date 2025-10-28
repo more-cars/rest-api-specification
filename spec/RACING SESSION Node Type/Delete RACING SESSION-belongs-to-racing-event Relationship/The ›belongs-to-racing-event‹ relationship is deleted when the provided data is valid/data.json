@@ -5,5 +5,5 @@
   "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a RACING SESSION and the second node needs to be a RACING EVENT.\n",
   "release_version": "0.25.0",
   "created_at": "2025-10-24T17:11:38.344+0200",
-  "updated_at": "2025-10-26T17:15:22.328+0100"
+  "updated_at": "2025-10-28T14:48:59.976+0100"
 }

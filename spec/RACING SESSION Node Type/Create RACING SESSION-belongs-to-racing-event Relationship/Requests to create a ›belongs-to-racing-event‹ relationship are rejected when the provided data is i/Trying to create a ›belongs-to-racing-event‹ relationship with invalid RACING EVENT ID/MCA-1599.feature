@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-belongs-to-racing-event Relationship
   @RULE_MCA-1597
   Rule: Requests to create a ›belongs-to-racing-event‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1599
+    @TEST_MCA-1599 @implemented
     Scenario: Trying to create a ›belongs-to-racing-event‹ relationship with invalid RACING EVENT ID
       Given there exists a "RACING SESSION" "Qualifying"
       And "RACING EVENT" "GP Monaco" does NOT exist

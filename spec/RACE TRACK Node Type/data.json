@@ -3,5 +3,5 @@
   "title": "RACE TRACK Node Type",
   "data_structure": "```\n[\n  {\n    \"name\": \"name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"Lausitzring\"\n  },\n  {\n    \"name\": \"opened\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"2000\"\n  },\n  {\n    \"name\": \"closed\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"\"\n  },\n  {\n    \"name\": \"type\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"permanent race track\"\n  },\n  {\n    \"name\": \"location\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"Klettwitz\"\n  },\n  {\n    \"name\": \"geo_position\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"51°32'0\\\"N 13°55'10\\\"E\"\n  }\n]\n```\n",
   "created_at": "2025-06-10T15:01:36.576+0200",
-  "updated_at": "2025-10-17T11:02:44.401+0200"
+  "updated_at": "2025-10-27T17:37:08.837+0100"
 }

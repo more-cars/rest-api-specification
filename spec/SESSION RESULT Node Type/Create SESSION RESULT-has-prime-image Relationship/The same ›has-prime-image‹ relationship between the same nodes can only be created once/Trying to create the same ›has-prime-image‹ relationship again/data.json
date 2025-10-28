@@ -3,7 +3,9 @@
   "parent_id": "MCA-1824",
   "title": "Trying to create the same ›has-prime-image‹ relationship again",
   "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists a \"IMAGE\" \"finish line\"\nAnd there exists a \"has prime image\" relationship between \"1st place\" and \"finish line\"\nWhen the user creates a \"has prime image\" relationship between \"1st place\" and \"finish line\"\nThen the response should return with status code 304",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T19:24:01.496+0200",
-  "updated_at": "2025-10-25T19:24:03.812+0200"
+  "updated_at": "2025-10-28T14:56:07.243+0100"
 }

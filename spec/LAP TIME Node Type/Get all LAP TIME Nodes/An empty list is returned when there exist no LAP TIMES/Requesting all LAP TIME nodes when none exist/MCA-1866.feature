@@ -8,7 +8,7 @@ Feature: Get all LAP TIME Nodes
   @RULE_MCA-1865
   Rule: An empty list is returned when there exist no LAP TIMES
 
-    @TEST_MCA-1866
+    @TEST_MCA-1866 @implemented
     Scenario: Requesting all LAP TIME nodes when none exist
       Given there exist 0 "LAP TIME"s
       When the user requests all "LAP TIME"s

@@ -3,7 +3,9 @@
   "parent_id": "MCA-1904",
   "title": "Trying to create a ›has-lap-time‹ relationship with invalid LAP TIME ID",
   "gherkin": "Given there exists a \"SESSION RESULT\" \"Grand Prix\"\nAnd \"LAP TIME\" \"fastest lap\" does NOT exist\nWhen the user creates a \"has lap time\" relationship between \"Grand Prix\" and \"fastest lap\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:13:47.068+0100",
-  "updated_at": "2025-10-26T18:13:49.384+0100"
+  "updated_at": "2025-10-28T14:55:56.654+0100"
 }

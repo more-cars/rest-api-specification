@@ -8,7 +8,7 @@ Feature: Get all SESSION RESULT Nodes
   @RULE_MCA-1752
   Rule: Requesting all nodes returns a list of SESSION RESULTS
 
-    @TEST_MCA-1753
+    @TEST_MCA-1753 @implemented
     Scenario: Requesting all SESSION RESULT nodes when at least 1 exists
       Given there exist 3 "SESSION RESULT"s
       When the user requests all "SESSION RESULT"s

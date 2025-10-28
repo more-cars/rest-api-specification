@@ -1,0 +1,18 @@
+{
+  "id": "MCA-2020",
+  "parent_id": "MCA-229",
+  "title": "Get all TRACK LAYOUT-has-lap-time Relationships",
+  "user_story": "",
+  "description": "* A list of all ›has-lap-time‹ relationships for the selected TRACK LAYOUT is returned when there exists at least one of them. -> Status Code \\`200\\`\n* Each item in the list contains the relationship ID and the two node IDs, but not the nodes itself.\n* An empty list is returned when no ›has-lap-time‹ relationship exists. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a TRACK LAYOUT. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/track-layouts/<track-layout-id>/has-lap-time",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.25.0"
+  ],
+  "created_at": "2025-10-27T17:40:50.526+0100",
+  "updated_at": "2025-10-28T14:43:11.504+0100"
+}

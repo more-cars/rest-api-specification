@@ -3,7 +3,7 @@
   "parent_id": "MCA-1966",
   "title": "The ›has-prime-image‹ relationship is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a LAP TIME node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T18:39:27.376+0100",
-  "updated_at": "2025-10-26T18:39:32.620+0100"
+  "updated_at": "2025-10-28T14:48:18.081+0100"
 }

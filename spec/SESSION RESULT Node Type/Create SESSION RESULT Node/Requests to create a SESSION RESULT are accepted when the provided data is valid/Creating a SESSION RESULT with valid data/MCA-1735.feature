@@ -7,7 +7,7 @@ Feature: Create SESSION RESULT Node
   @RULE_MCA-1734
   Rule: Requests to create a SESSION RESULT are accepted when the provided data is valid
 
-    @TEST_MCA-1735
+    @TEST_MCA-1735 @implemented
     Scenario: Creating a SESSION RESULT with valid data
       When the user creates a "SESSION RESULT" "1st place" with the following data
         | key         | value          | datatype |

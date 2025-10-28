@@ -7,7 +7,7 @@ Feature: Hard Delete RACING SESSION Node
   @RULE_MCA-1588
   Rule: Hard-deleting a RACING SESSION permanently deletes it
 
-    @TEST_MCA-1589
+    @TEST_MCA-1589 @implemented
     Scenario: Hard-deleting an existing RACING SESSION
       Given there exists a "RACING SESSION" "Free Practice 4"
       When the user hard-deletes the "RACING SESSION" "Free Practice 4"

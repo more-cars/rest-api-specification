@@ -7,7 +7,7 @@ Feature: Delete RACING SESSION-has-session-result Relationship
   @RULE_MCA-1642
   Rule: Requests to delete the ›has-session-result‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1643
+    @TEST_MCA-1643 @implemented
     Scenario: Trying to delete a ›has-session-result‹ relationship with invalid RACING SESSION ID
       Given "RACING SESSION" "Grand Prix" does NOT exist
       And there exists a "SESSION RESULT" "9999th place"

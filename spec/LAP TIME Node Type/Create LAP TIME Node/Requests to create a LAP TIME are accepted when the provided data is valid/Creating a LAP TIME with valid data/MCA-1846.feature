@@ -7,7 +7,7 @@ Feature: Create LAP TIME Node
   @RULE_MCA-1845
   Rule: Requests to create a LAP TIME are accepted when the provided data is valid
 
-    @TEST_MCA-1846
+    @TEST_MCA-1846 @implemented
     Scenario: Creating a LAP TIME with valid data
       When the user creates a "LAP TIME" "AVUS record" with the following data
         | key         | value        | datatype |

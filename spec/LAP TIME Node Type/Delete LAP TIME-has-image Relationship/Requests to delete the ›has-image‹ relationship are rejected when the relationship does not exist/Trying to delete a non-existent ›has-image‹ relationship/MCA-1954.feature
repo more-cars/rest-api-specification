@@ -7,7 +7,7 @@ Feature: Delete LAP TIME-has-image Relationship
   @RULE_MCA-1953
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-1954
+    @TEST_MCA-1954 @implemented
     Scenario: Trying to delete a non-existent ›has-image‹ relationship
       Given there exists a "LAP TIME" "fastest lap"
       And there exists a "IMAGE" "BMW logo"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-1883",
   "title": "Creating a ›belongs-to-session-result‹ relationship with a different SESSION RESULT",
   "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"SESSION RESULT\" \"Grand Prix\"\nAnd there exists a \"SESSION RESULT\" \"Grand Prix (Alternative)\"\nWhen the user creates a \"belongs to session result\" relationship between \"fastest lap\" and \"Grand Prix\"\nThen there should exist a \"belongs to session result\" relationship between \"fastest lap\" and \"Grand Prix\"\nWhen the user creates a \"belongs to session result\" relationship between \"fastest lap\" and \"Grand Prix (Alternative)\"\nThen there should exist a \"belongs to session result\" relationship between \"fastest lap\" and \"Grand Prix (Alternative)\"\nBut there should exist NO \"belongs to session result\" relationship between \"fastest lap\" and \"Grand Prix\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T17:52:20.682+0100",
-  "updated_at": "2025-10-26T17:52:22.889+0100"
+  "updated_at": "2025-10-28T14:55:59.420+0100"
 }

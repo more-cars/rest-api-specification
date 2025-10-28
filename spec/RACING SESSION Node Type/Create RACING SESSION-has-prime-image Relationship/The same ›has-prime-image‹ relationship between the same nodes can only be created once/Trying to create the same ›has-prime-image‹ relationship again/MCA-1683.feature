@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-has-prime-image Relationship
   @RULE_MCA-1682
   Rule: The same ›has-prime-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-1683
+    @TEST_MCA-1683 @implemented
     Scenario: Trying to create the same ›has-prime-image‹ relationship again
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "IMAGE" "starting grid"

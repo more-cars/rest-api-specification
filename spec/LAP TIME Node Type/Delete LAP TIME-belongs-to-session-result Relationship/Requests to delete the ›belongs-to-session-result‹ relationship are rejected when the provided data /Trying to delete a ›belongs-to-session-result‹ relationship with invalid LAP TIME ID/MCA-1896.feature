@@ -7,7 +7,7 @@ Feature: Delete LAP TIME-belongs-to-session-result Relationship
   @RULE_MCA-1895
   Rule: Requests to delete the ›belongs-to-session-result‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1896
+    @TEST_MCA-1896 @implemented
     Scenario: Trying to delete a ›belongs-to-session-result‹ relationship with invalid LAP TIME ID
       Given "LAP TIME" "test lap" does NOT exist
       And there exists a "SESSION RESULT" "Grand Prix"

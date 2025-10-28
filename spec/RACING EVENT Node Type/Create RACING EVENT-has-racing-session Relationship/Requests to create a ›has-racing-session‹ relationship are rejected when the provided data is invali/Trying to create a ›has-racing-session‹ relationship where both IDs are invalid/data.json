@@ -3,7 +3,9 @@
   "parent_id": "MCA-1705",
   "title": "Trying to create a ›has-racing-session‹ relationship where both IDs are invalid",
   "gherkin": "Given \"RACING EVENT\" \"GP Monaco\" does NOT exist\nAnd \"RACING SESSION\" \"Qualifying\" does NOT exist\nWhen the user creates a \"has racing session\" relationship between \"GP Monaco\" and \"Qualifying\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:58:28.645+0200",
-  "updated_at": "2025-10-24T17:58:31.283+0200"
+  "updated_at": "2025-10-28T14:56:22.149+0100"
 }

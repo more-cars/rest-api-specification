@@ -3,7 +3,7 @@
   "parent_id": "MCA-1966",
   "title": "Requests to fetch the ›has-prime-image‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no LAP TIME with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T18:39:38.138+0100",
-  "updated_at": "2025-10-26T18:39:43.436+0100"
+  "updated_at": "2025-10-28T14:48:17.467+0100"
 }

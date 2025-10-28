@@ -3,7 +3,9 @@
   "parent_id": "MCA-1633",
   "title": "Requesting the ›has-session-result‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nAnd there exist 3 \"has session result\" relationships for \"Qualifying\"\nWhen the user requests all \"has session result\" relationships for \"Qualifying\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has session result\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:19:40.683+0200",
-  "updated_at": "2025-10-24T17:19:43.512+0200"
+  "updated_at": "2025-10-28T14:56:32.353+0100"
 }

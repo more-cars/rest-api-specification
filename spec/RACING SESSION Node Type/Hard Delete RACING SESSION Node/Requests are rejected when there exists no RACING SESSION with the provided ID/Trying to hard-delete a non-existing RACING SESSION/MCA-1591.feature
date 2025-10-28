@@ -7,7 +7,7 @@ Feature: Hard Delete RACING SESSION Node
   @RULE_MCA-1590
   Rule: Requests are rejected when there exists no RACING SESSION with the provided ID
 
-    @TEST_MCA-1591
+    @TEST_MCA-1591 @implemented
     Scenario: Trying to hard-delete a non-existing RACING SESSION
       Given "RACING SESSION" "Free Practice 4" does NOT exist
       When the user hard-deletes the "RACING SESSION" "Free Practice 4"

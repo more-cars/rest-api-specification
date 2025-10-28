@@ -3,7 +3,9 @@
   "parent_id": "MCA-1877",
   "title": "Trying to create a ›belongs-to-session-result‹ relationship with invalid SESSION RESULT ID",
   "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd \"SESSION RESULT\" \"Grand Prix\" does NOT exist\nWhen the user creates a \"belongs to session result\" relationship between \"fastest lap\" and \"Grand Prix\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T17:52:03.684+0100",
-  "updated_at": "2025-10-26T17:52:06.018+0100"
+  "updated_at": "2025-10-28T14:56:00.336+0100"
 }

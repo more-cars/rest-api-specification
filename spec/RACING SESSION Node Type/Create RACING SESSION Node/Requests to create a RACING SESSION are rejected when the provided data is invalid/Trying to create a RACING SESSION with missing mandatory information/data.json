@@ -3,7 +3,9 @@
   "parent_id": "MCA-1567",
   "title": "Trying to create a RACING SESSION with missing mandatory information",
   "gherkin": "When the user tries to create a \"RACING SESSION\" \"Grand Prix\" with the following data\n  | key | value | datatype |\nThen the request should be rejected with status code 400",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T16:30:09.327+0200",
-  "updated_at": "2025-10-24T16:30:12.650+0200"
+  "updated_at": "2025-10-28T14:56:41.156+0100"
 }

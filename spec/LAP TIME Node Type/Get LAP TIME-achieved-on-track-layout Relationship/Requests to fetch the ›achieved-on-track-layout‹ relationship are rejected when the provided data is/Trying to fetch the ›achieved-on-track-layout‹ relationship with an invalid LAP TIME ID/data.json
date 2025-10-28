@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1999",
+  "parent_id": "MCA-1998",
+  "title": "Trying to fetch the ›achieved-on-track-layout‹ relationship with an invalid LAP TIME ID",
+  "gherkin": "Given \"LAP TIME\" \"fastest lap\" does NOT exist\nWhen the user requests the \"achieved on track layout\" relationship for \"fastest lap\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:33:57.777+0100",
+  "updated_at": "2025-10-28T14:55:43.899+0100"
+}

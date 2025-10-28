@@ -3,7 +3,9 @@
   "parent_id": "MCA-1858",
   "title": "Requesting a LAP TIME with valid ID",
   "gherkin": "Given there exists a \"LAP TIME\" \"AVUS record\"\nWhen the user requests the \"LAP TIME\" \"AVUS record\"\nThen the response should return with status code 200\nAnd the response should return the \"LAP TIME\" \"AVUS record\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T17:33:00.692+0100",
-  "updated_at": "2025-10-26T17:33:03.033+0100"
+  "updated_at": "2025-10-28T14:56:02.764+0100"
 }

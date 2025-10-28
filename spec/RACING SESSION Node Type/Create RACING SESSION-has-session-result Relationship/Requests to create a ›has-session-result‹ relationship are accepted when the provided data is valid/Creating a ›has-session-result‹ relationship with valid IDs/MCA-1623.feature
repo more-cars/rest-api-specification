@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-has-session-result Relationship
   @RULE_MCA-1622
   Rule: Requests to create a ›has-session-result‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-1623
+    @TEST_MCA-1623 @implemented
     Scenario: Creating a ›has-session-result‹ relationship with valid IDs
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "SESSION RESULT" "1st place"

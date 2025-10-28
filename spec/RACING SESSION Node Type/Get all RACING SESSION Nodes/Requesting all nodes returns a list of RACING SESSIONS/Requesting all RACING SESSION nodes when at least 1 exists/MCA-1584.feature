@@ -8,7 +8,7 @@ Feature: Get all RACING SESSION Nodes
   @RULE_MCA-1583
   Rule: Requesting all nodes returns a list of RACING SESSIONS
 
-    @TEST_MCA-1584
+    @TEST_MCA-1584 @implemented
     Scenario: Requesting all RACING SESSION nodes when at least 1 exists
       Given there exist 3 "RACING SESSION"s
       When the user requests all "RACING SESSION"s

@@ -4,7 +4,7 @@ Feature: Get all RACING EVENT-has-racing-session Relationships
   @RULE_MCA-1718
   Rule: A request to fetch all ›has-racing-session‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-1719
+    @TEST_MCA-1719 @implemented
     Scenario: Trying to fetch the ›has-racing-session‹ relationships with an invalid RACING EVENT ID
       Given "RACING EVENT" "GP Monaco" does NOT exist
       When the user requests all "has racing session" relationships for "GP Monaco"

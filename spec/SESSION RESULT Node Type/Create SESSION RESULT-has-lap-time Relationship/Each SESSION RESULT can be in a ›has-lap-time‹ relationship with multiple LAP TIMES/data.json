@@ -3,7 +3,7 @@
   "parent_id": "MCA-1901",
   "title": "Each SESSION RESULT can be in a ›has-lap-time‹ relationship with multiple LAP TIMES",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T18:13:59.254+0100",
-  "updated_at": "2025-10-26T18:14:04.757+0100"
+  "updated_at": "2025-10-28T14:48:25.225+0100"
 }

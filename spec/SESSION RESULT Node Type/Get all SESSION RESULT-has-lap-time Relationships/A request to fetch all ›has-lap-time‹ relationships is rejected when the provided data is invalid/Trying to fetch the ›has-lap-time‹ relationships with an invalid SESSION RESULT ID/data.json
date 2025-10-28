@@ -3,7 +3,9 @@
   "parent_id": "MCA-1917",
   "title": "Trying to fetch the ›has-lap-time‹ relationships with an invalid SESSION RESULT ID",
   "gherkin": "Given \"SESSION RESULT\" \"Grand Prix\" does NOT exist\nWhen the user requests all \"has lap time\" relationships for \"Grand Prix\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:16:58.500+0100",
-  "updated_at": "2025-10-26T18:17:00.939+0100"
+  "updated_at": "2025-10-28T14:55:55.098+0100"
 }

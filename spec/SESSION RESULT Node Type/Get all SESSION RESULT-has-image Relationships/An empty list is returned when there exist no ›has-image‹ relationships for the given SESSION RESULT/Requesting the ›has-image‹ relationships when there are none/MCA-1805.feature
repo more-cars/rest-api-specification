@@ -4,7 +4,7 @@ Feature: Get all SESSION RESULT-has-image Relationships
   @RULE_MCA-1804
   Rule: An empty list is returned when there exist no ›has-image‹ relationships for the given SESSION RESULT
 
-    @TEST_MCA-1805
+    @TEST_MCA-1805 @implemented
     Scenario: Requesting the ›has-image‹ relationships when there are none
       Given there exists a "SESSION RESULT" "1st place"
       And there exist 0 "has image" relationships for "1st place"

@@ -4,7 +4,7 @@ Feature: Create SESSION RESULT-has-image Relationship
   @RULE_MCA-1793
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1796
+    @TEST_MCA-1796 @implemented
     Scenario: Trying to create a ›has-image‹ relationship where both IDs are invalid
       Given "SESSION RESULT" "1st place" does NOT exist
       And "IMAGE" "podium" does NOT exist

@@ -7,7 +7,7 @@ Feature: Create SESSION RESULT Node
   @RULE_MCA-1742
   Rule: Unknown properties are ignored when creating a SESSION RESULT
 
-    @TEST_MCA-1743
+    @TEST_MCA-1743 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a SESSION RESULT
       When the user creates a "SESSION RESULT" "1st place" with the following data
         | key         | value          | datatype |

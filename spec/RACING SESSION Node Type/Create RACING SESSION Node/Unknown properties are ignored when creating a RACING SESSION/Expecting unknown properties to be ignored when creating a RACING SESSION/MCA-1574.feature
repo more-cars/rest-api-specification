@@ -7,7 +7,7 @@ Feature: Create RACING SESSION Node
   @RULE_MCA-1573
   Rule: Unknown properties are ignored when creating a RACING SESSION
 
-    @TEST_MCA-1574
+    @TEST_MCA-1574 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a RACING SESSION
       When the user creates a "RACING SESSION" "Grand Prix" with the following data
         | key           | value      | datatype |

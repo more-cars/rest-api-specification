@@ -3,7 +3,9 @@
   "parent_id": "MCA-1784",
   "title": "Trying to delete a ›belongs-to-racing-session‹ relationship where both IDs are invalid",
   "gherkin": "Given \"SESSION RESULT\" \"999th place\" does NOT exist\nAnd \"RACING SESSION\" \"Grand Prix\" does NOT exist\nWhen the user deletes the \"belongs to racing session\" relationship between \"999th place\" and \"Grand Prix\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T19:09:41.461+0200",
-  "updated_at": "2025-10-25T19:09:43.647+0200"
+  "updated_at": "2025-10-28T14:56:12.520+0100"
 }

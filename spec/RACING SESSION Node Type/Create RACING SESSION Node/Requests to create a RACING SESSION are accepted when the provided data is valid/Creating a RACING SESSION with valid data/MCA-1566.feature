@@ -7,7 +7,7 @@ Feature: Create RACING SESSION Node
   @RULE_MCA-1565
   Rule: Requests to create a RACING SESSION are accepted when the provided data is valid
 
-    @TEST_MCA-1566
+    @TEST_MCA-1566 @implemented
     Scenario: Creating a RACING SESSION with valid data
       When the user creates a "RACING SESSION" "Grand Prix" with the following data
         | key           | value      | datatype |

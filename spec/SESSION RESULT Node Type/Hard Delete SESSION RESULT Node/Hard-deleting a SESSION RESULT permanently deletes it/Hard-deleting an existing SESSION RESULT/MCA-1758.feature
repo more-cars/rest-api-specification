@@ -7,7 +7,7 @@ Feature: Hard Delete SESSION RESULT Node
   @RULE_MCA-1757
   Rule: Hard-deleting a SESSION RESULT permanently deletes it
 
-    @TEST_MCA-1758
+    @TEST_MCA-1758 @implemented
     Scenario: Hard-deleting an existing SESSION RESULT
       Given there exists a "SESSION RESULT" "999th place"
       When the user hard-deletes the "SESSION RESULT" "999th place"

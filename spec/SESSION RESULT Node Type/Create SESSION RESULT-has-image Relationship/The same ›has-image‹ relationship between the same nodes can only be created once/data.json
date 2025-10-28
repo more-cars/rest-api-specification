@@ -5,5 +5,5 @@
   "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
   "release_version": "0.25.0",
   "created_at": "2025-10-25T19:15:00.405+0200",
-  "updated_at": "2025-10-26T17:15:05.715+0100"
+  "updated_at": "2025-10-28T14:48:39.084+0100"
 }

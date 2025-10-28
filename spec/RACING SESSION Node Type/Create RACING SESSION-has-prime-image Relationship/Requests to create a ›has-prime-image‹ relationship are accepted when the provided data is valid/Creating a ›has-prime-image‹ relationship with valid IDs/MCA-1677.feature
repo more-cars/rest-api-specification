@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-has-prime-image Relationship
   @RULE_MCA-1676
   Rule: Requests to create a ›has-prime-image‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-1677
+    @TEST_MCA-1677 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with valid IDs
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "IMAGE" "starting grid"

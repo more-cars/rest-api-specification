@@ -3,7 +3,9 @@
   "parent_id": "MCA-1761",
   "title": "Expecting all attached relationships to be removed when hard-deleting a SESSION RESULT",
   "gherkin": "Given there exists a \"SESSION RESULT\" \"999th place\"\nAnd there exists a \"has image\" relationship \"R1\" for \"999th place\"\nAnd there exists a \"has prime image\" relationship \"R2\" for \"999th place\"\nWhen the user hard-deletes the \"SESSION RESULT\" \"999th place\"\nThen the \"SESSION RESULT\" \"999th place\" should not exist anymore\nAnd the relationship \"R1\" should not exist anymore\nAnd the relationship \"R2\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T19:01:46.265+0200",
-  "updated_at": "2025-10-25T19:01:48.884+0200"
+  "updated_at": "2025-10-28T14:56:15.815+0100"
 }

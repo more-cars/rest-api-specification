@@ -7,7 +7,7 @@ Feature: Create SESSION RESULT Node
   @RULE_MCA-1744
   Rule: Read-only properties cannot be overridden by the user when creating a SESSION RESULT
 
-    @TEST_MCA-1745
+    @TEST_MCA-1745 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a SESSION RESULT
       When the user creates a "SESSION RESULT" "1st place" with the following data
         | key         | value          | datatype |

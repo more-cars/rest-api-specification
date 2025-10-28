@@ -4,7 +4,7 @@ Feature: Create LAP TIME-belongs-to-session-result Relationship
   @RULE_MCA-1875
   Rule: Requests to create a ›belongs-to-session-result‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-1876
+    @TEST_MCA-1876 @implemented
     Scenario: Creating a ›belongs-to-session-result‹ relationship with valid IDs
       Given there exists a "LAP TIME" "fastest lap"
       And there exists a "SESSION RESULT" "Grand Prix"

@@ -8,7 +8,7 @@ Feature: Get all SESSION RESULT Nodes
   @RULE_MCA-1754
   Rule: An empty list is returned when there exist no SESSION RESULTS
 
-    @TEST_MCA-1755
+    @TEST_MCA-1755 @implemented
     Scenario: Requesting all SESSION RESULT nodes when none exist
       Given there exist 0 "SESSION RESULT"s
       When the user requests all "SESSION RESULT"s

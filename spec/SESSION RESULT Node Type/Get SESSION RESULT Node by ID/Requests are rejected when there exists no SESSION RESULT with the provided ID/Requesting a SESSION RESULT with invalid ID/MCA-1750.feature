@@ -7,7 +7,7 @@ Feature: Get SESSION RESULT Node by ID
   @RULE_MCA-1749
   Rule: Requests are rejected when there exists no SESSION RESULT with the provided ID
 
-    @TEST_MCA-1750
+    @TEST_MCA-1750 @implemented
     Scenario: Requesting a SESSION RESULT with invalid ID
       When the user requests a non-existing "SESSION RESULT"
       Then the request should be rejected with status code 404

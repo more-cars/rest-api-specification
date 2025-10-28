@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-has-prime-image Relationship
   @RULE_MCA-1684
   Rule: At the same time, each RACING SESSION can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-1685
+    @TEST_MCA-1685 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "IMAGE" "starting grid"

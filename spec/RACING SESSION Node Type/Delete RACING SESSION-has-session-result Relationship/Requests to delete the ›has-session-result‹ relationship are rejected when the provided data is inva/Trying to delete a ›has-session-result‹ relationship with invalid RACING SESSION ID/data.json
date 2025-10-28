@@ -3,7 +3,9 @@
   "parent_id": "MCA-1642",
   "title": "Trying to delete a ›has-session-result‹ relationship with invalid RACING SESSION ID",
   "gherkin": "Given \"RACING SESSION\" \"Grand Prix\" does NOT exist\nAnd there exists a \"SESSION RESULT\" \"9999th place\"\nWhen the user deletes the \"has session result\" relationship between \"Grand Prix\" and \"9999th place\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:22:24.797+0200",
-  "updated_at": "2025-10-24T17:22:27.468+0200"
+  "updated_at": "2025-10-28T14:56:31.261+0100"
 }

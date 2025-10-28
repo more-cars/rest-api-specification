@@ -3,7 +3,9 @@
   "parent_id": "MCA-1714",
   "title": "Requesting the ›has-racing-session‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nAnd there exist 3 \"has racing session\" relationships for \"GP Monaco\"\nWhen the user requests all \"has racing session\" relationships for \"GP Monaco\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has racing session\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T18:00:31.645+0200",
-  "updated_at": "2025-10-24T18:00:34.592+0200"
+  "updated_at": "2025-10-28T14:56:21.321+0100"
 }

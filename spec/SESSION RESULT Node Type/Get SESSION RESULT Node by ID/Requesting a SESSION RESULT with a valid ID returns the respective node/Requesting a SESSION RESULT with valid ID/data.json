@@ -3,7 +3,9 @@
   "parent_id": "MCA-1747",
   "title": "Requesting a SESSION RESULT with valid ID",
   "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nWhen the user requests the \"SESSION RESULT\" \"1st place\"\nThen the response should return with status code 200\nAnd the response should return the \"SESSION RESULT\" \"1st place\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T18:57:01.952+0200",
-  "updated_at": "2025-10-25T18:57:04.384+0200"
+  "updated_at": "2025-10-28T14:56:17.300+0100"
 }

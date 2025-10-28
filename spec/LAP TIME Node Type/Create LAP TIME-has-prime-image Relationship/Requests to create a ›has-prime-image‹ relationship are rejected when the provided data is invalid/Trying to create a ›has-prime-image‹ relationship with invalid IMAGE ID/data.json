@@ -3,7 +3,9 @@
   "parent_id": "MCA-1958",
   "title": "Trying to create a ›has-prime-image‹ relationship with invalid IMAGE ID",
   "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd \"IMAGE\" \"track record\" does NOT exist\nWhen the user creates a \"has prime image\" relationship between \"fastest lap\" and \"track record\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:38:19.503+0100",
-  "updated_at": "2025-10-26T18:38:21.857+0100"
+  "updated_at": "2025-10-28T14:55:49.283+0100"
 }

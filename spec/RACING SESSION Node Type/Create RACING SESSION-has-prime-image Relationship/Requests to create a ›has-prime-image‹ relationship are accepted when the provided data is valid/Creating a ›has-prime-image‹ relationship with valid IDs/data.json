@@ -3,7 +3,9 @@
   "parent_id": "MCA-1676",
   "title": "Creating a ›has-prime-image‹ relationship with valid IDs",
   "gherkin": "Given there exists a \"RACING SESSION\" \"Grand Prix\"\nAnd there exists a \"IMAGE\" \"starting grid\"\nWhen the user creates a \"has prime image\" relationship between \"Grand Prix\" and \"starting grid\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:43:36.172+0200",
-  "updated_at": "2025-10-24T17:43:38.993+0200"
+  "updated_at": "2025-10-28T14:56:26.514+0100"
 }

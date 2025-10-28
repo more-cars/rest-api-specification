@@ -7,7 +7,7 @@ Feature: Create LAP TIME Node
   @RULE_MCA-1847
   Rule: Requests to create a LAP TIME are rejected when the provided data is invalid
 
-    @TEST_MCA-1848
+    @TEST_MCA-1848 @implemented
     Scenario: Trying to create a LAP TIME with missing mandatory information
       When the user tries to create a "LAP TIME" "AVUS record" with the following data
         | key | value | datatype |

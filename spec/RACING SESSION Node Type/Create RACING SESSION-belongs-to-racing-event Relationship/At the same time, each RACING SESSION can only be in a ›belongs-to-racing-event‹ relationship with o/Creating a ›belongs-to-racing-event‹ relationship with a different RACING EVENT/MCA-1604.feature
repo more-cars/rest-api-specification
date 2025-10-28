@@ -4,7 +4,7 @@ Feature: Create RACING SESSION-belongs-to-racing-event Relationship
   @RULE_MCA-1603
   Rule: At the same time, each RACING SESSION can only be in a ›belongs-to-racing-event‹ relationship with one RACING EVENT
 
-    @TEST_MCA-1604
+    @TEST_MCA-1604 @implemented
     Scenario: Creating a ›belongs-to-racing-event‹ relationship with a different RACING EVENT
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists a "RACING EVENT" "GP Monaco"

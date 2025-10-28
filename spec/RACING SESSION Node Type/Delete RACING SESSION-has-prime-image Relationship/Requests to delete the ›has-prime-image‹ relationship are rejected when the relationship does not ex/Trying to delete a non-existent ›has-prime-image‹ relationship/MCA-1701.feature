@@ -7,7 +7,7 @@ Feature: Delete RACING SESSION-has-prime-image Relationship
   @RULE_MCA-1700
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-1701
+    @TEST_MCA-1701 @implemented
     Scenario: Trying to delete a non-existent ›has-prime-image‹ relationship
       Given there exists a "RACING SESSION" "Grand Prix"
       And there exists a "IMAGE" "BMW logo"

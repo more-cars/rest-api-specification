@@ -3,7 +3,9 @@
   "parent_id": "MCA-1651",
   "title": "Trying to create a ›has-image‹ relationship with invalid RACING SESSION ID",
   "gherkin": "Given \"RACING SESSION\" \"Grand Prix\" does NOT exist\nAnd there exists a \"IMAGE\" \"starting grid\"\nWhen the user creates a \"has image\" relationship between \"Grand Prix\" and \"starting grid\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:29:48.908+0200",
-  "updated_at": "2025-10-24T17:29:51.697+0200"
+  "updated_at": "2025-10-28T14:56:29.923+0100"
 }

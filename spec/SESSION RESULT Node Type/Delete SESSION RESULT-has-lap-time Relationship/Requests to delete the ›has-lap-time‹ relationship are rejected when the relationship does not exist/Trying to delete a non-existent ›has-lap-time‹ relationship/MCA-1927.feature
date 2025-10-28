@@ -7,7 +7,7 @@ Feature: Delete SESSION RESULT-has-lap-time Relationship
   @RULE_MCA-1926
   Rule: Requests to delete the ›has-lap-time‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-1927
+    @TEST_MCA-1927 @implemented
     Scenario: Trying to delete a non-existent ›has-lap-time‹ relationship
       Given there exists a "SESSION RESULT" "Grand Prix"
       And there exists a "LAP TIME" "test lap"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-1964",
   "title": "Creating a ›has-prime-image‹ relationship with a different IMAGE",
   "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"IMAGE\" \"track record\"\nAnd there exists a \"IMAGE\" \"track record (Alternative)\"\nWhen the user creates a \"has prime image\" relationship between \"fastest lap\" and \"track record\"\nThen there should exist a \"has prime image\" relationship between \"fastest lap\" and \"track record\"\nWhen the user creates a \"has prime image\" relationship between \"fastest lap\" and \"track record (Alternative)\"\nThen there should exist a \"has prime image\" relationship between \"fastest lap\" and \"track record (Alternative)\"\nBut there should exist NO \"has prime image\" relationship between \"fastest lap\" and \"track record\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:38:34.533+0100",
-  "updated_at": "2025-10-26T18:38:36.627+0100"
+  "updated_at": "2025-10-28T14:55:48.450+0100"
 }

@@ -7,7 +7,7 @@ Feature: Create LAP TIME Node
   @RULE_MCA-1853
   Rule: Unknown properties are ignored when creating a LAP TIME
 
-    @TEST_MCA-1854
+    @TEST_MCA-1854 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a LAP TIME
       When the user creates a "LAP TIME" "AVUS record" with the following data
         | key         | value        | datatype |

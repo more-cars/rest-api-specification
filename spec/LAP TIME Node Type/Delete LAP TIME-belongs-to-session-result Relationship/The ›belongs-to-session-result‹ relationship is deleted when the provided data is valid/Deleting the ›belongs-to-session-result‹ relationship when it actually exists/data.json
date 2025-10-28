@@ -3,7 +3,9 @@
   "parent_id": "MCA-1893",
   "title": "Deleting the ›belongs-to-session-result‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"LAP TIME\" \"test lap\"\nAnd there exists a \"SESSION RESULT\" \"Grand Prix\"\nAnd there exists a \"belongs to session result\" relationship \"R\" between \"test lap\" and \"Grand Prix\"\nWhen the user deletes the \"belongs to session result\" relationship between \"test lap\" and \"Grand Prix\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-26T18:06:58.927+0100",
-  "updated_at": "2025-10-26T18:07:01.847+0100"
+  "updated_at": "2025-10-28T14:55:58.381+0100"
 }

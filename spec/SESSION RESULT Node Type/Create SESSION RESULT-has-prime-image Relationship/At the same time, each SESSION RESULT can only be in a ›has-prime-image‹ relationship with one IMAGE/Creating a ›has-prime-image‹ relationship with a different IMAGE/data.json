@@ -3,7 +3,9 @@
   "parent_id": "MCA-1826",
   "title": "Creating a ›has-prime-image‹ relationship with a different IMAGE",
   "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists a \"IMAGE\" \"finish line\"\nAnd there exists a \"IMAGE\" \"finish line (Alternative)\"\nWhen the user creates a \"has prime image\" relationship between \"1st place\" and \"finish line\"\nThen there should exist a \"has prime image\" relationship between \"1st place\" and \"finish line\"\nWhen the user creates a \"has prime image\" relationship between \"1st place\" and \"finish line (Alternative)\"\nThen there should exist a \"has prime image\" relationship between \"1st place\" and \"finish line (Alternative)\"\nBut there should exist NO \"has prime image\" relationship between \"1st place\" and \"finish line\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T19:24:06.934+0200",
-  "updated_at": "2025-10-25T19:24:09.351+0200"
+  "updated_at": "2025-10-28T14:56:06.945+0100"
 }

@@ -4,7 +4,7 @@ Feature: Create SESSION RESULT-belongs-to-racing-session Relationship
   @RULE_MCA-1766
   Rule: Requests to create a ›belongs-to-racing-session‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1768
+    @TEST_MCA-1768 @implemented
     Scenario: Trying to create a ›belongs-to-racing-session‹ relationship with invalid RACING SESSION ID
       Given there exists a "SESSION RESULT" "1st place"
       And "RACING SESSION" "Grand Prix" does NOT exist

@@ -3,7 +3,9 @@
   "parent_id": "MCA-1752",
   "title": "Requesting all SESSION RESULT nodes when at least 1 exists",
   "gherkin": "Given there exist 3 \"SESSION RESULT\"s\nWhen the user requests all \"SESSION RESULT\"s\nThen the response should return a collection of 3 \"SESSION RESULT\"s\nAnd the response should return with status code 200",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-25T18:59:07.487+0200",
-  "updated_at": "2025-10-25T18:59:09.810+0200"
+  "updated_at": "2025-10-28T14:56:16.781+0100"
 }

@@ -4,7 +4,7 @@ Feature: Create LAP TIME-has-image Relationship
   @RULE_MCA-1931
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1933
+    @TEST_MCA-1933 @implemented
     Scenario: Trying to create a ›has-image‹ relationship with invalid IMAGE ID
       Given there exists a "LAP TIME" "fastest lap"
       And "IMAGE" "track record" does NOT exist

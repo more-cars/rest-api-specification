@@ -8,7 +8,7 @@ Feature: Get all LAP TIME Nodes
   @RULE_MCA-1863
   Rule: Requesting all nodes returns a list of LAP TIMES
 
-    @TEST_MCA-1864
+    @TEST_MCA-1864 @implemented
     Scenario: Requesting all LAP TIME nodes when at least 1 exists
       Given there exist 3 "LAP TIME"s
       When the user requests all "LAP TIME"s

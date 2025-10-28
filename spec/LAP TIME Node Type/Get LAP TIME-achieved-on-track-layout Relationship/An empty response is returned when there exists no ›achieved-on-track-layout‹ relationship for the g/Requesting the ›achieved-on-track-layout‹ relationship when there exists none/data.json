@@ -1,0 +1,11 @@
+{
+  "id": "MCA-1997",
+  "parent_id": "MCA-1996",
+  "title": "Requesting the ›achieved-on-track-layout‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists NO \"achieved on track layout\" relationship for \"fastest lap\"\nWhen the user requests the \"achieved on track layout\" relationship for \"fastest lap\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:33:52.115+0100",
+  "updated_at": "2025-10-28T14:55:44.198+0100"
+}

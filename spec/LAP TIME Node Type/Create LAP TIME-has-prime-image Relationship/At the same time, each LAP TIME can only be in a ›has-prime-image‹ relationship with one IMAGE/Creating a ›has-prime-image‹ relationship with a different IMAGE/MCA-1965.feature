@@ -4,7 +4,7 @@ Feature: Create LAP TIME-has-prime-image Relationship
   @RULE_MCA-1964
   Rule: At the same time, each LAP TIME can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-1965
+    @TEST_MCA-1965 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "LAP TIME" "fastest lap"
       And there exists a "IMAGE" "track record"

@@ -7,7 +7,7 @@ Feature: Create SESSION RESULT Node
   @RULE_MCA-1736
   Rule: Requests to create a SESSION RESULT are rejected when the provided data is invalid
 
-    @TEST_MCA-1737
+    @TEST_MCA-1737 @implemented
     Scenario: Trying to create a SESSION RESULT with missing mandatory information
       When the user tries to create a "SESSION RESULT" "1st place" with the following data
         | key | value | datatype |

@@ -3,7 +3,7 @@
   "parent_id": "MCA-1973",
   "title": "Requests to delete the ›has-prime-image‹ relationship are rejected when the relationship does not exist",
   "description": "The relationship might have never existed or it has already been deleted. No matter the reason, an error will be returned.\n",
-  "release_version": null,
+  "release_version": "0.25.0",
   "created_at": "2025-10-26T18:41:11.498+0100",
-  "updated_at": "2025-10-26T18:41:16.771+0100"
+  "updated_at": "2025-10-28T14:48:16.505+0100"
 }

@@ -4,7 +4,7 @@ Feature: Get all RACING SESSION-has-session-result Relationships
   @RULE_MCA-1635
   Rule: An empty list is returned when there exist no ›has-session-result‹ relationships for the given RACING SESSION
 
-    @TEST_MCA-1636
+    @TEST_MCA-1636 @implemented
     Scenario: Requesting the ›has-session-result‹ relationships when there are none
       Given there exists a "RACING SESSION" "Qualifying"
       And there exist 0 "has session result" relationships for "Qualifying"

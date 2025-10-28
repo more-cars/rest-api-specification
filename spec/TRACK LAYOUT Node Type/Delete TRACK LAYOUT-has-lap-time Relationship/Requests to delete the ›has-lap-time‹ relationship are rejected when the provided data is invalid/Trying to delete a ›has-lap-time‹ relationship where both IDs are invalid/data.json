@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2033",
+  "parent_id": "MCA-2030",
+  "title": "Trying to delete a ›has-lap-time‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"TRACK LAYOUT\" \"Nordschleife\" does NOT exist\nAnd \"LAP TIME\" \"AVUS fastest lap\" does NOT exist\nWhen the user deletes the \"has lap time\" relationship between \"Nordschleife\" and \"AVUS fastest lap\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-27T17:42:50.731+0100",
+  "updated_at": "2025-10-28T14:55:39.060+0100"
+}

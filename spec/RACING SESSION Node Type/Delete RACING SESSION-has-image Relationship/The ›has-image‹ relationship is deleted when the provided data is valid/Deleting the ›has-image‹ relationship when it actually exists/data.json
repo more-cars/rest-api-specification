@@ -3,7 +3,9 @@
   "parent_id": "MCA-1667",
   "title": "Deleting the ›has-image‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"RACING SESSION\" \"Grand Prix\"\nAnd there exists a \"IMAGE\" \"qualifying photo\"\nAnd there exists a \"has image\" relationship \"R\" between \"Grand Prix\" and \"qualifying photo\"\nWhen the user deletes the \"has image\" relationship between \"Grand Prix\" and \"qualifying photo\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T17:38:40.073+0200",
-  "updated_at": "2025-10-24T17:38:42.646+0200"
+  "updated_at": "2025-10-28T14:56:27.816+0100"
 }

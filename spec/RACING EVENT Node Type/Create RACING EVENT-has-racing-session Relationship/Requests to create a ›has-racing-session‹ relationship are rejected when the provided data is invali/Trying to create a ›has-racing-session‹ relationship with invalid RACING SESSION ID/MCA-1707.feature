@@ -4,7 +4,7 @@ Feature: Create RACING EVENT-has-racing-session Relationship
   @RULE_MCA-1705
   Rule: Requests to create a ›has-racing-session‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1707
+    @TEST_MCA-1707 @implemented
     Scenario: Trying to create a ›has-racing-session‹ relationship with invalid RACING SESSION ID
       Given there exists a "RACING EVENT" "GP Monaco"
       And "RACING SESSION" "Qualifying" does NOT exist

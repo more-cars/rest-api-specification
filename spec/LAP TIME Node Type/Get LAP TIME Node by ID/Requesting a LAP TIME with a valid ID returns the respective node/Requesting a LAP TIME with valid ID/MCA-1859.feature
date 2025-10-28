@@ -7,7 +7,7 @@ Feature: Get LAP TIME Node by ID
   @RULE_MCA-1858
   Rule: Requesting a LAP TIME with a valid ID returns the respective node
 
-    @TEST_MCA-1859
+    @TEST_MCA-1859 @implemented
     Scenario: Requesting a LAP TIME with valid ID
       Given there exists a "LAP TIME" "AVUS record"
       When the user requests the "LAP TIME" "AVUS record"

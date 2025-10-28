@@ -7,7 +7,7 @@ Feature: Get RACING SESSION Node by ID
   @RULE_MCA-1578
   Rule: Requesting a RACING SESSION with a valid ID returns the respective node
 
-    @TEST_MCA-1579
+    @TEST_MCA-1579 @implemented
     Scenario: Requesting a RACING SESSION with valid ID
       Given there exists a "RACING SESSION" "Grand Prix"
       When the user requests the "RACING SESSION" "Grand Prix"
