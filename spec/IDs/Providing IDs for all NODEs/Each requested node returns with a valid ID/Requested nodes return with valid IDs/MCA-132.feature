@@ -9,21 +9,25 @@ Feature: Providing IDs for all NODEs
 
     @TEST_MCA-132 @implemented
     Scenario Outline: Requested nodes return with valid IDs
-      Given there exist 8 "<node_type>"s
-      When the user requests an existing "<node_type>"
+      Given there exists a "<node_type>" "A"
+      When the user requests the "<node_type>" "A"
       Then the property "id" in the response should be a number greater than 0
       And the property "id" in the response should be a number lesser than 4294967296
+      Given there exist 8 "<node_type>"s
       When the user requests all "<node_type>"s
       Then the property "id" of all items in the response should be a number greater than 0
       And the property "id" of all items in the response should be a number lesser than 4294967296
 
       Examples:
-        | node_type     |
-        | COMPANY       |
-        | BRAND         |
-        | CAR MODEL     |
-        | RACE TRACK    |
-        | TRACK LAYOUT  |
-        | RACING SERIES |
-        | RACING EVENT  |
-        | IMAGE         |
+        | node_type      |
+        | COMPANY        |
+        | BRAND          |
+        | CAR MODEL      |
+        | RACE TRACK     |
+        | TRACK LAYOUT   |
+        | RACING SERIES  |
+        | RACING EVENT   |
+        | RACING SESSION |
+        | SESSION RESULT |
+        | LAP TIME       |
+        | IMAGE          |
