@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2281",
+  "parent_id": "MCA-2279",
+  "title": "Trying to delete a ›achieved-with-car-model-variant‹ relationship with invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given there exists a \"LAP TIME\" \"test lap\"\nAnd \"CAR MODEL VARIANT\" \"Opel Calibra V6\" does NOT exist\nWhen the user deletes the \"achieved with car model variant\" relationship between \"test lap\" and \"Opel Calibra V6\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T17:14:49.455+0100",
+  "updated_at": "2025-10-30T19:42:08.130+0100"
+}

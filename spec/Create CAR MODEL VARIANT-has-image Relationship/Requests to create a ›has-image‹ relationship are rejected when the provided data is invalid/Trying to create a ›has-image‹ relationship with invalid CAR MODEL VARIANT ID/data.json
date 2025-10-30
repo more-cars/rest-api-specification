@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2154",
+  "parent_id": "MCA-2153",
+  "title": "Trying to create a ›has-image‹ relationship with invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"BMW M3\" does NOT exist\nAnd there exists a \"IMAGE\" \"M3 poster\"\nWhen the user creates a \"has image\" relationship between \"BMW M3\" and \"M3 poster\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:15:05.251+0100",
+  "updated_at": "2025-10-30T19:42:26.802+0100"
+}

@@ -7,7 +7,7 @@ Feature: Delete IMAGE-is-prime-image-of-node Relationship
   @RULE_MCA-1558
   Rule: Requests to delete the ›is-prime-image-of-node‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-1560
+    @TEST_MCA-1560 @implemented
     Scenario: Trying to delete a ›is-prime-image-of-node‹ relationship with invalid NODE ID
       Given there exists a "IMAGE" "BMW Logo"
       And "NODE" "Ferrari" does NOT exist

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2266",
+  "parent_id": "MCA-2265",
+  "title": "Trying to create the same ›achieved-with-car-model-variant‹ relationship again",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Opel Calibra V6\"\nAnd there exists a \"achieved with car model variant\" relationship between \"fastest lap\" and \"Opel Calibra V6\"\nWhen the user creates a \"achieved with car model variant\" relationship between \"fastest lap\" and \"Opel Calibra V6\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T17:00:26.897+0100",
+  "updated_at": "2025-10-30T19:42:10.127+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2111",
+  "parent_id": "MCA-2110",
+  "title": "Requesting the ›achieved-session-result‹ relationships when there are none",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exist 0 \"achieved session result\" relationships for \"BMW M3 GTR\"\nWhen the user requests all \"achieved session result\" relationships for \"BMW M3 GTR\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:44:14.396+0100",
+  "updated_at": "2025-10-30T19:42:33.147+0100"
+}

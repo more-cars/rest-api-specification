@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2170",
+  "parent_id": "MCA-2169",
+  "title": "Deleting the ›has-image‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists a \"IMAGE\" \"Toyota logo\"\nAnd there exists a \"has image\" relationship \"R\" between \"BMW M3\" and \"Toyota logo\"\nWhen the user deletes the \"has image\" relationship between \"BMW M3\" and \"Toyota logo\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:18:07.925+0100",
+  "updated_at": "2025-10-30T19:42:24.574+0100"
+}

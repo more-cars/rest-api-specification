@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2070",
+  "parent_id": "MCA-2069",
+  "title": "Requests to create a ›is-variant-of‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type CAR MODEL VARIANT resp. CAR MODEL.\n",
+  "release_version": "0.26.0",
+  "created_at": "2025-10-29T15:17:13.775+0100",
+  "updated_at": "2025-10-30T19:38:59.194+0100"
+}

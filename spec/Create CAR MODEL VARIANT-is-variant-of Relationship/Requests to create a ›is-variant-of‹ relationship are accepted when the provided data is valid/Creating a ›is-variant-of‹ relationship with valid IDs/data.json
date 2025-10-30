@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2071",
+  "parent_id": "MCA-2070",
+  "title": "Creating a ›is-variant-of‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists a \"CAR MODEL\" \"3-series\"\nWhen the user creates a \"is variant of\" relationship between \"BMW M3\" and \"3-series\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:17:16.773+0100",
+  "updated_at": "2025-10-30T19:42:39.098+0100"
+}

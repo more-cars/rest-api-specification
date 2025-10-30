@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2133",
+  "parent_id": "MCA-2132",
+  "title": "Creating multiple ›achieved-lap-time‹ relationships",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"LAP TIME\" \"fastest lap (Alternative)\"\nWhen the user creates a \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"fastest lap\"\nAnd the user creates a \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"fastest lap (Alternative)\"\nThen there should exist a \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"fastest lap\"\nAnd there should exist a \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"fastest lap (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:02:59.288+0100",
+  "updated_at": "2025-10-30T19:42:29.665+0100"
+}

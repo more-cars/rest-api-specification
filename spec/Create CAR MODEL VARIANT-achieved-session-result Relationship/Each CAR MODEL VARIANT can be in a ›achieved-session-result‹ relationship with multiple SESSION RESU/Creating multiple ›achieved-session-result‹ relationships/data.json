@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2106",
+  "parent_id": "MCA-2105",
+  "title": "Creating multiple ›achieved-session-result‹ relationships",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists a \"SESSION RESULT\" \"1st place (Alternative)\"\nWhen the user creates a \"achieved session result\" relationship between \"BMW M3 GTR\" and \"1st place\"\nAnd the user creates a \"achieved session result\" relationship between \"BMW M3 GTR\" and \"1st place (Alternative)\"\nThen there should exist a \"achieved session result\" relationship between \"BMW M3 GTR\" and \"1st place\"\nAnd there should exist a \"achieved session result\" relationship between \"BMW M3 GTR\" and \"1st place (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:41:24.726+0100",
+  "updated_at": "2025-10-30T19:42:33.715+0100"
+}

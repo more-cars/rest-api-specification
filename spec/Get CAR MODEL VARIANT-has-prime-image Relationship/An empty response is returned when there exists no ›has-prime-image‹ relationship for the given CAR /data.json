@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2191",
+  "parent_id": "MCA-2188",
+  "title": "An empty response is returned when there exists no ›has-prime-image‹ relationship for the given CAR MODEL VARIANT",
+  "description": "",
+  "release_version": "0.26.0",
+  "created_at": "2025-10-29T16:21:59.967+0100",
+  "updated_at": "2025-10-30T19:38:42.495+0100"
+}

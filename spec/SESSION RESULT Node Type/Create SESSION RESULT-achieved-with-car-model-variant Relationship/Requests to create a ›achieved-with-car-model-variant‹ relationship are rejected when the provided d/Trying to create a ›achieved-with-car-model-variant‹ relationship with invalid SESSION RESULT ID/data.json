@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2235",
+  "parent_id": "MCA-2234",
+  "title": "Trying to create a ›achieved-with-car-model-variant‹ relationship with invalid SESSION RESULT ID",
+  "gherkin": "Given \"SESSION RESULT\" \"1st place\" does NOT exist\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari 499P\"\nWhen the user creates a \"achieved with car model variant\" relationship between \"1st place\" and \"Ferrari 499P\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:45:24.542+0100",
+  "updated_at": "2025-10-30T19:42:14.975+0100"
+}

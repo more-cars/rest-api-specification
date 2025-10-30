@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2054",
+  "parent_id": "MCA-2053",
+  "title": "Requesting a CAR MODEL VARIANT with valid ID",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nWhen the user requests the \"CAR MODEL VARIANT\" \"BMW M3\"\nThen the response should return with status code 200\nAnd the response should return the \"CAR MODEL VARIANT\" \"BMW M3\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:05:06.786+0100",
+  "updated_at": "2025-10-30T19:42:40.954+0100"
+}

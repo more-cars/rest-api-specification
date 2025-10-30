@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2243",
+  "parent_id": "MCA-2242",
+  "title": "The ›achieved-with-car-model-variant‹ relationship is returned when the provided data is valid",
+  "description": "To be a valid request the provided ID has to point to a SESSION RESULT node that actually exists.\n",
+  "release_version": "0.26.0",
+  "created_at": "2025-10-29T16:46:51.950+0100",
+  "updated_at": "2025-10-30T19:38:34.618+0100"
+}

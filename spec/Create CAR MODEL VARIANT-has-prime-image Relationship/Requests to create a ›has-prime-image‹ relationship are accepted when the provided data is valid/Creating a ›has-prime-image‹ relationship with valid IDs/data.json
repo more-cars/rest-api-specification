@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2179",
+  "parent_id": "MCA-2178",
+  "title": "Creating a ›has-prime-image‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists a \"IMAGE\" \"M3 front-left\"\nWhen the user creates a \"has prime image\" relationship between \"BMW M3\" and \"M3 front-left\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:19:56.072+0100",
+  "updated_at": "2025-10-30T19:42:23.176+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2128",
+  "parent_id": "MCA-2126",
+  "title": "Trying to create a ›achieved-lap-time‹ relationship with invalid LAP TIME ID",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd \"LAP TIME\" \"fastest lap\" does NOT exist\nWhen the user creates a \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"fastest lap\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:02:42.586+0100",
+  "updated_at": "2025-10-30T19:42:30.592+0100"
+}

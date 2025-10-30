@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2066",
+  "parent_id": "MCA-2065",
+  "title": "Trying to hard-delete a non-existing CAR MODEL VARIANT",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"BMW M99\" does NOT exist\nWhen the user hard-deletes the \"CAR MODEL VARIANT\" \"BMW M99\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:07:49.017+0100",
+  "updated_at": "2025-10-30T19:42:39.630+0100"
+}

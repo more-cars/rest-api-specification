@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2089",
+  "parent_id": "MCA-2088",
+  "title": "Deleting the ›is-variant-of‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists a \"CAR MODEL\" \"Corolla\"\nAnd there exists a \"is variant of\" relationship \"R\" between \"BMW M3\" and \"Corolla\"\nWhen the user deletes the \"is variant of\" relationship between \"BMW M3\" and \"Corolla\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:22:21.001+0100",
+  "updated_at": "2025-10-30T19:42:36.659+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2221",
+  "parent_id": "MCA-2220",
+  "title": "Trying to fetch the ›has-variant‹ relationships with an invalid CAR MODEL ID",
+  "gherkin": "Given \"CAR MODEL\" \"Golf\" does NOT exist\nWhen the user requests all \"has variant\" relationships for \"Golf\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:32:38.273+0100",
+  "updated_at": "2025-10-30T19:42:16.983+0100"
+}

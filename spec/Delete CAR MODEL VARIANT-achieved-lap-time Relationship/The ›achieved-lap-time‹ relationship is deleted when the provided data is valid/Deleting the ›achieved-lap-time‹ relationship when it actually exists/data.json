@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2143",
+  "parent_id": "MCA-2142",
+  "title": "Deleting the ›achieved-lap-time‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exists a \"LAP TIME\" \"test lap\"\nAnd there exists a \"achieved lap time\" relationship \"R\" between \"BMW M3 GTR\" and \"test lap\"\nWhen the user deletes the \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"test lap\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:09:57.884+0100",
+  "updated_at": "2025-10-30T19:42:28.462+0100"
+}

@@ -4,7 +4,7 @@ Feature: Get all IMAGE-is-prime-image-of-node Relationships
   @RULE_MCA-1551
   Rule: An empty list is returned when there exist no ›is-prime-image-of-node‹ relationships for the given IMAGE
 
-    @TEST_MCA-1552
+    @TEST_MCA-1552 @implemented
     Scenario: Requesting the ›is-prime-image-of-node‹ relationships when there are none
       Given there exists a "IMAGE" "BMW Logo"
       And there exist 0 "is prime image of node" relationships for "BMW Logo"

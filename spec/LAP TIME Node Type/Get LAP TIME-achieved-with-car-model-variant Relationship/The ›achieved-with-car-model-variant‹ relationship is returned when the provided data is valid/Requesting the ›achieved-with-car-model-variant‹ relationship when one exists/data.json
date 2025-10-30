@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2271",
+  "parent_id": "MCA-2270",
+  "title": "Requesting the ›achieved-with-car-model-variant‹ relationship when one exists",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"achieved with car model variant\" relationship \"R\" for \"fastest lap\"\nWhen the user requests the \"achieved with car model variant\" relationship for \"fastest lap\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T17:10:11.779+0100",
+  "updated_at": "2025-10-30T19:42:09.567+0100"
+}

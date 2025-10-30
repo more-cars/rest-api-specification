@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2251",
+  "parent_id": "MCA-2250",
+  "title": "Deleting the ›achieved-with-car-model-variant‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"test result\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari 499P\"\nAnd there exists a \"achieved with car model variant\" relationship \"R\" between \"test result\" and \"Ferrari 499P\"\nWhen the user deletes the \"achieved with car model variant\" relationship between \"test result\" and \"Ferrari 499P\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:50:56.710+0100",
+  "updated_at": "2025-10-30T19:42:12.645+0100"
+}

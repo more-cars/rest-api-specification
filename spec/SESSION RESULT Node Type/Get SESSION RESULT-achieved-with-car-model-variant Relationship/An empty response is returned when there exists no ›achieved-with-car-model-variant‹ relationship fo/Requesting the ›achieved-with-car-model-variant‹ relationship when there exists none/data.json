@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2246",
+  "parent_id": "MCA-2245",
+  "title": "Requesting the ›achieved-with-car-model-variant‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists NO \"achieved with car model variant\" relationship for \"1st place\"\nWhen the user requests the \"achieved with car model variant\" relationship for \"1st place\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:47:01.492+0100",
+  "updated_at": "2025-10-30T19:42:13.254+0100"
+}

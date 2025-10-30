@@ -2,8 +2,10 @@
   "id": "MCA-1541",
   "parent_id": "MCA-1540",
   "title": "Trying to create a ›is-prime-image-of-node‹ relationship with invalid IMAGE ID",
-  "gherkin": "Given \"IMAGE\" \"BMW Logo\" does NOT exist\nAnd there exists a \"NODE\" \"BMW\"\nWhen the user creates a \"is prime image of node\" relationship between \"BMW Logo\" and \"BMW\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "gherkin": "Given \"IMAGE\" \"BMW Logo\" does NOT exist\nAnd there exists a \"BRAND\" \"BMW\"\nWhen the user creates a \"is prime image of node\" relationship between \"BMW Logo\" and \"BMW\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T15:40:10.209+0200",
-  "updated_at": "2025-10-24T15:40:13.297+0200"
+  "updated_at": "2025-10-30T19:42:47.381+0100"
 }

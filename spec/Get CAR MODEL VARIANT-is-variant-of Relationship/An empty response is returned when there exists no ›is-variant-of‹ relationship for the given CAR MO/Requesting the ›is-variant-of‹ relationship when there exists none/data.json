@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2084",
+  "parent_id": "MCA-2083",
+  "title": "Requesting the ›is-variant-of‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists NO \"is variant of\" relationship for \"BMW M3\"\nWhen the user requests the \"is variant of\" relationship for \"BMW M3\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:19:54.182+0100",
+  "updated_at": "2025-10-30T19:42:37.206+0100"
+}

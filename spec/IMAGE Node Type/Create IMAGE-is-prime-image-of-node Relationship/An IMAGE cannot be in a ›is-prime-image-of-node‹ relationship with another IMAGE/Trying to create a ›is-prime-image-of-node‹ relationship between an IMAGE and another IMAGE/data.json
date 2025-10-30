@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2038",
+  "parent_id": "MCA-1730",
+  "title": "Trying to create a ›is-prime-image-of-node‹ relationship between an IMAGE and another IMAGE",
+  "gherkin": "Given there exists an \"IMAGE\" \"front.jpg\"\nAnd there exists an \"IMAGE\" \"back.jpg\"\nWhen the user creates a \"is prime image of node\" relationship between \"front.jpg\" and \"back.jpg\"\nThen the request should be rejected with status code 422",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-28T17:08:08.306+0100",
+  "updated_at": "2025-10-30T19:42:43.224+0100"
+}

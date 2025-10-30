@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2159",
+  "parent_id": "MCA-2150",
+  "title": "Each CAR MODEL VARIANT can be in a ›has-image‹ relationship with multiple IMAGES",
+  "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
+  "release_version": "0.26.0",
+  "created_at": "2025-10-29T16:15:23.333+0100",
+  "updated_at": "2025-10-30T19:38:47.171+0100"
+}

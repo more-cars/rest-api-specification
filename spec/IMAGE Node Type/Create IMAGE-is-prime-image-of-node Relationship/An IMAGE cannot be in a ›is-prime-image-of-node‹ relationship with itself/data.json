@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1729",
+  "parent_id": "MCA-1537",
+  "title": "An IMAGE cannot be in a ›is-prime-image-of-node‹ relationship with itself",
+  "description": "",
+  "release_version": "0.26.0",
+  "created_at": "2025-10-24T18:12:19.499+0200",
+  "updated_at": "2025-10-30T19:39:04.417+0100"
+}

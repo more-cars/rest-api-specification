@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2059",
+  "parent_id": "MCA-2058",
+  "title": "Requesting all CAR MODEL VARIANT nodes when at least 1 exists",
+  "gherkin": "Given there exist 3 \"CAR MODEL VARIANT\"s\nWhen the user requests all \"CAR MODEL VARIANT\"s\nThen the response should return a collection of 3 \"CAR MODEL VARIANT\"s\nAnd the response should return with status code 200",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:06:45.574+0100",
+  "updated_at": "2025-10-30T19:42:40.400+0100"
+}

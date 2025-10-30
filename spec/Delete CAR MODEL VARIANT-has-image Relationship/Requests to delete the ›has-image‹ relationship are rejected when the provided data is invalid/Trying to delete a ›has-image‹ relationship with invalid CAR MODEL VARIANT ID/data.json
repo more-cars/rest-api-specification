@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2172",
+  "parent_id": "MCA-2171",
+  "title": "Trying to delete a ›has-image‹ relationship with invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"BMW M3\" does NOT exist\nAnd there exists a \"IMAGE\" \"Toyota logo\"\nWhen the user deletes the \"has image\" relationship between \"BMW M3\" and \"Toyota logo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:18:14.319+0100",
+  "updated_at": "2025-10-30T19:42:24.312+0100"
+}

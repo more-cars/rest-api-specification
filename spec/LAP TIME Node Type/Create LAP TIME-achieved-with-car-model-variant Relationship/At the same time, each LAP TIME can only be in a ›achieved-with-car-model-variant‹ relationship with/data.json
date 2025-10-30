@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2267",
+  "parent_id": "MCA-2258",
+  "title": "At the same time, each LAP TIME can only be in a ›achieved-with-car-model-variant‹ relationship with one CAR MODEL VARIANT",
+  "description": "Connecting a different CAR MODEL VARIANT will delete the previous relationship.\n",
+  "release_version": "0.26.0",
+  "created_at": "2025-10-29T17:00:29.832+0100",
+  "updated_at": "2025-10-30T19:38:30.172+0100"
+}

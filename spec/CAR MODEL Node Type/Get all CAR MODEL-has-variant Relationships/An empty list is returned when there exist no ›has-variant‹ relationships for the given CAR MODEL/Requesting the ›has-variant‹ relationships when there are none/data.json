@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2219",
+  "parent_id": "MCA-2218",
+  "title": "Requesting the ›has-variant‹ relationships when there are none",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Golf\"\nAnd there exist 0 \"has variant\" relationships for \"Golf\"\nWhen the user requests all \"has variant\" relationships for \"Golf\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:32:32.533+0100",
+  "updated_at": "2025-10-30T19:42:17.282+0100"
+}

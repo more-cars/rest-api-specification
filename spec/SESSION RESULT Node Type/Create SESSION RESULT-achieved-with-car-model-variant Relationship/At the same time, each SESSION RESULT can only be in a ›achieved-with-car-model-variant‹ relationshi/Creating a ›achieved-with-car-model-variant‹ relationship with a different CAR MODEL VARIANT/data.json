@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2241",
+  "parent_id": "MCA-2240",
+  "title": "Creating a ›achieved-with-car-model-variant‹ relationship with a different CAR MODEL VARIANT",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari 499P\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari 499P (Alternative)\"\nWhen the user creates a \"achieved with car model variant\" relationship between \"1st place\" and \"Ferrari 499P\"\nThen there should exist a \"achieved with car model variant\" relationship between \"1st place\" and \"Ferrari 499P\"\nWhen the user creates a \"achieved with car model variant\" relationship between \"1st place\" and \"Ferrari 499P (Alternative)\"\nThen there should exist a \"achieved with car model variant\" relationship between \"1st place\" and \"Ferrari 499P (Alternative)\"\nBut there should exist NO \"achieved with car model variant\" relationship between \"1st place\" and \"Ferrari 499P\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:45:45.874+0100",
+  "updated_at": "2025-10-30T19:42:13.826+0100"
+}

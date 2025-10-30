@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2122",
+  "parent_id": "MCA-2121",
+  "title": "Trying to delete a non-existent ›achieved-session-result‹ relationship",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exists a \"SESSION RESULT\" \"test result\"\nAnd there exists NO \"achieved session result\" relationship between \"BMW M3 GTR\" and \"test result\"\nWhen the user deletes the \"achieved session result\" relationship between \"BMW M3 GTR\" and \"test result\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T15:47:11.379+0100",
+  "updated_at": "2025-10-30T19:42:31.427+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2142",
+  "parent_id": "MCA-2141",
+  "title": "The ›achieved-lap-time‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a CAR MODEL VARIANT and the second node needs to be a LAP TIME.\n",
+  "release_version": "0.26.0",
+  "created_at": "2025-10-29T16:09:55.032+0100",
+  "updated_at": "2025-10-30T19:38:49.302+0100"
+}

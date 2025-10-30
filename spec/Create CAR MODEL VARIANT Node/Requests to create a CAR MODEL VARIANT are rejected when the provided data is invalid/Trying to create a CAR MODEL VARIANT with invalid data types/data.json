@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2044",
+  "parent_id": "MCA-2042",
+  "title": "Trying to create a CAR MODEL VARIANT with invalid data types",
+  "gherkin": "When the user tries to create a \"CAR MODEL VARIANT\" \"BMW M3\" with the following data\n  | key | value | datatype |\n  | name | BMW M3 | boolean |\n  | internal_code | E46 | boolean |\n  | built_from | 2000 | boolean |\n  | built_to | 2006 | boolean |\n  | body_style | coupe | boolean |\n  | drag_coefficient | 0.31 | boolean |\n  | doors | 2 | boolean |\n  | weight | 1549 | boolean |\n  | weight_unit | kg | boolean |\n  | max_power | 343 | boolean |\n  | max_power_unit | PS | boolean |\n  | max_torque | 365 | boolean |\n  | max_torque_unit | Nm | boolean |\n  | cylinders | 6 | boolean |\n  | engine_configuration | inline | boolean |\n  | displacement | 3246 | boolean |\n  | displacement_unit | ccm | boolean |\n  | air_induction | naturally aspirated | boolean |\n  | engine_type | otto | boolean |\n  | energy_source | petrol | boolean |\n  | energy_source_2 |  | boolean |\n  | consumption | 11.9 | boolean |\n  | consumption_unit | l | boolean |\n  | consumption_2 |  | boolean |\n  | consumption_2_unit |  | boolean |\n  | energy_capacity | 63 | boolean |\n  | energy_capacity_unit | l | boolean |\n  | energy_capacity_2 |  | boolean |\n  | energy_capacity_2_unit |  | boolean |\n  | transmission | sequential | boolean |\n  | gears | 6 | boolean |\n  | drivetrain | rwd | boolean |\n  | sprint_time_0_100_kmh | 5.2 | boolean |\n  | top_speed | 250 | boolean |\n  | top_speed_unit | km/h | boolean |\n  | total_production | 50000 | boolean |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-28T18:30:02.176+0100",
+  "updated_at": "2025-10-30T19:42:42.326+0100"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MCA-2276",
+  "parent_id": "MCA-216",
+  "title": "Delete LAP TIME-achieved-with-car-model-variant Relationship",
+  "user_story": "As an API contributor\nI want to be able to disconnect CAR MODEL VARIANTS from LAP TIMES\nSo I can clean up bad data or test data\n",
+  "description": "* The ›achieved-with-car-model-variant‹ relationship is deleted when it actually exists. -> Status Code \\`204\\`\n* A successful request returns with an empty body.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* Requests are rejected when there exists no ›achieved-with-car-model-variant‹ relationship between the provided nodes. -> Status Code \\`404\\`\n",
+  "api_verb": "DELETE",
+  "api_path": "/lap-times/<lap-time-id>/achieved-with-car-model-variant/<car-model-variant-id>",
+  "response_options": [
+    "204",
+    "404"
+  ],
+  "release_versions": [
+    "0.26.0"
+  ],
+  "created_at": "2025-10-29T17:12:39.840+0100",
+  "updated_at": "2025-10-30T19:17:41.718+0100"
+}

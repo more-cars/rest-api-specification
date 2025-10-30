@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2083",
+  "parent_id": "MCA-2080",
+  "title": "An empty response is returned when there exists no ›is-variant-of‹ relationship for the given CAR MODEL VARIANT",
+  "description": "",
+  "release_version": "0.26.0",
+  "created_at": "2025-10-29T15:19:51.021+0100",
+  "updated_at": "2025-10-30T19:38:57.544+0100"
+}

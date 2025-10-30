@@ -3,7 +3,9 @@
   "parent_id": "MCA-1562",
   "title": "Trying to delete a non-existent ›is-prime-image-of-node‹ relationship",
   "gherkin": "Given there exists a \"IMAGE\" \"BMW Logo\"\nAnd there exists a \"NODE\" \"Ferrari\"\nAnd there exists NO \"is prime image of node\" relationship between \"BMW Logo\" and \"Ferrari\"\nWhen the user deletes the \"is prime image of node\" relationship between \"BMW Logo\" and \"Ferrari\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T15:44:40.003+0200",
-  "updated_at": "2025-10-24T15:44:42.860+0200"
+  "updated_at": "2025-10-30T19:42:44.023+0100"
 }

@@ -3,7 +3,7 @@
   "parent_id": "MCA-1537",
   "title": "Each IMAGE can be in a ›is-prime-image-of-node‹ relationship with multiple NODES of the same type",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.26.0",
   "created_at": "2025-10-24T15:40:30.256+0200",
-  "updated_at": "2025-10-24T18:14:22.145+0200"
+  "updated_at": "2025-10-30T19:39:06.784+0100"
 }

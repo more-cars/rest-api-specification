@@ -3,7 +3,9 @@
   "parent_id": "MCA-1553",
   "title": "Trying to fetch the ›is-prime-image-of-node‹ relationships with an invalid IMAGE ID",
   "gherkin": "Given \"IMAGE\" \"BMW Logo\" does NOT exist\nWhen the user requests all \"is prime image of node\" relationships for \"BMW Logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T15:42:13.552+0200",
-  "updated_at": "2025-10-24T15:42:16.313+0200"
+  "updated_at": "2025-10-30T19:42:45.435+0100"
 }

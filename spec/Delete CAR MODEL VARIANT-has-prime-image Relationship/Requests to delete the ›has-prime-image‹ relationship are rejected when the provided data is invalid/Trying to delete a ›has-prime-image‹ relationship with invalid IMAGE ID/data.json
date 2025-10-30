@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2200",
+  "parent_id": "MCA-2198",
+  "title": "Trying to delete a ›has-prime-image‹ relationship with invalid IMAGE ID",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd \"IMAGE\" \"test photo\" does NOT exist\nWhen the user deletes the \"has prime image\" relationship between \"BMW M3\" and \"test photo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:24:08.976+0100",
+  "updated_at": "2025-10-30T19:42:20.118+0100"
+}

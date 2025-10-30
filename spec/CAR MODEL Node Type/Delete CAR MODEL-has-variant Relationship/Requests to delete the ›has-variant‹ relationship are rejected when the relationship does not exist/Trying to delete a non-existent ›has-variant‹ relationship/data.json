@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2230",
+  "parent_id": "MCA-2229",
+  "title": "Trying to delete a non-existent ›has-variant‹ relationship",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Golf\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Renault Twingo 1.2\"\nAnd there exists NO \"has variant\" relationship between \"Golf\" and \"Renault Twingo 1.2\"\nWhen the user deletes the \"has variant\" relationship between \"Golf\" and \"Renault Twingo 1.2\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:37:55.482+0100",
+  "updated_at": "2025-10-30T19:42:15.518+0100"
+}

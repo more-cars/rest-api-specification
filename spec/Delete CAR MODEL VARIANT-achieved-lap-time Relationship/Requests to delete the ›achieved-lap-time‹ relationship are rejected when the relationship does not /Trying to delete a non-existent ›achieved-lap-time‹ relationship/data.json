@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2149",
+  "parent_id": "MCA-2148",
+  "title": "Trying to delete a non-existent ›achieved-lap-time‹ relationship",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exists a \"LAP TIME\" \"test lap\"\nAnd there exists NO \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"test lap\"\nWhen the user deletes the \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"test lap\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:12:14.120+0100",
+  "updated_at": "2025-10-30T19:42:27.384+0100"
+}

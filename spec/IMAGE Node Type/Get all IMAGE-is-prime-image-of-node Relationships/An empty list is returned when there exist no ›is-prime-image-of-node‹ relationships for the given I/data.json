@@ -3,7 +3,7 @@
   "parent_id": "MCA-1548",
   "title": "An empty list is returned when there exist no ›is-prime-image-of-node‹ relationships for the given IMAGE",
   "description": "",
-  "release_version": null,
+  "release_version": "0.26.0",
   "created_at": "2025-10-24T15:42:03.536+0200",
-  "updated_at": "2025-10-24T15:42:09.881+0200"
+  "updated_at": "2025-10-30T19:39:06.119+0100"
 }

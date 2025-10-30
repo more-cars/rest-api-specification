@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2138",
+  "parent_id": "MCA-2137",
+  "title": "Requesting the ›achieved-lap-time‹ relationships when there are none",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exist 0 \"achieved lap time\" relationships for \"BMW M3 GTR\"\nWhen the user requests all \"achieved lap time\" relationships for \"BMW M3 GTR\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T16:06:11.729+0100",
+  "updated_at": "2025-10-30T19:42:29.069+0100"
+}

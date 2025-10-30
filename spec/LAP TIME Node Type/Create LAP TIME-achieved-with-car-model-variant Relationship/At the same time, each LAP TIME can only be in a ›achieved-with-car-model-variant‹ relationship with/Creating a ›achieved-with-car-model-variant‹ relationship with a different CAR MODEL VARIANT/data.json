@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2268",
+  "parent_id": "MCA-2267",
+  "title": "Creating a ›achieved-with-car-model-variant‹ relationship with a different CAR MODEL VARIANT",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Opel Calibra V6\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Opel Calibra V6 (Alternative)\"\nWhen the user creates a \"achieved with car model variant\" relationship between \"fastest lap\" and \"Opel Calibra V6\"\nThen there should exist a \"achieved with car model variant\" relationship between \"fastest lap\" and \"Opel Calibra V6\"\nWhen the user creates a \"achieved with car model variant\" relationship between \"fastest lap\" and \"Opel Calibra V6 (Alternative)\"\nThen there should exist a \"achieved with car model variant\" relationship between \"fastest lap\" and \"Opel Calibra V6 (Alternative)\"\nBut there should exist NO \"achieved with car model variant\" relationship between \"fastest lap\" and \"Opel Calibra V6\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-29T17:00:32.698+0100",
+  "updated_at": "2025-10-30T19:42:09.844+0100"
+}

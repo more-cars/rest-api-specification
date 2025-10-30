@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2036",
+  "parent_id": "MCA-1732",
+  "title": "Creating multiple ›is-prime-image-of-node‹ relationships with NODES of different type",
+  "gherkin": "Given there exists an \"IMAGE\" \"porsche-cayman.jpg\"\nAnd there exists a \"BRAND\" \"Porsche\"\nAnd there exists a \"CAR MODEL\" \"Cayman\"\n\nWhen the user creates a \"is prime image of node\" relationship between \"porsche-cayman.jpg\" and \"Porsche\"\nAnd the user creates a \"is prime image of node\" relationship between \"porsche-cayman.jpg\" and \"Cayman\"\n\nThen there should exist a \"is prime image of node\" relationship between \"porsche-cayman.jpg\" and \"Porsche\"\nAnd there should exist a \"is prime image of node\" relationship between \"porsche-cayman.jpg\" and \"Cayman\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-10-28T17:06:57.268+0100",
+  "updated_at": "2025-10-30T19:42:43.761+0100"
+}

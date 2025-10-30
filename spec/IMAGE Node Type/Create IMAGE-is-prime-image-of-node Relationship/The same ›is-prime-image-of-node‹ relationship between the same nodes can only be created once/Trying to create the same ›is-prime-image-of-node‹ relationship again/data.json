@@ -2,8 +2,10 @@
   "id": "MCA-1545",
   "parent_id": "MCA-1544",
   "title": "Trying to create the same ›is-prime-image-of-node‹ relationship again",
-  "gherkin": "Given there exists a \"IMAGE\" \"BMW Logo\"\nAnd there exists a \"NODE\" \"BMW\"\nAnd there exists a \"is prime image of node\" relationship between \"BMW Logo\" and \"BMW\"\nWhen the user creates a \"is prime image of node\" relationship between \"BMW Logo\" and \"BMW\"\nThen the response should return with status code 304",
-  "labels": [],
+  "gherkin": "Given there exists a \"IMAGE\" \"BMW Logo\"\nAnd there exists a \"BRAND\" \"BMW\"\nAnd there exists a \"is prime image of node\" relationship between \"BMW Logo\" and \"BMW\"\nWhen the user creates a \"is prime image of node\" relationship between \"BMW Logo\" and \"BMW\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-10-24T15:40:26.586+0200",
-  "updated_at": "2025-10-24T15:40:29.592+0200"
+  "updated_at": "2025-10-30T19:42:46.529+0100"
 }
