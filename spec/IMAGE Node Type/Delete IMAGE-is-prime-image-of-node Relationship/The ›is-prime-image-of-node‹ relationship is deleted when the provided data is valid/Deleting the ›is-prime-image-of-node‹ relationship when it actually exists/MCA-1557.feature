@@ -10,7 +10,7 @@ Feature: Delete IMAGE-is-prime-image-of-node Relationship
     @TEST_MCA-1557 @implemented
     Scenario: Deleting the ›is-prime-image-of-node‹ relationship when it actually exists
       Given there exists a "IMAGE" "BMW Logo"
-      And there exists a "NODE" "Ferrari"
+      And there exists a "BRAND" "Ferrari"
       And there exists a "is prime image of node" relationship "R" between "BMW Logo" and "Ferrari"
       When the user deletes the "is prime image of node" relationship between "BMW Logo" and "Ferrari"
       Then the request should be confirmed with status code 204

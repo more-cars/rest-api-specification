@@ -2,7 +2,7 @@
   "id": "MCA-1557",
   "parent_id": "MCA-1556",
   "title": "Deleting the ›is-prime-image-of-node‹ relationship when it actually exists",
-  "gherkin": "Given there exists a \"IMAGE\" \"BMW Logo\"\nAnd there exists a \"NODE\" \"Ferrari\"\nAnd there exists a \"is prime image of node\" relationship \"R\" between \"BMW Logo\" and \"Ferrari\"\nWhen the user deletes the \"is prime image of node\" relationship between \"BMW Logo\" and \"Ferrari\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "gherkin": "Given there exists a \"IMAGE\" \"BMW Logo\"\nAnd there exists a \"BRAND\" \"Ferrari\"\nAnd there exists a \"is prime image of node\" relationship \"R\" between \"BMW Logo\" and \"Ferrari\"\nWhen the user deletes the \"is prime image of node\" relationship between \"BMW Logo\" and \"Ferrari\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
   "labels": [
     "implemented"
   ],

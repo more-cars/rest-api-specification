@@ -10,6 +10,6 @@ Feature: Delete IMAGE-is-prime-image-of-node Relationship
     @TEST_MCA-1559 @implemented
     Scenario: Trying to delete a ›is-prime-image-of-node‹ relationship with invalid IMAGE ID
       Given "IMAGE" "BMW Logo" does NOT exist
-      And there exists a "NODE" "Ferrari"
+      And there exists a "BRAND" "Ferrari"
       When the user deletes the "is prime image of node" relationship between "BMW Logo" and "Ferrari"
       Then the request should be rejected with status code 404
