@@ -3,5 +3,5 @@
   "title": "COMPANY Node Type",
   "data_structure": "```\n[\n  {\n    \"name\": \"name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"BMW AG\"\n  },\n  {\n    \"name\": \"founded\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"1916\"\n  },\n  {\n    \"name\": \"defunct\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"\"\n  },\n  {\n    \"name\": \"headquarters_location\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"Munich\"\n  },\n  {\n    \"name\": \"legal_headquarters_location\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"Munich\"\n  }\n]\n```\n",
   "created_at": "2025-06-10T12:45:54.996+0200",
-  "updated_at": "2025-10-27T15:12:51.335+0100"
+  "updated_at": "2025-11-01T08:50:59.466+0100"
 }

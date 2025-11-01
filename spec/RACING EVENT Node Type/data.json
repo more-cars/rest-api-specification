@@ -3,5 +3,5 @@
   "title": "RACING EVENT Node Type",
   "data_structure": "```\n[\n  {\n    \"name\": \"name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"GP Monaco\"\n  },\n  {\n    \"name\": \"round\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"7\"\n  },\n  {\n    \"name\": \"date_from\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"2025-05-20\"\n  },\n  {\n    \"name\": \"date_to\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"2025-05-22\"\n  }\n]\n```\n",
   "created_at": "2025-06-10T13:09:03.255+0200",
-  "updated_at": "2025-10-22T15:10:51.705+0200"
+  "updated_at": "2025-11-01T08:51:47.374+0100"
 }
