@@ -3,7 +3,7 @@
   "parent_id": "MCA-235",
   "title": "Get RELATIONSHIP by ID",
   "user_story": "As an API consumer\\\nI want to be able to fetch a specific relationship for which I only know its ID\\\nSo I can find out more about the relationship and its connected nodes\n",
-  "description": "* The relationship is returned when it actually exists. → Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* Requests with invalid ID are rejected. Invalid means that there exists no node with the given ID. → Status Code \\`404\\`\n",
+  "description": "* The relationship is returned when it actually exists. → Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* Requests with invalid ID are rejected. Invalid means that there exists no relationship with the given ID. → Status Code \\`404\\`\n",
   "api_verb": "GET",
   "api_path": "/relationships/<id>",
   "response_options": [
@@ -14,5 +14,5 @@
     "0.22.0"
   ],
   "created_at": "2025-06-26T10:41:43.603+0200",
-  "updated_at": "2025-10-16T13:14:03.233+0200"
+  "updated_at": "2026-02-07T16:30:15.121+0100"
 }

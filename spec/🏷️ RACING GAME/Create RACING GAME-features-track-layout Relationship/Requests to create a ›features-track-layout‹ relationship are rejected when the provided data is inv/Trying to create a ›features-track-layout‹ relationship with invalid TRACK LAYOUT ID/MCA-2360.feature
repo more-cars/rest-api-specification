@@ -1,0 +1,12 @@
+@REQ_MCA-2355
+Feature: Create RACING GAME-features-track-layout Relationship
+
+  @RULE_MCA-2358
+  Rule: Requests to create a ›features-track-layout‹ relationship are rejected when the provided data is invalid
+
+    @TEST_MCA-2360
+    Scenario: Trying to create a ›features-track-layout‹ relationship with invalid TRACK LAYOUT ID
+      Given there exists a "RACING GAME" "Assetto Corsa EVO"
+      And "TRACK LAYOUT" "Nordschleife" does NOT exist
+      When the user creates a "features track layout" relationship between "Assetto Corsa EVO" and "Nordschleife"
+      Then the request should be rejected with status code 404

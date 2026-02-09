@@ -1,7 +1,0 @@
-{
-  "id": "MCA-216",
-  "title": "LAP TIME Node Type",
-  "data_structure": "```\n[\n  {\n    \"name\": \"time\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"PT1M33.294S\"\n  },\n  {\n    \"name\": \"driver_name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"Klaus Ludwig\"\n  },\n  {\n    \"name\": \"date\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"1996-08-03\"\n  }\n]\n```\n",
-  "created_at": "2025-06-10T13:10:05.787+0200",
-  "updated_at": "2025-11-01T08:51:59.967+0100"
-}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2320",
+  "parent_id": "MCA-2319",
+  "title": "Requesting all RACING GAME nodes when none exist",
+  "gherkin": "Given there exist 0 \"RACING GAME\"s\nWhen the user requests all \"RACING GAME\"s\nThen the response should return a collection of 0 \"RACING GAME\"s\nAnd the response should return with status code 200",
+  "labels": [],
+  "created_at": "2026-02-09T12:52:15.374+0100",
+  "updated_at": "2026-02-09T12:52:18.910+0100"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MCA-644",
+  "parent_id": "MCA-217",
+  "title": "Basic Auth",
+  "user_story": "As the service provider\\\nI want to have the option to individually restrict access for specific environments\\\nSo I can access control a testing environment independently from production or demo\n",
+  "description": "* for an admin it should be possible to restrict environment access via basic auth\n* an admin should be able to configure each environment independently&#x20;\n  * activate/deactivate basic auth\n  * define a set of basic auth credentials\n* for each environment only one set of basic auth credentials is required (not every user or user group needs one)\n  * whoever has the credentials can enter the environment (but not necessarily access the API → see MCA-645)\n* when basic auth is activated&#x20;\n  * when the API user provides valid credentials&#x20;\n    * then access is granted and the request is processed\n    * the (positive) authentication status has no impact on the HTTP status code\n  * when the API user provides invalid credentials (or none at all)\n    * then access is denied and the request is not processed\n    * status code is \\`401\\`\n* this mechanic should work for a local environment, in minikube and in gke\n",
+  "api_verb": null,
+  "api_path": "/*",
+  "response_options": [
+    "200",
+    "401"
+  ],
+  "release_versions": [
+    "0.27.0"
+  ],
+  "created_at": "2025-09-27T11:12:02.570+0200",
+  "updated_at": "2025-11-08T11:32:59.987+0100"
+}

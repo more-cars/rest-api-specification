@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2300",
+  "parent_id": "MCA-2299",
+  "title": "Creating a RACING GAME with valid data",
+  "gherkin": "When the user creates a \"RACING GAME\" \"F1 2025\" with the following data\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | string |\n  | release_year | 2017 | number |\n  | developer | Turn 10 Studios | string |\n  | publisher | Microsoft Studios | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"RACING GAME\" \"F1 2025\"",
+  "labels": [],
+  "created_at": "2026-02-09T12:42:16.643+0100",
+  "updated_at": "2026-02-09T12:42:20.658+0100"
+}

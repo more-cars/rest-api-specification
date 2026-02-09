@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2337",
+  "parent_id": "MCA-2328",
+  "title": "Each RACING GAME can be in a ›features-car-model-variant‹ relationship with multiple CAR MODEL VARIANTS",
+  "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
+  "release_version": null,
+  "created_at": "2026-02-09T12:58:45.592+0100",
+  "updated_at": "2026-02-09T12:58:55.079+0100"
+}

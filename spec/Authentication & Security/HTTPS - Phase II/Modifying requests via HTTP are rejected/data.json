@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2291",
+  "parent_id": "MCA-1526",
+  "title": "Modifying requests via HTTP are rejected",
+  "description": "",
+  "release_version": null,
+  "created_at": "2025-11-07T12:03:32.779+0100",
+  "updated_at": "2025-11-07T13:01:33.345+0100"
+}

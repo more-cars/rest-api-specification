@@ -1,0 +1,9 @@
+{
+  "id": "MCA-1531",
+  "parent_id": "MCA-1526",
+  "title": "All public environments have a valid certificate",
+  "description": "* all environments (testing, prod, …)\n* all services that are publicly accessible (api, db, swagger ui)\n",
+  "release_version": null,
+  "created_at": "2025-10-23T17:16:44.102+0200",
+  "updated_at": "2025-11-07T12:36:59.056+0100"
+}

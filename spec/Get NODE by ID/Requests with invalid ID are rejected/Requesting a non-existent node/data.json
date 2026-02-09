@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2297",
+  "parent_id": "MCA-2295",
+  "title": "Requesting a non-existent node",
+  "gherkin": "Given \"BRAND\" \"Bugatti\" does NOT exist\nWhen the user requests the \"BRAND\" \"Bugatti\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-02-07T17:11:27.605+0100",
+  "updated_at": "2026-02-07T17:14:55.539+0100"
+}

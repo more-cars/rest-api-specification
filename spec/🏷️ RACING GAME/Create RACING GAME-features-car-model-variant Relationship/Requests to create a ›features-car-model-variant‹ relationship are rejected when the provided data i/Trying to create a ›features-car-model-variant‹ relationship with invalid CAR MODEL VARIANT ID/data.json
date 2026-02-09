@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2333",
+  "parent_id": "MCA-2331",
+  "title": "Trying to create a ›features-car-model-variant‹ relationship with invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd \"CAR MODEL VARIANT\" \"Aston Martin DB7\" does NOT exist\nWhen the user creates a \"features car model variant\" relationship between \"Gran Turismo\" and \"Aston Martin DB7\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-02-09T12:58:30.355+0100",
+  "updated_at": "2026-02-09T12:58:33.775+0100"
+}

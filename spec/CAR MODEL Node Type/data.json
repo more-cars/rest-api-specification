@@ -1,7 +1,0 @@
-{
-  "id": "MCA-70",
-  "title": "CAR MODEL Node Type",
-  "data_structure": "```\n[\n  {\n    \"name\": \"name\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"Corvette\"\n  },\n  {\n    \"name\": \"built_from\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"1976\"\n  },\n  {\n    \"name\": \"built_to\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"1987\"\n  },\n  {\n    \"name\": \"generation\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"3\"\n  },\n  {\n    \"name\": \"internal_code\",\n    \"mandatory\": false,\n    \"datatype\": \"string\",\n    \"example\": \"C3\"\n  },\n  {\n    \"name\": \"total_production\",\n    \"mandatory\": false,\n    \"datatype\": \"number\",\n    \"example\": \"1234567\"\n  }\n]\n```\n",
-  "created_at": "2025-05-18T09:58:01.818+0200",
-  "updated_at": "2025-11-01T08:51:18.603+0100"
-}

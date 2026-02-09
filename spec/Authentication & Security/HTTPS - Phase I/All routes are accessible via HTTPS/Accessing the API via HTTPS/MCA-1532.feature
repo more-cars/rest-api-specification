@@ -1,8 +1,9 @@
 @REQ_MCA-1525
 Feature: HTTPS - Phase I
   As an API user\
-  I want to have the option to use an SSL-secured connection\
-  So I can be sure that all my requests are going through the actual More Cars servers
+  I want to have the option to use an encrypted connection\
+  So I can be sure that all my requests are actually going through the More Cars servers\
+  And are not intercepted or manipulated
 
   @RULE_MCA-1527
   Rule: All routes are accessible via HTTPS

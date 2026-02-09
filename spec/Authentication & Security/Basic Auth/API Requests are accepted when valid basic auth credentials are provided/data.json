@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2287",
+  "parent_id": "MCA-644",
+  "title": "API Requests are accepted when valid basic auth credentials are provided",
+  "description": "Precondition: basic auth is activated for the environment\n",
+  "release_version": "0.27.0",
+  "created_at": "2025-11-05T11:00:47.756+0100",
+  "updated_at": "2025-11-08T11:32:47.871+0100"
+}

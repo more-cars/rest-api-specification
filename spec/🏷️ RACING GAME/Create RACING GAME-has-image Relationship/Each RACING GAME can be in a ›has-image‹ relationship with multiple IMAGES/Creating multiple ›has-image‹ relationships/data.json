@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2392",
+  "parent_id": "MCA-2391",
+  "title": "Creating multiple ›has-image‹ relationships",
+  "gherkin": "Given there exists a \"RACING GAME\" \"F1 2025\"\nAnd there exists a \"IMAGE\" \"dvd cover\"\nAnd there exists a \"IMAGE\" \"dvd cover (Alternative)\"\nWhen the user creates a \"has image\" relationship between \"F1 2025\" and \"dvd cover\"\nAnd the user creates a \"has image\" relationship between \"F1 2025\" and \"dvd cover (Alternative)\"\nThen there should exist a \"has image\" relationship between \"F1 2025\" and \"dvd cover\"\nAnd there should exist a \"has image\" relationship between \"F1 2025\" and \"dvd cover (Alternative)\"",
+  "labels": [],
+  "created_at": "2026-02-09T13:35:48.635+0100",
+  "updated_at": "2026-02-09T13:35:52.361+0100"
+}

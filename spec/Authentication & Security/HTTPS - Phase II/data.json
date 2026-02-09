@@ -1,0 +1,19 @@
+{
+  "id": "MCA-1526",
+  "parent_id": "MCA-217",
+  "title": "HTTPS - Phase II",
+  "user_story": "As an API user\\\nI want my communication to ALWAYS be encrypted\\\nSo I can be sure that the responses really come from More Cars and are not manipulated\\\n(Even when I accidentally use HTTP in my requests instead of HTTPS)\n",
+  "description": "* every route is accessible via HTTPS, e.g. `https://api.more-cars.net/brands`\n* each GET request via HTTP is automatically redirected to HTTPS\n  * e.g. `GET http://api.more-cars.net/brands` → `GET https://api.more-cars.net/brands`\n  * status code `301`\n* POST, DELETE and UPDATE requests are **not** redirected\n  * such requests are rejected and will not be processed\n  * status code `426` (Upgrade Required)\n* every “public“ environment needs to have a valid certificate (no self-signed)\n* for local environments it is not possible to have valid certificates\n  * all tools and test frameworks need to be able to handle valid and invalid certificates\n* this ticket invalidates the acceptance criteria <https://dennis-gerike.atlassian.net/browse/MCA-1528> and <https://dennis-gerike.atlassian.net/browse/MCA-1529> from story <https://dennis-gerike.atlassian.net/browse/MCA-1525>&#x20;\n",
+  "api_verb": null,
+  "api_path": "/*",
+  "response_options": [
+    "200",
+    "301",
+    "426"
+  ],
+  "release_versions": [
+    "0.27.0"
+  ],
+  "created_at": "2025-10-23T17:08:48.841+0200",
+  "updated_at": "2026-02-07T17:29:23.399+0100"
+}

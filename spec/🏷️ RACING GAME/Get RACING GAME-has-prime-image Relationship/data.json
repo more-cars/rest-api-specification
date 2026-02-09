@@ -1,0 +1,16 @@
+{
+  "id": "MCA-2420",
+  "parent_id": "MCA-218",
+  "title": "Get RACING GAME-has-prime-image Relationship",
+  "user_story": "",
+  "description": "* The ›has-prime-image‹ relationship for the selected RACING GAME is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* An empty response is returned when the selected RACING GAME has no ›has-prime-image‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a RACING GAME. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/racing-games/<racing-game-id>/has-prime-image",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-02-09T13:45:14.651+0100",
+  "updated_at": "2026-02-09T13:45:17.667+0100"
+}

@@ -1,9 +1,0 @@
-{
-  "id": "MCA-907",
-  "parent_id": "MCA-236",
-  "title": "Requests to fetch a relationship are rejected when the provided data is invalid",
-  "description": "A request is invalid when there exists no relationship with the provided ID.\n",
-  "release_version": "0.22.0",
-  "created_at": "2025-10-16T09:05:38.021+0200",
-  "updated_at": "2025-10-16T11:13:31.170+0200"
-}

@@ -1,0 +1,16 @@
+{
+  "id": "MCA-2366",
+  "parent_id": "MCA-218",
+  "title": "Get all RACING GAME-features-track-layout Relationships",
+  "user_story": "",
+  "description": "* A list of all ›features-track-layout‹ relationships for the selected RACING GAME is returned when there exists at least one of them. -> Status Code \\`200\\`\n* Each item in the list contains the relationship ID and the two node IDs, but not the nodes itself.\n* An empty list is returned when no ›features-track-layout‹ relationship exists. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a RACING GAME. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/racing-games/<racing-game-id>/features-track-layout",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-02-09T13:26:20.221+0100",
+  "updated_at": "2026-02-09T13:26:23.501+0100"
+}

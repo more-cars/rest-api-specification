@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2416",
+  "parent_id": "MCA-2409",
+  "title": "The same ›has-prime-image‹ relationship between the same nodes can only be created once",
+  "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
+  "release_version": null,
+  "created_at": "2026-02-09T13:44:17.149+0100",
+  "updated_at": "2026-02-09T13:44:24.865+0100"
+}

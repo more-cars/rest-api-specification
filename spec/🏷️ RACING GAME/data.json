@@ -1,0 +1,7 @@
+{
+  "id": "MCA-218",
+  "title": "🏷️ RACING GAME",
+  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"name\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"Forza Motorsport 7\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"release\\_year\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"2017\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"developer\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"Turn 10 Studios\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"publisher\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"Microsoft Studios\"\n&#x20; }\n]\n",
+  "created_at": "2025-06-10T14:40:17.851+0200",
+  "updated_at": "2026-02-09T14:00:15.132+0100"
+}
