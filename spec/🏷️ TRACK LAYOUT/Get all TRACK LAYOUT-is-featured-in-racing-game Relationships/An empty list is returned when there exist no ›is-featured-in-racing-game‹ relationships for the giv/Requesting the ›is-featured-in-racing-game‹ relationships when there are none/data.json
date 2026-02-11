@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2479",
+  "parent_id": "MCA-2478",
+  "title": "Requesting the ›is-featured-in-racing-game‹ relationships when there are none",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nAnd there exist 0 \"is featured in racing game\" relationships for \"Nordschleife\"\nWhen the user requests all \"is featured in racing game\" relationships for \"Nordschleife\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T16:30:28.736+0100",
+  "updated_at": "2026-02-11T18:37:10.014+0100"
+}

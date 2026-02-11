@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2443",
+  "parent_id": "MCA-2440",
+  "title": "Trying to create a ›is-featured-in-racing-game‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"Aston Martin DB7\" does NOT exist\nAnd \"RACING GAME\" \"Gran Turismo\" does NOT exist\nWhen the user creates a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T15:37:54.397+0100",
+  "updated_at": "2026-02-11T18:37:03.158+0100"
+}

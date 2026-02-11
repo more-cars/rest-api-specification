@@ -3,7 +3,9 @@
   "parent_id": "MCA-2286",
   "title": "Performing an API request with invalid basic auth credentials",
   "gherkin": "Given basic authentication is activated\nAnd the user did not provide basic auth credentials\nWhen the user requests all \"BRANDS\"\nThen the request should be rejected with status code 401\n\nGiven basic authentication is activated\nAnd the user did not provide valid basic auth credentials\nWhen the user requests all \"BRANDS\"\nThen the request should be rejected with status code 401",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-07T10:15:01.958+0100",
-  "updated_at": "2025-11-07T10:26:32.324+0100"
+  "updated_at": "2026-02-11T18:36:36.368+0100"
 }

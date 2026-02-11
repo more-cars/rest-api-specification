@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2467",
+  "parent_id": "MCA-2464",
+  "title": "Requests to create a ›is-featured-in-racing-game‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no TRACK LAYOUT with the provided ID? -> rejected.\nThere exists no RACING GAME with the provided ID? -> rejected.\n",
+  "release_version": "0.27.0",
+  "created_at": "2026-02-11T16:27:50.042+0100",
+  "updated_at": "2026-02-11T16:43:06.632+0100"
+}

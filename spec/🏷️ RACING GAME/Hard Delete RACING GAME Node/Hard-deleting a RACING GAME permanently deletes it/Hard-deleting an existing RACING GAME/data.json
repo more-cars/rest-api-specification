@@ -3,7 +3,9 @@
   "parent_id": "MCA-2322",
   "title": "Hard-deleting an existing RACING GAME",
   "gherkin": "Given there exists a \"RACING GAME\" \"F1 2025\"\nWhen the user hard-deletes the \"RACING GAME\" \"F1 2025\"\nThen the response should return with status code 204\nAnd the \"RACING GAME\" \"F1 2025\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T12:53:01.983+0100",
-  "updated_at": "2026-02-09T12:53:06.132+0100"
+  "updated_at": "2026-02-11T18:36:39.248+0100"
 }

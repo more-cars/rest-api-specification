@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2451",
+  "parent_id": "MCA-2448",
+  "title": "An empty list is returned when there exist no ›is-featured-in-racing-game‹ relationships for the given CAR MODEL VARIANT",
+  "description": "",
+  "release_version": "0.27.0",
+  "created_at": "2026-02-11T15:39:58.993+0100",
+  "updated_at": "2026-02-11T16:03:03.187+0100"
+}

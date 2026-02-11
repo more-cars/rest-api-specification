@@ -4,7 +4,7 @@ Feature: Create RACING GAME-features-car-model-variant Relationship
   @RULE_MCA-2331
   Rule: Requests to create a ›features-car-model-variant‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2333
+    @TEST_MCA-2333 @implemented
     Scenario: Trying to create a ›features-car-model-variant‹ relationship with invalid CAR MODEL VARIANT ID
       Given there exists a "RACING GAME" "Gran Turismo"
       And "CAR MODEL VARIANT" "Aston Martin DB7" does NOT exist

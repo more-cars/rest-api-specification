@@ -1,11 +1,11 @@
 {
-  "id": "MCA-826",
+  "id": "MCA-825",
   "parent_id": "MCA-824",
   "title": "Trying to create a ›has-successor‹ relationship with invalid CAR MODEL ID",
-  "gherkin": "Given there exists a \"CAR MODEL\" \"Countach\"\nAnd \"CAR MODEL\" \"Diablo\" does NOT exist\nWhen the user creates a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nThen the request should be rejected with status code 404",
+  "gherkin": "Given \"CAR MODEL\" \"Countach\" does NOT exist\nAnd there exists a \"CAR MODEL\" \"Diablo\"\nWhen the user creates a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nThen the request should be rejected with status code 404",
   "labels": [
     "implemented"
   ],
-  "created_at": "2025-10-14T16:12:50.847+0200",
-  "updated_at": "2025-10-14T17:36:28.819+0200"
+  "created_at": "2025-10-14T16:12:45.804+0200",
+  "updated_at": "2025-10-14T17:36:20.400+0200"
 }

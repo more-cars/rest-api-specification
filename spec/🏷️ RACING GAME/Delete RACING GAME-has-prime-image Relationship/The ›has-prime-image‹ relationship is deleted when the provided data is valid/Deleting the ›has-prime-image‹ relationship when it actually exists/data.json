@@ -3,7 +3,9 @@
   "parent_id": "MCA-2429",
   "title": "Deleting the ›has-prime-image‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"RACING GAME\" \"F1 2025\"\nAnd there exists a \"IMAGE\" \"Audi Quattro\"\nAnd there exists a \"has prime image\" relationship \"R\" between \"F1 2025\" and \"Audi Quattro\"\nWhen the user deletes the \"has prime image\" relationship between \"F1 2025\" and \"Audi Quattro\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:51:52.014+0100",
-  "updated_at": "2026-02-09T13:51:55.624+0100"
+  "updated_at": "2026-02-11T18:37:00.063+0100"
 }

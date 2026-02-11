@@ -7,7 +7,7 @@ Feature: Delete RACING GAME-has-image Relationship
   @RULE_MCA-2407
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-2408
+    @TEST_MCA-2408 @implemented
     Scenario: Trying to delete a non-existent ›has-image‹ relationship
       Given there exists a "RACING GAME" "F1 2025"
       And there exists a "IMAGE" "rallye course"

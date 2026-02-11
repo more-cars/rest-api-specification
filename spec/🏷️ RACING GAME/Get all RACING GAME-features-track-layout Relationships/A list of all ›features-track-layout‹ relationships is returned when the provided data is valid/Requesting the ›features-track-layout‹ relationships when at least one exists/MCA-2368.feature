@@ -4,7 +4,7 @@ Feature: Get all RACING GAME-features-track-layout Relationships
   @RULE_MCA-2367
   Rule: A list of all ›features-track-layout‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-2368
+    @TEST_MCA-2368 @implemented
     Scenario: Requesting the ›features-track-layout‹ relationships when at least one exists
       Given there exists a "RACING GAME" "F1 2025"
       And there exist 3 "features track layout" relationships for "F1 2025"

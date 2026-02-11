@@ -7,7 +7,7 @@ Feature: Delete RACING GAME-features-track-layout Relationship
   @RULE_MCA-2374
   Rule: The ›features-track-layout‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-2375
+    @TEST_MCA-2375 @implemented
     Scenario: Deleting the ›features-track-layout‹ relationship when it actually exists
       Given there exists a "RACING GAME" "F1 2025"
       And there exists a "TRACK LAYOUT" "Nordschleife"

@@ -7,7 +7,7 @@ Feature: Hard Delete RACING GAME Node
   @RULE_MCA-2326
   Rule: Hard-deleting a RACING GAME permanently deletes all attached relationships
 
-    @TEST_MCA-2327
+    @TEST_MCA-2327 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a RACING GAME
       Given there exists a "RACING GAME" "F1 2025"
       And there exists a "has image" relationship "R1" for "F1 2025"

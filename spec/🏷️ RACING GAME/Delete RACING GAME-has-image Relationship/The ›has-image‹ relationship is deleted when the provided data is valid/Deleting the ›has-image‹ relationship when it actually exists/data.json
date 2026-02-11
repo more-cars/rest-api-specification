@@ -3,7 +3,9 @@
   "parent_id": "MCA-2401",
   "title": "Deleting the ›has-image‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"RACING GAME\" \"F1 2025\"\nAnd there exists a \"IMAGE\" \"rallye course\"\nAnd there exists a \"has image\" relationship \"R\" between \"F1 2025\" and \"rallye course\"\nWhen the user deletes the \"has image\" relationship between \"F1 2025\" and \"rallye course\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:39:28.151+0100",
-  "updated_at": "2026-02-09T13:39:31.525+0100"
+  "updated_at": "2026-02-11T18:36:54.748+0100"
 }

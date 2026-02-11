@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2457",
+  "parent_id": "MCA-2456",
+  "title": "Deleting the ›is-featured-in-racing-game‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Trabant 601\"\nAnd there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exists a \"is featured in racing game\" relationship \"R\" between \"Trabant 601\" and \"Gran Turismo\"\nWhen the user deletes the \"is featured in racing game\" relationship between \"Trabant 601\" and \"Gran Turismo\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T15:42:04.081+0100",
+  "updated_at": "2026-02-11T18:37:05.474+0100"
+}

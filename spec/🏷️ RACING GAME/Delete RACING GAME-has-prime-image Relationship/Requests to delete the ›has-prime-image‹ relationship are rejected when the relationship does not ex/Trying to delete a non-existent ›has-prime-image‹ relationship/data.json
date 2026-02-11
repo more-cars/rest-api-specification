@@ -3,7 +3,9 @@
   "parent_id": "MCA-2435",
   "title": "Trying to delete a non-existent ›has-prime-image‹ relationship",
   "gherkin": "Given there exists a \"RACING GAME\" \"F1 2025\"\nAnd there exists a \"IMAGE\" \"Audi Quattro\"\nAnd there exists NO \"has prime image\" relationship between \"F1 2025\" and \"Audi Quattro\"\nWhen the user deletes the \"has prime image\" relationship between \"F1 2025\" and \"Audi Quattro\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:52:14.978+0100",
-  "updated_at": "2026-02-09T13:52:18.521+0100"
+  "updated_at": "2026-02-11T18:37:01.615+0100"
 }

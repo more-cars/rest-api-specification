@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2470",
+  "parent_id": "MCA-2467",
+  "title": "Trying to create a ›is-featured-in-racing-game‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"TRACK LAYOUT\" \"Nordschleife\" does NOT exist\nAnd \"RACING GAME\" \"Assetto Corsa EVO\" does NOT exist\nWhen the user creates a \"is featured in racing game\" relationship between \"Nordschleife\" and \"Assetto Corsa EVO\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T16:28:02.445+0100",
+  "updated_at": "2026-02-11T18:37:08.511+0100"
+}

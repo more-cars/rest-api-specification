@@ -3,7 +3,9 @@
   "parent_id": "MCA-2423",
   "title": "Requesting the ›has-prime-image‹ relationship when there exists none",
   "gherkin": "Given there exists a \"RACING GAME\" \"F1 2025\"\nAnd there exists NO \"has prime image\" relationship for \"F1 2025\"\nWhen the user requests the \"has prime image\" relationship for \"F1 2025\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:45:26.703+0100",
-  "updated_at": "2026-02-09T13:45:30.204+0100"
+  "updated_at": "2026-02-11T18:36:59.335+0100"
 }

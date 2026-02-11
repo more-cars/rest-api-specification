@@ -3,7 +3,9 @@
   "parent_id": "MCA-2340",
   "title": "Requesting the ›features-car-model-variant‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exist 3 \"features car model variant\" relationships for \"Gran Turismo\"\nWhen the user requests all \"features car model variant\" relationships for \"Gran Turismo\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"features car model variant\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:00:39.320+0100",
-  "updated_at": "2026-02-09T13:00:44.095+0100"
+  "updated_at": "2026-02-11T18:36:42.636+0100"
 }

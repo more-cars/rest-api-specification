@@ -4,7 +4,7 @@ Feature: Create RACING GAME-features-track-layout Relationship
   @RULE_MCA-2356
   Rule: Requests to create a ›features-track-layout‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-2357
+    @TEST_MCA-2357 @implemented
     Scenario: Creating a ›features-track-layout‹ relationship with valid IDs
       Given there exists a "RACING GAME" "Assetto Corsa EVO"
       And there exists a "TRACK LAYOUT" "Nordschleife"

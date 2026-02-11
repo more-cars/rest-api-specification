@@ -7,7 +7,7 @@ Feature: Hard Delete RACING GAME Node
   @RULE_MCA-2324
   Rule: Requests are rejected when there exists no RACING GAME with the provided ID
 
-    @TEST_MCA-2325
+    @TEST_MCA-2325 @implemented
     Scenario: Trying to hard-delete a non-existing RACING GAME
       Given "RACING GAME" "F1 2025" does NOT exist
       When the user hard-deletes the "RACING GAME" "F1 2025"

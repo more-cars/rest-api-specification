@@ -3,7 +3,9 @@
   "parent_id": "MCA-2358",
   "title": "Trying to create a ›features-track-layout‹ relationship with invalid TRACK LAYOUT ID",
   "gherkin": "Given there exists a \"RACING GAME\" \"Assetto Corsa EVO\"\nAnd \"TRACK LAYOUT\" \"Nordschleife\" does NOT exist\nWhen the user creates a \"features track layout\" relationship between \"Assetto Corsa EVO\" and \"Nordschleife\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:19:31.158+0100",
-  "updated_at": "2026-02-09T13:19:34.949+0100"
+  "updated_at": "2026-02-11T18:36:46.587+0100"
 }

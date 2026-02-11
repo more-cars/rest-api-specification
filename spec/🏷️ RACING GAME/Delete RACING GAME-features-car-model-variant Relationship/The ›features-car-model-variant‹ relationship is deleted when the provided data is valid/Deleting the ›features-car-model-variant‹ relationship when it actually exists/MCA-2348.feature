@@ -7,7 +7,7 @@ Feature: Delete RACING GAME-features-car-model-variant Relationship
   @RULE_MCA-2347
   Rule: The ›features-car-model-variant‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-2348
+    @TEST_MCA-2348 @implemented
     Scenario: Deleting the ›features-car-model-variant‹ relationship when it actually exists
       Given there exists a "RACING GAME" "F1 2025"
       And there exists a "CAR MODEL VARIANT" "Toyota Yaris"

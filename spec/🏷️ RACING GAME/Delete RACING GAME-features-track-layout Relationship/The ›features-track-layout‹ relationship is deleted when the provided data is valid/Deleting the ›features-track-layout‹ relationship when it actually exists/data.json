@@ -3,7 +3,9 @@
   "parent_id": "MCA-2374",
   "title": "Deleting the ›features-track-layout‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"RACING GAME\" \"F1 2025\"\nAnd there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nAnd there exists a \"features track layout\" relationship \"R\" between \"F1 2025\" and \"Nordschleife\"\nWhen the user deletes the \"features track layout\" relationship between \"F1 2025\" and \"Nordschleife\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:32:31.853+0100",
-  "updated_at": "2026-02-09T13:32:35.584+0100"
+  "updated_at": "2026-02-11T18:36:49.267+0100"
 }

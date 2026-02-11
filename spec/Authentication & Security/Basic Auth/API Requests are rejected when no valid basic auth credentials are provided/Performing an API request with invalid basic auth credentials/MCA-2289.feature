@@ -7,7 +7,7 @@ Feature: Basic Auth
   @RULE_MCA-2286
   Rule: API Requests are rejected when no valid basic auth credentials are provided
 
-    @TEST_MCA-2289
+    @TEST_MCA-2289 @implemented
     Scenario: Performing an API request with invalid basic auth credentials
       Given basic authentication is activated
       And the user did not provide basic auth credentials

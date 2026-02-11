@@ -3,7 +3,9 @@
   "parent_id": "MCA-2376",
   "title": "Trying to delete a ›features-track-layout‹ relationship with invalid RACING GAME ID",
   "gherkin": "Given \"RACING GAME\" \"F1 2025\" does NOT exist\nAnd there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nWhen the user deletes the \"features track layout\" relationship between \"F1 2025\" and \"Nordschleife\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:32:38.481+0100",
-  "updated_at": "2026-02-09T13:32:42.039+0100"
+  "updated_at": "2026-02-11T18:36:49.681+0100"
 }

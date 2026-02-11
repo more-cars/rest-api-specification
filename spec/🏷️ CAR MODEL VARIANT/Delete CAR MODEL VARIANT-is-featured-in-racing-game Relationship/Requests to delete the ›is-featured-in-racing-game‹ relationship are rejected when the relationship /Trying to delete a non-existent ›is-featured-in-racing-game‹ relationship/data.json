@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2463",
+  "parent_id": "MCA-2462",
+  "title": "Trying to delete a non-existent ›is-featured-in-racing-game‹ relationship",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Trabant 601\"\nAnd there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exists NO \"is featured in racing game\" relationship between \"Trabant 601\" and \"Gran Turismo\"\nWhen the user deletes the \"is featured in racing game\" relationship between \"Trabant 601\" and \"Gran Turismo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T15:42:27.435+0100",
+  "updated_at": "2026-02-11T18:37:06.999+0100"
+}

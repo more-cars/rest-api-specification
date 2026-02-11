@@ -8,7 +8,7 @@ Feature: Get all RACING GAME Nodes
   @RULE_MCA-2319
   Rule: An empty list is returned when there exist no RACING GAMES
 
-    @TEST_MCA-2320
+    @TEST_MCA-2320 @implemented
     Scenario: Requesting all RACING GAME nodes when none exist
       Given there exist 0 "RACING GAME"s
       When the user requests all "RACING GAME"s

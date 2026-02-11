@@ -3,7 +3,7 @@
   "parent_id": "MCA-2400",
   "title": "The ›has-image‹ relationship is deleted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a RACING GAME and the second node needs to be a IMAGE.\n",
-  "release_version": null,
+  "release_version": "0.27.0",
   "created_at": "2026-02-09T13:39:25.555+0100",
-  "updated_at": "2026-02-09T13:39:30.937+0100"
+  "updated_at": "2026-02-11T15:02:21.462+0100"
 }

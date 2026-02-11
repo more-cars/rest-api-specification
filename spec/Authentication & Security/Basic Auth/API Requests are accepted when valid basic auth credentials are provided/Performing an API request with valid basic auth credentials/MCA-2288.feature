@@ -7,7 +7,7 @@ Feature: Basic Auth
   @RULE_MCA-2287
   Rule: API Requests are accepted when valid basic auth credentials are provided
 
-    @TEST_MCA-2288
+    @TEST_MCA-2288 @implemented
     Scenario: Performing an API request with valid basic auth credentials
       Given basic authentication is activated
       And the user provided valid basic auth credentials

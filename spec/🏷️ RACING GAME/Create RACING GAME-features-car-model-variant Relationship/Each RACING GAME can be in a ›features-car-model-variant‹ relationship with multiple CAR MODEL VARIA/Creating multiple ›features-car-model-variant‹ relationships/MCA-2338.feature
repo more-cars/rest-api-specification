@@ -4,7 +4,7 @@ Feature: Create RACING GAME-features-car-model-variant Relationship
   @RULE_MCA-2337
   Rule: Each RACING GAME can be in a ›features-car-model-variant‹ relationship with multiple CAR MODEL VARIANTS
 
-    @TEST_MCA-2338
+    @TEST_MCA-2338 @implemented
     Scenario: Creating multiple ›features-car-model-variant‹ relationships
       Given there exists a "RACING GAME" "Gran Turismo"
       And there exists a "CAR MODEL VARIANT" "Aston Martin DB7"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-2304",
   "title": "Expecting all properties to be returned when creating a RACING GAME",
   "gherkin": "When the user creates a \"RACING GAME\" \"F1 2025\" with the following data\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | string |\n  | release_year | 2017 | number |\n  | developer | Turn 10 Studios | string |\n  | publisher | Microsoft Studios | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | string |\n  | release_year | 2017 | number |\n  | developer | Turn 10 Studios | string |\n  | publisher | Microsoft Studios | string |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T12:42:36.769+0100",
-  "updated_at": "2026-02-09T12:42:41.040+0100"
+  "updated_at": "2026-02-10T13:53:48.348+0100"
 }

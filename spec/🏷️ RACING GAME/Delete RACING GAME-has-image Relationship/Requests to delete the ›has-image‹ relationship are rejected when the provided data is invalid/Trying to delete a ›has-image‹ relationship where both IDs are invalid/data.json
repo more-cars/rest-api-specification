@@ -3,7 +3,9 @@
   "parent_id": "MCA-2403",
   "title": "Trying to delete a ›has-image‹ relationship where both IDs are invalid",
   "gherkin": "Given \"RACING GAME\" \"F1 2025\" does NOT exist\nAnd \"IMAGE\" \"rallye course\" does NOT exist\nWhen the user deletes the \"has image\" relationship between \"F1 2025\" and \"rallye course\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:39:43.527+0100",
-  "updated_at": "2026-02-09T13:39:47.064+0100"
+  "updated_at": "2026-02-11T18:36:55.977+0100"
 }

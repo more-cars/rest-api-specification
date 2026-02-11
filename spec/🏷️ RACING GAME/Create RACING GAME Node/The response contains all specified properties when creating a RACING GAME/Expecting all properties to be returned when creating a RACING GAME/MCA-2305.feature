@@ -7,7 +7,7 @@ Feature: Create RACING GAME Node
   @RULE_MCA-2304
   Rule: The response contains all specified properties when creating a RACING GAME
 
-    @TEST_MCA-2305
+    @TEST_MCA-2305 @implemented
     Scenario: Expecting all properties to be returned when creating a RACING GAME
       When the user creates a "RACING GAME" "F1 2025" with the following data
         | key          | value              | datatype |

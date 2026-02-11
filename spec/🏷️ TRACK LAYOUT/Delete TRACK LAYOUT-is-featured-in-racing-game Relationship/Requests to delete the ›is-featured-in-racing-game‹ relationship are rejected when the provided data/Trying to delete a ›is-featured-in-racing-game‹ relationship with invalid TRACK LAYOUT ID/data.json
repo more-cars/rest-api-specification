@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2486",
+  "parent_id": "MCA-2485",
+  "title": "Trying to delete a ›is-featured-in-racing-game‹ relationship with invalid TRACK LAYOUT ID",
+  "gherkin": "Given \"TRACK LAYOUT\" \"Südschleife\" does NOT exist\nAnd there exists a \"RACING GAME\" \"Assetto Corsa EVO\"\nWhen the user deletes the \"is featured in racing game\" relationship between \"Südschleife\" and \"Assetto Corsa EVO\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T16:32:24.825+0100",
+  "updated_at": "2026-02-11T18:37:11.143+0100"
+}

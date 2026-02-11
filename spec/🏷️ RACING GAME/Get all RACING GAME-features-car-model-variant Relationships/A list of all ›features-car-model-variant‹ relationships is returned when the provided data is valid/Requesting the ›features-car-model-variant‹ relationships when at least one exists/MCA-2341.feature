@@ -4,7 +4,7 @@ Feature: Get all RACING GAME-features-car-model-variant Relationships
   @RULE_MCA-2340
   Rule: A list of all ›features-car-model-variant‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-2341
+    @TEST_MCA-2341 @implemented
     Scenario: Requesting the ›features-car-model-variant‹ relationships when at least one exists
       Given there exists a "RACING GAME" "Gran Turismo"
       And there exist 3 "features car model variant" relationships for "Gran Turismo"

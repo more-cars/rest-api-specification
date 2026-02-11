@@ -3,7 +3,7 @@
   "parent_id": "MCA-2409",
   "title": "At the same time, each RACING GAME can only be in a ›has-prime-image‹ relationship with one IMAGE",
   "description": "Connecting a different IMAGE will delete the previous relationship.\n",
-  "release_version": null,
+  "release_version": "0.27.0",
   "created_at": "2026-02-09T13:44:25.358+0100",
-  "updated_at": "2026-02-09T13:44:31.277+0100"
+  "updated_at": "2026-02-11T15:07:46.116+0100"
 }

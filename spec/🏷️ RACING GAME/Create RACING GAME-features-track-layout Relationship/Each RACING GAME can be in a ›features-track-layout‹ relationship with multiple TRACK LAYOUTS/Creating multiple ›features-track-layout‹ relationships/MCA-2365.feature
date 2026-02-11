@@ -4,7 +4,7 @@ Feature: Create RACING GAME-features-track-layout Relationship
   @RULE_MCA-2364
   Rule: Each RACING GAME can be in a ›features-track-layout‹ relationship with multiple TRACK LAYOUTS
 
-    @TEST_MCA-2365
+    @TEST_MCA-2365 @implemented
     Scenario: Creating multiple ›features-track-layout‹ relationships
       Given there exists a "RACING GAME" "Assetto Corsa EVO"
       And there exists a "TRACK LAYOUT" "Nordschleife"

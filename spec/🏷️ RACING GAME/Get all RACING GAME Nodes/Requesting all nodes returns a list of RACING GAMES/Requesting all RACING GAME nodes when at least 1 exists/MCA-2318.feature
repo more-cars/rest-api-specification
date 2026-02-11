@@ -8,7 +8,7 @@ Feature: Get all RACING GAME Nodes
   @RULE_MCA-2317
   Rule: Requesting all nodes returns a list of RACING GAMES
 
-    @TEST_MCA-2318
+    @TEST_MCA-2318 @implemented
     Scenario: Requesting all RACING GAME nodes when at least 1 exists
       Given there exist 3 "RACING GAME"s
       When the user requests all "RACING GAME"s

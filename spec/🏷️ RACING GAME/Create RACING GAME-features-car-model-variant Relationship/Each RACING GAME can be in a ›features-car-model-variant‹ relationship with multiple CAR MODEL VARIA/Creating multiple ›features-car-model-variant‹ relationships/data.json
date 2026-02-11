@@ -3,7 +3,9 @@
   "parent_id": "MCA-2337",
   "title": "Creating multiple ›features-car-model-variant‹ relationships",
   "gherkin": "Given there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Aston Martin DB7\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Aston Martin DB7 (Alternative)\"\nWhen the user creates a \"features car model variant\" relationship between \"Gran Turismo\" and \"Aston Martin DB7\"\nAnd the user creates a \"features car model variant\" relationship between \"Gran Turismo\" and \"Aston Martin DB7 (Alternative)\"\nThen there should exist a \"features car model variant\" relationship between \"Gran Turismo\" and \"Aston Martin DB7\"\nAnd there should exist a \"features car model variant\" relationship between \"Gran Turismo\" and \"Aston Martin DB7 (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T12:58:50.857+0100",
-  "updated_at": "2026-02-09T12:58:55.398+0100"
+  "updated_at": "2026-02-11T18:36:42.269+0100"
 }

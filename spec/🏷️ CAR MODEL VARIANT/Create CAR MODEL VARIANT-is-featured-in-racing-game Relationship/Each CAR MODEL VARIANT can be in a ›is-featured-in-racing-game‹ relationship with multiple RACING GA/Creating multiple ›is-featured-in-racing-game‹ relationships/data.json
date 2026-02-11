@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2447",
+  "parent_id": "MCA-2446",
+  "title": "Creating multiple ›is-featured-in-racing-game‹ relationships",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Aston Martin DB7\"\nAnd there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exists a \"RACING GAME\" \"Gran Turismo (Alternative)\"\nWhen the user creates a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo\"\nAnd the user creates a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo (Alternative)\"\nThen there should exist a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo\"\nAnd there should exist a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T15:38:09.215+0100",
+  "updated_at": "2026-02-11T18:37:03.891+0100"
+}

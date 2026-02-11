@@ -3,7 +3,9 @@
   "parent_id": "MCA-2287",
   "title": "Performing an API request with valid basic auth credentials",
   "gherkin": "Given basic authentication is activated\nAnd the user provided valid basic auth credentials\nWhen the user requests all \"BRANDS\"\nThen the request should be confirmed with status code 200",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-07T10:14:58.266+0100",
-  "updated_at": "2025-11-07T10:26:25.056+0100"
+  "updated_at": "2026-02-11T18:36:35.935+0100"
 }

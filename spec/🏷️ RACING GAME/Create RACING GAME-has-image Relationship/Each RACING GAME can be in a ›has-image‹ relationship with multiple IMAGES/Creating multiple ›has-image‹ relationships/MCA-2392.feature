@@ -4,7 +4,7 @@ Feature: Create RACING GAME-has-image Relationship
   @RULE_MCA-2391
   Rule: Each RACING GAME can be in a ›has-image‹ relationship with multiple IMAGES
 
-    @TEST_MCA-2392
+    @TEST_MCA-2392 @implemented
     Scenario: Creating multiple ›has-image‹ relationships
       Given there exists a "RACING GAME" "F1 2025"
       And there exists a "IMAGE" "dvd cover"

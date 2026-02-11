@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2454",
+  "parent_id": "MCA-2453",
+  "title": "Trying to fetch the ›is-featured-in-racing-game‹ relationships with an invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"Aston Martin DB7\" does NOT exist\nWhen the user requests all \"is featured in racing game\" relationships for \"Aston Martin DB7\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T15:40:08.569+0100",
+  "updated_at": "2026-02-11T18:37:05.089+0100"
+}

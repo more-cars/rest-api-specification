@@ -3,7 +3,9 @@
   "parent_id": "MCA-2291",
   "title": "Performing a modifying request via HTTP",
   "gherkin": "When the user creates a \"BRAND\" via \"HTTP\"\nThen the response should return with status code 426\nAnd the request should not be redirected to \"HTTPS\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-11-07T13:01:08.203+0100",
-  "updated_at": "2025-11-07T13:08:23.843+0100"
+  "updated_at": "2026-02-11T18:36:37.189+0100"
 }

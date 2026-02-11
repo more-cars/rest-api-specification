@@ -7,7 +7,7 @@ Feature: Create RACING GAME Node
   @RULE_MCA-2307
   Rule: Unknown properties are ignored when creating a RACING GAME
 
-    @TEST_MCA-2308
+    @TEST_MCA-2308 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a RACING GAME
       When the user creates a "RACING GAME" "F1 2025" with the following data
         | key          | value              | datatype |

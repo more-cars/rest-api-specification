@@ -3,7 +3,9 @@
   "parent_id": "MCA-2307",
   "title": "Expecting unknown properties to be ignored when creating a RACING GAME",
   "gherkin": "When the user creates a \"RACING GAME\" \"F1 2025\" with the following data\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | string |\n  | release_year | 2017 | number |\n  | developer | Turn 10 Studios | string |\n  | publisher | Microsoft Studios | string |\n  | thimbleweed | park | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | string |\n  | release_year | 2017 | number |\n  | developer | Turn 10 Studios | string |\n  | publisher | Microsoft Studios | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T12:42:50.674+0100",
-  "updated_at": "2026-02-09T12:42:55.979+0100"
+  "updated_at": "2026-02-10T13:54:05.654+0100"
 }

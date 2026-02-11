@@ -4,7 +4,7 @@ Feature: Create RACING GAME-has-image Relationship
   @RULE_MCA-2383
   Rule: Requests to create a ›has-image‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-2384
+    @TEST_MCA-2384 @implemented
     Scenario: Creating a ›has-image‹ relationship with valid IDs
       Given there exists a "RACING GAME" "F1 2025"
       And there exists a "IMAGE" "dvd cover"

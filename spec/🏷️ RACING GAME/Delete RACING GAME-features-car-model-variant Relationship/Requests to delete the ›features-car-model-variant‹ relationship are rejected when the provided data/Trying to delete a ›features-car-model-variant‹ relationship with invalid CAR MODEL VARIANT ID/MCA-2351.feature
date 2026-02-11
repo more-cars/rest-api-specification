@@ -7,7 +7,7 @@ Feature: Delete RACING GAME-features-car-model-variant Relationship
   @RULE_MCA-2349
   Rule: Requests to delete the ›features-car-model-variant‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2351
+    @TEST_MCA-2351 @implemented
     Scenario: Trying to delete a ›features-car-model-variant‹ relationship with invalid CAR MODEL VARIANT ID
       Given there exists a "RACING GAME" "F1 2025"
       And "CAR MODEL VARIANT" "Toyota Yaris" does NOT exist

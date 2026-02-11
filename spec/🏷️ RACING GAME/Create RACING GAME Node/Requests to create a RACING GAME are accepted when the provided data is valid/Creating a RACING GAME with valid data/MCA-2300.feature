@@ -7,7 +7,7 @@ Feature: Create RACING GAME Node
   @RULE_MCA-2299
   Rule: Requests to create a RACING GAME are accepted when the provided data is valid
 
-    @TEST_MCA-2300
+    @TEST_MCA-2300 @implemented
     Scenario: Creating a RACING GAME with valid data
       When the user creates a "RACING GAME" "F1 2025" with the following data
         | key          | value              | datatype |

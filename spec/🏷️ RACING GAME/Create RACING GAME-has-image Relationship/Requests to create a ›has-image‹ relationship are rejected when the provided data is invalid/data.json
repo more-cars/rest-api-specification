@@ -3,7 +3,7 @@
   "parent_id": "MCA-2382",
   "title": "Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no RACING GAME with the provided ID? -> rejected.\nThere exists no IMAGE with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.27.0",
   "created_at": "2026-02-09T13:35:22.157+0100",
-  "updated_at": "2026-02-09T13:35:37.765+0100"
+  "updated_at": "2026-02-11T13:43:40.300+0100"
 }

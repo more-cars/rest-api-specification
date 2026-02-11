@@ -7,7 +7,7 @@ Feature: Hard Delete RACING GAME Node
   @RULE_MCA-2322
   Rule: Hard-deleting a RACING GAME permanently deletes it
 
-    @TEST_MCA-2323
+    @TEST_MCA-2323 @implemented
     Scenario: Hard-deleting an existing RACING GAME
       Given there exists a "RACING GAME" "F1 2025"
       When the user hard-deletes the "RACING GAME" "F1 2025"

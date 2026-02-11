@@ -4,7 +4,7 @@ Feature: Create RACING GAME-features-track-layout Relationship
   @RULE_MCA-2362
   Rule: The same ›features-track-layout‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-2363
+    @TEST_MCA-2363 @implemented
     Scenario: Trying to create the same ›features-track-layout‹ relationship again
       Given there exists a "RACING GAME" "Assetto Corsa EVO"
       And there exists a "TRACK LAYOUT" "Nordschleife"

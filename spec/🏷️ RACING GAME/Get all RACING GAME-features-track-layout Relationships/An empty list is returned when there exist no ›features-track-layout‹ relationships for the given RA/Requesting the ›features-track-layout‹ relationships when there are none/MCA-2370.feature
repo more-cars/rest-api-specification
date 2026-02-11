@@ -4,7 +4,7 @@ Feature: Get all RACING GAME-features-track-layout Relationships
   @RULE_MCA-2369
   Rule: An empty list is returned when there exist no ›features-track-layout‹ relationships for the given RACING GAME
 
-    @TEST_MCA-2370
+    @TEST_MCA-2370 @implemented
     Scenario: Requesting the ›features-track-layout‹ relationships when there are none
       Given there exists a "RACING GAME" "F1 2025"
       And there exist 0 "features track layout" relationships for "F1 2025"

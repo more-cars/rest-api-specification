@@ -4,7 +4,7 @@ Feature: Create RACING GAME-features-car-model-variant Relationship
   @RULE_MCA-2335
   Rule: The same ›features-car-model-variant‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-2336
+    @TEST_MCA-2336 @implemented
     Scenario: Trying to create the same ›features-car-model-variant‹ relationship again
       Given there exists a "RACING GAME" "Gran Turismo"
       And there exists a "CAR MODEL VARIANT" "Aston Martin DB7"

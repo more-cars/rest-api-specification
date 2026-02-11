@@ -3,7 +3,9 @@
   "parent_id": "MCA-2353",
   "title": "Trying to delete a non-existent ›features-car-model-variant‹ relationship",
   "gherkin": "Given there exists a \"RACING GAME\" \"F1 2025\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Toyota Yaris\"\nAnd there exists NO \"features car model variant\" relationship between \"F1 2025\" and \"Toyota Yaris\"\nWhen the user deletes the \"features car model variant\" relationship between \"F1 2025\" and \"Toyota Yaris\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-09T13:14:22.658+0100",
-  "updated_at": "2026-02-09T13:15:03.479+0100"
+  "updated_at": "2026-02-11T18:36:45.364+0100"
 }

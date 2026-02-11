@@ -7,7 +7,7 @@ Feature: Get RACING GAME Node by ID
   @RULE_MCA-2312
   Rule: Requesting a RACING GAME with a valid ID returns the respective node
 
-    @TEST_MCA-2313
+    @TEST_MCA-2313 @implemented
     Scenario: Requesting a RACING GAME with valid ID
       Given there exists a "RACING GAME" "F1 2025"
       When the user requests the "RACING GAME" "F1 2025"

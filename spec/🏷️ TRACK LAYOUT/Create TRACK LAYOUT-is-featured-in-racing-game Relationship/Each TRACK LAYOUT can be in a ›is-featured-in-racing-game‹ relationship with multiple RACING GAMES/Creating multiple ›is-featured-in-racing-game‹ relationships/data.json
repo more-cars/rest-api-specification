@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2474",
+  "parent_id": "MCA-2473",
+  "title": "Creating multiple ›is-featured-in-racing-game‹ relationships",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nAnd there exists a \"RACING GAME\" \"Assetto Corsa EVO\"\nAnd there exists a \"RACING GAME\" \"Assetto Corsa EVO (Alternative)\"\nWhen the user creates a \"is featured in racing game\" relationship between \"Nordschleife\" and \"Assetto Corsa EVO\"\nAnd the user creates a \"is featured in racing game\" relationship between \"Nordschleife\" and \"Assetto Corsa EVO (Alternative)\"\nThen there should exist a \"is featured in racing game\" relationship between \"Nordschleife\" and \"Assetto Corsa EVO\"\nAnd there should exist a \"is featured in racing game\" relationship between \"Nordschleife\" and \"Assetto Corsa EVO (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T16:28:16.163+0100",
+  "updated_at": "2026-02-11T18:37:09.237+0100"
+}

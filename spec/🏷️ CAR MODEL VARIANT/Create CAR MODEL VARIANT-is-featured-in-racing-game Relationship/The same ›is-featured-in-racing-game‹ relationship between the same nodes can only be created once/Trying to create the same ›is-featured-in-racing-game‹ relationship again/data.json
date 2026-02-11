@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2445",
+  "parent_id": "MCA-2444",
+  "title": "Trying to create the same ›is-featured-in-racing-game‹ relationship again",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Aston Martin DB7\"\nAnd there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exists a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo\"\nWhen the user creates a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T15:38:00.851+0100",
+  "updated_at": "2026-02-11T18:37:03.500+0100"
+}

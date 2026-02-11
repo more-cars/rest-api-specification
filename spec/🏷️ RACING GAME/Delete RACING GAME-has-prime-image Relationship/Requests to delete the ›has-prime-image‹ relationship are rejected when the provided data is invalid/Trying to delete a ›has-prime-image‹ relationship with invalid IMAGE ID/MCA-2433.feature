@@ -7,7 +7,7 @@ Feature: Delete RACING GAME-has-prime-image Relationship
   @RULE_MCA-2431
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2433
+    @TEST_MCA-2433 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship with invalid IMAGE ID
       Given there exists a "RACING GAME" "F1 2025"
       And "IMAGE" "Audi Quattro" does NOT exist

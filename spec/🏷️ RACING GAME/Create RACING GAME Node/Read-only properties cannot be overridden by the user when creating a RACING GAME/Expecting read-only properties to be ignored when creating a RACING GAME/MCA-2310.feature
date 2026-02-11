@@ -7,7 +7,7 @@ Feature: Create RACING GAME Node
   @RULE_MCA-2309
   Rule: Read-only properties cannot be overridden by the user when creating a RACING GAME
 
-    @TEST_MCA-2310
+    @TEST_MCA-2310 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a RACING GAME
       When the user creates a "RACING GAME" "F1 2025" with the following data
         | key          | value              | datatype |
