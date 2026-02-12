@@ -26,7 +26,7 @@ describe('Storing the extracted tests in the specification folder', () => {
             .toEqual(tests.length)
 
         tests.forEach(test => {
-            const filePath = storagePath + test.id + ' » ' + test.title + '/data.json'
+            const filePath = storagePath + test.title + '/data.json'
             expect(fs.existsSync(filePath), `Did not find test specification at '${filePath}'.`)
                 .toBeTruthy()
         })

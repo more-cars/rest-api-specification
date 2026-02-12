@@ -26,7 +26,7 @@ describe('Storing the extracted stories in the specification folder', () => {
             .toEqual(stories.length)
 
         stories.forEach(story => {
-            const filePath = storagePath + story.id + ' » ' + story.title + '/data.json'
+            const filePath = storagePath + story.title + '/data.json'
             expect(fs.existsSync(filePath), `Did not find story specification at '${filePath}'.`)
                 .toBeTruthy()
         })

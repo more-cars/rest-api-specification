@@ -26,7 +26,7 @@ describe('Storing the extracted epics in the specification folder', () => {
             .toEqual(epics.length)
 
         epics.forEach(epic => {
-            const filePath = storagePath + epic.id + ' » ' + epic.title + '/data.json'
+            const filePath = storagePath + epic.title + '/data.json'
             expect(fs.existsSync(filePath), `Did not find epic specification at '${filePath}'.`)
                 .toBeTruthy()
         })
