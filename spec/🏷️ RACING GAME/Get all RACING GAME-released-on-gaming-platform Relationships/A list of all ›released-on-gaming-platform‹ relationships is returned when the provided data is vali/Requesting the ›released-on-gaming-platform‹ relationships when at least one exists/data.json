@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2615",
+  "parent_id": "MCA-2614",
+  "title": "Requesting the ›released-on-gaming-platform‹ relationships when at least one exists",
+  "gherkin": "Given there exists a \"RACING GAME\" \"F1 2020\"\nAnd there exist 3 \"released on gaming platform\" relationships for \"F1 2020\"\nWhen the user requests all \"released on gaming platform\" relationships for \"F1 2020\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"released on gaming platform\" relationships",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-13T15:54:49.292+0100",
+  "updated_at": "2026-02-13T16:31:17.295+0100"
+}

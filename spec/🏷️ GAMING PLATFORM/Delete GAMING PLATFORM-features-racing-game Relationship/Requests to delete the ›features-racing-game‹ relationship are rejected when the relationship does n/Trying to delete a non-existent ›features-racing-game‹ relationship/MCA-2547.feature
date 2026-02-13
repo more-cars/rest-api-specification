@@ -1,0 +1,16 @@
+@REQ_MCA-2539
+Feature: Delete GAMING PLATFORM-features-racing-game Relationship
+  As an API contributor
+  I want to be able to disconnect RACING GAMES from GAMING PLATFORMS
+  So I can clean up bad data or test data
+
+  @RULE_MCA-2546
+  Rule: Requests to delete the ›features-racing-game‹ relationship are rejected when the relationship does not exist
+
+    @TEST_MCA-2547 @implemented
+    Scenario: Trying to delete a non-existent ›features-racing-game‹ relationship
+      Given there exists a "GAMING PLATFORM" "PlayStation 5"
+      And there exists a "RACING GAME" "Forza Motorsport"
+      And there exists NO "features racing game" relationship between "PlayStation 5" and "Forza Motorsport"
+      When the user deletes the "features racing game" relationship between "PlayStation 5" and "Forza Motorsport"
+      Then the request should be rejected with status code 404

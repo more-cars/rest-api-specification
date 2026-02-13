@@ -1,0 +1,18 @@
+{
+  "id": "MCA-2504",
+  "parent_id": "MCA-219",
+  "title": "Get GAMING PLATFORM Node by ID",
+  "user_story": "As an API consumer\nI want to be able to request a specific GAMING PLATFORM\nSo I can find out all the details about it when I only have its ID\n",
+  "description": "* The requested GAMING PLATFORM node is returned when the provided ID is valid. -> Status Code \\`200\\`\n* A successful request returns the node with all specified properties.\n* Properties are returned, even when they are empty (optional fields). They are returned with value \\`null\\`.\n* Requests with invalid ID are rejected. This case can happen when there exists no node with that ID or when the node is not from type GAMING PLATFORM. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/gaming-platforms/<gaming-platform-id>",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.27.0"
+  ],
+  "created_at": "2026-02-11T19:13:18.766+0100",
+  "updated_at": "2026-02-12T17:24:23.339+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2610",
+  "parent_id": "MCA-2609",
+  "title": "Trying to create the same ›released-on-gaming-platform‹ relationship again",
+  "gherkin": "Given there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nAnd there exists a \"released on gaming platform\" relationship between \"Gran Turismo\" and \"PlayStation 5\"\nWhen the user creates a \"released on gaming platform\" relationship between \"Gran Turismo\" and \"PlayStation 5\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-13T15:52:27.239+0100",
+  "updated_at": "2026-02-13T16:31:16.469+0100"
+}

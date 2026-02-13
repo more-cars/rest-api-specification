@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2496",
+  "parent_id": "MCA-2494",
+  "title": "Trying to create a GAMING PLATFORM with invalid data types",
+  "gherkin": "When the user tries to create a \"GAMING PLATFORM\" \"PlayStation 5\" with the following data\n  | key | value | datatype |\n  | name | PlayStation 5 | boolean |\n  | release_year | 2020 | boolean |\n  | manufacturer | Sony | boolean |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T19:11:10.230+0100",
+  "updated_at": "2026-02-13T16:30:52.752+0100"
+}

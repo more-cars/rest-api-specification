@@ -1,0 +1,19 @@
+{
+  "id": "MCA-2521",
+  "parent_id": "MCA-219",
+  "title": "Create GAMING PLATFORM-features-racing-game Relationship",
+  "user_story": "",
+  "description": "* The relationship ›features-racing-game‹ is created when the provided IDs of the GAMING PLATFORM and RACING GAME are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›features-racing-game‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* Each GAMING PLATFORM can be in a ›features-racing-game‹ relationship with multiple RACING GAMES\n",
+  "api_verb": "POST",
+  "api_path": "/gaming-platforms/<gaming-platform-id>/features-racing-game/<racing-game-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [
+    "0.27.0"
+  ],
+  "created_at": "2026-02-11T19:19:37.346+0100",
+  "updated_at": "2026-02-13T09:12:18.874+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2584",
+  "parent_id": "MCA-2575",
+  "title": "At the same time, each GAMING PLATFORM can only be in a ›has-prime-image‹ relationship with one IMAGE",
+  "description": "Connecting a different IMAGE will delete the previous relationship.\n",
+  "release_version": "0.27.0",
+  "created_at": "2026-02-11T19:31:22.049+0100",
+  "updated_at": "2026-02-13T15:43:19.649+0100"
+}

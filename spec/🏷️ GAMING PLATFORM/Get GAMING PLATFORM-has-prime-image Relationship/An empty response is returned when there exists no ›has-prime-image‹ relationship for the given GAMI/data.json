@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2589",
+  "parent_id": "MCA-2586",
+  "title": "An empty response is returned when there exists no ›has-prime-image‹ relationship for the given GAMING PLATFORM",
+  "description": "",
+  "release_version": "0.27.0",
+  "created_at": "2026-02-11T19:35:32.833+0100",
+  "updated_at": "2026-02-13T15:43:35.009+0100"
+}

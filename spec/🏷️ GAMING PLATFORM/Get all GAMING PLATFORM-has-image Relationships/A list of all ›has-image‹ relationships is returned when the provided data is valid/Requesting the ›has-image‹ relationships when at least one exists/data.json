@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2561",
+  "parent_id": "MCA-2560",
+  "title": "Requesting the ›has-image‹ relationships when at least one exists",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nAnd there exist 3 \"has image\" relationships for \"PlayStation 5\"\nWhen the user requests all \"has image\" relationships for \"PlayStation 5\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has image\" relationships",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T19:28:35.913+0100",
+  "updated_at": "2026-02-13T16:31:05.969+0100"
+}

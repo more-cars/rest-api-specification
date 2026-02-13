@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2536",
+  "parent_id": "MCA-2535",
+  "title": "Requesting the ›features-racing-game‹ relationships when there are none",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nAnd there exist 0 \"features racing game\" relationships for \"PlayStation 5\"\nWhen the user requests all \"features racing game\" relationships for \"PlayStation 5\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T19:23:06.276+0100",
+  "updated_at": "2026-02-13T16:31:00.711+0100"
+}

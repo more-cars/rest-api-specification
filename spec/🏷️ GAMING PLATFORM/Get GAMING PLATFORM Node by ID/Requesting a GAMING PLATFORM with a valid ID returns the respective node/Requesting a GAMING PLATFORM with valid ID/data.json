@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2506",
+  "parent_id": "MCA-2505",
+  "title": "Requesting a GAMING PLATFORM with valid ID",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nWhen the user requests the \"GAMING PLATFORM\" \"PlayStation 5\"\nThen the response should return with status code 200\nAnd the response should return the \"GAMING PLATFORM\" \"PlayStation 5\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T19:13:23.874+0100",
+  "updated_at": "2026-02-13T16:30:54.829+0100"
+}

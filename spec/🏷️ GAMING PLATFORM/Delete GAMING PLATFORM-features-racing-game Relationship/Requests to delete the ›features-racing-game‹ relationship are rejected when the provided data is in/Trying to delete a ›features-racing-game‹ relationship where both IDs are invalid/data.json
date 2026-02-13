@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2545",
+  "parent_id": "MCA-2542",
+  "title": "Trying to delete a ›features-racing-game‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"GAMING PLATFORM\" \"PlayStation 5\" does NOT exist\nAnd \"RACING GAME\" \"Forza Motorsport\" does NOT exist\nWhen the user deletes the \"features racing game\" relationship between \"PlayStation 5\" and \"Forza Motorsport\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-02-11T19:26:04.946+0100",
+  "updated_at": "2026-02-13T16:31:02.817+0100"
+}

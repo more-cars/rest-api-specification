@@ -1,0 +1,18 @@
+{
+  "id": "MCA-2559",
+  "parent_id": "MCA-219",
+  "title": "Get all GAMING PLATFORM-has-image Relationships",
+  "user_story": "",
+  "description": "* A list of all ›has-image‹ relationships for the selected GAMING PLATFORM is returned when there exists at least one of them. -> Status Code \\`200\\`\n* Each item in the list contains the relationship ID and the two node IDs, but not the nodes itself.\n* An empty list is returned when no ›has-image‹ relationship exists. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a GAMING PLATFORM. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/gaming-platforms/<gaming-platform-id>/has-image",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.27.0"
+  ],
+  "created_at": "2026-02-11T19:28:31.055+0100",
+  "updated_at": "2026-02-13T13:05:44.377+0100"
+}
