@@ -26,7 +26,6 @@ function extractDescription(doc: any) {
         return ''
     }
 
-    // @ts-expect-error TS2345
     return toMarkdown(fromADF(doc))
 }
 
