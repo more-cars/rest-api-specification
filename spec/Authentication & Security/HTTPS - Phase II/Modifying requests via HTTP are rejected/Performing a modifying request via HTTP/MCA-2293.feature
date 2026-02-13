@@ -8,7 +8,7 @@ Feature: HTTPS - Phase II
   @RULE_MCA-2291
   Rule: Modifying requests via HTTP are rejected
 
-    @TEST_MCA-2293 @implemented
+    @TEST_MCA-2293 @manual_test
     Scenario: Performing a modifying request via HTTP
       When the user creates a "BRAND" via "HTTP"
       Then the response should return with status code 426

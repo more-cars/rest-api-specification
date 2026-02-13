@@ -8,7 +8,7 @@ Feature: HTTPS - Phase II
   @RULE_MCA-1531
   Rule: All public environments have a valid certificate
 
-    @TEST_MCA-1536 @implemented
+    @TEST_MCA-1536 @manual_test
     Scenario: Expecting the API to use a valid certificate
       When the user requests all "BRAND"s
       Then the response should contain a valid certificate

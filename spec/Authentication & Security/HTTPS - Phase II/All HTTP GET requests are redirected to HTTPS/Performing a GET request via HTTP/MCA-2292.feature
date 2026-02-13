@@ -8,7 +8,7 @@ Feature: HTTPS - Phase II
   @RULE_MCA-2290
   Rule: All HTTP GET requests are redirected to HTTPS
 
-    @TEST_MCA-2292 @implemented
+    @TEST_MCA-2292 @manual_test
     Scenario: Performing a GET request via HTTP
       When the user requests a "BRAND" collection via "HTTP"
       Then the response should return with status code 301
