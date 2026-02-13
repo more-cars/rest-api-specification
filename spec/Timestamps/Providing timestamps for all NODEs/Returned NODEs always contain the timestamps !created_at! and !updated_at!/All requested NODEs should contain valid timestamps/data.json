@@ -2,7 +2,7 @@
   "id": "MCA-69",
   "parent_id": "MCA-21",
   "title": "All requested NODEs should contain valid timestamps",
-  "gherkin": "Given there exist 5 \"<node_type>\"s\nWhen the user requests all \"<node_type>\"s\nAnd for each item the following properties in the response should contain a valid timestamp\n  | key        |\n  | created_at |\n  | updated_at |\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
+  "gherkin": "Given there exist 5 \"<node_type>\"s\nWhen the user requests all \"<node_type>\"s\nAnd for each item the following properties in the response should contain a valid timestamp\n  | key        |\n  | created_at |\n  | updated_at |\n\nExamples:\n  | node_type         |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | IMAGE             |",
   "labels": [
     "implemented"
   ],

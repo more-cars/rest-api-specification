@@ -15,12 +15,18 @@ Feature: Sort node collection
       And the response should return a collection of 5 "<node_type>"s
 
       Examples:
-        | node_type     |
-        | COMPANY       |
-        | BRAND         |
-        | CAR MODEL     |
-        | RACE TRACK    |
-        | TRACK LAYOUT  |
-        | RACING SERIES |
-        | RACING EVENT  |
-        | IMAGE         |
+        | node_type         |
+        | COMPANY           |
+        | BRAND             |
+        | CAR MODEL         |
+        | CAR MODEL VARIANT |
+        | RACE TRACK        |
+        | TRACK LAYOUT      |
+        | RACING SERIES     |
+        | RACING EVENT      |
+        | RACING SESSION    |
+        | SESSION RESULT    |
+        | LAP TIME          |
+        | RACING GAME       |
+        | GAMING PLATFORM   |
+        | IMAGE             |

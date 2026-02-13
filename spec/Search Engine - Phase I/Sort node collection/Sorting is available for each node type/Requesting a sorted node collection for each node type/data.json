@@ -2,7 +2,7 @@
   "id": "MCA-726",
   "parent_id": "MCA-720",
   "title": "Requesting a sorted node collection for each node type",
-  "gherkin": "Given there exist 5 \"<node_type>\"s\nWhen the user requests a \"<node_type>\" collection, sorted \"asc\" by \"name\"\nThen the response should return with status code 200\nAnd the response should return a collection of 5 \"<node_type>\"s\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
+  "gherkin": "Given there exist 5 \"<node_type>\"s\nWhen the user requests a \"<node_type>\" collection, sorted \"asc\" by \"name\"\nThen the response should return with status code 200\nAnd the response should return a collection of 5 \"<node_type>\"s\n\nExamples:\n  | node_type         |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | IMAGE             |",
   "labels": [
     "implemented"
   ],

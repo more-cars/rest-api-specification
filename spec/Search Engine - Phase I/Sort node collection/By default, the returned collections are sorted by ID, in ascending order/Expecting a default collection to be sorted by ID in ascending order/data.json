@@ -2,7 +2,7 @@
   "id": "MCA-730",
   "parent_id": "MCA-724",
   "title": "Expecting a default collection to be sorted by ID in ascending order",
-  "gherkin": "Given there exist 3 \"<node_type>\"s\nWhen the user requests a \"<node_type>\" collection\nThen the returned nodes should be sorted \"asc\" by \"id\"\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
+  "gherkin": "Given there exist 3 \"<node_type>\"s\nWhen the user requests a \"<node_type>\" collection\nThen the returned nodes should be sorted \"asc\" by \"id\"\n\nExamples:\n  | node_type         |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | IMAGE             |",
   "labels": [
     "implemented"
   ],

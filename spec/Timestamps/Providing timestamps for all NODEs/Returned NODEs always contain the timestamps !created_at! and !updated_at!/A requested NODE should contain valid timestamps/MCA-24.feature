@@ -17,12 +17,18 @@ Feature: Providing timestamps for all NODEs
         | updated_at |
 
       Examples:
-        | node_type     |
-        | COMPANY       |
-        | BRAND         |
-        | CAR MODEL     |
-        | RACE TRACK    |
-        | TRACK LAYOUT  |
-        | RACING SERIES |
-        | RACING EVENT  |
-        | IMAGE         |
+        | node_type         |
+        | COMPANY           |
+        | BRAND             |
+        | CAR MODEL         |
+        | CAR MODEL VARIANT |
+        | RACE TRACK        |
+        | TRACK LAYOUT      |
+        | RACING SERIES     |
+        | RACING EVENT      |
+        | RACING SESSION    |
+        | SESSION RESULT    |
+        | LAP TIME          |
+        | RACING GAME       |
+        | GAMING PLATFORM   |
+        | IMAGE             |
