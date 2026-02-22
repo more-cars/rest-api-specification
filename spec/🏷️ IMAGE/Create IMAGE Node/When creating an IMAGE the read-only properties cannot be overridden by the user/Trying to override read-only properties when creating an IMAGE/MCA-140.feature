@@ -12,7 +12,7 @@ Feature: Create IMAGE Node
       When the user creates an "IMAGE" with the following data
         | key                | value                |
         | image_provider     | flickr               |
-        | external_id        | 12345                |
+        | external_id        | A12345               |
         | id                 | 123                  |
         | name               | TEST                 |
         | description        | TEST                 |

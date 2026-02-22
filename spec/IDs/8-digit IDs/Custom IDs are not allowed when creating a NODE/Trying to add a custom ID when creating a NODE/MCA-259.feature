@@ -14,6 +14,9 @@ Feature: 8-digit IDs
       When the user creates a "<node_type>" with the following data
         | key            | value  |
         | name           | Test   |
+        | position       | 1      |
+        | driver_name    | Test   |
+        | time           | Test   |
         | image_provider | flickr |
         | external_id    | ABCD   |
         | id             | 1234   |

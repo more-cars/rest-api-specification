@@ -12,7 +12,7 @@ Feature: Create IMAGE Node
       When the user creates an "IMAGE" with the following data
         | key            | value     |
         | image_provider | something |
-        | external_id    | 12345     |
+        | external_id    | A12345    |
       Then the response should return with status code 201
       And the response should contain the following keys
         | key            |

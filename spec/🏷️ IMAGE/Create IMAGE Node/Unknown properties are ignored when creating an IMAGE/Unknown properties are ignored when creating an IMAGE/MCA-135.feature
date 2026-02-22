@@ -12,7 +12,7 @@ Feature: Create IMAGE Node
       When the user creates an "IMAGE" with the following data
         | key            | value  |
         | image_provider | flickr |
-        | external_id    | 12345  |
+        | external_id    | A12345 |
         | my_property    | ABC    |
       Then the response should return with status code 201
       But the response should NOT contain the following keys
