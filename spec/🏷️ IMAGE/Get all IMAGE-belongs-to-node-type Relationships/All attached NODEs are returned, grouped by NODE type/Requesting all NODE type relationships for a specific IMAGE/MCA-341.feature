@@ -13,8 +13,8 @@ Feature: Get all IMAGE-belongs-to-node-type Relationships
       Given there exists a "IMAGE" "bmw bonnet"
       And there exists a "BRAND" "BMW"
       And there exists a "CAR MODEL" "M3"
-      And there exists a relationship "R1" between "IMAGE" "bmw bonnet" and "BRAND" "BMW"
-      And there exists a relationship "R2" between "IMAGE" "bmw bonnet" and "CAR MODEL" "M3"
+      And there exists a "belongs to node" relationship "R1" between "bmw bonnet" and "BMW"
+      And there exists a "belongs to node" relationship "R2" between "bmw bonnet" and "M3"
       When the user requests a grouped list of all relationships for the IMAGE "bmw bonnet"
       Then the response should return with status code 200
       And the response should contain a "BRAND" group

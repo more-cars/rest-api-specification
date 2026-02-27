@@ -11,13 +11,13 @@ Feature: Create CAR MODEL-has-image Relationship
     Scenario: Trying to connect non-existent nodes
       Given there exists a "CAR MODEL" "Impreza"
       And "IMAGE" "rear spoiler" does NOT exist
-      When the user connects "IMAGE" "rear spoiler" to "CAR MODEL" "Impreza"
+      When the user creates a "has image" relationship between "Impreza" and "rear spoiler"
       Then the response should return with status code 404
       Given "CAR MODEL" "Impreza" does NOT exist
       And there exists an "IMAGE" "rear spoiler"
-      When the user connects "IMAGE" "rear spoiler" to "CAR MODEL" "Impreza"
+      When the user creates a "has image" relationship between "Impreza" and "rear spoiler"
       Then the response should return with status code 404
       Given "CAR MODEL" "Impreza" does NOT exist
       And "IMAGE" "rear spoiler" does NOT exist
-      When the user connects "IMAGE" "rear spoiler" to "CAR MODEL" "Impreza"
+      When the user creates a "has image" relationship between "Impreza" and "rear spoiler"
       Then the response should return with status code 404

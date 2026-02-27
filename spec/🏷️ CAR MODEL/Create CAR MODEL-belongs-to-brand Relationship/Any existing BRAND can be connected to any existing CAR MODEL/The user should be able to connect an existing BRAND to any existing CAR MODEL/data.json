@@ -2,7 +2,7 @@
   "id": "MCA-184",
   "parent_id": "MCA-180",
   "title": "The user should be able to connect an existing BRAND to any existing CAR MODEL",
-  "gherkin": "Given there exists a \"CAR MODEL\" \"Testarossa\"\nAnd there exists a \"BRAND\" \"Ferrari\"\n\nWhen the user connects \"BRAND\" \"Ferrari\" to \"CAR MODEL\" \"Testarossa\"\nThen the response should return with status code 201",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Testarossa\"\nAnd there exists a \"BRAND\" \"Ferrari\"\n\nWhen the user creates a \"belongs to brand\" relationship between \"Testarossa\" and \"Ferrari\"\nThen the response should return with status code 201",
   "labels": [
     "implemented"
   ],

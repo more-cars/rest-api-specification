@@ -11,13 +11,13 @@ Feature: Create CAR MODEL-belongs-to-brand Relationship
     Scenario: Expecting an error when any of the two nodes does not exist
       Given there exists a "CAR MODEL" "Testarossa"
       And "BRAND" "Ferrari" does NOT exist
-      When the user connects "BRAND" "Ferrari" to "CAR MODEL" "Testarossa"
+      When the user creates a "belongs to brand" relationship between "Testarossa" and "Ferrari"
       Then the response should return with status code 404
       Given "CAR MODEL" "Testarossa" does NOT exist
       And there exists a "CAR MODEL" "B"
-      When the user connects "BRAND" "Ferrari" to "CAR MODEL" "Testarossa"
+      When the user creates a "belongs to brand" relationship between "Testarossa" and "Ferrari"
       Then the response should return with status code 404
       Given "CAR MODEL" "Testarossa" does NOT exist
       And "BRAND" "Ferrari" does NOT exist
-      When the user connects "BRAND" "Ferrari" to "CAR MODEL" "Testarossa"
+      When the user creates a "belongs to brand" relationship between "Testarossa" and "Ferrari"
       Then the response should return with status code 404

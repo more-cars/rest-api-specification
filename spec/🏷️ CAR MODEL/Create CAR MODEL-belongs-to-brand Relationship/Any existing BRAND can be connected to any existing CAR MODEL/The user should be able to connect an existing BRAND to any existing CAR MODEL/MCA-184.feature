@@ -11,5 +11,5 @@ Feature: Create CAR MODEL-belongs-to-brand Relationship
     Scenario: The user should be able to connect an existing BRAND to any existing CAR MODEL
       Given there exists a "CAR MODEL" "Testarossa"
       And there exists a "BRAND" "Ferrari"
-      When the user connects "BRAND" "Ferrari" to "CAR MODEL" "Testarossa"
+      When the user creates a "belongs to brand" relationship between "Testarossa" and "Ferrari"
       Then the response should return with status code 201

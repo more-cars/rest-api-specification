@@ -11,5 +11,5 @@ Feature: Create CAR MODEL-has-image Relationship
     Scenario: Connecting an IMAGE to a CAR MODEL
       Given there exists a "CAR MODEL" "Impreza"
       And there exists an "IMAGE" "rear spoiler"
-      When the user connects "IMAGE" "rear spoiler" to "CAR MODEL" "Impreza"
+      When the user creates a "has image" relationship between "Impreza" and "rear spoiler"
       Then the response should return with status code 201
