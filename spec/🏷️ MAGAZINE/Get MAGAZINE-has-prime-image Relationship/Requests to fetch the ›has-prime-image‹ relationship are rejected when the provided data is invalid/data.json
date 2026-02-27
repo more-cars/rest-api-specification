@@ -3,7 +3,7 @@
   "parent_id": "MCA-2697",
   "title": "Requests to fetch the ›has-prime-image‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no MAGAZINE with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.28.0",
   "created_at": "2026-02-24T17:23:26.370+0100",
-  "updated_at": "2026-02-24T17:23:32.519+0100"
+  "updated_at": "2026-02-27T18:55:03.503+0100"
 }

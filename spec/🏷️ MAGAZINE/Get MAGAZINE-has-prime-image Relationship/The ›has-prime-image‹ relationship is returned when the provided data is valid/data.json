@@ -3,7 +3,7 @@
   "parent_id": "MCA-2697",
   "title": "The ›has-prime-image‹ relationship is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a MAGAZINE node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.28.0",
   "created_at": "2026-02-24T17:23:11.096+0100",
-  "updated_at": "2026-02-24T17:23:18.334+0100"
+  "updated_at": "2026-02-27T18:54:59.032+0100"
 }

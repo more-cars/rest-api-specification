@@ -7,7 +7,7 @@ Feature: Create MAGAZINE Node
   @RULE_MCA-2630
   Rule: Requests to create a MAGAZINE are accepted when the provided data is valid
 
-    @TEST_MCA-2631
+    @TEST_MCA-2631 @implemented
     Scenario: Creating a MAGAZINE with valid data
       When the user creates a "MAGAZINE" "Top Gear" with the following data
         | key                    | value                   | datatype |

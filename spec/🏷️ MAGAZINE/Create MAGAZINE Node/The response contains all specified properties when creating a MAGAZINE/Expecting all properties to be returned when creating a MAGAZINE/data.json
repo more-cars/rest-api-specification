@@ -3,7 +3,9 @@
   "parent_id": "MCA-2635",
   "title": "Expecting all properties to be returned when creating a MAGAZINE",
   "gherkin": "When the user creates a \"MAGAZINE\" \"Top Gear\" with the following data\n  | key | value | datatype |\n  | name | Top Gear | string |\n  | founded | 1993 | number |\n  | defunct |  | number |\n  | focus | sports cars | string |\n  | publication_frequency | monthly | string |\n  | single_copy_price | 5.99 | number |\n  | single_copy_price_unit | £ | string |\n  | publication_format | print | string |\n  | circulation | 150884 | number |\n  | circulation_year | 2013 | number |\n  | publisher | Immediate Media Company | string |\n  | issn | 1350-9624 | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Top Gear | string |\n  | founded | 1993 | number |\n  | defunct |  | number |\n  | focus | sports cars | string |\n  | publication_frequency | monthly | string |\n  | single_copy_price | 5.99 | number |\n  | single_copy_price_unit | £ | string |\n  | publication_format | print | string |\n  | circulation | 150884 | number |\n  | circulation_year | 2013 | number |\n  | publisher | Immediate Media Company | string |\n  | issn | 1350-9624 | string |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-24T10:33:06.731+0100",
-  "updated_at": "2026-02-24T10:33:10.523+0100"
+  "updated_at": "2026-02-27T19:13:11.932+0100"
 }

@@ -3,7 +3,9 @@
   "parent_id": "MCA-2673",
   "title": "Requesting the ›has-image‹ relationships when there are none",
   "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nAnd there exist 0 \"has image\" relationships for \"Top Gear\"\nWhen the user requests all \"has image\" relationships for \"Top Gear\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-24T17:17:49.174+0100",
-  "updated_at": "2026-02-24T17:17:52.682+0100"
+  "updated_at": "2026-02-27T19:13:19.544+0100"
 }

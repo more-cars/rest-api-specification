@@ -8,7 +8,7 @@ Feature: Get all MAGAZINE Nodes
   @RULE_MCA-2650
   Rule: An empty list is returned when there exist no MAGAZINES
 
-    @TEST_MCA-2651
+    @TEST_MCA-2651 @implemented
     Scenario: Requesting all MAGAZINE nodes when none exist
       Given there exist 0 "MAGAZINE"s
       When the user requests all "MAGAZINE"s

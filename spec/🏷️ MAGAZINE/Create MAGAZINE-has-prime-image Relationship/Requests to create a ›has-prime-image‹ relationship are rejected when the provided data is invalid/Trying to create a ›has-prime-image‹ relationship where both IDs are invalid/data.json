@@ -3,7 +3,9 @@
   "parent_id": "MCA-2689",
   "title": "Trying to create a ›has-prime-image‹ relationship where both IDs are invalid",
   "gherkin": "Given \"MAGAZINE\" \"Top Gear\" does NOT exist\nAnd \"IMAGE\" \"cover\" does NOT exist\nWhen the user creates a \"has prime image\" relationship between \"Top Gear\" and \"cover\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-24T17:21:59.603+0100",
-  "updated_at": "2026-02-24T17:22:03.178+0100"
+  "updated_at": "2026-02-27T19:13:23.579+0100"
 }

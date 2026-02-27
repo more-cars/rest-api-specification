@@ -3,7 +3,9 @@
   "parent_id": "MCA-2662",
   "title": "Trying to create a ›has-image‹ relationship with invalid IMAGE ID",
   "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nAnd \"IMAGE\" \"cover\" does NOT exist\nWhen the user creates a \"has image\" relationship between \"Top Gear\" and \"cover\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-02-24T17:16:31.879+0100",
-  "updated_at": "2026-02-24T17:16:35.402+0100"
+  "updated_at": "2026-02-27T19:13:17.504+0100"
 }

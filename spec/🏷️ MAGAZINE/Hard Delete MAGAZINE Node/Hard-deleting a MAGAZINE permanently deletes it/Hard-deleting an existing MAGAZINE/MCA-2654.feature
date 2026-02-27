@@ -7,7 +7,7 @@ Feature: Hard Delete MAGAZINE Node
   @RULE_MCA-2653
   Rule: Hard-deleting a MAGAZINE permanently deletes it
 
-    @TEST_MCA-2654
+    @TEST_MCA-2654 @implemented
     Scenario: Hard-deleting an existing MAGAZINE
       Given there exists a "MAGAZINE" "ComputerBild"
       When the user hard-deletes the "MAGAZINE" "ComputerBild"

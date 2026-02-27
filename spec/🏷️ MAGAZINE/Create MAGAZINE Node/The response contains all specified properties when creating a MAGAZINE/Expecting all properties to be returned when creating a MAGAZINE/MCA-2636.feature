@@ -7,7 +7,7 @@ Feature: Create MAGAZINE Node
   @RULE_MCA-2635
   Rule: The response contains all specified properties when creating a MAGAZINE
 
-    @TEST_MCA-2636
+    @TEST_MCA-2636 @implemented
     Scenario: Expecting all properties to be returned when creating a MAGAZINE
       When the user creates a "MAGAZINE" "Top Gear" with the following data
         | key                    | value                   | datatype |

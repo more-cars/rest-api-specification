@@ -4,7 +4,7 @@ Feature: Create MAGAZINE-has-image Relationship
   @RULE_MCA-2662
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2663
+    @TEST_MCA-2663 @implemented
     Scenario: Trying to create a ›has-image‹ relationship with invalid MAGAZINE ID
       Given "MAGAZINE" "Top Gear" does NOT exist
       And there exists a "IMAGE" "cover"

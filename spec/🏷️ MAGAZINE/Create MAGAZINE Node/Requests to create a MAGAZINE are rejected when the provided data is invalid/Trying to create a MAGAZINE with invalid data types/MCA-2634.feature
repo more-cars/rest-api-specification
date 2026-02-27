@@ -7,7 +7,7 @@ Feature: Create MAGAZINE Node
   @RULE_MCA-2632
   Rule: Requests to create a MAGAZINE are rejected when the provided data is invalid
 
-    @TEST_MCA-2634
+    @TEST_MCA-2634 @implemented
     Scenario: Trying to create a MAGAZINE with invalid data types
       When the user tries to create a "MAGAZINE" "Top Gear" with the following data
         | key                    | value                   | datatype |

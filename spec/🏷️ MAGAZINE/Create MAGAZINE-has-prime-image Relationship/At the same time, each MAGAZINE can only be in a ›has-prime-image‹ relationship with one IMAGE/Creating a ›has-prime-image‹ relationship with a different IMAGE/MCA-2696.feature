@@ -4,7 +4,7 @@ Feature: Create MAGAZINE-has-prime-image Relationship
   @RULE_MCA-2695
   Rule: At the same time, each MAGAZINE can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-2696
+    @TEST_MCA-2696 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "MAGAZINE" "Top Gear"
       And there exists a "IMAGE" "cover"

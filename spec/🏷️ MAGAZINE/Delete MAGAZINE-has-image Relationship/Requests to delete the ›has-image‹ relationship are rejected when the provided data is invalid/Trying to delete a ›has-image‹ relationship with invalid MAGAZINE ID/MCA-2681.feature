@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE-has-image Relationship
   @RULE_MCA-2680
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2681
+    @TEST_MCA-2681 @implemented
     Scenario: Trying to delete a ›has-image‹ relationship with invalid MAGAZINE ID
       Given "MAGAZINE" "Top Gear" does NOT exist
       And there exists a "IMAGE" "ComputerBild Cover"

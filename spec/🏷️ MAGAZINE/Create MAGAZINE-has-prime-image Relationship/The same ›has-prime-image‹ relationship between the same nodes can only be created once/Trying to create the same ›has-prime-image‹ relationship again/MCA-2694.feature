@@ -4,7 +4,7 @@ Feature: Create MAGAZINE-has-prime-image Relationship
   @RULE_MCA-2693
   Rule: The same ›has-prime-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-2694
+    @TEST_MCA-2694 @implemented
     Scenario: Trying to create the same ›has-prime-image‹ relationship again
       Given there exists a "MAGAZINE" "Top Gear"
       And there exists a "IMAGE" "cover"

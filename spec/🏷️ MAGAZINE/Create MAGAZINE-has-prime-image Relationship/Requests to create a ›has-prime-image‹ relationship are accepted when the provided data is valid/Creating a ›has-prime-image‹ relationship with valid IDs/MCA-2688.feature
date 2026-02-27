@@ -4,7 +4,7 @@ Feature: Create MAGAZINE-has-prime-image Relationship
   @RULE_MCA-2687
   Rule: Requests to create a ›has-prime-image‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-2688
+    @TEST_MCA-2688 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with valid IDs
       Given there exists a "MAGAZINE" "Top Gear"
       And there exists a "IMAGE" "cover"

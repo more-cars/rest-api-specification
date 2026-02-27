@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE-has-image Relationship
   @RULE_MCA-2678
   Rule: The ›has-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-2679
+    @TEST_MCA-2679 @implemented
     Scenario: Deleting the ›has-image‹ relationship when it actually exists
       Given there exists a "MAGAZINE" "Top Gear"
       And there exists a "IMAGE" "ComputerBild Cover"

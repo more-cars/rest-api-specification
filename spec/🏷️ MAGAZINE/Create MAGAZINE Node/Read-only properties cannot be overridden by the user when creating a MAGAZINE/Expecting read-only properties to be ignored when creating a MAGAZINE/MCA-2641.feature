@@ -7,7 +7,7 @@ Feature: Create MAGAZINE Node
   @RULE_MCA-2640
   Rule: Read-only properties cannot be overridden by the user when creating a MAGAZINE
 
-    @TEST_MCA-2641
+    @TEST_MCA-2641 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a MAGAZINE
       When the user creates a "MAGAZINE" "Top Gear" with the following data
         | key                    | value                   | datatype |

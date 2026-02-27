@@ -7,7 +7,7 @@ Feature: Create MAGAZINE Node
   @RULE_MCA-2638
   Rule: Unknown properties are ignored when creating a MAGAZINE
 
-    @TEST_MCA-2639
+    @TEST_MCA-2639 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a MAGAZINE
       When the user creates a "MAGAZINE" "Top Gear" with the following data
         | key                    | value                   | datatype |
