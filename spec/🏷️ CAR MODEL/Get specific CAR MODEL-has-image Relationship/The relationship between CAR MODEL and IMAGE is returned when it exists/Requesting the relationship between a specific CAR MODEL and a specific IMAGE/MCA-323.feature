@@ -12,6 +12,6 @@ Feature: Get specific CAR MODEL-has-image Relationship
       Given there exists a "CAR MODEL" "Countach"
       And there exists an "IMAGE" "front-left"
       And there exists a relationship "R" between "CAR MODEL" "Countach" and "IMAGE" "front-left"
-      When the user requests the relationship between "CAR MODEL" "Countach" and "IMAGE" "front-left"
+      When the user requests the "has image" relationship between "Countach" and "front-left"
       Then the response should return with status code 200
       And the response should return the relationship "R"

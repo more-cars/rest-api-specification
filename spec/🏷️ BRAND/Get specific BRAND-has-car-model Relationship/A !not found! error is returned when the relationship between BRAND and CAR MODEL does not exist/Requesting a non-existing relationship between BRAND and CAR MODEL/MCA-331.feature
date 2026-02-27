@@ -12,5 +12,5 @@ Feature: Get specific BRAND-has-car-model Relationship
       Given there exists a "BRAND" "Lamborghini"
       And there exists a "CAR MODEL" "Countach"
       And there exists NO "has car model" relationship "R" between "Lamborghini" and "Countach"
-      When the user requests the relationship between "BRAND" "Lamborghini" and "CAR MODEL" "Countach"
+      When the user requests the "has car model" relationship between "Lamborghini" and "Countach"
       Then the response should return with status code 404

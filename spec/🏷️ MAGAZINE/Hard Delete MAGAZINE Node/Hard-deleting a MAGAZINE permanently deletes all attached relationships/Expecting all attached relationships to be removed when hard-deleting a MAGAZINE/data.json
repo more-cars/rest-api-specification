@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2658",
+  "parent_id": "MCA-2657",
+  "title": "Expecting all attached relationships to be removed when hard-deleting a MAGAZINE",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"ComputerBild\"\nAnd there exists a \"has image\" relationship \"R1\" for \"ComputerBild\"\nAnd there exists a \"has prime image\" relationship \"R2\" for \"ComputerBild\"\nWhen the user hard-deletes the \"MAGAZINE\" \"ComputerBild\"\nThen the \"MAGAZINE\" \"ComputerBild\" should not exist anymore\nAnd the relationship \"R1\" should not exist anymore\nAnd the relationship \"R2\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-02-24T14:37:53.028+0100",
+  "updated_at": "2026-02-24T14:37:56.536+0100"
+}

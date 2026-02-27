@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2644",
+  "parent_id": "MCA-2643",
+  "title": "Requesting a MAGAZINE with valid ID",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nWhen the user requests the \"MAGAZINE\" \"Top Gear\"\nThen the response should return with status code 200\nAnd the response should return the \"MAGAZINE\" \"Top Gear\"",
+  "labels": [],
+  "created_at": "2026-02-24T13:58:23.668+0100",
+  "updated_at": "2026-02-24T13:58:27.407+0100"
+}

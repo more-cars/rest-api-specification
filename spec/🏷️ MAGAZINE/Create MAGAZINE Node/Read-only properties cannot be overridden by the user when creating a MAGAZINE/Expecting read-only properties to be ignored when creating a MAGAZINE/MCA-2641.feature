@@ -1,0 +1,38 @@
+@REQ_MCA-2629
+Feature: Create MAGAZINE Node
+  As an API contributor
+  I want to be able to create MAGAZINES
+  So I can fill gaps in the database
+
+  @RULE_MCA-2640
+  Rule: Read-only properties cannot be overridden by the user when creating a MAGAZINE
+
+    @TEST_MCA-2641
+    Scenario: Expecting read-only properties to be ignored when creating a MAGAZINE
+      When the user creates a "MAGAZINE" "Top Gear" with the following data
+        | key                    | value                   | datatype |
+        | name                   | Top Gear                | string   |
+        | founded                | 1993                    | number   |
+        | defunct                |                         | number   |
+        | focus                  | sports cars             | string   |
+        | publication_frequency  | monthly                 | string   |
+        | single_copy_price      | 5.99                    | number   |
+        | single_copy_price_unit | £                       | string   |
+        | publication_format     | print                   | string   |
+        | circulation            | 150884                  | number   |
+        | circulation_year       | 2013                    | number   |
+        | publisher              | Immediate Media Company | string   |
+        | issn                   | 1350-9624               | string   |
+        | id                     | 1234                    | number   |
+        | created_at             | 2025-01-01              | string   |
+        | updated_at             | 2025-01-01              | string   |
+      Then the response should contain the following keys
+        | key        |
+        | id         |
+        | created_at |
+        | updated_at |
+      But the response should NOT contain the following properties
+        | key        | value      | datatype |
+        | id         | 1234       | number   |
+        | created_at | 2025-01-01 | string   |
+        | updated_at | 2025-01-01 | string   |

@@ -12,5 +12,5 @@ Feature: Get specific CAR MODEL-has-image Relationship
       Given there exists a "CAR MODEL" "Countach"
       And there exists an "IMAGE" "red lambo"
       And there exists NO "has image" relationship "R" between "Countach" and "red lambo"
-      When the user requests the relationship between "CAR MODEL" "Countach" and "IMAGE" "red lambo"
+      When the user requests the "has image" relationship between "Countach" and "red lambo"
       Then the response should return with status code 404

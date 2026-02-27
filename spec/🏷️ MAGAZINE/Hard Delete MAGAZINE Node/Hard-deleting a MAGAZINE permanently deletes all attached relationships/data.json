@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2657",
+  "parent_id": "MCA-2652",
+  "title": "Hard-deleting a MAGAZINE permanently deletes all attached relationships",
+  "description": "This affects all attached relationships (no matter the type) - be it internal or public relationships. Features that rely on those relationships are responsible to copy, backup or persist the data themselves.\n",
+  "release_version": "0.28.0",
+  "created_at": "2026-02-24T14:37:49.661+0100",
+  "updated_at": "2026-02-26T15:52:40.942+0100"
+}

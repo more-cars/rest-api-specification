@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2700",
+  "parent_id": "MCA-2697",
+  "title": "An empty response is returned when there exists no ›has-prime-image‹ relationship for the given MAGAZINE",
+  "description": "",
+  "release_version": null,
+  "created_at": "2026-02-24T17:23:19.000+0100",
+  "updated_at": "2026-02-24T17:23:25.714+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2706",
+  "parent_id": "MCA-2705",
+  "title": "Deleting the ›has-prime-image‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nAnd there exists a \"IMAGE\" \"ComputerBild cover\"\nAnd there exists a \"has prime image\" relationship \"R\" between \"Top Gear\" and \"ComputerBild cover\"\nWhen the user deletes the \"has prime image\" relationship between \"Top Gear\" and \"ComputerBild cover\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-02-24T17:27:30.983+0100",
+  "updated_at": "2026-02-24T17:27:34.378+0100"
+}

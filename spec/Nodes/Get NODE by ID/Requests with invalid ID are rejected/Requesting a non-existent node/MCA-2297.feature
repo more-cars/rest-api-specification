@@ -2,7 +2,7 @@
 Feature: Get NODE by ID
   As an API consumer\
   I want to be able to fetch a specific node for which I only know its ID\
-  So I can find out more about it
+  So I can find out what data is hiding behind the ID
 
   @RULE_MCA-2295
   Rule: Requests with invalid ID are rejected

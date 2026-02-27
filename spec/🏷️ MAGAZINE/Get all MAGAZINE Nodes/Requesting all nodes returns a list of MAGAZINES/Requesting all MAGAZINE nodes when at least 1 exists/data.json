@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2649",
+  "parent_id": "MCA-2648",
+  "title": "Requesting all MAGAZINE nodes when at least 1 exists",
+  "gherkin": "Given there exist 3 \"MAGAZINE\"s\nWhen the user requests all \"MAGAZINE\"s\nThen the response should return a collection of 3 \"MAGAZINE\"s\nAnd the response should return with status code 200",
+  "labels": [],
+  "created_at": "2026-02-24T14:02:33.416+0100",
+  "updated_at": "2026-02-24T14:02:37.673+0100"
+}
