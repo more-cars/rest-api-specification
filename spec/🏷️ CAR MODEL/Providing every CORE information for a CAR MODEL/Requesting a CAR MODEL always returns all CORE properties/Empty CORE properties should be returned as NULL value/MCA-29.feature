@@ -9,8 +9,10 @@ Feature: Providing every CORE information for a CAR MODEL
 
     @TEST_MCA-29 @implemented
     Scenario: Empty CORE properties should be returned as NULL value
-      Given there exists a minimal CAR MODEL "Octavia"
-      When the user requests the "CAR MODEL" "Octavia"
+      When the user creates a "CAR MODEL" with the following data
+        | key  | value |
+        | name | Test  |
+      Then the response should return with status code 201
       Then the following keys in the response object should be of value null
         | key              |
         | built_from       |
