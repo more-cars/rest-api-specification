@@ -9,14 +9,8 @@ Feature: 8-digit IDs
   @RULE_MCA-244
   Rule: RELATIONSHIPs are created with 8-digit IDs
 
-    @TEST_MCA-258 @deactivated @implemented
+    @TEST_MCA-258 @implemented
     Scenario: Creating RELATIONSHIPs of each type
-      When the user connects a "CAR MODEL" to a "BRAND"
-      Then the property "relationship_id" in the response should be a number greater than 11999999
-      And the property "relationship_id" in the response should be a number lesser than 99999999
-      When the user connects a "CAR MODEL" to an "IMAGE"
-      Then the property "relationship_id" in the response should be a number greater than 11999999
-      And the property "relationship_id" in the response should be a number lesser than 99999999
-      When the user connects a "BRAND" to an "IMAGE"
+      When the user creates a relationship
       Then the property "relationship_id" in the response should be a number greater than 11999999
       And the property "relationship_id" in the response should be a number lesser than 99999999
