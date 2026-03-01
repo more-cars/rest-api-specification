@@ -3,7 +3,7 @@
   "parent_id": "MCA-2714",
   "title": "Requests to create a MAGAZINE ISSUE are accepted when the provided data is valid",
   "description": "Data is valid when its structure is correct, has no syntax errors and contains all mandatory fields.\n",
-  "release_version": null,
+  "release_version": "0.28.0",
   "created_at": "2026-03-01T09:29:25.665+0100",
-  "updated_at": "2026-03-01T09:29:32.713+0100"
+  "updated_at": "2026-03-01T14:56:05.877+0100"
 }

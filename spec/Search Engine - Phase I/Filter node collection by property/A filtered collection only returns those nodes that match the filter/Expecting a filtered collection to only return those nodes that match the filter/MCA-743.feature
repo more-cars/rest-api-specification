@@ -18,8 +18,16 @@ Feature: Filter node collection by property
       And the response should return a collection of 1 "<node_type>"s
 
       Examples:
-        | node_type | node_1   | node_2    | node_3             |
-        | COMPANY   | BMW AG   | AUDI AG   | Ford Motor Company |
-        | BRAND     | BMW      | Audi      | Ford               |
-        | CAR MODEL | Z8       | RS 4      | Mustang            |
-        | IMAGE     | bmw logo | audi logo | ford logo          |
+        | node_type         | node_1             | node_2             | node_3              |
+        | COMPANY           | AUDI AG            | Ford Motor Company | BMW AG              |
+        | BRAND             | Audi               | Ford               | BMW                 |
+        | CAR MODEL         | A8                 | Focus              | B3 Alpina           |
+        | CAR MODEL VARIANT | Audi TT            | Ford Mustang       | BMW M3              |
+        | RACE TRACK        | Anneau du Rhin     | Falkenberg logo    | Baku City Circuit   |
+        | TRACK LAYOUT      | A loop             | Grand Prix Circuit | B loop              |
+        | RACING SERIES     | A1 GP              | Formula 1          | BTCC                |
+        | RACING EVENT      | A1 GP Kyalami 2009 | F1 GP Monaco 2026  | BTCC Donington 2026 |
+        | RACING SESSION    | 1st Practice       | 3rd Practice       | 2nd Practice        |
+        | RACING GAME       | Assetto Corsa      | Ford Racing        | Buggy Boy           |
+        | GAMING PLATFORM   | Android            | GameCube logo      | Commodore C64       |
+        | MAGAZINE          | Audi Scene         | Ford Magazin       | BMW Scene           |

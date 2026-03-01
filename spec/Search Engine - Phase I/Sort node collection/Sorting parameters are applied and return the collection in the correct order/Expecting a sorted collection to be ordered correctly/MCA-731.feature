@@ -20,8 +20,16 @@ Feature: Sort node collection
       And the response should contain a node with "name" "<node_1>" at position 3
 
       Examples:
-        | node_type | node_1    | node_2             | node_3    |
-        | COMPANY   | AUDI AG   | Ford Motor Company | BMW AG    |
-        | BRAND     | Audi      | Ford               | BMW       |
-        | CAR MODEL | A8        | Focus              | B3 Alpina |
-        | IMAGE     | audi logo | ford logo          | bmw logo  |
+        | node_type         | node_1             | node_2             | node_3              |
+        | COMPANY           | AUDI AG            | Ford Motor Company | BMW AG              |
+        | BRAND             | Audi               | Ford               | BMW                 |
+        | CAR MODEL         | A8                 | Focus              | B3 Alpina           |
+        | CAR MODEL VARIANT | Audi TT            | Ford Mustang       | BMW M3              |
+        | RACE TRACK        | Anneau du Rhin     | Falkenberg logo    | Baku City Circuit   |
+        | TRACK LAYOUT      | A loop             | Grand Prix Circuit | B loop              |
+        | RACING SERIES     | A1 GP              | Formula 1          | BTCC                |
+        | RACING EVENT      | A1 GP Kyalami 2009 | F1 GP Monaco 2026  | BTCC Donington 2026 |
+        | RACING SESSION    | 1st Practice       | 3rd Practice       | 2nd Practice        |
+        | RACING GAME       | Assetto Corsa      | Ford Racing        | Buggy Boy           |
+        | GAMING PLATFORM   | Android            | GameCube logo      | Commodore C64       |
+        | MAGAZINE          | Audi Scene         | Ford Magazin       | BMW Scene           |
