@@ -11,6 +11,6 @@ Feature: Get all MAGAZINE ISSUE Nodes
     @TEST_MCA-2734
     Scenario: Requesting all MAGAZINE ISSUE nodes when at least 1 exists
       Given there exist 3 "MAGAZINE ISSUE"s
-      When the user requests all "MAGAZINE ISSUE"s
+      When the user requests a "MAGAZINE ISSUE" collection
       Then the response should return a collection of 3 "MAGAZINE ISSUE"s
       And the response should return with status code 200
