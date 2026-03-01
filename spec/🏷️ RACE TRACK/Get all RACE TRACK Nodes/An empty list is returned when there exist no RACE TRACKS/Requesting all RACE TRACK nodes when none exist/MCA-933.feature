@@ -11,6 +11,6 @@ Feature: Get all RACE TRACK Nodes
     @TEST_MCA-933 @implemented
     Scenario: Requesting all RACE TRACK nodes when none exist
       Given there exist 0 "RACE TRACK"s
-      When the user requests all "RACE TRACK"s
+      When the user requests a "RACE TRACK" collection
       Then the response should return a collection of 0 "RACE TRACK"s
       And the response should return with status code 200

@@ -2,7 +2,7 @@
   "id": "MCA-961",
   "parent_id": "MCA-960",
   "title": "Requesting all TRACK LAYOUT nodes when at least 1 exists",
-  "gherkin": "Given there exist 3 \"TRACK LAYOUT\"s\nWhen the user requests all \"TRACK LAYOUT\"s\nThen the response should return a collection of 3 \"TRACK LAYOUT\"s\nAnd the response should return with status code 200",
+  "gherkin": "Given there exist 3 \"TRACK LAYOUT\"s\nWhen the user requests a \"TRACK LAYOUT\" collection\nThen the response should return a collection of 3 \"TRACK LAYOUT\"s\nAnd the response should return with status code 200",
   "labels": [
     "implemented"
   ],

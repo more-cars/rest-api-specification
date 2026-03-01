@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2793",
+  "parent_id": "MCA-2792",
+  "title": "Trying to delete a ›has-image‹ relationship with invalid MAGAZINE ISSUE ID",
+  "gherkin": "Given \"MAGAZINE ISSUE\" \"Sieger-Typen\" does NOT exist\nAnd there exists a \"IMAGE\" \"ComputerBild Cover\"\nWhen the user deletes the \"has image\" relationship between \"Sieger-Typen\" and \"ComputerBild Cover\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-01T10:00:32.053+0100",
+  "updated_at": "2026-03-01T10:00:39.287+0100"
+}

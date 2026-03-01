@@ -11,6 +11,6 @@ Feature: Get all TRACK LAYOUT Nodes
     @TEST_MCA-961 @implemented
     Scenario: Requesting all TRACK LAYOUT nodes when at least 1 exists
       Given there exist 3 "TRACK LAYOUT"s
-      When the user requests all "TRACK LAYOUT"s
+      When the user requests a "TRACK LAYOUT" collection
       Then the response should return a collection of 3 "TRACK LAYOUT"s
       And the response should return with status code 200

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2814",
+  "parent_id": "MCA-2809",
+  "title": "Requests to fetch the ›has-prime-image‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no MAGAZINE ISSUE with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2026-03-01T10:09:14.765+0100",
+  "updated_at": "2026-03-01T10:09:20.931+0100"
+}

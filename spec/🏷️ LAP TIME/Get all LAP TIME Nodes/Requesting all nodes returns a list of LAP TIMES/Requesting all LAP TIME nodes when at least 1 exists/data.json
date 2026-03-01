@@ -2,7 +2,7 @@
   "id": "MCA-1864",
   "parent_id": "MCA-1863",
   "title": "Requesting all LAP TIME nodes when at least 1 exists",
-  "gherkin": "Given there exist 3 \"LAP TIME\"s\nWhen the user requests all \"LAP TIME\"s\nThen the response should return a collection of 3 \"LAP TIME\"s\nAnd the response should return with status code 200",
+  "gherkin": "Given there exist 3 \"LAP TIME\"s\nWhen the user requests a \"LAP TIME\" collection\nThen the response should return a collection of 3 \"LAP TIME\"s\nAnd the response should return with status code 200",
   "labels": [
     "implemented"
   ],

@@ -11,6 +11,6 @@ Feature: Get all LAP TIME Nodes
     @TEST_MCA-1866 @implemented
     Scenario: Requesting all LAP TIME nodes when none exist
       Given there exist 0 "LAP TIME"s
-      When the user requests all "LAP TIME"s
+      When the user requests a "LAP TIME" collection
       Then the response should return a collection of 0 "LAP TIME"s
       And the response should return with status code 200

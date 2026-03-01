@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2781",
+  "parent_id": "MCA-2780",
+  "title": "Creating multiple ›has-image‹ relationships",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Sieger-Typen\"\nAnd there exists a \"IMAGE\" \"Cover\"\nAnd there exists a \"IMAGE\" \"Cover (Alternative)\"\nWhen the user creates a \"has image\" relationship between \"Sieger-Typen\" and \"Cover\"\nAnd the user creates a \"has image\" relationship between \"Sieger-Typen\" and \"Cover (Alternative)\"\nThen there should exist a \"has image\" relationship between \"Sieger-Typen\" and \"Cover\"\nAnd there should exist a \"has image\" relationship between \"Sieger-Typen\" and \"Cover (Alternative)\"",
+  "labels": [],
+  "created_at": "2026-03-01T09:55:14.466+0100",
+  "updated_at": "2026-03-01T09:55:17.882+0100"
+}

@@ -2,7 +2,7 @@
   "id": "MCA-1174",
   "parent_id": "MCA-1173",
   "title": "Requesting all RACING SERIES nodes when at least 1 exists",
-  "gherkin": "Given there exist 3 \"RACING SERIES\"s\nWhen the user requests all \"RACING SERIES\"s\nThen the response should return a collection of 3 \"RACING SERIES\"s\nAnd the response should return with status code 200",
+  "gherkin": "Given there exist 3 \"RACING SERIES\"s\nWhen the user requests a \"RACING SERIES\" collection\nThen the response should return a collection of 3 \"RACING SERIES\"s\nAnd the response should return with status code 200",
   "labels": [
     "implemented"
   ],

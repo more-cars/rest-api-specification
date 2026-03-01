@@ -11,6 +11,6 @@ Feature: Get all SESSION RESULT Nodes
     @TEST_MCA-1753 @implemented
     Scenario: Requesting all SESSION RESULT nodes when at least 1 exists
       Given there exist 3 "SESSION RESULT"s
-      When the user requests all "SESSION RESULT"s
+      When the user requests a "SESSION RESULT" collection
       Then the response should return a collection of 3 "SESSION RESULT"s
       And the response should return with status code 200

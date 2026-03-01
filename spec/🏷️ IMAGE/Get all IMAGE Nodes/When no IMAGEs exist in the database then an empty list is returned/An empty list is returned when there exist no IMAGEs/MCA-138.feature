@@ -10,6 +10,6 @@ Feature: Get all IMAGE Nodes
     @TEST_MCA-138 @implemented
     Scenario: An empty list is returned when there exist no IMAGEs
       Given there exist 0 "IMAGE"s
-      When the user requests all "IMAGE"s
+      When the user requests a "IMAGE" collection
       Then the response should return with status code 200
       And the response should return a collection of 0 "IMAGE"s

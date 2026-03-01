@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2772",
+  "parent_id": "MCA-2771",
+  "title": "Requests to create a ›has-image‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type MAGAZINE ISSUE resp. IMAGE.\n",
+  "release_version": null,
+  "created_at": "2026-03-01T09:54:42.349+0100",
+  "updated_at": "2026-03-01T09:54:47.801+0100"
+}

@@ -11,6 +11,6 @@ Feature: Get all CAR MODEL VARIANT Nodes
     @TEST_MCA-2059 @implemented
     Scenario: Requesting all CAR MODEL VARIANT nodes when at least 1 exists
       Given there exist 3 "CAR MODEL VARIANT"s
-      When the user requests all "CAR MODEL VARIANT"s
+      When the user requests a "CAR MODEL VARIANT" collection
       Then the response should return a collection of 3 "CAR MODEL VARIANT"s
       And the response should return with status code 200

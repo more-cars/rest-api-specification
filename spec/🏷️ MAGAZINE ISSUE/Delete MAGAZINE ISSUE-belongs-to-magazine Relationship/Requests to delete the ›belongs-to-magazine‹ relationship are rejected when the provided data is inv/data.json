@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2765",
+  "parent_id": "MCA-2762",
+  "title": "Requests to delete the ›belongs-to-magazine‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no MAGAZINE ISSUE with the provided ID? -> rejected.\nThere exists no MAGAZINE with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2026-03-01T09:51:28.837+0100",
+  "updated_at": "2026-03-01T09:51:43.639+0100"
+}

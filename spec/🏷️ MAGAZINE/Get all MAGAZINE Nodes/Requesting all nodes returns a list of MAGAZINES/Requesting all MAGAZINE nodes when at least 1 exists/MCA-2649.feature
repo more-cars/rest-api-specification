@@ -11,6 +11,6 @@ Feature: Get all MAGAZINE Nodes
     @TEST_MCA-2649 @implemented
     Scenario: Requesting all MAGAZINE nodes when at least 1 exists
       Given there exist 3 "MAGAZINE"s
-      When the user requests all "MAGAZINE"s
+      When the user requests a "MAGAZINE" collection
       Then the response should return a collection of 3 "MAGAZINE"s
       And the response should return with status code 200

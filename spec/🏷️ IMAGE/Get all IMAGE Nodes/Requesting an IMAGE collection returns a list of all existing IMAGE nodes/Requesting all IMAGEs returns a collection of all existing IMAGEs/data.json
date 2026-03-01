@@ -2,7 +2,7 @@
   "id": "MCA-139",
   "parent_id": "MCA-114",
   "title": "Requesting all IMAGEs returns a collection of all existing IMAGEs",
-  "gherkin": "Given there exist 13 \"IMAGE\"s\nWhen the user requests all \"IMAGE\"s\nThen the response should return with status code 200\nAnd the response should return a collection of 13 \"IMAGE\"s",
+  "gherkin": "Given there exist 13 \"IMAGE\"s\nWhen the user requests a \"IMAGE\" collection\nThen the response should return with status code 200\nAnd the response should return a collection of 13 \"IMAGE\"s",
   "labels": [
     "implemented"
   ],

@@ -14,7 +14,7 @@ Feature: Providing IDs for all NODEs
       Then the property "id" in the response should be a number greater than 0
       And the property "id" in the response should be a number lesser than 4294967296
       Given there exist 8 "<node_type>"s
-      When the user requests all "<node_type>"s
+      When the user requests a "<node_type>" collection
       Then the property "id" of all items in the response should be a number greater than 0
       And the property "id" of all items in the response should be a number lesser than 4294967296
 

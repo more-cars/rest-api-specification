@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2777",
+  "parent_id": "MCA-2774",
+  "title": "Trying to create a ›has-image‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"MAGAZINE ISSUE\" \"Sieger-Typen\" does NOT exist\nAnd \"IMAGE\" \"Cover\" does NOT exist\nWhen the user creates a \"has image\" relationship between \"Sieger-Typen\" and \"Cover\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-01T09:55:01.829+0100",
+  "updated_at": "2026-03-01T09:55:05.417+0100"
+}

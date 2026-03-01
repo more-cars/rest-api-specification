@@ -11,6 +11,6 @@ Feature: Get all SESSION RESULT Nodes
     @TEST_MCA-1755 @implemented
     Scenario: Requesting all SESSION RESULT nodes when none exist
       Given there exist 0 "SESSION RESULT"s
-      When the user requests all "SESSION RESULT"s
+      When the user requests a "SESSION RESULT" collection
       Then the response should return a collection of 0 "SESSION RESULT"s
       And the response should return with status code 200

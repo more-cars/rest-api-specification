@@ -11,6 +11,6 @@ Feature: Get all GAMING PLATFORM Nodes
     @TEST_MCA-2513 @implemented
     Scenario: Requesting all GAMING PLATFORM nodes when none exist
       Given there exist 0 "GAMING PLATFORM"s
-      When the user requests all "GAMING PLATFORM"s
+      When the user requests a "GAMING PLATFORM" collection
       Then the response should return a collection of 0 "GAMING PLATFORM"s
       And the response should return with status code 200

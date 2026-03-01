@@ -10,6 +10,6 @@ Feature: Get all IMAGE Nodes
     @TEST_MCA-139 @implemented
     Scenario: Requesting all IMAGEs returns a collection of all existing IMAGEs
       Given there exist 13 "IMAGE"s
-      When the user requests all "IMAGE"s
+      When the user requests a "IMAGE" collection
       Then the response should return with status code 200
       And the response should return a collection of 13 "IMAGE"s

@@ -20,7 +20,7 @@ Feature: Providing every CORE information for a CAR MODEL
         | internal_code    |
         | total_production |
       Given there exist 10 "CAR MODEL"s
-      When the user requests all "CAR MODEL"s
+      When the user requests a "CAR MODEL" collection
       Then the response should contain the following keys for each node
         | key              |
         | name             |

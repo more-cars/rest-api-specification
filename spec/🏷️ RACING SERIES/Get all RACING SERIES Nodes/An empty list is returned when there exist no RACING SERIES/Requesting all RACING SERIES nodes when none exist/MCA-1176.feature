@@ -11,6 +11,6 @@ Feature: Get all RACING SERIES Nodes
     @TEST_MCA-1176 @implemented
     Scenario: Requesting all RACING SERIES nodes when none exist
       Given there exist 0 "RACING SERIES"s
-      When the user requests all "RACING SERIES"s
+      When the user requests a "RACING SERIES" collection
       Then the response should return a collection of 0 "RACING SERIES"s
       And the response should return with status code 200

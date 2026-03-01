@@ -11,6 +11,6 @@ Feature: Get all CAR MODEL VARIANT Nodes
     @TEST_MCA-2061 @implemented
     Scenario: Requesting all CAR MODEL VARIANT nodes when none exist
       Given there exist 0 "CAR MODEL VARIANT"s
-      When the user requests all "CAR MODEL VARIANT"s
+      When the user requests a "CAR MODEL VARIANT" collection
       Then the response should return a collection of 0 "CAR MODEL VARIANT"s
       And the response should return with status code 200

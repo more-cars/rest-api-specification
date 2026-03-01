@@ -2,7 +2,7 @@
   "id": "MCA-2513",
   "parent_id": "MCA-2512",
   "title": "Requesting all GAMING PLATFORM nodes when none exist",
-  "gherkin": "Given there exist 0 \"GAMING PLATFORM\"s\nWhen the user requests all \"GAMING PLATFORM\"s\nThen the response should return a collection of 0 \"GAMING PLATFORM\"s\nAnd the response should return with status code 200",
+  "gherkin": "Given there exist 0 \"GAMING PLATFORM\"s\nWhen the user requests a \"GAMING PLATFORM\" collection\nThen the response should return a collection of 0 \"GAMING PLATFORM\"s\nAnd the response should return with status code 200",
   "labels": [
     "implemented"
   ],

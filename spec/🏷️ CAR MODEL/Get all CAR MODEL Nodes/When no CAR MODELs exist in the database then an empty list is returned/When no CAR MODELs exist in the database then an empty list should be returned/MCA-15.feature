@@ -10,6 +10,6 @@ Feature: Get all CAR MODEL Nodes
     @TEST_MCA-15 @implemented
     Scenario: When no CAR MODELs exist in the database then an empty list should be returned
       Given there exist 0 "CAR MODEL"s
-      When the user requests all "CAR MODEL"s
+      When the user requests a "CAR MODEL" collection
       Then the response should return a collection of 0 "CAR MODEL"s
       And the response should return with status code 200

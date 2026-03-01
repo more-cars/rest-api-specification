@@ -2,7 +2,7 @@
   "id": "MCA-933",
   "parent_id": "MCA-932",
   "title": "Requesting all RACE TRACK nodes when none exist",
-  "gherkin": "Given there exist 0 \"RACE TRACK\"s\nWhen the user requests all \"RACE TRACK\"s\nThen the response should return a collection of 0 \"RACE TRACK\"s\nAnd the response should return with status code 200",
+  "gherkin": "Given there exist 0 \"RACE TRACK\"s\nWhen the user requests a \"RACE TRACK\" collection\nThen the response should return a collection of 0 \"RACE TRACK\"s\nAnd the response should return with status code 200",
   "labels": [
     "implemented"
   ],

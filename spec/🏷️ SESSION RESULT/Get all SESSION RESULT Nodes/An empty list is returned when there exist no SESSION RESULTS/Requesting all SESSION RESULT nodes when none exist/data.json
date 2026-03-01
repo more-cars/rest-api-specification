@@ -2,7 +2,7 @@
   "id": "MCA-1755",
   "parent_id": "MCA-1754",
   "title": "Requesting all SESSION RESULT nodes when none exist",
-  "gherkin": "Given there exist 0 \"SESSION RESULT\"s\nWhen the user requests all \"SESSION RESULT\"s\nThen the response should return a collection of 0 \"SESSION RESULT\"s\nAnd the response should return with status code 200",
+  "gherkin": "Given there exist 0 \"SESSION RESULT\"s\nWhen the user requests a \"SESSION RESULT\" collection\nThen the response should return a collection of 0 \"SESSION RESULT\"s\nAnd the response should return with status code 200",
   "labels": [
     "implemented"
   ],

@@ -11,6 +11,6 @@ Feature: Get all COMPANY Nodes
     @TEST_MCA-562 @implemented
     Scenario: Requesting all COMPANY nodes when none exist
       Given there exist 0 "COMPANY"s
-      When the user requests all "COMPANY"s
+      When the user requests a "COMPANY" collection
       Then the response should return a collection of 0 "COMPANY"s
       And the response should return with status code 200

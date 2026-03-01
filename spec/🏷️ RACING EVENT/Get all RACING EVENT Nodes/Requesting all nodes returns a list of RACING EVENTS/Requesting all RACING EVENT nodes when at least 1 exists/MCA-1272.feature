@@ -11,6 +11,6 @@ Feature: Get all RACING EVENT Nodes
     @TEST_MCA-1272 @implemented
     Scenario: Requesting all RACING EVENT nodes when at least 1 exists
       Given there exist 3 "RACING EVENT"s
-      When the user requests all "RACING EVENT"s
+      When the user requests a "RACING EVENT" collection
       Then the response should return a collection of 3 "RACING EVENT"s
       And the response should return with status code 200

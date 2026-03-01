@@ -2,7 +2,7 @@
   "id": "MCA-562",
   "parent_id": "MCA-561",
   "title": "Requesting all COMPANY nodes when none exist",
-  "gherkin": "Given there exist 0 \"COMPANY\"s\nWhen the user requests all \"COMPANY\"s\nThen the response should return a collection of 0 \"COMPANY\"s\nAnd the response should return with status code 200",
+  "gherkin": "Given there exist 0 \"COMPANY\"s\nWhen the user requests a \"COMPANY\" collection\nThen the response should return a collection of 0 \"COMPANY\"s\nAnd the response should return with status code 200",
   "labels": [
     "implemented"
   ],
