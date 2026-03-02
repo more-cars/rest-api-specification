@@ -3,7 +3,7 @@
   "parent_id": "MCA-2744",
   "title": "Requests to create a ›belongs-to-magazine‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no MAGAZINE ISSUE with the provided ID? -> rejected.\nThere exists no MAGAZINE with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.28.0",
   "created_at": "2026-03-01T09:41:27.735+0100",
-  "updated_at": "2026-03-01T09:41:43.093+0100"
+  "updated_at": "2026-03-02T10:57:23.061+0100"
 }

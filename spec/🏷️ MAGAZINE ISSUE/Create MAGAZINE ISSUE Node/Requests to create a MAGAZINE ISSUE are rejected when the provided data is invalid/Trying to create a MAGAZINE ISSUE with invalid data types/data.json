@@ -3,7 +3,9 @@
   "parent_id": "MCA-2717",
   "title": "Trying to create a MAGAZINE ISSUE with invalid data types",
   "gherkin": "When the user tries to create a \"MAGAZINE ISSUE\" \"Sieger-Typen\" with the following data\n  | key | value | datatype |\n  | title | Sieger-Typen | boolean |\n  | consecutive_number |  | boolean |\n  | issue_number | 11 | boolean |\n  | issue_year | 2025 | boolean |\n  | release_date | 2025-10-01 | boolean |\n  | single_copy_price | 5.4 | boolean |\n  | single_copy_price_unit | € | boolean |\n  | pages | 148 | boolean |\nThen the request should be rejected with status code 400",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-01T09:29:40.544+0100",
-  "updated_at": "2026-03-01T09:29:43.718+0100"
+  "updated_at": "2026-03-02T12:02:10.272+0100"
 }

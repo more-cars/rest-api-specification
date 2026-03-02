@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-has-prime-image Relationship
   @RULE_MCA-2807
   Rule: At the same time, each MAGAZINE ISSUE can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-2808
+    @TEST_MCA-2808 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exists a "IMAGE" "Cover"

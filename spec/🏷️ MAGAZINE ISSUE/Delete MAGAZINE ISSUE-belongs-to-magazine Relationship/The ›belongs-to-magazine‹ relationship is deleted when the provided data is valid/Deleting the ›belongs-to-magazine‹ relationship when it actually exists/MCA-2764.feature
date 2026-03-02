@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-belongs-to-magazine Relationship
   @RULE_MCA-2763
   Rule: The ›belongs-to-magazine‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-2764
+    @TEST_MCA-2764 @implemented
     Scenario: Deleting the ›belongs-to-magazine‹ relationship when it actually exists
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exists a "MAGAZINE" "Top Gear"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-2720",
   "title": "Expecting empty properties to be returned as null values when creating a MAGAZINE ISSUE",
   "gherkin": "When the user creates a \"MAGAZINE ISSUE\" \"Sieger-Typen\" with the following data\n  | key | value | datatype |\n  | title | Sieger-Typen | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | title | Sieger-Typen | string |\n  | consecutive_number |  | number |\n  | issue_number |  | number |\n  | issue_year |  | number |\n  | release_date |  | string |\n  | single_copy_price |  | number |\n  | single_copy_price_unit |  | string |\n  | pages |  | number |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-01T09:29:52.228+0100",
-  "updated_at": "2026-03-01T09:29:57.394+0100"
+  "updated_at": "2026-03-02T12:02:11.173+0100"
 }

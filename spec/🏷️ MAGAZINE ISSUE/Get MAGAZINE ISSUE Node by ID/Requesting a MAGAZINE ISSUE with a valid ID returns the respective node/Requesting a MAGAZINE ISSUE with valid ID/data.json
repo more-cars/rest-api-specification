@@ -3,7 +3,9 @@
   "parent_id": "MCA-2728",
   "title": "Requesting a MAGAZINE ISSUE with valid ID",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Sieger-Typen\"\nWhen the user requests the \"MAGAZINE ISSUE\" \"Sieger-Typen\"\nThen the response should return with status code 200\nAnd the response should return the \"MAGAZINE ISSUE\" \"Sieger-Typen\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-01T09:33:04.819+0100",
-  "updated_at": "2026-03-01T09:33:08.490+0100"
+  "updated_at": "2026-03-02T12:02:12.489+0100"
 }

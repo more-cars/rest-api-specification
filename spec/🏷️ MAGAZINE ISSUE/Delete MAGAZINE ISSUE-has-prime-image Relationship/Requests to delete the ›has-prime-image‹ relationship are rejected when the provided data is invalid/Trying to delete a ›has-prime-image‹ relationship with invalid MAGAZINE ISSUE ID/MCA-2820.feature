@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-has-prime-image Relationship
   @RULE_MCA-2819
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2820
+    @TEST_MCA-2820 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship with invalid MAGAZINE ISSUE ID
       Given "MAGAZINE ISSUE" "Sieger-Typen" does NOT exist
       And there exists a "IMAGE" "ComputerBild Cover"

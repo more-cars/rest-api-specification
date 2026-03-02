@@ -7,7 +7,7 @@ Feature: Get MAGAZINE ISSUE Node by ID
   @RULE_MCA-2730
   Rule: Requests are rejected when there exists no MAGAZINE ISSUE with the provided ID
 
-    @TEST_MCA-2731
+    @TEST_MCA-2731 @implemented
     Scenario: Requesting a MAGAZINE ISSUE with invalid ID
       When the user requests a non-existing "MAGAZINE ISSUE"
       Then the request should be rejected with status code 404

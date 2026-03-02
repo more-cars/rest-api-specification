@@ -7,7 +7,7 @@ Feature: Get MAGAZINE ISSUE Node by ID
   @RULE_MCA-2728
   Rule: Requesting a MAGAZINE ISSUE with a valid ID returns the respective node
 
-    @TEST_MCA-2729
+    @TEST_MCA-2729 @implemented
     Scenario: Requesting a MAGAZINE ISSUE with valid ID
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       When the user requests the "MAGAZINE ISSUE" "Sieger-Typen"

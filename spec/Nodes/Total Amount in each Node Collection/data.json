@@ -1,0 +1,15 @@
+{
+  "id": "MCA-2713",
+  "parent_id": "MCA-237",
+  "title": "Total Amount in each Node Collection",
+  "user_story": "As an API consumer\\\nWhen I request a node collection (e.g. BRANDS)\\\nI want to know how many of those nodes there are in total\\\nSo I can calculate how many pagination requests I have to do to fetch them all\n",
+  "description": "* This feature extends the already existing node collection logic.\n* It should not lead to breaking changes, because it is an additional information that is returned in the response objects.\n* Each node type collection request returns a `total amount` number.\n* The `total amount` number includes all nodes that satisfy the user’s requests.\n* Multiple **constraints** can influence that number:\n  * *node type* → is always **included** in the calculation\n  * *search ->* not yet implemented, therefore irrelevant at the moment\n  * *pagination* → is always **excluded** from the calculation\n  * *filtering* → is always **included** in the calculation\n  * *soft deleted nodes* → not yet implemented, therefore irrelevant at the moment\n* So, at the moment only the *node type* and the *filtering constraints* are relevant for the calculation.\n* A request without constraints returns the actual number of nodes of the requested node type that currently exist in the database.\n* A request with constraints returns the number of nodes which satisfy the constraints.\n* When the constraints lead to an empty collection then `0` is returned.\n",
+  "api_verb": "GET",
+  "api_path": "/<node-type>",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [],
+  "created_at": "2026-02-28T09:27:20.299+0100",
+  "updated_at": "2026-03-01T20:04:01.901+0100"
+}

@@ -7,7 +7,7 @@ Feature: Create MAGAZINE ISSUE Node
   @RULE_MCA-2720
   Rule: The response contains all specified properties when creating a MAGAZINE ISSUE
 
-    @TEST_MCA-2722
+    @TEST_MCA-2722 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a MAGAZINE ISSUE
       When the user creates a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
         | key   | value        | datatype |

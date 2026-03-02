@@ -4,7 +4,7 @@ Feature: Get all MAGAZINE ISSUE-has-image Relationships
   @RULE_MCA-2783
   Rule: A list of all ›has-image‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-2784
+    @TEST_MCA-2784 @implemented
     Scenario: Requesting the ›has-image‹ relationships when at least one exists
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exist 3 "has image" relationships for "Sieger-Typen"

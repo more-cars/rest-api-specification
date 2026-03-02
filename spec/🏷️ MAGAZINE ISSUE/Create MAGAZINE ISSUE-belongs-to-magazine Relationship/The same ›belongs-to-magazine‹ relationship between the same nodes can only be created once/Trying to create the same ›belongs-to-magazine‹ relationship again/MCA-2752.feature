@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-belongs-to-magazine Relationship
   @RULE_MCA-2751
   Rule: The same ›belongs-to-magazine‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-2752
+    @TEST_MCA-2752 @implemented
     Scenario: Trying to create the same ›belongs-to-magazine‹ relationship again
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exists a "MAGAZINE" "Classic Cars"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-2816",
   "title": "Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no MAGAZINE ISSUE with the provided ID? -> rejected.\nThere exists no IMAGE with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.28.0",
   "created_at": "2026-03-01T10:11:05.587+0100",
-  "updated_at": "2026-03-01T10:11:21.124+0100"
+  "updated_at": "2026-03-02T11:57:37.303+0100"
 }

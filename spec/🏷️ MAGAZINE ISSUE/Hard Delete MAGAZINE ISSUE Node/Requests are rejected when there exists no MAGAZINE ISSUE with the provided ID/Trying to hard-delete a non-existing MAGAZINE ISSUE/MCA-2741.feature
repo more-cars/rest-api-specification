@@ -7,7 +7,7 @@ Feature: Hard Delete MAGAZINE ISSUE Node
   @RULE_MCA-2740
   Rule: Requests are rejected when there exists no MAGAZINE ISSUE with the provided ID
 
-    @TEST_MCA-2741
+    @TEST_MCA-2741 @implemented
     Scenario: Trying to hard-delete a non-existing MAGAZINE ISSUE
       Given "MAGAZINE ISSUE" "Sieger-Typen" does NOT exist
       When the user hard-deletes the "MAGAZINE ISSUE" "Sieger-Typen"

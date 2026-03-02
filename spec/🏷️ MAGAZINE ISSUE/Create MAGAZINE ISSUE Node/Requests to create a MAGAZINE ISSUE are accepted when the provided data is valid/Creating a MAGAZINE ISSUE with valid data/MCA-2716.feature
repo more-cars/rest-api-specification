@@ -7,7 +7,7 @@ Feature: Create MAGAZINE ISSUE Node
   @RULE_MCA-2715
   Rule: Requests to create a MAGAZINE ISSUE are accepted when the provided data is valid
 
-    @TEST_MCA-2716
+    @TEST_MCA-2716 @implemented
     Scenario: Creating a MAGAZINE ISSUE with valid data
       When the user creates a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
         | key                    | value        | datatype |

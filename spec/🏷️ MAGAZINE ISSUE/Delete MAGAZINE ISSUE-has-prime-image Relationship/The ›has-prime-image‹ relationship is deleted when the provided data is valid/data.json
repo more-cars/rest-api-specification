@@ -3,7 +3,7 @@
   "parent_id": "MCA-2816",
   "title": "The ›has-prime-image‹ relationship is deleted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a MAGAZINE ISSUE and the second node needs to be a IMAGE.\n",
-  "release_version": null,
+  "release_version": "0.28.0",
   "created_at": "2026-03-01T10:10:58.943+0100",
-  "updated_at": "2026-03-01T10:11:05.074+0100"
+  "updated_at": "2026-03-02T11:57:33.017+0100"
 }

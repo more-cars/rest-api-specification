@@ -7,7 +7,7 @@ Feature: Create MAGAZINE ISSUE Node
   @RULE_MCA-2725
   Rule: Read-only properties cannot be overridden by the user when creating a MAGAZINE ISSUE
 
-    @TEST_MCA-2726
+    @TEST_MCA-2726 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a MAGAZINE ISSUE
       When the user creates a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
         | key                    | value        | datatype |

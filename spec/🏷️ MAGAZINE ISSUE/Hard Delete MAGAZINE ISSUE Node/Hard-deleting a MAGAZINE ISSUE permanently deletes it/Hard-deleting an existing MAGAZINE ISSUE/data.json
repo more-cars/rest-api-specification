@@ -3,7 +3,9 @@
   "parent_id": "MCA-2738",
   "title": "Hard-deleting an existing MAGAZINE ISSUE",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Sieger-Typen\"\nWhen the user hard-deletes the \"MAGAZINE ISSUE\" \"Sieger-Typen\"\nThen the response should return with status code 204\nAnd the \"MAGAZINE ISSUE\" \"Sieger-Typen\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-01T09:37:37.680+0100",
-  "updated_at": "2026-03-01T09:37:41.183+0100"
+  "updated_at": "2026-03-02T12:02:14.340+0100"
 }

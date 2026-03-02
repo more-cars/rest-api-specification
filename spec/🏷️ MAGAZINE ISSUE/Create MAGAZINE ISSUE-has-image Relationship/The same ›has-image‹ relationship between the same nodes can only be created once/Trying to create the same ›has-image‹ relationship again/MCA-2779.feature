@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-has-image Relationship
   @RULE_MCA-2778
   Rule: The same ›has-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-2779
+    @TEST_MCA-2779 @implemented
     Scenario: Trying to create the same ›has-image‹ relationship again
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exists a "IMAGE" "Cover"

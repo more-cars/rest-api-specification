@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-belongs-to-magazine Relationship
   @RULE_MCA-2747
   Rule: Requests to create a ›belongs-to-magazine‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2750
+    @TEST_MCA-2750 @implemented
     Scenario: Trying to create a ›belongs-to-magazine‹ relationship where both IDs are invalid
       Given "MAGAZINE ISSUE" "Sieger-Typen" does NOT exist
       And "MAGAZINE" "Classic Cars" does NOT exist

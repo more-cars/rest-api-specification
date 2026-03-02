@@ -7,7 +7,7 @@ Feature: Hard Delete MAGAZINE ISSUE Node
   @RULE_MCA-2742
   Rule: Hard-deleting a MAGAZINE ISSUE permanently deletes all attached relationships
 
-    @TEST_MCA-2743
+    @TEST_MCA-2743 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a MAGAZINE ISSUE
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exists a "has image" relationship "R1" for "Sieger-Typen"

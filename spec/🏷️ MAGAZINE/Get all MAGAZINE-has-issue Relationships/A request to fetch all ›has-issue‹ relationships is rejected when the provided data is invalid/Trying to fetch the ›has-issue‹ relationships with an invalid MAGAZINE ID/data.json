@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2847",
+  "parent_id": "MCA-2846",
+  "title": "Trying to fetch the ›has-issue‹ relationships with an invalid MAGAZINE ID",
+  "gherkin": "Given \"MAGAZINE\" \"Top Gear\" does NOT exist\nWhen the user requests all \"has issue\" relationships for \"Top Gear\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-01T20:09:53.507+0100",
+  "updated_at": "2026-03-02T12:01:43.303+0100"
+}

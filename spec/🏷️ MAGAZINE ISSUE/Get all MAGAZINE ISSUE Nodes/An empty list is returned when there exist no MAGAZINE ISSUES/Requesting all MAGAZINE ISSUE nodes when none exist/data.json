@@ -3,7 +3,9 @@
   "parent_id": "MCA-2735",
   "title": "Requesting all MAGAZINE ISSUE nodes when none exist",
   "gherkin": "Given there exist 0 \"MAGAZINE ISSUE\"s\nWhen the user requests a \"MAGAZINE ISSUE\" collection\nThen the response should return a collection of 0 \"MAGAZINE ISSUE\"s\nAnd the response should return with status code 200",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-01T09:34:38.907+0100",
-  "updated_at": "2026-03-01T09:34:42.405+0100"
+  "updated_at": "2026-03-02T12:02:13.745+0100"
 }

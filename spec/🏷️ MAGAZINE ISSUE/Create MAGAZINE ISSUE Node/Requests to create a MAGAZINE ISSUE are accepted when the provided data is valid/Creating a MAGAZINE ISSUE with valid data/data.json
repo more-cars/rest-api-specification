@@ -3,7 +3,9 @@
   "parent_id": "MCA-2715",
   "title": "Creating a MAGAZINE ISSUE with valid data",
   "gherkin": "When the user creates a \"MAGAZINE ISSUE\" \"Sieger-Typen\" with the following data\n  | key | value | datatype |\n  | title | Sieger-Typen | string |\n  | consecutive_number |  | number |\n  | issue_number | 11 | number |\n  | issue_year | 2025 | number |\n  | release_date | 2025-10-01 | string |\n  | single_copy_price | 5.4 | number |\n  | single_copy_price_unit | € | string |\n  | pages | 148 | number |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"MAGAZINE ISSUE\" \"Sieger-Typen\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-01T09:29:29.500+0100",
-  "updated_at": "2026-03-01T09:29:33.030+0100"
+  "updated_at": "2026-03-02T12:02:09.437+0100"
 }

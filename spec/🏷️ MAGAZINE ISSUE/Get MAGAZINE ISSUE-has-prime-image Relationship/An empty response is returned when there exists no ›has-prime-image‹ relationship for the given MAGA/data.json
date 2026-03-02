@@ -3,7 +3,7 @@
   "parent_id": "MCA-2809",
   "title": "An empty response is returned when there exists no ›has-prime-image‹ relationship for the given MAGAZINE ISSUE",
   "description": "",
-  "release_version": null,
+  "release_version": "0.28.0",
   "created_at": "2026-03-01T10:09:08.366+0100",
-  "updated_at": "2026-03-01T10:09:14.217+0100"
+  "updated_at": "2026-03-02T11:55:15.957+0100"
 }

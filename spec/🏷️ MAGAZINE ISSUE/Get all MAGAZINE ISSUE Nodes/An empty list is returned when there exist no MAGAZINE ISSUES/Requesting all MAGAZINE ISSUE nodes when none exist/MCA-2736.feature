@@ -8,7 +8,7 @@ Feature: Get all MAGAZINE ISSUE Nodes
   @RULE_MCA-2735
   Rule: An empty list is returned when there exist no MAGAZINE ISSUES
 
-    @TEST_MCA-2736
+    @TEST_MCA-2736 @implemented
     Scenario: Requesting all MAGAZINE ISSUE nodes when none exist
       Given there exist 0 "MAGAZINE ISSUE"s
       When the user requests a "MAGAZINE ISSUE" collection

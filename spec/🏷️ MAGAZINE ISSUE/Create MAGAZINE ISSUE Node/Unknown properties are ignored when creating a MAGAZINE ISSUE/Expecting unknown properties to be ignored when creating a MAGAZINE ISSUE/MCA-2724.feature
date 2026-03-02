@@ -7,7 +7,7 @@ Feature: Create MAGAZINE ISSUE Node
   @RULE_MCA-2723
   Rule: Unknown properties are ignored when creating a MAGAZINE ISSUE
 
-    @TEST_MCA-2724
+    @TEST_MCA-2724 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a MAGAZINE ISSUE
       When the user creates a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
         | key                    | value        | datatype |

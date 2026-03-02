@@ -3,7 +3,9 @@
   "parent_id": "MCA-2807",
   "title": "Creating a ›has-prime-image‹ relationship with a different IMAGE",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Sieger-Typen\"\nAnd there exists a \"IMAGE\" \"Cover\"\nAnd there exists a \"IMAGE\" \"Cover (Alternative)\"\nWhen the user creates a \"has prime image\" relationship between \"Sieger-Typen\" and \"Cover\"\nThen there should exist a \"has prime image\" relationship between \"Sieger-Typen\" and \"Cover\"\nWhen the user creates a \"has prime image\" relationship between \"Sieger-Typen\" and \"Cover (Alternative)\"\nThen there should exist a \"has prime image\" relationship between \"Sieger-Typen\" and \"Cover (Alternative)\"\nBut there should exist NO \"has prime image\" relationship between \"Sieger-Typen\" and \"Cover\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-01T10:06:03.239+0100",
-  "updated_at": "2026-03-01T10:06:06.798+0100"
+  "updated_at": "2026-03-02T12:02:31.004+0100"
 }

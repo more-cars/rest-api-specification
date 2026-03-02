@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-belongs-to-magazine Relationship
   @RULE_MCA-2745
   Rule: Requests to create a ›belongs-to-magazine‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-2746
+    @TEST_MCA-2746 @implemented
     Scenario: Creating a ›belongs-to-magazine‹ relationship with valid IDs
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exists a "MAGAZINE" "Classic Cars"

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-2840",
+  "parent_id": "MCA-2839",
+  "title": "Creating multiple ›has-issue‹ relationships",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Best Sportscars 2015\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Best Sportscars 2015 (Alternative)\"\nWhen the user creates a \"has issue\" relationship between \"Top Gear\" and \"Best Sportscars 2015\"\nAnd the user creates a \"has issue\" relationship between \"Top Gear\" and \"Best Sportscars 2015 (Alternative)\"\nThen there should exist a \"has issue\" relationship between \"Top Gear\" and \"Best Sportscars 2015\"\nAnd there should exist a \"has issue\" relationship between \"Top Gear\" and \"Best Sportscars 2015 (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-01T20:06:53.374+0100",
+  "updated_at": "2026-03-02T12:01:41.904+0100"
+}

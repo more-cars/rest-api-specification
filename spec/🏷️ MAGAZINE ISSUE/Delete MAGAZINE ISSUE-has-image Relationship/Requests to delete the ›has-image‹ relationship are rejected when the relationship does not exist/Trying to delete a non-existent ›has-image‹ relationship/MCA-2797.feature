@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-has-image Relationship
   @RULE_MCA-2796
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-2797
+    @TEST_MCA-2797 @implemented
     Scenario: Trying to delete a non-existent ›has-image‹ relationship
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exists a "IMAGE" "ComputerBild Cover"

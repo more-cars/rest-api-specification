@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-belongs-to-magazine Relationship
   @RULE_MCA-2753
   Rule: At the same time, each MAGAZINE ISSUE can only be in a ›belongs-to-magazine‹ relationship with one MAGAZINE
 
-    @TEST_MCA-2754
+    @TEST_MCA-2754 @implemented
     Scenario: Creating a ›belongs-to-magazine‹ relationship with a different MAGAZINE
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       And there exists a "MAGAZINE" "Classic Cars"

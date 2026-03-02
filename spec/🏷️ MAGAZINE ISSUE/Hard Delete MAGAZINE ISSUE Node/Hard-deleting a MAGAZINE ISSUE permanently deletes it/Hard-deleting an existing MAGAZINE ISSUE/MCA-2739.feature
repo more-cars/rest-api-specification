@@ -7,7 +7,7 @@ Feature: Hard Delete MAGAZINE ISSUE Node
   @RULE_MCA-2738
   Rule: Hard-deleting a MAGAZINE ISSUE permanently deletes it
 
-    @TEST_MCA-2739
+    @TEST_MCA-2739 @implemented
     Scenario: Hard-deleting an existing MAGAZINE ISSUE
       Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
       When the user hard-deletes the "MAGAZINE ISSUE" "Sieger-Typen"

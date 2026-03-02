@@ -8,7 +8,7 @@ Feature: Get all MAGAZINE ISSUE Nodes
   @RULE_MCA-2733
   Rule: Requesting all nodes returns a list of MAGAZINE ISSUES
 
-    @TEST_MCA-2734
+    @TEST_MCA-2734 @implemented
     Scenario: Requesting all MAGAZINE ISSUE nodes when at least 1 exists
       Given there exist 3 "MAGAZINE ISSUE"s
       When the user requests a "MAGAZINE ISSUE" collection

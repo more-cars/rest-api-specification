@@ -7,7 +7,7 @@ Feature: Create MAGAZINE ISSUE Node
   @RULE_MCA-2717
   Rule: Requests to create a MAGAZINE ISSUE are rejected when the provided data is invalid
 
-    @TEST_MCA-2718
+    @TEST_MCA-2718 @implemented
     Scenario: Trying to create a MAGAZINE ISSUE with missing mandatory information
       When the user tries to create a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
         | key | value | datatype |
