@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2912",
+  "parent_id": "MCA-2911",
+  "title": "Requests to create a ›covers-racing-event‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type MAGAZINE ISSUE resp. RACING EVENT.\n",
+  "release_version": null,
+  "created_at": "2026-03-02T18:35:36.927+0100",
+  "updated_at": "2026-03-02T18:35:43.093+0100"
+}

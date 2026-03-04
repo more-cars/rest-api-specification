@@ -2,7 +2,7 @@
   "id": "MCA-131",
   "parent_id": "MCA-100",
   "title": "Nodes are created with valid IDs",
-  "gherkin": "When the user creates a \"<node_type>\"\nThen the property \"id\" in the response should be a number greater than 0\nAnd the property \"id\" in the response should be a number lesser than 4294967296\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
+  "gherkin": "When the user creates a \"<node_type>\"\nThen the response should contain an ID greater than 0\nAnd the response should contain an ID lesser than 4294967296\n\nExamples:\n  | node_type         |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | IMAGE             |",
   "labels": [
     "implemented"
   ],

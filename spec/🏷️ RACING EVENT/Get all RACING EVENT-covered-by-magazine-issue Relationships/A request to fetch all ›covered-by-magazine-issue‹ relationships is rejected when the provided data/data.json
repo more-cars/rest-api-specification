@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3035",
+  "parent_id": "MCA-3030",
+  "title": "A request to fetch all ›covered-by-magazine-issue‹ relationships is rejected when the provided data is invalid",
+  "description": "There exists no RACING EVENT with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2026-03-02T19:28:30.190+0100",
+  "updated_at": "2026-03-02T19:28:35.905+0100"
+}

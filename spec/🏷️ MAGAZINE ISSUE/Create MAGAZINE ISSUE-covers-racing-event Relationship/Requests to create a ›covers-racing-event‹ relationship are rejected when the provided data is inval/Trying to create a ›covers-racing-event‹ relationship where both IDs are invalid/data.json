@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2917",
+  "parent_id": "MCA-2914",
+  "title": "Trying to create a ›covers-racing-event‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"MAGAZINE ISSUE\" \"F1 Saison Start\" does NOT exist\nAnd \"RACING EVENT\" \"F1 GP Australia 2026\" does NOT exist\nWhen the user creates a \"covers racing event\" relationship between \"F1 Saison Start\" and \"F1 GP Australia 2026\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-02T18:35:57.159+0100",
+  "updated_at": "2026-03-02T18:36:00.859+0100"
+}

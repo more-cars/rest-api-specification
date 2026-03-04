@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3039",
+  "parent_id": "MCA-3038",
+  "title": "Deleting the ›covered-by-magazine-issue‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"F1 GP Australia\"\nAnd there exists a \"MAGAZINE ISSUE\" \"EV Today 2_2025\"\nAnd there exists a \"covered by magazine issue\" relationship \"R\" between \"F1 GP Australia\" and \"EV Today 2_2025\"\nWhen the user deletes the \"covered by magazine issue\" relationship between \"F1 GP Australia\" and \"EV Today 2_2025\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-03-02T19:30:16.245+0100",
+  "updated_at": "2026-03-02T19:30:20.257+0100"
+}

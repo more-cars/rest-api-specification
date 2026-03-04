@@ -12,8 +12,8 @@ Feature: 8-digit IDs
     @TEST_MCA-257 @implemented
     Scenario Outline: Creating NODEs of each type
       When the user creates a "<node_type>"
-      Then the property "id" in the response should be a number greater than 11999999
-      And the property "id" in the response should be a number lesser than 99999999
+      Then the response should contain an ID greater than 11999999
+      And the response should contain an ID lesser than 99999999
 
       Examples:
         | node_type         |
@@ -30,4 +30,6 @@ Feature: 8-digit IDs
         | LAP TIME          |
         | RACING GAME       |
         | GAMING PLATFORM   |
+        | MAGAZINE          |
+        | MAGAZINE ISSUE    |
         | IMAGE             |

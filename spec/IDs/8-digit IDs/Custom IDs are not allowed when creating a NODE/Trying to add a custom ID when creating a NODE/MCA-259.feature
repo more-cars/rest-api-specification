@@ -13,17 +13,16 @@ Feature: 8-digit IDs
     Scenario Outline: Trying to add a custom ID when creating a NODE
       When the user creates a "<node_type>" with the following data
         | key            | value  |
+        | id             | 1234   |
         | name           | Test   |
         | position       | 1      |
         | driver_name    | Test   |
         | time           | Test   |
+        | title          | Dummy  |
         | image_provider | flickr |
         | external_id    | ABCD   |
-        | id             | 1234   |
       Then the response should return with status code 201
-      And the response should NOT contain the following properties
-        | key | value |
-        | id  | 1234  |
+      And the response should NOT contain the ID 1234
 
       Examples:
         | node_type         |
@@ -40,4 +39,6 @@ Feature: 8-digit IDs
         | LAP TIME          |
         | RACING GAME       |
         | GAMING PLATFORM   |
+        | MAGAZINE          |
+        | MAGAZINE ISSUE    |
         | IMAGE             |

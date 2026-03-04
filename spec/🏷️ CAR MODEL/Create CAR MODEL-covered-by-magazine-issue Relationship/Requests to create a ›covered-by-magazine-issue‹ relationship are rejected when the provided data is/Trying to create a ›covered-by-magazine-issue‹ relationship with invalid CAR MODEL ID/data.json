@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3050",
+  "parent_id": "MCA-3049",
+  "title": "Trying to create a ›covered-by-magazine-issue‹ relationship with invalid CAR MODEL ID",
+  "gherkin": "Given \"CAR MODEL\" \"Golf\" does NOT exist\nAnd there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI\"\nWhen the user creates a \"covered by magazine issue\" relationship between \"Golf\" and \"50 Jahre GTI\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-02T19:32:38.243+0100",
+  "updated_at": "2026-03-02T19:32:42.046+0100"
+}

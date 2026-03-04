@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2935",
+  "parent_id": "MCA-2932",
+  "title": "Trying to delete a ›covers-racing-event‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"MAGAZINE ISSUE\" \"F1 Saison Start\" does NOT exist\nAnd \"RACING EVENT\" \"DTM Norisring\" does NOT exist\nWhen the user deletes the \"covers racing event\" relationship between \"F1 Saison Start\" and \"DTM Norisring\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-02T18:41:50.968+0100",
+  "updated_at": "2026-03-02T18:41:54.812+0100"
+}

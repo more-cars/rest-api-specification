@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2955",
+  "parent_id": "MCA-2954",
+  "title": "Trying to fetch the ›followed-by-issue‹ relationship with an invalid MAGAZINE ISSUE ID",
+  "gherkin": "Given \"MAGAZINE ISSUE\" \"Top Gear 3_2025\" does NOT exist\nWhen the user requests the \"followed by issue\" relationship for \"Top Gear 3_2025\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-02T18:54:05.506+0100",
+  "updated_at": "2026-03-02T18:54:09.210+0100"
+}

@@ -11,10 +11,7 @@ Feature: Providing timestamps for all NODEs
     Scenario Outline: All requested NODEs should contain valid timestamps
       Given there exist 5 "<node_type>"s
       When the user requests a "<node_type>" collection
-      And for each item the following properties in the response should contain a valid timestamp
-        | key        |
-        | created_at |
-        | updated_at |
+      And both timestamps in the response should have a valid format
 
       Examples:
         | node_type         |
@@ -31,4 +28,6 @@ Feature: Providing timestamps for all NODEs
         | LAP TIME          |
         | RACING GAME       |
         | GAMING PLATFORM   |
+        | MAGAZINE          |
+        | MAGAZINE ISSUE    |
         | IMAGE             |

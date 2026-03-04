@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2974",
+  "parent_id": "MCA-2965",
+  "title": "At the same time, each MAGAZINE ISSUE can only be in a ›follows-issue‹ relationship with one MAGAZINE ISSUE",
+  "description": "Connecting a different MAGAZINE ISSUE will delete the previous relationship.\n",
+  "release_version": null,
+  "created_at": "2026-03-02T19:05:14.219+0100",
+  "updated_at": "2026-03-02T19:05:23.871+0100"
+}

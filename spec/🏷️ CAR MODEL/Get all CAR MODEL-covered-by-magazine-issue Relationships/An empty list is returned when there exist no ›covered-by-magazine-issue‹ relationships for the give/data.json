@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3060",
+  "parent_id": "MCA-3057",
+  "title": "An empty list is returned when there exist no ›covered-by-magazine-issue‹ relationships for the given CAR MODEL",
+  "description": "",
+  "release_version": null,
+  "created_at": "2026-03-02T19:34:06.603+0100",
+  "updated_at": "2026-03-02T19:34:13.092+0100"
+}

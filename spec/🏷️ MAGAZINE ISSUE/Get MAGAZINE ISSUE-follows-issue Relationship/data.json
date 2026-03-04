@@ -1,0 +1,16 @@
+{
+  "id": "MCA-2976",
+  "parent_id": "MCA-203",
+  "title": "Get MAGAZINE ISSUE-follows-issue Relationship",
+  "user_story": "",
+  "description": "* The ›follows-issue‹ relationship for the selected MAGAZINE ISSUE is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* An empty response is returned when the selected MAGAZINE ISSUE has no ›follows-issue‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a MAGAZINE ISSUE. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/magazine-issues/<magazine-issue-id>/follows-issue",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-02T19:06:16.656+0100",
+  "updated_at": "2026-03-02T19:21:19.574+0100"
+}

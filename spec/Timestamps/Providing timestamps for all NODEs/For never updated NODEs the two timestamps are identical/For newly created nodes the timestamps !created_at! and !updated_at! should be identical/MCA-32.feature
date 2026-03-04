@@ -11,15 +11,23 @@ Feature: Providing timestamps for all NODEs
     Scenario Outline: For newly created nodes the timestamps "created_at" and "updated_at" should be identical
       Given there exists a "<node_type>" "A"
       When the user requests the "<node_type>" "A"
-      Then the properties "created_at" and "updated_at" in the response should be identical
+      Then both timestamps in the response should be identical
 
       Examples:
-        | node_type     |
-        | COMPANY       |
-        | BRAND         |
-        | CAR MODEL     |
-        | RACE TRACK    |
-        | TRACK LAYOUT  |
-        | RACING SERIES |
-        | RACING EVENT  |
-        | IMAGE         |
+        | node_type         |
+        | COMPANY           |
+        | BRAND             |
+        | CAR MODEL         |
+        | CAR MODEL VARIANT |
+        | RACE TRACK        |
+        | TRACK LAYOUT      |
+        | RACING SERIES     |
+        | RACING EVENT      |
+        | RACING SESSION    |
+        | SESSION RESULT    |
+        | LAP TIME          |
+        | RACING GAME       |
+        | GAMING PLATFORM   |
+        | MAGAZINE          |
+        | MAGAZINE ISSUE    |
+        | IMAGE             |

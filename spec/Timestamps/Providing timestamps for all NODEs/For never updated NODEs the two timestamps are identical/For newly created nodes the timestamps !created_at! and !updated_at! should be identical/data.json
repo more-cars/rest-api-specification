@@ -2,7 +2,7 @@
   "id": "MCA-32",
   "parent_id": "MCA-22",
   "title": "For newly created nodes the timestamps \"created_at\" and \"updated_at\" should be identical",
-  "gherkin": "Given there exists a \"<node_type>\" \"A\"\nWhen the user requests the \"<node_type>\" \"A\"\nThen the properties \"created_at\" and \"updated_at\" in the response should be identical\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
+  "gherkin": "Given there exists a \"<node_type>\" \"A\"\nWhen the user requests the \"<node_type>\" \"A\"\nThen both timestamps in the response should be identical\n\nExamples:\n  | node_type         |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | IMAGE             |",
   "labels": [
     "implemented"
   ],

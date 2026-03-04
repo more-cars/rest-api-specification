@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3048",
+  "parent_id": "MCA-3047",
+  "title": "Creating a ›covered-by-magazine-issue‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Golf\"\nAnd there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI\"\nWhen the user creates a \"covered by magazine issue\" relationship between \"Golf\" and \"50 Jahre GTI\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "labels": [],
+  "created_at": "2026-03-02T19:32:31.716+0100",
+  "updated_at": "2026-03-02T19:32:35.429+0100"
+}

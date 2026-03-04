@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3028",
+  "parent_id": "MCA-3019",
+  "title": "Each RACING EVENT can be in a ›covered-by-magazine-issue‹ relationship with multiple MAGAZINE ISSUES",
+  "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
+  "release_version": null,
+  "created_at": "2026-03-02T19:25:31.226+0100",
+  "updated_at": "2026-03-02T19:25:37.755+0100"
+}

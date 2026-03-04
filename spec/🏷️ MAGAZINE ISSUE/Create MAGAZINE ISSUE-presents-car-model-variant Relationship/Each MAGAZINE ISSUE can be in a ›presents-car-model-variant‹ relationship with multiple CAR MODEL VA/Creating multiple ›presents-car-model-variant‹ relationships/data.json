@@ -1,0 +1,9 @@
+{
+  "id": "MCA-2867",
+  "parent_id": "MCA-2866",
+  "title": "Creating multiple ›presents-car-model-variant‹ relationships",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Best Supercars 2025\"\nAnd there exists a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nAnd there exists a \"CAR MODEL VARIANT\" \"McLaren 750S (Alternative)\"\nWhen the user creates a \"presents car model variant\" relationship between \"Best Supercars 2025\" and \"McLaren 750S\"\nAnd the user creates a \"presents car model variant\" relationship between \"Best Supercars 2025\" and \"McLaren 750S (Alternative)\"\nThen there should exist a \"presents car model variant\" relationship between \"Best Supercars 2025\" and \"McLaren 750S\"\nAnd there should exist a \"presents car model variant\" relationship between \"Best Supercars 2025\" and \"McLaren 750S (Alternative)\"",
+  "labels": [],
+  "created_at": "2026-03-02T18:02:06.341+0100",
+  "updated_at": "2026-03-02T18:02:10.432+0100"
+}
