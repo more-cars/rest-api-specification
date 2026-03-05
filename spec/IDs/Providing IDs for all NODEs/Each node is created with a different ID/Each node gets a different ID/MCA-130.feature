@@ -27,4 +27,6 @@ Feature: Providing IDs for all NODEs
         | LAP TIME          |
         | RACING GAME       |
         | GAMING PLATFORM   |
+        | MAGAZINE          |
+        | MAGAZINE ISSUE    |
         | IMAGE             |

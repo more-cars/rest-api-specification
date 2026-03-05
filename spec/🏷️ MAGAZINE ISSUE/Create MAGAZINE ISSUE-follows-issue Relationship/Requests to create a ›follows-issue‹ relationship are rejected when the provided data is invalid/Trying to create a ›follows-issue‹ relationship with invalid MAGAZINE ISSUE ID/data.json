@@ -1,9 +1,9 @@
 {
-  "id": "MCA-2970",
+  "id": "MCA-2969",
   "parent_id": "MCA-2968",
   "title": "Trying to create a ›follows-issue‹ relationship with invalid MAGAZINE ISSUE ID",
-  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd \"MAGAZINE ISSUE\" \"Top Gear 2_2025\" does NOT exist\nWhen the user creates a \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025\"\nThen the request should be rejected with status code 404",
+  "gherkin": "Given \"MAGAZINE ISSUE\" \"Top Gear 3_2025\" does NOT exist\nAnd there exists a \"MAGAZINE ISSUE\" \"Top Gear 2_2025\"\nWhen the user creates a \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025\"\nThen the request should be rejected with status code 404",
   "labels": [],
-  "created_at": "2026-03-02T19:04:58.432+0100",
-  "updated_at": "2026-03-02T19:05:02.045+0100"
+  "created_at": "2026-03-02T19:04:53.395+0100",
+  "updated_at": "2026-03-02T19:04:57.154+0100"
 }

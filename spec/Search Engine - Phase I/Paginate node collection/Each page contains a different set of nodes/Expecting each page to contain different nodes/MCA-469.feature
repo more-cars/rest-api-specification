@@ -32,4 +32,5 @@ Feature: Paginate node collection
         | RACING GAME       |
         | GAMING PLATFORM   |
         | MAGAZINE          |
+        | MAGAZINE ISSUE    |
         | IMAGE             |
