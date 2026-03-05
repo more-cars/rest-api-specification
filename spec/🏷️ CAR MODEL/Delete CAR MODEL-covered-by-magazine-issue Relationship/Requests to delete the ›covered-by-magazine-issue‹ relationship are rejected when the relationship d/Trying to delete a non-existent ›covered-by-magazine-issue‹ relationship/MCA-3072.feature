@@ -7,7 +7,7 @@ Feature: Delete CAR MODEL-covered-by-magazine-issue Relationship
   @RULE_MCA-3071
   Rule: Requests to delete the ›covered-by-magazine-issue‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-3072
+    @TEST_MCA-3072 @implemented
     Scenario: Trying to delete a non-existent ›covered-by-magazine-issue‹ relationship
       Given there exists a "CAR MODEL" "Golf"
       And there exists a "MAGAZINE ISSUE" "BMW Scene 5_2025"

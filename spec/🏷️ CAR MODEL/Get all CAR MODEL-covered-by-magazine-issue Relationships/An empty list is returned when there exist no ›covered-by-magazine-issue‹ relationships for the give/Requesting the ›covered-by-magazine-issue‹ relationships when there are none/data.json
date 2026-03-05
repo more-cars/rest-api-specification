@@ -3,7 +3,9 @@
   "parent_id": "MCA-3060",
   "title": "Requesting the ›covered-by-magazine-issue‹ relationships when there are none",
   "gherkin": "Given there exists a \"CAR MODEL\" \"Golf\"\nAnd there exist 0 \"covered by magazine issue\" relationships for \"Golf\"\nWhen the user requests all \"covered by magazine issue\" relationships for \"Golf\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:34:09.621+0100",
-  "updated_at": "2026-03-02T19:34:13.359+0100"
+  "updated_at": "2026-03-05T18:31:22.970+0100"
 }

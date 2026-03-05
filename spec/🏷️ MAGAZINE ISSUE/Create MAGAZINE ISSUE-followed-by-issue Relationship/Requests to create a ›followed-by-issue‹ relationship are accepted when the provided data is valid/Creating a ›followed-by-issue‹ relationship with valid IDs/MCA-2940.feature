@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-followed-by-issue Relationship
   @RULE_MCA-2939
   Rule: Requests to create a ›followed-by-issue‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-2940
+    @TEST_MCA-2940 @implemented
     Scenario: Creating a ›followed-by-issue‹ relationship with valid IDs
       Given there exists a "MAGAZINE ISSUE" "Top Gear 3_2025"
       And there exists a "MAGAZINE ISSUE" "Top Gear 4_2025"

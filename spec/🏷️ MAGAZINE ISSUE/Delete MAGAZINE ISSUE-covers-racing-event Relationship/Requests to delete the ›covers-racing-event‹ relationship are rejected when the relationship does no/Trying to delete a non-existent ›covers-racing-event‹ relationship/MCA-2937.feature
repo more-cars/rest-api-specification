@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-covers-racing-event Relationship
   @RULE_MCA-2936
   Rule: Requests to delete the ›covers-racing-event‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-2937
+    @TEST_MCA-2937 @implemented
     Scenario: Trying to delete a non-existent ›covers-racing-event‹ relationship
       Given there exists a "MAGAZINE ISSUE" "F1 Saison Start"
       And there exists a "RACING EVENT" "DTM Norisring"

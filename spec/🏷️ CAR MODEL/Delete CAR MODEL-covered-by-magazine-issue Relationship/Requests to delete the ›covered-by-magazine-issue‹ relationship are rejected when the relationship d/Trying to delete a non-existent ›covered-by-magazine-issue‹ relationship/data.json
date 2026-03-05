@@ -3,7 +3,9 @@
   "parent_id": "MCA-3071",
   "title": "Trying to delete a non-existent ›covered-by-magazine-issue‹ relationship",
   "gherkin": "Given there exists a \"CAR MODEL\" \"Golf\"\nAnd there exists a \"MAGAZINE ISSUE\" \"BMW Scene 5_2025\"\nAnd there exists NO \"covered by magazine issue\" relationship between \"Golf\" and \"BMW Scene 5_2025\"\nWhen the user deletes the \"covered by magazine issue\" relationship between \"Golf\" and \"BMW Scene 5_2025\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:38:55.944+0100",
-  "updated_at": "2026-03-02T19:43:59.754+0100"
+  "updated_at": "2026-03-05T18:31:25.911+0100"
 }

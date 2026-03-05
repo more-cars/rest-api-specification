@@ -4,7 +4,7 @@ Feature: Create CAR MODEL-covered-by-magazine-issue Relationship
   @RULE_MCA-3049
   Rule: Requests to create a ›covered-by-magazine-issue‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3051
+    @TEST_MCA-3051 @implemented
     Scenario: Trying to create a ›covered-by-magazine-issue‹ relationship with invalid MAGAZINE ISSUE ID
       Given there exists a "CAR MODEL" "Golf"
       And "MAGAZINE ISSUE" "50 Jahre GTI" does NOT exist

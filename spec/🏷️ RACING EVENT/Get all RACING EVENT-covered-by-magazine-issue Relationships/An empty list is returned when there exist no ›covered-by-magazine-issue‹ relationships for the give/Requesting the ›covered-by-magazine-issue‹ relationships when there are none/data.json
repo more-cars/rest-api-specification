@@ -3,7 +3,9 @@
   "parent_id": "MCA-3033",
   "title": "Requesting the ›covered-by-magazine-issue‹ relationships when there are none",
   "gherkin": "Given there exists a \"RACING EVENT\" \"F1 GP Australia\"\nAnd there exist 0 \"covered by magazine issue\" relationships for \"F1 GP Australia\"\nWhen the user requests all \"covered by magazine issue\" relationships for \"F1 GP Australia\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:28:26.415+0100",
-  "updated_at": "2026-03-02T19:28:30.153+0100"
+  "updated_at": "2026-03-05T18:31:15.532+0100"
 }

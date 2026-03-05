@@ -3,7 +3,9 @@
   "parent_id": "MCA-2903",
   "title": "Deleting the ›covers-car-model‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI\"\nAnd there exists a \"CAR MODEL\" \"Twingo\"\nAnd there exists a \"covers car model\" relationship \"R\" between \"50 Jahre GTI\" and \"Twingo\"\nWhen the user deletes the \"covers car model\" relationship between \"50 Jahre GTI\" and \"Twingo\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T18:29:30.201+0100",
-  "updated_at": "2026-03-02T18:29:34.775+0100"
+  "updated_at": "2026-03-05T18:30:40.232+0100"
 }

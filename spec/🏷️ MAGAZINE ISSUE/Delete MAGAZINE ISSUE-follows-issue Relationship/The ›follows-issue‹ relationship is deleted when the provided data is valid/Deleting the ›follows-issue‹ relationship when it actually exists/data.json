@@ -3,7 +3,9 @@
   "parent_id": "MCA-2984",
   "title": "Deleting the ›follows-issue‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd there exists a \"MAGAZINE ISSUE\" \"AutoBild 2_2025\"\nAnd there exists a \"follows issue\" relationship \"R\" between \"Top Gear 3_2025\" and \"AutoBild 2_2025\"\nWhen the user deletes the \"follows issue\" relationship between \"Top Gear 3_2025\" and \"AutoBild 2_2025\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:08:45.492+0100",
-  "updated_at": "2026-03-02T19:08:58.096+0100"
+  "updated_at": "2026-03-05T18:31:01.578+0100"
 }

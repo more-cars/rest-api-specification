@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-follows-issue Relationship
   @RULE_MCA-2986
   Rule: Requests to delete the ›follows-issue‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2987
+    @TEST_MCA-2987 @implemented
     Scenario: Trying to delete a ›follows-issue‹ relationship with invalid MAGAZINE ISSUE ID
       Given "MAGAZINE ISSUE" "Top Gear 3_2025" does NOT exist
       And there exists a "MAGAZINE ISSUE" "AutoBild 2_2025"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-2895",
   "title": "A list of all ›covers-car-model‹ relationships is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a MAGAZINE ISSUE node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.29.0",
   "created_at": "2026-03-02T18:25:22.045+0100",
-  "updated_at": "2026-03-02T18:25:28.361+0100"
+  "updated_at": "2026-03-05T16:37:48.279+0100"
 }

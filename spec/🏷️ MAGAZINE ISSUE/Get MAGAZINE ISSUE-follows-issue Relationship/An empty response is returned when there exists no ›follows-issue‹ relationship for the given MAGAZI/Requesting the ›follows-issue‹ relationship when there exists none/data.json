@@ -3,7 +3,9 @@
   "parent_id": "MCA-2979",
   "title": "Requesting the ›follows-issue‹ relationship when there exists none",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd there exists NO \"follows issue\" relationship for \"Top Gear 3_2025\"\nWhen the user requests the \"follows issue\" relationship for \"Top Gear 3_2025\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:06:29.751+0100",
-  "updated_at": "2026-03-02T19:06:33.337+0100"
+  "updated_at": "2026-03-05T18:31:00.832+0100"
 }

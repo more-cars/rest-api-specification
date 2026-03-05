@@ -2,7 +2,7 @@
   "id": "MCA-2503",
   "parent_id": "MCA-2502",
   "title": "Expecting read-only properties to be ignored when creating a GAMING PLATFORM",
-  "gherkin": "When the user creates a \"GAMING PLATFORM\" \"PlayStation 5\" with the following data\n  | key | value | datatype |\n  | name | PlayStation 5 | string |\n  | release_year | 2020 | number |\n  | manufacturer | Sony | string |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain the following keys\n  | key        |\n  | id         |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
+  "gherkin": "When the user creates a \"GAMING PLATFORM\" \"PlayStation 5\" with the following data\n  | key | value | datatype |\n  | name | PlayStation 5 | string |\n  | release_year | 2020 | number |\n  | manufacturer | Sony | string |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
   "labels": [
     "implemented"
   ],

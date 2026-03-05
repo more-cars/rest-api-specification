@@ -3,7 +3,9 @@
   "parent_id": "MCA-2885",
   "title": "Creating a ›covers-car-model‹ relationship with valid IDs",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI\"\nAnd there exists a \"CAR MODEL\" \"Golf\"\nWhen the user creates a \"covers car model\" relationship between \"50 Jahre GTI\" and \"Golf\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T18:12:25.004+0100",
-  "updated_at": "2026-03-02T18:12:28.810+0100"
+  "updated_at": "2026-03-05T18:30:35.221+0100"
 }

@@ -3,7 +3,9 @@
   "parent_id": "MCA-2974",
   "title": "Creating a ›follows-issue‹ relationship with a different MAGAZINE ISSUE",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Top Gear 2_2025\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Top Gear 2_2025 (Alternative)\"\nWhen the user creates a \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025\"\nThen there should exist a \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025\"\nWhen the user creates a \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025 (Alternative)\"\nThen there should exist a \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025 (Alternative)\"\nBut there should exist NO \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:05:20.060+0100",
-  "updated_at": "2026-03-02T19:05:24.377+0100"
+  "updated_at": "2026-03-05T18:30:59.709+0100"
 }

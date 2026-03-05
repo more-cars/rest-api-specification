@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-followed-by-issue Relationship
   @RULE_MCA-2947
   Rule: At the same time, each MAGAZINE ISSUE can only be in a ›followed-by-issue‹ relationship with one MAGAZINE ISSUE
 
-    @TEST_MCA-2948
+    @TEST_MCA-2948 @implemented
     Scenario: Creating a ›followed-by-issue‹ relationship with a different MAGAZINE ISSUE
       Given there exists a "MAGAZINE ISSUE" "Top Gear 3_2025"
       And there exists a "MAGAZINE ISSUE" "Top Gear 4_2025"

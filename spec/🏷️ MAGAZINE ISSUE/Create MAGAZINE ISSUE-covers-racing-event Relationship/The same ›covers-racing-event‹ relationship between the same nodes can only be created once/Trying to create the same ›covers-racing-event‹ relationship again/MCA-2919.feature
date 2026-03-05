@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-covers-racing-event Relationship
   @RULE_MCA-2918
   Rule: The same ›covers-racing-event‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-2919
+    @TEST_MCA-2919 @implemented
     Scenario: Trying to create the same ›covers-racing-event‹ relationship again
       Given there exists a "MAGAZINE ISSUE" "F1 Saison Start"
       And there exists a "RACING EVENT" "F1 GP Australia 2026"

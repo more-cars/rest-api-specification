@@ -3,7 +3,9 @@
   "parent_id": "MCA-2963",
   "title": "Trying to delete a non-existent ›followed-by-issue‹ relationship",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd there exists a \"MAGAZINE ISSUE\" \"AutoBild 4_2025\"\nAnd there exists NO \"followed by issue\" relationship between \"Top Gear 3_2025\" and \"AutoBild 4_2025\"\nWhen the user deletes the \"followed by issue\" relationship between \"Top Gear 3_2025\" and \"AutoBild 4_2025\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T18:57:37.639+0100",
-  "updated_at": "2026-03-02T18:57:41.426+0100"
+  "updated_at": "2026-03-05T18:30:56.666+0100"
 }

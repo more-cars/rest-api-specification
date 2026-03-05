@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-presents-car-model-variant Relationship
   @RULE_MCA-2878
   Rule: Requests to delete the ›presents-car-model-variant‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2879
+    @TEST_MCA-2879 @implemented
     Scenario: Trying to delete a ›presents-car-model-variant‹ relationship with invalid MAGAZINE ISSUE ID
       Given "MAGAZINE ISSUE" "Best Supercars 2025" does NOT exist
       And there exists a "CAR MODEL VARIANT" "Lada Samara"

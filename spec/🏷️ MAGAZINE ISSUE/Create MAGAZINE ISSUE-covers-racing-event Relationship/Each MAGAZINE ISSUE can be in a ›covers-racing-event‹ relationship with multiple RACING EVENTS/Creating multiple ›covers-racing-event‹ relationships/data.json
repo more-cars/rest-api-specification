@@ -3,7 +3,9 @@
   "parent_id": "MCA-2920",
   "title": "Creating multiple ›covers-racing-event‹ relationships",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"F1 Saison Start\"\nAnd there exists a \"RACING EVENT\" \"F1 GP Australia 2026\"\nAnd there exists a \"RACING EVENT\" \"F1 GP Australia 2026 (Alternative)\"\nWhen the user creates a \"covers racing event\" relationship between \"F1 Saison Start\" and \"F1 GP Australia 2026\"\nAnd the user creates a \"covers racing event\" relationship between \"F1 Saison Start\" and \"F1 GP Australia 2026 (Alternative)\"\nThen there should exist a \"covers racing event\" relationship between \"F1 Saison Start\" and \"F1 GP Australia 2026\"\nAnd there should exist a \"covers racing event\" relationship between \"F1 Saison Start\" and \"F1 GP Australia 2026 (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T18:36:10.900+0100",
-  "updated_at": "2026-03-02T18:36:14.398+0100"
+  "updated_at": "2026-03-05T18:30:44.807+0100"
 }

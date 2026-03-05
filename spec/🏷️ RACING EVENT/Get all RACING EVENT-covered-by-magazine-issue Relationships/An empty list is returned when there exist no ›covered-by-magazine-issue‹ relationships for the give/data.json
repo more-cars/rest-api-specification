@@ -3,7 +3,7 @@
   "parent_id": "MCA-3030",
   "title": "An empty list is returned when there exist no ›covered-by-magazine-issue‹ relationships for the given RACING EVENT",
   "description": "",
-  "release_version": null,
+  "release_version": "0.29.0",
   "created_at": "2026-03-02T19:28:23.452+0100",
-  "updated_at": "2026-03-02T19:28:29.558+0100"
+  "updated_at": "2026-03-05T18:23:07.533+0100"
 }

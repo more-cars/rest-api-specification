@@ -3,7 +3,9 @@
   "parent_id": "MCA-3055",
   "title": "Creating multiple ›covered-by-magazine-issue‹ relationships",
   "gherkin": "Given there exists a \"CAR MODEL\" \"Golf\"\nAnd there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI\"\nAnd there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI (Alternative)\"\nWhen the user creates a \"covered by magazine issue\" relationship between \"Golf\" and \"50 Jahre GTI\"\nAnd the user creates a \"covered by magazine issue\" relationship between \"Golf\" and \"50 Jahre GTI (Alternative)\"\nThen there should exist a \"covered by magazine issue\" relationship between \"Golf\" and \"50 Jahre GTI\"\nAnd there should exist a \"covered by magazine issue\" relationship between \"Golf\" and \"50 Jahre GTI (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:33:02.298+0100",
-  "updated_at": "2026-03-02T19:33:09.708+0100"
+  "updated_at": "2026-03-05T18:31:21.665+0100"
 }

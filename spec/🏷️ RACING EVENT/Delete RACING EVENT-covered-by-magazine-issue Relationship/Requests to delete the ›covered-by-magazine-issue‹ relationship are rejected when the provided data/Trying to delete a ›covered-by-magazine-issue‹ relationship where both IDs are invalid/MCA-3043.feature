@@ -7,7 +7,7 @@ Feature: Delete RACING EVENT-covered-by-magazine-issue Relationship
   @RULE_MCA-3040
   Rule: Requests to delete the ›covered-by-magazine-issue‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3043
+    @TEST_MCA-3043 @implemented
     Scenario: Trying to delete a ›covered-by-magazine-issue‹ relationship where both IDs are invalid
       Given "RACING EVENT" "F1 GP Australia" does NOT exist
       And "MAGAZINE ISSUE" "EV Today 2_2025" does NOT exist

@@ -4,7 +4,7 @@ Feature: Get all MAGAZINE ISSUE-covers-racing-event Relationships
   @RULE_MCA-2923
   Rule: A list of all ›covers-racing-event‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-2924
+    @TEST_MCA-2924 @implemented
     Scenario: Requesting the ›covers-racing-event‹ relationships when at least one exists
       Given there exists a "MAGAZINE ISSUE" "F1 Saison Start"
       And there exist 3 "covers racing event" relationships for "F1 Saison Start"

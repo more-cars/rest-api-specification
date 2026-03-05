@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-covers-car-model Relationship
   @RULE_MCA-2905
   Rule: Requests to delete the ›covers-car-model‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2906
+    @TEST_MCA-2906 @implemented
     Scenario: Trying to delete a ›covers-car-model‹ relationship with invalid MAGAZINE ISSUE ID
       Given "MAGAZINE ISSUE" "50 Jahre GTI" does NOT exist
       And there exists a "CAR MODEL" "Twingo"

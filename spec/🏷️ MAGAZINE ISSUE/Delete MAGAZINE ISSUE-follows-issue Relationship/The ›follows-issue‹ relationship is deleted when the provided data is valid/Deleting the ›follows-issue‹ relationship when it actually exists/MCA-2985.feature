@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-follows-issue Relationship
   @RULE_MCA-2984
   Rule: The ›follows-issue‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-2985
+    @TEST_MCA-2985 @implemented
     Scenario: Deleting the ›follows-issue‹ relationship when it actually exists
       Given there exists a "MAGAZINE ISSUE" "Top Gear 3_2025"
       And there exists a "MAGAZINE ISSUE" "AutoBild 2_2025"

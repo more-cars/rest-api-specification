@@ -3,7 +3,9 @@
   "parent_id": "MCA-2995",
   "title": "Trying to create a ›is-presented-in-magazine-issue‹ relationship where both IDs are invalid",
   "gherkin": "Given \"CAR MODEL VARIANT\" \"McLaren 750S\" does NOT exist\nAnd \"MAGAZINE ISSUE\" \"Best Supercars 2025\" does NOT exist\nWhen the user creates a \"is presented in magazine issue\" relationship between \"McLaren 750S\" and \"Best Supercars 2025\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:12:21.338+0100",
-  "updated_at": "2026-03-02T19:12:25.311+0100"
+  "updated_at": "2026-03-05T18:31:06.028+0100"
 }

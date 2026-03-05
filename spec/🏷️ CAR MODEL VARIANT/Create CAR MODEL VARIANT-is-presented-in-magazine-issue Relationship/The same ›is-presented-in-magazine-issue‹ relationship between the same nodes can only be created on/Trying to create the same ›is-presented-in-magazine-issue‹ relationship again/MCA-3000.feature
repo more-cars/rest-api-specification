@@ -4,7 +4,7 @@ Feature: Create CAR MODEL VARIANT-is-presented-in-magazine-issue Relationship
   @RULE_MCA-2999
   Rule: The same ›is-presented-in-magazine-issue‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3000
+    @TEST_MCA-3000 @implemented
     Scenario: Trying to create the same ›is-presented-in-magazine-issue‹ relationship again
       Given there exists a "CAR MODEL VARIANT" "McLaren 750S"
       And there exists a "MAGAZINE ISSUE" "Best Supercars 2025"

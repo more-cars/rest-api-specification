@@ -3,7 +3,9 @@
   "parent_id": "MCA-2923",
   "title": "Requesting the ›covers-racing-event‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"F1 Saison Start\"\nAnd there exist 3 \"covers racing event\" relationships for \"F1 Saison Start\"\nWhen the user requests all \"covers racing event\" relationships for \"F1 Saison Start\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"covers racing event\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T18:40:06.852+0100",
-  "updated_at": "2026-03-02T18:40:11.006+0100"
+  "updated_at": "2026-03-05T18:30:45.650+0100"
 }

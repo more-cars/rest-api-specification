@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-covers-racing-event Relationship
   @RULE_MCA-2912
   Rule: Requests to create a ›covers-racing-event‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-2913
+    @TEST_MCA-2913 @implemented
     Scenario: Creating a ›covers-racing-event‹ relationship with valid IDs
       Given there exists a "MAGAZINE ISSUE" "F1 Saison Start"
       And there exists a "RACING EVENT" "F1 GP Australia 2026"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-2992",
   "title": "Requests to create a ›is-presented-in-magazine-issue‹ relationship are accepted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type CAR MODEL VARIANT resp. MAGAZINE ISSUE.\n",
-  "release_version": null,
+  "release_version": "0.29.0",
   "created_at": "2026-03-02T19:12:00.884+0100",
-  "updated_at": "2026-03-02T19:12:06.824+0100"
+  "updated_at": "2026-03-05T18:03:47.210+0100"
 }

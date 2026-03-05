@@ -3,7 +3,9 @@
   "parent_id": "MCA-2941",
   "title": "Trying to create a ›followed-by-issue‹ relationship with invalid MAGAZINE ISSUE ID",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd \"MAGAZINE ISSUE\" \"Top Gear 4_2025\" does NOT exist\nWhen the user creates a \"followed by issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 4_2025\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T18:50:06.295+0100",
-  "updated_at": "2026-03-02T18:50:09.965+0100"
+  "updated_at": "2026-03-05T18:30:51.224+0100"
 }

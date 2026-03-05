@@ -4,7 +4,7 @@ Feature: Create CAR MODEL VARIANT-is-presented-in-magazine-issue Relationship
   @RULE_MCA-2995
   Rule: Requests to create a ›is-presented-in-magazine-issue‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-2998
+    @TEST_MCA-2998 @implemented
     Scenario: Trying to create a ›is-presented-in-magazine-issue‹ relationship where both IDs are invalid
       Given "CAR MODEL VARIANT" "McLaren 750S" does NOT exist
       And "MAGAZINE ISSUE" "Best Supercars 2025" does NOT exist

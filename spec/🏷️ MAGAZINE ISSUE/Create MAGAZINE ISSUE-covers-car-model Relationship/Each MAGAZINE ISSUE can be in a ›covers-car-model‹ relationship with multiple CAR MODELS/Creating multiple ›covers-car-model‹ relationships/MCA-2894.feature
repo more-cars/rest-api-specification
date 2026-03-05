@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-covers-car-model Relationship
   @RULE_MCA-2893
   Rule: Each MAGAZINE ISSUE can be in a ›covers-car-model‹ relationship with multiple CAR MODELS
 
-    @TEST_MCA-2894
+    @TEST_MCA-2894 @implemented
     Scenario: Creating multiple ›covers-car-model‹ relationships
       Given there exists a "MAGAZINE ISSUE" "50 Jahre GTI"
       And there exists a "CAR MODEL" "Golf"

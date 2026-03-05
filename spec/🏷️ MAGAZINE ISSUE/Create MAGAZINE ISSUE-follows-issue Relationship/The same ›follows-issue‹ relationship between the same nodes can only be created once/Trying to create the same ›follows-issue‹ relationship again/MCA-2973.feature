@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-follows-issue Relationship
   @RULE_MCA-2972
   Rule: The same ›follows-issue‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-2973
+    @TEST_MCA-2973 @implemented
     Scenario: Trying to create the same ›follows-issue‹ relationship again
       Given there exists a "MAGAZINE ISSUE" "Top Gear 3_2025"
       And there exists a "MAGAZINE ISSUE" "Top Gear 2_2025"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-3046",
   "title": "Each CAR MODEL can be in a ›covered-by-magazine-issue‹ relationship with multiple MAGAZINE ISSUES",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.29.0",
   "created_at": "2026-03-02T19:32:58.744+0100",
-  "updated_at": "2026-03-02T19:33:08.189+0100"
+  "updated_at": "2026-03-05T17:43:46.272+0100"
 }

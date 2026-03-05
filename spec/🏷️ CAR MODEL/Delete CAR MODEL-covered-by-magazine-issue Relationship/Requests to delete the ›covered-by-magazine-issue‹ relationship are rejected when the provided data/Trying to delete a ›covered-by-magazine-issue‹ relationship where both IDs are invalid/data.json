@@ -3,7 +3,9 @@
   "parent_id": "MCA-3067",
   "title": "Trying to delete a ›covered-by-magazine-issue‹ relationship where both IDs are invalid",
   "gherkin": "Given \"CAR MODEL\" \"Golf\" does NOT exist\nAnd \"MAGAZINE ISSUE\" \"BMW Scene 5_2025\" does NOT exist\nWhen the user deletes the \"covered by magazine issue\" relationship between \"Golf\" and \"BMW Scene 5_2025\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T19:38:48.486+0100",
-  "updated_at": "2026-03-02T19:38:52.800+0100"
+  "updated_at": "2026-03-05T18:31:25.423+0100"
 }

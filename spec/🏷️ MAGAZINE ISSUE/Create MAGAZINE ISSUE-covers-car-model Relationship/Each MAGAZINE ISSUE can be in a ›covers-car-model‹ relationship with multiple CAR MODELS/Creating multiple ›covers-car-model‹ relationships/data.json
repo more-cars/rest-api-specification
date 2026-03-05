@@ -3,7 +3,9 @@
   "parent_id": "MCA-2893",
   "title": "Creating multiple ›covers-car-model‹ relationships",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI\"\nAnd there exists a \"CAR MODEL\" \"Golf\"\nAnd there exists a \"CAR MODEL\" \"Golf (Alternative)\"\nWhen the user creates a \"covers car model\" relationship between \"50 Jahre GTI\" and \"Golf\"\nAnd the user creates a \"covers car model\" relationship between \"50 Jahre GTI\" and \"Golf (Alternative)\"\nThen there should exist a \"covers car model\" relationship between \"50 Jahre GTI\" and \"Golf\"\nAnd there should exist a \"covers car model\" relationship between \"50 Jahre GTI\" and \"Golf (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T18:12:55.264+0100",
-  "updated_at": "2026-03-02T18:12:59.149+0100"
+  "updated_at": "2026-03-05T18:30:37.772+0100"
 }

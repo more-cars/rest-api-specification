@@ -4,7 +4,7 @@ Feature: Get all CAR MODEL VARIANT-is-presented-in-magazine-issue Relationships
   @RULE_MCA-3004
   Rule: A list of all ›is-presented-in-magazine-issue‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-3005
+    @TEST_MCA-3005 @implemented
     Scenario: Requesting the ›is-presented-in-magazine-issue‹ relationships when at least one exists
       Given there exists a "CAR MODEL VARIANT" "McLaren 750S"
       And there exist 3 "is presented in magazine issue" relationships for "McLaren 750S"

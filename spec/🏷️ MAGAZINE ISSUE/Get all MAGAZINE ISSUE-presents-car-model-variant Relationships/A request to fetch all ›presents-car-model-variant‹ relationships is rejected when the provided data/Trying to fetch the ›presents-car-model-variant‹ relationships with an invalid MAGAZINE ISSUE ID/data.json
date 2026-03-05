@@ -3,7 +3,9 @@
   "parent_id": "MCA-2873",
   "title": "Trying to fetch the ›presents-car-model-variant‹ relationships with an invalid MAGAZINE ISSUE ID",
   "gherkin": "Given \"MAGAZINE ISSUE\" \"Best Supercars 2025\" does NOT exist\nWhen the user requests all \"presents car model variant\" relationships for \"Best Supercars 2025\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-02T18:06:25.403+0100",
-  "updated_at": "2026-03-02T18:06:29.323+0100"
+  "updated_at": "2026-03-05T18:30:31.752+0100"
 }

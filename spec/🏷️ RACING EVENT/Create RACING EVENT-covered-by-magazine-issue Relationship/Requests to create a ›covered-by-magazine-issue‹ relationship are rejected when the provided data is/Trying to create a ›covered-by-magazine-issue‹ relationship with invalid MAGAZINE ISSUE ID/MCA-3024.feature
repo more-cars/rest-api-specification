@@ -4,7 +4,7 @@ Feature: Create RACING EVENT-covered-by-magazine-issue Relationship
   @RULE_MCA-3022
   Rule: Requests to create a ›covered-by-magazine-issue‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3024
+    @TEST_MCA-3024 @implemented
     Scenario: Trying to create a ›covered-by-magazine-issue‹ relationship with invalid MAGAZINE ISSUE ID
       Given there exists a "RACING EVENT" "F1 GP Australia"
       And "MAGAZINE ISSUE" "F1 Season Start" does NOT exist

@@ -7,7 +7,7 @@ Feature: Delete CAR MODEL VARIANT-is-presented-in-magazine-issue Relationship
   @RULE_MCA-3017
   Rule: Requests to delete the ›is-presented-in-magazine-issue‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-3018
+    @TEST_MCA-3018 @implemented
     Scenario: Trying to delete a non-existent ›is-presented-in-magazine-issue‹ relationship
       Given there exists a "CAR MODEL VARIANT" "McLaren 750S"
       And there exists a "MAGAZINE ISSUE" "EV Today 2_2025"

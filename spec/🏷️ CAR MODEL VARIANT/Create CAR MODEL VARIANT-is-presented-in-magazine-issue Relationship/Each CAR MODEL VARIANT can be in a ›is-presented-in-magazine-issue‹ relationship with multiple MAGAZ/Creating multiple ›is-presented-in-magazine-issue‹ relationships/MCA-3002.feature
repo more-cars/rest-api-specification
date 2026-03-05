@@ -4,7 +4,7 @@ Feature: Create CAR MODEL VARIANT-is-presented-in-magazine-issue Relationship
   @RULE_MCA-3001
   Rule: Each CAR MODEL VARIANT can be in a ›is-presented-in-magazine-issue‹ relationship with multiple MAGAZINE ISSUES
 
-    @TEST_MCA-3002
+    @TEST_MCA-3002 @implemented
     Scenario: Creating multiple ›is-presented-in-magazine-issue‹ relationships
       Given there exists a "CAR MODEL VARIANT" "McLaren 750S"
       And there exists a "MAGAZINE ISSUE" "Best Supercars 2025"
