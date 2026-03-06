@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3097",
+  "parent_id": "MCA-3096",
+  "title": "Hard-deleting a RATING permanently deletes it",
+  "description": "The only way to recover a hard-deleted node is to restore the database.\n",
+  "release_version": "0.29.0",
+  "created_at": "2026-03-05T19:01:57.152+0100",
+  "updated_at": "2026-03-06T12:45:52.133+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3199",
+  "parent_id": "MCA-3198",
+  "title": "Requesting the ›has-prime-image‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists NO \"has prime image\" relationship for \"93 Percent\"\nWhen the user requests the \"has prime image\" relationship for \"93 Percent\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:31:24.755+0100",
+  "updated_at": "2026-03-06T13:09:41.294+0100"
+}

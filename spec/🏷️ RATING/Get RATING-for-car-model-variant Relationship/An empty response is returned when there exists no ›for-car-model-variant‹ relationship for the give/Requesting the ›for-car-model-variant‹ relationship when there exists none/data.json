@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3145",
+  "parent_id": "MCA-3144",
+  "title": "Requesting the ›for-car-model-variant‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists NO \"for car model variant\" relationship for \"93 Percent\"\nWhen the user requests the \"for car model variant\" relationship for \"93 Percent\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:20:42.900+0100",
+  "updated_at": "2026-03-06T13:09:28.566+0100"
+}

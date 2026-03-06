@@ -1,0 +1,18 @@
+{
+  "id": "MCA-3114",
+  "parent_id": "MCA-220",
+  "title": "Get RATING-by-magazine-issue Relationship",
+  "user_story": "",
+  "description": "* The ›by-magazine-issue‹ relationship for the selected RATING is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* An empty response is returned when the selected RATING has no ›by-magazine-issue‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a RATING. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/ratings/<rating-id>/by-magazine-issue",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [
+    "0.29.0"
+  ],
+  "created_at": "2026-03-05T19:14:36.960+0100",
+  "updated_at": "2026-03-06T13:00:07.545+0100"
+}

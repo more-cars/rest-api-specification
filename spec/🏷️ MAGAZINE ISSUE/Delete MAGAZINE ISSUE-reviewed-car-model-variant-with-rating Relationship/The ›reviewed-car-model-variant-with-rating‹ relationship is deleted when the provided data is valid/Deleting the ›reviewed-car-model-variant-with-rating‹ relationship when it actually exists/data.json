@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3258",
+  "parent_id": "MCA-3257",
+  "title": "Deleting the ›reviewed-car-model-variant-with-rating‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 7_2025\"\nAnd there exists a \"RATING\" \"invalid rating\"\nAnd there exists a \"reviewed car model variant with rating\" relationship \"R\" between \"Top Gear 7_2025\" and \"invalid rating\"\nWhen the user deletes the \"reviewed car model variant with rating\" relationship between \"Top Gear 7_2025\" and \"invalid rating\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:49:15.838+0100",
+  "updated_at": "2026-03-06T13:09:54.588+0100"
+}

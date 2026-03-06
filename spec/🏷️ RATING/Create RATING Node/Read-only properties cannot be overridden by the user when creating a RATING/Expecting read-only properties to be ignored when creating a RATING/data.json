@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3085",
+  "parent_id": "MCA-3084",
+  "title": "Expecting read-only properties to be ignored when creating a RATING",
+  "gherkin": "When the user creates a \"RATING\" \"93 Percent\" with the following data\n  | key | value | datatype |\n  | rating_value | 93 | number |\n  | scale_minimum | 0 | number |\n  | scale_maximum | 100 | number |\n  | scale_direction | up | string |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T18:58:26.178+0100",
+  "updated_at": "2026-03-06T13:09:15.068+0100"
+}

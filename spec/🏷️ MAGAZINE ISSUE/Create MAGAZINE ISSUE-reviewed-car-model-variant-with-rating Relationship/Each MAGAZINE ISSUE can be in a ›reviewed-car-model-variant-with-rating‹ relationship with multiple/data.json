@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3247",
+  "parent_id": "MCA-3238",
+  "title": "Each MAGAZINE ISSUE can be in a ›reviewed-car-model-variant-with-rating‹ relationship with multiple RATINGS",
+  "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
+  "release_version": "0.29.0",
+  "created_at": "2026-03-05T19:47:00.408+0100",
+  "updated_at": "2026-03-06T12:45:21.982+0100"
+}

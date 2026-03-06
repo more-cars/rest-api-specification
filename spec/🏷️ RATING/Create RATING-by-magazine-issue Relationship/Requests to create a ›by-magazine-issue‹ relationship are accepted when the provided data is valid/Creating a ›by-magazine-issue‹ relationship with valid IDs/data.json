@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3105",
+  "parent_id": "MCA-3104",
+  "title": "Creating a ›by-magazine-issue‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Top Gear 7_2025\"\nWhen the user creates a \"by magazine issue\" relationship between \"93 Percent\" and \"Top Gear 7_2025\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:13:21.246+0100",
+  "updated_at": "2026-03-06T13:09:18.935+0100"
+}

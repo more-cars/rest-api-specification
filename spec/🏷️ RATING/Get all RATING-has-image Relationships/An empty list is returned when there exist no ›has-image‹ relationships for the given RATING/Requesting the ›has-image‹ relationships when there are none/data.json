@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3172",
+  "parent_id": "MCA-3171",
+  "title": "Requesting the ›has-image‹ relationships when there are none",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exist 0 \"has image\" relationships for \"93 Percent\"\nWhen the user requests all \"has image\" relationships for \"93 Percent\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:27:11.859+0100",
+  "updated_at": "2026-03-06T13:09:34.849+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3189",
+  "parent_id": "MCA-3187",
+  "title": "Trying to create a ›has-prime-image‹ relationship with invalid IMAGE ID",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd \"IMAGE\" \"Top Rating\" does NOT exist\nWhen the user creates a \"has prime image\" relationship between \"93 Percent\" and \"Top Rating\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:30:01.204+0100",
+  "updated_at": "2026-03-06T13:09:38.995+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3108",
+  "parent_id": "MCA-3106",
+  "title": "Trying to create a ›by-magazine-issue‹ relationship with invalid MAGAZINE ISSUE ID",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd \"MAGAZINE ISSUE\" \"Top Gear 7_2025\" does NOT exist\nWhen the user creates a \"by magazine issue\" relationship between \"93 Percent\" and \"Top Gear 7_2025\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:13:34.385+0100",
+  "updated_at": "2026-03-06T13:09:19.894+0100"
+}

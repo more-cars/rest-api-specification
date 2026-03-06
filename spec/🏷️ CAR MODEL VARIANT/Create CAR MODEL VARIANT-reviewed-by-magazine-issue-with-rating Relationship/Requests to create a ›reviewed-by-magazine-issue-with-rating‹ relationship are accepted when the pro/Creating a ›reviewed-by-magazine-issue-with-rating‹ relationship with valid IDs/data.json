@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3213",
+  "parent_id": "MCA-3212",
+  "title": "Creating a ›reviewed-by-magazine-issue-with-rating‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nAnd there exists a \"RATING\" \"93 Percent\"\nWhen the user creates a \"reviewed by magazine issue with rating\" relationship between \"McLaren 750S\" and \"93 Percent\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:39:25.069+0100",
+  "updated_at": "2026-03-06T13:09:44.392+0100"
+}

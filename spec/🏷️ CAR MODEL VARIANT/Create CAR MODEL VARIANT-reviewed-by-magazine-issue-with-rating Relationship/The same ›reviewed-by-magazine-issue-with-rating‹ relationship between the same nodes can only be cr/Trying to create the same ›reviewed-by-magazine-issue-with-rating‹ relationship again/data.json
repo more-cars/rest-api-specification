@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3219",
+  "parent_id": "MCA-3218",
+  "title": "Trying to create the same ›reviewed-by-magazine-issue-with-rating‹ relationship again",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nAnd there exists a \"RATING\" \"93 Percent\"\nAnd there exists a \"reviewed by magazine issue with rating\" relationship between \"McLaren 750S\" and \"93 Percent\"\nWhen the user creates a \"reviewed by magazine issue with rating\" relationship between \"McLaren 750S\" and \"93 Percent\"\nThen the response should return with status code 304",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:39:49.610+0100",
+  "updated_at": "2026-03-06T13:09:46.158+0100"
+}

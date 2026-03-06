@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3081",
+  "parent_id": "MCA-3079",
+  "title": "Expecting empty properties to be returned as null values when creating a RATING",
+  "gherkin": "When the user creates a \"RATING\" \"93 Percent\" with the following data\n  | key | value | datatype |\n  | rating_value | 93 | number |\n  | scale_minimum | 0 | number |\n  | scale_maximum | 100 | number |\n  | scale_direction | up | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | rating_value | 93 | number |\n  | scale_minimum | 0 | number |\n  | scale_maximum | 100 | number |\n  | scale_direction | up | string |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T18:58:11.999+0100",
+  "updated_at": "2026-03-06T13:09:14.163+0100"
+}

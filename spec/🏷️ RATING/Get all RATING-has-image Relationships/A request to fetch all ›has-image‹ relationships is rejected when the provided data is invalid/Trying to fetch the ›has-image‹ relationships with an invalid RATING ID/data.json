@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3174",
+  "parent_id": "MCA-3173",
+  "title": "Trying to fetch the ›has-image‹ relationships with an invalid RATING ID",
+  "gherkin": "Given \"RATING\" \"93 Percent\" does NOT exist\nWhen the user requests all \"has image\" relationships for \"93 Percent\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:27:18.673+0100",
+  "updated_at": "2026-03-06T13:09:35.289+0100"
+}

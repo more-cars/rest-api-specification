@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3253",
+  "parent_id": "MCA-3252",
+  "title": "Requesting the ›reviewed-car-model-variant-with-rating‹ relationships when there are none",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 7_2025\"\nAnd there exist 0 \"reviewed car model variant with rating\" relationships for \"Top Gear 7_2025\"\nWhen the user requests all \"reviewed car model variant with rating\" relationships for \"Top Gear 7_2025\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:48:15.937+0100",
+  "updated_at": "2026-03-06T13:09:53.707+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3095",
+  "parent_id": "MCA-3094",
+  "title": "Requesting all RATING nodes when none exist",
+  "gherkin": "Given there exist 0 \"RATING\"s\nWhen the user requests a \"RATING\" collection\nThen the response should return a collection of 0 \"RATING\"s\nAnd the response should return with status code 200",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:00:56.676+0100",
+  "updated_at": "2026-03-06T13:09:17.032+0100"
+}

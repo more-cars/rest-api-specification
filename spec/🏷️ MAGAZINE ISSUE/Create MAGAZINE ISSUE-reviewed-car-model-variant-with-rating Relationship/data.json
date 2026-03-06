@@ -1,0 +1,19 @@
+{
+  "id": "MCA-3238",
+  "parent_id": "MCA-203",
+  "title": "Create MAGAZINE ISSUE-reviewed-car-model-variant-with-rating Relationship",
+  "user_story": "",
+  "description": "* The relationship ›reviewed-car-model-variant-with-rating‹ is created when the provided IDs of the MAGAZINE ISSUE and RATING are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›reviewed-car-model-variant-with-rating‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* Each MAGAZINE ISSUE can be in a ›reviewed-car-model-variant-with-rating‹ relationship with multiple RATINGS\n",
+  "api_verb": "POST",
+  "api_path": "/magazine-issues/<magazine-issue-id>/reviewed-car-model-variant-with-rating/<rating-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [
+    "0.29.0"
+  ],
+  "created_at": "2026-03-05T19:46:26.185+0100",
+  "updated_at": "2026-03-06T13:00:14.873+0100"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3102",
+  "parent_id": "MCA-3101",
+  "title": "Expecting all attached relationships to be removed when hard-deleting a RATING",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists a \"has image\" relationship \"R1\" for \"93 Percent\"\nAnd there exists a \"has prime image\" relationship \"R2\" for \"93 Percent\"\nWhen the user hard-deletes the \"RATING\" \"93 Percent\"\nThen the \"RATING\" \"93 Percent\" should not exist anymore\nAnd the relationship \"R1\" should not exist anymore\nAnd the relationship \"R2\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:02:14.774+0100",
+  "updated_at": "2026-03-06T13:09:18.488+0100"
+}

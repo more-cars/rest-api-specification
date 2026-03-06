@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3144",
+  "parent_id": "MCA-3141",
+  "title": "An empty response is returned when there exists no ›for-car-model-variant‹ relationship for the given RATING",
+  "description": "",
+  "release_version": "0.29.0",
+  "created_at": "2026-03-05T19:20:39.148+0100",
+  "updated_at": "2026-03-06T12:45:42.731+0100"
+}

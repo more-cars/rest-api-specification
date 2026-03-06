@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3113",
+  "parent_id": "MCA-3112",
+  "title": "Creating a ›by-magazine-issue‹ relationship with a different MAGAZINE ISSUE",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Top Gear 7_2025\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Top Gear 7_2025 (Alternative)\"\nWhen the user creates a \"by magazine issue\" relationship between \"93 Percent\" and \"Top Gear 7_2025\"\nThen there should exist a \"by magazine issue\" relationship between \"93 Percent\" and \"Top Gear 7_2025\"\nWhen the user creates a \"by magazine issue\" relationship between \"93 Percent\" and \"Top Gear 7_2025 (Alternative)\"\nThen there should exist a \"by magazine issue\" relationship between \"93 Percent\" and \"Top Gear 7_2025 (Alternative)\"\nBut there should exist NO \"by magazine issue\" relationship between \"93 Percent\" and \"Top Gear 7_2025\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:13:54.347+0100",
+  "updated_at": "2026-03-06T13:09:21.280+0100"
+}

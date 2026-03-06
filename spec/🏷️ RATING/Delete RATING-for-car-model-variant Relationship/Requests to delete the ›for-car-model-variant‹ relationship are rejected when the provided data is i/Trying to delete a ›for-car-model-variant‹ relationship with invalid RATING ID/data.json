@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3152",
+  "parent_id": "MCA-3151",
+  "title": "Trying to delete a ›for-car-model-variant‹ relationship with invalid RATING ID",
+  "gherkin": "Given \"RATING\" \"invalid rating\" does NOT exist\nAnd there exists a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nWhen the user deletes the \"for car model variant\" relationship between \"invalid rating\" and \"McLaren 750S\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-05T19:21:49.709+0100",
+  "updated_at": "2026-03-06T13:09:29.866+0100"
+}
