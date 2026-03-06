@@ -14,8 +14,8 @@ Feature: Create IMAGE Node
         | image_provider | something |
         | external_id    | A12345    |
       Then the response should return with status code 201
+      And the response should contain an ID
       And the response should contain the following keys
         | key            |
-        | id             |
         | image_provider |
         | external_id    |
