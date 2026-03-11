@@ -1,0 +1,16 @@
+{
+  "id": "MCA-3529",
+  "parent_id": "MCA-225",
+  "title": "Get PROGRAMME EPISODE-is-followed-by-episode Relationship",
+  "user_story": "",
+  "description": "* The ›is-followed-by-episode‹ relationship for the selected PROGRAMME EPISODE is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* An empty response is returned when the selected PROGRAMME EPISODE has no ›is-followed-by-episode‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a PROGRAMME EPISODE. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/programme-episodes/<programme-episode-id>/is-followed-by-episode",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-10T20:11:30.645+0100",
+  "updated_at": "2026-03-10T20:11:32.816+0100"
+}

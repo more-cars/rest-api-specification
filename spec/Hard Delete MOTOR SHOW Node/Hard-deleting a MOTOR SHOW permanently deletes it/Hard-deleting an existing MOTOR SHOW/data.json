@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3614",
+  "parent_id": "MCA-3613",
+  "title": "Hard-deleting an existing MOTOR SHOW",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nWhen the user hard-deletes the \"MOTOR SHOW\" \"IAA Frankfurt\"\nThen the response should return with status code 204\nAnd the \"MOTOR SHOW\" \"IAA Frankfurt\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-03-11T11:01:23.329+0100",
+  "updated_at": "2026-03-11T11:01:27.969+0100"
+}

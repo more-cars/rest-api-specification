@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3466",
+  "parent_id": "MCA-3465",
+  "title": "Creating a ›features-car-model-variant‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari LaFerrari\"\nWhen the user creates a \"features car model variant\" relationship between \"The Holy Trinity\" and \"Ferrari LaFerrari\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "labels": [],
+  "created_at": "2026-03-10T19:27:10.908+0100",
+  "updated_at": "2026-03-10T19:27:14.130+0100"
+}

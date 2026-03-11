@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3433",
+  "parent_id": "MCA-3431",
+  "title": "Trying to delete a ›belongs-to-programme‹ relationship with invalid PROGRAMME ID",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd \"PROGRAMME\" \"Top Gear\" does NOT exist\nWhen the user deletes the \"belongs to programme\" relationship between \"The Holy Trinity\" and \"Top Gear\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-10T18:55:06.944+0100",
+  "updated_at": "2026-03-10T18:55:10.772+0100"
+}

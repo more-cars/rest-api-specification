@@ -1,0 +1,15 @@
+{
+  "id": "MCA-3607",
+  "parent_id": "MCA-230",
+  "title": "Get all MOTOR SHOW Nodes",
+  "user_story": "As an API consumer\nI want to be able to load all MOTOR SHOWS at once\nSo I can find out which even exist\nAnd to be able to compare and analyze them without having to load them all individually\n",
+  "description": "* A list of all MOTOR SHOW nodes is returned when there exists at least 1. -> Status Code \\`200\\`\n* When no MOTOR SHOWS exist then an empty list is returned. -> Status Code \\`200\\`\n* Each returned list item contains all specified properties (see corresponding 'epic' ticket).\n* Properties are returned, even when they are empty (optional fields). They are returned with value \\`null\\`.\n",
+  "api_verb": "GET",
+  "api_path": "/motor-shows",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-11T11:00:16.780+0100",
+  "updated_at": "2026-03-11T11:00:19.199+0100"
+}

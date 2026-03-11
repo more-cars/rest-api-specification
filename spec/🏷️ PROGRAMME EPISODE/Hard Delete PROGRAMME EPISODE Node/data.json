@@ -1,0 +1,16 @@
+{
+  "id": "MCA-3403",
+  "parent_id": "MCA-225",
+  "title": "Hard Delete PROGRAMME EPISODE Node",
+  "user_story": "As an API contributor\nI want to be able to delete a PROGRAMME EPISODE\nSo I can clean up bad data, test data or redundant data\n",
+  "description": "* The selected PROGRAMME EPISODE node is deleted when it actually exists. -> Status Code \\`204\\`\n* All attached relationships are also deleted when the node is deleted.\n* Requests with invalid ID are rejected. This case can happen when there exists no node with that ID or when the node is not from type PROGRAMME EPISODE. -> Status Code \\`404\\`\n",
+  "api_verb": "DELETE",
+  "api_path": "/programme-episodes/<programme-episode-id>",
+  "response_options": [
+    "204",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-10T18:41:26.902+0100",
+  "updated_at": "2026-03-10T18:41:29.352+0100"
+}

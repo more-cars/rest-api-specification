@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3689",
+  "parent_id": "MCA-3684",
+  "title": "Requests to fetch the ›has-prime-image‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no MOTOR SHOW with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2026-03-11T11:26:46.517+0100",
+  "updated_at": "2026-03-11T11:26:53.300+0100"
+}

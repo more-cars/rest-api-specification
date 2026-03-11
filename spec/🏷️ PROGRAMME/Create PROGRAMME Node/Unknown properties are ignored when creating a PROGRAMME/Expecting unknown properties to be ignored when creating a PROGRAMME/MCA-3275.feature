@@ -1,0 +1,33 @@
+@REQ_MCA-3265
+Feature: Create PROGRAMME Node
+  As an API contributor
+  I want to be able to create PROGRAMMES
+  So I can fill gaps in the database
+
+  @RULE_MCA-3274
+  Rule: Unknown properties are ignored when creating a PROGRAMME
+
+    @TEST_MCA-3275
+    Scenario: Expecting unknown properties to be ignored when creating a PROGRAMME
+      When the user creates a "PROGRAMME" "Top Gear" with the following data
+        | key                          | value    | datatype |
+        | name                         | Top Gear | string   |
+        | aired_from_year              | 2002     | number   |
+        | aired_until_year             | 2022     | number   |
+        | channel                      | BBC Two  | string   |
+        | total_seasons                | 33       | number   |
+        | total_episodes               | 240      | number   |
+        | regular_episode_running_time | 60       | number   |
+        | thimbleweed                  | park     | string   |
+      Then the response should contain the following properties
+        | key                          | value    | datatype |
+        | name                         | Top Gear | string   |
+        | aired_from_year              | 2002     | number   |
+        | aired_until_year             | 2022     | number   |
+        | channel                      | BBC Two  | string   |
+        | total_seasons                | 33       | number   |
+        | total_episodes               | 240      | number   |
+        | regular_episode_running_time | 60       | number   |
+      And the response should NOT contain the following keys
+        | key         |
+        | thimbleweed |

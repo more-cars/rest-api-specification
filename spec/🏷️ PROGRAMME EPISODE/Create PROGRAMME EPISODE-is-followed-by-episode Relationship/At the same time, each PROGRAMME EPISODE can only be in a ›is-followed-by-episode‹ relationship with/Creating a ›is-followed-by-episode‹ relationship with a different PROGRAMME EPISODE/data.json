@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3528",
+  "parent_id": "MCA-3527",
+  "title": "Creating a ›is-followed-by-episode‹ relationship with a different PROGRAMME EPISODE",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"PROGRAMME EPISODE\" \"Operation Desert Stumble\"\nAnd there exists a \"PROGRAMME EPISODE\" \"Operation Desert Stumble (Alternative)\"\nWhen the user creates a \"is followed by episode\" relationship between \"The Holy Trinity\" and \"Operation Desert Stumble\"\nThen there should exist a \"is followed by episode\" relationship between \"The Holy Trinity\" and \"Operation Desert Stumble\"\nWhen the user creates a \"is followed by episode\" relationship between \"The Holy Trinity\" and \"Operation Desert Stumble (Alternative)\"\nThen there should exist a \"is followed by episode\" relationship between \"The Holy Trinity\" and \"Operation Desert Stumble (Alternative)\"\nBut there should exist NO \"is followed by episode\" relationship between \"The Holy Trinity\" and \"Operation Desert Stumble\"",
+  "labels": [],
+  "created_at": "2026-03-10T20:07:37.077+0100",
+  "updated_at": "2026-03-10T20:07:44.664+0100"
+}

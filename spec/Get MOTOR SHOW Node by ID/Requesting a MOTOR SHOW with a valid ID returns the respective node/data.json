@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3603",
+  "parent_id": "MCA-3602",
+  "title": "Requesting a MOTOR SHOW with a valid ID returns the respective node",
+  "description": "An ID is deemed valid when there exists a node with that ID AND the node is from type MOTOR SHOW.\n",
+  "release_version": null,
+  "created_at": "2026-03-11T10:58:31.200+0100",
+  "updated_at": "2026-03-11T10:58:38.052+0100"
+}

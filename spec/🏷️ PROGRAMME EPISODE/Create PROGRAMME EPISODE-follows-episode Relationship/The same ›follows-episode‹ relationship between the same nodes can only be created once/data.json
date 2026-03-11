@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3498",
+  "parent_id": "MCA-3491",
+  "title": "The same ›follows-episode‹ relationship between the same nodes can only be created once",
+  "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
+  "release_version": null,
+  "created_at": "2026-03-10T19:51:25.916+0100",
+  "updated_at": "2026-03-10T19:51:32.638+0100"
+}

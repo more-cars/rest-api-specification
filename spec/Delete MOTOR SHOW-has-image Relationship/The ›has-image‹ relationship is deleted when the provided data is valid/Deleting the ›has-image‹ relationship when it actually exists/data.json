@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3666",
+  "parent_id": "MCA-3665",
+  "title": "Deleting the ›has-image‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"IMAGE\" \"Paris Motor Show logo\"\nAnd there exists a \"has image\" relationship \"R\" between \"IAA Frankfurt\" and \"Paris Motor Show logo\"\nWhen the user deletes the \"has image\" relationship between \"IAA Frankfurt\" and \"Paris Motor Show logo\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-03-11T11:20:07.405+0100",
+  "updated_at": "2026-03-11T11:20:11.157+0100"
+}

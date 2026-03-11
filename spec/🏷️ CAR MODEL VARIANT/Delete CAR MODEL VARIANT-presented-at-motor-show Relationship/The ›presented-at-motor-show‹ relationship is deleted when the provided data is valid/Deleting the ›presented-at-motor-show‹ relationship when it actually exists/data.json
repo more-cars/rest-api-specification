@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3720",
+  "parent_id": "MCA-3719",
+  "title": "Deleting the ›presented-at-motor-show‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW i8\"\nAnd there exists a \"MOTOR SHOW\" \"IAA Frankfurt 1999\"\nAnd there exists a \"presented at motor show\" relationship \"R\" between \"BMW i8\" and \"IAA Frankfurt 1999\"\nWhen the user deletes the \"presented at motor show\" relationship between \"BMW i8\" and \"IAA Frankfurt 1999\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-03-11T11:49:11.401+0100",
+  "updated_at": "2026-03-11T11:49:15.093+0100"
+}

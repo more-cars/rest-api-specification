@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3775",
+  "parent_id": "MCA-3772",
+  "title": "Requests to delete the ›presented-in-programme-episode‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no CAR MODEL VARIANT with the provided ID? -> rejected.\nThere exists no PROGRAMME EPISODE with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2026-03-11T12:28:19.289+0100",
+  "updated_at": "2026-03-11T12:28:54.219+0100"
+}

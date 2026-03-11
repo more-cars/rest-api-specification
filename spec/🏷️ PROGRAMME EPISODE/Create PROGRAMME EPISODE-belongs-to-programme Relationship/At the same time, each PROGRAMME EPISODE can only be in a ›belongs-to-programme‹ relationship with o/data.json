@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3419",
+  "parent_id": "MCA-3410",
+  "title": "At the same time, each PROGRAMME EPISODE can only be in a ›belongs-to-programme‹ relationship with one PROGRAMME",
+  "description": "Connecting a different PROGRAMME will delete the previous relationship.\n",
+  "release_version": null,
+  "created_at": "2026-03-10T18:48:12.695+0100",
+  "updated_at": "2026-03-10T18:48:19.591+0100"
+}

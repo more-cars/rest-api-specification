@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3760",
+  "parent_id": "MCA-3757",
+  "title": "Trying to create a ›featured-in-programme-episode‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"McLaren P1\" does NOT exist\nAnd \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nWhen the user creates a \"featured in programme episode\" relationship between \"McLaren P1\" and \"The Holy Trinity\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-11T12:24:12.193+0100",
+  "updated_at": "2026-03-11T12:24:15.822+0100"
+}

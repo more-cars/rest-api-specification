@@ -1,0 +1,7 @@
+{
+  "id": "MCA-225",
+  "title": "🏷️ PROGRAMME EPISODE",
+  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"title\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"The Falls Guys\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"season\\_number\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"2\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"season\\_episode\\_number\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"2\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"original\\_air\\_date\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"2017-12-08\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"duration\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"PT55M\"\n&#x20; }\n]\n",
+  "created_at": "2025-06-10T14:54:41.737+0200",
+  "updated_at": "2026-03-10T20:48:16.103+0100"
+}

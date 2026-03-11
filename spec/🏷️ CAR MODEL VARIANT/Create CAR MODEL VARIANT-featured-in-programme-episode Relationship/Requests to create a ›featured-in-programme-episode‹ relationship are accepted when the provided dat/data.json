@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3755",
+  "parent_id": "MCA-3754",
+  "title": "Requests to create a ›featured-in-programme-episode‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type CAR MODEL VARIANT resp. PROGRAMME EPISODE.\n",
+  "release_version": null,
+  "created_at": "2026-03-11T12:23:50.383+0100",
+  "updated_at": "2026-03-11T12:23:57.406+0100"
+}

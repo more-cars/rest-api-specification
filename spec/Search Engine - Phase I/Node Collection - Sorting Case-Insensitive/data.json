@@ -1,0 +1,17 @@
+{
+  "id": "MCA-3599",
+  "parent_id": "MCA-368",
+  "title": "Node Collection - Sorting Case-Insensitive",
+  "user_story": "As an API consumer\\\nWhen I request a sorted node collection\\\nI want the sorting algorithm to ignore the case\\\nSo I don't receive two groups of items (1x sorted uppercase, 1x sorted lowercase)\n",
+  "description": "* this extends the existing feature <https://dennis-gerike.atlassian.net/browse/MCA-373>&#x20;\n* current issue: the magazine list is accidentally split into two\n  * the first group has all magazines that start with an uppercase letter (e.g. “Top Gear”)\n  * the second group has all magazines that start with a lowercase letter (e.g. “sport auto”)\n  * this makes it hard for the user to find the node they are looking for\n  * and it might let the user believe that a node is missing\n* when sorting the nodes the case of the resp. property has to be ignored\n  * e.g. “Auto” and “auto” have the same rank\n* this change request does not invalidate any of the previous requirements\n",
+  "api_verb": "GET",
+  "api_path": "/<node-type>?sort_by_property=<node-property>",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.30.0"
+  ],
+  "created_at": "2026-03-11T10:05:22.049+0100",
+  "updated_at": "2026-03-11T10:56:54.135+0100"
+}

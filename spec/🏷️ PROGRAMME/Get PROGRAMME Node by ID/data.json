@@ -1,0 +1,16 @@
+{
+  "id": "MCA-3304",
+  "parent_id": "MCA-224",
+  "title": "Get PROGRAMME Node by ID",
+  "user_story": "As an API consumer\nI want to be able to request a specific PROGRAMME\nSo I can find out all the details about it when I only have its ID\n",
+  "description": "* The requested PROGRAMME node is returned when the provided ID is valid. -> Status Code \\`200\\`\n* A successful request returns the node with all specified properties.\n* Properties are returned, even when they are empty (optional fields). They are returned with value \\`null\\`.\n* Requests with invalid ID are rejected. This case can happen when there exists no node with that ID or when the node is not from type PROGRAMME. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/programmes/<programme-id>",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-10T18:01:29.226+0100",
+  "updated_at": "2026-03-10T18:01:31.422+0100"
+}

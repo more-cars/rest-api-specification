@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3521",
+  "parent_id": "MCA-3518",
+  "title": "Requests to create a ›is-followed-by-episode‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no PROGRAMME EPISODE with the provided ID? -> rejected.\nThere exists no PROGRAMME EPISODE with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2026-03-10T20:07:11.549+0100",
+  "updated_at": "2026-03-10T20:07:27.130+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3270",
+  "parent_id": "MCA-3268",
+  "title": "Trying to create a PROGRAMME with invalid data types",
+  "gherkin": "When the user tries to create a \"PROGRAMME\" \"Top Gear\" with the following data\n  | key | value | datatype |\n  | name | Top Gear | boolean |\n  | aired_from_year | 2002 | boolean |\n  | aired_until_year | 2022 | boolean |\n  | channel | BBC Two | boolean |\n  | total_seasons | 33 | boolean |\n  | total_episodes | 240 | boolean |\n  | regular_episode_running_time | 60 | boolean |\nThen the request should be rejected with status code 400",
+  "labels": [],
+  "created_at": "2026-03-10T17:23:00.830+0100",
+  "updated_at": "2026-03-10T17:23:04.400+0100"
+}

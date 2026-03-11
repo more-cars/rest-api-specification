@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3715",
+  "parent_id": "MCA-3714",
+  "title": "Requesting the ›presented-at-motor-show‹ relationships when there are none",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW i8\"\nAnd there exist 0 \"presented at motor show\" relationships for \"BMW i8\"\nWhen the user requests all \"presented at motor show\" relationships for \"BMW i8\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [],
+  "created_at": "2026-03-11T11:44:56.823+0100",
+  "updated_at": "2026-03-11T11:45:00.362+0100"
+}

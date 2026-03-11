@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3609",
+  "parent_id": "MCA-3608",
+  "title": "Requesting all MOTOR SHOW nodes when at least 1 exists",
+  "gherkin": "Given there exist 3 \"MOTOR SHOW\"s\nWhen the user requests a \"MOTOR SHOW\" collection\nThen the response should return a collection of 3 \"MOTOR SHOW\"s\nAnd the response should return with status code 200",
+  "labels": [],
+  "created_at": "2026-03-11T11:00:23.741+0100",
+  "updated_at": "2026-03-11T11:00:27.397+0100"
+}

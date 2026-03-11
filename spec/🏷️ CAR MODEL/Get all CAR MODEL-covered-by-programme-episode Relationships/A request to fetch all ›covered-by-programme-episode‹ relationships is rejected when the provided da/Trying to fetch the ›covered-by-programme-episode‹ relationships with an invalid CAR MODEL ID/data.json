@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3744",
+  "parent_id": "MCA-3743",
+  "title": "Trying to fetch the ›covered-by-programme-episode‹ relationships with an invalid CAR MODEL ID",
+  "gherkin": "Given \"CAR MODEL\" \"McLaren P1\" does NOT exist\nWhen the user requests all \"covered by programme episode\" relationships for \"McLaren P1\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-11T12:18:40.190+0100",
+  "updated_at": "2026-03-11T12:18:43.724+0100"
+}

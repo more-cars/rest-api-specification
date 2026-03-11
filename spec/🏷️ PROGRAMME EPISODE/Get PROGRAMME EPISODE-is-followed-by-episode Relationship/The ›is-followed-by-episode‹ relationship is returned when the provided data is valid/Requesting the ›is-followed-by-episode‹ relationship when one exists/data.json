@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3531",
+  "parent_id": "MCA-3530",
+  "title": "Requesting the ›is-followed-by-episode‹ relationship when one exists",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"is followed by episode\" relationship \"R\" for \"The Holy Trinity\"\nWhen the user requests the \"is followed by episode\" relationship for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
+  "labels": [],
+  "created_at": "2026-03-10T20:11:38.151+0100",
+  "updated_at": "2026-03-10T20:11:41.465+0100"
+}

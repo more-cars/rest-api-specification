@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3639",
+  "parent_id": "MCA-3638",
+  "title": "Deleting the ›presents-car-model-variant‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Lada Samara\"\nAnd there exists a \"presents car model variant\" relationship \"R\" between \"IAA Frankfurt\" and \"Lada Samara\"\nWhen the user deletes the \"presents car model variant\" relationship between \"IAA Frankfurt\" and \"Lada Samara\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-03-11T11:10:37.728+0100",
+  "updated_at": "2026-03-11T11:10:41.760+0100"
+}

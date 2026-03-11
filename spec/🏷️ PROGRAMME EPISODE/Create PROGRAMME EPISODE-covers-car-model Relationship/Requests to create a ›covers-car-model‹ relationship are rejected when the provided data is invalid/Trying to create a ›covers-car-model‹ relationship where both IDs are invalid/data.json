@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3443",
+  "parent_id": "MCA-3440",
+  "title": "Trying to create a ›covers-car-model‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nAnd \"CAR MODEL\" \"LaFerrari\" does NOT exist\nWhen the user creates a \"covers car model\" relationship between \"The Holy Trinity\" and \"LaFerrari\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-10T19:03:48.322+0100",
+  "updated_at": "2026-03-10T19:03:53.090+0100"
+}

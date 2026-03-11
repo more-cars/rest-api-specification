@@ -1,0 +1,7 @@
+{
+  "id": "MCA-224",
+  "title": "🏷️ PROGRAMME",
+  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"name\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"Top Gear\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"aired\\_from\\_year\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"2002\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"aired\\_until\\_year\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"2022\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"channel\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"BBC Two\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"total\\_seasons\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"33\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"total\\_episodes\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"240\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"regular\\_episode\\_running\\_time\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"60\"\n&#x20; }\n]\n",
+  "created_at": "2025-06-10T14:54:27.060+0200",
+  "updated_at": "2026-03-10T20:48:26.031+0100"
+}

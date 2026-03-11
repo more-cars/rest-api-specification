@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3656",
+  "parent_id": "MCA-3655",
+  "title": "Creating multiple ›has-image‹ relationships",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"IMAGE\" \"BMW Stand\"\nAnd there exists a \"IMAGE\" \"BMW Stand (Alternative)\"\nWhen the user creates a \"has image\" relationship between \"IAA Frankfurt\" and \"BMW Stand\"\nAnd the user creates a \"has image\" relationship between \"IAA Frankfurt\" and \"BMW Stand (Alternative)\"\nThen there should exist a \"has image\" relationship between \"IAA Frankfurt\" and \"BMW Stand\"\nAnd there should exist a \"has image\" relationship between \"IAA Frankfurt\" and \"BMW Stand (Alternative)\"",
+  "labels": [],
+  "created_at": "2026-03-11T11:14:20.266+0100",
+  "updated_at": "2026-03-11T11:14:24.329+0100"
+}

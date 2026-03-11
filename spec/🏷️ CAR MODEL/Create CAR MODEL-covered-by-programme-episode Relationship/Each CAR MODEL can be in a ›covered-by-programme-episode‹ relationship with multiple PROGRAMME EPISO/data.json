@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3736",
+  "parent_id": "MCA-3727",
+  "title": "Each CAR MODEL can be in a ›covered-by-programme-episode‹ relationship with multiple PROGRAMME EPISODES",
+  "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
+  "release_version": null,
+  "created_at": "2026-03-11T12:17:16.283+0100",
+  "updated_at": "2026-03-11T12:17:23.307+0100"
+}

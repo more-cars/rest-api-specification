@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3578",
+  "parent_id": "MCA-3575",
+  "title": "Trying to create a ›has-prime-image‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nAnd \"IMAGE\" \"TGT logo\" does NOT exist\nWhen the user creates a \"has prime image\" relationship between \"The Holy Trinity\" and \"TGT logo\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-10T20:42:46.822+0100",
+  "updated_at": "2026-03-10T20:42:50.058+0100"
+}
