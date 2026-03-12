@@ -3,7 +3,9 @@
   "parent_id": "MCA-3279",
   "title": "Creating a PROGRAMME EPISODE with valid data",
   "gherkin": "When the user creates a \"PROGRAMME EPISODE\" \"Polar Special\" with the following data\n  | key | value | datatype |\n  | title | The Falls Guys | string |\n  | season_number | 2 | number |\n  | season_episode_number | 2 | number |\n  | original_air_date | 2017-12-08 | string |\n  | duration | PT55M | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"PROGRAMME EPISODE\" \"Polar Special\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T17:49:06.068+0100",
-  "updated_at": "2026-03-10T17:49:09.837+0100"
+  "updated_at": "2026-03-12T18:02:42.269+0100"
 }

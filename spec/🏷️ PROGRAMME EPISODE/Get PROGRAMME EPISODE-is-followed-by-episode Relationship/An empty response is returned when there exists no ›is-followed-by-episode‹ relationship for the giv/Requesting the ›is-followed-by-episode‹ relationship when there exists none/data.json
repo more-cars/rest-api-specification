@@ -3,7 +3,9 @@
   "parent_id": "MCA-3532",
   "title": "Requesting the ›is-followed-by-episode‹ relationship when there exists none",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists NO \"is followed by episode\" relationship for \"The Holy Trinity\"\nWhen the user requests the \"is followed by episode\" relationship for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T20:11:45.141+0100",
-  "updated_at": "2026-03-10T20:11:48.395+0100"
+  "updated_at": "2026-03-12T18:03:41.613+0100"
 }

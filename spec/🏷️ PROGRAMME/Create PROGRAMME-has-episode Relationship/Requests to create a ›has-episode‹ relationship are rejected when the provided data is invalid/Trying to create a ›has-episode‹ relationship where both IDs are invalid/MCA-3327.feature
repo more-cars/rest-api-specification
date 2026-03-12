@@ -4,7 +4,7 @@ Feature: Create PROGRAMME-has-episode Relationship
   @RULE_MCA-3324
   Rule: Requests to create a ›has-episode‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3327
+    @TEST_MCA-3327 @implemented
     Scenario: Trying to create a ›has-episode‹ relationship where both IDs are invalid
       Given "PROGRAMME" "The Grand Tour" does NOT exist
       And "PROGRAMME EPISODE" "The Holy Trinity" does NOT exist

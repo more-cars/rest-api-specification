@@ -8,7 +8,7 @@ Feature: Get all MOTOR SHOW Nodes
   @RULE_MCA-3608
   Rule: Requesting all nodes returns a list of MOTOR SHOWS
 
-    @TEST_MCA-3609
+    @TEST_MCA-3609 @implemented
     Scenario: Requesting all MOTOR SHOW nodes when at least 1 exists
       Given there exist 3 "MOTOR SHOW"s
       When the user requests a "MOTOR SHOW" collection

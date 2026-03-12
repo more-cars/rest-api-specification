@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-covers-car-model Relationship
   @RULE_MCA-3440
   Rule: Requests to create a ›covers-car-model‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3443
+    @TEST_MCA-3443 @implemented
     Scenario: Trying to create a ›covers-car-model‹ relationship where both IDs are invalid
       Given "PROGRAMME EPISODE" "The Holy Trinity" does NOT exist
       And "CAR MODEL" "LaFerrari" does NOT exist

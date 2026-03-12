@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-is-followed-by-episode Relationship
   @RULE_MCA-3537
   Rule: The ›is-followed-by-episode‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3538
+    @TEST_MCA-3538 @implemented
     Scenario: Deleting the ›is-followed-by-episode‹ relationship when it actually exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "PROGRAMME EPISODE" "Top Gear Special"

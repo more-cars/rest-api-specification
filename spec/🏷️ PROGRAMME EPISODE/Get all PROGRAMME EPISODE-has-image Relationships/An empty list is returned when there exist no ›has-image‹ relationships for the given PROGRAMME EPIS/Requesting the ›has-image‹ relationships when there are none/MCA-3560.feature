@@ -4,7 +4,7 @@ Feature: Get all PROGRAMME EPISODE-has-image Relationships
   @RULE_MCA-3559
   Rule: An empty list is returned when there exist no ›has-image‹ relationships for the given PROGRAMME EPISODE
 
-    @TEST_MCA-3560
+    @TEST_MCA-3560 @implemented
     Scenario: Requesting the ›has-image‹ relationships when there are none
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exist 0 "has image" relationships for "The Holy Trinity"

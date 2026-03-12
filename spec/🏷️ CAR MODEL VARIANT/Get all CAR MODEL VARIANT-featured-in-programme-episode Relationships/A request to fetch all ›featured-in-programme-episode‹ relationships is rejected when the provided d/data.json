@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3770",
+  "parent_id": "MCA-3765",
+  "title": "A request to fetch all ›featured-in-programme-episode‹ relationships is rejected when the provided data is invalid",
+  "description": "There exists no CAR MODEL VARIANT with the provided ID? -> rejected.\n",
+  "release_version": "0.30.0",
+  "created_at": "2026-03-11T12:25:41.380+0100",
+  "updated_at": "2026-03-12T17:29:21.075+0100"
+}

@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-belongs-to-programme Relationship
   @RULE_MCA-3413
   Rule: Requests to create a ›belongs-to-programme‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3414
+    @TEST_MCA-3414 @implemented
     Scenario: Trying to create a ›belongs-to-programme‹ relationship with invalid PROGRAMME EPISODE ID
       Given "PROGRAMME EPISODE" "The Holy Trinity" does NOT exist
       And there exists a "PROGRAMME" "The Grand Tour"

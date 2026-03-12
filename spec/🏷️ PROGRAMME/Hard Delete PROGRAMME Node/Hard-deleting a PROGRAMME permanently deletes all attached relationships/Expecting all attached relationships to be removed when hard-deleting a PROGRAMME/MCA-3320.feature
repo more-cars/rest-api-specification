@@ -7,7 +7,7 @@ Feature: Hard Delete PROGRAMME Node
   @RULE_MCA-3319
   Rule: Hard-deleting a PROGRAMME permanently deletes all attached relationships
 
-    @TEST_MCA-3320
+    @TEST_MCA-3320 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a PROGRAMME
       Given there exists a "PROGRAMME" "Top Gear"
       And there exists a "has image" relationship "R1" for "Top Gear"

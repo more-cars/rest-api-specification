@@ -4,7 +4,7 @@ Feature: Create MOTOR SHOW-has-image Relationship
   @RULE_MCA-3655
   Rule: Each MOTOR SHOW can be in a ›has-image‹ relationship with multiple IMAGES
 
-    @TEST_MCA-3656
+    @TEST_MCA-3656 @implemented
     Scenario: Creating multiple ›has-image‹ relationships
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "IMAGE" "BMW Stand"

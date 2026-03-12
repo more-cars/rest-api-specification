@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-belongs-to-programme Relationship
   @RULE_MCA-3419
   Rule: At the same time, each PROGRAMME EPISODE can only be in a ›belongs-to-programme‹ relationship with one PROGRAMME
 
-    @TEST_MCA-3420
+    @TEST_MCA-3420 @implemented
     Scenario: Creating a ›belongs-to-programme‹ relationship with a different PROGRAMME
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "PROGRAMME" "The Grand Tour"

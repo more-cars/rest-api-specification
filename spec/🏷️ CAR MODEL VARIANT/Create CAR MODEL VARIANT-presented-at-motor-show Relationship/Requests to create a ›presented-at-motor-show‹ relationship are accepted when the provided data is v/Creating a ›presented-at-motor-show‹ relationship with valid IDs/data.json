@@ -3,7 +3,9 @@
   "parent_id": "MCA-3701",
   "title": "Creating a ›presented-at-motor-show‹ relationship with valid IDs",
   "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW i8\"\nAnd there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nWhen the user creates a \"presented at motor show\" relationship between \"BMW i8\" and \"IAA Frankfurt\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:43:06.244+0100",
-  "updated_at": "2026-03-11T11:43:10.301+0100"
+  "updated_at": "2026-03-12T18:04:20.154+0100"
 }

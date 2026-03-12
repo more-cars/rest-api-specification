@@ -4,7 +4,7 @@ Feature: Get all CAR MODEL-covered-by-programme-episode Relationships
   @RULE_MCA-3739
   Rule: A list of all ›covered-by-programme-episode‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-3740
+    @TEST_MCA-3740 @implemented
     Scenario: Requesting the ›covered-by-programme-episode‹ relationships when at least one exists
       Given there exists a "CAR MODEL" "McLaren P1"
       And there exist 3 "covered by programme episode" relationships for "McLaren P1"

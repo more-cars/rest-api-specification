@@ -3,7 +3,9 @@
   "parent_id": "MCA-3266",
   "title": "Creating a PROGRAMME with valid data",
   "gherkin": "When the user creates a \"PROGRAMME\" \"Top Gear\" with the following data\n  | key | value | datatype |\n  | name | Top Gear | string |\n  | aired_from_year | 2002 | number |\n  | aired_until_year | 2022 | number |\n  | channel | BBC Two | string |\n  | total_seasons | 33 | number |\n  | total_episodes | 240 | number |\n  | regular_episode_running_time | 60 | number |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"PROGRAMME\" \"Top Gear\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T17:22:47.521+0100",
-  "updated_at": "2026-03-10T17:22:51.589+0100"
+  "updated_at": "2026-03-12T18:02:38.725+0100"
 }

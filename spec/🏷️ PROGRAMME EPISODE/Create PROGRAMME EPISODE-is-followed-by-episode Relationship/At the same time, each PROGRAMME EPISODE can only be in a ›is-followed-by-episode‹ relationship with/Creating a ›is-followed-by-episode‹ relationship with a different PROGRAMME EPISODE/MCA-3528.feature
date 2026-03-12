@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-is-followed-by-episode Relationship
   @RULE_MCA-3527
   Rule: At the same time, each PROGRAMME EPISODE can only be in a ›is-followed-by-episode‹ relationship with one PROGRAMME EPISODE
 
-    @TEST_MCA-3528
+    @TEST_MCA-3528 @implemented
     Scenario: Creating a ›is-followed-by-episode‹ relationship with a different PROGRAMME EPISODE
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "PROGRAMME EPISODE" "Operation Desert Stumble"

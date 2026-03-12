@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE Node
   @RULE_MCA-3279
   Rule: Requests to create a PROGRAMME EPISODE are accepted when the provided data is valid
 
-    @TEST_MCA-3280
+    @TEST_MCA-3280 @implemented
     Scenario: Creating a PROGRAMME EPISODE with valid data
       When the user creates a "PROGRAMME EPISODE" "Polar Special" with the following data
         | key                   | value          | datatype |

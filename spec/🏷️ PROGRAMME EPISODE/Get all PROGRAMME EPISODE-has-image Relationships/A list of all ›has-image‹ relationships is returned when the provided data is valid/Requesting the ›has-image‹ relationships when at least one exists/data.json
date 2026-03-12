@@ -3,7 +3,9 @@
   "parent_id": "MCA-3557",
   "title": "Requesting the ›has-image‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exist 3 \"has image\" relationships for \"The Holy Trinity\"\nWhen the user requests all \"has image\" relationships for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has image\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T20:21:48.274+0100",
-  "updated_at": "2026-03-10T20:21:53.019+0100"
+  "updated_at": "2026-03-12T18:03:47.703+0100"
 }

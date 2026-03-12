@@ -3,7 +3,9 @@
   "parent_id": "MCA-3736",
   "title": "Creating multiple ›covered-by-programme-episode‹ relationships",
   "gherkin": "Given there exists a \"CAR MODEL\" \"McLaren P1\"\nAnd there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity (Alternative)\"\nWhen the user creates a \"covered by programme episode\" relationship between \"McLaren P1\" and \"The Holy Trinity\"\nAnd the user creates a \"covered by programme episode\" relationship between \"McLaren P1\" and \"The Holy Trinity (Alternative)\"\nThen there should exist a \"covered by programme episode\" relationship between \"McLaren P1\" and \"The Holy Trinity\"\nAnd there should exist a \"covered by programme episode\" relationship between \"McLaren P1\" and \"The Holy Trinity (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T12:17:19.856+0100",
-  "updated_at": "2026-03-11T12:17:23.275+0100"
+  "updated_at": "2026-03-12T18:04:28.633+0100"
 }

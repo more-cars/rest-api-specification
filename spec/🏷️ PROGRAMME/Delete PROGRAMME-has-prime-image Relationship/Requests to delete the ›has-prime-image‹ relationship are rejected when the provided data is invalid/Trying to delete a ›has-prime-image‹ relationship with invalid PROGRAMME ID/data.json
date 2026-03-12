@@ -3,7 +3,9 @@
   "parent_id": "MCA-3387",
   "title": "Trying to delete a ›has-prime-image‹ relationship with invalid PROGRAMME ID",
   "gherkin": "Given \"PROGRAMME\" \"The Grand Tour\" does NOT exist\nAnd there exists a \"IMAGE\" \"Top Gear logo\"\nWhen the user deletes the \"has prime image\" relationship between \"The Grand Tour\" and \"Top Gear logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:28:10.380+0100",
-  "updated_at": "2026-03-10T18:28:13.697+0100"
+  "updated_at": "2026-03-12T18:03:07.597+0100"
 }

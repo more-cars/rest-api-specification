@@ -3,7 +3,7 @@
   "parent_id": "MCA-3366",
   "title": "At the same time, each PROGRAMME can only be in a ›has-prime-image‹ relationship with one IMAGE",
   "description": "Connecting a different IMAGE will delete the previous relationship.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T18:22:16.301+0100",
-  "updated_at": "2026-03-10T18:22:23.017+0100"
+  "updated_at": "2026-03-12T17:30:35.593+0100"
 }

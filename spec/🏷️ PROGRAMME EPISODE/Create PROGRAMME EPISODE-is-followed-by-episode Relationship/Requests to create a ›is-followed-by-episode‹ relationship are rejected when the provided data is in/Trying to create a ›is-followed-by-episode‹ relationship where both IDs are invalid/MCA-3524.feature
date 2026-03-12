@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-is-followed-by-episode Relationship
   @RULE_MCA-3521
   Rule: Requests to create a ›is-followed-by-episode‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3524
+    @TEST_MCA-3524 @implemented
     Scenario: Trying to create a ›is-followed-by-episode‹ relationship where both IDs are invalid
       Given "PROGRAMME EPISODE" "The Holy Trinity" does NOT exist
       And "PROGRAMME EPISODE" "Operation Desert Stumble" does NOT exist

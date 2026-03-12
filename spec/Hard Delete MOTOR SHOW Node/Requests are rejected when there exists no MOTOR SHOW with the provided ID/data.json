@@ -3,7 +3,7 @@
   "parent_id": "MCA-3612",
   "title": "Requests are rejected when there exists no MOTOR SHOW with the provided ID",
   "description": "When there exists no node with the provided ID -> rejected.\nWhen there exists a node with the provided ID, but it is not from type MOTOR SHOW -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-11T11:01:28.809+0100",
-  "updated_at": "2026-03-11T11:01:35.605+0100"
+  "updated_at": "2026-03-12T17:29:49.812+0100"
 }

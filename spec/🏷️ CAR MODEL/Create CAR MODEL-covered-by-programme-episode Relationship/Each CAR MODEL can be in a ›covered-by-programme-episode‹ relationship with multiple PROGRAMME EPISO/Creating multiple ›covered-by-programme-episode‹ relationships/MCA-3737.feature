@@ -4,7 +4,7 @@ Feature: Create CAR MODEL-covered-by-programme-episode Relationship
   @RULE_MCA-3736
   Rule: Each CAR MODEL can be in a ›covered-by-programme-episode‹ relationship with multiple PROGRAMME EPISODES
 
-    @TEST_MCA-3737
+    @TEST_MCA-3737 @implemented
     Scenario: Creating multiple ›covered-by-programme-episode‹ relationships
       Given there exists a "CAR MODEL" "McLaren P1"
       And there exists a "PROGRAMME EPISODE" "The Holy Trinity"

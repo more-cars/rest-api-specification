@@ -3,7 +3,9 @@
   "parent_id": "MCA-3317",
   "title": "Trying to hard-delete a non-existing PROGRAMME",
   "gherkin": "Given \"PROGRAMME\" \"Top Gear\" does NOT exist\nWhen the user hard-deletes the \"PROGRAMME\" \"Top Gear\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:03:27.497+0100",
-  "updated_at": "2026-03-10T18:03:31.102+0100"
+  "updated_at": "2026-03-12T18:02:50.894+0100"
 }

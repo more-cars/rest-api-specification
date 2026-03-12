@@ -7,7 +7,7 @@ Feature: Delete CAR MODEL-covered-by-programme-episode Relationship
   @RULE_MCA-3752
   Rule: Requests to delete the ›covered-by-programme-episode‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-3753
+    @TEST_MCA-3753 @implemented
     Scenario: Trying to delete a non-existent ›covered-by-programme-episode‹ relationship
       Given there exists a "CAR MODEL" "McLaren P1"
       And there exists a "PROGRAMME EPISODE" "Funeral for a Ford"

@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-belongs-to-programme Relationship
   @RULE_MCA-3417
   Rule: The same ›belongs-to-programme‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3418
+    @TEST_MCA-3418 @implemented
     Scenario: Trying to create the same ›belongs-to-programme‹ relationship again
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "PROGRAMME" "The Grand Tour"

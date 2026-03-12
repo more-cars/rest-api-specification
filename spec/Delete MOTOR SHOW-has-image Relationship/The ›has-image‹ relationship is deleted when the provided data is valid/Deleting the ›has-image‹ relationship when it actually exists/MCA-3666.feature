@@ -7,7 +7,7 @@ Feature: Delete MOTOR SHOW-has-image Relationship
   @RULE_MCA-3665
   Rule: The ›has-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3666
+    @TEST_MCA-3666 @implemented
     Scenario: Deleting the ›has-image‹ relationship when it actually exists
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "IMAGE" "Paris Motor Show logo"

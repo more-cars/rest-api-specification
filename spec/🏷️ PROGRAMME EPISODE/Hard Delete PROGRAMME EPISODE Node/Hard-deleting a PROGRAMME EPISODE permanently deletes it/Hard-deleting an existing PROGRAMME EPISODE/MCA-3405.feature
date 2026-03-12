@@ -7,7 +7,7 @@ Feature: Hard Delete PROGRAMME EPISODE Node
   @RULE_MCA-3404
   Rule: Hard-deleting a PROGRAMME EPISODE permanently deletes it
 
-    @TEST_MCA-3405
+    @TEST_MCA-3405 @implemented
     Scenario: Hard-deleting an existing PROGRAMME EPISODE
       Given there exists a "PROGRAMME EPISODE" "Top Gear"
       When the user hard-deletes the "PROGRAMME EPISODE" "Top Gear"

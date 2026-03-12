@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3774",
+  "parent_id": "MCA-3773",
+  "title": "Deleting the ›featured-in-programme-episode‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"McLaren P1\"\nAnd there exists a \"PROGRAMME EPISODE\" \"Funeral for a Ford\"\nAnd there exists a \"featured in programme episode\" relationship \"R\" between \"McLaren P1\" and \"Funeral for a Ford\"\nWhen the user deletes the \"featured in programme episode\" relationship between \"McLaren P1\" and \"Funeral for a Ford\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-11T12:28:14.825+0100",
+  "updated_at": "2026-03-12T18:04:36.989+0100"
+}

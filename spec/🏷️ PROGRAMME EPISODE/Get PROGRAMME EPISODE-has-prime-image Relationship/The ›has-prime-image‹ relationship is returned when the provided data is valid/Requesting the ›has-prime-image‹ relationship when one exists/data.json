@@ -3,7 +3,9 @@
   "parent_id": "MCA-3584",
   "title": "Requesting the ›has-prime-image‹ relationship when one exists",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"has prime image\" relationship \"R\" for \"The Holy Trinity\"\nWhen the user requests the \"has prime image\" relationship for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T20:45:22.625+0100",
-  "updated_at": "2026-03-10T20:45:26.145+0100"
+  "updated_at": "2026-03-12T18:03:53.924+0100"
 }

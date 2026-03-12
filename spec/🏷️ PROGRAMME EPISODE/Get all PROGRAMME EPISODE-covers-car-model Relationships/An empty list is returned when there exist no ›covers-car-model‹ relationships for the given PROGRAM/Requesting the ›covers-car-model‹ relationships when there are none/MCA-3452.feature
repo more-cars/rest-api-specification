@@ -4,7 +4,7 @@ Feature: Get all PROGRAMME EPISODE-covers-car-model Relationships
   @RULE_MCA-3451
   Rule: An empty list is returned when there exist no ›covers-car-model‹ relationships for the given PROGRAMME EPISODE
 
-    @TEST_MCA-3452
+    @TEST_MCA-3452 @implemented
     Scenario: Requesting the ›covers-car-model‹ relationships when there are none
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exist 0 "covers car model" relationships for "The Holy Trinity"

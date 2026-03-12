@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-features-car-model-variant Relationship
   @RULE_MCA-3485
   Rule: Requests to delete the ›features-car-model-variant‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3486
+    @TEST_MCA-3486 @implemented
     Scenario: Trying to delete a ›features-car-model-variant‹ relationship with invalid PROGRAMME EPISODE ID
       Given "PROGRAMME EPISODE" "The Holy Trinity" does NOT exist
       And there exists a "CAR MODEL VARIANT" "Lada Samara"

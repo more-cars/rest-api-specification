@@ -7,7 +7,7 @@ Feature: Create PROGRAMME Node
   @RULE_MCA-3268
   Rule: Requests to create a PROGRAMME are rejected when the provided data is invalid
 
-    @TEST_MCA-3270
+    @TEST_MCA-3270 @implemented
     Scenario: Trying to create a PROGRAMME with invalid data types
       When the user tries to create a "PROGRAMME" "Top Gear" with the following data
         | key                          | value    | datatype |

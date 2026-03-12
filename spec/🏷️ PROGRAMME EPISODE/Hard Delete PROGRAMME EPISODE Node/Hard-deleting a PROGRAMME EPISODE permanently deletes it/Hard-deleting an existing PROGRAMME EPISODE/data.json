@@ -3,7 +3,9 @@
   "parent_id": "MCA-3404",
   "title": "Hard-deleting an existing PROGRAMME EPISODE",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"Top Gear\"\nWhen the user hard-deletes the \"PROGRAMME EPISODE\" \"Top Gear\"\nThen the response should return with status code 204\nAnd the \"PROGRAMME EPISODE\" \"Top Gear\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:41:33.566+0100",
-  "updated_at": "2026-03-10T18:41:37.553+0100"
+  "updated_at": "2026-03-12T18:03:11.053+0100"
 }

@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-belongs-to-programme Relationship
   @RULE_MCA-3435
   Rule: Requests to delete the ›belongs-to-programme‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-3436
+    @TEST_MCA-3436 @implemented
     Scenario: Trying to delete a non-existent ›belongs-to-programme‹ relationship
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "PROGRAMME" "Top Gear"

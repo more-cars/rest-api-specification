@@ -3,7 +3,7 @@
   "parent_id": "MCA-3545",
   "title": "Requests to create a ›has-image‹ relationship are accepted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type PROGRAMME EPISODE resp. IMAGE.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T20:19:13.573+0100",
-  "updated_at": "2026-03-10T20:19:19.868+0100"
+  "updated_at": "2026-03-12T17:30:02.122+0100"
 }

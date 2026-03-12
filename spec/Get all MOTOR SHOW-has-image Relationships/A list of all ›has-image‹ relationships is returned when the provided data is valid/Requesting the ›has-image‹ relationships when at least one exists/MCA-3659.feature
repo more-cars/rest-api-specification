@@ -4,7 +4,7 @@ Feature: Get all MOTOR SHOW-has-image Relationships
   @RULE_MCA-3658
   Rule: A list of all ›has-image‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-3659
+    @TEST_MCA-3659 @implemented
     Scenario: Requesting the ›has-image‹ relationships when at least one exists
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exist 3 "has image" relationships for "IAA Frankfurt"

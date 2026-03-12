@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-features-car-model-variant Relationship
   @RULE_MCA-3473
   Rule: Each PROGRAMME EPISODE can be in a ›features-car-model-variant‹ relationship with multiple CAR MODEL VARIANTS
 
-    @TEST_MCA-3474
+    @TEST_MCA-3474 @implemented
     Scenario: Creating multiple ›features-car-model-variant‹ relationships
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "CAR MODEL VARIANT" "Ferrari LaFerrari"

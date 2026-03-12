@@ -3,7 +3,9 @@
   "parent_id": "MCA-3337",
   "title": "Trying to fetch the ›has-episode‹ relationships with an invalid PROGRAMME ID",
   "gherkin": "Given \"PROGRAMME\" \"The Grand Tour\" does NOT exist\nWhen the user requests all \"has episode\" relationships for \"The Grand Tour\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:10:16.844+0100",
-  "updated_at": "2026-03-10T18:10:20.571+0100"
+  "updated_at": "2026-03-12T18:02:55.530+0100"
 }

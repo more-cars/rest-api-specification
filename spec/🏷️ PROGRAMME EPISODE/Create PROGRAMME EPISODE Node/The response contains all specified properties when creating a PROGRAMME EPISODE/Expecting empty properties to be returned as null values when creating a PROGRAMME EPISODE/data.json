@@ -3,7 +3,9 @@
   "parent_id": "MCA-3284",
   "title": "Expecting empty properties to be returned as null values when creating a PROGRAMME EPISODE",
   "gherkin": "When the user creates a \"PROGRAMME EPISODE\" \"Polar Special\" with the following data\n  | key | value | datatype |\n  | title | The Falls Guys | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | title | The Falls Guys | string |\n  | season_number |  | number |\n  | season_episode_number |  | number |\n  | original_air_date |  | string |\n  | duration |  | string |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T17:49:31.775+0100",
-  "updated_at": "2026-03-10T17:49:35.288+0100"
+  "updated_at": "2026-03-12T18:02:44.134+0100"
 }

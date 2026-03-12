@@ -3,7 +3,9 @@
   "parent_id": "MCA-3610",
   "title": "Requesting all MOTOR SHOW nodes when none exist",
   "gherkin": "Given there exist 0 \"MOTOR SHOW\"s\nWhen the user requests a \"MOTOR SHOW\" collection\nThen the response should return a collection of 0 \"MOTOR SHOW\"s\nAnd the response should return with status code 200",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:00:31.579+0100",
-  "updated_at": "2026-03-11T11:00:35.266+0100"
+  "updated_at": "2026-03-12T18:03:58.740+0100"
 }

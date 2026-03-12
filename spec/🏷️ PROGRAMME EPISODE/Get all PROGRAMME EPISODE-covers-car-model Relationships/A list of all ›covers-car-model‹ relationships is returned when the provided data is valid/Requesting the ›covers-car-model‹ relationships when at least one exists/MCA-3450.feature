@@ -4,7 +4,7 @@ Feature: Get all PROGRAMME EPISODE-covers-car-model Relationships
   @RULE_MCA-3449
   Rule: A list of all ›covers-car-model‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-3450
+    @TEST_MCA-3450 @implemented
     Scenario: Requesting the ›covers-car-model‹ relationships when at least one exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exist 3 "covers car model" relationships for "The Holy Trinity"

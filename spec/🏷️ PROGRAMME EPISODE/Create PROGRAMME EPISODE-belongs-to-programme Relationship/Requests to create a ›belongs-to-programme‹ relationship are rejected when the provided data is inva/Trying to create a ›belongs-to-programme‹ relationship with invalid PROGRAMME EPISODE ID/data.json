@@ -3,7 +3,9 @@
   "parent_id": "MCA-3413",
   "title": "Trying to create a ›belongs-to-programme‹ relationship with invalid PROGRAMME EPISODE ID",
   "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nAnd there exists a \"PROGRAMME\" \"The Grand Tour\"\nWhen the user creates a \"belongs to programme\" relationship between \"The Holy Trinity\" and \"The Grand Tour\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:47:50.308+0100",
-  "updated_at": "2026-03-10T18:47:53.989+0100"
+  "updated_at": "2026-03-12T18:03:13.152+0100"
 }

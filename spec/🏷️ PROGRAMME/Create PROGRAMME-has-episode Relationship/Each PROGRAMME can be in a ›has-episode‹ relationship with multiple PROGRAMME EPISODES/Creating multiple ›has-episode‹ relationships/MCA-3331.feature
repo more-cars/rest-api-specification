@@ -4,7 +4,7 @@ Feature: Create PROGRAMME-has-episode Relationship
   @RULE_MCA-3330
   Rule: Each PROGRAMME can be in a ›has-episode‹ relationship with multiple PROGRAMME EPISODES
 
-    @TEST_MCA-3331
+    @TEST_MCA-3331 @implemented
     Scenario: Creating multiple ›has-episode‹ relationships
       Given there exists a "PROGRAMME" "The Grand Tour"
       And there exists a "PROGRAMME EPISODE" "The Holy Trinity"

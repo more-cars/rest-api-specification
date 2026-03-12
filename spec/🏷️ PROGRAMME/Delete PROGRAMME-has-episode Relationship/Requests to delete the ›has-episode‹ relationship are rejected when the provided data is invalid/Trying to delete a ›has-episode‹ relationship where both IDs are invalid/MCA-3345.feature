@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME-has-episode Relationship
   @RULE_MCA-3342
   Rule: Requests to delete the ›has-episode‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3345
+    @TEST_MCA-3345 @implemented
     Scenario: Trying to delete a ›has-episode‹ relationship where both IDs are invalid
       Given "PROGRAMME" "The Grand Tour" does NOT exist
       And "PROGRAMME EPISODE" "Top Gear Special" does NOT exist

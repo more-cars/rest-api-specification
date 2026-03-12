@@ -8,7 +8,7 @@ Feature: Get all MOTOR SHOW Nodes
   @RULE_MCA-3610
   Rule: An empty list is returned when there exist no MOTOR SHOWS
 
-    @TEST_MCA-3611
+    @TEST_MCA-3611 @implemented
     Scenario: Requesting all MOTOR SHOW nodes when none exist
       Given there exist 0 "MOTOR SHOW"s
       When the user requests a "MOTOR SHOW" collection

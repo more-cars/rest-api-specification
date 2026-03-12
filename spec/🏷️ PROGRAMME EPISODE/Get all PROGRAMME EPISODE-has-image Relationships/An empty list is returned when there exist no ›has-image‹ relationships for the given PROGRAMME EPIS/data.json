@@ -3,7 +3,7 @@
   "parent_id": "MCA-3556",
   "title": "An empty list is returned when there exist no ›has-image‹ relationships for the given PROGRAMME EPISODE",
   "description": "",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T20:21:53.654+0100",
-  "updated_at": "2026-03-10T20:21:59.655+0100"
+  "updated_at": "2026-03-12T17:29:59.444+0100"
 }

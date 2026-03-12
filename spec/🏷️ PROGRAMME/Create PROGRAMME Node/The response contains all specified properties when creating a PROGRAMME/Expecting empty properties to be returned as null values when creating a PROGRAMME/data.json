@@ -3,7 +3,9 @@
   "parent_id": "MCA-3271",
   "title": "Expecting empty properties to be returned as null values when creating a PROGRAMME",
   "gherkin": "When the user creates a \"PROGRAMME\" \"Top Gear\" with the following data\n  | key | value | datatype |\n  | name | Top Gear | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Top Gear | string |\n  | aired_from_year |  | number |\n  | aired_until_year |  | number |\n  | channel |  | string |\n  | total_seasons |  | number |\n  | total_episodes |  | number |\n  | regular_episode_running_time |  | number |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T17:23:14.008+0100",
-  "updated_at": "2026-03-10T17:23:17.456+0100"
+  "updated_at": "2026-03-12T18:02:40.797+0100"
 }

@@ -7,7 +7,7 @@ Feature: Create PROGRAMME Node
   @RULE_MCA-3271
   Rule: The response contains all specified properties when creating a PROGRAMME
 
-    @TEST_MCA-3272
+    @TEST_MCA-3272 @implemented
     Scenario: Expecting all properties to be returned when creating a PROGRAMME
       When the user creates a "PROGRAMME" "Top Gear" with the following data
         | key                          | value    | datatype |

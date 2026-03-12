@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-follows-episode Relationship
   @RULE_MCA-3500
   Rule: At the same time, each PROGRAMME EPISODE can only be in a ›follows-episode‹ relationship with one PROGRAMME EPISODE
 
-    @TEST_MCA-3501
+    @TEST_MCA-3501 @implemented
     Scenario: Creating a ›follows-episode‹ relationship with a different PROGRAMME EPISODE
       Given there exists a "PROGRAMME EPISODE" "Blasts from the past"
       And there exists a "PROGRAMME EPISODE" "It is a gas, gas, gas"

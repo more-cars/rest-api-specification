@@ -4,7 +4,7 @@ Feature: Get all MOTOR SHOW-presents-car-model-variant Relationships
   @RULE_MCA-3631
   Rule: A list of all ›presents-car-model-variant‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-3632
+    @TEST_MCA-3632 @implemented
     Scenario: Requesting the ›presents-car-model-variant‹ relationships when at least one exists
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exist 3 "presents car model variant" relationships for "IAA Frankfurt"

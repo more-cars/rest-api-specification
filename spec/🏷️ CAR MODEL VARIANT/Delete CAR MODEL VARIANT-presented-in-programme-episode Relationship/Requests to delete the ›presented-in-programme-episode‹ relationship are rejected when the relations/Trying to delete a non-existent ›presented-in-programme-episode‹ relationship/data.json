@@ -1,9 +1,0 @@
-{
-  "id": "MCA-3780",
-  "parent_id": "MCA-3779",
-  "title": "Trying to delete a non-existent ›presented-in-programme-episode‹ relationship",
-  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"McLaren P1\"\nAnd there exists a \"PROGRAMME EPISODE\" \"Funeral for a Ford\"\nAnd there exists NO \"presented in programme episode\" relationship between \"McLaren P1\" and \"Funeral for a Ford\"\nWhen the user deletes the \"presented in programme episode\" relationship between \"McLaren P1\" and \"Funeral for a Ford\"\nThen the request should be rejected with status code 404",
-  "labels": [],
-  "created_at": "2026-03-11T12:28:58.109+0100",
-  "updated_at": "2026-03-11T12:29:01.905+0100"
-}

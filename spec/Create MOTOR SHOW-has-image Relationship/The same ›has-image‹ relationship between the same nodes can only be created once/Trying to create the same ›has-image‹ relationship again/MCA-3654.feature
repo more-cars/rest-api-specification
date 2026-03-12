@@ -4,7 +4,7 @@ Feature: Create MOTOR SHOW-has-image Relationship
   @RULE_MCA-3653
   Rule: The same ›has-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3654
+    @TEST_MCA-3654 @implemented
     Scenario: Trying to create the same ›has-image‹ relationship again
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "IMAGE" "BMW Stand"

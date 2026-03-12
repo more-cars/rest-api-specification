@@ -3,7 +3,9 @@
   "parent_id": "MCA-3449",
   "title": "Requesting the ›covers-car-model‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exist 3 \"covers car model\" relationships for \"The Holy Trinity\"\nWhen the user requests all \"covers car model\" relationships for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"covers car model\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T19:07:53.422+0100",
-  "updated_at": "2026-03-10T19:07:57.088+0100"
+  "updated_at": "2026-03-12T18:03:22.086+0100"
 }

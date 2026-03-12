@@ -4,7 +4,7 @@ Feature: Get PROGRAMME EPISODE-is-followed-by-episode Relationship
   @RULE_MCA-3530
   Rule: The ›is-followed-by-episode‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-3531
+    @TEST_MCA-3531 @implemented
     Scenario: Requesting the ›is-followed-by-episode‹ relationship when one exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "is followed by episode" relationship "R" for "The Holy Trinity"

@@ -7,7 +7,7 @@ Feature: Hard Delete PROGRAMME EPISODE Node
   @RULE_MCA-3408
   Rule: Hard-deleting a PROGRAMME EPISODE permanently deletes all attached relationships
 
-    @TEST_MCA-3409
+    @TEST_MCA-3409 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a PROGRAMME EPISODE
       Given there exists a "PROGRAMME EPISODE" "Top Gear"
       And there exists a "has image" relationship "R1" for "Top Gear"

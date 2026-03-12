@@ -8,7 +8,7 @@ Feature: Get all PROGRAMME Nodes
   @RULE_MCA-3312
   Rule: An empty list is returned when there exist no PROGRAMMES
 
-    @TEST_MCA-3313
+    @TEST_MCA-3313 @implemented
     Scenario: Requesting all PROGRAMME nodes when none exist
       Given there exist 0 "PROGRAMME"s
       When the user requests a "PROGRAMME" collection

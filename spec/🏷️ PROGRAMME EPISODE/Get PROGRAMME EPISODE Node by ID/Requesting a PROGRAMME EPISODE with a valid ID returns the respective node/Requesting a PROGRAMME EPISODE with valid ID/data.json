@@ -3,7 +3,9 @@
   "parent_id": "MCA-3394",
   "title": "Requesting a PROGRAMME EPISODE with valid ID",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nWhen the user requests the \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nThen the response should return with status code 200\nAnd the response should return the \"PROGRAMME EPISODE\" \"The Holy Trinity\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:37:16.453+0100",
-  "updated_at": "2026-03-10T18:37:19.692+0100"
+  "updated_at": "2026-03-12T18:03:09.314+0100"
 }

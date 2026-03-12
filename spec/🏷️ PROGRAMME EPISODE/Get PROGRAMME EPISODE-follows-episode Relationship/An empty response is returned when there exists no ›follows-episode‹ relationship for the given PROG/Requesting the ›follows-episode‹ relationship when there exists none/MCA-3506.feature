@@ -4,7 +4,7 @@ Feature: Get PROGRAMME EPISODE-follows-episode Relationship
   @RULE_MCA-3505
   Rule: An empty response is returned when there exists no ›follows-episode‹ relationship for the given PROGRAMME EPISODE
 
-    @TEST_MCA-3506
+    @TEST_MCA-3506 @implemented
     Scenario: Requesting the ›follows-episode‹ relationship when there exists none
       Given there exists a "PROGRAMME EPISODE" "Funeral for a Ford"
       And there exists NO "follows episode" relationship for "Funeral for a Ford"

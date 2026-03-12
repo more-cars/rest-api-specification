@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE Node
   @RULE_MCA-3289
   Rule: Read-only properties cannot be overridden by the user when creating a PROGRAMME EPISODE
 
-    @TEST_MCA-3290
+    @TEST_MCA-3290 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a PROGRAMME EPISODE
       When the user creates a "PROGRAMME EPISODE" "Polar Special" with the following data
         | key                   | value          | datatype |

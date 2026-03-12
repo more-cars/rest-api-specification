@@ -8,7 +8,7 @@ Feature: Get all PROGRAMME Nodes
   @RULE_MCA-3310
   Rule: Requesting all nodes returns a list of PROGRAMMES
 
-    @TEST_MCA-3311
+    @TEST_MCA-3311 @implemented
     Scenario: Requesting all PROGRAMME nodes when at least 1 exists
       Given there exist 3 "PROGRAMME"s
       When the user requests a "PROGRAMME" collection

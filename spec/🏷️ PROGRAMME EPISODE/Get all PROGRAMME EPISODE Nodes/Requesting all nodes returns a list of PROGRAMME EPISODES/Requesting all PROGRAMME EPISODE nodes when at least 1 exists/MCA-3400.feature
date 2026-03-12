@@ -8,7 +8,7 @@ Feature: Get all PROGRAMME EPISODE Nodes
   @RULE_MCA-3399
   Rule: Requesting all nodes returns a list of PROGRAMME EPISODES
 
-    @TEST_MCA-3400
+    @TEST_MCA-3400 @implemented
     Scenario: Requesting all PROGRAMME EPISODE nodes when at least 1 exists
       Given there exist 3 "PROGRAMME EPISODE"s
       When the user requests a "PROGRAMME EPISODE" collection

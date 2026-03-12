@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-has-prime-image Relationship
   @RULE_MCA-3575
   Rule: Requests to create a ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3577
+    @TEST_MCA-3577 @implemented
     Scenario: Trying to create a ›has-prime-image‹ relationship with invalid IMAGE ID
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And "IMAGE" "TGT logo" does NOT exist

@@ -4,7 +4,7 @@ Feature: Get all PROGRAMME-has-image Relationships
   @RULE_MCA-3364
   Rule: A request to fetch all ›has-image‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-3365
+    @TEST_MCA-3365 @implemented
     Scenario: Trying to fetch the ›has-image‹ relationships with an invalid PROGRAMME ID
       Given "PROGRAMME" "The Grand Tour" does NOT exist
       When the user requests all "has image" relationships for "The Grand Tour"

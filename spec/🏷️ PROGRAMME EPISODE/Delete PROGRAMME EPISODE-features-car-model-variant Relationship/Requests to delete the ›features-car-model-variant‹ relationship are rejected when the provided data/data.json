@@ -3,7 +3,7 @@
   "parent_id": "MCA-3482",
   "title": "Requests to delete the ›features-car-model-variant‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no PROGRAMME EPISODE with the provided ID? -> rejected.\nThere exists no CAR MODEL VARIANT with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T19:34:44.885+0100",
-  "updated_at": "2026-03-10T19:35:02.275+0100"
+  "updated_at": "2026-03-12T17:30:13.910+0100"
 }

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3633",
   "title": "Requesting the ›presents-car-model-variant‹ relationships when there are none",
   "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exist 0 \"presents car model variant\" relationships for \"IAA Frankfurt\"\nWhen the user requests all \"presents car model variant\" relationships for \"IAA Frankfurt\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:08:33.637+0100",
-  "updated_at": "2026-03-11T11:08:37.398+0100"
+  "updated_at": "2026-03-12T18:04:03.847+0100"
 }

@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE Node
   @RULE_MCA-3287
   Rule: Unknown properties are ignored when creating a PROGRAMME EPISODE
 
-    @TEST_MCA-3288
+    @TEST_MCA-3288 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a PROGRAMME EPISODE
       When the user creates a "PROGRAMME EPISODE" "Polar Special" with the following data
         | key                   | value          | datatype |

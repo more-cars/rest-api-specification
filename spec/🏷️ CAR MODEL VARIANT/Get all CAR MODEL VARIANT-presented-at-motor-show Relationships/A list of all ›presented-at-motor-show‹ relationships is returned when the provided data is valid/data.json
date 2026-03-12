@@ -3,7 +3,7 @@
   "parent_id": "MCA-3711",
   "title": "A list of all ›presented-at-motor-show‹ relationships is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a CAR MODEL VARIANT node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-11T11:44:46.067+0100",
-  "updated_at": "2026-03-11T11:44:53.062+0100"
+  "updated_at": "2026-03-12T17:29:32.261+0100"
 }

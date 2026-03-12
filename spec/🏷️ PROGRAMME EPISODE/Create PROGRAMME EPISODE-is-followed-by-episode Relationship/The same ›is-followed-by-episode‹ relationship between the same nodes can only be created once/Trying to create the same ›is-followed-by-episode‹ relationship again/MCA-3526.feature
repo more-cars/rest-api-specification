@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-is-followed-by-episode Relationship
   @RULE_MCA-3525
   Rule: The same ›is-followed-by-episode‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3526
+    @TEST_MCA-3526 @implemented
     Scenario: Trying to create the same ›is-followed-by-episode‹ relationship again
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "PROGRAMME EPISODE" "Operation Desert Stumble"

@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-covers-car-model Relationship
   @RULE_MCA-3456
   Rule: The ›covers-car-model‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3457
+    @TEST_MCA-3457 @implemented
     Scenario: Deleting the ›covers-car-model‹ relationship when it actually exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "CAR MODEL" "Twingo"

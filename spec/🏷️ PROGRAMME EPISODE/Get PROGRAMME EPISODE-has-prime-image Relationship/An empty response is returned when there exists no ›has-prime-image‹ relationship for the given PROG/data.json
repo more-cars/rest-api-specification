@@ -3,7 +3,7 @@
   "parent_id": "MCA-3583",
   "title": "An empty response is returned when there exists no ›has-prime-image‹ relationship for the given PROGRAMME EPISODE",
   "description": "",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T20:45:26.836+0100",
-  "updated_at": "2026-03-10T20:45:33.735+0100"
+  "updated_at": "2026-03-12T17:29:54.735+0100"
 }

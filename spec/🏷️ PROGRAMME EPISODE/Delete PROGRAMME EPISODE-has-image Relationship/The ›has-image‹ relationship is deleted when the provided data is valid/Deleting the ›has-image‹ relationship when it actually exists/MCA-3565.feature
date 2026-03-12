@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-has-image Relationship
   @RULE_MCA-3564
   Rule: The ›has-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3565
+    @TEST_MCA-3565 @implemented
     Scenario: Deleting the ›has-image‹ relationship when it actually exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "IMAGE" "Top Gear logo"

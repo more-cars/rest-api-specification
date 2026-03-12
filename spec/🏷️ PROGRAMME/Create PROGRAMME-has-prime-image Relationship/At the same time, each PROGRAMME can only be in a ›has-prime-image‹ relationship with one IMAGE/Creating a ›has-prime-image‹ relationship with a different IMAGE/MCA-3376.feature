@@ -4,7 +4,7 @@ Feature: Create PROGRAMME-has-prime-image Relationship
   @RULE_MCA-3375
   Rule: At the same time, each PROGRAMME can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-3376
+    @TEST_MCA-3376 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "PROGRAMME" "The Grand Tour"
       And there exists a "IMAGE" "TGT logo"

@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW Node
   @RULE_MCA-3300
   Rule: Unknown properties are ignored when creating a MOTOR SHOW
 
-    @TEST_MCA-3301
+    @TEST_MCA-3301 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a MOTOR SHOW
       When the user creates a "MOTOR SHOW" "IAA 2017" with the following data
         | key             | value              | datatype |

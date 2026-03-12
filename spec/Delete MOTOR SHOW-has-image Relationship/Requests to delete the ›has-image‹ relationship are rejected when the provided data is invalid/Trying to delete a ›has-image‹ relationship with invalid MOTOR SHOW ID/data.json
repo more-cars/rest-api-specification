@@ -3,7 +3,9 @@
   "parent_id": "MCA-3667",
   "title": "Trying to delete a ›has-image‹ relationship with invalid MOTOR SHOW ID",
   "gherkin": "Given \"MOTOR SHOW\" \"IAA Frankfurt\" does NOT exist\nAnd there exists a \"IMAGE\" \"Paris Motor Show logo\"\nWhen the user deletes the \"has image\" relationship between \"IAA Frankfurt\" and \"Paris Motor Show logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:20:16.197+0100",
-  "updated_at": "2026-03-11T11:20:20.918+0100"
+  "updated_at": "2026-03-12T18:04:11.905+0100"
 }

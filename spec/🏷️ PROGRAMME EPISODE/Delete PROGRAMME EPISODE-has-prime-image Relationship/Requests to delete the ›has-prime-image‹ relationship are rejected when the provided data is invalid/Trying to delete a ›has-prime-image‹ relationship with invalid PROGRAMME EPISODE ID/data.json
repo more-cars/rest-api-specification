@@ -3,7 +3,9 @@
   "parent_id": "MCA-3593",
   "title": "Trying to delete a ›has-prime-image‹ relationship with invalid PROGRAMME EPISODE ID",
   "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nAnd there exists a \"IMAGE\" \"Top Gear logo\"\nWhen the user deletes the \"has prime image\" relationship between \"The Holy Trinity\" and \"Top Gear logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T20:48:25.974+0100",
-  "updated_at": "2026-03-10T20:48:29.159+0100"
+  "updated_at": "2026-03-12T18:03:55.679+0100"
 }

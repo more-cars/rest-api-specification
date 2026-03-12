@@ -4,7 +4,7 @@ Feature: Create MOTOR SHOW-presents-car-model-variant Relationship
   @RULE_MCA-3622
   Rule: Requests to create a ›presents-car-model-variant‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3623
+    @TEST_MCA-3623 @implemented
     Scenario: Trying to create a ›presents-car-model-variant‹ relationship with invalid MOTOR SHOW ID
       Given "MOTOR SHOW" "IAA Frankfurt" does NOT exist
       And there exists a "CAR MODEL VARIANT" "BMW M760Li"

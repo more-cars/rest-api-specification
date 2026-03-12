@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-has-image Relationship
   @RULE_MCA-3554
   Rule: Each PROGRAMME EPISODE can be in a ›has-image‹ relationship with multiple IMAGES
 
-    @TEST_MCA-3555
+    @TEST_MCA-3555 @implemented
     Scenario: Creating multiple ›has-image‹ relationships
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "IMAGE" "TGT logo"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3712",
   "title": "Requesting the ›presented-at-motor-show‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW i8\"\nAnd there exist 3 \"presented at motor show\" relationships for \"BMW i8\"\nWhen the user requests all \"presented at motor show\" relationships for \"BMW i8\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"presented at motor show\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:44:49.334+0100",
-  "updated_at": "2026-03-11T11:44:53.026+0100"
+  "updated_at": "2026-03-12T18:04:22.839+0100"
 }

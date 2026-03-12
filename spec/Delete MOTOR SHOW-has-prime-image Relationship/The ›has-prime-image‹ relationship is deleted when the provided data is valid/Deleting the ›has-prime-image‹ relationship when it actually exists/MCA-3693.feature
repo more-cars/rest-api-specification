@@ -7,7 +7,7 @@ Feature: Delete MOTOR SHOW-has-prime-image Relationship
   @RULE_MCA-3692
   Rule: The ›has-prime-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3693
+    @TEST_MCA-3693 @implemented
     Scenario: Deleting the ›has-prime-image‹ relationship when it actually exists
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "IMAGE" "CES logo"

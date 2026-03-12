@@ -7,7 +7,7 @@ Feature: Get PROGRAMME EPISODE Node by ID
   @RULE_MCA-3396
   Rule: Requests are rejected when there exists no PROGRAMME EPISODE with the provided ID
 
-    @TEST_MCA-3397
+    @TEST_MCA-3397 @implemented
     Scenario: Requesting a PROGRAMME EPISODE with invalid ID
       When the user requests a non-existing "PROGRAMME EPISODE"
       Then the request should be rejected with status code 404

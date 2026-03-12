@@ -4,7 +4,7 @@ Feature: Get all MOTOR SHOW-has-image Relationships
   @RULE_MCA-3660
   Rule: An empty list is returned when there exist no ›has-image‹ relationships for the given MOTOR SHOW
 
-    @TEST_MCA-3661
+    @TEST_MCA-3661 @implemented
     Scenario: Requesting the ›has-image‹ relationships when there are none
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exist 0 "has image" relationships for "IAA Frankfurt"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3689",
   "title": "Trying to fetch the ›has-prime-image‹ relationship with an invalid MOTOR SHOW ID",
   "gherkin": "Given \"MOTOR SHOW\" \"IAA Frankfurt\" does NOT exist\nWhen the user requests the \"has prime image\" relationship for \"IAA Frankfurt\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:26:49.590+0100",
-  "updated_at": "2026-03-11T11:26:53.269+0100"
+  "updated_at": "2026-03-12T18:04:17.342+0100"
 }

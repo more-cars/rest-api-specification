@@ -7,7 +7,7 @@ Feature: Get PROGRAMME Node by ID
   @RULE_MCA-3305
   Rule: Requesting a PROGRAMME with a valid ID returns the respective node
 
-    @TEST_MCA-3306
+    @TEST_MCA-3306 @implemented
     Scenario: Requesting a PROGRAMME with valid ID
       Given there exists a "PROGRAMME" "Top Gear"
       When the user requests the "PROGRAMME" "Top Gear"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3446",
   "title": "Creating multiple ›covers-car-model‹ relationships",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"CAR MODEL\" \"LaFerrari\"\nAnd there exists a \"CAR MODEL\" \"LaFerrari (Alternative)\"\nWhen the user creates a \"covers car model\" relationship between \"The Holy Trinity\" and \"LaFerrari\"\nAnd the user creates a \"covers car model\" relationship between \"The Holy Trinity\" and \"LaFerrari (Alternative)\"\nThen there should exist a \"covers car model\" relationship between \"The Holy Trinity\" and \"LaFerrari\"\nAnd there should exist a \"covers car model\" relationship between \"The Holy Trinity\" and \"LaFerrari (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T19:04:15.997+0100",
-  "updated_at": "2026-03-10T19:04:20.818+0100"
+  "updated_at": "2026-03-12T18:03:21.656+0100"
 }

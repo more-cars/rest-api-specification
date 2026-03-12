@@ -3,7 +3,7 @@
   "parent_id": "MCA-3545",
   "title": "Each PROGRAMME EPISODE can be in a ›has-image‹ relationship with multiple IMAGES",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T20:19:49.898+0100",
-  "updated_at": "2026-03-10T20:19:56.699+0100"
+  "updated_at": "2026-03-12T17:30:00.405+0100"
 }

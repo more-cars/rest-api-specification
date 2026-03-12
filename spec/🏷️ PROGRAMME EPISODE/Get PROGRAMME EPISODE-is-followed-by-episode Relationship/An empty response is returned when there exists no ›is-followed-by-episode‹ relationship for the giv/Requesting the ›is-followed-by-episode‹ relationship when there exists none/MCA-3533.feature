@@ -4,7 +4,7 @@ Feature: Get PROGRAMME EPISODE-is-followed-by-episode Relationship
   @RULE_MCA-3532
   Rule: An empty response is returned when there exists no ›is-followed-by-episode‹ relationship for the given PROGRAMME EPISODE
 
-    @TEST_MCA-3533
+    @TEST_MCA-3533 @implemented
     Scenario: Requesting the ›is-followed-by-episode‹ relationship when there exists none
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists NO "is followed by episode" relationship for "The Holy Trinity"

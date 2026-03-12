@@ -7,7 +7,7 @@ Feature: Delete CAR MODEL-covered-by-programme-episode Relationship
   @RULE_MCA-3746
   Rule: The ›covered-by-programme-episode‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3747
+    @TEST_MCA-3747 @implemented
     Scenario: Deleting the ›covered-by-programme-episode‹ relationship when it actually exists
       Given there exists a "CAR MODEL" "McLaren P1"
       And there exists a "PROGRAMME EPISODE" "Funeral for a Ford"

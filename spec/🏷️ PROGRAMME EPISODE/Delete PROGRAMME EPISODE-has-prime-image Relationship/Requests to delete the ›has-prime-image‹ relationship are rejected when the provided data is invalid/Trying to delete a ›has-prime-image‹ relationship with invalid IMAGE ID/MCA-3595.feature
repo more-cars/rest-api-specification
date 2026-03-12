@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-has-prime-image Relationship
   @RULE_MCA-3593
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3595
+    @TEST_MCA-3595 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship with invalid IMAGE ID
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And "IMAGE" "Top Gear logo" does NOT exist

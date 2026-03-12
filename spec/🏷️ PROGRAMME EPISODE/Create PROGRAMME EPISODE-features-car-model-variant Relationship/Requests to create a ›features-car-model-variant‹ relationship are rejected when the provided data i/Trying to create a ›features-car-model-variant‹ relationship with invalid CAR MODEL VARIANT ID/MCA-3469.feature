@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-features-car-model-variant Relationship
   @RULE_MCA-3467
   Rule: Requests to create a ›features-car-model-variant‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3469
+    @TEST_MCA-3469 @implemented
     Scenario: Trying to create a ›features-car-model-variant‹ relationship with invalid CAR MODEL VARIANT ID
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And "CAR MODEL VARIANT" "Ferrari LaFerrari" does NOT exist

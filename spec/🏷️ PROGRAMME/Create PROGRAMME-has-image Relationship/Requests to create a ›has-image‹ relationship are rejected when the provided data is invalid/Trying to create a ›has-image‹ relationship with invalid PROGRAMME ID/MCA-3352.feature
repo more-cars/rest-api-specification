@@ -4,7 +4,7 @@ Feature: Create PROGRAMME-has-image Relationship
   @RULE_MCA-3351
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3352
+    @TEST_MCA-3352 @implemented
     Scenario: Trying to create a ›has-image‹ relationship with invalid PROGRAMME ID
       Given "PROGRAMME" "The Grand Tour" does NOT exist
       And there exists a "IMAGE" "TGT logo"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3411",
   "title": "Creating a ›belongs-to-programme‹ relationship with valid IDs",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"PROGRAMME\" \"The Grand Tour\"\nWhen the user creates a \"belongs to programme\" relationship between \"The Holy Trinity\" and \"The Grand Tour\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:47:42.589+0100",
-  "updated_at": "2026-03-10T18:47:46.358+0100"
+  "updated_at": "2026-03-12T18:03:12.662+0100"
 }

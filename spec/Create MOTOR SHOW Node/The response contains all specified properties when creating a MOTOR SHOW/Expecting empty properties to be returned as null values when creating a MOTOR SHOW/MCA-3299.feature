@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW Node
   @RULE_MCA-3297
   Rule: The response contains all specified properties when creating a MOTOR SHOW
 
-    @TEST_MCA-3299
+    @TEST_MCA-3299 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a MOTOR SHOW
       When the user creates a "MOTOR SHOW" "IAA 2017" with the following data
         | key  | value              | datatype |

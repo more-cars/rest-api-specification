@@ -7,7 +7,7 @@ Feature: Hard Delete PROGRAMME EPISODE Node
   @RULE_MCA-3406
   Rule: Requests are rejected when there exists no PROGRAMME EPISODE with the provided ID
 
-    @TEST_MCA-3407
+    @TEST_MCA-3407 @implemented
     Scenario: Trying to hard-delete a non-existing PROGRAMME EPISODE
       Given "PROGRAMME EPISODE" "Top Gear" does NOT exist
       When the user hard-deletes the "PROGRAMME EPISODE" "Top Gear"

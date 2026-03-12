@@ -7,7 +7,7 @@ Feature: Create PROGRAMME Node
   @RULE_MCA-3266
   Rule: Requests to create a PROGRAMME are accepted when the provided data is valid
 
-    @TEST_MCA-3267
+    @TEST_MCA-3267 @implemented
     Scenario: Creating a PROGRAMME with valid data
       When the user creates a "PROGRAMME" "Top Gear" with the following data
         | key                          | value    | datatype |

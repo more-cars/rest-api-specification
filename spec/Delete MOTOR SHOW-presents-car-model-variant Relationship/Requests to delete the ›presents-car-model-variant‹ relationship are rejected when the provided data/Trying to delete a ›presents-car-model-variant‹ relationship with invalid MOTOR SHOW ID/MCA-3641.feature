@@ -7,7 +7,7 @@ Feature: Delete MOTOR SHOW-presents-car-model-variant Relationship
   @RULE_MCA-3640
   Rule: Requests to delete the ›presents-car-model-variant‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3641
+    @TEST_MCA-3641 @implemented
     Scenario: Trying to delete a ›presents-car-model-variant‹ relationship with invalid MOTOR SHOW ID
       Given "MOTOR SHOW" "IAA Frankfurt" does NOT exist
       And there exists a "CAR MODEL VARIANT" "Lada Samara"

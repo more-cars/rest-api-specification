@@ -3,7 +3,7 @@
   "parent_id": "MCA-3377",
   "title": "Requests to fetch the ›has-prime-image‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no PROGRAMME with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T18:24:55.134+0100",
-  "updated_at": "2026-03-10T18:25:01.414+0100"
+  "updated_at": "2026-03-12T17:30:34.093+0100"
 }

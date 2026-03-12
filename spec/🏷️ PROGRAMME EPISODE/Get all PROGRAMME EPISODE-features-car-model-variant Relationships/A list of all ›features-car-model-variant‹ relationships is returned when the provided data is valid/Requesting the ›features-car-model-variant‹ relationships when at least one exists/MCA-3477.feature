@@ -4,7 +4,7 @@ Feature: Get all PROGRAMME EPISODE-features-car-model-variant Relationships
   @RULE_MCA-3476
   Rule: A list of all ›features-car-model-variant‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-3477
+    @TEST_MCA-3477 @implemented
     Scenario: Requesting the ›features-car-model-variant‹ relationships when at least one exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exist 3 "features car model variant" relationships for "The Holy Trinity"

@@ -7,7 +7,7 @@ Feature: Hard Delete MOTOR SHOW Node
   @RULE_MCA-3613
   Rule: Hard-deleting a MOTOR SHOW permanently deletes it
 
-    @TEST_MCA-3614
+    @TEST_MCA-3614 @implemented
     Scenario: Hard-deleting an existing MOTOR SHOW
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       When the user hard-deletes the "MOTOR SHOW" "IAA Frankfurt"

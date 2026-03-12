@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-has-image Relationship
   @RULE_MCA-3548
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3549
+    @TEST_MCA-3549 @implemented
     Scenario: Trying to create a ›has-image‹ relationship with invalid PROGRAMME EPISODE ID
       Given "PROGRAMME EPISODE" "The Holy Trinity" does NOT exist
       And there exists a "IMAGE" "TGT logo"

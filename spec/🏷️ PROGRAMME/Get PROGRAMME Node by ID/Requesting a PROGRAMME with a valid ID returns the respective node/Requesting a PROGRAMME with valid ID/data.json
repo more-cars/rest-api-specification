@@ -3,7 +3,9 @@
   "parent_id": "MCA-3305",
   "title": "Requesting a PROGRAMME with valid ID",
   "gherkin": "Given there exists a \"PROGRAMME\" \"Top Gear\"\nWhen the user requests the \"PROGRAMME\" \"Top Gear\"\nThen the response should return with status code 200\nAnd the response should return the \"PROGRAMME\" \"Top Gear\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:01:35.073+0100",
-  "updated_at": "2026-03-10T18:01:38.700+0100"
+  "updated_at": "2026-03-12T18:02:48.624+0100"
 }

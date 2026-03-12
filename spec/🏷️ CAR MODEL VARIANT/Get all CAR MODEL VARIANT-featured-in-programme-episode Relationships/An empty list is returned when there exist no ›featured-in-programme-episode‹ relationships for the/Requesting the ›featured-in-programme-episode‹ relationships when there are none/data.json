@@ -1,0 +1,11 @@
+{
+  "id": "MCA-3769",
+  "parent_id": "MCA-3768",
+  "title": "Requesting the ›featured-in-programme-episode‹ relationships when there are none",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"McLaren P1\"\nAnd there exist 0 \"featured in programme episode\" relationships for \"McLaren P1\"\nWhen the user requests all \"featured in programme episode\" relationships for \"McLaren P1\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-11T12:25:36.978+0100",
+  "updated_at": "2026-03-12T18:04:36.137+0100"
+}

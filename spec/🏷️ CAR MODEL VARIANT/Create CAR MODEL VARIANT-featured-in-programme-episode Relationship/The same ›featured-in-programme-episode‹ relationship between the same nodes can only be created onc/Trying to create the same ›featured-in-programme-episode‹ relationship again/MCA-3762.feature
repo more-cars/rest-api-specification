@@ -4,7 +4,7 @@ Feature: Create CAR MODEL VARIANT-featured-in-programme-episode Relationship
   @RULE_MCA-3761
   Rule: The same ›featured-in-programme-episode‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3762
+    @TEST_MCA-3762 @implemented
     Scenario: Trying to create the same ›featured-in-programme-episode‹ relationship again
       Given there exists a "CAR MODEL VARIANT" "McLaren P1"
       And there exists a "PROGRAMME EPISODE" "The Holy Trinity"

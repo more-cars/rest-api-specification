@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-covers-car-model Relationship
   @RULE_MCA-3444
   Rule: The same ›covers-car-model‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3445
+    @TEST_MCA-3445 @implemented
     Scenario: Trying to create the same ›covers-car-model‹ relationship again
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "CAR MODEL" "LaFerrari"

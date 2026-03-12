@@ -3,7 +3,9 @@
   "parent_id": "MCA-3534",
   "title": "Trying to fetch the ›is-followed-by-episode‹ relationship with an invalid PROGRAMME EPISODE ID",
   "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nWhen the user requests the \"is followed by episode\" relationship for \"The Holy Trinity\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T20:11:52.173+0100",
-  "updated_at": "2026-03-10T20:11:56.900+0100"
+  "updated_at": "2026-03-12T18:03:42.084+0100"
 }

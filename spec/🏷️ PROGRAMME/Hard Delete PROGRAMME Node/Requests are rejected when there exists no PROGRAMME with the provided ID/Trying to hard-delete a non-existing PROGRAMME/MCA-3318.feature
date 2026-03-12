@@ -7,7 +7,7 @@ Feature: Hard Delete PROGRAMME Node
   @RULE_MCA-3317
   Rule: Requests are rejected when there exists no PROGRAMME with the provided ID
 
-    @TEST_MCA-3318
+    @TEST_MCA-3318 @implemented
     Scenario: Trying to hard-delete a non-existing PROGRAMME
       Given "PROGRAMME" "Top Gear" does NOT exist
       When the user hard-deletes the "PROGRAMME" "Top Gear"

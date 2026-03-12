@@ -3,7 +3,7 @@
   "parent_id": "MCA-3410",
   "title": "Requests to create a ›belongs-to-programme‹ relationship are accepted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type PROGRAMME EPISODE resp. PROGRAMME.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T18:47:39.743+0100",
-  "updated_at": "2026-03-10T18:47:46.392+0100"
+  "updated_at": "2026-03-12T17:30:28.489+0100"
 }

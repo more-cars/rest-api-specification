@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-has-prime-image Relationship
   @RULE_MCA-3591
   Rule: The ›has-prime-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3592
+    @TEST_MCA-3592 @implemented
     Scenario: Deleting the ›has-prime-image‹ relationship when it actually exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "IMAGE" "Top Gear logo"

@@ -4,7 +4,7 @@ Feature: Create CAR MODEL VARIANT-presented-at-motor-show Relationship
   @RULE_MCA-3701
   Rule: Requests to create a ›presented-at-motor-show‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-3702
+    @TEST_MCA-3702 @implemented
     Scenario: Creating a ›presented-at-motor-show‹ relationship with valid IDs
       Given there exists a "CAR MODEL VARIANT" "BMW i8"
       And there exists a "MOTOR SHOW" "IAA Frankfurt"

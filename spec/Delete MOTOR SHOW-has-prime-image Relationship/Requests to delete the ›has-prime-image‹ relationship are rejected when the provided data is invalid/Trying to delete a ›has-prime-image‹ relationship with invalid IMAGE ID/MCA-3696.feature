@@ -7,7 +7,7 @@ Feature: Delete MOTOR SHOW-has-prime-image Relationship
   @RULE_MCA-3694
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3696
+    @TEST_MCA-3696 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship with invalid IMAGE ID
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And "IMAGE" "CES logo" does NOT exist

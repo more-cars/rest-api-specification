@@ -4,7 +4,7 @@ Feature: Get PROGRAMME EPISODE-has-prime-image Relationship
   @RULE_MCA-3586
   Rule: An empty response is returned when there exists no ›has-prime-image‹ relationship for the given PROGRAMME EPISODE
 
-    @TEST_MCA-3587
+    @TEST_MCA-3587 @implemented
     Scenario: Requesting the ›has-prime-image‹ relationship when there exists none
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists NO "has prime image" relationship for "The Holy Trinity"

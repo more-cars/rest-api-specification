@@ -3,7 +3,9 @@
   "parent_id": "MCA-3498",
   "title": "Trying to create the same ›follows-episode‹ relationship again",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"Blasts from the past\"\nAnd there exists a \"PROGRAMME EPISODE\" \"It is a gas, gas, gas\"\nAnd there exists a \"follows episode\" relationship between \"Blasts from the past\" and \"It is a gas, gas, gas\"\nWhen the user creates a \"follows episode\" relationship between \"Blasts from the past\" and \"It is a gas, gas, gas\"\nThen the response should return with status code 304",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T19:51:29.283+0100",
-  "updated_at": "2026-03-10T19:51:32.606+0100"
+  "updated_at": "2026-03-12T18:03:33.931+0100"
 }

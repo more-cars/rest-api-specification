@@ -3,7 +3,9 @@
   "parent_id": "MCA-3451",
   "title": "Requesting the ›covers-car-model‹ relationships when there are none",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exist 0 \"covers car model\" relationships for \"The Holy Trinity\"\nWhen the user requests all \"covers car model\" relationships for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T19:08:00.934+0100",
-  "updated_at": "2026-03-10T19:08:04.420+0100"
+  "updated_at": "2026-03-12T18:03:22.504+0100"
 }

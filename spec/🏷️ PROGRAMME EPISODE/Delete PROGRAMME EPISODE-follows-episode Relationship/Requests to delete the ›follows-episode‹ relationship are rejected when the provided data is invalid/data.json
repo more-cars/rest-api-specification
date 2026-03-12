@@ -3,7 +3,7 @@
   "parent_id": "MCA-3509",
   "title": "Requests to delete the ›follows-episode‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no PROGRAMME EPISODE with the provided ID? -> rejected.\nThere exists no PROGRAMME EPISODE with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T19:59:45.017+0100",
-  "updated_at": "2026-03-10T20:00:07.602+0100"
+  "updated_at": "2026-03-12T17:30:08.649+0100"
 }

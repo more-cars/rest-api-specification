@@ -3,7 +3,7 @@
   "parent_id": "MCA-3700",
   "title": "The same ›presented-at-motor-show‹ relationship between the same nodes can only be created once",
   "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-11T11:43:30.808+0100",
-  "updated_at": "2026-03-11T11:43:38.265+0100"
+  "updated_at": "2026-03-12T17:29:33.254+0100"
 }

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3628",
   "title": "Creating multiple ›presents-car-model-variant‹ relationships",
   "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"CAR MODEL VARIANT\" \"BMW M760Li\"\nAnd there exists a \"CAR MODEL VARIANT\" \"BMW M760Li (Alternative)\"\nWhen the user creates a \"presents car model variant\" relationship between \"IAA Frankfurt\" and \"BMW M760Li\"\nAnd the user creates a \"presents car model variant\" relationship between \"IAA Frankfurt\" and \"BMW M760Li (Alternative)\"\nThen there should exist a \"presents car model variant\" relationship between \"IAA Frankfurt\" and \"BMW M760Li\"\nAnd there should exist a \"presents car model variant\" relationship between \"IAA Frankfurt\" and \"BMW M760Li (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:06:52.774+0100",
-  "updated_at": "2026-03-11T11:06:56.285+0100"
+  "updated_at": "2026-03-12T18:04:02.886+0100"
 }

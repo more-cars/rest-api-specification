@@ -7,7 +7,7 @@ Feature: Get MOTOR SHOW Node by ID
   @RULE_MCA-3603
   Rule: Requesting a MOTOR SHOW with a valid ID returns the respective node
 
-    @TEST_MCA-3604
+    @TEST_MCA-3604 @implemented
     Scenario: Requesting a MOTOR SHOW with valid ID
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       When the user requests the "MOTOR SHOW" "IAA Frankfurt"

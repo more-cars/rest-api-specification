@@ -3,7 +3,9 @@
   "parent_id": "MCA-3364",
   "title": "Trying to fetch the ›has-image‹ relationships with an invalid PROGRAMME ID",
   "gherkin": "Given \"PROGRAMME\" \"The Grand Tour\" does NOT exist\nWhen the user requests all \"has image\" relationships for \"The Grand Tour\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:19:38.363+0100",
-  "updated_at": "2026-03-10T18:19:42.264+0100"
+  "updated_at": "2026-03-12T18:03:02.278+0100"
 }

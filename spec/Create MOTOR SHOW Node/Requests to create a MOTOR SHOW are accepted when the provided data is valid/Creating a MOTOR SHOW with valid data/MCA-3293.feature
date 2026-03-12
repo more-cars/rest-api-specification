@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW Node
   @RULE_MCA-3292
   Rule: Requests to create a MOTOR SHOW are accepted when the provided data is valid
 
-    @TEST_MCA-3293
+    @TEST_MCA-3293 @implemented
     Scenario: Creating a MOTOR SHOW with valid data
       When the user creates a "MOTOR SHOW" "IAA 2017" with the following data
         | key             | value              | datatype |

@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-covers-car-model Relationship
   @RULE_MCA-3458
   Rule: Requests to delete the ›covers-car-model‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3459
+    @TEST_MCA-3459 @implemented
     Scenario: Trying to delete a ›covers-car-model‹ relationship with invalid PROGRAMME EPISODE ID
       Given "PROGRAMME EPISODE" "The Holy Trinity" does NOT exist
       And there exists a "CAR MODEL" "Twingo"

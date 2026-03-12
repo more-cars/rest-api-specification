@@ -3,7 +3,7 @@
   "parent_id": "MCA-3491",
   "title": "Requests to create a ›follows-episode‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no PROGRAMME EPISODE with the provided ID? -> rejected.\nThere exists no PROGRAMME EPISODE with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T19:51:01.549+0100",
-  "updated_at": "2026-03-10T19:51:25.240+0100"
+  "updated_at": "2026-03-12T17:30:12.449+0100"
 }

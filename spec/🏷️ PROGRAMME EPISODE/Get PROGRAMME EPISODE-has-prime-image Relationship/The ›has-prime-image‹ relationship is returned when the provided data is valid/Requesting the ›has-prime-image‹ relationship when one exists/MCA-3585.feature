@@ -4,7 +4,7 @@ Feature: Get PROGRAMME EPISODE-has-prime-image Relationship
   @RULE_MCA-3584
   Rule: The ›has-prime-image‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-3585
+    @TEST_MCA-3585 @implemented
     Scenario: Requesting the ›has-prime-image‹ relationship when one exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "has prime image" relationship "R" for "The Holy Trinity"

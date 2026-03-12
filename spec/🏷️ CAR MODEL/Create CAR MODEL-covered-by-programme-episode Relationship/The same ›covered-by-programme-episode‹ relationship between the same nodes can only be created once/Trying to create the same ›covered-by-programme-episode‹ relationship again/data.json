@@ -3,7 +3,9 @@
   "parent_id": "MCA-3734",
   "title": "Trying to create the same ›covered-by-programme-episode‹ relationship again",
   "gherkin": "Given there exists a \"CAR MODEL\" \"McLaren P1\"\nAnd there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"covered by programme episode\" relationship between \"McLaren P1\" and \"The Holy Trinity\"\nWhen the user creates a \"covered by programme episode\" relationship between \"McLaren P1\" and \"The Holy Trinity\"\nThen the response should return with status code 304",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T12:17:10.740+0100",
-  "updated_at": "2026-03-11T12:17:15.523+0100"
+  "updated_at": "2026-03-12T18:04:28.177+0100"
 }

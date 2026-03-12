@@ -4,7 +4,7 @@ Feature: Create MOTOR SHOW-has-prime-image Relationship
   @RULE_MCA-3682
   Rule: At the same time, each MOTOR SHOW can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-3683
+    @TEST_MCA-3683 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "IMAGE" "IAA logo"

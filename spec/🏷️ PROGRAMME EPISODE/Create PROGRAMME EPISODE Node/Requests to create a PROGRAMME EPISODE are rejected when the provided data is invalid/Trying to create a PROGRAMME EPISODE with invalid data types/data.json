@@ -3,7 +3,9 @@
   "parent_id": "MCA-3281",
   "title": "Trying to create a PROGRAMME EPISODE with invalid data types",
   "gherkin": "When the user tries to create a \"PROGRAMME EPISODE\" \"Polar Special\" with the following data\n  | key | value | datatype |\n  | title | The Falls Guys | boolean |\n  | season_number | 2 | boolean |\n  | season_episode_number | 2 | boolean |\n  | original_air_date | 2017-12-08 | boolean |\n  | duration | PT55M | boolean |\nThen the request should be rejected with status code 400",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T17:49:18.634+0100",
-  "updated_at": "2026-03-10T17:49:21.833+0100"
+  "updated_at": "2026-03-12T18:02:43.243+0100"
 }

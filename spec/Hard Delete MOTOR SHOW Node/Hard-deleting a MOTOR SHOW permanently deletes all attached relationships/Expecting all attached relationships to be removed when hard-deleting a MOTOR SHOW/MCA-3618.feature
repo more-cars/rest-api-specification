@@ -7,7 +7,7 @@ Feature: Hard Delete MOTOR SHOW Node
   @RULE_MCA-3617
   Rule: Hard-deleting a MOTOR SHOW permanently deletes all attached relationships
 
-    @TEST_MCA-3618
+    @TEST_MCA-3618 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a MOTOR SHOW
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "has image" relationship "R1" for "IAA Frankfurt"

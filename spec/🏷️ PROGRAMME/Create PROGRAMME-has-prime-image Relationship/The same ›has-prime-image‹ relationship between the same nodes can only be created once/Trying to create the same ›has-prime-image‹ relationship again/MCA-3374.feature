@@ -4,7 +4,7 @@ Feature: Create PROGRAMME-has-prime-image Relationship
   @RULE_MCA-3373
   Rule: The same ›has-prime-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3374
+    @TEST_MCA-3374 @implemented
     Scenario: Trying to create the same ›has-prime-image‹ relationship again
       Given there exists a "PROGRAMME" "The Grand Tour"
       And there exists a "IMAGE" "TGT logo"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3721",
   "title": "Trying to delete a ›presented-at-motor-show‹ relationship with invalid MOTOR SHOW ID",
   "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW i8\"\nAnd \"MOTOR SHOW\" \"IAA Frankfurt 1999\" does NOT exist\nWhen the user deletes the \"presented at motor show\" relationship between \"BMW i8\" and \"IAA Frankfurt 1999\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:49:25.209+0100",
-  "updated_at": "2026-03-11T11:49:28.747+0100"
+  "updated_at": "2026-03-12T18:04:25.172+0100"
 }

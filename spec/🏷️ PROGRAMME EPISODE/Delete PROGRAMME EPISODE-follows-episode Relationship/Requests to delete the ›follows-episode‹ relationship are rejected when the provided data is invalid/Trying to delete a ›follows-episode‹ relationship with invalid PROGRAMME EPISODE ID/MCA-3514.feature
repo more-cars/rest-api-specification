@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-follows-episode Relationship
   @RULE_MCA-3512
   Rule: Requests to delete the ›follows-episode‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3514
+    @TEST_MCA-3514 @implemented
     Scenario: Trying to delete a ›follows-episode‹ relationship with invalid PROGRAMME EPISODE ID
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And "PROGRAMME EPISODE" "Top Gear Special" does NOT exist

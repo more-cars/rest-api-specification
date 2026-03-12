@@ -4,7 +4,7 @@ Feature: Get all PROGRAMME EPISODE-features-car-model-variant Relationships
   @RULE_MCA-3478
   Rule: An empty list is returned when there exist no ›features-car-model-variant‹ relationships for the given PROGRAMME EPISODE
 
-    @TEST_MCA-3479
+    @TEST_MCA-3479 @implemented
     Scenario: Requesting the ›features-car-model-variant‹ relationships when there are none
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exist 0 "features car model variant" relationships for "The Holy Trinity"

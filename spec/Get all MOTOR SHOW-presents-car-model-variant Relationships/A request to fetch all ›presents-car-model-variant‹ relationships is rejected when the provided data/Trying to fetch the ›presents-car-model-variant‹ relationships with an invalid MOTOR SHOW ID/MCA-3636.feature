@@ -4,7 +4,7 @@ Feature: Get all MOTOR SHOW-presents-car-model-variant Relationships
   @RULE_MCA-3635
   Rule: A request to fetch all ›presents-car-model-variant‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-3636
+    @TEST_MCA-3636 @implemented
     Scenario: Trying to fetch the ›presents-car-model-variant‹ relationships with an invalid MOTOR SHOW ID
       Given "MOTOR SHOW" "IAA Frankfurt" does NOT exist
       When the user requests all "presents car model variant" relationships for "IAA Frankfurt"

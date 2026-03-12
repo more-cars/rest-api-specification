@@ -7,7 +7,7 @@ Feature: Hard Delete MOTOR SHOW Node
   @RULE_MCA-3615
   Rule: Requests are rejected when there exists no MOTOR SHOW with the provided ID
 
-    @TEST_MCA-3616
+    @TEST_MCA-3616 @implemented
     Scenario: Trying to hard-delete a non-existing MOTOR SHOW
       Given "MOTOR SHOW" "IAA Frankfurt" does NOT exist
       When the user hard-deletes the "MOTOR SHOW" "IAA Frankfurt"

@@ -7,7 +7,7 @@ Feature: Get PROGRAMME Node by ID
   @RULE_MCA-3307
   Rule: Requests are rejected when there exists no PROGRAMME with the provided ID
 
-    @TEST_MCA-3308
+    @TEST_MCA-3308 @implemented
     Scenario: Requesting a PROGRAMME with invalid ID
       When the user requests a non-existing "PROGRAMME"
       Then the request should be rejected with status code 404

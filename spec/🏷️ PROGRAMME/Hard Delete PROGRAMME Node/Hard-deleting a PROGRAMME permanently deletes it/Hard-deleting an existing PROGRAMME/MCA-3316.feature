@@ -7,7 +7,7 @@ Feature: Hard Delete PROGRAMME Node
   @RULE_MCA-3315
   Rule: Hard-deleting a PROGRAMME permanently deletes it
 
-    @TEST_MCA-3316
+    @TEST_MCA-3316 @implemented
     Scenario: Hard-deleting an existing PROGRAMME
       Given there exists a "PROGRAMME" "Top Gear"
       When the user hard-deletes the "PROGRAMME" "Top Gear"

@@ -8,7 +8,7 @@ Feature: Get all PROGRAMME EPISODE Nodes
   @RULE_MCA-3401
   Rule: An empty list is returned when there exist no PROGRAMME EPISODES
 
-    @TEST_MCA-3402
+    @TEST_MCA-3402 @implemented
     Scenario: Requesting all PROGRAMME EPISODE nodes when none exist
       Given there exist 0 "PROGRAMME EPISODE"s
       When the user requests a "PROGRAMME EPISODE" collection

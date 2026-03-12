@@ -3,7 +3,9 @@
   "parent_id": "MCA-3649",
   "title": "Trying to create a ›has-image‹ relationship with invalid MOTOR SHOW ID",
   "gherkin": "Given \"MOTOR SHOW\" \"IAA Frankfurt\" does NOT exist\nAnd there exists a \"IMAGE\" \"BMW Stand\"\nWhen the user creates a \"has image\" relationship between \"IAA Frankfurt\" and \"BMW Stand\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:13:44.030+0100",
-  "updated_at": "2026-03-11T11:13:47.677+0100"
+  "updated_at": "2026-03-12T18:04:07.688+0100"
 }

@@ -4,7 +4,7 @@ Feature: Create CAR MODEL VARIANT-presented-at-motor-show Relationship
   @RULE_MCA-3709
   Rule: Each CAR MODEL VARIANT can be in a ›presented-at-motor-show‹ relationship with multiple MOTOR SHOWS
 
-    @TEST_MCA-3710
+    @TEST_MCA-3710 @implemented
     Scenario: Creating multiple ›presented-at-motor-show‹ relationships
       Given there exists a "CAR MODEL VARIANT" "BMW i8"
       And there exists a "MOTOR SHOW" "IAA Frankfurt"

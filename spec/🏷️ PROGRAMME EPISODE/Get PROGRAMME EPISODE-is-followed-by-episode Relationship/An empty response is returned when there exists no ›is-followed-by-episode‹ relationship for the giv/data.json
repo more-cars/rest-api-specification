@@ -3,7 +3,7 @@
   "parent_id": "MCA-3529",
   "title": "An empty response is returned when there exists no ›is-followed-by-episode‹ relationship for the given PROGRAMME EPISODE",
   "description": "",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T20:11:42.056+0100",
-  "updated_at": "2026-03-10T20:11:48.428+0100"
+  "updated_at": "2026-03-12T17:30:04.967+0100"
 }

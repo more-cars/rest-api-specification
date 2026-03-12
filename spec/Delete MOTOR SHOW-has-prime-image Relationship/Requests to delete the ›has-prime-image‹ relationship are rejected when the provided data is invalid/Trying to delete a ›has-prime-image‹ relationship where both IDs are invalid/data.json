@@ -3,7 +3,9 @@
   "parent_id": "MCA-3694",
   "title": "Trying to delete a ›has-prime-image‹ relationship where both IDs are invalid",
   "gherkin": "Given \"MOTOR SHOW\" \"IAA Frankfurt\" does NOT exist\nAnd \"IMAGE\" \"CES logo\" does NOT exist\nWhen the user deletes the \"has prime image\" relationship between \"IAA Frankfurt\" and \"CES logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:29:35.656+0100",
-  "updated_at": "2026-03-11T11:29:39.283+0100"
+  "updated_at": "2026-03-12T18:04:19.225+0100"
 }

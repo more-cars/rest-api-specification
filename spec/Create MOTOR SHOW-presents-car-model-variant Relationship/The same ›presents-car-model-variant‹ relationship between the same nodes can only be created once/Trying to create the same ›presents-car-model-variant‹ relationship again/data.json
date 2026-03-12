@@ -3,7 +3,9 @@
   "parent_id": "MCA-3626",
   "title": "Trying to create the same ›presents-car-model-variant‹ relationship again",
   "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"CAR MODEL VARIANT\" \"BMW M760Li\"\nAnd there exists a \"presents car model variant\" relationship between \"IAA Frankfurt\" and \"BMW M760Li\"\nWhen the user creates a \"presents car model variant\" relationship between \"IAA Frankfurt\" and \"BMW M760Li\"\nThen the response should return with status code 304",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:06:44.945+0100",
-  "updated_at": "2026-03-11T11:06:48.782+0100"
+  "updated_at": "2026-03-12T18:04:02.452+0100"
 }

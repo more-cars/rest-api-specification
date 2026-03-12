@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE Node
   @RULE_MCA-3284
   Rule: The response contains all specified properties when creating a PROGRAMME EPISODE
 
-    @TEST_MCA-3286
+    @TEST_MCA-3286 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a PROGRAMME EPISODE
       When the user creates a "PROGRAMME EPISODE" "Polar Special" with the following data
         | key   | value          | datatype |

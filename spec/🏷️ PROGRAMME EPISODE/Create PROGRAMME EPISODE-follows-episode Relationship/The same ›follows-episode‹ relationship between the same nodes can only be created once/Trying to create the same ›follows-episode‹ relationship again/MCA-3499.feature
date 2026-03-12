@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-follows-episode Relationship
   @RULE_MCA-3498
   Rule: The same ›follows-episode‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3499
+    @TEST_MCA-3499 @implemented
     Scenario: Trying to create the same ›follows-episode‹ relationship again
       Given there exists a "PROGRAMME EPISODE" "Blasts from the past"
       And there exists a "PROGRAMME EPISODE" "It is a gas, gas, gas"

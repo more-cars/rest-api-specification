@@ -3,7 +3,9 @@
   "parent_id": "MCA-3380",
   "title": "Requesting the ›has-prime-image‹ relationship when there exists none",
   "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nAnd there exists NO \"has prime image\" relationship for \"The Grand Tour\"\nWhen the user requests the \"has prime image\" relationship for \"The Grand Tour\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:24:51.153+0100",
-  "updated_at": "2026-03-10T18:24:54.515+0100"
+  "updated_at": "2026-03-12T18:03:06.117+0100"
 }

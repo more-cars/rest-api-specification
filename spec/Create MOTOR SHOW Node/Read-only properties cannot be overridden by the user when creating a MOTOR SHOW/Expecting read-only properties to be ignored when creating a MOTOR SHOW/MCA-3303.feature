@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW Node
   @RULE_MCA-3302
   Rule: Read-only properties cannot be overridden by the user when creating a MOTOR SHOW
 
-    @TEST_MCA-3303
+    @TEST_MCA-3303 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a MOTOR SHOW
       When the user creates a "MOTOR SHOW" "IAA 2017" with the following data
         | key             | value              | datatype |

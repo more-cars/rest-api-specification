@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-follows-episode Relationship
   @RULE_MCA-3516
   Rule: Requests to delete the ›follows-episode‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-3517
+    @TEST_MCA-3517 @implemented
     Scenario: Trying to delete a non-existent ›follows-episode‹ relationship
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "PROGRAMME EPISODE" "Top Gear Special"

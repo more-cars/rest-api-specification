@@ -4,7 +4,7 @@ Feature: Create MOTOR SHOW-has-prime-image Relationship
   @RULE_MCA-3676
   Rule: Requests to create a ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3678
+    @TEST_MCA-3678 @implemented
     Scenario: Trying to create a ›has-prime-image‹ relationship with invalid IMAGE ID
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And "IMAGE" "IAA logo" does NOT exist

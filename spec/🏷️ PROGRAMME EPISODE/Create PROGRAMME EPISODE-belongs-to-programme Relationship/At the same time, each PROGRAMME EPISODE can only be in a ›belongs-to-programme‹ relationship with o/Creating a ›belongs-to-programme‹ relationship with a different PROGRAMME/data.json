@@ -3,7 +3,9 @@
   "parent_id": "MCA-3419",
   "title": "Creating a ›belongs-to-programme‹ relationship with a different PROGRAMME",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"PROGRAMME\" \"The Grand Tour\"\nAnd there exists a \"PROGRAMME\" \"The Grand Tour (Alternative)\"\nWhen the user creates a \"belongs to programme\" relationship between \"The Holy Trinity\" and \"The Grand Tour\"\nThen there should exist a \"belongs to programme\" relationship between \"The Holy Trinity\" and \"The Grand Tour\"\nWhen the user creates a \"belongs to programme\" relationship between \"The Holy Trinity\" and \"The Grand Tour (Alternative)\"\nThen there should exist a \"belongs to programme\" relationship between \"The Holy Trinity\" and \"The Grand Tour (Alternative)\"\nBut there should exist NO \"belongs to programme\" relationship between \"The Holy Trinity\" and \"The Grand Tour\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T18:48:16.249+0100",
-  "updated_at": "2026-03-10T18:48:19.560+0100"
+  "updated_at": "2026-03-12T18:03:15.057+0100"
 }

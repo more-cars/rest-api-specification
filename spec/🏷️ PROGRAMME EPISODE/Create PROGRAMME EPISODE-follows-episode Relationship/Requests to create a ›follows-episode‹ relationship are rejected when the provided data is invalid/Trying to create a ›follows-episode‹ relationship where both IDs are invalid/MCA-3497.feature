@@ -4,7 +4,7 @@ Feature: Create PROGRAMME EPISODE-follows-episode Relationship
   @RULE_MCA-3494
   Rule: Requests to create a ›follows-episode‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3497
+    @TEST_MCA-3497 @implemented
     Scenario: Trying to create a ›follows-episode‹ relationship where both IDs are invalid
       Given "PROGRAMME EPISODE" "Blasts from the past" does NOT exist
       And "PROGRAMME EPISODE" "It is a gas, gas, gas" does NOT exist

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3473",
   "title": "Creating multiple ›features-car-model-variant‹ relationships",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari LaFerrari\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari LaFerrari (Alternative)\"\nWhen the user creates a \"features car model variant\" relationship between \"The Holy Trinity\" and \"Ferrari LaFerrari\"\nAnd the user creates a \"features car model variant\" relationship between \"The Holy Trinity\" and \"Ferrari LaFerrari (Alternative)\"\nThen there should exist a \"features car model variant\" relationship between \"The Holy Trinity\" and \"Ferrari LaFerrari\"\nAnd there should exist a \"features car model variant\" relationship between \"The Holy Trinity\" and \"Ferrari LaFerrari (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T19:27:55.339+0100",
-  "updated_at": "2026-03-10T19:27:58.934+0100"
+  "updated_at": "2026-03-12T18:03:27.935+0100"
 }

@@ -3,7 +3,7 @@
   "parent_id": "MCA-3428",
   "title": "The ›belongs-to-programme‹ relationship is deleted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a PROGRAMME EPISODE and the second node needs to be a PROGRAMME.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-10T18:54:51.843+0100",
-  "updated_at": "2026-03-10T18:54:58.110+0100"
+  "updated_at": "2026-03-12T17:30:24.991+0100"
 }

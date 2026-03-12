@@ -7,7 +7,7 @@ Feature: Create PROGRAMME Node
   @RULE_MCA-3274
   Rule: Unknown properties are ignored when creating a PROGRAMME
 
-    @TEST_MCA-3275
+    @TEST_MCA-3275 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a PROGRAMME
       When the user creates a "PROGRAMME" "Top Gear" with the following data
         | key                          | value    | datatype |

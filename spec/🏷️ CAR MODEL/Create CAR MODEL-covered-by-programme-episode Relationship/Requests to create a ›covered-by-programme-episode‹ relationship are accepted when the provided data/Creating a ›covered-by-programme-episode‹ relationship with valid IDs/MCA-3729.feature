@@ -4,7 +4,7 @@ Feature: Create CAR MODEL-covered-by-programme-episode Relationship
   @RULE_MCA-3728
   Rule: Requests to create a ›covered-by-programme-episode‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-3729
+    @TEST_MCA-3729 @implemented
     Scenario: Creating a ›covered-by-programme-episode‹ relationship with valid IDs
       Given there exists a "CAR MODEL" "McLaren P1"
       And there exists a "PROGRAMME EPISODE" "The Holy Trinity"

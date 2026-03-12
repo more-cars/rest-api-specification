@@ -3,7 +3,7 @@
   "parent_id": "MCA-3700",
   "title": "Each CAR MODEL VARIANT can be in a ›presented-at-motor-show‹ relationship with multiple MOTOR SHOWS",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.30.0",
   "created_at": "2026-03-11T11:43:38.935+0100",
-  "updated_at": "2026-03-11T11:43:46.396+0100"
+  "updated_at": "2026-03-12T17:29:32.763+0100"
 }

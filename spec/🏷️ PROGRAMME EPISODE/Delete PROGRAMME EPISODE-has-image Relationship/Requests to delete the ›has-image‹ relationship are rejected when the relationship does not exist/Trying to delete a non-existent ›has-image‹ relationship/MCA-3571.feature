@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-has-image Relationship
   @RULE_MCA-3570
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-3571
+    @TEST_MCA-3571 @implemented
     Scenario: Trying to delete a non-existent ›has-image‹ relationship
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "IMAGE" "Top Gear logo"

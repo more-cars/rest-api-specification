@@ -4,7 +4,7 @@ Feature: Create CAR MODEL-covered-by-programme-episode Relationship
   @RULE_MCA-3730
   Rule: Requests to create a ›covered-by-programme-episode‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3731
+    @TEST_MCA-3731 @implemented
     Scenario: Trying to create a ›covered-by-programme-episode‹ relationship with invalid CAR MODEL ID
       Given "CAR MODEL" "McLaren P1" does NOT exist
       And there exists a "PROGRAMME EPISODE" "The Holy Trinity"

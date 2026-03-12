@@ -4,7 +4,7 @@ Feature: Get PROGRAMME EPISODE-is-followed-by-episode Relationship
   @RULE_MCA-3534
   Rule: Requests to fetch the ›is-followed-by-episode‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3535
+    @TEST_MCA-3535 @implemented
     Scenario: Trying to fetch the ›is-followed-by-episode‹ relationship with an invalid PROGRAMME EPISODE ID
       Given "PROGRAMME EPISODE" "The Holy Trinity" does NOT exist
       When the user requests the "is followed by episode" relationship for "The Holy Trinity"

@@ -7,7 +7,7 @@ Feature: Get PROGRAMME EPISODE Node by ID
   @RULE_MCA-3394
   Rule: Requesting a PROGRAMME EPISODE with a valid ID returns the respective node
 
-    @TEST_MCA-3395
+    @TEST_MCA-3395 @implemented
     Scenario: Requesting a PROGRAMME EPISODE with valid ID
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       When the user requests the "PROGRAMME EPISODE" "The Holy Trinity"

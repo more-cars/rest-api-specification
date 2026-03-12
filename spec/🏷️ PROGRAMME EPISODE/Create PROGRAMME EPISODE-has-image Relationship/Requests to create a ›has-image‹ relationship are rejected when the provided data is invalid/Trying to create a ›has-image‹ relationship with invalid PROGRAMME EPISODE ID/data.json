@@ -3,7 +3,9 @@
   "parent_id": "MCA-3548",
   "title": "Trying to create a ›has-image‹ relationship with invalid PROGRAMME EPISODE ID",
   "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nAnd there exists a \"IMAGE\" \"TGT logo\"\nWhen the user creates a \"has image\" relationship between \"The Holy Trinity\" and \"TGT logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T20:19:25.976+0100",
-  "updated_at": "2026-03-10T20:19:29.658+0100"
+  "updated_at": "2026-03-12T18:03:45.444+0100"
 }

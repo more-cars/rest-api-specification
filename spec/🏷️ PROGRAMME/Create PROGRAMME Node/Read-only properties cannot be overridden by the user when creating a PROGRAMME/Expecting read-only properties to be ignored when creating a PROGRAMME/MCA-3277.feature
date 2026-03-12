@@ -7,7 +7,7 @@ Feature: Create PROGRAMME Node
   @RULE_MCA-3276
   Rule: Read-only properties cannot be overridden by the user when creating a PROGRAMME
 
-    @TEST_MCA-3277
+    @TEST_MCA-3277 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a PROGRAMME
       When the user creates a "PROGRAMME" "Top Gear" with the following data
         | key                          | value      | datatype |

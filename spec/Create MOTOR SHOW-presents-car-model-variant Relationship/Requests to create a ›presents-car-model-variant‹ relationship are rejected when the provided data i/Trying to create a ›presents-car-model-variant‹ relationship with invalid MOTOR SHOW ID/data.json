@@ -3,7 +3,9 @@
   "parent_id": "MCA-3622",
   "title": "Trying to create a ›presents-car-model-variant‹ relationship with invalid MOTOR SHOW ID",
   "gherkin": "Given \"MOTOR SHOW\" \"IAA Frankfurt\" does NOT exist\nAnd there exists a \"CAR MODEL VARIANT\" \"BMW M760Li\"\nWhen the user creates a \"presents car model variant\" relationship between \"IAA Frankfurt\" and \"BMW M760Li\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-11T11:06:26.926+0100",
-  "updated_at": "2026-03-11T11:06:30.752+0100"
+  "updated_at": "2026-03-12T18:04:01.061+0100"
 }

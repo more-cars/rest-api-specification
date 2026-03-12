@@ -3,7 +3,9 @@
   "parent_id": "MCA-3512",
   "title": "Trying to delete a ›follows-episode‹ relationship with invalid PROGRAMME EPISODE ID",
   "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nAnd there exists a \"PROGRAMME EPISODE\" \"Top Gear Special\"\nWhen the user deletes the \"follows episode\" relationship between \"The Holy Trinity\" and \"Top Gear Special\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-10T19:59:48.251+0100",
-  "updated_at": "2026-03-10T19:59:51.340+0100"
+  "updated_at": "2026-03-12T18:03:36.681+0100"
 }

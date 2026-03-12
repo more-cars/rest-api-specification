@@ -4,7 +4,7 @@ Feature: Create MOTOR SHOW-presents-car-model-variant Relationship
   @RULE_MCA-3626
   Rule: The same ›presents-car-model-variant‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3627
+    @TEST_MCA-3627 @implemented
     Scenario: Trying to create the same ›presents-car-model-variant‹ relationship again
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "CAR MODEL VARIANT" "BMW M760Li"
