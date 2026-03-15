@@ -10,7 +10,8 @@ Feature: Node Collection - Sorting Case-Insensitive
 
     @TEST_MCA-3601 @implemented
     Scenario: Expecting mixed node collection to be sorted case-insensitive
-      Given there exists a "MAGAZINE" "A" with "name" "sport auto"
+      Given there exist 0 "MAGAZINE"s
+      And there exists a "MAGAZINE" "A" with "name" "sport auto"
       And there exists a "MAGAZINE" "B" with "name" "Top Gear"
       And there exists a "MAGAZINE" "C" with "name" "Auto Bild"
       And there exists a "MAGAZINE" "D" with "name" "evo UK"
