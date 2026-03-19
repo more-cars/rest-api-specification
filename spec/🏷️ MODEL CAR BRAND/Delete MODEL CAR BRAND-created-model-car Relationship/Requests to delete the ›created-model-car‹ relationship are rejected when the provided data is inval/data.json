@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3992",
+  "parent_id": "MCA-3989",
+  "title": "Requests to delete the ›created-model-car‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no MODEL CAR BRAND with the provided ID? -> rejected.\nThere exists no MODEL CAR with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2026-03-17T20:08:29.717+0100",
+  "updated_at": "2026-03-17T20:08:49.207+0100"
+}

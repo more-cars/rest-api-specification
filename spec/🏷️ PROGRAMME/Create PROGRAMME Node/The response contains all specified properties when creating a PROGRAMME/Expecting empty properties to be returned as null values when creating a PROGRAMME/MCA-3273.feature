@@ -20,4 +20,4 @@ Feature: Create PROGRAMME Node
         | channel                      |          | string   |
         | total_seasons                |          | number   |
         | total_episodes               |          | number   |
-        | regular_episode_running_time |          | number   |
+        | regular_episode_running_time |          | string   |

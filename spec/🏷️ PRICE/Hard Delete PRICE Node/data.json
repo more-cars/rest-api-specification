@@ -1,0 +1,16 @@
+{
+  "id": "MCA-4062",
+  "parent_id": "MCA-222",
+  "title": "Hard Delete PRICE Node",
+  "user_story": "As an API contributor\nI want to be able to delete a PRICE\nSo I can clean up bad data, test data or redundant data\n",
+  "description": "* The selected PRICE node is deleted when it actually exists. -> Status Code \\`204\\`\n* All attached relationships are also deleted when the node is deleted.\n* Requests with invalid ID are rejected. This case can happen when there exists no node with that ID or when the node is not from type PRICE. -> Status Code \\`404\\`\n",
+  "api_verb": "DELETE",
+  "api_path": "/prices/<price-id>",
+  "response_options": [
+    "204",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-18T09:20:45.763+0100",
+  "updated_at": "2026-03-18T09:20:48.284+0100"
+}

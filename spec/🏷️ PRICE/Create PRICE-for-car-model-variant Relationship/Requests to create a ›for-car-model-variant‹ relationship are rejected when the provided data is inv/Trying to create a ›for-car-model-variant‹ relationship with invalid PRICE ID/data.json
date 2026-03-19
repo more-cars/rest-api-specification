@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4073",
+  "parent_id": "MCA-4072",
+  "title": "Trying to create a ›for-car-model-variant‹ relationship with invalid PRICE ID",
+  "gherkin": "Given \"PRICE\" \"Brand New\" does NOT exist\nAnd there exists a \"CAR MODEL VARIANT\" \"Porsche Carrera GT\"\nWhen the user creates a \"for car model variant\" relationship between \"Brand New\" and \"Porsche Carrera GT\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-18T09:24:26.165+0100",
+  "updated_at": "2026-03-18T09:24:35.568+0100"
+}

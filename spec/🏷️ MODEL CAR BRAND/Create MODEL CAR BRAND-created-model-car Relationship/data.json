@@ -1,0 +1,17 @@
+{
+  "id": "MCA-3971",
+  "parent_id": "MCA-231",
+  "title": "Create MODEL CAR BRAND-created-model-car Relationship",
+  "user_story": "",
+  "description": "* The relationship ›created-model-car‹ is created when the provided IDs of the MODEL CAR BRAND and MODEL CAR are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›created-model-car‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* Each MODEL CAR BRAND can be in a ›created-model-car‹ relationship with multiple MODEL CARS\n",
+  "api_verb": "POST",
+  "api_path": "/model-car-brands/<model-car-brand-id>/created-model-car/<model-car-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-17T20:04:50.939+0100",
+  "updated_at": "2026-03-17T20:04:53.267+0100"
+}

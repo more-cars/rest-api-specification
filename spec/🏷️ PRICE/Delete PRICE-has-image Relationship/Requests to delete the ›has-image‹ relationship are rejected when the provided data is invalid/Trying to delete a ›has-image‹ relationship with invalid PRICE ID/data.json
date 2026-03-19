@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4118",
+  "parent_id": "MCA-4117",
+  "title": "Trying to delete a ›has-image‹ relationship with invalid PRICE ID",
+  "gherkin": "Given \"PRICE\" \"Brand New\" does NOT exist\nAnd there exists a \"IMAGE\" \"Test photo\"\nWhen the user deletes the \"has image\" relationship between \"Brand New\" and \"Test photo\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-18T09:39:10.438+0100",
+  "updated_at": "2026-03-18T09:39:14.126+0100"
+}

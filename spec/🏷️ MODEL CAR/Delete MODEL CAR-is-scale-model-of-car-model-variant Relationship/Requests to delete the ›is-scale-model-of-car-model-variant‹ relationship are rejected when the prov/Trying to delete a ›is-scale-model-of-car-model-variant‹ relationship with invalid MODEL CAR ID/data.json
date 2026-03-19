@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3868",
+  "parent_id": "MCA-3867",
+  "title": "Trying to delete a ›is-scale-model-of-car-model-variant‹ relationship with invalid MODEL CAR ID",
+  "gherkin": "Given \"MODEL CAR\" \"F40 Matchbox\" does NOT exist\nAnd there exists a \"CAR MODEL VARIANT\" \"Trabant 601\"\nWhen the user deletes the \"is scale model of car model variant\" relationship between \"F40 Matchbox\" and \"Trabant 601\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-17T19:18:44.099+0100",
+  "updated_at": "2026-03-17T19:18:47.958+0100"
+}

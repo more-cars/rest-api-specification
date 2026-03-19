@@ -17,6 +17,6 @@ Feature: Create PROGRAMME Node
         | channel                      | BBC Two  | string   |
         | total_seasons                | 33       | number   |
         | total_episodes               | 240      | number   |
-        | regular_episode_running_time | 60       | number   |
+        | regular_episode_running_time | PT60M    | string   |
       Then the request should be confirmed with status code 201
       And the response should return the "PROGRAMME" "Top Gear"

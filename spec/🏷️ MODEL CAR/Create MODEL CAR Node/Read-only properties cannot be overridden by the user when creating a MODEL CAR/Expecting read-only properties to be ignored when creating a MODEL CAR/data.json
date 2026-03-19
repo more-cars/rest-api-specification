@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3802",
+  "parent_id": "MCA-3801",
+  "title": "Expecting read-only properties to be ignored when creating a MODEL CAR",
+  "gherkin": "When the user creates a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key | value | datatype |\n  | name | BMW 2002 | string |\n  | product_code | DHX60 | string |\n  | release_year | 2016 | number |\n  | scale | 1:64 | string |\n  | series | BMW | string |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
+  "labels": [],
+  "created_at": "2026-03-17T18:30:15.292+0100",
+  "updated_at": "2026-03-17T18:30:18.772+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3951",
+  "parent_id": "MCA-3948",
+  "title": "Trying to delete a ›has-prime-image‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"MODEL CAR\" \"F40 Scale Model\" does NOT exist\nAnd \"IMAGE\" \"Trabbi photo\" does NOT exist\nWhen the user deletes the \"has prime image\" relationship between \"F40 Scale Model\" and \"Trabbi photo\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-17T19:56:18.508+0100",
+  "updated_at": "2026-03-17T19:56:22.079+0100"
+}

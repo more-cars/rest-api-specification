@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3796",
+  "parent_id": "MCA-3790",
+  "title": "The response contains all specified properties when creating a MODEL CAR",
+  "description": "All properties are returned that are specified in the epic MCA-232. When properties are empty they are returned with null values. IDs, timestamp and other meta information might be included too, but is not in the scope of this AC.\n",
+  "release_version": null,
+  "created_at": "2026-03-17T18:29:30.175+0100",
+  "updated_at": "2026-03-17T18:30:03.420+0100"
+}

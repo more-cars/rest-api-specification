@@ -1,0 +1,15 @@
+{
+  "id": "MCA-3959",
+  "parent_id": "MCA-231",
+  "title": "Get all MODEL CAR BRAND Nodes",
+  "user_story": "As an API consumer\nI want to be able to load all MODEL CAR BRANDS at once\nSo I can find out which even exist\nAnd to be able to compare and analyze them without having to load them all individually\n",
+  "description": "* A list of all MODEL CAR BRAND nodes is returned when there exists at least 1. -> Status Code \\`200\\`\n* When no MODEL CAR BRANDS exist then an empty list is returned. -> Status Code \\`200\\`\n* Each returned list item contains all specified properties (see corresponding 'epic' ticket).\n* Properties are returned, even when they are empty (optional fields). They are returned with value \\`null\\`.\n",
+  "api_verb": "GET",
+  "api_path": "/model-car-brands",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-17T20:00:29.341+0100",
+  "updated_at": "2026-03-17T20:00:32.152+0100"
+}

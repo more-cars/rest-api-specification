@@ -1,0 +1,9 @@
+{
+  "id": "MCA-3853",
+  "parent_id": "MCA-3846",
+  "title": "The same ›is-scale-model-of-car-model-variant‹ relationship between the same nodes can only be created once",
+  "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
+  "release_version": null,
+  "created_at": "2026-03-17T19:14:42.929+0100",
+  "updated_at": "2026-03-17T19:14:49.557+0100"
+}

@@ -1,7 +1,7 @@
 @REQ_MCA-82
 Feature: Create IMAGE-belongs-to-node Relationship
   As an API contributor\
-  I want to attach IMAGEs to CAR MODELs (and other types of nodes)\
+  I want to be able to attach IMAGES to all kinds of nodes\
   So I can create a visual representation of those nodes
 
   @RULE_MCA-149

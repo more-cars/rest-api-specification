@@ -17,5 +17,5 @@ Feature: Create PROGRAMME Node
         | channel                      | BBC Two  | boolean  |
         | total_seasons                | 33       | boolean  |
         | total_episodes               | 240      | boolean  |
-        | regular_episode_running_time | 60       | boolean  |
+        | regular_episode_running_time | PT60M    | boolean  |
       Then the request should be rejected with status code 400

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4068",
+  "parent_id": "MCA-4067",
+  "title": "Expecting all attached relationships to be removed when hard-deleting a PRICE",
+  "gherkin": "Given there exists a \"PRICE\" \"Test Price\"\nAnd there exists a \"has image\" relationship \"R1\" for \"Test Price\"\nAnd there exists a \"has prime image\" relationship \"R2\" for \"Test Price\"\nWhen the user hard-deletes the \"PRICE\" \"Test Price\"\nThen the \"PRICE\" \"Test Price\" should not exist anymore\nAnd the relationship \"R1\" should not exist anymore\nAnd the relationship \"R2\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-03-18T09:21:27.484+0100",
+  "updated_at": "2026-03-18T09:21:31.855+0100"
+}

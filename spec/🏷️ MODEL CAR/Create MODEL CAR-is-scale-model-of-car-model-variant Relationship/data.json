@@ -1,0 +1,17 @@
+{
+  "id": "MCA-3846",
+  "parent_id": "MCA-232",
+  "title": "Create MODEL CAR-is-scale-model-of-car-model-variant Relationship",
+  "user_story": "",
+  "description": "* The relationship ›is-scale-model-of-car-model-variant‹ is created when the provided IDs of the MODEL CAR and CAR MODEL VARIANT are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›is-scale-model-of-car-model-variant‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* At the same time a MODEL CAR can only be in a ›is-scale-model-of-car-model-variant‹ relationship with one CAR MODEL VARIANT\n",
+  "api_verb": "POST",
+  "api_path": "/model-cars/<model-car-id>/is-scale-model-of-car-model-variant/<car-model-variant-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-17T19:14:11.056+0100",
+  "updated_at": "2026-03-17T19:14:13.583+0100"
+}

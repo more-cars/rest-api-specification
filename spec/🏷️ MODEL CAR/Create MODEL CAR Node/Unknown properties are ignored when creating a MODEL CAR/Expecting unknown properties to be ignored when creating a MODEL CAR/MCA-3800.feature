@@ -1,0 +1,29 @@
+@REQ_MCA-3790
+Feature: Create MODEL CAR Node
+  As an API contributor
+  I want to be able to create MODEL CARS
+  So I can fill gaps in the database
+
+  @RULE_MCA-3799
+  Rule: Unknown properties are ignored when creating a MODEL CAR
+
+    @TEST_MCA-3800
+    Scenario: Expecting unknown properties to be ignored when creating a MODEL CAR
+      When the user creates a "MODEL CAR" "F40 Matchbox" with the following data
+        | key          | value    | datatype |
+        | name         | BMW 2002 | string   |
+        | product_code | DHX60    | string   |
+        | release_year | 2016     | number   |
+        | scale        | 1:64     | string   |
+        | series       | BMW      | string   |
+        | thimbleweed  | park     | string   |
+      Then the response should contain the following properties
+        | key          | value    | datatype |
+        | name         | BMW 2002 | string   |
+        | product_code | DHX60    | string   |
+        | release_year | 2016     | number   |
+        | scale        | 1:64     | string   |
+        | series       | BMW      | string   |
+      And the response should NOT contain the following keys
+        | key         |
+        | thimbleweed |
