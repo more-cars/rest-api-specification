@@ -3,7 +3,7 @@
   "parent_id": "MCA-4107",
   "title": "An empty list is returned when there exist no ›has-image‹ relationships for the given PRICE",
   "description": "",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-18T09:36:22.804+0100",
-  "updated_at": "2026-03-18T09:36:29.777+0100"
+  "updated_at": "2026-03-20T17:37:30.395+0100"
 }

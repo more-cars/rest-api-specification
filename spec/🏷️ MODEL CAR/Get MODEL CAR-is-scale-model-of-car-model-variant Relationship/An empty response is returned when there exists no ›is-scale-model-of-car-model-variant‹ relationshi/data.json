@@ -3,7 +3,7 @@
   "parent_id": "MCA-3857",
   "title": "An empty response is returned when there exists no ›is-scale-model-of-car-model-variant‹ relationship for the given MODEL CAR",
   "description": "",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T19:16:06.776+0100",
-  "updated_at": "2026-03-17T19:16:15.719+0100"
+  "updated_at": "2026-03-20T17:46:10.543+0100"
 }

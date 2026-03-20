@@ -3,7 +3,7 @@
   "parent_id": "MCA-3803",
   "title": "Unknown properties are ignored when creating a MODEL CAR BRAND",
   "description": "The user can provide properties that are not specified in the epic MCA-231, but they will be completely ignored. They will not be processed and there will be no info, warning or error that they were skipped.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T18:32:27.077+0100",
-  "updated_at": "2026-03-17T19:32:31.792+0100"
+  "updated_at": "2026-03-20T17:46:13.263+0100"
 }

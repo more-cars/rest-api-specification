@@ -4,7 +4,7 @@ Feature: Create MODEL CAR BRAND-has-image Relationship
   @RULE_MCA-4007
   Rule: Each MODEL CAR BRAND can be in a ›has-image‹ relationship with multiple IMAGES
 
-    @TEST_MCA-4008
+    @TEST_MCA-4008 @implemented
     Scenario: Creating multiple ›has-image‹ relationships
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "IMAGE" "Hot Wheels logo"

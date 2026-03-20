@@ -3,7 +3,9 @@
   "parent_id": "MCA-3936",
   "title": "Creating a ›has-prime-image‹ relationship with a different IMAGE",
   "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Scale Model\"\nAnd there exists a \"IMAGE\" \"F40 Matchbox photo\"\nAnd there exists a \"IMAGE\" \"F40 Matchbox photo (Alternative)\"\nWhen the user creates a \"has prime image\" relationship between \"F40 Scale Model\" and \"F40 Matchbox photo\"\nThen there should exist a \"has prime image\" relationship between \"F40 Scale Model\" and \"F40 Matchbox photo\"\nWhen the user creates a \"has prime image\" relationship between \"F40 Scale Model\" and \"F40 Matchbox photo (Alternative)\"\nThen there should exist a \"has prime image\" relationship between \"F40 Scale Model\" and \"F40 Matchbox photo (Alternative)\"\nBut there should exist NO \"has prime image\" relationship between \"F40 Scale Model\" and \"F40 Matchbox photo\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:53:02.181+0100",
-  "updated_at": "2026-03-17T19:53:05.560+0100"
+  "updated_at": "2026-03-20T18:08:56.702+0100"
 }

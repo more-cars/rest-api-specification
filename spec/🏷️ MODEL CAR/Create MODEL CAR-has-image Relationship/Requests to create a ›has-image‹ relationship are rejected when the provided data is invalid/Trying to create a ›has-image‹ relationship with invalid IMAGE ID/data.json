@@ -3,7 +3,9 @@
   "parent_id": "MCA-3903",
   "title": "Trying to create a ›has-image‹ relationship with invalid IMAGE ID",
   "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Scale Model\"\nAnd \"IMAGE\" \"F40 Matchbox photo\" does NOT exist\nWhen the user creates a \"has image\" relationship between \"F40 Scale Model\" and \"F40 Matchbox photo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:46:52.127+0100",
-  "updated_at": "2026-03-17T19:46:55.476+0100"
+  "updated_at": "2026-03-20T18:08:49.462+0100"
 }

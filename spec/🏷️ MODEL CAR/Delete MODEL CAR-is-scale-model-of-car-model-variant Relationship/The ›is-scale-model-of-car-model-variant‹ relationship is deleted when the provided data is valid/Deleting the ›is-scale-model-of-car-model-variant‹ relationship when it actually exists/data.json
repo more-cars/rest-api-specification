@@ -3,7 +3,9 @@
   "parent_id": "MCA-3865",
   "title": "Deleting the ›is-scale-model-of-car-model-variant‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Matchbox\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Trabant 601\"\nAnd there exists a \"is scale model of car model variant\" relationship \"R\" between \"F40 Matchbox\" and \"Trabant 601\"\nWhen the user deletes the \"is scale model of car model variant\" relationship between \"F40 Matchbox\" and \"Trabant 601\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:18:36.407+0100",
-  "updated_at": "2026-03-17T19:18:39.704+0100"
+  "updated_at": "2026-03-20T18:08:40.216+0100"
 }

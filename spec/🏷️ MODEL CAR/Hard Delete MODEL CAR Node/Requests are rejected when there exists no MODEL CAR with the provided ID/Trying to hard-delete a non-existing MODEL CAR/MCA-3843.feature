@@ -7,7 +7,7 @@ Feature: Hard Delete MODEL CAR Node
   @RULE_MCA-3842
   Rule: Requests are rejected when there exists no MODEL CAR with the provided ID
 
-    @TEST_MCA-3843
+    @TEST_MCA-3843 @implemented
     Scenario: Trying to hard-delete a non-existing MODEL CAR
       Given "MODEL CAR" "F40 Matchbox" does NOT exist
       When the user hard-deletes the "MODEL CAR" "F40 Matchbox"

@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-has-prime-image Relationship
   @RULE_MCA-3934
   Rule: The same ›has-prime-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3935
+    @TEST_MCA-3935 @implemented
     Scenario: Trying to create the same ›has-prime-image‹ relationship again
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "IMAGE" "F40 Matchbox photo"

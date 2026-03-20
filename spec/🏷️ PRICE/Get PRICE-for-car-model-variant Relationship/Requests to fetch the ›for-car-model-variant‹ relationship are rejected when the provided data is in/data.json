@@ -3,7 +3,7 @@
   "parent_id": "MCA-4080",
   "title": "Requests to fetch the ›for-car-model-variant‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no PRICE with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-18T09:26:33.612+0100",
-  "updated_at": "2026-03-18T09:26:46.463+0100"
+  "updated_at": "2026-03-20T17:37:34.789+0100"
 }

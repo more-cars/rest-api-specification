@@ -1,0 +1,11 @@
+{
+  "id": "MCA-4171",
+  "parent_id": "MCA-4170",
+  "title": "Trying to fetch the ›has-price‹ relationships with an invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"BMW M3\" does NOT exist\nWhen the user requests all \"has price\" relationships for \"BMW M3\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-20T10:22:24.740+0100",
+  "updated_at": "2026-03-20T18:09:49.035+0100"
+}

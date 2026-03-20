@@ -7,7 +7,7 @@ Feature: Hard Delete MODEL CAR Node
   @RULE_MCA-3844
   Rule: Hard-deleting a MODEL CAR permanently deletes all attached relationships
 
-    @TEST_MCA-3845
+    @TEST_MCA-3845 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a MODEL CAR
       Given there exists a "MODEL CAR" "F40 Matchbox"
       And there exists a "has image" relationship "R1" for "F40 Matchbox"

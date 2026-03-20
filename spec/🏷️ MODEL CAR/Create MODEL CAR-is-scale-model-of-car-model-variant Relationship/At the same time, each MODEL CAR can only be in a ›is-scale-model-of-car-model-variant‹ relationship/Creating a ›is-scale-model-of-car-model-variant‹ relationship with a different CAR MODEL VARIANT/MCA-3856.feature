@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-is-scale-model-of-car-model-variant Relationship
   @RULE_MCA-3855
   Rule: At the same time, each MODEL CAR can only be in a ›is-scale-model-of-car-model-variant‹ relationship with one CAR MODEL VARIANT
 
-    @TEST_MCA-3856
+    @TEST_MCA-3856 @implemented
     Scenario: Creating a ›is-scale-model-of-car-model-variant‹ relationship with a different CAR MODEL VARIANT
       Given there exists a "MODEL CAR" "F40 Matchbox"
       And there exists a "CAR MODEL VARIANT" "Ferrari F40"

@@ -4,7 +4,7 @@ Feature: Get PRICE-for-car-model-variant Relationship
   @RULE_MCA-4083
   Rule: An empty response is returned when there exists no ›for-car-model-variant‹ relationship for the given PRICE
 
-    @TEST_MCA-4084
+    @TEST_MCA-4084 @implemented
     Scenario: Requesting the ›for-car-model-variant‹ relationship when there exists none
       Given there exists a "PRICE" "Brand New"
       And there exists NO "for car model variant" relationship for "Brand New"

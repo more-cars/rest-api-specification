@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-made-by-model-car-brand Relationship
   @RULE_MCA-3880
   Rule: The same ›made-by-model-car-brand‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3881
+    @TEST_MCA-3881 @implemented
     Scenario: Trying to create the same ›made-by-model-car-brand‹ relationship again
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "MODEL CAR BRAND" "Matchbox"

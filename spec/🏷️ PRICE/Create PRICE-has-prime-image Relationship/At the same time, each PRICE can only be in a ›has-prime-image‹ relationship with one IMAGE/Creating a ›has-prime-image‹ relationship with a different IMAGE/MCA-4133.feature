@@ -4,7 +4,7 @@ Feature: Create PRICE-has-prime-image Relationship
   @RULE_MCA-4132
   Rule: At the same time, each PRICE can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-4133
+    @TEST_MCA-4133 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "PRICE" "Brand New"
       And there exists a "IMAGE" "Price tag"

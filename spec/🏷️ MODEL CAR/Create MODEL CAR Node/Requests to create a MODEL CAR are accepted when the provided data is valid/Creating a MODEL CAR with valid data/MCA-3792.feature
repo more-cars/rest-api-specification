@@ -7,7 +7,7 @@ Feature: Create MODEL CAR Node
   @RULE_MCA-3791
   Rule: Requests to create a MODEL CAR are accepted when the provided data is valid
 
-    @TEST_MCA-3792
+    @TEST_MCA-3792 @implemented
     Scenario: Creating a MODEL CAR with valid data
       When the user creates a "MODEL CAR" "F40 Matchbox" with the following data
         | key          | value    | datatype |

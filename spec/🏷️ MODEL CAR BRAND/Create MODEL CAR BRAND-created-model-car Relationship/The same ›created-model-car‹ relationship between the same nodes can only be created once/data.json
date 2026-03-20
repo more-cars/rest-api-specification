@@ -3,7 +3,7 @@
   "parent_id": "MCA-3971",
   "title": "The same ›created-model-car‹ relationship between the same nodes can only be created once",
   "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T20:05:19.316+0100",
-  "updated_at": "2026-03-17T20:05:42.334+0100"
+  "updated_at": "2026-03-20T17:37:52.679+0100"
 }

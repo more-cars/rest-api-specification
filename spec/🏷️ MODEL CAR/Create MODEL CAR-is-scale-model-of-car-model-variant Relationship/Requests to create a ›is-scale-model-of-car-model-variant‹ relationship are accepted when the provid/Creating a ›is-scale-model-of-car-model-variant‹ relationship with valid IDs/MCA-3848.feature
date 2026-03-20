@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-is-scale-model-of-car-model-variant Relationship
   @RULE_MCA-3847
   Rule: Requests to create a ›is-scale-model-of-car-model-variant‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-3848
+    @TEST_MCA-3848 @implemented
     Scenario: Creating a ›is-scale-model-of-car-model-variant‹ relationship with valid IDs
       Given there exists a "MODEL CAR" "F40 Matchbox"
       And there exists a "CAR MODEL VARIANT" "Ferrari F40"

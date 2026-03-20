@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR-is-scale-model-of-car-model-variant Relationship
   @RULE_MCA-3871
   Rule: Requests to delete the ›is-scale-model-of-car-model-variant‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-3872
+    @TEST_MCA-3872 @implemented
     Scenario: Trying to delete a non-existent ›is-scale-model-of-car-model-variant‹ relationship
       Given there exists a "MODEL CAR" "F40 Matchbox"
       And there exists a "CAR MODEL VARIANT" "Trabant 601"

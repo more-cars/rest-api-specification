@@ -7,7 +7,7 @@ Feature: Create PRICE Node
   @RULE_MCA-3827
   Rule: Read-only properties cannot be overridden by the user when creating a PRICE
 
-    @TEST_MCA-3828
+    @TEST_MCA-3828 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a PRICE
       When the user creates a "PRICE" "Base Price" with the following data
         | key           | value      | datatype |

@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-has-image Relationship
   @RULE_MCA-3903
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3906
+    @TEST_MCA-3906 @implemented
     Scenario: Trying to create a ›has-image‹ relationship where both IDs are invalid
       Given "MODEL CAR" "F40 Scale Model" does NOT exist
       And "IMAGE" "F40 Matchbox photo" does NOT exist

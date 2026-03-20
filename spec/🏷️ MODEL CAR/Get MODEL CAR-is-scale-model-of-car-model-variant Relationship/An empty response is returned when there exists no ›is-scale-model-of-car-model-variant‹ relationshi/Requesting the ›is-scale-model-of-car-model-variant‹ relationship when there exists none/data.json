@@ -3,7 +3,9 @@
   "parent_id": "MCA-3860",
   "title": "Requesting the ›is-scale-model-of-car-model-variant‹ relationship when there exists none",
   "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Matchbox\"\nAnd there exists NO \"is scale model of car model variant\" relationship for \"F40 Matchbox\"\nWhen the user requests the \"is scale model of car model variant\" relationship for \"F40 Matchbox\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:16:10.546+0100",
-  "updated_at": "2026-03-17T19:16:15.681+0100"
+  "updated_at": "2026-03-20T18:08:39.344+0100"
 }

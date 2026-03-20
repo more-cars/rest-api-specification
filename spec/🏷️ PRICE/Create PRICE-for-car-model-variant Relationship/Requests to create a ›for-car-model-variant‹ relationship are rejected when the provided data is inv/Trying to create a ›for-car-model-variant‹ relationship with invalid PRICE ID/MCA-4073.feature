@@ -4,7 +4,7 @@ Feature: Create PRICE-for-car-model-variant Relationship
   @RULE_MCA-4072
   Rule: Requests to create a ›for-car-model-variant‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4073
+    @TEST_MCA-4073 @implemented
     Scenario: Trying to create a ›for-car-model-variant‹ relationship with invalid PRICE ID
       Given "PRICE" "Brand New" does NOT exist
       And there exists a "CAR MODEL VARIANT" "Porsche Carrera GT"

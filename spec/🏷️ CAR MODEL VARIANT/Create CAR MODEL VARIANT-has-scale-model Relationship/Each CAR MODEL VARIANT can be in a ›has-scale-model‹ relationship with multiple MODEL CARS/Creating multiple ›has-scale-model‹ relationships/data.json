@@ -1,0 +1,11 @@
+{
+  "id": "MCA-4191",
+  "parent_id": "MCA-4190",
+  "title": "Creating multiple ›has-scale-model‹ relationships",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nAnd there exists a \"MODEL CAR\" \"Hotwheels M3\"\nAnd there exists a \"MODEL CAR\" \"Hotwheels M3 (Alternative)\"\nWhen the user creates a \"has scale model\" relationship between \"BMW M3 CSL\" and \"Hotwheels M3\"\nAnd the user creates a \"has scale model\" relationship between \"BMW M3 CSL\" and \"Hotwheels M3 (Alternative)\"\nThen there should exist a \"has scale model\" relationship between \"BMW M3 CSL\" and \"Hotwheels M3\"\nAnd there should exist a \"has scale model\" relationship between \"BMW M3 CSL\" and \"Hotwheels M3 (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-20T16:49:11.804+0100",
+  "updated_at": "2026-03-20T18:09:53.530+0100"
+}

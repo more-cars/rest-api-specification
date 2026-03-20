@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-has-prime-image Relationship
   @RULE_MCA-3936
   Rule: At the same time, each MODEL CAR can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-3937
+    @TEST_MCA-3937 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "IMAGE" "F40 Matchbox photo"

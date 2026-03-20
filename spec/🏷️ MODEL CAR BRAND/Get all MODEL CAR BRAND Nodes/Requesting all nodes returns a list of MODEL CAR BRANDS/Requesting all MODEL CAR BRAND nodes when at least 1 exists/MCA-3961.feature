@@ -8,7 +8,7 @@ Feature: Get all MODEL CAR BRAND Nodes
   @RULE_MCA-3960
   Rule: Requesting all nodes returns a list of MODEL CAR BRANDS
 
-    @TEST_MCA-3961
+    @TEST_MCA-3961 @implemented
     Scenario: Requesting all MODEL CAR BRAND nodes when at least 1 exists
       Given there exist 3 "MODEL CAR BRAND"s
       When the user requests a "MODEL CAR BRAND" collection

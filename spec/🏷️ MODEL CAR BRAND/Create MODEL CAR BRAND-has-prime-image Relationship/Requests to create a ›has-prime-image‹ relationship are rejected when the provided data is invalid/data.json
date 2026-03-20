@@ -3,7 +3,7 @@
   "parent_id": "MCA-4025",
   "title": "Requests to create a ›has-prime-image‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no MODEL CAR BRAND with the provided ID? -> rejected.\nThere exists no IMAGE with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T20:16:20.582+0100",
-  "updated_at": "2026-03-17T20:16:37.864+0100"
+  "updated_at": "2026-03-20T17:37:44.070+0100"
 }

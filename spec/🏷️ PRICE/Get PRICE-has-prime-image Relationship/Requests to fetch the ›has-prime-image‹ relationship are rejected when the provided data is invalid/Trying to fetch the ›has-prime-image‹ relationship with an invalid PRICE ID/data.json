@@ -3,7 +3,9 @@
   "parent_id": "MCA-4139",
   "title": "Trying to fetch the ›has-prime-image‹ relationship with an invalid PRICE ID",
   "gherkin": "Given \"PRICE\" \"Brand New\" does NOT exist\nWhen the user requests the \"has prime image\" relationship for \"Brand New\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-18T09:48:30.018+0100",
-  "updated_at": "2026-03-18T09:48:33.435+0100"
+  "updated_at": "2026-03-20T18:09:41.578+0100"
 }

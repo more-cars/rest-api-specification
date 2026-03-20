@@ -3,7 +3,9 @@
   "parent_id": "MCA-4023",
   "title": "Trying to delete a non-existent ›has-image‹ relationship",
   "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nAnd there exists a \"IMAGE\" \"Matchbox logo\"\nAnd there exists NO \"has image\" relationship between \"Hot Wheels\" and \"Matchbox logo\"\nWhen the user deletes the \"has image\" relationship between \"Hot Wheels\" and \"Matchbox logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T20:14:23.178+0100",
-  "updated_at": "2026-03-17T20:14:26.491+0100"
+  "updated_at": "2026-03-20T18:09:16.294+0100"
 }

@@ -7,7 +7,7 @@ Feature: Create PRICE Node
   @RULE_MCA-3825
   Rule: Unknown properties are ignored when creating a PRICE
 
-    @TEST_MCA-3826
+    @TEST_MCA-3826 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a PRICE
       When the user creates a "PRICE" "Base Price" with the following data
         | key           | value | datatype |

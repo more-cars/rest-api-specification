@@ -7,7 +7,7 @@ Feature: Hard Delete MODEL CAR BRAND Node
   @RULE_MCA-3967
   Rule: Requests are rejected when there exists no MODEL CAR BRAND with the provided ID
 
-    @TEST_MCA-3968
+    @TEST_MCA-3968 @implemented
     Scenario: Trying to hard-delete a non-existing MODEL CAR BRAND
       Given "MODEL CAR BRAND" "Hot Wheels" does NOT exist
       When the user hard-deletes the "MODEL CAR BRAND" "Hot Wheels"

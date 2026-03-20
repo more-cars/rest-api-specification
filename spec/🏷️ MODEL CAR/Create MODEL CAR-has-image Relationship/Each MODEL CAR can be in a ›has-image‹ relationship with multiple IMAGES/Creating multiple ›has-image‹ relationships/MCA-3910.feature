@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-has-image Relationship
   @RULE_MCA-3909
   Rule: Each MODEL CAR can be in a ›has-image‹ relationship with multiple IMAGES
 
-    @TEST_MCA-3910
+    @TEST_MCA-3910 @implemented
     Scenario: Creating multiple ›has-image‹ relationships
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "IMAGE" "F40 Matchbox photo"

@@ -7,7 +7,7 @@ Feature: Hard Delete PRICE Node
   @RULE_MCA-4067
   Rule: Hard-deleting a PRICE permanently deletes all attached relationships
 
-    @TEST_MCA-4068
+    @TEST_MCA-4068 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a PRICE
       Given there exists a "PRICE" "Test Price"
       And there exists a "has image" relationship "R1" for "Test Price"

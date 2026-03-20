@@ -7,7 +7,7 @@ Feature: Hard Delete MODEL CAR BRAND Node
   @RULE_MCA-3965
   Rule: Hard-deleting a MODEL CAR BRAND permanently deletes it
 
-    @TEST_MCA-3966
+    @TEST_MCA-3966 @implemented
     Scenario: Hard-deleting an existing MODEL CAR BRAND
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       When the user hard-deletes the "MODEL CAR BRAND" "Hot Wheels"

@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-is-scale-model-of-car-model-variant Relationship
   @RULE_MCA-3853
   Rule: The same ›is-scale-model-of-car-model-variant‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3854
+    @TEST_MCA-3854 @implemented
     Scenario: Trying to create the same ›is-scale-model-of-car-model-variant‹ relationship again
       Given there exists a "MODEL CAR" "F40 Matchbox"
       And there exists a "CAR MODEL VARIANT" "Ferrari F40"

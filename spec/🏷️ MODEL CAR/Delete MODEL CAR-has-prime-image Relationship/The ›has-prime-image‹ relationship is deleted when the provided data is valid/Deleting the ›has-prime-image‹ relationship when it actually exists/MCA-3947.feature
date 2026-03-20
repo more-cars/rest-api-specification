@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR-has-prime-image Relationship
   @RULE_MCA-3946
   Rule: The ›has-prime-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3947
+    @TEST_MCA-3947 @implemented
     Scenario: Deleting the ›has-prime-image‹ relationship when it actually exists
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "IMAGE" "Trabbi photo"

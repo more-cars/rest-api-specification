@@ -3,7 +3,7 @@
   "parent_id": "MCA-4080",
   "title": "An empty response is returned when there exists no ›for-car-model-variant‹ relationship for the given PRICE",
   "description": "",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-18T09:26:24.872+0100",
-  "updated_at": "2026-03-18T09:26:32.845+0100"
+  "updated_at": "2026-03-20T17:37:35.301+0100"
 }

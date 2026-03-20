@@ -3,7 +3,7 @@
   "parent_id": "MCA-3918",
   "title": "The ›has-image‹ relationship is deleted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a MODEL CAR and the second node needs to be a IMAGE.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T19:50:19.014+0100",
-  "updated_at": "2026-03-17T19:50:25.853+0100"
+  "updated_at": "2026-03-20T17:38:02.469+0100"
 }

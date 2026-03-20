@@ -7,7 +7,7 @@ Feature: Create MODEL CAR BRAND Node
   @RULE_MCA-3809
   Rule: The response contains all specified properties when creating a MODEL CAR BRAND
 
-    @TEST_MCA-3810
+    @TEST_MCA-3810 @implemented
     Scenario: Expecting all properties to be returned when creating a MODEL CAR BRAND
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
         | key     | value      | datatype |

@@ -3,7 +3,9 @@
   "parent_id": "MCA-4028",
   "title": "Trying to create a ›has-prime-image‹ relationship with invalid MODEL CAR BRAND ID",
   "gherkin": "Given \"MODEL CAR BRAND\" \"Hot Wheels\" does NOT exist\nAnd there exists a \"IMAGE\" \"Hot Wheels logo\"\nWhen the user creates a \"has prime image\" relationship between \"Hot Wheels\" and \"Hot Wheels logo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T20:16:23.508+0100",
-  "updated_at": "2026-03-17T20:16:27.109+0100"
+  "updated_at": "2026-03-20T18:09:17.179+0100"
 }

@@ -7,7 +7,7 @@ Feature: Get PRICE Node by ID
   @RULE_MCA-4053
   Rule: Requesting a PRICE with a valid ID returns the respective node
 
-    @TEST_MCA-4054
+    @TEST_MCA-4054 @implemented
     Scenario: Requesting a PRICE with valid ID
       Given there exists a "PRICE" "Brand New"
       When the user requests the "PRICE" "Brand New"

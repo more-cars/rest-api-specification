@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-has-prime-image Relationship
   @RULE_MCA-3928
   Rule: Requests to create a ›has-prime-image‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-3929
+    @TEST_MCA-3929 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with valid IDs
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "IMAGE" "F40 Matchbox photo"

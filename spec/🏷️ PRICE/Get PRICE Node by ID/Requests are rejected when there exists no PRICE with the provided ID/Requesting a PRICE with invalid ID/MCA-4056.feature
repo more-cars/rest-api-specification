@@ -7,7 +7,7 @@ Feature: Get PRICE Node by ID
   @RULE_MCA-4055
   Rule: Requests are rejected when there exists no PRICE with the provided ID
 
-    @TEST_MCA-4056
+    @TEST_MCA-4056 @implemented
     Scenario: Requesting a PRICE with invalid ID
       When the user requests a non-existing "PRICE"
       Then the request should be rejected with status code 404

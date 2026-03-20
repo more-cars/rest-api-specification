@@ -8,7 +8,7 @@ Feature: Get all MODEL CAR BRAND Nodes
   @RULE_MCA-3962
   Rule: An empty list is returned when there exist no MODEL CAR BRANDS
 
-    @TEST_MCA-3963
+    @TEST_MCA-3963 @implemented
     Scenario: Requesting all MODEL CAR BRAND nodes when none exist
       Given there exist 0 "MODEL CAR BRAND"s
       When the user requests a "MODEL CAR BRAND" collection

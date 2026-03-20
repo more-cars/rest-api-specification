@@ -1,0 +1,11 @@
+{
+  "id": "MCA-4183",
+  "parent_id": "MCA-4182",
+  "title": "Creating a ›has-scale-model‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nAnd there exists a \"MODEL CAR\" \"Hotwheels M3\"\nWhen the user creates a \"has scale model\" relationship between \"BMW M3 CSL\" and \"Hotwheels M3\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-20T16:48:33.828+0100",
+  "updated_at": "2026-03-20T18:09:51.512+0100"
+}

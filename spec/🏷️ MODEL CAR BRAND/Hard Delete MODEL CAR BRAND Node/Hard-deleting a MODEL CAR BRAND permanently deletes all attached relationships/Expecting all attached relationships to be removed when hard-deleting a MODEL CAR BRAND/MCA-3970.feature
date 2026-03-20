@@ -7,7 +7,7 @@ Feature: Hard Delete MODEL CAR BRAND Node
   @RULE_MCA-3969
   Rule: Hard-deleting a MODEL CAR BRAND permanently deletes all attached relationships
 
-    @TEST_MCA-3970
+    @TEST_MCA-3970 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a MODEL CAR BRAND
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "has image" relationship "R1" for "Hot Wheels"

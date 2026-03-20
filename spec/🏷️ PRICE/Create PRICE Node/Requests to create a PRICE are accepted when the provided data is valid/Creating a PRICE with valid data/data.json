@@ -3,7 +3,9 @@
   "parent_id": "MCA-3817",
   "title": "Creating a PRICE with valid data",
   "gherkin": "When the user creates a \"PRICE\" \"Base Price\" with the following data\n  | key | value | datatype |\n  | price | 59990 | number |\n  | currency_code | EUR | string |\n  | country_code | DE | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"PRICE\" \"Base Price\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:03:22.500+0100",
-  "updated_at": "2026-03-17T19:03:26.896+0100"
+  "updated_at": "2026-03-20T18:08:30.206+0100"
 }

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4190",
+  "parent_id": "MCA-4181",
+  "title": "Each CAR MODEL VARIANT can be in a ›has-scale-model‹ relationship with multiple MODEL CARS",
+  "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
+  "release_version": "0.31.0",
+  "created_at": "2026-03-20T16:49:08.368+0100",
+  "updated_at": "2026-03-20T17:37:15.944+0100"
+}

@@ -3,7 +3,7 @@
   "parent_id": "MCA-3839",
   "title": "Hard-deleting a MODEL CAR permanently deletes all attached relationships",
   "description": "This affects all attached relationships (no matter the type) - be it internal or public relationships. Features that rely on those relationships are responsible to copy, backup or persist the data themselves.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T19:09:56.954+0100",
-  "updated_at": "2026-03-17T19:10:05.026+0100"
+  "updated_at": "2026-03-20T17:38:13.434+0100"
 }

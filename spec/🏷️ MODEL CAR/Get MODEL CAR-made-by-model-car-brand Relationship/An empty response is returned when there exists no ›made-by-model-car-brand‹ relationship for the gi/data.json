@@ -3,7 +3,7 @@
   "parent_id": "MCA-3884",
   "title": "An empty response is returned when there exists no ›made-by-model-car-brand‹ relationship for the given MODEL CAR",
   "description": "",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T19:42:28.629+0100",
-  "updated_at": "2026-03-17T19:42:35.111+0100"
+  "updated_at": "2026-03-20T17:38:06.943+0100"
 }

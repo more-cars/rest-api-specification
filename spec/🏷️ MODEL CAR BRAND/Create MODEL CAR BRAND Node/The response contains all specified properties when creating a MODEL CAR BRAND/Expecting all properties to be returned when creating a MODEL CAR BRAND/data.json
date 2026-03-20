@@ -3,7 +3,9 @@
   "parent_id": "MCA-3809",
   "title": "Expecting all properties to be returned when creating a MODEL CAR BRAND",
   "gherkin": "When the user creates a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key | value | datatype |\n  | name | Hot Wheele | string |\n  | founded | 1968 | number |\n  | defunct |  | number |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Hot Wheele | string |\n  | founded | 1968 | number |\n  | defunct |  | number |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T18:32:17.877+0100",
-  "updated_at": "2026-03-17T19:36:21.339+0100"
+  "updated_at": "2026-03-20T18:08:28.452+0100"
 }

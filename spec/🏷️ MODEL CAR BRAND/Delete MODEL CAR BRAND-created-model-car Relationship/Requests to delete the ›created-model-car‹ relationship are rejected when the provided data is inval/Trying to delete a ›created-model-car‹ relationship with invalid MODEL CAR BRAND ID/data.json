@@ -3,7 +3,9 @@
   "parent_id": "MCA-3992",
   "title": "Trying to delete a ›created-model-car‹ relationship with invalid MODEL CAR BRAND ID",
   "gherkin": "Given \"MODEL CAR BRAND\" \"Hot Wheels\" does NOT exist\nAnd there exists a \"MODEL CAR\" \"F40 Matchbox\"\nWhen the user deletes the \"created model car\" relationship between \"Hot Wheels\" and \"F40 Matchbox\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T20:08:32.900+0100",
-  "updated_at": "2026-03-17T20:08:36.906+0100"
+  "updated_at": "2026-03-20T18:09:08.721+0100"
 }

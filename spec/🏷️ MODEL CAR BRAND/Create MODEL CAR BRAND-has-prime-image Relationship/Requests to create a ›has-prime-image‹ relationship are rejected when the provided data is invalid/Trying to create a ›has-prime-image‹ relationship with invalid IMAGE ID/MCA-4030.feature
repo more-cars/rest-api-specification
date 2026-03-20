@@ -4,7 +4,7 @@ Feature: Create MODEL CAR BRAND-has-prime-image Relationship
   @RULE_MCA-4028
   Rule: Requests to create a ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4030
+    @TEST_MCA-4030 @implemented
     Scenario: Trying to create a ›has-prime-image‹ relationship with invalid IMAGE ID
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And "IMAGE" "Hot Wheels logo" does NOT exist

@@ -7,7 +7,7 @@ Feature: Create MODEL CAR BRAND Node
   @RULE_MCA-3804
   Rule: Requests to create a MODEL CAR BRAND are accepted when the provided data is valid
 
-    @TEST_MCA-3805
+    @TEST_MCA-3805 @implemented
     Scenario: Creating a MODEL CAR BRAND with valid data
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
         | key     | value      | datatype |

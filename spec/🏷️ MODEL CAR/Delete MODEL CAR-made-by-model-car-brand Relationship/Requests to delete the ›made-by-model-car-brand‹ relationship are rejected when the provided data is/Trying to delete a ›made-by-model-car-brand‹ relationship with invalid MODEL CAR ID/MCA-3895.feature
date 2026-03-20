@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR-made-by-model-car-brand Relationship
   @RULE_MCA-3894
   Rule: Requests to delete the ›made-by-model-car-brand‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3895
+    @TEST_MCA-3895 @implemented
     Scenario: Trying to delete a ›made-by-model-car-brand‹ relationship with invalid MODEL CAR ID
       Given "MODEL CAR" "F40 Matchbox" does NOT exist
       And there exists a "MODEL CAR BRAND" "Hot Wheels"

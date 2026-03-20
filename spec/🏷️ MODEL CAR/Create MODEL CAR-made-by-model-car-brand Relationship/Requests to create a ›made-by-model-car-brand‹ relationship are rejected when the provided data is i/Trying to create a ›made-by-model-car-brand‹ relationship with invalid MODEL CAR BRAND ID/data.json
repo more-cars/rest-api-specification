@@ -3,7 +3,9 @@
   "parent_id": "MCA-3876",
   "title": "Trying to create a ›made-by-model-car-brand‹ relationship with invalid MODEL CAR BRAND ID",
   "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Scale Model\"\nAnd \"MODEL CAR BRAND\" \"Matchbox\" does NOT exist\nWhen the user creates a \"made by model car brand\" relationship between \"F40 Scale Model\" and \"Matchbox\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:38:27.764+0100",
-  "updated_at": "2026-03-17T19:38:31.143+0100"
+  "updated_at": "2026-03-20T18:08:43.301+0100"
 }

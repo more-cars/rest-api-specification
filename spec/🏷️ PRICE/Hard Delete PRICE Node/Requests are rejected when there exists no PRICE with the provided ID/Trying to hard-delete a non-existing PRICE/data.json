@@ -3,7 +3,9 @@
   "parent_id": "MCA-4065",
   "title": "Trying to hard-delete a non-existing PRICE",
   "gherkin": "Given \"PRICE\" \"Test Price\" does NOT exist\nWhen the user hard-deletes the \"PRICE\" \"Test Price\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-18T09:21:18.351+0100",
-  "updated_at": "2026-03-18T09:21:22.541+0100"
+  "updated_at": "2026-03-20T18:09:25.177+0100"
 }

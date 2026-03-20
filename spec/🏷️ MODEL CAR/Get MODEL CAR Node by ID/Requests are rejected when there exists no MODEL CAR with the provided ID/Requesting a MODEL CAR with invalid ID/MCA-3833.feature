@@ -7,7 +7,7 @@ Feature: Get MODEL CAR Node by ID
   @RULE_MCA-3832
   Rule: Requests are rejected when there exists no MODEL CAR with the provided ID
 
-    @TEST_MCA-3833
+    @TEST_MCA-3833 @implemented
     Scenario: Requesting a MODEL CAR with invalid ID
       When the user requests a non-existing "MODEL CAR"
       Then the request should be rejected with status code 404

@@ -8,7 +8,7 @@ Feature: Get all MODEL CAR Nodes
   @RULE_MCA-3837
   Rule: An empty list is returned when there exist no MODEL CARS
 
-    @TEST_MCA-3838
+    @TEST_MCA-3838 @implemented
     Scenario: Requesting all MODEL CAR nodes when none exist
       Given there exist 0 "MODEL CAR"s
       When the user requests a "MODEL CAR" collection

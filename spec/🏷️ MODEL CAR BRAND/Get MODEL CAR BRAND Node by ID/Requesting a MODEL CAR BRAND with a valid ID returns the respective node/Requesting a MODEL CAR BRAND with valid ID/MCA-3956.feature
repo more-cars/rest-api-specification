@@ -7,7 +7,7 @@ Feature: Get MODEL CAR BRAND Node by ID
   @RULE_MCA-3955
   Rule: Requesting a MODEL CAR BRAND with a valid ID returns the respective node
 
-    @TEST_MCA-3956
+    @TEST_MCA-3956 @implemented
     Scenario: Requesting a MODEL CAR BRAND with valid ID
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       When the user requests the "MODEL CAR BRAND" "Hot Wheels"

@@ -7,7 +7,7 @@ Feature: Create MODEL CAR BRAND Node
   @RULE_MCA-3812
   Rule: Unknown properties are ignored when creating a MODEL CAR BRAND
 
-    @TEST_MCA-3813
+    @TEST_MCA-3813 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a MODEL CAR BRAND
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
         | key         | value      | datatype |

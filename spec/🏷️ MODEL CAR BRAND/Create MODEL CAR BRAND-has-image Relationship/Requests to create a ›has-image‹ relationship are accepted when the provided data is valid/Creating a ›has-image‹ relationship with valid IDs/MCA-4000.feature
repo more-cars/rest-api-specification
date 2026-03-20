@@ -4,7 +4,7 @@ Feature: Create MODEL CAR BRAND-has-image Relationship
   @RULE_MCA-3999
   Rule: Requests to create a ›has-image‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4000
+    @TEST_MCA-4000 @implemented
     Scenario: Creating a ›has-image‹ relationship with valid IDs
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "IMAGE" "Hot Wheels logo"

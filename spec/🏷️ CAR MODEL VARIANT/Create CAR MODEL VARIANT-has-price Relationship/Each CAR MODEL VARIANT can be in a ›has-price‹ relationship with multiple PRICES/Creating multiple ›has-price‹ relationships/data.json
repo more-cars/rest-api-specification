@@ -1,0 +1,11 @@
+{
+  "id": "MCA-4164",
+  "parent_id": "MCA-4163",
+  "title": "Creating multiple ›has-price‹ relationships",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists a \"PRICE\" \"base price\"\nAnd there exists a \"PRICE\" \"base price (Alternative)\"\nWhen the user creates a \"has price\" relationship between \"BMW M3\" and \"base price\"\nAnd the user creates a \"has price\" relationship between \"BMW M3\" and \"base price (Alternative)\"\nThen there should exist a \"has price\" relationship between \"BMW M3\" and \"base price\"\nAnd there should exist a \"has price\" relationship between \"BMW M3\" and \"base price (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-20T10:21:13.826+0100",
+  "updated_at": "2026-03-20T18:09:47.729+0100"
+}

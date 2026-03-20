@@ -3,7 +3,7 @@
   "parent_id": "MCA-3911",
   "title": "An empty list is returned when there exist no ›has-image‹ relationships for the given MODEL CAR",
   "description": "",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T19:48:31.045+0100",
-  "updated_at": "2026-03-17T19:48:37.212+0100"
+  "updated_at": "2026-03-20T17:38:03.443+0100"
 }

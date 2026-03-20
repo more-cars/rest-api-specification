@@ -4,7 +4,7 @@ Feature: Get all MODEL CAR BRAND-has-image Relationships
   @RULE_MCA-4012
   Rule: An empty list is returned when there exist no ›has-image‹ relationships for the given MODEL CAR BRAND
 
-    @TEST_MCA-4013
+    @TEST_MCA-4013 @implemented
     Scenario: Requesting the ›has-image‹ relationships when there are none
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exist 0 "has image" relationships for "Hot Wheels"

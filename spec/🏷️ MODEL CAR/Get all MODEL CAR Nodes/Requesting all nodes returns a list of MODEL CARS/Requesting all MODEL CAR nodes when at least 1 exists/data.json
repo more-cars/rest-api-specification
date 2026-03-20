@@ -3,7 +3,9 @@
   "parent_id": "MCA-3835",
   "title": "Requesting all MODEL CAR nodes when at least 1 exists",
   "gherkin": "Given there exist 3 \"MODEL CAR\"s\nWhen the user requests a \"MODEL CAR\" collection\nThen the response should return a collection of 3 \"MODEL CAR\"s\nAnd the response should return with status code 200",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:08:14.920+0100",
-  "updated_at": "2026-03-17T19:08:19.917+0100"
+  "updated_at": "2026-03-20T18:08:34.173+0100"
 }

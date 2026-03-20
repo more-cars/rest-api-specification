@@ -3,7 +3,7 @@
   "parent_id": "MCA-3998",
   "title": "Each MODEL CAR BRAND can be in a ›has-image‹ relationship with multiple IMAGES",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T20:11:27.936+0100",
-  "updated_at": "2026-03-17T20:11:34.819+0100"
+  "updated_at": "2026-03-20T17:37:48.035+0100"
 }

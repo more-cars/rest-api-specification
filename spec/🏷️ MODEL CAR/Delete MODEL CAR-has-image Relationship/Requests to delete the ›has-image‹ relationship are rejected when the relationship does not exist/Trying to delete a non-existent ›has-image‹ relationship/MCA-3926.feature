@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR-has-image Relationship
   @RULE_MCA-3925
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-3926
+    @TEST_MCA-3926 @implemented
     Scenario: Trying to delete a non-existent ›has-image‹ relationship
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "IMAGE" "Trabbi photo"

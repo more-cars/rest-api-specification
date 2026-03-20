@@ -7,7 +7,7 @@ Feature: Create MODEL CAR Node
   @RULE_MCA-3799
   Rule: Unknown properties are ignored when creating a MODEL CAR
 
-    @TEST_MCA-3800
+    @TEST_MCA-3800 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a MODEL CAR
       When the user creates a "MODEL CAR" "F40 Matchbox" with the following data
         | key          | value    | datatype |

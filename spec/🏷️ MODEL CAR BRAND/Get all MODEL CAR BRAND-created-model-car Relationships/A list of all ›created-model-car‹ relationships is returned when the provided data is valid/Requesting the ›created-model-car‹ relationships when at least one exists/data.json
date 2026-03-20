@@ -3,7 +3,9 @@
   "parent_id": "MCA-3983",
   "title": "Requesting the ›created-model-car‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nAnd there exist 3 \"created model car\" relationships for \"Hot Wheels\"\nWhen the user requests all \"created model car\" relationships for \"Hot Wheels\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"created model car\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T20:06:43.936+0100",
-  "updated_at": "2026-03-17T20:06:47.354+0100"
+  "updated_at": "2026-03-20T18:09:06.894+0100"
 }

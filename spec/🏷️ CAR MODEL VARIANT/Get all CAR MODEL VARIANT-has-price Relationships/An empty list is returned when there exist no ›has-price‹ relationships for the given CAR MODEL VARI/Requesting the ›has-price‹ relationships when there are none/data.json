@@ -1,0 +1,11 @@
+{
+  "id": "MCA-4169",
+  "parent_id": "MCA-4168",
+  "title": "Requesting the ›has-price‹ relationships when there are none",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exist 0 \"has price\" relationships for \"BMW M3\"\nWhen the user requests all \"has price\" relationships for \"BMW M3\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-20T10:22:16.967+0100",
+  "updated_at": "2026-03-20T18:09:48.607+0100"
+}

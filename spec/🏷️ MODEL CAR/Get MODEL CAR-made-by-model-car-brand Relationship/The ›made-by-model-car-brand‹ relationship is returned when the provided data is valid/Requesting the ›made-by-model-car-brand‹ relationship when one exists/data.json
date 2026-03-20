@@ -3,7 +3,9 @@
   "parent_id": "MCA-3885",
   "title": "Requesting the ›made-by-model-car-brand‹ relationship when one exists",
   "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Scale Model\"\nAnd there exists a \"made by model car brand\" relationship \"R\" for \"F40 Scale Model\"\nWhen the user requests the \"made by model car brand\" relationship for \"F40 Scale Model\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:42:24.569+0100",
-  "updated_at": "2026-03-17T19:42:27.903+0100"
+  "updated_at": "2026-03-20T18:08:44.980+0100"
 }

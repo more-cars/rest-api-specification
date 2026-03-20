@@ -7,7 +7,7 @@ Feature: Create MODEL CAR Node
   @RULE_MCA-3793
   Rule: Requests to create a MODEL CAR are rejected when the provided data is invalid
 
-    @TEST_MCA-3795
+    @TEST_MCA-3795 @implemented
     Scenario: Trying to create a MODEL CAR with invalid data types
       When the user tries to create a "MODEL CAR" "F40 Matchbox" with the following data
         | key          | value    | datatype |

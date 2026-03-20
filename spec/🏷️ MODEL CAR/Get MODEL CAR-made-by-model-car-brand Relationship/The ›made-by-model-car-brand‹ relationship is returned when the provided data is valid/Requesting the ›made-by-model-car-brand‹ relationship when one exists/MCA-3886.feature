@@ -4,7 +4,7 @@ Feature: Get MODEL CAR-made-by-model-car-brand Relationship
   @RULE_MCA-3885
   Rule: The ›made-by-model-car-brand‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-3886
+    @TEST_MCA-3886 @implemented
     Scenario: Requesting the ›made-by-model-car-brand‹ relationship when one exists
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "made by model car brand" relationship "R" for "F40 Scale Model"

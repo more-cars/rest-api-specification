@@ -7,7 +7,7 @@ Feature: Create PRICE Node
   @RULE_MCA-3822
   Rule: The response contains all specified properties when creating a PRICE
 
-    @TEST_MCA-3824
+    @TEST_MCA-3824 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a PRICE
       When the user creates a "PRICE" "Base Price" with the following data
         | key           | value | datatype |

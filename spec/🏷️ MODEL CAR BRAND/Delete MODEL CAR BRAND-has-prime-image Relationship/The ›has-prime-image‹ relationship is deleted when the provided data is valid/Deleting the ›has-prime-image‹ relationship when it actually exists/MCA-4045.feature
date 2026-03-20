@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR BRAND-has-prime-image Relationship
   @RULE_MCA-4044
   Rule: The ›has-prime-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4045
+    @TEST_MCA-4045 @implemented
     Scenario: Deleting the ›has-prime-image‹ relationship when it actually exists
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "IMAGE" "Matchbox logo"

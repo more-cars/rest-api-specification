@@ -7,7 +7,7 @@ Feature: Hard Delete PRICE Node
   @RULE_MCA-4063
   Rule: Hard-deleting a PRICE permanently deletes it
 
-    @TEST_MCA-4064
+    @TEST_MCA-4064 @implemented
     Scenario: Hard-deleting an existing PRICE
       Given there exists a "PRICE" "Test Price"
       When the user hard-deletes the "PRICE" "Test Price"

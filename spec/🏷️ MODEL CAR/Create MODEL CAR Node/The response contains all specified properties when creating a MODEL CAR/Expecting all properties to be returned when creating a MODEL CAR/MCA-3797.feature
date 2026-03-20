@@ -7,7 +7,7 @@ Feature: Create MODEL CAR Node
   @RULE_MCA-3796
   Rule: The response contains all specified properties when creating a MODEL CAR
 
-    @TEST_MCA-3797
+    @TEST_MCA-3797 @implemented
     Scenario: Expecting all properties to be returned when creating a MODEL CAR
       When the user creates a "MODEL CAR" "F40 Matchbox" with the following data
         | key          | value    | datatype |

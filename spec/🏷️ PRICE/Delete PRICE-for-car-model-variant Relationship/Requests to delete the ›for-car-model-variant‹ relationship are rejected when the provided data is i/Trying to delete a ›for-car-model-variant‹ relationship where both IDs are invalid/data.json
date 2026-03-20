@@ -3,7 +3,9 @@
   "parent_id": "MCA-4090",
   "title": "Trying to delete a ›for-car-model-variant‹ relationship where both IDs are invalid",
   "gherkin": "Given \"PRICE\" \"Brand New\" does NOT exist\nAnd \"CAR MODEL VARIANT\" \"Porsche Carrera GT\" does NOT exist\nWhen the user deletes the \"for car model variant\" relationship between \"Brand New\" and \"Porsche Carrera GT\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-18T09:29:00.127+0100",
-  "updated_at": "2026-03-18T09:29:04.285+0100"
+  "updated_at": "2026-03-20T18:09:31.360+0100"
 }

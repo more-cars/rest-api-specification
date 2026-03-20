@@ -7,7 +7,7 @@ Feature: Delete PRICE-has-prime-image Relationship
   @RULE_MCA-4144
   Rule: Requests to delete the ›has-prime-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4147
+    @TEST_MCA-4147 @implemented
     Scenario: Trying to delete a ›has-prime-image‹ relationship where both IDs are invalid
       Given "PRICE" "Brand New" does NOT exist
       And "IMAGE" "Test price" does NOT exist

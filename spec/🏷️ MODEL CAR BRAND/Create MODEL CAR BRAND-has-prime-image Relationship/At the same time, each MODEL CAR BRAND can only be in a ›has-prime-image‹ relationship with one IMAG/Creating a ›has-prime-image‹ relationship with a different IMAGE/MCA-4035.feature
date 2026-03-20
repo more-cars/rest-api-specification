@@ -4,7 +4,7 @@ Feature: Create MODEL CAR BRAND-has-prime-image Relationship
   @RULE_MCA-4034
   Rule: At the same time, each MODEL CAR BRAND can only be in a ›has-prime-image‹ relationship with one IMAGE
 
-    @TEST_MCA-4035
+    @TEST_MCA-4035 @implemented
     Scenario: Creating a ›has-prime-image‹ relationship with a different IMAGE
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "IMAGE" "Hot Wheels logo"

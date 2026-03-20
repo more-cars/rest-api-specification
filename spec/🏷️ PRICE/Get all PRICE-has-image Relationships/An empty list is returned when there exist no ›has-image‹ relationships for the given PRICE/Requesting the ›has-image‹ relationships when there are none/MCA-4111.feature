@@ -4,7 +4,7 @@ Feature: Get all PRICE-has-image Relationships
   @RULE_MCA-4110
   Rule: An empty list is returned when there exist no ›has-image‹ relationships for the given PRICE
 
-    @TEST_MCA-4111
+    @TEST_MCA-4111 @implemented
     Scenario: Requesting the ›has-image‹ relationships when there are none
       Given there exists a "PRICE" "Brand New"
       And there exist 0 "has image" relationships for "Brand New"

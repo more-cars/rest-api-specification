@@ -8,7 +8,7 @@ Feature: Get all PRICE Nodes
   @RULE_MCA-4060
   Rule: An empty list is returned when there exist no PRICES
 
-    @TEST_MCA-4061
+    @TEST_MCA-4061 @implemented
     Scenario: Requesting all PRICE nodes when none exist
       Given there exist 0 "PRICE"s
       When the user requests a "PRICE" collection

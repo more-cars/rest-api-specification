@@ -8,7 +8,7 @@ Feature: Get all PRICE Nodes
   @RULE_MCA-4058
   Rule: Requesting all nodes returns a list of PRICES
 
-    @TEST_MCA-4059
+    @TEST_MCA-4059 @implemented
     Scenario: Requesting all PRICE nodes when at least 1 exists
       Given there exist 3 "PRICE"s
       When the user requests a "PRICE" collection

@@ -3,7 +3,7 @@
   "parent_id": "MCA-3989",
   "title": "The ›created-model-car‹ relationship is deleted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a MODEL CAR BRAND and the second node needs to be a MODEL CAR.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T20:08:21.799+0100",
-  "updated_at": "2026-03-17T20:08:29.041+0100"
+  "updated_at": "2026-03-20T17:37:50.428+0100"
 }

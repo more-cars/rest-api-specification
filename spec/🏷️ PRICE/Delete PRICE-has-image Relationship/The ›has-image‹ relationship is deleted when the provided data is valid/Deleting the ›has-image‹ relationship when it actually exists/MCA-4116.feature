@@ -7,7 +7,7 @@ Feature: Delete PRICE-has-image Relationship
   @RULE_MCA-4115
   Rule: The ›has-image‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4116
+    @TEST_MCA-4116 @implemented
     Scenario: Deleting the ›has-image‹ relationship when it actually exists
       Given there exists a "PRICE" "Brand New"
       And there exists a "IMAGE" "Test photo"

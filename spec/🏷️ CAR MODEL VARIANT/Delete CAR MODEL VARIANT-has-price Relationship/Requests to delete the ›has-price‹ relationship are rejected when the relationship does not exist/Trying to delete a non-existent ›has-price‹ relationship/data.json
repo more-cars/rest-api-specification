@@ -1,0 +1,11 @@
+{
+  "id": "MCA-4180",
+  "parent_id": "MCA-4179",
+  "title": "Trying to delete a non-existent ›has-price‹ relationship",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists a \"PRICE\" \"test price\"\nAnd there exists NO \"has price\" relationship between \"BMW M3\" and \"test price\"\nWhen the user deletes the \"has price\" relationship between \"BMW M3\" and \"test price\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-20T10:23:47.322+0100",
+  "updated_at": "2026-03-20T18:09:51.052+0100"
+}

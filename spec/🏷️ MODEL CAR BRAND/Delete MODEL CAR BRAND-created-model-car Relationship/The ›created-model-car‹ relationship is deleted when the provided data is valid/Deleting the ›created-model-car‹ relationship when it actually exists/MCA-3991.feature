@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR BRAND-created-model-car Relationship
   @RULE_MCA-3990
   Rule: The ›created-model-car‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-3991
+    @TEST_MCA-3991 @implemented
     Scenario: Deleting the ›created-model-car‹ relationship when it actually exists
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "MODEL CAR" "F40 Matchbox"

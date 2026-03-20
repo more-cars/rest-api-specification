@@ -3,7 +3,7 @@
   "parent_id": "MCA-3954",
   "title": "Requesting a MODEL CAR BRAND with a valid ID returns the respective node",
   "description": "An ID is deemed valid when there exists a node with that ID AND the node is from type MODEL CAR BRAND.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T19:59:24.353+0100",
-  "updated_at": "2026-03-17T19:59:30.917+0100"
+  "updated_at": "2026-03-20T17:37:56.544+0100"
 }

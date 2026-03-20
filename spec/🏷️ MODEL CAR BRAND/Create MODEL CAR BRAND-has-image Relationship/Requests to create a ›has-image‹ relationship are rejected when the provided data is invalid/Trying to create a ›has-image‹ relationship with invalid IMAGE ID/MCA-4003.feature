@@ -4,7 +4,7 @@ Feature: Create MODEL CAR BRAND-has-image Relationship
   @RULE_MCA-4001
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4003
+    @TEST_MCA-4003 @implemented
     Scenario: Trying to create a ›has-image‹ relationship with invalid IMAGE ID
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And "IMAGE" "Hot Wheels logo" does NOT exist

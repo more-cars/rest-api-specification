@@ -3,7 +3,7 @@
   "parent_id": "MCA-4134",
   "title": "The ›has-prime-image‹ relationship is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a PRICE node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-18T09:48:12.015+0100",
-  "updated_at": "2026-03-18T09:48:18.906+0100"
+  "updated_at": "2026-03-20T17:37:25.636+0100"
 }

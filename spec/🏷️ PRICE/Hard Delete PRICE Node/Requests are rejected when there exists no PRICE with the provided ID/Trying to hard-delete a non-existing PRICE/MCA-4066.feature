@@ -7,7 +7,7 @@ Feature: Hard Delete PRICE Node
   @RULE_MCA-4065
   Rule: Requests are rejected when there exists no PRICE with the provided ID
 
-    @TEST_MCA-4066
+    @TEST_MCA-4066 @implemented
     Scenario: Trying to hard-delete a non-existing PRICE
       Given "PRICE" "Test Price" does NOT exist
       When the user hard-deletes the "PRICE" "Test Price"

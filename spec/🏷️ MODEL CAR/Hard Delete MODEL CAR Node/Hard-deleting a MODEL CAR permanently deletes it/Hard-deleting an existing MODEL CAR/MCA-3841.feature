@@ -7,7 +7,7 @@ Feature: Hard Delete MODEL CAR Node
   @RULE_MCA-3840
   Rule: Hard-deleting a MODEL CAR permanently deletes it
 
-    @TEST_MCA-3841
+    @TEST_MCA-3841 @implemented
     Scenario: Hard-deleting an existing MODEL CAR
       Given there exists a "MODEL CAR" "F40 Matchbox"
       When the user hard-deletes the "MODEL CAR" "F40 Matchbox"

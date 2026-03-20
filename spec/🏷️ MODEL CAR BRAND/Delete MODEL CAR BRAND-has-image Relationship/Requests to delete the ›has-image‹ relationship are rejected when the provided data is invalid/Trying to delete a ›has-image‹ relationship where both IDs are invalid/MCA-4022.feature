@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR BRAND-has-image Relationship
   @RULE_MCA-4019
   Rule: Requests to delete the ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4022
+    @TEST_MCA-4022 @implemented
     Scenario: Trying to delete a ›has-image‹ relationship where both IDs are invalid
       Given "MODEL CAR BRAND" "Hot Wheels" does NOT exist
       And "IMAGE" "Matchbox logo" does NOT exist

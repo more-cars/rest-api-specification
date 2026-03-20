@@ -4,7 +4,7 @@ Feature: Create MODEL CAR-has-image Relationship
   @RULE_MCA-3907
   Rule: The same ›has-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-3908
+    @TEST_MCA-3908 @implemented
     Scenario: Trying to create the same ›has-image‹ relationship again
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists a "IMAGE" "F40 Matchbox photo"

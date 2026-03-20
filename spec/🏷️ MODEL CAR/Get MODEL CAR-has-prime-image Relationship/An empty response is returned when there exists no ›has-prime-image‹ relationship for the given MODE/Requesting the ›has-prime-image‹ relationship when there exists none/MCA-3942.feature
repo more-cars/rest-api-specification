@@ -4,7 +4,7 @@ Feature: Get MODEL CAR-has-prime-image Relationship
   @RULE_MCA-3941
   Rule: An empty response is returned when there exists no ›has-prime-image‹ relationship for the given MODEL CAR
 
-    @TEST_MCA-3942
+    @TEST_MCA-3942 @implemented
     Scenario: Requesting the ›has-prime-image‹ relationship when there exists none
       Given there exists a "MODEL CAR" "F40 Scale Model"
       And there exists NO "has prime image" relationship for "F40 Scale Model"

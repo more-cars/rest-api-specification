@@ -4,7 +4,7 @@ Feature: Create PRICE-has-image Relationship
   @RULE_MCA-4103
   Rule: The same ›has-image‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4104
+    @TEST_MCA-4104 @implemented
     Scenario: Trying to create the same ›has-image‹ relationship again
       Given there exists a "PRICE" "Brand New"
       And there exists a "IMAGE" "Price tag"

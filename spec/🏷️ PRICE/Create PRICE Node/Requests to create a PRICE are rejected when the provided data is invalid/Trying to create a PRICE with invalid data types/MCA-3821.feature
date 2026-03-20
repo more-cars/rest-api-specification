@@ -7,7 +7,7 @@ Feature: Create PRICE Node
   @RULE_MCA-3819
   Rule: Requests to create a PRICE are rejected when the provided data is invalid
 
-    @TEST_MCA-3821
+    @TEST_MCA-3821 @implemented
     Scenario: Trying to create a PRICE with invalid data types
       When the user tries to create a "PRICE" "Base Price" with the following data
         | key           | value | datatype |

@@ -7,7 +7,7 @@ Feature: Create PRICE Node
   @RULE_MCA-3817
   Rule: Requests to create a PRICE are accepted when the provided data is valid
 
-    @TEST_MCA-3818
+    @TEST_MCA-3818 @implemented
     Scenario: Creating a PRICE with valid data
       When the user creates a "PRICE" "Base Price" with the following data
         | key           | value | datatype |

@@ -3,7 +3,7 @@
   "parent_id": "MCA-3857",
   "title": "The ›is-scale-model-of-car-model-variant‹ relationship is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a MODEL CAR node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T19:15:57.676+0100",
-  "updated_at": "2026-03-17T19:16:05.967+0100"
+  "updated_at": "2026-03-20T17:38:10.924+0100"
 }

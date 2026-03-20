@@ -4,7 +4,7 @@ Feature: Create PRICE-has-image Relationship
   @RULE_MCA-4099
   Rule: Requests to create a ›has-image‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4100
+    @TEST_MCA-4100 @implemented
     Scenario: Trying to create a ›has-image‹ relationship with invalid PRICE ID
       Given "PRICE" "Brand New" does NOT exist
       And there exists a "IMAGE" "Price tag"

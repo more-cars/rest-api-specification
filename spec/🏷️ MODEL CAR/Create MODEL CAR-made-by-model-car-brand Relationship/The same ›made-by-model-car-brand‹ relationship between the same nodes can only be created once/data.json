@@ -3,7 +3,7 @@
   "parent_id": "MCA-3873",
   "title": "The same ›made-by-model-car-brand‹ relationship between the same nodes can only be created once",
   "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T19:38:36.886+0100",
-  "updated_at": "2026-03-17T19:38:43.051+0100"
+  "updated_at": "2026-03-20T17:38:08.472+0100"
 }

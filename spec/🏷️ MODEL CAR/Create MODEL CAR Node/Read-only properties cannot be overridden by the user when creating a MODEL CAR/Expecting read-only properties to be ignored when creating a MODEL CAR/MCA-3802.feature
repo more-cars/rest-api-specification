@@ -7,7 +7,7 @@ Feature: Create MODEL CAR Node
   @RULE_MCA-3801
   Rule: Read-only properties cannot be overridden by the user when creating a MODEL CAR
 
-    @TEST_MCA-3802
+    @TEST_MCA-3802 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a MODEL CAR
       When the user creates a "MODEL CAR" "F40 Matchbox" with the following data
         | key          | value      | datatype |

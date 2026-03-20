@@ -4,7 +4,7 @@ Feature: Create PRICE-has-image Relationship
   @RULE_MCA-4105
   Rule: Each PRICE can be in a ›has-image‹ relationship with multiple IMAGES
 
-    @TEST_MCA-4106
+    @TEST_MCA-4106 @implemented
     Scenario: Creating multiple ›has-image‹ relationships
       Given there exists a "PRICE" "Brand New"
       And there exists a "IMAGE" "Price tag"

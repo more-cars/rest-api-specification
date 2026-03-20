@@ -3,7 +3,7 @@
   "parent_id": "MCA-3964",
   "title": "Requests are rejected when there exists no MODEL CAR BRAND with the provided ID",
   "description": "When there exists no node with the provided ID -> rejected.\nWhen there exists a node with the provided ID, but it is not from type MODEL CAR BRAND -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.31.0",
   "created_at": "2026-03-17T20:01:48.684+0100",
-  "updated_at": "2026-03-17T20:02:02.719+0100"
+  "updated_at": "2026-03-20T17:37:54.565+0100"
 }

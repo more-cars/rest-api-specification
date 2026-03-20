@@ -3,7 +3,9 @@
   "parent_id": "MCA-3814",
   "title": "Expecting read-only properties to be ignored when creating a MODEL CAR BRAND",
   "gherkin": "When the user creates a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key | value | datatype |\n  | name | Hot Wheele | string |\n  | founded | 1968 | number |\n  | defunct |  | number |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T18:32:43.635+0100",
-  "updated_at": "2026-03-17T19:36:45.991+0100"
+  "updated_at": "2026-03-20T18:08:29.732+0100"
 }

@@ -7,7 +7,7 @@ Feature: Create MODEL CAR BRAND Node
   @RULE_MCA-3814
   Rule: Read-only properties cannot be overridden by the user when creating a MODEL CAR BRAND
 
-    @TEST_MCA-3815
+    @TEST_MCA-3815 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a MODEL CAR BRAND
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
         | key        | value      | datatype |

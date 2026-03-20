@@ -3,7 +3,9 @@
   "parent_id": "MCA-4121",
   "title": "Trying to delete a non-existent ›has-image‹ relationship",
   "gherkin": "Given there exists a \"PRICE\" \"Brand New\"\nAnd there exists a \"IMAGE\" \"Test photo\"\nAnd there exists NO \"has image\" relationship between \"Brand New\" and \"Test photo\"\nWhen the user deletes the \"has image\" relationship between \"Brand New\" and \"Test photo\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-18T09:39:29.590+0100",
-  "updated_at": "2026-03-18T09:39:33.764+0100"
+  "updated_at": "2026-03-20T18:09:37.818+0100"
 }

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3819",
   "title": "Trying to create a PRICE with invalid data types",
   "gherkin": "When the user tries to create a \"PRICE\" \"Base Price\" with the following data\n  | key | value | datatype |\n  | price | 59990 | boolean |\n  | currency_code | EUR | boolean |\n  | country_code | DE | boolean |\nThen the request should be rejected with status code 400",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:03:37.203+0100",
-  "updated_at": "2026-03-17T19:03:40.761+0100"
+  "updated_at": "2026-03-20T18:08:31.106+0100"
 }

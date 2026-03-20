@@ -4,7 +4,7 @@ Feature: Create MODEL CAR BRAND-created-model-car Relationship
   @RULE_MCA-3974
   Rule: Requests to create a ›created-model-car‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-3976
+    @TEST_MCA-3976 @implemented
     Scenario: Trying to create a ›created-model-car‹ relationship with invalid MODEL CAR ID
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And "MODEL CAR" "Camaro Hot Wheels" does NOT exist

@@ -3,7 +3,9 @@
   "parent_id": "MCA-3819",
   "title": "Trying to create a PRICE with missing mandatory information",
   "gherkin": "When the user tries to create a \"PRICE\" \"Base Price\" with the following data\n  | key | value | datatype |\nThen the request should be rejected with status code 400",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-17T19:03:30.748+0100",
-  "updated_at": "2026-03-17T19:03:34.485+0100"
+  "updated_at": "2026-03-20T18:08:30.647+0100"
 }

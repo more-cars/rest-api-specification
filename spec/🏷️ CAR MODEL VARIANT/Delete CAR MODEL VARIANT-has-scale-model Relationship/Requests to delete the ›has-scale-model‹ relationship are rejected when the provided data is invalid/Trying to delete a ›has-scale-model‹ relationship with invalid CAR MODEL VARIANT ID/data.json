@@ -1,0 +1,11 @@
+{
+  "id": "MCA-4203",
+  "parent_id": "MCA-4202",
+  "title": "Trying to delete a ›has-scale-model‹ relationship with invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"BMW M3 CSL\" does NOT exist\nAnd there exists a \"MODEL CAR\" \"Ferrari F40\"\nWhen the user deletes the \"has scale model\" relationship between \"BMW M3 CSL\" and \"Ferrari F40\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-03-20T16:56:43.125+0100",
+  "updated_at": "2026-03-20T18:09:55.734+0100"
+}

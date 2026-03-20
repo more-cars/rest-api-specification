@@ -7,7 +7,7 @@ Feature: Delete PRICE-for-car-model-variant Relationship
   @RULE_MCA-4094
   Rule: Requests to delete the ›for-car-model-variant‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4095
+    @TEST_MCA-4095 @implemented
     Scenario: Trying to delete a non-existent ›for-car-model-variant‹ relationship
       Given there exists a "PRICE" "Brand New"
       And there exists a "CAR MODEL VARIANT" "Porsche Carrera GT"
