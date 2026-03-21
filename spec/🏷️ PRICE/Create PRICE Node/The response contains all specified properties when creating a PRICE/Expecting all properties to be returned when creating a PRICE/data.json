@@ -2,7 +2,7 @@
   "id": "MCA-3823",
   "parent_id": "MCA-3822",
   "title": "Expecting all properties to be returned when creating a PRICE",
-  "gherkin": "When the user creates a \"PRICE\" \"Base Price\" with the following data\n  | key | value | datatype |\n  | price | 59990 | number |\n  | currency_code | EUR | string |\n  | country_code | DE | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | price | 59990 | number |\n  | currency_code | EUR | string |\n  | country_code | DE | string |",
+  "gherkin": "When the user creates a \"PRICE\" \"Base Price\" with the following data\n  | key | value | datatype |\n  | price | 59990 | number |\n  | price_year | 2020 | number |\n  | currency_code | EUR | string |\n  | country_code | DE | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | price | 59990 | number |\n  | price_year | 2020 | number |\n  | currency_code | EUR | string |\n  | country_code | DE | string |",
   "labels": [
     "implemented"
   ],

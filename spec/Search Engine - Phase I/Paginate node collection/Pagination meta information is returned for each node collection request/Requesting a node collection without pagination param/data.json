@@ -2,7 +2,7 @@
   "id": "MCA-4151",
   "parent_id": "MCA-4150",
   "title": "Requesting a node collection without pagination param",
-  "gherkin": "When the user requests a \"BRAND\" collection\nThen the reponse should contain pagination meta information",
+  "gherkin": "When the user requests a \"BRAND\" collection\nThen the response should contain pagination meta information",
   "labels": [
     "implemented"
   ],

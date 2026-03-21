@@ -1,7 +1,7 @@
 {
   "id": "MCA-222",
   "title": "🏷️ PRICE",
-  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"price\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"59990\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"currency\\_code\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"EUR\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"country\\_code\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"DE\"\n&#x20; }\n]\n",
+  "data_structure": "```json\n[\n  {\n    \"name\": \"price\",\n    \"mandatory\": true,\n    \"datatype\": \"number\",\n    \"example\": \"59990\"\n  },\n  {\n    \"name\": \"price_year\",\n    \"mandatory\": true,\n    \"datatype\": \"number\",\n    \"example\": \"2020\"\n  },\n  {\n    \"name\": \"currency_code\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"EUR\"\n  },\n  {\n    \"name\": \"country_code\",\n    \"mandatory\": true,\n    \"datatype\": \"string\",\n    \"example\": \"DE\"\n  }\n]\n```\n",
   "created_at": "2025-06-10T14:52:20.981+0200",
-  "updated_at": "2026-03-19T17:03:12.017+0100"
+  "updated_at": "2026-03-20T18:56:50.007+0100"
 }

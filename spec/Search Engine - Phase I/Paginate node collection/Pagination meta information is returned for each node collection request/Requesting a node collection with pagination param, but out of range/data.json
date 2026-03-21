@@ -2,7 +2,7 @@
   "id": "MCA-4153",
   "parent_id": "MCA-4150",
   "title": "Requesting a node collection with pagination param, but out of range",
-  "gherkin": "Given there exist 3 \"BRAND\"s\nWhen the user requests page 999 of the \"BRAND\" collection\nThen the reponse should contain pagination meta information",
+  "gherkin": "Given there exist 3 \"BRAND\"s\nWhen the user requests page 999 of the \"BRAND\" collection\nThen the response should contain pagination meta information",
   "labels": [
     "implemented"
   ],

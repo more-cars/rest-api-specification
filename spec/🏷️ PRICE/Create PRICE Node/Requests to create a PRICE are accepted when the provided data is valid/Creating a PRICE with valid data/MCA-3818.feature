@@ -12,6 +12,7 @@ Feature: Create PRICE Node
       When the user creates a "PRICE" "Base Price" with the following data
         | key           | value | datatype |
         | price         | 59990 | number   |
+        | price_year    | 2020  | number   |
         | currency_code | EUR   | string   |
         | country_code  | DE    | string   |
       Then the request should be confirmed with status code 201

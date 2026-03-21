@@ -8,8 +8,8 @@ Feature: Paginate node collection
   @RULE_MCA-4150
   Rule: Pagination meta information is returned for each node collection request
 
-  @TEST_MCA-4153 @implemented
-  Scenario: Requesting a node collection with pagination param, but out of range
-    Given there exist 3 "BRAND"s
-    When the user requests page 999 of the "BRAND" collection
-    Then the response should contain pagination meta information
+    @TEST_MCA-4153 @implemented
+    Scenario: Requesting a node collection with pagination param, but out of range
+      Given there exist 3 "BRAND"s
+      When the user requests page 999 of the "BRAND" collection
+      Then the response should contain pagination meta information
