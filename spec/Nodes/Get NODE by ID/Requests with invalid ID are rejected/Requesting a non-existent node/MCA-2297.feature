@@ -7,7 +7,7 @@ Feature: Get NODE by ID
   @RULE_MCA-2295
   Rule: Requests with invalid ID are rejected
 
-    @TEST_MCA-2297
+    @TEST_MCA-2297 @implemented
     Scenario: Requesting a non-existent node
       Given "BRAND" "Bugatti" does NOT exist
       When the user requests the "BRAND" "Bugatti"

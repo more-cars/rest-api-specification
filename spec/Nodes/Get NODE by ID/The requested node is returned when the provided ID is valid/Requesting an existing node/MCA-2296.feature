@@ -7,7 +7,7 @@ Feature: Get NODE by ID
   @RULE_MCA-2294
   Rule: The requested node is returned when the provided ID is valid
 
-    @TEST_MCA-2296
+    @TEST_MCA-2296 @implemented
     Scenario: Requesting an existing node
       Given there exists a "BRAND" "Toyota"
       When the user requests the "BRAND" "Toyota"

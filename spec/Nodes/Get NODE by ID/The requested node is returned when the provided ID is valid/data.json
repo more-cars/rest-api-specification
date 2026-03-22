@@ -3,7 +3,7 @@
   "parent_id": "MCA-238",
   "title": "The requested node is returned when the provided ID is valid",
   "description": "To be a valid request the provided ID has to point to a node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-02-07T16:42:43.200+0100",
-  "updated_at": "2026-03-06T12:44:19.673+0100"
+  "updated_at": "2026-03-22T17:05:24.190+0100"
 }
