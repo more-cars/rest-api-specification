@@ -2,7 +2,7 @@
   "id": "MCA-2296",
   "parent_id": "MCA-2294",
   "title": "Requesting an existing node",
-  "gherkin": "Given there exists a \"BRAND\" \"Toyota\"\nWhen the user requests the \"BRAND\" \"Toyota\"\nThen the request should be confirmed with status code 200\nAnd the response should return the node \"BRAND\" \"Toyota\"",
+  "gherkin": "Given there exists a \"BRAND\" \"Toyota\"\nWhen the user requests the NODE \"Toyota\"\nThen the request should be confirmed with status code 200\nAnd the response should return the \"BRAND\" \"Toyota\"",
   "labels": [
     "implemented"
   ],

@@ -10,5 +10,5 @@ Feature: Get NODE by ID
     @TEST_MCA-2297 @implemented
     Scenario: Requesting a non-existent node
       Given "BRAND" "Bugatti" does NOT exist
-      When the user requests the "BRAND" "Bugatti"
+      When the user requests the NODE "Bugatti"
       Then the request should be rejected with status code 404

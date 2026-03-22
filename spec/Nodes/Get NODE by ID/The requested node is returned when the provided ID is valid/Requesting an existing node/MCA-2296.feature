@@ -10,6 +10,6 @@ Feature: Get NODE by ID
     @TEST_MCA-2296 @implemented
     Scenario: Requesting an existing node
       Given there exists a "BRAND" "Toyota"
-      When the user requests the "BRAND" "Toyota"
+      When the user requests the NODE "Toyota"
       Then the request should be confirmed with status code 200
-      And the response should return the node "BRAND" "Toyota"
+      And the response should return the "BRAND" "Toyota"

@@ -9,8 +9,6 @@ Feature: Sort node collection
 
     @TEST_MCA-729 @implemented
     Scenario Outline: Using the sorting parameters independently
-
-    Scenario Outline: Using the sorting parameters independently
       Given there exist 3 "<node_type>"s
       When the user requests a "<node_type>" collection, sorted "asc"
       Then the response should return with status code 200
@@ -20,42 +18,33 @@ Feature: Sort node collection
       Then the response should return with status code 200
       When the user requests a "<node_type>" collection, sorted by "id"
       Then the response should return with status code 200
-      When the user requests a "<node_type>" collection, sorted by "name"
+      When the user requests a "<node_type>" collection, sorted by "<node_property>"
       Then the response should return with status code 200
       When the user requests a "<node_type>" collection, sorted by ""
       Then the response should return with status code 200
 
       Examples:
-        | node_type         |
-        | COMPANY           |
-        | BRAND             |
-        | CAR MODEL         |
-        | CAR MODEL VARIANT |
-        | RACE TRACK        |
-        | TRACK LAYOUT      |
-        | RACING SERIES     |
-        | RACING EVENT      |
-        | RACING SESSION    |
-        | RACING GAME       |
-        | GAMING PLATFORM   |
-        | IMAGE             |
-
-    Scenario Outline: Using the sorting parameters independently
-      Given there exist 3 "<node_type>"s
-      When the user requests a "<node_type>" collection, sorted "asc"
-      Then the response should return with status code 200
-      When the user requests a "<node_type>" collection, sorted "desc"
-      Then the response should return with status code 200
-      When the user requests a "<node_type>" collection, sorted ""
-      Then the response should return with status code 200
-      When the user requests a "<node_type>" collection, sorted by "id"
-      Then the response should return with status code 200
-      When the user requests a "<node_type>" collection, sorted by "driver_name"
-      Then the response should return with status code 200
-      When the user requests a "<node_type>" collection, sorted by ""
-      Then the response should return with status code 200
-
-      Examples:
-        | node_type      |
-        | SESSION RESULT |
-        | LAP TIME       |
+        | node_type         | node_property |
+        | COMPANY           | name          |
+        | BRAND             | name          |
+        | CAR MODEL         | name          |
+        | CAR MODEL VARIANT | name          |
+        | PRICE             | price         |
+        | RACE TRACK        | name          |
+        | TRACK LAYOUT      | name          |
+        | RACING SERIES     | name          |
+        | RACING EVENT      | name          |
+        | RACING SESSION    | name          |
+        | SESSION RESULT    | driver_name   |
+        | LAP TIME          | driver_name   |
+        | RACING GAME       | name          |
+        | GAMING PLATFORM   | name          |
+        | MODEL CAR         | name          |
+        | MODEL CAR BRAND   | name          |
+        | MAGAZINE          | name          |
+        | MAGAZINE ISSUE    | title         |
+        | RATING            | rating_value  |
+        | PROGRAMME         | name          |
+        | PROGRAMME EPISODE | title         |
+        | MOTOR SHOW        | name          |
+        | IMAGE             | name          |
