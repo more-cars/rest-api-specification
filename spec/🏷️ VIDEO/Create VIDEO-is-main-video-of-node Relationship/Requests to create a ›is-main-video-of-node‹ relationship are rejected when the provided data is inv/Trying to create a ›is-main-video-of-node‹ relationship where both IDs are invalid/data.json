@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4272",
+  "parent_id": "MCA-4269",
+  "title": "Trying to create a ›is-main-video-of-node‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"VIDEO\" \"P1 vs F40\" does NOT exist\nAnd \"NODE\" \"McLaren P1\" does NOT exist\nWhen the user creates a \"is main video of node\" relationship between \"P1 vs F40\" and \"McLaren P1\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-28T19:52:43.859+0100",
+  "updated_at": "2026-03-28T19:52:46.860+0100"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4290",
+  "parent_id": "MCA-4287",
+  "title": "Trying to delete a ›is-main-video-of-node‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"VIDEO\" \"P1 vs F40\" does NOT exist\nAnd \"NODE\" \"Renault Twingo\" does NOT exist\nWhen the user deletes the \"is main video of node\" relationship between \"P1 vs F40\" and \"Renault Twingo\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-28T19:57:04.100+0100",
+  "updated_at": "2026-03-28T19:57:07.538+0100"
+}

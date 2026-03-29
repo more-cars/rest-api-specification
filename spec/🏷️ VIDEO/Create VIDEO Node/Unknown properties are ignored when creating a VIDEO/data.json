@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4217",
+  "parent_id": "MCA-4208",
+  "title": "Unknown properties are ignored when creating a VIDEO",
+  "description": "The user can provide properties that are not specified in the epic MCA-73, but they will be completely ignored. They will not be processed and there will be no info, warning or error that they were skipped.\n",
+  "release_version": "0.32.0",
+  "created_at": "2026-03-28T19:40:12.139+0100",
+  "updated_at": "2026-03-29T11:33:37.470+0200"
+}

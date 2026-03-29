@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4227",
+  "parent_id": "MCA-4226",
+  "title": "Requesting all nodes returns a list of VIDEOS",
+  "description": "In general, all existing VIDEOS are to be returned. But, depending on the actual amount of nodes and other features that can restrict the returned collection (like pagination or soft-deleted nodes) the response might be truncated.\n",
+  "release_version": null,
+  "created_at": "2026-03-28T19:41:52.287+0100",
+  "updated_at": "2026-03-28T19:41:58.050+0100"
+}

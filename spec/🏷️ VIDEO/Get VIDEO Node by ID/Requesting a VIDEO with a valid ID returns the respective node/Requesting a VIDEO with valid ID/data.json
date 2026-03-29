@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4223",
+  "parent_id": "MCA-4222",
+  "title": "Requesting a VIDEO with valid ID",
+  "gherkin": "Given there exists a \"VIDEO\" \"P1 vs F40\"\nWhen the user requests the \"VIDEO\" \"P1 vs F40\"\nThen the response should return with status code 200\nAnd the response should return the \"VIDEO\" \"P1 vs F40\"",
+  "labels": [],
+  "created_at": "2026-03-28T19:41:02.580+0100",
+  "updated_at": "2026-03-28T19:41:05.896+0100"
+}

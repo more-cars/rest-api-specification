@@ -1,0 +1,11 @@
+{
+  "id": "MCA-140",
+  "parent_id": "MCA-116",
+  "title": "Expecting read-only properties to be ignored when creating an IMAGE",
+  "gherkin": "When the user creates a \"IMAGE\" \"Ferrari logo\" with the following data\n  | key                | value                | datatype |\n  | image_provider     | flickr               | string   |\n  | external_id        | A12345               | string   |\n  | name               | TEST                 | string   |\n  | description        | TEST                 | string   |\n  | creator            | TEST                 | string   |\n  | license            | TEST                 | string   |\n  | tags               | TEST                 | string   |\n  | source             | TEST                 | string   |\n  | image_url_original | TEST                 | string   |\n  | image_url_xxl      | TEST                 | string   |\n  | image_url_xl       | TEST                 | string   |\n  | image_url_l        | TEST                 | string   |\n  | image_url_m        | TEST                 | string   |\n  | image_url_s        | TEST                 | string   |\n  | image_url_xs       | TEST                 | string   |\n  | id                 | 1234                 | number   |\n  | created_at         | 2022-07-23T03:00:00Z | string   |\n  | updated_at         | 2022-07-23T03:00:00Z | string   |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key                | value                | datatype |\n  | created_at         | 2022-07-23T03:00:00Z | string   |\n  | updated_at         | 2022-07-23T03:00:00Z | string   |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2025-05-23T10:51:27.594+0200",
+  "updated_at": "2026-03-29T11:35:54.648+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4235",
+  "parent_id": "MCA-4234",
+  "title": "Trying to hard-delete a non-existing VIDEO",
+  "gherkin": "Given \"VIDEO\" \"P1 vs F40\" does NOT exist\nWhen the user hard-deletes the \"VIDEO\" \"P1 vs F40\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-28T19:42:36.853+0100",
+  "updated_at": "2026-03-28T19:42:40.506+0100"
+}
