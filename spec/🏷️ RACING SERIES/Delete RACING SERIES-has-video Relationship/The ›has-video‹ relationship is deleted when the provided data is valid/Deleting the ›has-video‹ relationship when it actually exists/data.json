@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4753",
+  "parent_id": "MCA-4752",
+  "title": "Deleting the ›has-video‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"Formula 1\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"has-video\" relationship \"R\" between \"Formula 1\" and \"Promo Video\"\nWhen the user deletes the \"has-video\" relationship between \"Formula 1\" and \"Promo Video\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-03-31T12:54:36.509+0200",
+  "updated_at": "2026-03-31T12:54:40.035+0200"
+}

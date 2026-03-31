@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4539",
+  "parent_id": "MCA-4536",
+  "title": "Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no RACE TRACK with the provided ID? -> rejected.\nThere exists no VIDEO with the provided ID? -> rejected.\n",
+  "release_version": null,
+  "created_at": "2026-03-30T17:17:14.413+0200",
+  "updated_at": "2026-03-30T17:17:31.709+0200"
+}

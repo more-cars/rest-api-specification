@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4490",
+  "parent_id": "MCA-4489",
+  "title": "Trying to create the same ›has-main-video‹ relationship again",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video\"\nThen the response should return with status code 304",
+  "labels": [],
+  "created_at": "2026-03-30T12:20:28.922+0200",
+  "updated_at": "2026-03-30T12:20:32.966+0200"
+}

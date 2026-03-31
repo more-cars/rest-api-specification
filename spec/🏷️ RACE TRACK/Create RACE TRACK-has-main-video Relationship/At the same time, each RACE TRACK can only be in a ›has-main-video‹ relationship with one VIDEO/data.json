@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4545",
+  "parent_id": "MCA-4536",
+  "title": "At the same time, each RACE TRACK can only be in a ›has-main-video‹ relationship with one VIDEO",
+  "description": "Connecting a different VIDEO will delete the previous relationship.\n",
+  "release_version": null,
+  "created_at": "2026-03-30T17:17:53.591+0200",
+  "updated_at": "2026-03-30T17:18:00.227+0200"
+}

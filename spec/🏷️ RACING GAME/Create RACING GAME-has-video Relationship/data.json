@@ -1,0 +1,17 @@
+{
+  "id": "MCA-4617",
+  "parent_id": "MCA-218",
+  "title": "Create RACING GAME-has-video Relationship",
+  "user_story": "As an API contributor\nI want to be able to attach VIDEOS to a RACING GAME\nSo an API consumer can illustrate the RACING GAME node in a frontend application\n",
+  "description": "* The relationship ›has-video‹ is created when the provided IDs of the RACING GAME and VIDEO are valid. -> Status Code \\`201\\`\n* A successful request returns the ID of the created relationship, the relationship name and the relationship partner.\n* Requests with invalid IDs are rejected. This can happen when there exist no nodes with the given IDs or when those nodes are from the wrong type. -> Status Code \\`404\\`\n* The same ›has-video‹ relationship between the same nodes can only be created once. Attempts to recreate them will be ignored. -> Status Code \\`304\\`\n* Each RACING GAME can be in a ›has-video‹ relationship with multiple VIDEOS\n",
+  "api_verb": "POST",
+  "api_path": "/racing-games/<racing-game-id>/has-video/<video-id>",
+  "response_options": [
+    "201",
+    "304",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-30T17:28:43.828+0200",
+  "updated_at": "2026-03-30T17:28:46.207+0200"
+}

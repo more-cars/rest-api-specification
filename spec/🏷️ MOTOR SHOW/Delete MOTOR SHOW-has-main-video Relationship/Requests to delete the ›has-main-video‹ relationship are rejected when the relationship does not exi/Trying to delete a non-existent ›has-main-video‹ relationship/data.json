@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5340",
+  "parent_id": "MCA-5339",
+  "title": "Trying to delete a non-existent ›has-main-video‹ relationship",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists NO \"has-main-video\" relationship between \"IAA Frankfurt\" and \"Promo Video\"\nWhen the user deletes the \"has-main-video\" relationship between \"IAA Frankfurt\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-31T16:11:13.015+0200",
+  "updated_at": "2026-03-31T16:11:16.781+0200"
+}

@@ -1,0 +1,15 @@
+@REQ_MCA-4320
+Feature: Create BRAND-has-main-video Relationship
+  As an API contributor
+  I want to be able to select the main VIDEO of a BRAND
+  So an API consumer can instantly load the VIDEO that best represents the BRAND
+
+  @RULE_MCA-4323
+  Rule: Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid
+
+    @TEST_MCA-4326
+    Scenario: Trying to create a ›has-main-video‹ relationship where both IDs are invalid
+      Given "BRAND" "BMW" does NOT exist
+      And "VIDEO" "Promo Video" does NOT exist
+      When the user creates a "has-main-video" relationship between "BMW" and "Promo Video"
+      Then the request should be rejected with status code 404

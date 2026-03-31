@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4467",
+  "parent_id": "MCA-4466",
+  "title": "A list of all ›has-video‹ relationships is returned when the provided data is valid",
+  "description": "To be a valid request the provided ID has to point to a CAR MODEL VARIANT node that actually exists.\n",
+  "release_version": null,
+  "created_at": "2026-03-30T12:18:58.114+0200",
+  "updated_at": "2026-03-30T12:19:04.513+0200"
+}

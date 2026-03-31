@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4622",
+  "parent_id": "MCA-4620",
+  "title": "Trying to create a ›has-video‹ relationship with invalid VIDEO ID",
+  "gherkin": "Given there exists a \"RACING GAME\" \"Assetto Corsa\"\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user creates a \"has-video\" relationship between \"Assetto Corsa\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-30T17:29:01.633+0200",
+  "updated_at": "2026-03-30T17:29:05.177+0200"
+}

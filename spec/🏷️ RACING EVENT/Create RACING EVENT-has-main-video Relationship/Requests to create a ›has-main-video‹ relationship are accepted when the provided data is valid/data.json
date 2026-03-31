@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4815",
+  "parent_id": "MCA-4814",
+  "title": "Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type RACING EVENT resp. VIDEO.\n",
+  "release_version": null,
+  "created_at": "2026-03-31T13:00:23.174+0200",
+  "updated_at": "2026-03-31T13:00:30.388+0200"
+}

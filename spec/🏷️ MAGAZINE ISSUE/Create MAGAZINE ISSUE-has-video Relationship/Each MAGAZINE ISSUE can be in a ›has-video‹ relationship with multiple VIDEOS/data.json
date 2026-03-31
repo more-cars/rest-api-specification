@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5134",
+  "parent_id": "MCA-5125",
+  "title": "Each MAGAZINE ISSUE can be in a ›has-video‹ relationship with multiple VIDEOS",
+  "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
+  "release_version": null,
+  "created_at": "2026-03-31T15:35:45.539+0200",
+  "updated_at": "2026-03-31T15:35:52.647+0200"
+}

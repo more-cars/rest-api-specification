@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5160",
+  "parent_id": "MCA-5159",
+  "title": "Trying to create the same ›has-main-video‹ relationship again",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 03_2026\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"has-main-video\" relationship between \"Top Gear 03_2026\" and \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"Top Gear 03_2026\" and \"Promo Video\"\nThen the response should return with status code 304",
+  "labels": [],
+  "created_at": "2026-03-31T15:37:35.144+0200",
+  "updated_at": "2026-03-31T15:37:38.732+0200"
+}

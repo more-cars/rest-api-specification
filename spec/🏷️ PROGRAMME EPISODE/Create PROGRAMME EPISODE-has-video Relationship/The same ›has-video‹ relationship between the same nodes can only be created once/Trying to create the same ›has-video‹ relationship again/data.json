@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5241",
+  "parent_id": "MCA-5240",
+  "title": "Trying to create the same ›has-video‹ relationship again",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"has-video\" relationship between \"The Holy Trinity\" and \"Promo Video\"\nWhen the user creates a \"has-video\" relationship between \"The Holy Trinity\" and \"Promo Video\"\nThen the response should return with status code 304",
+  "labels": [],
+  "created_at": "2026-03-31T15:53:08.506+0200",
+  "updated_at": "2026-03-31T15:53:12.150+0200"
+}

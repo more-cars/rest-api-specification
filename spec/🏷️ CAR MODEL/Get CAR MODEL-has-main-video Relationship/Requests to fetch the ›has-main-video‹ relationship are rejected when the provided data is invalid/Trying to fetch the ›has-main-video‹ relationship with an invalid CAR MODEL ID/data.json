@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4445",
+  "parent_id": "MCA-4444",
+  "title": "Trying to fetch the ›has-main-video‹ relationship with an invalid CAR MODEL ID",
+  "gherkin": "Given \"CAR MODEL\" \"Testarossa\" does NOT exist\nWhen the user requests the \"has-main-video\" relationship for \"Testarossa\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-30T12:05:38.243+0200",
+  "updated_at": "2026-03-30T12:05:42.788+0200"
+}

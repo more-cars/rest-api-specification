@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5246",
+  "parent_id": "MCA-5245",
+  "title": "Requesting the ›has-video‹ relationships when at least one exists",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exist 3 \"has-video\" relationships for \"The Holy Trinity\"\nWhen the user requests all \"has-video\" relationships for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has-video\" relationships",
+  "labels": [],
+  "created_at": "2026-03-31T15:53:27.278+0200",
+  "updated_at": "2026-03-31T15:53:31.144+0200"
+}

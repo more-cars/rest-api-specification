@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4713",
+  "parent_id": "MCA-4712",
+  "title": "Requesting the ›has-main-video‹ relationship when there exists none",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"Xbox\"\nAnd there exists NO \"has-main-video\" relationship for \"Xbox\"\nWhen the user requests the \"has-main-video\" relationship for \"Xbox\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "labels": [],
+  "created_at": "2026-03-30T17:39:31.926+0200",
+  "updated_at": "2026-03-30T17:39:35.252+0200"
+}

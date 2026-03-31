@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5205",
+  "parent_id": "MCA-5204",
+  "title": "Trying to delete a non-existent ›has-video‹ relationship",
+  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists NO \"has-video\" relationship between \"The Grand Tour\" and \"Promo Video\"\nWhen the user deletes the \"has-video\" relationship between \"The Grand Tour\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-31T15:47:41.933+0200",
+  "updated_at": "2026-03-31T15:47:45.907+0200"
+}

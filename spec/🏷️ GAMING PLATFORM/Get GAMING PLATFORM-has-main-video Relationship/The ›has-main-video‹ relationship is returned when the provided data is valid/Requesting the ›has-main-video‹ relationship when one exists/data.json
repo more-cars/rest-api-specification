@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4711",
+  "parent_id": "MCA-4710",
+  "title": "Requesting the ›has-main-video‹ relationship when one exists",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"Xbox\"\nAnd there exists a \"has-main-video\" relationship \"R\" for \"Xbox\"\nWhen the user requests the \"has-main-video\" relationship for \"Xbox\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
+  "labels": [],
+  "created_at": "2026-03-30T17:39:25.244+0200",
+  "updated_at": "2026-03-30T17:39:28.583+0200"
+}

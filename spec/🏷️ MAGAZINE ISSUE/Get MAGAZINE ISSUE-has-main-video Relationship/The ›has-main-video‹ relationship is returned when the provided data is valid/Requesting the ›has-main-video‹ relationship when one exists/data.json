@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5165",
+  "parent_id": "MCA-5164",
+  "title": "Requesting the ›has-main-video‹ relationship when one exists",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 03_2026\"\nAnd there exists a \"has-main-video\" relationship \"R\" for \"Top Gear 03_2026\"\nWhen the user requests the \"has-main-video\" relationship for \"Top Gear 03_2026\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
+  "labels": [],
+  "created_at": "2026-03-31T15:37:52.622+0200",
+  "updated_at": "2026-03-31T15:37:56.386+0200"
+}

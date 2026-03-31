@@ -1,0 +1,16 @@
+{
+  "id": "MCA-4358",
+  "parent_id": "MCA-201",
+  "title": "Get all COMPANY-has-video Relationships",
+  "user_story": "As an API consumer\nI want to be able to fetch all VIDEOS that are connected to a COMPANY\nSo I can find out more about it - be it in form of a review, a promo video or a podcast\n",
+  "description": "* A list of all ›has-video‹ relationships for the selected COMPANY is returned when there exists at least one of them. -> Status Code \\`200\\`\n* Each item in the list contains the ID of the created relationship, the relationship name and the relationship partner.\n* An empty list is returned when no ›has-video‹ relationship exists. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a COMPANY. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/companies/<company-id>/has-video",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-30T11:57:13.942+0200",
+  "updated_at": "2026-03-30T11:57:16.156+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5181",
+  "parent_id": "MCA-5180",
+  "title": "Creating a ›has-video‹ relationship with valid IDs",
+  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-video\" relationship between \"The Grand Tour\" and \"Promo Video\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| start_node           |\n| partner_node         |",
+  "labels": [],
+  "created_at": "2026-03-31T15:45:56.793+0200",
+  "updated_at": "2026-03-31T15:46:00.794+0200"
+}

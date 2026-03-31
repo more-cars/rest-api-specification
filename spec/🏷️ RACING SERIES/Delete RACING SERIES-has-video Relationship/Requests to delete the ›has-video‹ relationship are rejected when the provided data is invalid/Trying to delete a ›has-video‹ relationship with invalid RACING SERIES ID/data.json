@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4755",
+  "parent_id": "MCA-4754",
+  "title": "Trying to delete a ›has-video‹ relationship with invalid RACING SERIES ID",
+  "gherkin": "Given \"RACING SERIES\" \"Formula 1\" does NOT exist\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user deletes the \"has-video\" relationship between \"Formula 1\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-31T12:54:43.597+0200",
+  "updated_at": "2026-03-31T12:54:47.100+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4442",
+  "parent_id": "MCA-4439",
+  "title": "An empty response is returned when there exists no ›has-main-video‹ relationship for the given CAR MODEL",
+  "description": "",
+  "release_version": null,
+  "created_at": "2026-03-30T12:05:25.382+0200",
+  "updated_at": "2026-03-30T12:05:31.930+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5277",
+  "parent_id": "MCA-5276",
+  "title": "Trying to fetch the ›has-main-video‹ relationship with an invalid PROGRAMME EPISODE ID",
+  "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nWhen the user requests the \"has-main-video\" relationship for \"The Holy Trinity\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-31T15:55:31.245+0200",
+  "updated_at": "2026-03-31T15:55:34.929+0200"
+}

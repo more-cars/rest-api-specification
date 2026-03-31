@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4819",
+  "parent_id": "MCA-4817",
+  "title": "Trying to create a ›has-main-video‹ relationship with invalid VIDEO ID",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"F1 GP Monaco\"\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user creates a \"has-main-video\" relationship between \"F1 GP Monaco\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-31T13:00:39.358+0200",
+  "updated_at": "2026-03-31T13:00:43.074+0200"
+}

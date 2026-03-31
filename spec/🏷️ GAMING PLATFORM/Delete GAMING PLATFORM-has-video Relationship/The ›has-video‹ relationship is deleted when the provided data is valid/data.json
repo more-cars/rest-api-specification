@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4690",
+  "parent_id": "MCA-4689",
+  "title": "The ›has-video‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a GAMING PLATFORM and the second node needs to be a VIDEO.\n",
+  "release_version": null,
+  "created_at": "2026-03-30T17:37:37.863+0200",
+  "updated_at": "2026-03-30T17:37:44.484+0200"
+}

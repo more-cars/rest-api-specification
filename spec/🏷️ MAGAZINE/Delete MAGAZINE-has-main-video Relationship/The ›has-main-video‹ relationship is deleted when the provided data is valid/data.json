@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5117",
+  "parent_id": "MCA-5116",
+  "title": "The ›has-main-video‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a MAGAZINE and the second node needs to be a VIDEO.\n",
+  "release_version": null,
+  "created_at": "2026-03-31T15:31:34.802+0200",
+  "updated_at": "2026-03-31T15:31:41.463+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5018",
+  "parent_id": "MCA-5017",
+  "title": "Requests to create a ›has-video‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type MODEL CAR BRAND resp. VIDEO.\n",
+  "release_version": null,
+  "created_at": "2026-03-31T15:14:34.597+0200",
+  "updated_at": "2026-03-31T15:14:42.390+0200"
+}

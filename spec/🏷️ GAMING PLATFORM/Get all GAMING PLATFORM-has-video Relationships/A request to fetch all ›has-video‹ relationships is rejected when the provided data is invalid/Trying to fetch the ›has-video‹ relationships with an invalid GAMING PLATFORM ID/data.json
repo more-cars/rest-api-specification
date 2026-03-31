@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4688",
+  "parent_id": "MCA-4687",
+  "title": "Trying to fetch the ›has-video‹ relationships with an invalid GAMING PLATFORM ID",
+  "gherkin": "Given \"GAMING PLATFORM\" \"Xbox\" does NOT exist\nWhen the user requests all \"has-video\" relationships for \"Xbox\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-30T17:37:31.224+0200",
+  "updated_at": "2026-03-30T17:37:34.461+0200"
+}

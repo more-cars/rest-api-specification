@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4502",
+  "parent_id": "MCA-4501",
+  "title": "Deleting the ›has-main-video‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"has-main-video\" relationship \"R\" between \"BMW M3 CSL\" and \"Promo Video\"\nWhen the user deletes the \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [],
+  "created_at": "2026-03-30T12:21:12.489+0200",
+  "updated_at": "2026-03-30T12:21:15.818+0200"
+}

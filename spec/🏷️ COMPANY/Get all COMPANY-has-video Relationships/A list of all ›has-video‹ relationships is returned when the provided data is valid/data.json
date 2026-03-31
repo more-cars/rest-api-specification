@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4359",
+  "parent_id": "MCA-4358",
+  "title": "A list of all ›has-video‹ relationships is returned when the provided data is valid",
+  "description": "To be a valid request the provided ID has to point to a COMPANY node that actually exists.\n",
+  "release_version": null,
+  "created_at": "2026-03-30T11:57:16.855+0200",
+  "updated_at": "2026-03-30T11:57:24.354+0200"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5093",
+  "parent_id": "MCA-5092",
+  "title": "Trying to delete a ›has-video‹ relationship with invalid MAGAZINE ID",
+  "gherkin": "Given \"MAGAZINE\" \"Top Gear\" does NOT exist\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user deletes the \"has-video\" relationship between \"Top Gear\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-31T15:29:54.372+0200",
+  "updated_at": "2026-03-31T15:29:58.541+0200"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "MCA-4385",
+  "parent_id": "MCA-201",
+  "title": "Get COMPANY-has-main-video Relationship",
+  "user_story": "As an API consumer\nI want to be able to get the main VIDEO of a COMPANY\nSo I can instantly load the VIDEO that best represents the COMPANY\n",
+  "description": "* The ›has-main-video‹ relationship for the selected COMPANY is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* An empty response is returned when the selected COMPANY has no ›has-main-video‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a COMPANY. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/companies/<company-id>/has-main-video",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-30T11:59:01.829+0200",
+  "updated_at": "2026-03-30T11:59:04.070+0200"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "MCA-4601",
+  "parent_id": "MCA-229",
+  "title": "Get TRACK LAYOUT-has-main-video Relationship",
+  "user_story": "As an API consumer\nI want to be able to get the main VIDEO of a TRACK LAYOUT\nSo I can instantly load the VIDEO that best represents the TRACK LAYOUT\n",
+  "description": "* The ›has-main-video‹ relationship for the selected TRACK LAYOUT is returned when one exists. -> Status Code \\`200\\`\n* The response contains the relationship ID, the relationship name and the relationship partner.\n* An empty response is returned when the selected TRACK LAYOUT has no ›has-main-video‹ relationship. -> Status Code \\`200\\`\n* Requests with invalid ID are rejected. This can happen when there exists no node with the given ID or it is not a TRACK LAYOUT. -> Status Code \\`404\\`\n",
+  "api_verb": "GET",
+  "api_path": "/track-layouts/<track-layout-id>/has-main-video",
+  "response_options": [
+    "200",
+    "404"
+  ],
+  "release_versions": [],
+  "created_at": "2026-03-30T17:26:34.047+0200",
+  "updated_at": "2026-03-30T17:26:36.305+0200"
+}

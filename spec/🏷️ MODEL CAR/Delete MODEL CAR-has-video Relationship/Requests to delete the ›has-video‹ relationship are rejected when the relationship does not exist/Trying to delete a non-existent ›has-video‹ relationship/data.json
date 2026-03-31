@@ -1,0 +1,9 @@
+{
+  "id": "MCA-4975",
+  "parent_id": "MCA-4974",
+  "title": "Trying to delete a non-existent ›has-video‹ relationship",
+  "gherkin": "Given there exists a \"MODEL CAR\" \"Hot Wheels F40\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists NO \"has-video\" relationship between \"Hot Wheels F40\" and \"Promo Video\"\nWhen the user deletes the \"has-video\" relationship between \"Hot Wheels F40\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-03-31T13:18:54.969+0200",
+  "updated_at": "2026-03-31T13:18:58.731+0200"
+}
