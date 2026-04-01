@@ -7,7 +7,7 @@ Feature: Node Collection - Get prime images
   @RULE_MCA-5344
   Rule: Nodes without prime image are ignored
 
-    @TEST_MCA-5348
+    @TEST_MCA-5348 @implemented
     Scenario: Expecting nodes without prime image to be ignored
       Given there exists a "BRAND" "BMW"
       And there exists a "IMAGE" "BMW logo"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-5345",
   "title": "Expecting all matching prime images to be returned",
   "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nAnd there exists a \"IMAGE\" \"BMW logo\"\nAnd there exists a \"has prime image\" relationship between \"BMW\" and \"BMW logo\"\nAnd there exists a \"COMPANY\" \"Ford Motor Company\"\nAnd there exists a \"IMAGE\" \"Ford headquarters\"\nAnd there exists a \"has prime image\" relationship between \"Ford Motor Company\" and \"Ford headquarters\"\nWhen the user requests the prime images for the following nodes\n  | node               |\n  | BMW                |\n  | Ford Motor Company |\nThen the response should contain the node \"BMW logo\"\nAnd the response should contain the node \"Ford headquarters\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-04-01T16:44:11.508+0200",
-  "updated_at": "2026-04-01T17:03:33.512+0200"
+  "updated_at": "2026-04-01T19:01:26.943+0200"
 }

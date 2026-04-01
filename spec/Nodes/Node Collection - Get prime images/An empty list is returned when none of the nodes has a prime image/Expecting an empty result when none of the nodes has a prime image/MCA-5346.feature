@@ -7,7 +7,7 @@ Feature: Node Collection - Get prime images
   @RULE_MCA-5342
   Rule: An empty list is returned when none of the nodes has a prime image
 
-    @TEST_MCA-5346
+    @TEST_MCA-5346 @implemented
     Scenario: Expecting an empty result when none of the nodes has a prime image
       Given there exists a "BRAND" "BMW"
       And there exists a "COMPANY" "Ford Motor Company"

@@ -7,7 +7,7 @@ Feature: Node Collection - Get prime images
   @RULE_MCA-5345
   Rule: The response contains all matching prime images
 
-    @TEST_MCA-5349
+    @TEST_MCA-5349 @implemented
     Scenario: Expecting all matching prime images to be returned
       Given there exists a "BRAND" "BMW"
       And there exists a "IMAGE" "BMW logo"

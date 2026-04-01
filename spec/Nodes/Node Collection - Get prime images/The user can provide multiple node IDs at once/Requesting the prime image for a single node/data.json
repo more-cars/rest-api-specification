@@ -3,7 +3,9 @@
   "parent_id": "MCA-5343",
   "title": "Requesting the prime image for a single node",
   "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nWhen the user requests the prime images for the following nodes\n  | node               |\n  | BMW                |\nThen the request should be confirmed with status code 200",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-04-01T16:55:37.259+0200",
-  "updated_at": "2026-04-01T17:03:29.094+0200"
+  "updated_at": "2026-04-01T19:01:33.423+0200"
 }

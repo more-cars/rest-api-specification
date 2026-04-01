@@ -7,7 +7,7 @@ Feature: Node Collection - Get prime images
   @RULE_MCA-5343
   Rule: The user can provide multiple node IDs at once
 
-    @TEST_MCA-5347
+    @TEST_MCA-5347 @implemented
     Scenario: Requesting the prime images for multiple nodes at once
       Given there exists a "BRAND" "BMW"
       And there exists a "COMPANY" "Ford Motor Company"
