@@ -7,7 +7,7 @@ Feature: Delete RACING SESSION-has-video Relationship
   @RULE_MCA-4860
   Rule: The ›has-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4861
+    @TEST_MCA-4861 @implemented
     Scenario: Deleting the ›has-video‹ relationship when it actually exists
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists a "VIDEO" "Promo Video"

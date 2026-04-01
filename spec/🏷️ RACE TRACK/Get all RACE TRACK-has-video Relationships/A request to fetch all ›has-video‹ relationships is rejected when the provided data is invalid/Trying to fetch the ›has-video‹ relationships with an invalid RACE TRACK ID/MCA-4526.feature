@@ -7,7 +7,7 @@ Feature: Get all RACE TRACK-has-video Relationships
   @RULE_MCA-4525
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-4526
+    @TEST_MCA-4526 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid RACE TRACK ID
       Given "RACE TRACK" "Nürburgring" does NOT exist
       When the user requests all "has-video" relationships for "Nürburgring"

@@ -7,7 +7,7 @@ Feature: Get BRAND-has-main-video Relationship
   @RULE_MCA-4334
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given BRAND
 
-    @TEST_MCA-4335
+    @TEST_MCA-4335 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "BRAND" "BMW"
       And there exists NO "has-main-video" relationship for "BMW"

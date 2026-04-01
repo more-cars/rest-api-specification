@@ -7,7 +7,7 @@ Feature: Create MODEL CAR BRAND-has-main-video Relationship
   @RULE_MCA-5051
   Rule: The same ›has-main-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-5052
+    @TEST_MCA-5052 @implemented
     Scenario: Trying to create the same ›has-main-video‹ relationship again
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "VIDEO" "Promo Video"

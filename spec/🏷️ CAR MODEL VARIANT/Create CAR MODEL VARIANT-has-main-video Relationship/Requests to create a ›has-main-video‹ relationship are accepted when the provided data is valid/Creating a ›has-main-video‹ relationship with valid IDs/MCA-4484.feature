@@ -7,7 +7,7 @@ Feature: Create CAR MODEL VARIANT-has-main-video Relationship
   @RULE_MCA-4483
   Rule: Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4484
+    @TEST_MCA-4484 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with valid IDs
       Given there exists a "CAR MODEL VARIANT" "BMW M3 CSL"
       And there exists a "VIDEO" "Promo Video"

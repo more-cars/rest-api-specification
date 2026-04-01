@@ -7,7 +7,7 @@ Feature: Delete RACING SERIES-has-main-video Relationship
   @RULE_MCA-4781
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4782
+    @TEST_MCA-4782 @implemented
     Scenario: Trying to delete a ›has-main-video‹ relationship with invalid RACING SERIES ID
       Given "RACING SERIES" "Formula 1" does NOT exist
       And there exists a "VIDEO" "Promo Video"

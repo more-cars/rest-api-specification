@@ -7,7 +7,7 @@ Feature: Create VIDEO Node
   @RULE_MCA-4211
   Rule: Requests to create a VIDEO are rejected when the provided data is invalid
 
-    @TEST_MCA-4213
+    @TEST_MCA-4213 @implemented
     Scenario: Trying to create a VIDEO with invalid data types
       When the user tries to create a "VIDEO" "P1 vs F40" with the following data
         | key              | value                                                | datatype |

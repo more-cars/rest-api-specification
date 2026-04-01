@@ -7,7 +7,7 @@ Feature: Create MAGAZINE ISSUE-has-video Relationship
   @RULE_MCA-5134
   Rule: Each MAGAZINE ISSUE can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-5135
+    @TEST_MCA-5135 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
       And there exists a "VIDEO" "Promo Video"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-4776",
   "title": "Trying to fetch the ›has-main-video‹ relationship with an invalid RACING SERIES ID",
   "gherkin": "Given \"RACING SERIES\" \"Formula 1\" does NOT exist\nWhen the user requests the \"has-main-video\" relationship for \"Formula 1\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T12:56:12.352+0200",
-  "updated_at": "2026-03-31T12:56:15.910+0200"
+  "updated_at": "2026-04-01T11:57:51.272+0200"
 }

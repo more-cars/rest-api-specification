@@ -3,7 +3,9 @@
   "parent_id": "MCA-5269",
   "title": "Creating a ›has-main-video‹ relationship with a different VIDEO",
   "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"VIDEO\" \"Promo Video (Part 2)\"\nWhen the user creates a \"has-main-video\" relationship between \"The Holy Trinity\" and \"Promo Video\"\nThen there should exist a \"has-main-video\" relationship between \"The Holy Trinity\" and \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"The Holy Trinity\" and \"Promo Video (Part 2)\"\nThen there should exist a \"has-main-video\" relationship between \"The Holy Trinity\" and \"Promo Video (Part 2)\"\nBut there should exist NO \"has-main-video\" relationship between \"The Holy Trinity\" and \"Promo Video\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T15:55:05.008+0200",
-  "updated_at": "2026-03-31T15:55:09.295+0200"
+  "updated_at": "2026-04-01T12:00:00.861+0200"
 }

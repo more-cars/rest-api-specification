@@ -7,7 +7,7 @@ Feature: Get all COMPANY-has-video Relationships
   @RULE_MCA-4363
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-4364
+    @TEST_MCA-4364 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid COMPANY ID
       Given "COMPANY" "BMW AG" does NOT exist
       When the user requests all "has-video" relationships for "BMW AG"

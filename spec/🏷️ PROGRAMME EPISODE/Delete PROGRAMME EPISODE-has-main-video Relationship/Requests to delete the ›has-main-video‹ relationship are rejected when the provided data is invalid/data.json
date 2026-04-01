@@ -3,7 +3,7 @@
   "parent_id": "MCA-5278",
   "title": "Requests to delete the ›has-main-video‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no PROGRAMME EPISODE with the provided ID? -> rejected.\nThere exists no VIDEO with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T15:55:46.358+0200",
-  "updated_at": "2026-03-31T15:56:07.299+0200"
+  "updated_at": "2026-04-01T10:21:46.203+0200"
 }

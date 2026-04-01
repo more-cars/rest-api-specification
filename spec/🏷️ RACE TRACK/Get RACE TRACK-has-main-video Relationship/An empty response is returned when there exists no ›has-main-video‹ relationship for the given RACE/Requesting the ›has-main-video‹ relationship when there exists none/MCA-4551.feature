@@ -7,7 +7,7 @@ Feature: Get RACE TRACK-has-main-video Relationship
   @RULE_MCA-4550
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given RACE TRACK
 
-    @TEST_MCA-4551
+    @TEST_MCA-4551 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "RACE TRACK" "Nürburgring"
       And there exists NO "has-main-video" relationship for "Nürburgring"

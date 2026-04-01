@@ -7,7 +7,7 @@ Feature: Create RACE TRACK-has-main-video Relationship
   @RULE_MCA-4545
   Rule: At the same time, each RACE TRACK can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-4546
+    @TEST_MCA-4546 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "RACE TRACK" "Nürburgring"
       And there exists a "VIDEO" "Promo Video"

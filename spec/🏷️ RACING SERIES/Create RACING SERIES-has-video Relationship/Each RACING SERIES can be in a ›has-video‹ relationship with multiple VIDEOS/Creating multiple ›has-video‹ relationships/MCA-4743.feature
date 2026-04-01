@@ -7,7 +7,7 @@ Feature: Create RACING SERIES-has-video Relationship
   @RULE_MCA-4742
   Rule: Each RACING SERIES can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4743
+    @TEST_MCA-4743 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "RACING SERIES" "Formula 1"
       And there exists a "VIDEO" "Promo Video"

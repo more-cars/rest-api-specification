@@ -7,7 +7,7 @@ Feature: Create MODEL CAR BRAND-has-video Relationship
   @RULE_MCA-5020
   Rule: Requests to create a ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5023
+    @TEST_MCA-5023 @implemented
     Scenario: Trying to create a ›has-video‹ relationship where both IDs are invalid
       Given "MODEL CAR BRAND" "Hot Wheels" does NOT exist
       And "VIDEO" "Promo Video" does NOT exist

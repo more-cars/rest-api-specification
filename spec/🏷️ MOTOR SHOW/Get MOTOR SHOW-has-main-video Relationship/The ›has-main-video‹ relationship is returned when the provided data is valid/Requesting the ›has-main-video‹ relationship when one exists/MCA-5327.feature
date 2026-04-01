@@ -7,7 +7,7 @@ Feature: Get MOTOR SHOW-has-main-video Relationship
   @RULE_MCA-5326
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-5327
+    @TEST_MCA-5327 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "has-main-video" relationship "R" for "IAA Frankfurt"

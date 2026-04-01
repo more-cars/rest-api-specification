@@ -7,7 +7,7 @@ Feature: Delete RACING EVENT-has-main-video Relationship
   @RULE_MCA-4833
   Rule: The ›has-main-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4834
+    @TEST_MCA-4834 @implemented
     Scenario: Deleting the ›has-main-video‹ relationship when it actually exists
       Given there exists a "RACING EVENT" "F1 GP Monaco"
       And there exists a "VIDEO" "Promo Video"

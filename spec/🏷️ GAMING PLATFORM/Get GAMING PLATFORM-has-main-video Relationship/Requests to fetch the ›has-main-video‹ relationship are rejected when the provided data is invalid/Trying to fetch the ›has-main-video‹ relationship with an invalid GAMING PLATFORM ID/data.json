@@ -3,7 +3,9 @@
   "parent_id": "MCA-4714",
   "title": "Trying to fetch the ›has-main-video‹ relationship with an invalid GAMING PLATFORM ID",
   "gherkin": "Given \"GAMING PLATFORM\" \"Xbox\" does NOT exist\nWhen the user requests the \"has-main-video\" relationship for \"Xbox\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T17:39:39.289+0200",
-  "updated_at": "2026-03-30T17:39:42.474+0200"
+  "updated_at": "2026-04-01T11:57:34.659+0200"
 }

@@ -3,7 +3,9 @@
   "parent_id": "MCA-4796",
   "title": "Creating multiple ›has-video‹ relationships",
   "gherkin": "Given there exists a \"RACING EVENT\" \"F1 GP Monaco\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"VIDEO\" \"Promo Video (Part 2)\"\nWhen the user creates a \"has-video\" relationship between \"F1 GP Monaco\" and \"Promo Video\"\nAnd the user creates a \"has-video\" relationship between \"F1 GP Monaco\" and \"Promo Video (Part 2)\"\nThen there should exist a \"has-video\" relationship between \"F1 GP Monaco\" and \"Promo Video\"\nAnd there should exist a \"has-video\" relationship between \"F1 GP Monaco\" and \"Promo Video (Part 2)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T12:59:12.118+0200",
-  "updated_at": "2026-03-31T12:59:15.694+0200"
+  "updated_at": "2026-04-01T11:57:56.961+0200"
 }

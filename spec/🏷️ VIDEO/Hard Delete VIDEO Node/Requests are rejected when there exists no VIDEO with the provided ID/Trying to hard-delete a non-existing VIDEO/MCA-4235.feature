@@ -7,7 +7,7 @@ Feature: Hard Delete VIDEO Node
   @RULE_MCA-4234
   Rule: Requests are rejected when there exists no VIDEO with the provided ID
 
-    @TEST_MCA-4235
+    @TEST_MCA-4235 @implemented
     Scenario: Trying to hard-delete a non-existing VIDEO
       Given "VIDEO" "P1 vs F40" does NOT exist
       When the user hard-deletes the "VIDEO" "P1 vs F40"

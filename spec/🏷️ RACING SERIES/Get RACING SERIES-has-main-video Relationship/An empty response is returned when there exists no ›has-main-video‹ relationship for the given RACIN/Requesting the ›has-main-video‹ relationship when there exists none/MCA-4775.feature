@@ -7,7 +7,7 @@ Feature: Get RACING SERIES-has-main-video Relationship
   @RULE_MCA-4774
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given RACING SERIES
 
-    @TEST_MCA-4775
+    @TEST_MCA-4775 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "RACING SERIES" "Formula 1"
       And there exists NO "has-main-video" relationship for "Formula 1"

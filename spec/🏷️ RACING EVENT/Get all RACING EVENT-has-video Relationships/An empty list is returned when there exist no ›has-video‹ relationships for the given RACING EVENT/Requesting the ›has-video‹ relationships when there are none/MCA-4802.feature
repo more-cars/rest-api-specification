@@ -7,7 +7,7 @@ Feature: Get all RACING EVENT-has-video Relationships
   @RULE_MCA-4801
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given RACING EVENT
 
-    @TEST_MCA-4802
+    @TEST_MCA-4802 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "RACING EVENT" "F1 GP Monaco"
       And there exist 0 "has-video" relationships for "F1 GP Monaco"

@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW-has-video Relationship
   @RULE_MCA-5294
   Rule: The same ›has-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-5295
+    @TEST_MCA-5295 @implemented
     Scenario: Trying to create the same ›has-video‹ relationship again
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "VIDEO" "Promo Video"

@@ -7,7 +7,7 @@ Feature: Get LAP TIME-has-main-video Relationship
   @RULE_MCA-4934
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-4935
+    @TEST_MCA-4935 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "LAP TIME" "Fastest Lap"
       And there exists a "has-main-video" relationship "R" for "Fastest Lap"

@@ -7,7 +7,7 @@ Feature: Delete VIDEO-is-main-video-of-node Relationship
   @RULE_MCA-4287
   Rule: Requests to delete the ›is-main-video-of-node‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4290
+    @TEST_MCA-4290 @implemented
     Scenario: Trying to delete a ›is-main-video-of-node‹ relationship where both IDs are invalid
       Given "VIDEO" "P1 vs F40" does NOT exist
       And "NODE" "Renault Twingo" does NOT exist

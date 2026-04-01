@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE-has-video Relationship
   @RULE_MCA-5242
   Rule: Each PROGRAMME EPISODE can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-5243
+    @TEST_MCA-5243 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "VIDEO" "Promo Video"

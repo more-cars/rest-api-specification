@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE-has-video Relationship
   @RULE_MCA-5234
   Rule: Requests to create a ›has-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-5235
+    @TEST_MCA-5235 @implemented
     Scenario: Creating a ›has-video‹ relationship with valid IDs
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "VIDEO" "Promo Video"

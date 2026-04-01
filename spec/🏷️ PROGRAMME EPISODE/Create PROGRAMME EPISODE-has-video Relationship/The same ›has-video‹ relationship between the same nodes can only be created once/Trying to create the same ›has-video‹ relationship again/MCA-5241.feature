@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE-has-video Relationship
   @RULE_MCA-5240
   Rule: The same ›has-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-5241
+    @TEST_MCA-5241 @implemented
     Scenario: Trying to create the same ›has-video‹ relationship again
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "VIDEO" "Promo Video"

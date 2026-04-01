@@ -3,7 +3,9 @@
   "parent_id": "MCA-4674",
   "title": "Trying to create a ›has-video‹ relationship with invalid GAMING PLATFORM ID",
   "gherkin": "Given \"GAMING PLATFORM\" \"Xbox\" does NOT exist\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-video\" relationship between \"Xbox\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T17:36:41.316+0200",
-  "updated_at": "2026-03-30T17:36:44.801+0200"
+  "updated_at": "2026-04-01T11:57:23.985+0200"
 }

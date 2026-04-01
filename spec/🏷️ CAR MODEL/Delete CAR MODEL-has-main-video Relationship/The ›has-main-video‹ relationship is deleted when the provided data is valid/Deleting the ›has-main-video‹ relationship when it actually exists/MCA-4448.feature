@@ -7,7 +7,7 @@ Feature: Delete CAR MODEL-has-main-video Relationship
   @RULE_MCA-4447
   Rule: The ›has-main-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4448
+    @TEST_MCA-4448 @implemented
     Scenario: Deleting the ›has-main-video‹ relationship when it actually exists
       Given there exists a "CAR MODEL" "Testarossa"
       And there exists a "VIDEO" "Promo Video"

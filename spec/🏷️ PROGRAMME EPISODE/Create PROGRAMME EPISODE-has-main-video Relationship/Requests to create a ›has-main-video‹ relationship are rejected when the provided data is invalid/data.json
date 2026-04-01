@@ -3,7 +3,7 @@
   "parent_id": "MCA-5260",
   "title": "Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no PROGRAMME EPISODE with the provided ID? -> rejected.\nThere exists no VIDEO with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T15:54:35.708+0200",
-  "updated_at": "2026-03-31T15:54:53.392+0200"
+  "updated_at": "2026-04-01T10:21:49.672+0200"
 }

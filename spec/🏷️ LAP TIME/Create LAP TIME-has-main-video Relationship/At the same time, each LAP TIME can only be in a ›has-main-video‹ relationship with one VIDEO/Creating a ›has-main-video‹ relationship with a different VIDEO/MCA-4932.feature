@@ -7,7 +7,7 @@ Feature: Create LAP TIME-has-main-video Relationship
   @RULE_MCA-4931
   Rule: At the same time, each LAP TIME can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-4932
+    @TEST_MCA-4932 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "LAP TIME" "Fastest Lap"
       And there exists a "VIDEO" "Promo Video"

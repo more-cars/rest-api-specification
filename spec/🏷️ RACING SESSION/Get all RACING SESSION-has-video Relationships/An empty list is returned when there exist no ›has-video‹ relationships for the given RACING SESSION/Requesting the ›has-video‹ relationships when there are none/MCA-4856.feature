@@ -7,7 +7,7 @@ Feature: Get all RACING SESSION-has-video Relationships
   @RULE_MCA-4855
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given RACING SESSION
 
-    @TEST_MCA-4856
+    @TEST_MCA-4856 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "RACING SESSION" "Qualifying"
       And there exist 0 "has-video" relationships for "Qualifying"

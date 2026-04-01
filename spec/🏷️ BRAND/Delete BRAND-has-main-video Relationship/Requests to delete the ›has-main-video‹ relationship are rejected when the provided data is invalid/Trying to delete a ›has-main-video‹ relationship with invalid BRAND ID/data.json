@@ -3,7 +3,9 @@
   "parent_id": "MCA-4341",
   "title": "Trying to delete a ›has-main-video‹ relationship with invalid BRAND ID",
   "gherkin": "Given \"BRAND\" \"BMW\" does NOT exist\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user deletes the \"has-main-video\" relationship between \"BMW\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-29T20:21:17.112+0200",
-  "updated_at": "2026-03-29T20:21:20.660+0200"
+  "updated_at": "2026-04-01T11:55:54.293+0200"
 }

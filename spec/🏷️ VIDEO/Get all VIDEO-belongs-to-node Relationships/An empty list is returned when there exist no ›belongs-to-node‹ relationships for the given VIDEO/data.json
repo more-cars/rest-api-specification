@@ -3,7 +3,7 @@
   "parent_id": "MCA-4250",
   "title": "An empty list is returned when there exist no ›belongs-to-node‹ relationships for the given VIDEO",
   "description": "",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-28T19:47:56.541+0100",
-  "updated_at": "2026-03-28T19:48:03.667+0100"
+  "updated_at": "2026-04-01T10:24:51.028+0200"
 }

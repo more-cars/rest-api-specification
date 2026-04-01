@@ -7,7 +7,7 @@ Feature: Create MODEL CAR-has-video Relationship
   @RULE_MCA-4958
   Rule: Each MODEL CAR can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4959
+    @TEST_MCA-4959 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "MODEL CAR" "Hot Wheels F40"
       And there exists a "VIDEO" "Promo Video"

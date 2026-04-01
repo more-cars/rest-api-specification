@@ -5,5 +5,5 @@
   "description": "Read-only properties are for example \\`ID\\`, \\`created\\_at\\` and \\`updated\\_at\\`. Analog to unknown properties, those fields will be ignored. They will not be processed and there will be no info, warning or error that they were skipped.\n",
   "release_version": "0.32.0",
   "created_at": "2026-03-28T19:40:18.378+0100",
-  "updated_at": "2026-03-29T11:34:39.739+0200"
+  "updated_at": "2026-04-01T10:24:57.205+0200"
 }

@@ -7,7 +7,7 @@ Feature: Create BRAND-has-video Relationship
   @RULE_MCA-4296
   Rule: Requests to create a ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4297
+    @TEST_MCA-4297 @implemented
     Scenario: Trying to create a ›has-video‹ relationship with invalid BRAND ID
       Given "BRAND" "BMW" does NOT exist
       And there exists a "VIDEO" "Promo Video"

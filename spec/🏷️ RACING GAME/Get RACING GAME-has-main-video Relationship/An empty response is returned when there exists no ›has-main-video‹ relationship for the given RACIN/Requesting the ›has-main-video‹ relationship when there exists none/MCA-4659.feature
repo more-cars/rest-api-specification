@@ -7,7 +7,7 @@ Feature: Get RACING GAME-has-main-video Relationship
   @RULE_MCA-4658
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given RACING GAME
 
-    @TEST_MCA-4659
+    @TEST_MCA-4659 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "RACING GAME" "Assetto Corsa"
       And there exists NO "has-main-video" relationship for "Assetto Corsa"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-4231",
   "title": "Requests are rejected when there exists no VIDEO with the provided ID",
   "description": "When there exists no node with the provided ID -> rejected.\nWhen there exists a node with the provided ID, but it is not from type VIDEO -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-28T19:42:34.294+0100",
-  "updated_at": "2026-03-28T19:42:40.534+0100"
+  "updated_at": "2026-04-01T10:24:54.458+0200"
 }

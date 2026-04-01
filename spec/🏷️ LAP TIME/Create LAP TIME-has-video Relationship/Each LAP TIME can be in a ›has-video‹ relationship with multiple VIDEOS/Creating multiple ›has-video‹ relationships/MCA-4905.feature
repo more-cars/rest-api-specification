@@ -7,7 +7,7 @@ Feature: Create LAP TIME-has-video Relationship
   @RULE_MCA-4904
   Rule: Each LAP TIME can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4905
+    @TEST_MCA-4905 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "LAP TIME" "Fastest Lap"
       And there exists a "VIDEO" "Promo Video"

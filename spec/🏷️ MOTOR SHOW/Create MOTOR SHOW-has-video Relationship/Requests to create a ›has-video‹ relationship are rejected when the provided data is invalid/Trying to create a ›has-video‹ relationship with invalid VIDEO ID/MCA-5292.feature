@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW-has-video Relationship
   @RULE_MCA-5290
   Rule: Requests to create a ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5292
+    @TEST_MCA-5292 @implemented
     Scenario: Trying to create a ›has-video‹ relationship with invalid VIDEO ID
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And "VIDEO" "Promo Video" does NOT exist

@@ -7,7 +7,7 @@ Feature: Create CAR MODEL-has-main-video Relationship
   @RULE_MCA-4437
   Rule: At the same time, each CAR MODEL can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-4438
+    @TEST_MCA-4438 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "CAR MODEL" "Testarossa"
       And there exists a "VIDEO" "Promo Video"

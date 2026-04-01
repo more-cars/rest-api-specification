@@ -7,7 +7,7 @@ Feature: Create RACE TRACK-has-video Relationship
   @RULE_MCA-4518
   Rule: Each RACE TRACK can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4519
+    @TEST_MCA-4519 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "RACE TRACK" "Nürburgring"
       And there exists a "VIDEO" "Promo Video"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-4601",
   "title": "The ›has-main-video‹ relationship is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a TRACK LAYOUT node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T17:26:36.938+0200",
-  "updated_at": "2026-03-30T17:26:43.800+0200"
+  "updated_at": "2026-04-01T10:23:46.790+0200"
 }

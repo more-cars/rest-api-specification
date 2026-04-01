@@ -7,7 +7,7 @@ Feature: Create CAR MODEL-has-video Relationship
   @RULE_MCA-4402
   Rule: Requests to create a ›has-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4403
+    @TEST_MCA-4403 @implemented
     Scenario: Creating a ›has-video‹ relationship with valid IDs
       Given there exists a "CAR MODEL" "Testarossa"
       And there exists a "VIDEO" "Promo Video"

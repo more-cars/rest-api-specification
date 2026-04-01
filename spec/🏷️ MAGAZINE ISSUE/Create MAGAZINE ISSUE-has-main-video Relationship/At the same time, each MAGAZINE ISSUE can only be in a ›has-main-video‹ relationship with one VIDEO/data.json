@@ -3,7 +3,7 @@
   "parent_id": "MCA-5152",
   "title": "At the same time, each MAGAZINE ISSUE can only be in a ›has-main-video‹ relationship with one VIDEO",
   "description": "Connecting a different VIDEO will delete the previous relationship.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T15:37:39.390+0200",
-  "updated_at": "2026-03-31T15:37:45.603+0200"
+  "updated_at": "2026-04-01T10:22:08.988+0200"
 }

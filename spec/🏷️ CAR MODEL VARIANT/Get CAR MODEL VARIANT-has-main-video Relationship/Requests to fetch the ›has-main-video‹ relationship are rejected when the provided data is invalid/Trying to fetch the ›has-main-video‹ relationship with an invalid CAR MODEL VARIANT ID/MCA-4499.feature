@@ -7,7 +7,7 @@ Feature: Get CAR MODEL VARIANT-has-main-video Relationship
   @RULE_MCA-4498
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4499
+    @TEST_MCA-4499 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid CAR MODEL VARIANT ID
       Given "CAR MODEL VARIANT" "BMW M3 CSL" does NOT exist
       When the user requests the "has-main-video" relationship for "BMW M3 CSL"

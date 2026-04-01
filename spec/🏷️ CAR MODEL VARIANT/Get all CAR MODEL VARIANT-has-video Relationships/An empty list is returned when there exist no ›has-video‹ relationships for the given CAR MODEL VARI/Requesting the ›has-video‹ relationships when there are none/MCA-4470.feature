@@ -7,7 +7,7 @@ Feature: Get all CAR MODEL VARIANT-has-video Relationships
   @RULE_MCA-4469
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given CAR MODEL VARIANT
 
-    @TEST_MCA-4470
+    @TEST_MCA-4470 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "CAR MODEL VARIANT" "BMW M3 CSL"
       And there exist 0 "has-video" relationships for "BMW M3 CSL"

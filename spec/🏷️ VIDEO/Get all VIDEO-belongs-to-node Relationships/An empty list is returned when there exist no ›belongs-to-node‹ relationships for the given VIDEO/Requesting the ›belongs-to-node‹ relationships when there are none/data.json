@@ -3,7 +3,9 @@
   "parent_id": "MCA-4253",
   "title": "Requesting the ›belongs-to-node‹ relationships when there are none",
   "gherkin": "Given there exists a \"VIDEO\" \"P1 vs F40\"\nAnd there exist 0 \"belongs to node\" relationships for \"P1 vs F40\"\nWhen the user requests all \"belongs to node\" relationships for \"P1 vs F40\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-28T19:47:59.515+0100",
-  "updated_at": "2026-03-28T19:48:03.637+0100"
+  "updated_at": "2026-04-01T11:55:31.272+0200"
 }

@@ -3,7 +3,9 @@
   "parent_id": "MCA-4884",
   "title": "Trying to fetch the ›has-main-video‹ relationship with an invalid RACING SESSION ID",
   "gherkin": "Given \"RACING SESSION\" \"Qualifying\" does NOT exist\nWhen the user requests the \"has-main-video\" relationship for \"Qualifying\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T13:07:52.442+0200",
-  "updated_at": "2026-03-31T13:07:56.041+0200"
+  "updated_at": "2026-04-01T11:58:20.656+0200"
 }

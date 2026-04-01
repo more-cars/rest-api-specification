@@ -7,7 +7,7 @@ Feature: Create PROGRAMME-has-main-video Relationship
   @RULE_MCA-5209
   Rule: Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5212
+    @TEST_MCA-5212 @implemented
     Scenario: Trying to create a ›has-main-video‹ relationship where both IDs are invalid
       Given "PROGRAMME" "The Grand Tour" does NOT exist
       And "VIDEO" "Promo Video" does NOT exist

@@ -7,7 +7,7 @@ Feature: Create MAGAZINE ISSUE-has-main-video Relationship
   @RULE_MCA-5159
   Rule: The same ›has-main-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-5160
+    @TEST_MCA-5160 @implemented
     Scenario: Trying to create the same ›has-main-video‹ relationship again
       Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
       And there exists a "VIDEO" "Promo Video"

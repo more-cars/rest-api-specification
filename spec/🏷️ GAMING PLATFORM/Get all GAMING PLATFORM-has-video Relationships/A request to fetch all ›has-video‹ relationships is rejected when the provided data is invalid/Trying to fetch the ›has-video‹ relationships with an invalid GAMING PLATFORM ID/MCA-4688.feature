@@ -7,7 +7,7 @@ Feature: Get all GAMING PLATFORM-has-video Relationships
   @RULE_MCA-4687
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-4688
+    @TEST_MCA-4688 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid GAMING PLATFORM ID
       Given "GAMING PLATFORM" "Xbox" does NOT exist
       When the user requests all "has-video" relationships for "Xbox"

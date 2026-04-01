@@ -7,7 +7,7 @@ Feature: Get all CAR MODEL-has-video Relationships
   @RULE_MCA-4417
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-4418
+    @TEST_MCA-4418 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid CAR MODEL ID
       Given "CAR MODEL" "Testarossa" does NOT exist
       When the user requests all "has-video" relationships for "Testarossa"

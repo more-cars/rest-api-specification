@@ -3,7 +3,7 @@
   "parent_id": "MCA-5109",
   "title": "An empty response is returned when there exists no ›has-main-video‹ relationship for the given MAGAZINE",
   "description": "",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T15:31:16.442+0200",
-  "updated_at": "2026-03-31T15:31:23.345+0200"
+  "updated_at": "2026-04-01T10:22:17.940+0200"
 }

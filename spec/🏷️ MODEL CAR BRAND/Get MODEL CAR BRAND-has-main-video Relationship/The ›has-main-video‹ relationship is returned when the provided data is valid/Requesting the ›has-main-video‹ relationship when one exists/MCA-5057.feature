@@ -7,7 +7,7 @@ Feature: Get MODEL CAR BRAND-has-main-video Relationship
   @RULE_MCA-5056
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-5057
+    @TEST_MCA-5057 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "has-main-video" relationship "R" for "Hot Wheels"

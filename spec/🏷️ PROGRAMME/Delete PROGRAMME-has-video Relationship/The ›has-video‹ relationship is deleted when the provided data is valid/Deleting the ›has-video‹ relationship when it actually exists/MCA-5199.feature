@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME-has-video Relationship
   @RULE_MCA-5198
   Rule: The ›has-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-5199
+    @TEST_MCA-5199 @implemented
     Scenario: Deleting the ›has-video‹ relationship when it actually exists
       Given there exists a "PROGRAMME" "The Grand Tour"
       And there exists a "VIDEO" "Promo Video"

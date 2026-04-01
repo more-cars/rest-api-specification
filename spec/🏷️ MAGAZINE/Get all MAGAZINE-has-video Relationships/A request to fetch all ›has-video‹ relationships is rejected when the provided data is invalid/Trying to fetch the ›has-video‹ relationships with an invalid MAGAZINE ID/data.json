@@ -3,7 +3,9 @@
   "parent_id": "MCA-5087",
   "title": "Trying to fetch the ›has-video‹ relationships with an invalid MAGAZINE ID",
   "gherkin": "Given \"MAGAZINE\" \"Top Gear\" does NOT exist\nWhen the user requests all \"has-video\" relationships for \"Top Gear\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T15:29:35.548+0200",
-  "updated_at": "2026-03-31T15:29:39.157+0200"
+  "updated_at": "2026-04-01T11:59:12.845+0200"
 }

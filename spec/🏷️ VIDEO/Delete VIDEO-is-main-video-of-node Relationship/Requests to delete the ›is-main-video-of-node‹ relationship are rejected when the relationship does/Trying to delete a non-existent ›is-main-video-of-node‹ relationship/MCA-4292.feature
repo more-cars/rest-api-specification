@@ -7,7 +7,7 @@ Feature: Delete VIDEO-is-main-video-of-node Relationship
   @RULE_MCA-4291
   Rule: Requests to delete the ›is-main-video-of-node‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4292
+    @TEST_MCA-4292 @implemented
     Scenario: Trying to delete a non-existent ›is-main-video-of-node‹ relationship
       Given there exists a "VIDEO" "P1 vs F40"
       And there exists a "NODE" "Renault Twingo"

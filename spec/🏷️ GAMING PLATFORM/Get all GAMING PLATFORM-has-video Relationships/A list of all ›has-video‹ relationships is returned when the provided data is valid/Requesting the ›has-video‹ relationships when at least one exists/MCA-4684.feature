@@ -7,7 +7,7 @@ Feature: Get all GAMING PLATFORM-has-video Relationships
   @RULE_MCA-4683
   Rule: A list of all ›has-video‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-4684
+    @TEST_MCA-4684 @implemented
     Scenario: Requesting the ›has-video‹ relationships when at least one exists
       Given there exists a "GAMING PLATFORM" "Xbox"
       And there exist 3 "has-video" relationships for "Xbox"

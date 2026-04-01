@@ -7,7 +7,7 @@ Feature: Create MODEL CAR BRAND-has-main-video Relationship
   @RULE_MCA-5053
   Rule: At the same time, each MODEL CAR BRAND can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-5054
+    @TEST_MCA-5054 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And there exists a "VIDEO" "Promo Video"

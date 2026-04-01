@@ -7,7 +7,7 @@ Feature: Hard Delete VIDEO Node
   @RULE_MCA-4232
   Rule: Hard-deleting a VIDEO permanently deletes it
 
-    @TEST_MCA-4233
+    @TEST_MCA-4233 @implemented
     Scenario: Hard-deleting an existing VIDEO
       Given there exists a "VIDEO" "P1 vs F40"
       When the user hard-deletes the "VIDEO" "P1 vs F40"

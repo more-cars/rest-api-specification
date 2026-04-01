@@ -3,7 +3,7 @@
   "parent_id": "MCA-4439",
   "title": "Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no CAR MODEL with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T12:05:32.571+0200",
-  "updated_at": "2026-03-30T12:05:42.821+0200"
+  "updated_at": "2026-04-01T10:24:16.009+0200"
 }

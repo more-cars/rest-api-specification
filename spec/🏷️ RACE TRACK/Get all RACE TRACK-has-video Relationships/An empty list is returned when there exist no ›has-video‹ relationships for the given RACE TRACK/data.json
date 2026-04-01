@@ -3,7 +3,7 @@
   "parent_id": "MCA-4520",
   "title": "An empty list is returned when there exist no ›has-video‹ relationships for the given RACE TRACK",
   "description": "",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T17:16:08.151+0200",
-  "updated_at": "2026-03-30T17:16:14.755+0200"
+  "updated_at": "2026-04-01T10:24:01.741+0200"
 }

@@ -7,7 +7,7 @@ Feature: Delete CAR MODEL VARIANT-has-main-video Relationship
   @RULE_MCA-4501
   Rule: The ›has-main-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4502
+    @TEST_MCA-4502 @implemented
     Scenario: Deleting the ›has-main-video‹ relationship when it actually exists
       Given there exists a "CAR MODEL VARIANT" "BMW M3 CSL"
       And there exists a "VIDEO" "Promo Video"

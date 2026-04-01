@@ -3,7 +3,9 @@
   "parent_id": "MCA-4803",
   "title": "Trying to fetch the ›has-video‹ relationships with an invalid RACING EVENT ID",
   "gherkin": "Given \"RACING EVENT\" \"F1 GP Monaco\" does NOT exist\nWhen the user requests all \"has-video\" relationships for \"F1 GP Monaco\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T12:59:37.905+0200",
-  "updated_at": "2026-03-31T12:59:41.498+0200"
+  "updated_at": "2026-04-01T11:57:58.705+0200"
 }

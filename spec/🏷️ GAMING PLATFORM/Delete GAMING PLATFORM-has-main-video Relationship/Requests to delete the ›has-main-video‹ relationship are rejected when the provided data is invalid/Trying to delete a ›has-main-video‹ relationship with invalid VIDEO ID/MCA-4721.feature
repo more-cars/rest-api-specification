@@ -7,7 +7,7 @@ Feature: Delete GAMING PLATFORM-has-main-video Relationship
   @RULE_MCA-4719
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4721
+    @TEST_MCA-4721 @implemented
     Scenario: Trying to delete a ›has-main-video‹ relationship with invalid VIDEO ID
       Given there exists a "GAMING PLATFORM" "Xbox"
       And "VIDEO" "Promo Video" does NOT exist

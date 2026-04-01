@@ -7,7 +7,7 @@ Feature: Get VIDEO Node by ID
   @RULE_MCA-4224
   Rule: Requests are rejected when there exists no VIDEO with the provided ID
 
-    @TEST_MCA-4225
+    @TEST_MCA-4225 @implemented
     Scenario: Requesting a VIDEO with invalid ID
       When the user requests a non-existing "VIDEO"
       Then the request should be rejected with status code 404

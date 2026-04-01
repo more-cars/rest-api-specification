@@ -7,7 +7,7 @@ Feature: Create MAGAZINE-has-main-video Relationship
   @RULE_MCA-5107
   Rule: At the same time, each MAGAZINE can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-5108
+    @TEST_MCA-5108 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "MAGAZINE" "Top Gear"
       And there exists a "VIDEO" "Promo Video"

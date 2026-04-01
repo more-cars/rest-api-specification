@@ -7,7 +7,7 @@ Feature: Delete MOTOR SHOW-has-video Relationship
   @RULE_MCA-5308
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5310
+    @TEST_MCA-5310 @implemented
     Scenario: Trying to delete a ›has-video‹ relationship with invalid VIDEO ID
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And "VIDEO" "Promo Video" does NOT exist

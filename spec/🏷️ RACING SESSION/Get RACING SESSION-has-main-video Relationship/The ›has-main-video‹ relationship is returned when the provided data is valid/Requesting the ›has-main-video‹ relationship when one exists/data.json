@@ -3,7 +3,9 @@
   "parent_id": "MCA-4880",
   "title": "Requesting the ›has-main-video‹ relationship when one exists",
   "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nAnd there exists a \"has-main-video\" relationship \"R\" for \"Qualifying\"\nWhen the user requests the \"has-main-video\" relationship for \"Qualifying\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T13:07:37.168+0200",
-  "updated_at": "2026-03-31T13:07:41.076+0200"
+  "updated_at": "2026-04-01T11:58:19.525+0200"
 }

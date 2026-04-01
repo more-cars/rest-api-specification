@@ -3,7 +3,9 @@
   "parent_id": "MCA-4219",
   "title": "Expecting read-only properties to be ignored when creating a VIDEO",
   "gherkin": "When the user creates a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key | value | datatype |\n  | video_provider | youtube | string |\n  | external_id | NqsBncRslsg | string |\n  | title | P1 vs F40 | string |\n  | description | Drag Race - P1 vs F40 | string |\n  | creator | Lovecars | string |\n  | license | youtube | string |\n  | tags | F40, P1 | string |\n  | source | https://www.youtube.com/watch?v=NqsBncRslsg | string |\n  | duration | PT7M24S | string |\n  | thumbnail_url_l | https://i.ytimg.com/vi/NqsBncRslsg/maxresdefault.jpg | string |\n  | thumbnail_url_m | https://i.ytimg.com/vi/NqsBncRslsg/sddefault.jpg | string |\n  | thumbnail_url_s | https://i.ytimg.com/vi/NqsBncRslsg/mqdefault.jpg | string |\n  | thumbnail_url_xs | https://i.ytimg.com/vi/NqsBncRslsg/default.jpg | string |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-28T19:40:21.320+0100",
-  "updated_at": "2026-03-28T19:40:24.631+0100"
+  "updated_at": "2026-04-01T11:55:23.109+0200"
 }

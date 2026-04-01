@@ -7,7 +7,7 @@ Feature: Create COMPANY-has-video Relationship
   @RULE_MCA-4356
   Rule: Each COMPANY can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4357
+    @TEST_MCA-4357 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "COMPANY" "BMW AG"
       And there exists a "VIDEO" "Promo Video"

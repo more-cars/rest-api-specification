@@ -7,7 +7,7 @@ Feature: Get MAGAZINE-has-main-video Relationship
   @RULE_MCA-5110
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-5111
+    @TEST_MCA-5111 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "MAGAZINE" "Top Gear"
       And there exists a "has-main-video" relationship "R" for "Top Gear"

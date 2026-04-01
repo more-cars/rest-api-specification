@@ -7,7 +7,7 @@ Feature: Create BRAND-has-video Relationship
   @RULE_MCA-4300
   Rule: The same ›has-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4301
+    @TEST_MCA-4301 @implemented
     Scenario: Trying to create the same ›has-video‹ relationship again
       Given there exists a "BRAND" "BMW"
       And there exists a "VIDEO" "Promo Video"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-4248",
   "title": "Creating multiple ›belongs-to-node‹ relationships",
   "gherkin": "Given there exists a \"VIDEO\" \"P1 vs F40\"\nAnd there exists a \"NODE\" \"McLaren P1\"\nAnd there exists a \"NODE\" \"McLaren P1 (Alternative)\"\nWhen the user creates a \"belongs to node\" relationship between \"P1 vs F40\" and \"McLaren P1\"\nAnd the user creates a \"belongs to node\" relationship between \"P1 vs F40\" and \"McLaren P1 (Alternative)\"\nThen there should exist a \"belongs to node\" relationship between \"P1 vs F40\" and \"McLaren P1\"\nAnd there should exist a \"belongs to node\" relationship between \"P1 vs F40\" and \"McLaren P1 (Alternative)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-28T19:46:04.260+0100",
-  "updated_at": "2026-03-28T19:46:07.609+0100"
+  "updated_at": "2026-04-01T11:55:30.140+0200"
 }

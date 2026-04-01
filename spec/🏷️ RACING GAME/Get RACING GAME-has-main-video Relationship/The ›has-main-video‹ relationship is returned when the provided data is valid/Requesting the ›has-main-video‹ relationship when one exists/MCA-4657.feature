@@ -7,7 +7,7 @@ Feature: Get RACING GAME-has-main-video Relationship
   @RULE_MCA-4656
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-4657
+    @TEST_MCA-4657 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "RACING GAME" "Assetto Corsa"
       And there exists a "has-main-video" relationship "R" for "Assetto Corsa"

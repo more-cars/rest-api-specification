@@ -3,7 +3,7 @@
   "parent_id": "MCA-4852",
   "title": "A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid",
   "description": "There exists no RACING SESSION with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T13:06:01.293+0200",
-  "updated_at": "2026-03-31T13:06:08.122+0200"
+  "updated_at": "2026-04-01T10:23:01.280+0200"
 }

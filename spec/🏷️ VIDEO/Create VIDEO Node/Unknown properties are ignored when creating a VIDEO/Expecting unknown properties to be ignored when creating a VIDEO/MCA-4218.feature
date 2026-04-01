@@ -7,7 +7,7 @@ Feature: Create VIDEO Node
   @RULE_MCA-4217
   Rule: Unknown properties are ignored when creating a VIDEO
 
-    @TEST_MCA-4218
+    @TEST_MCA-4218 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a VIDEO
       When the user creates a "VIDEO" "P1 vs F40" with the following data
         | key              | value                                                | datatype |

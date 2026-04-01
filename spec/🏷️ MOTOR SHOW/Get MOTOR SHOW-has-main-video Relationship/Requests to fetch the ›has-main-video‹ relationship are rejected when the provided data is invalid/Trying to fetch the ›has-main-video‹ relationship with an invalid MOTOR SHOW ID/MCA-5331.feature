@@ -7,7 +7,7 @@ Feature: Get MOTOR SHOW-has-main-video Relationship
   @RULE_MCA-5330
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5331
+    @TEST_MCA-5331 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid MOTOR SHOW ID
       Given "MOTOR SHOW" "IAA Frankfurt" does NOT exist
       When the user requests the "has-main-video" relationship for "IAA Frankfurt"

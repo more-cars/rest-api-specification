@@ -7,7 +7,7 @@ Feature: Get TRACK LAYOUT-has-main-video Relationship
   @RULE_MCA-4606
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4607
+    @TEST_MCA-4607 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid TRACK LAYOUT ID
       Given "TRACK LAYOUT" "Nordschleife" does NOT exist
       When the user requests the "has-main-video" relationship for "Nordschleife"

@@ -7,7 +7,7 @@ Feature: Create CAR MODEL VARIANT-has-video Relationship
   @RULE_MCA-4462
   Rule: The same ›has-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4463
+    @TEST_MCA-4463 @implemented
     Scenario: Trying to create the same ›has-video‹ relationship again
       Given there exists a "CAR MODEL VARIANT" "BMW M3 CSL"
       And there exists a "VIDEO" "Promo Video"

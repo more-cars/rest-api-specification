@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE-has-main-video Relationship
   @RULE_MCA-5261
   Rule: Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-5262
+    @TEST_MCA-5262 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with valid IDs
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "VIDEO" "Promo Video"

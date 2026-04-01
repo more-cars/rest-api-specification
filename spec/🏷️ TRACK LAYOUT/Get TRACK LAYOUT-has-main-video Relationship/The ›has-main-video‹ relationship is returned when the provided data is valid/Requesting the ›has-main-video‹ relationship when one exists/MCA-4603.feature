@@ -7,7 +7,7 @@ Feature: Get TRACK LAYOUT-has-main-video Relationship
   @RULE_MCA-4602
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-4603
+    @TEST_MCA-4603 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "TRACK LAYOUT" "Nordschleife"
       And there exists a "has-main-video" relationship "R" for "Nordschleife"

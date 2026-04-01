@@ -3,7 +3,9 @@
   "parent_id": "MCA-4491",
   "title": "Creating a ›has-main-video‹ relationship with a different VIDEO",
   "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"VIDEO\" \"Promo Video (Part 2)\"\nWhen the user creates a \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video\"\nThen there should exist a \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video (Part 2)\"\nThen there should exist a \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video (Part 2)\"\nBut there should exist NO \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T12:20:37.561+0200",
-  "updated_at": "2026-03-30T12:20:41.170+0200"
+  "updated_at": "2026-04-01T11:56:35.053+0200"
 }

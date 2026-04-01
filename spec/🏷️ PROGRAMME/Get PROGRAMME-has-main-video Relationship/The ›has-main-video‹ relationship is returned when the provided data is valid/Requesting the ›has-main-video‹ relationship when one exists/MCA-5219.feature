@@ -7,7 +7,7 @@ Feature: Get PROGRAMME-has-main-video Relationship
   @RULE_MCA-5218
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-5219
+    @TEST_MCA-5219 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "PROGRAMME" "The Grand Tour"
       And there exists a "has-main-video" relationship "R" for "The Grand Tour"

@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW-has-main-video Relationship
   @RULE_MCA-5317
   Rule: Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5318
+    @TEST_MCA-5318 @implemented
     Scenario: Trying to create a ›has-main-video‹ relationship with invalid MOTOR SHOW ID
       Given "MOTOR SHOW" "IAA Frankfurt" does NOT exist
       And there exists a "VIDEO" "Promo Video"

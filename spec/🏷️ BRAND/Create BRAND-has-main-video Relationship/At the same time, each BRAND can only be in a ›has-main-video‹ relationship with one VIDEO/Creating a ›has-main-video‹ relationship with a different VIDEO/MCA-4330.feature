@@ -7,7 +7,7 @@ Feature: Create BRAND-has-main-video Relationship
   @RULE_MCA-4329
   Rule: At the same time, each BRAND can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-4330
+    @TEST_MCA-4330 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "BRAND" "BMW"
       And there exists a "VIDEO" "Promo Video"

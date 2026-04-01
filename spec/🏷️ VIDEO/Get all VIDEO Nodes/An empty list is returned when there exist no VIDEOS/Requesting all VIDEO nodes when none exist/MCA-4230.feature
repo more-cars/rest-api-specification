@@ -8,7 +8,7 @@ Feature: Get all VIDEO Nodes
   @RULE_MCA-4229
   Rule: An empty list is returned when there exist no VIDEOS
 
-    @TEST_MCA-4230
+    @TEST_MCA-4230 @implemented
     Scenario: Requesting all VIDEO nodes when none exist
       Given there exist 0 "VIDEO"s
       When the user requests a "VIDEO" collection

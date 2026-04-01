@@ -3,7 +3,7 @@
   "parent_id": "MCA-4277",
   "title": "A list of all ›is-main-video-of-node‹ relationships is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a VIDEO node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-28T19:54:45.983+0100",
-  "updated_at": "2026-03-28T19:54:52.200+0100"
+  "updated_at": "2026-04-01T10:24:46.705+0200"
 }

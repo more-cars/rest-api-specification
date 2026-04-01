@@ -7,7 +7,7 @@ Feature: Create COMPANY-has-main-video Relationship
   @RULE_MCA-4381
   Rule: The same ›has-main-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4382
+    @TEST_MCA-4382 @implemented
     Scenario: Trying to create the same ›has-main-video‹ relationship again
       Given there exists a "COMPANY" "BMW AG"
       And there exists a "VIDEO" "Promo Video"

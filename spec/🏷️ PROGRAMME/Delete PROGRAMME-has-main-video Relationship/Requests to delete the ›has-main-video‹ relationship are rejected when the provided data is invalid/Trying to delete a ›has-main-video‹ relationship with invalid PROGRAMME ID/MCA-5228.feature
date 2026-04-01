@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME-has-main-video Relationship
   @RULE_MCA-5227
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5228
+    @TEST_MCA-5228 @implemented
     Scenario: Trying to delete a ›has-main-video‹ relationship with invalid PROGRAMME ID
       Given "PROGRAMME" "The Grand Tour" does NOT exist
       And there exists a "VIDEO" "Promo Video"

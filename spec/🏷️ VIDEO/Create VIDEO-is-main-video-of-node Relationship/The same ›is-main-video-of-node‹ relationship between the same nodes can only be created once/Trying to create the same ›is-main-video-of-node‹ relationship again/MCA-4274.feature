@@ -4,7 +4,7 @@ Feature: Create VIDEO-is-main-video-of-node Relationship
   @RULE_MCA-4273
   Rule: The same ›is-main-video-of-node‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4274
+    @TEST_MCA-4274 @implemented
     Scenario: Trying to create the same ›is-main-video-of-node‹ relationship again
       Given there exists a "VIDEO" "P1 vs F40"
       And there exists a "NODE" "McLaren P1"

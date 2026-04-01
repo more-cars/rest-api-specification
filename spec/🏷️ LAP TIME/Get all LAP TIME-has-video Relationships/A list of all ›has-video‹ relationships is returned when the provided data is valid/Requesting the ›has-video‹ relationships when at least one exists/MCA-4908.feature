@@ -7,7 +7,7 @@ Feature: Get all LAP TIME-has-video Relationships
   @RULE_MCA-4907
   Rule: A list of all ›has-video‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-4908
+    @TEST_MCA-4908 @implemented
     Scenario: Requesting the ›has-video‹ relationships when at least one exists
       Given there exists a "LAP TIME" "Fastest Lap"
       And there exist 3 "has-video" relationships for "Fastest Lap"

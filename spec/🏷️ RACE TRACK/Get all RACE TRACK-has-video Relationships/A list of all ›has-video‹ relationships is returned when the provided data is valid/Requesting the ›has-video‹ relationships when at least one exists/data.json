@@ -3,7 +3,9 @@
   "parent_id": "MCA-4521",
   "title": "Requesting the ›has-video‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"RACE TRACK\" \"Nürburgring\"\nAnd there exist 3 \"has-video\" relationships for \"Nürburgring\"\nWhen the user requests all \"has-video\" relationships for \"Nürburgring\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has-video\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T17:16:03.818+0200",
-  "updated_at": "2026-03-30T17:16:07.498+0200"
+  "updated_at": "2026-04-01T11:56:42.908+0200"
 }

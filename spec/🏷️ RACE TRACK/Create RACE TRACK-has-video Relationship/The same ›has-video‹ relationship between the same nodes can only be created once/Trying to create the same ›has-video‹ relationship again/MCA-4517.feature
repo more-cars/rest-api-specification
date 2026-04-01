@@ -7,7 +7,7 @@ Feature: Create RACE TRACK-has-video Relationship
   @RULE_MCA-4516
   Rule: The same ›has-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4517
+    @TEST_MCA-4517 @implemented
     Scenario: Trying to create the same ›has-video‹ relationship again
       Given there exists a "RACE TRACK" "Nürburgring"
       And there exists a "VIDEO" "Promo Video"

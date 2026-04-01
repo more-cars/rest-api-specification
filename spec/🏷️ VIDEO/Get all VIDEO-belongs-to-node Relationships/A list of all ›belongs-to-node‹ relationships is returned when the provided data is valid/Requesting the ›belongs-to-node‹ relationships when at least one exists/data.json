@@ -3,7 +3,9 @@
   "parent_id": "MCA-4251",
   "title": "Requesting the ›belongs-to-node‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"VIDEO\" \"P1 vs F40\"\nAnd there exist 3 \"belongs to node\" relationships for \"P1 vs F40\"\nWhen the user requests all \"belongs to node\" relationships for \"P1 vs F40\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"belongs to node\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-28T19:47:52.677+0100",
-  "updated_at": "2026-03-28T19:47:55.971+0100"
+  "updated_at": "2026-04-01T11:55:30.763+0200"
 }

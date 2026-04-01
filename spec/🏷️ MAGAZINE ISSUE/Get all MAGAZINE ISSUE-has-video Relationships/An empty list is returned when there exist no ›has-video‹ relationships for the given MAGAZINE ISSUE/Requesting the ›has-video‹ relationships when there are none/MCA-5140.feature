@@ -7,7 +7,7 @@ Feature: Get all MAGAZINE ISSUE-has-video Relationships
   @RULE_MCA-5139
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given MAGAZINE ISSUE
 
-    @TEST_MCA-5140
+    @TEST_MCA-5140 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
       And there exist 0 "has-video" relationships for "Top Gear 03_2026"

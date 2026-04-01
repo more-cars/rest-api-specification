@@ -7,7 +7,7 @@ Feature: Get LAP TIME-has-main-video Relationship
   @RULE_MCA-4938
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4939
+    @TEST_MCA-4939 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid LAP TIME ID
       Given "LAP TIME" "Fastest Lap" does NOT exist
       When the user requests the "has-main-video" relationship for "Fastest Lap"

@@ -7,7 +7,7 @@ Feature: Get PROGRAMME EPISODE-has-main-video Relationship
   @RULE_MCA-5274
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given PROGRAMME EPISODE
 
-    @TEST_MCA-5275
+    @TEST_MCA-5275 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists NO "has-main-video" relationship for "The Holy Trinity"

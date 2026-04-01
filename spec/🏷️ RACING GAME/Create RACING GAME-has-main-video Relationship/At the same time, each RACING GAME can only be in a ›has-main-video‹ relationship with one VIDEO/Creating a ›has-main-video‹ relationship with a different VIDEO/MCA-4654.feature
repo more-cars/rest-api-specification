@@ -7,7 +7,7 @@ Feature: Create RACING GAME-has-main-video Relationship
   @RULE_MCA-4653
   Rule: At the same time, each RACING GAME can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-4654
+    @TEST_MCA-4654 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "RACING GAME" "Assetto Corsa"
       And there exists a "VIDEO" "Promo Video"

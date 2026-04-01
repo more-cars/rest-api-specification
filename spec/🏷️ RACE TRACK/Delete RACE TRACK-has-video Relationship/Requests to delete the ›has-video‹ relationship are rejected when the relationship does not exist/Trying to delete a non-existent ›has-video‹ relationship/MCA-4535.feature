@@ -7,7 +7,7 @@ Feature: Delete RACE TRACK-has-video Relationship
   @RULE_MCA-4534
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4535
+    @TEST_MCA-4535 @implemented
     Scenario: Trying to delete a non-existent ›has-video‹ relationship
       Given there exists a "RACE TRACK" "Nürburgring"
       And there exists a "VIDEO" "Promo Video"

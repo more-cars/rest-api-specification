@@ -7,7 +7,7 @@ Feature: Get MAGAZINE ISSUE-has-main-video Relationship
   @RULE_MCA-5166
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given MAGAZINE ISSUE
 
-    @TEST_MCA-5167
+    @TEST_MCA-5167 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
       And there exists NO "has-main-video" relationship for "Top Gear 03_2026"

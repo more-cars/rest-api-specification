@@ -7,7 +7,7 @@ Feature: Get all MOTOR SHOW-has-video Relationships
   @RULE_MCA-5301
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given MOTOR SHOW
 
-    @TEST_MCA-5302
+    @TEST_MCA-5302 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exist 0 "has-video" relationships for "IAA Frankfurt"

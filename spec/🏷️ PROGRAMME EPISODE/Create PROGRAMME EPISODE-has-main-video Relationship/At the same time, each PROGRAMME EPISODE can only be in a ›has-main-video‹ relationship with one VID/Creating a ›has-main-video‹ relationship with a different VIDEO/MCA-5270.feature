@@ -7,7 +7,7 @@ Feature: Create PROGRAMME EPISODE-has-main-video Relationship
   @RULE_MCA-5269
   Rule: At the same time, each PROGRAMME EPISODE can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-5270
+    @TEST_MCA-5270 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "VIDEO" "Promo Video"

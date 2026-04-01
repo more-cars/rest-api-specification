@@ -7,7 +7,7 @@ Feature: Create MODEL CAR BRAND-has-main-video Relationship
   @RULE_MCA-5047
   Rule: Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5049
+    @TEST_MCA-5049 @implemented
     Scenario: Trying to create a ›has-main-video‹ relationship with invalid VIDEO ID
       Given there exists a "MODEL CAR BRAND" "Hot Wheels"
       And "VIDEO" "Promo Video" does NOT exist

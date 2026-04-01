@@ -7,7 +7,7 @@ Feature: Get all MAGAZINE ISSUE-has-video Relationships
   @RULE_MCA-5137
   Rule: A list of all ›has-video‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-5138
+    @TEST_MCA-5138 @implemented
     Scenario: Requesting the ›has-video‹ relationships when at least one exists
       Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
       And there exist 3 "has-video" relationships for "Top Gear 03_2026"

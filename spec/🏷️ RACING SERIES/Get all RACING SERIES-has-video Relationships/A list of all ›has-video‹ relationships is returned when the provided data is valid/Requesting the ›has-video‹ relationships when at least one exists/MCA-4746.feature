@@ -7,7 +7,7 @@ Feature: Get all RACING SERIES-has-video Relationships
   @RULE_MCA-4745
   Rule: A list of all ›has-video‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-4746
+    @TEST_MCA-4746 @implemented
     Scenario: Requesting the ›has-video‹ relationships when at least one exists
       Given there exists a "RACING SERIES" "Formula 1"
       And there exist 3 "has-video" relationships for "Formula 1"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-4509",
   "title": "Each RACE TRACK can be in a ›has-video‹ relationship with multiple VIDEOS",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T17:15:50.473+0200",
-  "updated_at": "2026-03-30T17:15:57.483+0200"
+  "updated_at": "2026-04-01T10:24:02.681+0200"
 }

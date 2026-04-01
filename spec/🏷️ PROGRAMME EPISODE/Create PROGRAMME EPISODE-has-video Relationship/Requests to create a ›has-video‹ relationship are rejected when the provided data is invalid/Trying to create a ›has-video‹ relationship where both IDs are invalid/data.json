@@ -3,7 +3,9 @@
   "parent_id": "MCA-5236",
   "title": "Trying to create a ›has-video‹ relationship where both IDs are invalid",
   "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user creates a \"has-video\" relationship between \"The Holy Trinity\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T15:53:00.090+0200",
-  "updated_at": "2026-03-31T15:53:03.752+0200"
+  "updated_at": "2026-04-01T11:59:53.087+0200"
 }

@@ -7,7 +7,7 @@ Feature: Get MOTOR SHOW-has-main-video Relationship
   @RULE_MCA-5328
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given MOTOR SHOW
 
-    @TEST_MCA-5329
+    @TEST_MCA-5329 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists NO "has-main-video" relationship for "IAA Frankfurt"

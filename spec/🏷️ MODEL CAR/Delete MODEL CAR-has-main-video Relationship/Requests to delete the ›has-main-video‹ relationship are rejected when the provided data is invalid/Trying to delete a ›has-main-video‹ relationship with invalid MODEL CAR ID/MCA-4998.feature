@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR-has-main-video Relationship
   @RULE_MCA-4997
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4998
+    @TEST_MCA-4998 @implemented
     Scenario: Trying to delete a ›has-main-video‹ relationship with invalid MODEL CAR ID
       Given "MODEL CAR" "Hot Wheels F40" does NOT exist
       And there exists a "VIDEO" "Promo Video"

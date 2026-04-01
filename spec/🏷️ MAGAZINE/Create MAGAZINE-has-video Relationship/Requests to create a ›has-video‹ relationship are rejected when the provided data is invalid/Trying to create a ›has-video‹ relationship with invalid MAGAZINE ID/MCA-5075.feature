@@ -7,7 +7,7 @@ Feature: Create MAGAZINE-has-video Relationship
   @RULE_MCA-5074
   Rule: Requests to create a ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5075
+    @TEST_MCA-5075 @implemented
     Scenario: Trying to create a ›has-video‹ relationship with invalid MAGAZINE ID
       Given "MAGAZINE" "Top Gear" does NOT exist
       And there exists a "VIDEO" "Promo Video"

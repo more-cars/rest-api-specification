@@ -7,7 +7,7 @@ Feature: Get CAR MODEL VARIANT-has-main-video Relationship
   @RULE_MCA-4494
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-4495
+    @TEST_MCA-4495 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "CAR MODEL VARIANT" "BMW M3 CSL"
       And there exists a "has-main-video" relationship "R" for "BMW M3 CSL"

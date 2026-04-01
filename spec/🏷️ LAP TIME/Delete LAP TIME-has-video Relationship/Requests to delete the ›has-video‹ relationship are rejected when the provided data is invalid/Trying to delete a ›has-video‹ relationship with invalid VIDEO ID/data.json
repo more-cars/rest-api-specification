@@ -3,7 +3,9 @@
   "parent_id": "MCA-4916",
   "title": "Trying to delete a ›has-video‹ relationship with invalid VIDEO ID",
   "gherkin": "Given there exists a \"LAP TIME\" \"Fastest Lap\"\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user deletes the \"has-video\" relationship between \"Fastest Lap\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T13:13:04.055+0200",
-  "updated_at": "2026-03-31T13:13:07.584+0200"
+  "updated_at": "2026-04-01T11:58:29.615+0200"
 }

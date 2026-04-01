@@ -4,7 +4,7 @@ Feature: Create VIDEO-belongs-to-node Relationship
   @RULE_MCA-4240
   Rule: Requests to create a ›belongs-to-node‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4241
+    @TEST_MCA-4241 @implemented
     Scenario: Creating a ›belongs-to-node‹ relationship with valid IDs
       Given there exists a "VIDEO" "P1 vs F40"
       And there exists a "NODE" "McLaren P1"

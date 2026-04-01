@@ -3,7 +3,7 @@
   "parent_id": "MCA-5179",
   "title": "Each PROGRAMME can be in a ›has-video‹ relationship with multiple VIDEOS",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T15:46:30.990+0200",
-  "updated_at": "2026-03-31T15:46:38.009+0200"
+  "updated_at": "2026-04-01T10:22:03.947+0200"
 }

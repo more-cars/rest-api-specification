@@ -3,7 +3,9 @@
   "parent_id": "MCA-5200",
   "title": "Trying to delete a ›has-video‹ relationship where both IDs are invalid",
   "gherkin": "Given \"PROGRAMME\" \"The Grand Tour\" does NOT exist\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user deletes the \"has-video\" relationship between \"The Grand Tour\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T15:47:31.566+0200",
-  "updated_at": "2026-03-31T15:47:35.635+0200"
+  "updated_at": "2026-04-01T11:59:43.479+0200"
 }

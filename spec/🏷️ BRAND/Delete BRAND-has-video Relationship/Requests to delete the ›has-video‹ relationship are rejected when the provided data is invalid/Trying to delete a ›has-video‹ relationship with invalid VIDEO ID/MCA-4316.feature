@@ -7,7 +7,7 @@ Feature: Delete BRAND-has-video Relationship
   @RULE_MCA-4314
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4316
+    @TEST_MCA-4316 @implemented
     Scenario: Trying to delete a ›has-video‹ relationship with invalid VIDEO ID
       Given there exists a "BRAND" "BMW"
       And "VIDEO" "Promo Video" does NOT exist

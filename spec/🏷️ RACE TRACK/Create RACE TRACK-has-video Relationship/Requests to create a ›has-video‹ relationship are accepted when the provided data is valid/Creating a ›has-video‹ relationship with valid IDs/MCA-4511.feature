@@ -7,7 +7,7 @@ Feature: Create RACE TRACK-has-video Relationship
   @RULE_MCA-4510
   Rule: Requests to create a ›has-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4511
+    @TEST_MCA-4511 @implemented
     Scenario: Creating a ›has-video‹ relationship with valid IDs
       Given there exists a "RACE TRACK" "Nürburgring"
       And there exists a "VIDEO" "Promo Video"

@@ -7,7 +7,7 @@ Feature: Create RACING SERIES-has-main-video Relationship
   @RULE_MCA-4761
   Rule: Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4762
+    @TEST_MCA-4762 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with valid IDs
       Given there exists a "RACING SERIES" "Formula 1"
       And there exists a "VIDEO" "Promo Video"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-4455",
   "title": "The same ›has-video‹ relationship between the same nodes can only be created once",
   "description": "Requests to create the same relationship again are allowed, but they will not be processed. Consecutive attempts will always return an empty 304 response.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T12:18:40.053+0200",
-  "updated_at": "2026-03-30T12:18:46.932+0200"
+  "updated_at": "2026-04-01T10:24:13.113+0200"
 }

@@ -7,7 +7,7 @@ Feature: Get all BRAND-has-video Relationships
   @RULE_MCA-4309
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-4310
+    @TEST_MCA-4310 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid BRAND ID
       Given "BRAND" "BMW" does NOT exist
       When the user requests all "has-video" relationships for "BMW"

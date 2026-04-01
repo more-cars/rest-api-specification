@@ -7,7 +7,7 @@ Feature: Get all CAR MODEL VARIANT-has-video Relationships
   @RULE_MCA-4467
   Rule: A list of all ›has-video‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-4468
+    @TEST_MCA-4468 @implemented
     Scenario: Requesting the ›has-video‹ relationships when at least one exists
       Given there exists a "CAR MODEL VARIANT" "BMW M3 CSL"
       And there exist 3 "has-video" relationships for "BMW M3 CSL"

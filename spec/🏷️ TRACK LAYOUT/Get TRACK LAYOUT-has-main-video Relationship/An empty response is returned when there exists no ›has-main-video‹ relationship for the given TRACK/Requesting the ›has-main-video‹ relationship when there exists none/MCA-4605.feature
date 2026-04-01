@@ -7,7 +7,7 @@ Feature: Get TRACK LAYOUT-has-main-video Relationship
   @RULE_MCA-4604
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given TRACK LAYOUT
 
-    @TEST_MCA-4605
+    @TEST_MCA-4605 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "TRACK LAYOUT" "Nordschleife"
       And there exists NO "has-main-video" relationship for "Nordschleife"

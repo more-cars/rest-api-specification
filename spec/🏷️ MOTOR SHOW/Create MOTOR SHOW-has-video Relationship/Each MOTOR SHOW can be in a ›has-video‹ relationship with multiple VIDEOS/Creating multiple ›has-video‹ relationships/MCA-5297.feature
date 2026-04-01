@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW-has-video Relationship
   @RULE_MCA-5296
   Rule: Each MOTOR SHOW can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-5297
+    @TEST_MCA-5297 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "VIDEO" "Promo Video"

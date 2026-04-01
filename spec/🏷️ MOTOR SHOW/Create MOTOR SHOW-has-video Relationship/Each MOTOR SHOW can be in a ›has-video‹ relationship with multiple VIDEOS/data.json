@@ -3,7 +3,7 @@
   "parent_id": "MCA-5287",
   "title": "Each MOTOR SHOW can be in a ›has-video‹ relationship with multiple VIDEOS",
   "description": "There is no limit on the amount of relationships, they just need to be unique.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T16:08:14.891+0200",
-  "updated_at": "2026-03-31T16:08:22.108+0200"
+  "updated_at": "2026-04-01T10:21:43.188+0200"
 }

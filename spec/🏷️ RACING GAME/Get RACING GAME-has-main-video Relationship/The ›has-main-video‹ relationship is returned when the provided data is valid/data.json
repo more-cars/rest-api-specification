@@ -3,7 +3,7 @@
   "parent_id": "MCA-4655",
   "title": "The ›has-main-video‹ relationship is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a RACING GAME node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T17:31:09.727+0200",
-  "updated_at": "2026-03-30T17:31:16.182+0200"
+  "updated_at": "2026-04-01T10:23:37.151+0200"
 }

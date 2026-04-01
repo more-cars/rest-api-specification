@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME EPISODE-has-main-video Relationship
   @RULE_MCA-5279
   Rule: The ›has-main-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-5280
+    @TEST_MCA-5280 @implemented
     Scenario: Deleting the ›has-main-video‹ relationship when it actually exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "VIDEO" "Promo Video"

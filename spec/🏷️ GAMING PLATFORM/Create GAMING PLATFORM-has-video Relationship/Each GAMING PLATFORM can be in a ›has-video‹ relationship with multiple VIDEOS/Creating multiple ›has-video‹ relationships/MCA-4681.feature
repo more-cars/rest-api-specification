@@ -7,7 +7,7 @@ Feature: Create GAMING PLATFORM-has-video Relationship
   @RULE_MCA-4680
   Rule: Each GAMING PLATFORM can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4681
+    @TEST_MCA-4681 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "GAMING PLATFORM" "Xbox"
       And there exists a "VIDEO" "Promo Video"

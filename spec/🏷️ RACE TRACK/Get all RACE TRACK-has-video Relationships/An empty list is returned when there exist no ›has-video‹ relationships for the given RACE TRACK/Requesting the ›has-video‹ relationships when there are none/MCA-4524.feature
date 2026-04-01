@@ -7,7 +7,7 @@ Feature: Get all RACE TRACK-has-video Relationships
   @RULE_MCA-4523
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given RACE TRACK
 
-    @TEST_MCA-4524
+    @TEST_MCA-4524 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "RACE TRACK" "Nürburgring"
       And there exist 0 "has-video" relationships for "Nürburgring"

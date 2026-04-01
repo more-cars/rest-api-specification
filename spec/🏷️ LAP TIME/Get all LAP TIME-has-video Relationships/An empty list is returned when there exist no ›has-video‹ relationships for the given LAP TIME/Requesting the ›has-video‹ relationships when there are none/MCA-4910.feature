@@ -7,7 +7,7 @@ Feature: Get all LAP TIME-has-video Relationships
   @RULE_MCA-4909
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given LAP TIME
 
-    @TEST_MCA-4910
+    @TEST_MCA-4910 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "LAP TIME" "Fastest Lap"
       And there exist 0 "has-video" relationships for "Fastest Lap"

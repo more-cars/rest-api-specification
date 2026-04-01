@@ -3,7 +3,9 @@
   "parent_id": "MCA-4539",
   "title": "Trying to create a ›has-main-video‹ relationship where both IDs are invalid",
   "gherkin": "Given \"RACE TRACK\" \"Nürburgring\" does NOT exist\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user creates a \"has-main-video\" relationship between \"Nürburgring\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T17:17:28.088+0200",
-  "updated_at": "2026-03-30T17:17:31.678+0200"
+  "updated_at": "2026-04-01T11:56:48.468+0200"
 }

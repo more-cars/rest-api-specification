@@ -7,7 +7,7 @@ Feature: Get PROGRAMME EPISODE-has-main-video Relationship
   @RULE_MCA-5272
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-5273
+    @TEST_MCA-5273 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exists a "has-main-video" relationship "R" for "The Holy Trinity"

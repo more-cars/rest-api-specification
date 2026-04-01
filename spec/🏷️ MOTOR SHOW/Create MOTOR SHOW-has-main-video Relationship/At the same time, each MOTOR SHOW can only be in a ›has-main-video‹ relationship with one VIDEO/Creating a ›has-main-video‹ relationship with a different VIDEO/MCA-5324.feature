@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW-has-main-video Relationship
   @RULE_MCA-5323
   Rule: At the same time, each MOTOR SHOW can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-5324
+    @TEST_MCA-5324 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "VIDEO" "Promo Video"

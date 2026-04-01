@@ -3,7 +3,9 @@
   "parent_id": "MCA-5045",
   "title": "Creating a ›has-main-video‹ relationship with valid IDs",
   "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"Hot Wheels\" and \"Promo Video\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| start_node           |\n| partner_node         |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T15:16:36.591+0200",
-  "updated_at": "2026-03-31T15:16:40.200+0200"
+  "updated_at": "2026-04-01T11:59:00.223+0200"
 }

@@ -4,7 +4,7 @@ Feature: Get all VIDEO-is-main-video-of-node Relationships
   @RULE_MCA-4278
   Rule: A list of all ›is-main-video-of-node‹ relationships is returned when the provided data is valid
 
-    @TEST_MCA-4279
+    @TEST_MCA-4279 @implemented
     Scenario: Requesting the ›is-main-video-of-node‹ relationships when at least one exists
       Given there exists a "VIDEO" "P1 vs F40"
       And there exist 3 "is main video of node" relationships for "P1 vs F40"

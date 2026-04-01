@@ -3,7 +3,9 @@
   "parent_id": "MCA-4388",
   "title": "Requesting the ›has-main-video‹ relationship when there exists none",
   "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nAnd there exists NO \"has-main-video\" relationship for \"BMW AG\"\nWhen the user requests the \"has-main-video\" relationship for \"BMW AG\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T11:59:21.165+0200",
-  "updated_at": "2026-03-30T11:59:24.998+0200"
+  "updated_at": "2026-04-01T11:56:06.844+0200"
 }

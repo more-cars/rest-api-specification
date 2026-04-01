@@ -7,7 +7,7 @@ Feature: Delete COMPANY-has-video Relationship
   @RULE_MCA-4372
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4373
+    @TEST_MCA-4373 @implemented
     Scenario: Trying to delete a non-existent ›has-video‹ relationship
       Given there exists a "COMPANY" "BMW AG"
       And there exists a "VIDEO" "Promo Video"

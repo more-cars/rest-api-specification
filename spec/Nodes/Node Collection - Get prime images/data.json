@@ -1,0 +1,17 @@
+{
+  "id": "MCA-5341",
+  "parent_id": "MCA-237",
+  "title": "Node Collection - Get prime images",
+  "user_story": "As an API consumer\\\nI want to be able to bulk-request the prime images for a bunch of nodes\\\nSo I don't have to request them one by one\n",
+  "description": "* the user provides the nodes as comma-separated list of IDs\n* the user can provide one or multiple node IDs, but not zero\n* the prime images are determined for each node individually&#x20;\n  * the goal is NOT to find an image that is connected to all of the given nodes\n* when any of the given nodes has no prime image then it will be ignored in the response\n* when none of the given nodes have a prime image then an empty list is returned\n* the response returns an unordered list of matching image nodes\n",
+  "api_verb": "GET",
+  "api_path": "/nodes/<node-ids>/has-prime-image",
+  "response_options": [
+    "200"
+  ],
+  "release_versions": [
+    "0.32.0"
+  ],
+  "created_at": "2026-04-01T12:57:02.738+0200",
+  "updated_at": "2026-04-01T17:03:05.641+0200"
+}

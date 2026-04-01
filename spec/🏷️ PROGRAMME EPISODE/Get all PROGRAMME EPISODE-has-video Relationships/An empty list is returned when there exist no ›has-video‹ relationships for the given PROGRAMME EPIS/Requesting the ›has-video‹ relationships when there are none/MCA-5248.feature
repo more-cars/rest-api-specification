@@ -7,7 +7,7 @@ Feature: Get all PROGRAMME EPISODE-has-video Relationships
   @RULE_MCA-5247
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given PROGRAMME EPISODE
 
-    @TEST_MCA-5248
+    @TEST_MCA-5248 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       And there exist 0 "has-video" relationships for "The Holy Trinity"

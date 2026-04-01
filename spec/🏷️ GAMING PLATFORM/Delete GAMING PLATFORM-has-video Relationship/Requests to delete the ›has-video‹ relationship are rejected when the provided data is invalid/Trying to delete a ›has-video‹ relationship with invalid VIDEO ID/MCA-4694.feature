@@ -7,7 +7,7 @@ Feature: Delete GAMING PLATFORM-has-video Relationship
   @RULE_MCA-4692
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4694
+    @TEST_MCA-4694 @implemented
     Scenario: Trying to delete a ›has-video‹ relationship with invalid VIDEO ID
       Given there exists a "GAMING PLATFORM" "Xbox"
       And "VIDEO" "Promo Video" does NOT exist

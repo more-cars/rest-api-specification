@@ -7,7 +7,7 @@ Feature: Delete RACING GAME-has-main-video Relationship
   @RULE_MCA-4669
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4670
+    @TEST_MCA-4670 @implemented
     Scenario: Trying to delete a non-existent ›has-main-video‹ relationship
       Given there exists a "RACING GAME" "Assetto Corsa"
       And there exists a "VIDEO" "Promo Video"

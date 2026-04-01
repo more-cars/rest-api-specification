@@ -7,7 +7,7 @@ Feature: Delete RACING GAME-has-video Relationship
   @RULE_MCA-4638
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4639
+    @TEST_MCA-4639 @implemented
     Scenario: Trying to delete a ›has-video‹ relationship with invalid RACING GAME ID
       Given "RACING GAME" "Assetto Corsa" does NOT exist
       And there exists a "VIDEO" "Promo Video"

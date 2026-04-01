@@ -7,7 +7,7 @@ Feature: Get all MOTOR SHOW-has-video Relationships
   @RULE_MCA-5303
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-5304
+    @TEST_MCA-5304 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid MOTOR SHOW ID
       Given "MOTOR SHOW" "IAA Frankfurt" does NOT exist
       When the user requests all "has-video" relationships for "IAA Frankfurt"

@@ -7,7 +7,7 @@ Feature: Add YOUTUBE video
   @RULE_MCA-4726
   Rule: Requests to add a video are rejected when the provided YOUTUBE ID is invalid
 
-    @TEST_MCA-4730
+    @TEST_MCA-4730 @implemented
     Scenario: Test Requests to add a video are rejected when the provided YOUTUBE ID is invalid
       Given there exists no YouTube video with ID "YT123456"
       When the user creates a "VIDEO" with the following data

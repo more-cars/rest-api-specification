@@ -7,7 +7,7 @@ Feature: Hard Delete VIDEO Node
   @RULE_MCA-4236
   Rule: Hard-deleting a VIDEO permanently deletes all attached relationships
 
-    @TEST_MCA-4237
+    @TEST_MCA-4237 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a VIDEO
       Given there exists a "VIDEO" "P1 vs F40"
       And there exists a "has image" relationship "R1" for "P1 vs F40"

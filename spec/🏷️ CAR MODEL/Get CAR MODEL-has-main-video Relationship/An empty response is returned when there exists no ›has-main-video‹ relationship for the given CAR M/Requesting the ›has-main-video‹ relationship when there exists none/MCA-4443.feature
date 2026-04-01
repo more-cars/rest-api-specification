@@ -7,7 +7,7 @@ Feature: Get CAR MODEL-has-main-video Relationship
   @RULE_MCA-4442
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given CAR MODEL
 
-    @TEST_MCA-4443
+    @TEST_MCA-4443 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "CAR MODEL" "Testarossa"
       And there exists NO "has-main-video" relationship for "Testarossa"

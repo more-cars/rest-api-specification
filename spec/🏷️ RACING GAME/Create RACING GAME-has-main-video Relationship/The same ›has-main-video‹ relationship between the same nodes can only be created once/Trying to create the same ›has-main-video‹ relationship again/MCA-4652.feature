@@ -7,7 +7,7 @@ Feature: Create RACING GAME-has-main-video Relationship
   @RULE_MCA-4651
   Rule: The same ›has-main-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4652
+    @TEST_MCA-4652 @implemented
     Scenario: Trying to create the same ›has-main-video‹ relationship again
       Given there exists a "RACING GAME" "Assetto Corsa"
       And there exists a "VIDEO" "Promo Video"

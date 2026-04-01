@@ -7,7 +7,7 @@ Feature: Create VIDEO Node
   @RULE_MCA-4214
   Rule: The response contains all specified properties when creating a VIDEO
 
-    @TEST_MCA-4215
+    @TEST_MCA-4215 @implemented
     Scenario: Expecting all properties to be returned when creating a VIDEO
       When the user creates a "VIDEO" "P1 vs F40" with the following data
         | key              | value                                                | datatype |

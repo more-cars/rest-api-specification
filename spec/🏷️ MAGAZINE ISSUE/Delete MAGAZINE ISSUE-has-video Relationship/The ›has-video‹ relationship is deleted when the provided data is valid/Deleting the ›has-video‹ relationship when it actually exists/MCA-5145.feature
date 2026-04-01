@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-has-video Relationship
   @RULE_MCA-5144
   Rule: The ›has-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-5145
+    @TEST_MCA-5145 @implemented
     Scenario: Deleting the ›has-video‹ relationship when it actually exists
       Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
       And there exists a "VIDEO" "Promo Video"

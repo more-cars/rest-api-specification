@@ -7,7 +7,7 @@ Feature: Create BRAND-has-video Relationship
   @RULE_MCA-4302
   Rule: Each BRAND can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4303
+    @TEST_MCA-4303 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "BRAND" "BMW"
       And there exists a "VIDEO" "Promo Video"

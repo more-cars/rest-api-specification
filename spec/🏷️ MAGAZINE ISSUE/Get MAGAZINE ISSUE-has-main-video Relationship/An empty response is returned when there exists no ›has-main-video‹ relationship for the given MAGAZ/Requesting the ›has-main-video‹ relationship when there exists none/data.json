@@ -3,7 +3,9 @@
   "parent_id": "MCA-5166",
   "title": "Requesting the ›has-main-video‹ relationship when there exists none",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 03_2026\"\nAnd there exists NO \"has-main-video\" relationship for \"Top Gear 03_2026\"\nWhen the user requests the \"has-main-video\" relationship for \"Top Gear 03_2026\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T15:38:00.295+0200",
-  "updated_at": "2026-03-31T15:38:04.115+0200"
+  "updated_at": "2026-04-01T11:59:33.330+0200"
 }

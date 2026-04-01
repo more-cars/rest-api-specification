@@ -3,7 +3,7 @@
   "parent_id": "MCA-4520",
   "title": "A list of all ›has-video‹ relationships is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a RACE TRACK node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T17:16:00.825+0200",
-  "updated_at": "2026-03-30T17:16:07.531+0200"
+  "updated_at": "2026-04-01T10:24:02.193+0200"
 }

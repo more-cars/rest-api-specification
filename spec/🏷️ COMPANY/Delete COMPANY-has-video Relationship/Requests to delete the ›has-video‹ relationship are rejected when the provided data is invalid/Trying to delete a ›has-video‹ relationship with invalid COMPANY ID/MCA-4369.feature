@@ -7,7 +7,7 @@ Feature: Delete COMPANY-has-video Relationship
   @RULE_MCA-4368
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4369
+    @TEST_MCA-4369 @implemented
     Scenario: Trying to delete a ›has-video‹ relationship with invalid COMPANY ID
       Given "COMPANY" "BMW AG" does NOT exist
       And there exists a "VIDEO" "Promo Video"

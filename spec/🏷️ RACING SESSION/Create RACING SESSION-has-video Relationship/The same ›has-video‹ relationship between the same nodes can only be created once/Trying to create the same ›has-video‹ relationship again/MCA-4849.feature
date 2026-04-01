@@ -7,7 +7,7 @@ Feature: Create RACING SESSION-has-video Relationship
   @RULE_MCA-4848
   Rule: The same ›has-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4849
+    @TEST_MCA-4849 @implemented
     Scenario: Trying to create the same ›has-video‹ relationship again
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists a "VIDEO" "Promo Video"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-4520",
   "title": "A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid",
   "description": "There exists no RACE TRACK with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T17:16:15.343+0200",
-  "updated_at": "2026-03-30T17:16:22.299+0200"
+  "updated_at": "2026-04-01T10:24:01.144+0200"
 }

@@ -7,7 +7,7 @@ Feature: Get RACING SESSION-has-main-video Relationship
   @RULE_MCA-4882
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given RACING SESSION
 
-    @TEST_MCA-4883
+    @TEST_MCA-4883 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists NO "has-main-video" relationship for "Qualifying"

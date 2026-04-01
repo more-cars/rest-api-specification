@@ -7,7 +7,7 @@ Feature: Get RACING SESSION-has-main-video Relationship
   @RULE_MCA-4880
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-4881
+    @TEST_MCA-4881 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists a "has-main-video" relationship "R" for "Qualifying"

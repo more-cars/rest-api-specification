@@ -7,7 +7,7 @@ Feature: Create TRACK LAYOUT-has-video Relationship
   @RULE_MCA-4570
   Rule: The same ›has-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4571
+    @TEST_MCA-4571 @implemented
     Scenario: Trying to create the same ›has-video‹ relationship again
       Given there exists a "TRACK LAYOUT" "Nordschleife"
       And there exists a "VIDEO" "Promo Video"

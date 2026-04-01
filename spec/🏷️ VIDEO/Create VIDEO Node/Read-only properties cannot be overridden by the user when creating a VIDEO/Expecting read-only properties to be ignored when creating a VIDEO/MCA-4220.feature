@@ -7,7 +7,7 @@ Feature: Create VIDEO Node
   @RULE_MCA-4219
   Rule: Read-only properties cannot be overridden by the user when creating a VIDEO
 
-    @TEST_MCA-4220
+    @TEST_MCA-4220 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a VIDEO
       When the user creates a "VIDEO" "P1 vs F40" with the following data
         | key              | value                                                | datatype |

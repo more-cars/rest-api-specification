@@ -3,7 +3,9 @@
   "parent_id": "MCA-4862",
   "title": "Trying to delete a ›has-video‹ relationship with invalid RACING SESSION ID",
   "gherkin": "Given \"RACING SESSION\" \"Qualifying\" does NOT exist\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user deletes the \"has-video\" relationship between \"Qualifying\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T13:06:22.086+0200",
-  "updated_at": "2026-03-31T13:06:25.659+0200"
+  "updated_at": "2026-04-01T11:58:14.079+0200"
 }

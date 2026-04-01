@@ -3,7 +3,9 @@
   "parent_id": "MCA-4579",
   "title": "Trying to fetch the ›has-video‹ relationships with an invalid TRACK LAYOUT ID",
   "gherkin": "Given \"TRACK LAYOUT\" \"Nordschleife\" does NOT exist\nWhen the user requests all \"has-video\" relationships for \"Nordschleife\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T17:24:45.043+0200",
-  "updated_at": "2026-03-30T17:24:48.320+0200"
+  "updated_at": "2026-04-01T11:56:58.606+0200"
 }

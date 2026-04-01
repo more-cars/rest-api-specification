@@ -7,7 +7,7 @@ Feature: Create MOTOR SHOW-has-video Relationship
   @RULE_MCA-5288
   Rule: Requests to create a ›has-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-5289
+    @TEST_MCA-5289 @implemented
     Scenario: Creating a ›has-video‹ relationship with valid IDs
       Given there exists a "MOTOR SHOW" "IAA Frankfurt"
       And there exists a "VIDEO" "Promo Video"

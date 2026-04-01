@@ -7,7 +7,7 @@ Feature: Get RACING SESSION-has-main-video Relationship
   @RULE_MCA-4884
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4885
+    @TEST_MCA-4885 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid RACING SESSION ID
       Given "RACING SESSION" "Qualifying" does NOT exist
       When the user requests the "has-main-video" relationship for "Qualifying"

@@ -7,7 +7,7 @@ Feature: Create RACING SESSION-has-main-video Relationship
   @RULE_MCA-4877
   Rule: At the same time, each RACING SESSION can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-4878
+    @TEST_MCA-4878 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists a "VIDEO" "Promo Video"

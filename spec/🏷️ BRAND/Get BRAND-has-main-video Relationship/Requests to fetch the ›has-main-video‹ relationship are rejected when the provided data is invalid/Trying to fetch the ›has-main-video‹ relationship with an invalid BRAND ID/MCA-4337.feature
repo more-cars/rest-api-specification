@@ -7,7 +7,7 @@ Feature: Get BRAND-has-main-video Relationship
   @RULE_MCA-4336
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4337
+    @TEST_MCA-4337 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid BRAND ID
       Given "BRAND" "BMW" does NOT exist
       When the user requests the "has-main-video" relationship for "BMW"

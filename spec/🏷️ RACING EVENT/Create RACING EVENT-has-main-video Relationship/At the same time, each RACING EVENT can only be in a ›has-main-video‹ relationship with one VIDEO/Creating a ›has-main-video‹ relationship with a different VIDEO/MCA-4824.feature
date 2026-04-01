@@ -7,7 +7,7 @@ Feature: Create RACING EVENT-has-main-video Relationship
   @RULE_MCA-4823
   Rule: At the same time, each RACING EVENT can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-4824
+    @TEST_MCA-4824 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "RACING EVENT" "F1 GP Monaco"
       And there exists a "VIDEO" "Promo Video"

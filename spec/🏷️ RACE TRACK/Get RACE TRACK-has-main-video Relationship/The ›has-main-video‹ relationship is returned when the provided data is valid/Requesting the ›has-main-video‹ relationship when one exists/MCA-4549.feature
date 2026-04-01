@@ -7,7 +7,7 @@ Feature: Get RACE TRACK-has-main-video Relationship
   @RULE_MCA-4548
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-4549
+    @TEST_MCA-4549 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "RACE TRACK" "Nürburgring"
       And there exists a "has-main-video" relationship "R" for "Nürburgring"

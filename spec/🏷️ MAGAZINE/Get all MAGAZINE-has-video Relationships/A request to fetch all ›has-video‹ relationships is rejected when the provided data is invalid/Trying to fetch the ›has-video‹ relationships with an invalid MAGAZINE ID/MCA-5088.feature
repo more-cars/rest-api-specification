@@ -7,7 +7,7 @@ Feature: Get all MAGAZINE-has-video Relationships
   @RULE_MCA-5087
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-5088
+    @TEST_MCA-5088 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid MAGAZINE ID
       Given "MAGAZINE" "Top Gear" does NOT exist
       When the user requests all "has-video" relationships for "Top Gear"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-5298",
   "title": "A list of all ›has-video‹ relationships is returned when the provided data is valid",
   "description": "To be a valid request the provided ID has to point to a MOTOR SHOW node that actually exists.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T16:08:25.741+0200",
-  "updated_at": "2026-03-31T16:08:32.770+0200"
+  "updated_at": "2026-04-01T10:21:42.305+0200"
 }

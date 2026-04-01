@@ -7,7 +7,7 @@ Feature: Get RACING EVENT-has-main-video Relationship
   @RULE_MCA-4826
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-4827
+    @TEST_MCA-4827 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "RACING EVENT" "F1 GP Monaco"
       And there exists a "has-main-video" relationship "R" for "F1 GP Monaco"

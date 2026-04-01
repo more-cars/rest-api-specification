@@ -7,7 +7,7 @@ Feature: Delete TRACK LAYOUT-has-video Relationship
   @RULE_MCA-4588
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4589
+    @TEST_MCA-4589 @implemented
     Scenario: Trying to delete a non-existent ›has-video‹ relationship
       Given there exists a "TRACK LAYOUT" "Nordschleife"
       And there exists a "VIDEO" "Promo Video"

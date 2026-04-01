@@ -3,7 +3,9 @@
   "parent_id": "MCA-4359",
   "title": "Requesting the ›has-video‹ relationships when at least one exists",
   "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nAnd there exist 3 \"has-video\" relationships for \"BMW AG\"\nWhen the user requests all \"has-video\" relationships for \"BMW AG\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has-video\" relationships",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T11:57:20.766+0200",
-  "updated_at": "2026-03-30T11:57:24.319+0200"
+  "updated_at": "2026-04-01T11:55:59.324+0200"
 }

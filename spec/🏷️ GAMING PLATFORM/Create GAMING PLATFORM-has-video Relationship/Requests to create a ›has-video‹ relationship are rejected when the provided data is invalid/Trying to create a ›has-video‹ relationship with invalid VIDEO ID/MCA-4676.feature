@@ -7,7 +7,7 @@ Feature: Create GAMING PLATFORM-has-video Relationship
   @RULE_MCA-4674
   Rule: Requests to create a ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4676
+    @TEST_MCA-4676 @implemented
     Scenario: Trying to create a ›has-video‹ relationship with invalid VIDEO ID
       Given there exists a "GAMING PLATFORM" "Xbox"
       And "VIDEO" "Promo Video" does NOT exist

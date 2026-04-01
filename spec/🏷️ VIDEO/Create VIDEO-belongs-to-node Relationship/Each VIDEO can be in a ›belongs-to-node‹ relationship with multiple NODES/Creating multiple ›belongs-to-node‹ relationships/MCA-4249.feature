@@ -4,7 +4,7 @@ Feature: Create VIDEO-belongs-to-node Relationship
   @RULE_MCA-4248
   Rule: Each VIDEO can be in a ›belongs-to-node‹ relationship with multiple NODES
 
-    @TEST_MCA-4249
+    @TEST_MCA-4249 @implemented
     Scenario: Creating multiple ›belongs-to-node‹ relationships
       Given there exists a "VIDEO" "P1 vs F40"
       And there exists a "NODE" "McLaren P1"

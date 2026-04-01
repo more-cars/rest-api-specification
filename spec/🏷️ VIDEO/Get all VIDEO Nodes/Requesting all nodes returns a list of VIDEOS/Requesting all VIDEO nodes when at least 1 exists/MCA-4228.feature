@@ -8,7 +8,7 @@ Feature: Get all VIDEO Nodes
   @RULE_MCA-4227
   Rule: Requesting all nodes returns a list of VIDEOS
 
-    @TEST_MCA-4228
+    @TEST_MCA-4228 @implemented
     Scenario: Requesting all VIDEO nodes when at least 1 exists
       Given there exist 3 "VIDEO"s
       When the user requests a "VIDEO" collection

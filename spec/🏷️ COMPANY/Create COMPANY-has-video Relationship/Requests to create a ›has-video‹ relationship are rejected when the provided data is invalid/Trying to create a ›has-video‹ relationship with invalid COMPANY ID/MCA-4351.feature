@@ -7,7 +7,7 @@ Feature: Create COMPANY-has-video Relationship
   @RULE_MCA-4350
   Rule: Requests to create a ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4351
+    @TEST_MCA-4351 @implemented
     Scenario: Trying to create a ›has-video‹ relationship with invalid COMPANY ID
       Given "COMPANY" "BMW AG" does NOT exist
       And there exists a "VIDEO" "Promo Video"

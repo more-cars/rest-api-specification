@@ -3,7 +3,9 @@
   "parent_id": "MCA-4449",
   "title": "Trying to delete a ›has-main-video‹ relationship with invalid CAR MODEL ID",
   "gherkin": "Given \"CAR MODEL\" \"Testarossa\" does NOT exist\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user deletes the \"has-main-video\" relationship between \"Testarossa\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T12:05:56.398+0200",
-  "updated_at": "2026-03-30T12:05:59.897+0200"
+  "updated_at": "2026-04-01T11:56:23.333+0200"
 }

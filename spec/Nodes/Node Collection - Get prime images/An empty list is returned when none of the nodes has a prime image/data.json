@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5342",
+  "parent_id": "MCA-5341",
+  "title": "An empty list is returned when none of the nodes has a prime image",
+  "description": "",
+  "release_version": "0.32.0",
+  "created_at": "2026-04-01T16:33:47.361+0200",
+  "updated_at": "2026-04-01T17:02:52.880+0200"
+}

@@ -3,7 +3,9 @@
   "parent_id": "MCA-4963",
   "title": "Requesting the ›has-video‹ relationships when there are none",
   "gherkin": "Given there exists a \"MODEL CAR\" \"Hot Wheels F40\"\nAnd there exist 0 \"has-video\" relationships for \"Hot Wheels F40\"\nWhen the user requests all \"has-video\" relationships for \"Hot Wheels F40\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T13:18:09.064+0200",
-  "updated_at": "2026-03-31T13:18:12.755+0200"
+  "updated_at": "2026-04-01T11:58:41.729+0200"
 }

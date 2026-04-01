@@ -7,7 +7,7 @@ Feature: Create RACING EVENT-has-video Relationship
   @RULE_MCA-4794
   Rule: The same ›has-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4795
+    @TEST_MCA-4795 @implemented
     Scenario: Trying to create the same ›has-video‹ relationship again
       Given there exists a "RACING EVENT" "F1 GP Monaco"
       And there exists a "VIDEO" "Promo Video"

@@ -3,7 +3,7 @@
   "parent_id": "MCA-4859",
   "title": "Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no RACING SESSION with the provided ID? -> rejected.\nThere exists no VIDEO with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T13:06:19.144+0200",
-  "updated_at": "2026-03-31T13:06:36.543+0200"
+  "updated_at": "2026-04-01T10:23:00.292+0200"
 }

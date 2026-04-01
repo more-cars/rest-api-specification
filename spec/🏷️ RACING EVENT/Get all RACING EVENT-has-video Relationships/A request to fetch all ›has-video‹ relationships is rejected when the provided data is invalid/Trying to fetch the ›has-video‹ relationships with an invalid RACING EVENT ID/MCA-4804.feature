@@ -7,7 +7,7 @@ Feature: Get all RACING EVENT-has-video Relationships
   @RULE_MCA-4803
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-4804
+    @TEST_MCA-4804 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid RACING EVENT ID
       Given "RACING EVENT" "F1 GP Monaco" does NOT exist
       When the user requests all "has-video" relationships for "F1 GP Monaco"

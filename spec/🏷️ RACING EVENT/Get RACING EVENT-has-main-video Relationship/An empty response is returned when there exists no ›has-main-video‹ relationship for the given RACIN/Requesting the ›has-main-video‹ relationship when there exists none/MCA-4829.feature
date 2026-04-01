@@ -7,7 +7,7 @@ Feature: Get RACING EVENT-has-main-video Relationship
   @RULE_MCA-4828
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given RACING EVENT
 
-    @TEST_MCA-4829
+    @TEST_MCA-4829 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "RACING EVENT" "F1 GP Monaco"
       And there exists NO "has-main-video" relationship for "F1 GP Monaco"

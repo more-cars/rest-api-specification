@@ -7,7 +7,7 @@ Feature: Delete PROGRAMME-has-video Relationship
   @RULE_MCA-5200
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5201
+    @TEST_MCA-5201 @implemented
     Scenario: Trying to delete a ›has-video‹ relationship with invalid PROGRAMME ID
       Given "PROGRAMME" "The Grand Tour" does NOT exist
       And there exists a "VIDEO" "Promo Video"

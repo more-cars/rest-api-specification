@@ -7,7 +7,7 @@ Feature: Create LAP TIME-has-main-video Relationship
   @RULE_MCA-4923
   Rule: Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4924
+    @TEST_MCA-4924 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with valid IDs
       Given there exists a "LAP TIME" "Fastest Lap"
       And there exists a "VIDEO" "Promo Video"

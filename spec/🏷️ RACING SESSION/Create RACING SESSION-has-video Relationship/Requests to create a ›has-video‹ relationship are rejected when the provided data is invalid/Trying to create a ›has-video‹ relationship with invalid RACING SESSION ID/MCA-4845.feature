@@ -7,7 +7,7 @@ Feature: Create RACING SESSION-has-video Relationship
   @RULE_MCA-4844
   Rule: Requests to create a ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4845
+    @TEST_MCA-4845 @implemented
     Scenario: Trying to create a ›has-video‹ relationship with invalid RACING SESSION ID
       Given "RACING SESSION" "Qualifying" does NOT exist
       And there exists a "VIDEO" "Promo Video"

@@ -7,7 +7,7 @@ Feature: Create RACING EVENT-has-main-video Relationship
   @RULE_MCA-4817
   Rule: Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4818
+    @TEST_MCA-4818 @implemented
     Scenario: Trying to create a ›has-main-video‹ relationship with invalid RACING EVENT ID
       Given "RACING EVENT" "F1 GP Monaco" does NOT exist
       And there exists a "VIDEO" "Promo Video"

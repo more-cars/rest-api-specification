@@ -7,7 +7,7 @@ Feature: Delete VIDEO-belongs-to-node Relationship
   @RULE_MCA-4264
   Rule: Requests to delete the ›belongs-to-node‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4265
+    @TEST_MCA-4265 @implemented
     Scenario: Trying to delete a non-existent ›belongs-to-node‹ relationship
       Given there exists a "VIDEO" "P1 vs F40"
       And there exists a "NODE" "Toyota Yaris"

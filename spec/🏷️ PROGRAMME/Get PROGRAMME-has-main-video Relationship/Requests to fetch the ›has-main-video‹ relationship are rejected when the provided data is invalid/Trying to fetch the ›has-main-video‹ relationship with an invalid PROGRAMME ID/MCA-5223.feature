@@ -7,7 +7,7 @@ Feature: Get PROGRAMME-has-main-video Relationship
   @RULE_MCA-5222
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5223
+    @TEST_MCA-5223 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid PROGRAMME ID
       Given "PROGRAMME" "The Grand Tour" does NOT exist
       When the user requests the "has-main-video" relationship for "The Grand Tour"

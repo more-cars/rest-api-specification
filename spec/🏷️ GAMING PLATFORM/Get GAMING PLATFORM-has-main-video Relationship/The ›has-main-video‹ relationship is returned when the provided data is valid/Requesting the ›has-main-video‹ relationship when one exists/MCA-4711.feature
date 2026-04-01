@@ -7,7 +7,7 @@ Feature: Get GAMING PLATFORM-has-main-video Relationship
   @RULE_MCA-4710
   Rule: The ›has-main-video‹ relationship is returned when the provided data is valid
 
-    @TEST_MCA-4711
+    @TEST_MCA-4711 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when one exists
       Given there exists a "GAMING PLATFORM" "Xbox"
       And there exists a "has-main-video" relationship "R" for "Xbox"

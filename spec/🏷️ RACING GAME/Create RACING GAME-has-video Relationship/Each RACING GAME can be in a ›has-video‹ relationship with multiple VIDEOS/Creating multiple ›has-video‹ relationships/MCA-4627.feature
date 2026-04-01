@@ -7,7 +7,7 @@ Feature: Create RACING GAME-has-video Relationship
   @RULE_MCA-4626
   Rule: Each RACING GAME can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4627
+    @TEST_MCA-4627 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "RACING GAME" "Assetto Corsa"
       And there exists a "VIDEO" "Promo Video"

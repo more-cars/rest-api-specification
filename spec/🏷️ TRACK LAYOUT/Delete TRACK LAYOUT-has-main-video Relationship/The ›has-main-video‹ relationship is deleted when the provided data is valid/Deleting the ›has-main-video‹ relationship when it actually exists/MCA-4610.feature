@@ -7,7 +7,7 @@ Feature: Delete TRACK LAYOUT-has-main-video Relationship
   @RULE_MCA-4609
   Rule: The ›has-main-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4610
+    @TEST_MCA-4610 @implemented
     Scenario: Deleting the ›has-main-video‹ relationship when it actually exists
       Given there exists a "TRACK LAYOUT" "Nordschleife"
       And there exists a "VIDEO" "Promo Video"

@@ -3,7 +3,9 @@
   "parent_id": "MCA-4680",
   "title": "Creating multiple ›has-video‹ relationships",
   "gherkin": "Given there exists a \"GAMING PLATFORM\" \"Xbox\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists a \"VIDEO\" \"Promo Video (Part 2)\"\nWhen the user creates a \"has-video\" relationship between \"Xbox\" and \"Promo Video\"\nAnd the user creates a \"has-video\" relationship between \"Xbox\" and \"Promo Video (Part 2)\"\nThen there should exist a \"has-video\" relationship between \"Xbox\" and \"Promo Video\"\nAnd there should exist a \"has-video\" relationship between \"Xbox\" and \"Promo Video (Part 2)\"",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T17:37:06.962+0200",
-  "updated_at": "2026-03-30T17:37:10.191+0200"
+  "updated_at": "2026-04-01T11:57:25.992+0200"
 }

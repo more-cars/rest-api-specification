@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE-has-main-video Relationship
   @RULE_MCA-5119
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5122
+    @TEST_MCA-5122 @implemented
     Scenario: Trying to delete a ›has-main-video‹ relationship where both IDs are invalid
       Given "MAGAZINE" "Top Gear" does NOT exist
       And "VIDEO" "Promo Video" does NOT exist

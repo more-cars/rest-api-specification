@@ -7,7 +7,7 @@ Feature: Create LAP TIME-has-video Relationship
   @RULE_MCA-4898
   Rule: Requests to create a ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4901
+    @TEST_MCA-4901 @implemented
     Scenario: Trying to create a ›has-video‹ relationship where both IDs are invalid
       Given "LAP TIME" "Fastest Lap" does NOT exist
       And "VIDEO" "Promo Video" does NOT exist

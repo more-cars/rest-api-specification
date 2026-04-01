@@ -7,7 +7,7 @@ Feature: Get RACING EVENT-has-main-video Relationship
   @RULE_MCA-4830
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4831
+    @TEST_MCA-4831 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid RACING EVENT ID
       Given "RACING EVENT" "F1 GP Monaco" does NOT exist
       When the user requests the "has-main-video" relationship for "F1 GP Monaco"

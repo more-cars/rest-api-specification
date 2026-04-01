@@ -7,7 +7,7 @@ Feature: Delete COMPANY-has-main-video Relationship
   @RULE_MCA-4399
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4400
+    @TEST_MCA-4400 @implemented
     Scenario: Trying to delete a non-existent ›has-main-video‹ relationship
       Given there exists a "COMPANY" "BMW AG"
       And there exists a "VIDEO" "Promo Video"

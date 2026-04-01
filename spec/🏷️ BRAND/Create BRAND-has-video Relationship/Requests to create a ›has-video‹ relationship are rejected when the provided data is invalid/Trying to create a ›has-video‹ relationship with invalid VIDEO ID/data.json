@@ -3,7 +3,9 @@
   "parent_id": "MCA-4296",
   "title": "Trying to create a ›has-video‹ relationship with invalid VIDEO ID",
   "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user creates a \"has-video\" relationship between \"BMW\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-29T20:18:47.139+0200",
-  "updated_at": "2026-03-29T20:18:50.159+0200"
+  "updated_at": "2026-04-01T11:55:43.013+0200"
 }

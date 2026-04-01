@@ -7,7 +7,7 @@ Feature: Delete LAP TIME-has-video Relationship
   @RULE_MCA-4916
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4918
+    @TEST_MCA-4918 @implemented
     Scenario: Trying to delete a ›has-video‹ relationship with invalid VIDEO ID
       Given there exists a "LAP TIME" "Fastest Lap"
       And "VIDEO" "Promo Video" does NOT exist

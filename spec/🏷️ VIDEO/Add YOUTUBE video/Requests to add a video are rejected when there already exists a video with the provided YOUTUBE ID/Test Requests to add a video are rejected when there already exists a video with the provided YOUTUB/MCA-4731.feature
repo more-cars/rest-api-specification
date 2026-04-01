@@ -7,7 +7,7 @@ Feature: Add YOUTUBE video
   @RULE_MCA-4727
   Rule: Requests to add a video are rejected when there already exists a video with the provided YOUTUBE ID
 
-    @TEST_MCA-4731
+    @TEST_MCA-4731 @implemented
     Scenario: Test Requests to add a video are rejected when there already exists a video with the provided YOUTUBE ID
       Given there exists a YouTube video with ID "YT123456"
       When the user creates a "VIDEO" with the following data

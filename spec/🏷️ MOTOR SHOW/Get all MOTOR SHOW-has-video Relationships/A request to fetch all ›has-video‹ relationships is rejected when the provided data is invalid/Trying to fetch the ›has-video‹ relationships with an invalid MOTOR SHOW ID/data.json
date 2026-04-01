@@ -3,7 +3,9 @@
   "parent_id": "MCA-5303",
   "title": "Trying to fetch the ›has-video‹ relationships with an invalid MOTOR SHOW ID",
   "gherkin": "Given \"MOTOR SHOW\" \"IAA Frankfurt\" does NOT exist\nWhen the user requests all \"has-video\" relationships for \"IAA Frankfurt\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T16:08:44.039+0200",
-  "updated_at": "2026-03-31T16:08:48.062+0200"
+  "updated_at": "2026-04-01T12:09:42.925+0200"
 }

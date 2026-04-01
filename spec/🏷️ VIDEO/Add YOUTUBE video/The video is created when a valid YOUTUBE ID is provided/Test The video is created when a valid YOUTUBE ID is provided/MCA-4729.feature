@@ -7,7 +7,7 @@ Feature: Add YOUTUBE video
   @RULE_MCA-4725
   Rule: The video is created when a valid YOUTUBE ID is provided
 
-    @TEST_MCA-4729
+    @TEST_MCA-4729 @implemented
     Scenario: Test The video is created when a valid YOUTUBE ID is provided
       Given there exists a YouTube video with ID "YT123456"
       When the user creates a "VIDEO" with the following data

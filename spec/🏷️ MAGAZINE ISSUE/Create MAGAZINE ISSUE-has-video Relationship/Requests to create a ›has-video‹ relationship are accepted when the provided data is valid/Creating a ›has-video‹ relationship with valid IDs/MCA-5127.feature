@@ -7,7 +7,7 @@ Feature: Create MAGAZINE ISSUE-has-video Relationship
   @RULE_MCA-5126
   Rule: Requests to create a ›has-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-5127
+    @TEST_MCA-5127 @implemented
     Scenario: Creating a ›has-video‹ relationship with valid IDs
       Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
       And there exists a "VIDEO" "Promo Video"

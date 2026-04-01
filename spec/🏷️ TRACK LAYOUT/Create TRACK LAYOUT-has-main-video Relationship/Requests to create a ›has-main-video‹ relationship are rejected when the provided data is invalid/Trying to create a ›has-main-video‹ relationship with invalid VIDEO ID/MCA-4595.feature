@@ -7,7 +7,7 @@ Feature: Create TRACK LAYOUT-has-main-video Relationship
   @RULE_MCA-4593
   Rule: Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4595
+    @TEST_MCA-4595 @implemented
     Scenario: Trying to create a ›has-main-video‹ relationship with invalid VIDEO ID
       Given there exists a "TRACK LAYOUT" "Nordschleife"
       And "VIDEO" "Promo Video" does NOT exist

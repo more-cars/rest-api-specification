@@ -3,7 +3,7 @@
   "parent_id": "MCA-4320",
   "title": "Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid",
   "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type BRAND resp. VIDEO.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-29T20:20:05.393+0200",
-  "updated_at": "2026-03-29T20:20:11.285+0200"
+  "updated_at": "2026-04-01T10:24:38.803+0200"
 }

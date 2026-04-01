@@ -3,7 +3,9 @@
   "parent_id": "MCA-5177",
   "title": "Trying to delete a non-existent ›has-main-video‹ relationship",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 03_2026\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nAnd there exists NO \"has-main-video\" relationship between \"Top Gear 03_2026\" and \"Promo Video\"\nWhen the user deletes the \"has-main-video\" relationship between \"Top Gear 03_2026\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T15:38:46.109+0200",
-  "updated_at": "2026-03-31T15:38:49.567+0200"
+  "updated_at": "2026-04-01T11:59:36.232+0200"
 }

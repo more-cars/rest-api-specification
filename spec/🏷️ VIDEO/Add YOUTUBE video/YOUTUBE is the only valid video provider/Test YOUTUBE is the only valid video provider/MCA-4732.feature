@@ -7,7 +7,7 @@ Feature: Add YOUTUBE video
   @RULE_MCA-4728
   Rule: YOUTUBE is the only valid video provider
 
-    @TEST_MCA-4732
+    @TEST_MCA-4732 @implemented
     Scenario: Test YOUTUBE is the only valid video provider
       When the user creates a "VIDEO" with the following data
         | key            | value   |

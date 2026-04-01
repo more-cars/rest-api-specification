@@ -7,7 +7,7 @@ Feature: Create VIDEO Node
   @RULE_MCA-4209
   Rule: Requests to create a VIDEO are accepted when the provided data is valid
 
-    @TEST_MCA-4210
+    @TEST_MCA-4210 @implemented
     Scenario: Creating a VIDEO with valid data
       When the user creates a "VIDEO" "P1 vs F40" with the following data
         | key              | value                                                | datatype |

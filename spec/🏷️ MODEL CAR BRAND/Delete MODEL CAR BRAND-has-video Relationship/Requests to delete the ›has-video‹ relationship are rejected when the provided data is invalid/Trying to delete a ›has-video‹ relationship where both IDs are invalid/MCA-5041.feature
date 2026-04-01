@@ -7,7 +7,7 @@ Feature: Delete MODEL CAR BRAND-has-video Relationship
   @RULE_MCA-5038
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5041
+    @TEST_MCA-5041 @implemented
     Scenario: Trying to delete a ›has-video‹ relationship where both IDs are invalid
       Given "MODEL CAR BRAND" "Hot Wheels" does NOT exist
       And "VIDEO" "Promo Video" does NOT exist

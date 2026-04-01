@@ -7,7 +7,7 @@ Feature: Get GAMING PLATFORM-has-main-video Relationship
   @RULE_MCA-4712
   Rule: An empty response is returned when there exists no ›has-main-video‹ relationship for the given GAMING PLATFORM
 
-    @TEST_MCA-4713
+    @TEST_MCA-4713 @implemented
     Scenario: Requesting the ›has-main-video‹ relationship when there exists none
       Given there exists a "GAMING PLATFORM" "Xbox"
       And there exists NO "has-main-video" relationship for "Xbox"

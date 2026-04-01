@@ -3,7 +3,7 @@
   "parent_id": "MCA-4601",
   "title": "Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid",
   "description": "There exists no TRACK LAYOUT with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T17:26:51.415+0200",
-  "updated_at": "2026-03-30T17:26:57.747+0200"
+  "updated_at": "2026-04-01T10:23:45.884+0200"
 }

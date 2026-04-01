@@ -7,7 +7,7 @@ Feature: Create GAMING PLATFORM-has-video Relationship
   @RULE_MCA-4672
   Rule: Requests to create a ›has-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4673
+    @TEST_MCA-4673 @implemented
     Scenario: Creating a ›has-video‹ relationship with valid IDs
       Given there exists a "GAMING PLATFORM" "Xbox"
       And there exists a "VIDEO" "Promo Video"

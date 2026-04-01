@@ -3,7 +3,9 @@
   "parent_id": "MCA-4309",
   "title": "Trying to fetch the ›has-video‹ relationships with an invalid BRAND ID",
   "gherkin": "Given \"BRAND\" \"BMW\" does NOT exist\nWhen the user requests all \"has-video\" relationships for \"BMW\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-29T20:19:27.958+0200",
-  "updated_at": "2026-03-29T20:19:31.050+0200"
+  "updated_at": "2026-04-01T11:55:46.144+0200"
 }

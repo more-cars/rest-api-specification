@@ -7,7 +7,7 @@ Feature: Create GAMING PLATFORM-has-main-video Relationship
   @RULE_MCA-4707
   Rule: At the same time, each GAMING PLATFORM can only be in a ›has-main-video‹ relationship with one VIDEO
 
-    @TEST_MCA-4708
+    @TEST_MCA-4708 @implemented
     Scenario: Creating a ›has-main-video‹ relationship with a different VIDEO
       Given there exists a "GAMING PLATFORM" "Xbox"
       And there exists a "VIDEO" "Promo Video"

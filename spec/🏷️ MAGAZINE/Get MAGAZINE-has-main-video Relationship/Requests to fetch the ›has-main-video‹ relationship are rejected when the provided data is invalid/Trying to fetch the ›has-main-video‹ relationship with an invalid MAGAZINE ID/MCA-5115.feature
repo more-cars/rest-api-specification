@@ -7,7 +7,7 @@ Feature: Get MAGAZINE-has-main-video Relationship
   @RULE_MCA-5114
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5115
+    @TEST_MCA-5115 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid MAGAZINE ID
       Given "MAGAZINE" "Top Gear" does NOT exist
       When the user requests the "has-main-video" relationship for "Top Gear"

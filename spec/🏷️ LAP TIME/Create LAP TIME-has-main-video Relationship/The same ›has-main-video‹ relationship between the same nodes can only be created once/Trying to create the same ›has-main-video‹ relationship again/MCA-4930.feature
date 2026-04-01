@@ -7,7 +7,7 @@ Feature: Create LAP TIME-has-main-video Relationship
   @RULE_MCA-4929
   Rule: The same ›has-main-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-4930
+    @TEST_MCA-4930 @implemented
     Scenario: Trying to create the same ›has-main-video‹ relationship again
       Given there exists a "LAP TIME" "Fastest Lap"
       And there exists a "VIDEO" "Promo Video"

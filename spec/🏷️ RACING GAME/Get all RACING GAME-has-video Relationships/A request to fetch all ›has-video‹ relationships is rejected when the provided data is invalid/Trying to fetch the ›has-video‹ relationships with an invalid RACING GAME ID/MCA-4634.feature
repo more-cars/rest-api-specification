@@ -7,7 +7,7 @@ Feature: Get all RACING GAME-has-video Relationships
   @RULE_MCA-4633
   Rule: A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid
 
-    @TEST_MCA-4634
+    @TEST_MCA-4634 @implemented
     Scenario: Trying to fetch the ›has-video‹ relationships with an invalid RACING GAME ID
       Given "RACING GAME" "Assetto Corsa" does NOT exist
       When the user requests all "has-video" relationships for "Assetto Corsa"

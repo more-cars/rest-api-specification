@@ -7,7 +7,7 @@ Feature: Get RACE TRACK-has-main-video Relationship
   @RULE_MCA-4552
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4553
+    @TEST_MCA-4553 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid RACE TRACK ID
       Given "RACE TRACK" "Nürburgring" does NOT exist
       When the user requests the "has-main-video" relationship for "Nürburgring"

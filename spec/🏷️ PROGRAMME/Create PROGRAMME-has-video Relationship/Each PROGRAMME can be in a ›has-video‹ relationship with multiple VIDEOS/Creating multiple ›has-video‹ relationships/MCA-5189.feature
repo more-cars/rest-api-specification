@@ -7,7 +7,7 @@ Feature: Create PROGRAMME-has-video Relationship
   @RULE_MCA-5188
   Rule: Each PROGRAMME can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-5189
+    @TEST_MCA-5189 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "PROGRAMME" "The Grand Tour"
       And there exists a "VIDEO" "Promo Video"

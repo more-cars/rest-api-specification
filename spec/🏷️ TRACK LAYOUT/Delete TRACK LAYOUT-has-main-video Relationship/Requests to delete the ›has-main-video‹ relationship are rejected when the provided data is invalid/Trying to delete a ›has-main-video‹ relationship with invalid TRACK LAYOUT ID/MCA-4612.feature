@@ -7,7 +7,7 @@ Feature: Delete TRACK LAYOUT-has-main-video Relationship
   @RULE_MCA-4611
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4612
+    @TEST_MCA-4612 @implemented
     Scenario: Trying to delete a ›has-main-video‹ relationship with invalid TRACK LAYOUT ID
       Given "TRACK LAYOUT" "Nordschleife" does NOT exist
       And there exists a "VIDEO" "Promo Video"

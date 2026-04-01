@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-has-main-video Relationship
   @RULE_MCA-5177
   Rule: Requests to delete the ›has-main-video‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-5178
+    @TEST_MCA-5178 @implemented
     Scenario: Trying to delete a non-existent ›has-main-video‹ relationship
       Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
       And there exists a "VIDEO" "Promo Video"

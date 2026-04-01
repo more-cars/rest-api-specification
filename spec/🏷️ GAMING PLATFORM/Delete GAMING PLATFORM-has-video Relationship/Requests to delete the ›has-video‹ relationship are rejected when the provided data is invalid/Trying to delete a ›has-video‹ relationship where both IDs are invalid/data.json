@@ -3,7 +3,9 @@
   "parent_id": "MCA-4692",
   "title": "Trying to delete a ›has-video‹ relationship where both IDs are invalid",
   "gherkin": "Given \"GAMING PLATFORM\" \"Xbox\" does NOT exist\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user deletes the \"has-video\" relationship between \"Xbox\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-30T17:38:24.564+0200",
-  "updated_at": "2026-03-30T17:38:28.135+0200"
+  "updated_at": "2026-04-01T11:57:29.607+0200"
 }

@@ -3,7 +3,7 @@
   "parent_id": "MCA-4868",
   "title": "At the same time, each RACING SESSION can only be in a ›has-main-video‹ relationship with one VIDEO",
   "description": "Connecting a different VIDEO will delete the previous relationship.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-31T13:07:22.463+0200",
-  "updated_at": "2026-03-31T13:07:30.266+0200"
+  "updated_at": "2026-04-01T10:22:57.885+0200"
 }

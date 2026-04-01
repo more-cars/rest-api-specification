@@ -7,7 +7,7 @@ Feature: Create PROGRAMME-has-main-video Relationship
   @RULE_MCA-5213
   Rule: The same ›has-main-video‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-5214
+    @TEST_MCA-5214 @implemented
     Scenario: Trying to create the same ›has-main-video‹ relationship again
       Given there exists a "PROGRAMME" "The Grand Tour"
       And there exists a "VIDEO" "Promo Video"

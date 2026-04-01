@@ -7,7 +7,7 @@ Feature: Get COMPANY-has-main-video Relationship
   @RULE_MCA-4390
   Rule: Requests to fetch the ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4391
+    @TEST_MCA-4391 @implemented
     Scenario: Trying to fetch the ›has-main-video‹ relationship with an invalid COMPANY ID
       Given "COMPANY" "BMW AG" does NOT exist
       When the user requests the "has-main-video" relationship for "BMW AG"

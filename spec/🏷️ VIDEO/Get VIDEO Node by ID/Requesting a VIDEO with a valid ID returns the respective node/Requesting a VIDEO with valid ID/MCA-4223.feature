@@ -7,7 +7,7 @@ Feature: Get VIDEO Node by ID
   @RULE_MCA-4222
   Rule: Requesting a VIDEO with a valid ID returns the respective node
 
-    @TEST_MCA-4223
+    @TEST_MCA-4223 @implemented
     Scenario: Requesting a VIDEO with valid ID
       Given there exists a "VIDEO" "P1 vs F40"
       When the user requests the "VIDEO" "P1 vs F40"

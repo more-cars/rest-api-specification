@@ -7,7 +7,7 @@ Feature: Delete VIDEO-belongs-to-node Relationship
   @RULE_MCA-4258
   Rule: The ›belongs-to-node‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4259
+    @TEST_MCA-4259 @implemented
     Scenario: Deleting the ›belongs-to-node‹ relationship when it actually exists
       Given there exists a "VIDEO" "P1 vs F40"
       And there exists a "NODE" "Toyota Yaris"

@@ -7,7 +7,7 @@ Feature: Delete COMPANY-has-video Relationship
   @RULE_MCA-4366
   Rule: The ›has-video‹ relationship is deleted when the provided data is valid
 
-    @TEST_MCA-4367
+    @TEST_MCA-4367 @implemented
     Scenario: Deleting the ›has-video‹ relationship when it actually exists
       Given there exists a "COMPANY" "BMW AG"
       And there exists a "VIDEO" "Promo Video"

@@ -7,7 +7,7 @@ Feature: Create RACING GAME-has-main-video Relationship
   @RULE_MCA-4647
   Rule: Requests to create a ›has-main-video‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-4648
+    @TEST_MCA-4648 @implemented
     Scenario: Trying to create a ›has-main-video‹ relationship with invalid RACING GAME ID
       Given "RACING GAME" "Assetto Corsa" does NOT exist
       And there exists a "VIDEO" "Promo Video"

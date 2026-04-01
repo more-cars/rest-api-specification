@@ -3,7 +3,9 @@
   "parent_id": "MCA-4808",
   "title": "Trying to delete a ›has-video‹ relationship where both IDs are invalid",
   "gherkin": "Given \"RACING EVENT\" \"F1 GP Monaco\" does NOT exist\nAnd \"VIDEO\" \"Promo Video\" does NOT exist\nWhen the user deletes the \"has-video\" relationship between \"F1 GP Monaco\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-03-31T13:00:07.189+0200",
-  "updated_at": "2026-03-31T13:00:10.943+0200"
+  "updated_at": "2026-04-01T11:58:00.395+0200"
 }

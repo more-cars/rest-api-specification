@@ -7,7 +7,7 @@ Feature: Create RACING SESSION-has-video Relationship
   @RULE_MCA-4850
   Rule: Each RACING SESSION can be in a ›has-video‹ relationship with multiple VIDEOS
 
-    @TEST_MCA-4851
+    @TEST_MCA-4851 @implemented
     Scenario: Creating multiple ›has-video‹ relationships
       Given there exists a "RACING SESSION" "Qualifying"
       And there exists a "VIDEO" "Promo Video"

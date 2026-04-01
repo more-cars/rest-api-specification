@@ -3,7 +3,7 @@
   "parent_id": "MCA-4682",
   "title": "A request to fetch all ›has-video‹ relationships is rejected when the provided data is invalid",
   "description": "There exists no GAMING PLATFORM with the provided ID? -> rejected.\n",
-  "release_version": null,
+  "release_version": "0.32.0",
   "created_at": "2026-03-30T17:37:28.199+0200",
-  "updated_at": "2026-03-30T17:37:34.487+0200"
+  "updated_at": "2026-04-01T10:23:31.352+0200"
 }

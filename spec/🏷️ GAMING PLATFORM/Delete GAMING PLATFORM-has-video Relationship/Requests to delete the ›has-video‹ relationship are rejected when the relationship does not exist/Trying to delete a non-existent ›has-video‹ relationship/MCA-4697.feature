@@ -7,7 +7,7 @@ Feature: Delete GAMING PLATFORM-has-video Relationship
   @RULE_MCA-4696
   Rule: Requests to delete the ›has-video‹ relationship are rejected when the relationship does not exist
 
-    @TEST_MCA-4697
+    @TEST_MCA-4697 @implemented
     Scenario: Trying to delete a non-existent ›has-video‹ relationship
       Given there exists a "GAMING PLATFORM" "Xbox"
       And there exists a "VIDEO" "Promo Video"

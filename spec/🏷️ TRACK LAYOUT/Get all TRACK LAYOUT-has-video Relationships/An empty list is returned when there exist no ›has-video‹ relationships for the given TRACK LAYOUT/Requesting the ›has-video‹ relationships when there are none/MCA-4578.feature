@@ -7,7 +7,7 @@ Feature: Get all TRACK LAYOUT-has-video Relationships
   @RULE_MCA-4577
   Rule: An empty list is returned when there exist no ›has-video‹ relationships for the given TRACK LAYOUT
 
-    @TEST_MCA-4578
+    @TEST_MCA-4578 @implemented
     Scenario: Requesting the ›has-video‹ relationships when there are none
       Given there exists a "TRACK LAYOUT" "Nordschleife"
       And there exist 0 "has-video" relationships for "Nordschleife"
