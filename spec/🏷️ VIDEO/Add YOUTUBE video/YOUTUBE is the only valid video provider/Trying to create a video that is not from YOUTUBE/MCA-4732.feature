@@ -8,9 +8,9 @@ Feature: Add YOUTUBE video
   Rule: YOUTUBE is the only valid video provider
 
     @TEST_MCA-4732 @implemented
-    Scenario: Test YOUTUBE is the only valid video provider
+    Scenario: Trying to create a video that is not from YOUTUBE
       When the user creates a "VIDEO" with the following data
         | key            | value   |
-        | video_platform | vimeo   |
+        | video_provider | vimeo   |
         | external_id    | V123456 |
       Then the request should be rejected with status code 400

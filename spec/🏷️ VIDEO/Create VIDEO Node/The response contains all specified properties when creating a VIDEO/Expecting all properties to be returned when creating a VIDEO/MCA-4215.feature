@@ -10,32 +10,21 @@ Feature: Create VIDEO Node
     @TEST_MCA-4215 @implemented
     Scenario: Expecting all properties to be returned when creating a VIDEO
       When the user creates a "VIDEO" "P1 vs F40" with the following data
-        | key              | value                                                | datatype |
-        | video_provider   | youtube                                              | string   |
-        | external_id      | NqsBncRslsg                                          | string   |
-        | title            | P1 vs F40                                            | string   |
-        | description      | Drag Race - P1 vs F40                                | string   |
-        | creator          | Lovecars                                             | string   |
-        | license          | youtube                                              | string   |
-        | tags             | F40, P1                                              | string   |
-        | source           | https://www.youtube.com/watch?v=NqsBncRslsg          | string   |
-        | duration         | PT7M24S                                              | string   |
-        | thumbnail_url_l  | https://i.ytimg.com/vi/NqsBncRslsg/maxresdefault.jpg | string   |
-        | thumbnail_url_m  | https://i.ytimg.com/vi/NqsBncRslsg/sddefault.jpg     | string   |
-        | thumbnail_url_s  | https://i.ytimg.com/vi/NqsBncRslsg/mqdefault.jpg     | string   |
-        | thumbnail_url_xs | https://i.ytimg.com/vi/NqsBncRslsg/default.jpg       | string   |
-      Then the response should contain the following properties
-        | key              | value                                                | datatype |
-        | video_provider   | youtube                                              | string   |
-        | external_id      | NqsBncRslsg                                          | string   |
-        | title            | P1 vs F40                                            | string   |
-        | description      | Drag Race - P1 vs F40                                | string   |
-        | creator          | Lovecars                                             | string   |
-        | license          | youtube                                              | string   |
-        | tags             | F40, P1                                              | string   |
-        | source           | https://www.youtube.com/watch?v=NqsBncRslsg          | string   |
-        | duration         | PT7M24S                                              | string   |
-        | thumbnail_url_l  | https://i.ytimg.com/vi/NqsBncRslsg/maxresdefault.jpg | string   |
-        | thumbnail_url_m  | https://i.ytimg.com/vi/NqsBncRslsg/sddefault.jpg     | string   |
-        | thumbnail_url_s  | https://i.ytimg.com/vi/NqsBncRslsg/mqdefault.jpg     | string   |
-        | thumbnail_url_xs | https://i.ytimg.com/vi/NqsBncRslsg/default.jpg       | string   |
+        | key            | value       | datatype |
+        | video_provider | youtube     | string   |
+        | external_id    | NqsBncRslsg | string   |
+      Then the response should contain the following keys
+        | key              |
+        | video_provider   |
+        | external_id      |
+        | title            |
+        | description      |
+        | creator          |
+        | license          |
+        | tags             |
+        | source           |
+        | duration         |
+        | thumbnail_url_l  |
+        | thumbnail_url_m  |
+        | thumbnail_url_s  |
+        | thumbnail_url_xs |

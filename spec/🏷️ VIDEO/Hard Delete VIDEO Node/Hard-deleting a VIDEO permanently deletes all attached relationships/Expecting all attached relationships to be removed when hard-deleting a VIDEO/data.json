@@ -2,7 +2,7 @@
   "id": "MCA-4237",
   "parent_id": "MCA-4236",
   "title": "Expecting all attached relationships to be removed when hard-deleting a VIDEO",
-  "gherkin": "Given there exists a \"VIDEO\" \"P1 vs F40\"\nAnd there exists a \"has image\" relationship \"R1\" for \"P1 vs F40\"\nAnd there exists a \"has prime image\" relationship \"R2\" for \"P1 vs F40\"\nWhen the user hard-deletes the \"VIDEO\" \"P1 vs F40\"\nThen the \"VIDEO\" \"P1 vs F40\" should not exist anymore\nAnd the relationship \"R1\" should not exist anymore\nAnd the relationship \"R2\" should not exist anymore",
+  "gherkin": "Given there exists a \"VIDEO\" \"P1 vs F40\"\nAnd there exists a \"belongs to node\" relationship \"R1\" for \"P1 vs F40\"\nAnd there exists a \"is main video of node\" relationship \"R2\" for \"P1 vs F40\"\nWhen the user hard-deletes the \"VIDEO\" \"P1 vs F40\"\nThen the \"VIDEO\" \"P1 vs F40\" should not exist anymore\nAnd the relationship \"R1\" should not exist anymore\nAnd the relationship \"R2\" should not exist anymore",
   "labels": [
     "implemented"
   ],

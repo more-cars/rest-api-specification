@@ -10,8 +10,8 @@ Feature: Hard Delete VIDEO Node
     @TEST_MCA-4237 @implemented
     Scenario: Expecting all attached relationships to be removed when hard-deleting a VIDEO
       Given there exists a "VIDEO" "P1 vs F40"
-      And there exists a "has image" relationship "R1" for "P1 vs F40"
-      And there exists a "has prime image" relationship "R2" for "P1 vs F40"
+      And there exists a "belongs to node" relationship "R1" for "P1 vs F40"
+      And there exists a "is main video of node" relationship "R2" for "P1 vs F40"
       When the user hard-deletes the "VIDEO" "P1 vs F40"
       Then the "VIDEO" "P1 vs F40" should not exist anymore
       And the relationship "R1" should not exist anymore
