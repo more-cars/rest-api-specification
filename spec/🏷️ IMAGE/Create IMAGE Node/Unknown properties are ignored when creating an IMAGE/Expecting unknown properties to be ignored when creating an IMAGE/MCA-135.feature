@@ -10,14 +10,14 @@ Feature: Create IMAGE Node
     @TEST_MCA-135 @implemented
     Scenario: Expecting unknown properties to be ignored when creating an IMAGE
       When the user creates a "IMAGE" "Ferrari logo" with the following data
-        | key            | value  | datatype |
-        | image_provider | flickr | string   |
-        | external_id    | A12345 | string   |
-        | my_property    | ABC    | string   |
+        | key            | value     | datatype |
+        | image_provider | wikimedia | string   |
+        | external_id    | WM123456  | string   |
+        | my_property    | ABC       | string   |
       Then the response should contain the following properties
-        | key            | value  | datatype |
-        | image_provider | flickr | string   |
-        | external_id    | A12345 | string   |
+        | key            | value     | datatype |
+        | image_provider | wikimedia | string   |
+        | external_id    | WM123456  | string   |
       But the response should NOT contain the following keys
         | key         |
         | my_property |

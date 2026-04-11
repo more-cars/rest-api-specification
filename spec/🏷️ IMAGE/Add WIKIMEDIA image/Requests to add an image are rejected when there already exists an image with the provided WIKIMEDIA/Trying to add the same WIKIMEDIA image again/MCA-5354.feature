@@ -7,7 +7,7 @@ Feature: Add WIKIMEDIA image
   @RULE_MCA-5351
   Rule: Requests to add an image are rejected when there already exists an image with the provided WIKIMEDIA ID
 
-    @TEST_MCA-5354
+    @TEST_MCA-5354 @implemented
     Scenario: Trying to add the same WIKIMEDIA image again
       When the user creates a "IMAGE" with the following data
         | key            | value     |

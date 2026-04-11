@@ -7,9 +7,9 @@ Feature: Add WIKIMEDIA image
   @RULE_MCA-119
   Rule: Requests to add an image are rejected whent the provided WIKIMEDIA ID invalid
 
-    @TEST_MCA-143
+    @TEST_MCA-143 @manual_test
     Scenario: Trying to add a WIKIMEDIA image which does not exist
-      Given there exists no YouTube video with ID "WM123456"
+      Given there exists no Wikimedia image with ID "WM123456"
       When the user creates a "IMAGE" with the following data
         | key            | value     |
         | image_provider | wikimedia |

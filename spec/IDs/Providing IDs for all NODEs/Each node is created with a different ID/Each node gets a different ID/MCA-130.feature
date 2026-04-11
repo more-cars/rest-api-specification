@@ -18,6 +18,7 @@ Feature: Providing IDs for all NODEs
         | BRAND             |
         | CAR MODEL         |
         | CAR MODEL VARIANT |
+        | PRICE             |
         | RACE TRACK        |
         | TRACK LAYOUT      |
         | RACING SERIES     |
@@ -27,6 +28,14 @@ Feature: Providing IDs for all NODEs
         | LAP TIME          |
         | RACING GAME       |
         | GAMING PLATFORM   |
+        | MODEL CAR         |
+        | MODEL CAR BRAND   |
         | MAGAZINE          |
         | MAGAZINE ISSUE    |
-        | IMAGE             |
+        | RATING            |
+        | PROGRAMME         |
+        | PROGRAMME EPISODE |
+        | MOTOR SHOW        |
+
+#      | IMAGE             |
+#      | VIDEO             |

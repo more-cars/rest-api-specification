@@ -7,7 +7,7 @@ Feature: Add WIKIMEDIA image
   @RULE_MCA-120
   Rule: The image is created when a valid WIKIMEDIA ID is provided
 
-    @TEST_MCA-144
+    @TEST_MCA-144 @implemented
     Scenario: Expecting a WIKIMEDIA image to be created when provided with valid data
       When the user creates a "IMAGE" with the following data
         | key            | value     |

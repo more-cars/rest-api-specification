@@ -3,7 +3,9 @@
   "parent_id": "MCA-120",
   "title": "Expecting a WIKIMEDIA image to be created when provided with valid data",
   "gherkin": "When the user creates a \"IMAGE\" with the following data\n  | key            | value     |\n  | image_provider | wikimedia |\n  | external_id    | WM123456  |\nThen the request should be confirmed with status code 201",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-05-23T11:33:34.132+0200",
-  "updated_at": "2026-04-10T10:58:01.512+0200"
+  "updated_at": "2026-04-11T13:14:55.170+0200"
 }

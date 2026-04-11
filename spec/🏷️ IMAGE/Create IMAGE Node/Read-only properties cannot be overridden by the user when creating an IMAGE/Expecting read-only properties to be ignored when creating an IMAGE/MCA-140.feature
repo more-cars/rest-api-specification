@@ -11,8 +11,8 @@ Feature: Create IMAGE Node
     Scenario: Expecting read-only properties to be ignored when creating an IMAGE
       When the user creates a "IMAGE" "Ferrari logo" with the following data
         | key                | value                | datatype |
-        | image_provider     | flickr               | string   |
-        | external_id        | A12345               | string   |
+        | image_provider     | wikimedia            | string   |
+        | external_id        | WM123456             | string   |
         | name               | TEST                 | string   |
         | description        | TEST                 | string   |
         | creator            | TEST                 | string   |
