@@ -2,7 +2,7 @@
   "id": "MCA-4730",
   "parent_id": "MCA-4726",
   "title": "Trying to add a YOUTUBE video which does not exist",
-  "gherkin": "Given there exists no YouTube video with ID \"YT123456\"\nWhen the user creates a \"VIDEO\" with the following data\n\t| key            | value    |\n\t| video_platform | youtube  |\n\t| external_id    | YT123456 |\nThen the request should be rejected with status code 422",
+  "gherkin": "Given there exists no YouTube video with ID \"YT123456\"\nWhen the user creates a \"VIDEO\" with the following data\n\t| key            | value    |\n\t| video_provider | youtube  |\n\t| external_id    | YT123456 |\nThen the request should be rejected with status code 422",
   "labels": [
     "manual_test"
   ],

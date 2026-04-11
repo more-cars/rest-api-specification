@@ -1,0 +1,9 @@
+{
+  "id": "MCA-143",
+  "parent_id": "MCA-119",
+  "title": "Trying to add a WIKIMEDIA image which does not exist",
+  "gherkin": "Given there exists no YouTube video with ID \"WM123456\"\nWhen the user creates a \"IMAGE\" with the following data\n\t| key            | value     |\n\t| image_provider | wikimedia |\n\t| external_id    | WM123456  |\nThen the request should be rejected with status code 422",
+  "labels": [],
+  "created_at": "2025-05-23T11:24:52.585+0200",
+  "updated_at": "2026-04-10T10:59:31.320+0200"
+}

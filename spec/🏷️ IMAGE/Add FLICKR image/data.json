@@ -1,0 +1,20 @@
+{
+  "id": "MCA-87",
+  "parent_id": "MCA-72",
+  "title": "Add FLICKR image",
+  "user_story": "As an API contributor\\\nI want to add FLICKR images just by their IDs\\\nSo I don't have to fill out all fields manually\n",
+  "description": "* the existing “create node” functionality is extended (see <https://dennis-gerike.atlassian.net/browse/MCA-75>)\n* there are already multiple IMAGE fields prepared → they have to be filled with real data → data is to be fetched via the official FLICKR API\n* the FLICKR image node is successfully created when the user provided valid data and the image was found in the Flickr API → Status Code \\`201\\`\n* malformed requests are rejected → status code \\`400\\`\n  * same validation rules as before\n  * plus: `flickr` is added as a valid value for the `image_provider` field\n* requests are rejected when there exists no Wikimedia image with the provided ID → Status Code \\`422\\`\n* requests are rejected when there already exists an IMAGE node with the provided ID → Status Code \\`409\\`\n",
+  "api_verb": "POST",
+  "api_path": "/images",
+  "response_options": [
+    "201",
+    "400",
+    "409",
+    "422"
+  ],
+  "release_versions": [
+    "0.33.0"
+  ],
+  "created_at": "2025-05-19T15:13:34.421+0200",
+  "updated_at": "2026-04-10T10:13:04.266+0200"
+}

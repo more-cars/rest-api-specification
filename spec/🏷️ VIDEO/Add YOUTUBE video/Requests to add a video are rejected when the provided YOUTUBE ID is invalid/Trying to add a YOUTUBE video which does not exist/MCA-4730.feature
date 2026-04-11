@@ -12,6 +12,6 @@ Feature: Add YOUTUBE video
       Given there exists no YouTube video with ID "YT123456"
       When the user creates a "VIDEO" with the following data
         | key            | value    |
-        | video_platform | youtube  |
+        | video_provider | youtube  |
         | external_id    | YT123456 |
       Then the request should be rejected with status code 422
