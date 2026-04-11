@@ -7,7 +7,7 @@ Feature: Add FLICKR image
   @RULE_MCA-118
   Rule: The image is created when a valid FLICKR ID is provided
 
-    @TEST_MCA-145
+    @TEST_MCA-145 @implemented
     Scenario: Expecting a FLICKR image to be created when provided with valid data
       When the user creates a "IMAGE" with the following data
         | key            | value    |

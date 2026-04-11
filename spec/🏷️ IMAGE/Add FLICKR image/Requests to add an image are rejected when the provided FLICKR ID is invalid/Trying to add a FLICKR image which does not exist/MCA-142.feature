@@ -7,7 +7,7 @@ Feature: Add FLICKR image
   @RULE_MCA-117
   Rule: Requests to add an image are rejected when the provided FLICKR ID is invalid
 
-    @TEST_MCA-142
+    @TEST_MCA-142 @manual_test
     Scenario: Trying to add a FLICKR image which does not exist
       Given there exists no Flickr image with ID "FL123456"
       When the user creates a "IMAGE" with the following data

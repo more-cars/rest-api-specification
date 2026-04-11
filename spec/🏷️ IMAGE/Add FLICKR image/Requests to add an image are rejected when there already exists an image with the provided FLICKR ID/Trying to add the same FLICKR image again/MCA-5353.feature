@@ -7,7 +7,7 @@ Feature: Add FLICKR image
   @RULE_MCA-5352
   Rule: Requests to add an image are rejected when there already exists an image with the provided FLICKR ID
 
-    @TEST_MCA-5353
+    @TEST_MCA-5353 @implemented
     Scenario: Trying to add the same FLICKR image again
       When the user creates a "IMAGE" with the following data
         | key            | value    |
