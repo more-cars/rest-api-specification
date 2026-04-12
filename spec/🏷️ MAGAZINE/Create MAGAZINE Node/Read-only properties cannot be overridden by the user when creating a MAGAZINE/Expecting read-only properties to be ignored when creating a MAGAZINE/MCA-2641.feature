@@ -23,6 +23,7 @@ Feature: Create MAGAZINE Node
         | circulation_year       | 2013                    | number   |
         | publisher              | Immediate Media Company | string   |
         | issn                   | 1350-9624               | string   |
+        | country_code           | GB                      | string   |
         | id                     | 1234                    | number   |
         | created_at             | 2025-01-01              | string   |
         | updated_at             | 2025-01-01              | string   |

@@ -15,5 +15,7 @@ Feature: Create COMPANY Node
         | founded                     | 1916   | boolean  |
         | defunct                     |        | boolean  |
         | headquarters_location       | Munich | boolean  |
+        | hq_country_code             | DE     | boolean  |
         | legal_headquarters_location | Munich | boolean  |
+        | legal_hq_country_code       | DE     | boolean  |
       Then the response should return with status code 400

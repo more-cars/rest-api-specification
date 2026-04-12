@@ -17,6 +17,7 @@ Feature: Create RACING SERIES Node
         | defunct      |                              | number   |
         | organized_by | ITR                          | string   |
         | vehicle_type | touring cars                 | string   |
+        | country_code | US                           | string   |
         | thimbleweed  | park                         | string   |
       Then the response should contain the following properties
         | key          | value                        | datatype |
@@ -26,6 +27,7 @@ Feature: Create RACING SERIES Node
         | defunct      |                              | number   |
         | organized_by | ITR                          | string   |
         | vehicle_type | touring cars                 | string   |
+        | country_code | US                           | string   |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

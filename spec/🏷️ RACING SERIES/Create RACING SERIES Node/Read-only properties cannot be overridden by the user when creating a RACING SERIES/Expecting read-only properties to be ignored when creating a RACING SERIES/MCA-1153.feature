@@ -17,6 +17,7 @@ Feature: Create RACING SERIES Node
         | defunct      |                              | number   |
         | organized_by | ITR                          | string   |
         | vehicle_type | touring cars                 | string   |
+        | country_code | US                           | string   |
         | id           | 1234                         | number   |
         | created_at   | 2025-01-01                   | string   |
         | updated_at   | 2025-01-01                   | string   |

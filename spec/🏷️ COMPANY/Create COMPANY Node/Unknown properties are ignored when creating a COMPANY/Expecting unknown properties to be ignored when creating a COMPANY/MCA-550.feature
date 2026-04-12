@@ -15,7 +15,9 @@ Feature: Create COMPANY Node
         | founded                     | 1916   | number   |
         | defunct                     |        | number   |
         | headquarters_location       | Munich | string   |
+        | hq_country_code             | DE     | string   |
         | legal_headquarters_location | Munich | string   |
+        | legal_hq_country_code       | DE     | string   |
         | thimbleweed                 | park   | string   |
       Then the response should contain the following properties
         | key                         | value  | datatype |
@@ -23,7 +25,9 @@ Feature: Create COMPANY Node
         | founded                     | 1916   | number   |
         | defunct                     |        | number   |
         | headquarters_location       | Munich | string   |
+        | hq_country_code             | DE     | string   |
         | legal_headquarters_location | Munich | string   |
+        | legal_hq_country_code       | DE     | string   |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

@@ -18,4 +18,6 @@ Feature: Create COMPANY Node
         | founded                     |        | number   |
         | defunct                     |        | number   |
         | headquarters_location       |        | string   |
+        | hq_country_code             |        | string   |
         | legal_headquarters_location |        | string   |
+        | legal_hq_country_code       |        | string   |

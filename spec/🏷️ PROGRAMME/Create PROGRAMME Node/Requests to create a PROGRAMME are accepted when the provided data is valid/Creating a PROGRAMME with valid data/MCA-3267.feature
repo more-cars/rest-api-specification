@@ -18,5 +18,6 @@ Feature: Create PROGRAMME Node
         | total_seasons                | 33       | number   |
         | total_episodes               | 240      | number   |
         | regular_episode_running_time | PT60M    | string   |
+        | country_code                 | GB       | string   |
       Then the request should be confirmed with status code 201
       And the response should return the "PROGRAMME" "Top Gear"

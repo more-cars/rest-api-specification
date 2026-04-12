@@ -17,4 +17,5 @@ Feature: Create RACING SERIES Node
         | defunct      |                              | boolean  |
         | organized_by | ITR                          | boolean  |
         | vehicle_type | touring cars                 | boolean  |
+        | country_code | US                           | boolean  |
       Then the request should be rejected with status code 400

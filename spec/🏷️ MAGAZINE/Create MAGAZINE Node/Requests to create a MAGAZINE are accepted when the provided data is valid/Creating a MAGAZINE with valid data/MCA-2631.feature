@@ -23,5 +23,6 @@ Feature: Create MAGAZINE Node
         | circulation_year       | 2013                    | number   |
         | publisher              | Immediate Media Company | string   |
         | issn                   | 1350-9624               | string   |
+        | country_code           | GB                      | string   |
       Then the request should be confirmed with status code 201
       And the response should return the "MAGAZINE" "Top Gear"

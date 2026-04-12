@@ -18,6 +18,7 @@ Feature: Create PROGRAMME Node
         | total_seasons                | 33       | number   |
         | total_episodes               | 240      | number   |
         | regular_episode_running_time | PT60M    | string   |
+        | country_code                 | GB       | string   |
         | thimbleweed                  | park     | string   |
       Then the response should contain the following properties
         | key                          | value    | datatype |
@@ -28,6 +29,7 @@ Feature: Create PROGRAMME Node
         | total_seasons                | 33       | number   |
         | total_episodes               | 240      | number   |
         | regular_episode_running_time | PT60M    | string   |
+        | country_code                 | GB       | string   |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

@@ -10,13 +10,14 @@ Feature: Create MODEL CAR BRAND Node
     @TEST_MCA-3815 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a MODEL CAR BRAND
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
-        | key        | value      | datatype |
-        | name       | Hot Wheele | string   |
-        | founded    | 1968       | number   |
-        | defunct    |            | number   |
-        | id         | 1234       | number   |
-        | created_at | 2025-01-01 | string   |
-        | updated_at | 2025-01-01 | string   |
+        | key          | value      | datatype |
+        | name         | Hot Wheele | string   |
+        | founded      | 1968       | number   |
+        | defunct      |            | number   |
+        | country_code | US         | string   |
+        | id           | 1234       | number   |
+        | created_at   | 2025-01-01 | string   |
+        | updated_at   | 2025-01-01 | string   |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

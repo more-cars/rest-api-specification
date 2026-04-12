@@ -10,16 +10,18 @@ Feature: Create MODEL CAR BRAND Node
     @TEST_MCA-3813 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a MODEL CAR BRAND
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
-        | key         | value      | datatype |
-        | name        | Hot Wheele | string   |
-        | founded     | 1968       | number   |
-        | defunct     |            | number   |
-        | thimbleweed | park       | string   |
+        | key          | value      | datatype |
+        | name         | Hot Wheels | string   |
+        | founded      | 1968       | number   |
+        | defunct      |            | number   |
+        | country_code | US         | string   |
+        | thimbleweed  | park       | string   |
       Then the response should contain the following properties
-        | key     | value      | datatype |
-        | name    | Hot Wheele | string   |
-        | founded | 1968       | number   |
-        | defunct |            | number   |
+        | key          | value      | datatype |
+        | name         | Hot Wheels | string   |
+        | founded      | 1968       | number   |
+        | defunct      |            | number   |
+        | country_code | US         | string   |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

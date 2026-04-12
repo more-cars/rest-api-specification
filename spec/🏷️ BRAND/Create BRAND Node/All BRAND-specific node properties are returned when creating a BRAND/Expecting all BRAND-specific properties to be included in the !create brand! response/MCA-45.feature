@@ -11,10 +11,11 @@ Feature: Create BRAND Node
     Scenario: Expecting all BRAND-specific properties to be included in the "create brand" response
       When the user creates a "BRAND"
       Then the response should contain the following keys
-        | key       |
-        | name      |
-        | full_name |
-        | founded   |
-        | defunct   |
-        | wmi       |
-        | hsn       |
+        | key          |
+        | name         |
+        | full_name    |
+        | founded      |
+        | defunct      |
+        | wmi          |
+        | hsn          |
+        | country_code |

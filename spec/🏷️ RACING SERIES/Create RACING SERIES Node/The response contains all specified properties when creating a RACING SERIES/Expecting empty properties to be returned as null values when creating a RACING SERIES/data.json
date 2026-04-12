@@ -2,7 +2,7 @@
   "id": "MCA-1149",
   "parent_id": "MCA-1147",
   "title": "Expecting empty properties to be returned as null values when creating a RACING SERIES",
-  "gherkin": "When the user creates a \"RACING SERIES\" \"DTM\" with the following data\n  | key | value | datatype |\n  | name | Deutsche Tourenwagen-Masters | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Deutsche Tourenwagen-Masters | string |\n  | short_name |  | string |\n  | founded |  | number |\n  | defunct |  | number |\n  | organized_by |  | string |\n  | vehicle_type |  | string |",
+  "gherkin": "When the user creates a \"RACING SERIES\" \"DTM\" with the following data\n  | key | value | datatype |\n  | name | Deutsche Tourenwagen-Masters | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Deutsche Tourenwagen-Masters | string |\n  | short_name |  | string |\n  | founded |  | number |\n  | defunct |  | number |\n  | organized_by |  | string |\n  | vehicle_type |  | string |\n  | country_code |  | string |",
   "labels": [
     "implemented"
   ],

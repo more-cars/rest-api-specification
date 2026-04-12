@@ -2,7 +2,7 @@
   "id": "MCA-3805",
   "parent_id": "MCA-3804",
   "title": "Creating a MODEL CAR BRAND with valid data",
-  "gherkin": "When the user creates a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key | value | datatype |\n  | name | Hot Wheele | string |\n  | founded | 1968 | number |\n  | defunct |  | number |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"MODEL CAR BRAND\" \"Hot Wheels\"",
+  "gherkin": "When the user creates a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key | value | datatype |\n  | name | Hot Wheele | string |\n  | founded | 1968 | number |\n  | defunct |  | number |\n  | country_code | US         | string   |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"MODEL CAR BRAND\" \"Hot Wheels\"",
   "labels": [
     "implemented"
   ],

@@ -23,4 +23,5 @@ Feature: Create MAGAZINE Node
         | circulation_year       | 2013                    | boolean  |
         | publisher              | Immediate Media Company | boolean  |
         | issn                   | 1350-9624               | boolean  |
+        | country_code           | GB                      | boolean  |
       Then the request should be rejected with status code 400

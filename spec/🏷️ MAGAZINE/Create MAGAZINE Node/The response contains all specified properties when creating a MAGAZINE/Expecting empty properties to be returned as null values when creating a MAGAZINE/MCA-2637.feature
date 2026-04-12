@@ -26,3 +26,4 @@ Feature: Create MAGAZINE Node
         | circulation_year       |          | number   |
         | publisher              |          | string   |
         | issn                   |          | string   |
+        | country_code           |          | string   |

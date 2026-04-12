@@ -17,6 +17,7 @@ Feature: Create RACE TRACK Node
         | type         | permanent race track | string   |
         | location     | Klettwitz            | string   |
         | geo_position | 51°32'0"N 13°55'10"E | string   |
+        | country_code | DE                   | string   |
         | thimbleweed  | park                 | string   |
       Then the response should contain the following properties
         | key          | value                | datatype |
@@ -26,6 +27,7 @@ Feature: Create RACE TRACK Node
         | type         | permanent race track | string   |
         | location     | Klettwitz            | string   |
         | geo_position | 51°32'0"N 13°55'10"E | string   |
+        | country_code | DE                   | string   |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

@@ -17,6 +17,7 @@ Feature: Create RACING SERIES Node
         | defunct      |                              | number   |
         | organized_by | ITR                          | string   |
         | vehicle_type | touring cars                 | string   |
+        | country_code | US                           | string   |
       Then the response should contain the following properties
         | key          | value                        | datatype |
         | name         | Deutsche Tourenwagen-Masters | string   |
@@ -25,3 +26,4 @@ Feature: Create RACING SERIES Node
         | defunct      |                              | number   |
         | organized_by | ITR                          | string   |
         | vehicle_type | touring cars                 | string   |
+        | country_code | US                           | string   |

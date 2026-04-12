@@ -21,3 +21,4 @@ Feature: Create PROGRAMME Node
         | total_seasons                |          | number   |
         | total_episodes               |          | number   |
         | regular_episode_running_time |          | string   |
+        | country_code                 |          | string   |

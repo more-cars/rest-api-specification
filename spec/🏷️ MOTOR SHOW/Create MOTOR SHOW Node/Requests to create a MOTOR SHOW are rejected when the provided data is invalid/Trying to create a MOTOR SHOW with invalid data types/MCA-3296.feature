@@ -17,4 +17,5 @@ Feature: Create MOTOR SHOW Node
         | location        | Frankfurt          | boolean  |
         | target_audience | international      | boolean  |
         | focus           | new cars           | boolean  |
+        | country_code    | DE                 | boolean  |
       Then the request should be rejected with status code 400

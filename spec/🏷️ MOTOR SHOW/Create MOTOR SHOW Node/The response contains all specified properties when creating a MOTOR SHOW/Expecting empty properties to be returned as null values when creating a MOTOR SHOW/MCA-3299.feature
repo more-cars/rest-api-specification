@@ -20,3 +20,4 @@ Feature: Create MOTOR SHOW Node
         | location        |                    | string   |
         | target_audience |                    | string   |
         | focus           |                    | string   |
+        | country_code    |                    | string   |

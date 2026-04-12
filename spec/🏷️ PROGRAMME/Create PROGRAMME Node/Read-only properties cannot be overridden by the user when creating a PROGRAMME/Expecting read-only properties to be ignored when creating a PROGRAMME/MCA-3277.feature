@@ -18,6 +18,7 @@ Feature: Create PROGRAMME Node
         | total_seasons                | 33         | number   |
         | total_episodes               | 240        | number   |
         | regular_episode_running_time | PT60M      | string   |
+        | country_code                 | GB         | string   |
         | id                           | 1234       | number   |
         | created_at                   | 2025-01-01 | string   |
         | updated_at                   | 2025-01-01 | string   |

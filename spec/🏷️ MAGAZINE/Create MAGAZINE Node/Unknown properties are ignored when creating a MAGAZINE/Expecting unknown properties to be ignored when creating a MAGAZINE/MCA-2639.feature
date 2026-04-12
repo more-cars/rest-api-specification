@@ -23,6 +23,7 @@ Feature: Create MAGAZINE Node
         | circulation_year       | 2013                    | number   |
         | publisher              | Immediate Media Company | string   |
         | issn                   | 1350-9624               | string   |
+        | country_code           | GB                      | string   |
         | thimbleweed            | park                    | string   |
       Then the response should contain the following properties
         | key                    | value                   | datatype |
@@ -38,6 +39,7 @@ Feature: Create MAGAZINE Node
         | circulation_year       | 2013                    | number   |
         | publisher              | Immediate Media Company | string   |
         | issn                   | 1350-9624               | string   |
+        | country_code           | GB                      | string   |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

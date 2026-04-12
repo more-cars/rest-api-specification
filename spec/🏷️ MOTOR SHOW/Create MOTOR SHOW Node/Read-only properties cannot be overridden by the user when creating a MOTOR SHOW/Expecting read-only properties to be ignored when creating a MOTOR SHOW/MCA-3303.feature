@@ -17,6 +17,7 @@ Feature: Create MOTOR SHOW Node
         | location        | Frankfurt          | string   |
         | target_audience | international      | string   |
         | focus           | new cars           | string   |
+        | country_code    | DE                 | string   |
         | id              | 1234               | number   |
         | created_at      | 2025-01-01         | string   |
         | updated_at      | 2025-01-01         | string   |

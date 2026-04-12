@@ -10,18 +10,20 @@ Feature: Create BRAND Node
     @TEST_MCA-47 @implemented
     Scenario: Expecting all BRAND properties to be saved as provided
       When the user creates a "BRAND" "DKW" with the following data
-        | key       | value           | datatype |
-        | name      | DKW             | string   |
-        | full_name | Dampfkraftwagen | string   |
-        | founded   | 1916            | number   |
-        | defunct   | 1966            | number   |
-        | wmi       | -               | string   |
-        | hsn       | 0010            | string   |
+        | key          | value           | datatype |
+        | name         | DKW             | string   |
+        | full_name    | Dampfkraftwagen | string   |
+        | founded      | 1916            | number   |
+        | defunct      | 1966            | number   |
+        | wmi          | -               | string   |
+        | hsn          | 0010            | string   |
+        | country_code | DE              | string   |
       Then the response should contain the following data
-        | key       | value           |
-        | name      | DKW             |
-        | full_name | Dampfkraftwagen |
-        | founded   | 1916            |
-        | defunct   | 1966            |
-        | wmi       | -               |
-        | hsn       | 0010            |
+        | key          | value           |
+        | name         | DKW             |
+        | full_name    | Dampfkraftwagen |
+        | founded      | 1916            |
+        | defunct      | 1966            |
+        | wmi          | -               |
+        | hsn          | 0010            |
+        | country_code | DE              |

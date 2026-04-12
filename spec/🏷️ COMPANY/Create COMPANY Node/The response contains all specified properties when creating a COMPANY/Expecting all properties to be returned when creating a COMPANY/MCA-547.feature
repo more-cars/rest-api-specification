@@ -15,11 +15,15 @@ Feature: Create COMPANY Node
         | founded                     | 1916   | number   |
         | defunct                     |        | number   |
         | headquarters_location       | Munich | string   |
+        | hq_country_code             | DE     | string   |
         | legal_headquarters_location | Munich | string   |
+        | legal_hq_country_code       | DE     | string   |
       Then the response should contain the following properties
         | key                         | value  | datatype |
         | name                        | BMW AG | string   |
         | founded                     | 1916   | number   |
         | defunct                     |        | number   |
         | headquarters_location       | Munich | string   |
+        | hq_country_code             | DE     | string   |
         | legal_headquarters_location | Munich | string   |
+        | legal_hq_country_code       | DE     | string   |

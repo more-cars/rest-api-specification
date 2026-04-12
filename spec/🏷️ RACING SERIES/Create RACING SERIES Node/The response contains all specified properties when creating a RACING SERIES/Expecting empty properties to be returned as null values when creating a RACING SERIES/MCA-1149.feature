@@ -20,3 +20,4 @@ Feature: Create RACING SERIES Node
         | defunct      |                              | number   |
         | organized_by |                              | string   |
         | vehicle_type |                              | string   |
+        | country_code |                              | string   |

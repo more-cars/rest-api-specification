@@ -2,7 +2,7 @@
   "id": "MCA-3811",
   "parent_id": "MCA-3809",
   "title": "Expecting empty properties to be returned as null values when creating a MODEL CAR BRAND",
-  "gherkin": "When the user creates a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key | value | datatype |\n  | name | Hot Wheele | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Hot Wheele | string |\n  | founded |  | number |\n  | defunct |  | number |",
+  "gherkin": "When the user creates a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key | value | datatype |\n  | name | Hot Wheels | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Hot Wheels | string |\n  | founded |  | number |\n  | defunct |  | number |\n  | country_code |  | string   |",
   "labels": [
     "implemented"
   ],

@@ -17,6 +17,7 @@ Feature: Create MOTOR SHOW Node
         | location        | Frankfurt          | string   |
         | target_audience | international      | string   |
         | focus           | new cars           | string   |
+        | country_code    | DE                 | string   |
       Then the response should contain the following properties
         | key             | value              | datatype |
         | name            | 2017 IAA Frankfurt | string   |
@@ -25,3 +26,4 @@ Feature: Create MOTOR SHOW Node
         | location        | Frankfurt          | string   |
         | target_audience | international      | string   |
         | focus           | new cars           | string   |
+        | country_code    | DE                 | string   |

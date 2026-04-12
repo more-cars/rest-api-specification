@@ -17,6 +17,7 @@ Feature: Create RACE TRACK Node
         | type         | permanent race track | string   |
         | location     | Klettwitz            | string   |
         | geo_position | 51°32'0"N 13°55'10"E | string   |
+        | country_code | DE                   | string   |
         | id           | 1234                 | number   |
         | created_at   | 2025-01-01           | string   |
         | updated_at   | 2025-01-01           | string   |

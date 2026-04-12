@@ -11,9 +11,10 @@ Feature: Create MODEL CAR BRAND Node
     Scenario: Expecting empty properties to be returned as null values when creating a MODEL CAR BRAND
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
         | key  | value      | datatype |
-        | name | Hot Wheele | string   |
+        | name | Hot Wheels | string   |
       Then the response should contain the following properties
-        | key     | value      | datatype |
-        | name    | Hot Wheele | string   |
-        | founded |            | number   |
-        | defunct |            | number   |
+        | key          | value      | datatype |
+        | name         | Hot Wheels | string   |
+        | founded      |            | number   |
+        | defunct      |            | number   |
+        | country_code |            | string   |

@@ -15,6 +15,8 @@ Feature: Create COMPANY Node
         | founded                     | 1916   | number   |
         | defunct                     |        | number   |
         | headquarters_location       | Munich | string   |
+        | hq_country_code             | DE     | string   |
         | legal_headquarters_location | Munich | string   |
+        | legal_hq_country_code       | DE     | string   |
       Then the response should return the "COMPANY" "BMW AG"
       And the response should return with status code 201

@@ -20,3 +20,4 @@ Feature: Create RACE TRACK Node
         | type         |             | string   |
         | location     |             | string   |
         | geo_position |             | string   |
+        | country_code |             | string   |

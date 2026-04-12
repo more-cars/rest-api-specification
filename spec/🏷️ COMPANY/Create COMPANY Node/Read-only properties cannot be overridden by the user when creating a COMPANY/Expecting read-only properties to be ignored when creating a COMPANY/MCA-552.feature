@@ -15,7 +15,9 @@ Feature: Create COMPANY Node
         | founded                     | 1916       | number   |
         | defunct                     |            | number   |
         | headquarters_location       | Munich     | string   |
+        | hq_country_code             | DE         | string   |
         | legal_headquarters_location | Munich     | string   |
+        | legal_hq_country_code       | DE         | string   |
         | id                          | 1234       | number   |
         | created_at                  | 2025-01-01 | string   |
         | updated_at                  | 2025-01-01 | string   |

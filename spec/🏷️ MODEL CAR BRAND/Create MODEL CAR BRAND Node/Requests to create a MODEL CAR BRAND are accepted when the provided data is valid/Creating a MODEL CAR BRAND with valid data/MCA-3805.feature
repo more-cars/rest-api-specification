@@ -10,9 +10,10 @@ Feature: Create MODEL CAR BRAND Node
     @TEST_MCA-3805 @implemented
     Scenario: Creating a MODEL CAR BRAND with valid data
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
-        | key     | value      | datatype |
-        | name    | Hot Wheele | string   |
-        | founded | 1968       | number   |
-        | defunct |            | number   |
+        | key          | value      | datatype |
+        | name         | Hot Wheele | string   |
+        | founded      | 1968       | number   |
+        | defunct      |            | number   |
+        | country_code | US         | string   |
       Then the request should be confirmed with status code 201
       And the response should return the "MODEL CAR BRAND" "Hot Wheels"

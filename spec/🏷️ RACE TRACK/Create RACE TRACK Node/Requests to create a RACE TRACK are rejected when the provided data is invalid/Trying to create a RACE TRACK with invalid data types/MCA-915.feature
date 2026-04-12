@@ -17,4 +17,5 @@ Feature: Create RACE TRACK Node
         | type         | permanent race track | boolean  |
         | location     | Klettwitz            | boolean  |
         | geo_position | 51°32'0"N 13°55'10"E | boolean  |
+        | country_code | DE                   | boolean  |
       Then the request should be rejected with status code 400

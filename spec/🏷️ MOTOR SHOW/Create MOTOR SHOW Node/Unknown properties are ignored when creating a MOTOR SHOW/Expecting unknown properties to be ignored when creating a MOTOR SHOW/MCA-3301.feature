@@ -17,6 +17,7 @@ Feature: Create MOTOR SHOW Node
         | location        | Frankfurt          | string   |
         | target_audience | international      | string   |
         | focus           | new cars           | string   |
+        | country_code    | DE                 | string   |
         | thimbleweed     | park               | string   |
       Then the response should contain the following properties
         | key             | value              | datatype |
@@ -26,6 +27,7 @@ Feature: Create MOTOR SHOW Node
         | location        | Frankfurt          | string   |
         | target_audience | international      | string   |
         | focus           | new cars           | string   |
+        | country_code    | DE                 | string   |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

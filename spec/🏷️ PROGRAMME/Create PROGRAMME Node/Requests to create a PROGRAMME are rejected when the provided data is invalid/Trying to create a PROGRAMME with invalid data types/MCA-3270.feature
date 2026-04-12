@@ -18,4 +18,5 @@ Feature: Create PROGRAMME Node
         | total_seasons                | 33       | boolean  |
         | total_episodes               | 240      | boolean  |
         | regular_episode_running_time | PT60M    | boolean  |
+        | country_code                 | GB       | boolean  |
       Then the request should be rejected with status code 400

@@ -10,8 +10,9 @@ Feature: Create MODEL CAR BRAND Node
     @TEST_MCA-3808 @implemented
     Scenario: Trying to create a MODEL CAR BRAND with invalid data types
       When the user tries to create a "MODEL CAR BRAND" "Hot Wheels" with the following data
-        | key     | value      | datatype |
-        | name    | Hot Wheele | boolean  |
-        | founded | 1968       | boolean  |
-        | defunct |            | boolean  |
+        | key          | value      | datatype |
+        | name         | Hot Wheele | boolean  |
+        | founded      | 1968       | boolean  |
+        | defunct      |            | boolean  |
+        | country_code | US         | boolean  |
       Then the request should be rejected with status code 400
