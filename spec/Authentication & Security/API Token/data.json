@@ -1,0 +1,17 @@
+{
+  "id": "MCA-645",
+  "parent_id": "MCA-217",
+  "title": "API Token",
+  "user_story": "As a webmaster\\\nI want to restrict certain API endpoints\\\nSo not everyone can randomly create or delete data\n",
+  "description": "* POST and DELETE requests always require authentication\n* for GET requests authentication is not needed\n  * the API token is ignored when the user sends it anyway\n  * (in a later iteration it might be used for calculating the user’s rate limit)\n* UPDATE requests do not exist yet\n  * the API token should be implemented in such a way that it is easy to extend later\n* in this first iteration the API token does not need to be user-specific → it can be a shared “password“, like the basic auth credentials\n* the implementation should follow best practices regarding\n  * the interface → to avoid breaking changes in the API specification in the following iterations\n  * security → to avoid being vulnerable to simple attack vectors\n",
+  "api_verb": null,
+  "api_path": null,
+  "response_options": [
+    "401"
+  ],
+  "release_versions": [
+    "0.33.0"
+  ],
+  "created_at": "2025-09-27T11:12:10.178+0200",
+  "updated_at": "2026-04-13T13:35:32.033+0200"
+}

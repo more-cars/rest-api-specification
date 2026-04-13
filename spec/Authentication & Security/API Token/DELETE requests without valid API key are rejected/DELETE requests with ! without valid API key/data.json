@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5359",
+  "parent_id": "MCA-5356",
+  "title": "DELETE requests with / without valid API key",
+  "gherkin": "Given the user has an invalid API key\nAnd there exists a \"BRAND\" \"BMW\"\nWhen the user tries to delete \"BRAND\" \"BMW\"\nThen the request should be rejected with status code \"401\"\n\nGiven the user has a valid API key\nAnd there exists a \"BRAND\" \"Audi\"\nWhen the user tries to delete \"BRAND\" \"Audi\"\nThen the request should be accepted with status code \"204\"",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-13T10:47:55.630+0200",
+  "updated_at": "2026-04-13T13:38:14.950+0200"
+}

@@ -11,7 +11,7 @@ Feature: Get CAR MODEL-has-prime-image Relationship
     @TEST_MCA-417 @implemented
     Scenario: Requesting a non-existent prime IMAGE relationship for a CAR MODEL
       Given there exists a "CAR MODEL" "Mondeo"
-      And there exists NO "has prime image" relationship "R" for "Mondeo"
+      And there exists NO "has prime image" relationship for "Mondeo"
       When the user requests the "has prime image" relationship for "Mondeo"
       Then the response should return with status code 200
       And the response should return an empty body

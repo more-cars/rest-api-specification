@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5358",
+  "parent_id": "MCA-5355",
+  "title": "POST requests with / without valid API key",
+  "gherkin": "Given the user has an invalid API key\nWhen the user tries to create a \"BRAND\"\nThen the request should be rejected with status code \"401\"\n\nGiven the user has a valid API key\nWhen the user tries to create a \"BRAND\"\nThen the request should be accepted with status code \"201\"",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-04-13T10:47:47.948+0200",
+  "updated_at": "2026-04-13T13:38:20.447+0200"
+}

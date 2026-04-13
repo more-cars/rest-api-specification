@@ -48,3 +48,4 @@ Feature: Sort node collection
         | PROGRAMME EPISODE | title         |
         | MOTOR SHOW        | name          |
         | IMAGE             | name          |
+        | VIDEO             | title         |
