@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5398",
+  "parent_id": "MCA-5397",
+  "title": "Creating multiple ›documents-lap-time‹ relationships",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 11_2025\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"LAP TIME\" \"fastest lap (Alternative)\"\nWhen the user creates a \"documents lap time\" relationship between \"Top Gear 11_2025\" and \"fastest lap\"\nAnd the user creates a \"documents lap time\" relationship between \"Top Gear 11_2025\" and \"fastest lap (Alternative)\"\nThen there should exist a \"documents lap time\" relationship between \"Top Gear 11_2025\" and \"fastest lap\"\nAnd there should exist a \"documents lap time\" relationship between \"Top Gear 11_2025\" and \"fastest lap (Alternative)\"",
+  "labels": [],
+  "created_at": "2026-04-26T10:26:38.468+0200",
+  "updated_at": "2026-04-26T10:26:41.476+0200"
+}

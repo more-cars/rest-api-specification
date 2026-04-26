@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5407",
+  "parent_id": "MCA-5406",
+  "title": "The ›documents-lap-time‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a MAGAZINE ISSUE and the second node needs to be a LAP TIME.\n",
+  "release_version": null,
+  "created_at": "2026-04-26T10:29:51.953+0200",
+  "updated_at": "2026-04-26T10:29:57.606+0200"
+}

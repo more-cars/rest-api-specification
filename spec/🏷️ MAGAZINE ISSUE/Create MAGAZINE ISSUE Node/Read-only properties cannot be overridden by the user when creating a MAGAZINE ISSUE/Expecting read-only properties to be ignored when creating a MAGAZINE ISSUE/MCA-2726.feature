@@ -10,18 +10,18 @@ Feature: Create MAGAZINE ISSUE Node
     @TEST_MCA-2726 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a MAGAZINE ISSUE
       When the user creates a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
-        | key                    | value        | datatype |
-        | title                  | Sieger-Typen | string   |
-        | consecutive_number     |              | number   |
-        | issue_number           | 11           | number   |
-        | issue_year             | 2025         | number   |
-        | release_date           | 2025-10-01   | string   |
-        | single_copy_price      | 5.4          | number   |
-        | single_copy_price_unit | €            | string   |
-        | pages                  | 148          | number   |
-        | id                     | 1234         | number   |
-        | created_at             | 2025-01-01   | string   |
-        | updated_at             | 2025-01-01   | string   |
+        | key                    | value        |
+        | title                  | Sieger-Typen |
+        | consecutive_number     |              |
+        | issue_number           | 11           |
+        | issue_year             | 2025         |
+        | release_date           | 2025-10-01   |
+        | single_copy_price      | 5.4          |
+        | single_copy_price_unit | EUR          |
+        | pages                  | 148          |
+        | id                     | 1234         |
+        | created_at             | 2025-01-01   |
+        | updated_at             | 2025-01-01   |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

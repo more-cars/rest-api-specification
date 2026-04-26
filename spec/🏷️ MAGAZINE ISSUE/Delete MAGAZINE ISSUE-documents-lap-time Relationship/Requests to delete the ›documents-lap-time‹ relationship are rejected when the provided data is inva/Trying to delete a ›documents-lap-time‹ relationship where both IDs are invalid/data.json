@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5412",
+  "parent_id": "MCA-5409",
+  "title": "Trying to delete a ›documents-lap-time‹ relationship where both IDs are invalid",
+  "gherkin": "Given \"MAGAZINE ISSUE\" \"Top Gear 11_2025\" does NOT exist\nAnd \"LAP TIME\" \"test lap\" does NOT exist\nWhen the user deletes the \"documents lap time\" relationship between \"Top Gear 11_2025\" and \"test lap\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-04-26T10:30:10.991+0200",
+  "updated_at": "2026-04-26T10:30:14.371+0200"
+}
