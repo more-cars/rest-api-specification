@@ -10,14 +10,14 @@ Feature: Create PROGRAMME Node
     @TEST_MCA-3267 @implemented
     Scenario: Creating a PROGRAMME with valid data
       When the user creates a "PROGRAMME" "Top Gear" with the following data
-        | key                          | value    | datatype |
-        | name                         | Top Gear | string   |
-        | aired_from_year              | 2002     | number   |
-        | aired_until_year             | 2022     | number   |
-        | channel                      | BBC Two  | string   |
-        | total_seasons                | 33       | number   |
-        | total_episodes               | 240      | number   |
-        | regular_episode_running_time | PT60M    | string   |
-        | country_code                 | GB       | string   |
+        | key                          | value    |
+        | name                         | Top Gear |
+        | aired_from_year              | 2002     |
+        | aired_until_year             | 2022     |
+        | channel                      | BBC Two  |
+        | total_seasons                | 33       |
+        | total_episodes               | 240      |
+        | regular_episode_running_time | PT60M    |
+        | country_code                 | GB       |
       Then the request should be confirmed with status code 201
       And the response should return the "PROGRAMME" "Top Gear"

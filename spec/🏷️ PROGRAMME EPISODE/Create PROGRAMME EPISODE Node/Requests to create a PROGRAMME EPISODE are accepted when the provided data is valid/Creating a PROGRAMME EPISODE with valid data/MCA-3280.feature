@@ -10,11 +10,11 @@ Feature: Create PROGRAMME EPISODE Node
     @TEST_MCA-3280 @implemented
     Scenario: Creating a PROGRAMME EPISODE with valid data
       When the user creates a "PROGRAMME EPISODE" "Polar Special" with the following data
-        | key                   | value          | datatype |
-        | title                 | The Falls Guys | string   |
-        | season_number         | 2              | number   |
-        | season_episode_number | 2              | number   |
-        | original_air_date     | 2017-12-08     | string   |
-        | duration              | PT55M          | string   |
+        | key                   | value          |
+        | title                 | The Falls Guys |
+        | season_number         | 2              |
+        | season_episode_number | 2              |
+        | original_air_date     | 2017-12-08     |
+        | duration              | PT55M          |
       Then the request should be confirmed with status code 201
       And the response should return the "PROGRAMME EPISODE" "Polar Special"

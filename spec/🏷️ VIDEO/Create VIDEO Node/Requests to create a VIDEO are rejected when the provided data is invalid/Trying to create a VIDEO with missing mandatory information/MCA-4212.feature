@@ -10,5 +10,5 @@ Feature: Create VIDEO Node
     @TEST_MCA-4212 @implemented
     Scenario: Trying to create a VIDEO with missing mandatory information
       When the user tries to create a "VIDEO" "P1 vs F40" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

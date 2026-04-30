@@ -10,10 +10,10 @@ Feature: Create RATING Node
     @TEST_MCA-3075 @implemented
     Scenario: Creating a RATING with valid data
       When the user creates a "RATING" "93 Percent" with the following data
-        | key             | value | datatype |
-        | rating_value    | 93    | number   |
-        | scale_minimum   | 0     | number   |
-        | scale_maximum   | 100   | number   |
-        | scale_direction | up    | string   |
+        | key             | value |
+        | rating_value    | 93    |
+        | scale_minimum   | 0     |
+        | scale_maximum   | 100   |
+        | scale_direction | up    |
       Then the request should be confirmed with status code 201
       And the response should return the "RATING" "93 Percent"

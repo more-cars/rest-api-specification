@@ -10,8 +10,8 @@ Feature: Create PROGRAMME EPISODE Node
     @TEST_MCA-3286 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a PROGRAMME EPISODE
       When the user creates a "PROGRAMME EPISODE" "Polar Special" with the following data
-        | key   | value          | datatype |
-        | title | The Falls Guys | string   |
+        | key   | value          |
+        | title | The Falls Guys |
       Then the response should contain the following properties
         | key                   | value          | datatype |
         | title                 | The Falls Guys | string   |

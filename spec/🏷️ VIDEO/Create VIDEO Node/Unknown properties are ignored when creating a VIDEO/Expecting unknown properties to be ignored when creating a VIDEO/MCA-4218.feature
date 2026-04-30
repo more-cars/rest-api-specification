@@ -10,10 +10,10 @@ Feature: Create VIDEO Node
     @TEST_MCA-4218 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a VIDEO
       When the user creates a "VIDEO" "P1 vs F40" with the following data
-        | key            | value       | datatype |
-        | video_provider | youtube     | string   |
-        | external_id    | NqsBncRslsg | string   |
-        | thimbleweed    | park        | string   |
+        | key            | value       |
+        | video_provider | youtube     |
+        | external_id    | NqsBncRslsg |
+        | thimbleweed    | park        |
       Then the response should contain the following properties
         | key            | value       | datatype |
         | video_provider | youtube     | string   |

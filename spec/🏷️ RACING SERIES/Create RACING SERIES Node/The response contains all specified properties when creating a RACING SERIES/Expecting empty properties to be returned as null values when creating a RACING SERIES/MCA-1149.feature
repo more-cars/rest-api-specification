@@ -10,8 +10,8 @@ Feature: Create RACING SERIES Node
     @TEST_MCA-1149 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a RACING SERIES
       When the user creates a "RACING SERIES" "DTM" with the following data
-        | key  | value                        | datatype |
-        | name | Deutsche Tourenwagen-Masters | string   |
+        | key  | value                        |
+        | name | Deutsche Tourenwagen-Masters |
       Then the response should contain the following properties
         | key          | value                        | datatype |
         | name         | Deutsche Tourenwagen-Masters | string   |

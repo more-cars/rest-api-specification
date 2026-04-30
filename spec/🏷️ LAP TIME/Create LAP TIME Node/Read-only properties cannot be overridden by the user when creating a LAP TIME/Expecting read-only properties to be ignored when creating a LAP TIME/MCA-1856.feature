@@ -10,13 +10,13 @@ Feature: Create LAP TIME Node
     @TEST_MCA-1856 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a LAP TIME
       When the user creates a "LAP TIME" "AVUS record" with the following data
-        | key         | value        | datatype |
-        | time        | PT1M33.294S  | string   |
-        | driver_name | Klaus Ludwig | string   |
-        | date        | 1996-08-03   | string   |
-        | id          | 1234         | number   |
-        | created_at  | 2025-01-01   | string   |
-        | updated_at  | 2025-01-01   | string   |
+        | key         | value        |
+        | time        | PT1M33.294S  |
+        | driver_name | Klaus Ludwig |
+        | date        | 1996-08-03   |
+        | id          | 1234         |
+        | created_at  | 2025-01-01   |
+        | updated_at  | 2025-01-01   |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

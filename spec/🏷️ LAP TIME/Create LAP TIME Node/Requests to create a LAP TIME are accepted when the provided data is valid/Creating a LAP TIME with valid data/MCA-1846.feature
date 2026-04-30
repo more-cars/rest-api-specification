@@ -10,9 +10,9 @@ Feature: Create LAP TIME Node
     @TEST_MCA-1846 @implemented
     Scenario: Creating a LAP TIME with valid data
       When the user creates a "LAP TIME" "AVUS record" with the following data
-        | key         | value        | datatype |
-        | time        | PT1M33.294S  | string   |
-        | driver_name | Klaus Ludwig | string   |
-        | date        | 1996-08-03   | string   |
+        | key         | value        |
+        | time        | PT1M33.294S  |
+        | driver_name | Klaus Ludwig |
+        | date        | 1996-08-03   |
       Then the request should be confirmed with status code 201
       And the response should return the "LAP TIME" "AVUS record"

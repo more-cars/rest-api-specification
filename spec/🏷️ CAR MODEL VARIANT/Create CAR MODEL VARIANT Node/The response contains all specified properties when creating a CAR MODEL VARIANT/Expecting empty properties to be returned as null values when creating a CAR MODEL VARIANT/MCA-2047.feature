@@ -10,8 +10,8 @@ Feature: Create CAR MODEL VARIANT Node
     @TEST_MCA-2047 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a CAR MODEL VARIANT
       When the user creates a "CAR MODEL VARIANT" "BMW M3" with the following data
-        | key  | value  | datatype |
-        | name | BMW M3 | string   |
+        | key  | value  |
+        | name | BMW M3 |
       Then the response should contain the following properties
         | key                    | value  | datatype |
         | name                   | BMW M3 | string   |

@@ -10,14 +10,14 @@ Feature: Create RATING Node
     @TEST_MCA-3085 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a RATING
       When the user creates a "RATING" "93 Percent" with the following data
-        | key             | value      | datatype |
-        | rating_value    | 93         | number   |
-        | scale_minimum   | 0          | number   |
-        | scale_maximum   | 100        | number   |
-        | scale_direction | up         | string   |
-        | id              | 1234       | number   |
-        | created_at      | 2025-01-01 | string   |
-        | updated_at      | 2025-01-01 | string   |
+        | key             | value      |
+        | rating_value    | 93         |
+        | scale_minimum   | 0          |
+        | scale_maximum   | 100        |
+        | scale_direction | up         |
+        | id              | 1234       |
+        | created_at      | 2025-01-01 |
+        | updated_at      | 2025-01-01 |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

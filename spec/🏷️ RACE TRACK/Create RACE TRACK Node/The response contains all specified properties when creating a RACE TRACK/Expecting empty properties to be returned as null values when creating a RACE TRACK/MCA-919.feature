@@ -10,8 +10,8 @@ Feature: Create RACE TRACK Node
     @TEST_MCA-919 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a RACE TRACK
       When the user creates a "RACE TRACK" "Lausitzring" with the following data
-        | key  | value       | datatype |
-        | name | Lausitzring | string   |
+        | key  | value       |
+        | name | Lausitzring |
       Then the response should contain the following properties
         | key          | value       | datatype |
         | name         | Lausitzring | string   |

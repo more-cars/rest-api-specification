@@ -2,7 +2,7 @@
   "id": "MCA-3269",
   "parent_id": "MCA-3268",
   "title": "Trying to create a PROGRAMME with missing mandatory information",
-  "gherkin": "When the user tries to create a \"PROGRAMME\" \"Top Gear\" with the following data\n  | key | value | datatype |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"PROGRAMME\" \"Top Gear\" with the following data\n  | key | value | \nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

@@ -10,9 +10,9 @@ Feature: Create IMAGE Node
     @TEST_MCA-136 @implemented
     Scenario: Creating an IMAGE with valid data
       When the user creates a "IMAGE" "Ferrari logo" with the following data
-        | key            | value     | datatype |
-        | image_provider | wikimedia | string   |
-        | external_id    | WM123456  | string   |
+        | key            | value     |
+        | image_provider | wikimedia |
+        | external_id    | WM123456  |
       Then the request should be confirmed with status code 201
       And the response should contain an ID
       And the response should return the "IMAGE" "Ferrari logo"

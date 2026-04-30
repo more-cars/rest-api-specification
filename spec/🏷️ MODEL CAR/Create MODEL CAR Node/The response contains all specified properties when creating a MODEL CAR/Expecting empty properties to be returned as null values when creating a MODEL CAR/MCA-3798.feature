@@ -10,8 +10,8 @@ Feature: Create MODEL CAR Node
     @TEST_MCA-3798 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a MODEL CAR
       When the user creates a "MODEL CAR" "F40 Matchbox" with the following data
-        | key  | value    | datatype |
-        | name | BMW 2002 | string   |
+        | key  | value    |
+        | name | BMW 2002 |
       Then the response should contain the following properties
         | key          | value    | datatype |
         | name         | BMW 2002 | string   |

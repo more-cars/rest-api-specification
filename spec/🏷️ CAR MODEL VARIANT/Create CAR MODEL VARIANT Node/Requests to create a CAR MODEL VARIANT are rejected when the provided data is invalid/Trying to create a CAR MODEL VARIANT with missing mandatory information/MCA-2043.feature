@@ -10,5 +10,5 @@ Feature: Create CAR MODEL VARIANT Node
     @TEST_MCA-2043 @implemented
     Scenario: Trying to create a CAR MODEL VARIANT with missing mandatory information
       When the user tries to create a "CAR MODEL VARIANT" "BMW M3" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

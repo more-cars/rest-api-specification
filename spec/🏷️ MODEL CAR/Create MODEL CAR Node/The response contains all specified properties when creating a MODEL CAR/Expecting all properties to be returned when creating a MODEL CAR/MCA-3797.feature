@@ -10,12 +10,12 @@ Feature: Create MODEL CAR Node
     @TEST_MCA-3797 @implemented
     Scenario: Expecting all properties to be returned when creating a MODEL CAR
       When the user creates a "MODEL CAR" "F40 Matchbox" with the following data
-        | key          | value    | datatype |
-        | name         | BMW 2002 | string   |
-        | product_code | DHX60    | string   |
-        | release_year | 2016     | number   |
-        | scale        | 1:64     | string   |
-        | series       | BMW      | string   |
+        | key          | value    |
+        | name         | BMW 2002 |
+        | product_code | DHX60    |
+        | release_year | 2016     |
+        | scale        | 1:64     |
+        | series       | BMW      |
       Then the response should contain the following properties
         | key          | value    | datatype |
         | name         | BMW 2002 | string   |

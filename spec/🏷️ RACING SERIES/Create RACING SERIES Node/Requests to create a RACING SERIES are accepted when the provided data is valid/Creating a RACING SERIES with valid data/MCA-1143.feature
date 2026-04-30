@@ -10,13 +10,13 @@ Feature: Create RACING SERIES Node
     @TEST_MCA-1143 @implemented
     Scenario: Creating a RACING SERIES with valid data
       When the user creates a "RACING SERIES" "DTM" with the following data
-        | key          | value                        | datatype |
-        | name         | Deutsche Tourenwagen-Masters | string   |
-        | short_name   | DTM                          | string   |
-        | founded      | 2000                         | number   |
-        | defunct      |                              | number   |
-        | organized_by | ITR                          | string   |
-        | vehicle_type | touring cars                 | string   |
-        | country_code | US                           | string   |
+        | key          | value                        |
+        | name         | Deutsche Tourenwagen-Masters |
+        | short_name   | DTM                          |
+        | founded      | 2000                         |
+        | defunct      |                              |
+        | organized_by | ITR                          |
+        | vehicle_type | touring cars                 |
+        | country_code | DE                           |
       Then the request should be confirmed with status code 201
       And the response should return the "RACING SERIES" "DTM"

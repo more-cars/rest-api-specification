@@ -10,14 +10,14 @@ Feature: Create RACING GAME Node
     @TEST_MCA-2310 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a RACING GAME
       When the user creates a "RACING GAME" "F1 2025" with the following data
-        | key          | value              | datatype |
-        | name         | Forza Motorsport 7 | string   |
-        | release_year | 2017               | number   |
-        | developer    | Turn 10 Studios    | string   |
-        | publisher    | Microsoft Studios  | string   |
-        | id           | 1234               | number   |
-        | created_at   | 2025-01-01         | string   |
-        | updated_at   | 2025-01-01         | string   |
+        | key          | value              |
+        | name         | Forza Motorsport 7 |
+        | release_year | 2017               |
+        | developer    | Turn 10 Studios    |
+        | publisher    | Microsoft Studios  |
+        | id           | 1234               |
+        | created_at   | 2025-01-01         |
+        | updated_at   | 2025-01-01         |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

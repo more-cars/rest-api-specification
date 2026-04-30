@@ -10,10 +10,10 @@ Feature: Create GAMING PLATFORM Node
     @TEST_MCA-2498 @implemented
     Scenario: Expecting all properties to be returned when creating a GAMING PLATFORM
       When the user creates a "GAMING PLATFORM" "PlayStation 5" with the following data
-        | key          | value         | datatype |
-        | name         | PlayStation 5 | string   |
-        | release_year | 2020          | number   |
-        | manufacturer | Sony          | string   |
+        | key          | value         |
+        | name         | PlayStation 5 |
+        | release_year | 2020          |
+        | manufacturer | Sony          |
       Then the response should contain the following properties
         | key          | value         | datatype |
         | name         | PlayStation 5 | string   |

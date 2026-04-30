@@ -10,5 +10,5 @@ Feature: Create RACE TRACK Node
     @TEST_MCA-914 @implemented
     Scenario: Trying to create a RACE TRACK with missing mandatory information
       When the user tries to create a "RACE TRACK" "Lausitzring" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

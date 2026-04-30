@@ -10,8 +10,8 @@ Feature: Create MODEL CAR BRAND Node
     @TEST_MCA-3811 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a MODEL CAR BRAND
       When the user creates a "MODEL CAR BRAND" "Hot Wheels" with the following data
-        | key  | value      | datatype |
-        | name | Hot Wheels | string   |
+        | key  | value      |
+        | name | Hot Wheels |
       Then the response should contain the following properties
         | key          | value      | datatype |
         | name         | Hot Wheels | string   |

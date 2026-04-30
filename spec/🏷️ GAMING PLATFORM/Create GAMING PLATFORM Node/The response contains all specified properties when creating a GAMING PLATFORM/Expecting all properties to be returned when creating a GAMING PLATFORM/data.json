@@ -2,7 +2,7 @@
   "id": "MCA-2498",
   "parent_id": "MCA-2497",
   "title": "Expecting all properties to be returned when creating a GAMING PLATFORM",
-  "gherkin": "When the user creates a \"GAMING PLATFORM\" \"PlayStation 5\" with the following data\n  | key | value | datatype |\n  | name | PlayStation 5 | string |\n  | release_year | 2020 | number |\n  | manufacturer | Sony | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | PlayStation 5 | string |\n  | release_year | 2020 | number |\n  | manufacturer | Sony | string |",
+  "gherkin": "When the user creates a \"GAMING PLATFORM\" \"PlayStation 5\" with the following data\n  | key          | value         |\n  | name         | PlayStation 5 |\n  | release_year | 2020          |\n  | manufacturer | Sony          |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | PlayStation 5 | string |\n  | release_year | 2020 | number |\n  | manufacturer | Sony | string |",
   "labels": [
     "implemented"
   ],

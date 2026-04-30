@@ -10,5 +10,5 @@ Feature: Create RATING Node
     @TEST_MCA-3077 @implemented
     Scenario: Trying to create a RATING with missing mandatory information
       When the user tries to create a "RATING" "93 Percent" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

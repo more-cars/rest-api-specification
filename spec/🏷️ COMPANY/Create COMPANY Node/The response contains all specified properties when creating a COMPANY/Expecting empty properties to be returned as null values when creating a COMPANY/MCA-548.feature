@@ -10,8 +10,8 @@ Feature: Create COMPANY Node
     @TEST_MCA-548 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a COMPANY
       When the user creates a "COMPANY" "BMW AG" with the following data
-        | key  | value  | datatype |
-        | name | BMW AG | string   |
+        | key  | value  |
+        | name | BMW AG |
       Then the response should contain the following properties
         | key                         | value  | datatype |
         | name                        | BMW AG | string   |

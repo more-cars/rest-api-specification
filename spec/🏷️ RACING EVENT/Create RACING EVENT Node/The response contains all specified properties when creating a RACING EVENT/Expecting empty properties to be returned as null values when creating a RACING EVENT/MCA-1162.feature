@@ -10,8 +10,8 @@ Feature: Create RACING EVENT Node
     @TEST_MCA-1162 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a RACING EVENT
       When the user creates a "RACING EVENT" "GP Monaco" with the following data
-        | key  | value     | datatype |
-        | name | GP Monaco | string   |
+        | key  | value     |
+        | name | GP Monaco |
       Then the response should contain the following properties
         | key       | value     | datatype |
         | name      | GP Monaco | string   |

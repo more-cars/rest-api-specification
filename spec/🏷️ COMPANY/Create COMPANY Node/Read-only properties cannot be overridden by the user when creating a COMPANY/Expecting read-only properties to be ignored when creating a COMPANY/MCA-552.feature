@@ -10,17 +10,17 @@ Feature: Create COMPANY Node
     @TEST_MCA-552 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a COMPANY
       When the user creates a "COMPANY" "BMW AG" with the following data
-        | key                         | value      | datatype |
-        | name                        | BMW AG     | string   |
-        | founded                     | 1916       | number   |
-        | defunct                     |            | number   |
-        | headquarters_location       | Munich     | string   |
-        | hq_country_code             | DE         | string   |
-        | legal_headquarters_location | Munich     | string   |
-        | legal_hq_country_code       | DE         | string   |
-        | id                          | 1234       | number   |
-        | created_at                  | 2025-01-01 | string   |
-        | updated_at                  | 2025-01-01 | string   |
+        | key                         | value      |
+        | name                        | BMW AG     |
+        | founded                     | 1916       |
+        | defunct                     |            |
+        | headquarters_location       | Munich     |
+        | hq_country_code             | DE         |
+        | legal_headquarters_location | Munich     |
+        | legal_hq_country_code       | DE         |
+        | id                          | 1234       |
+        | created_at                  | 2025-01-01 |
+        | updated_at                  | 2025-01-01 |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

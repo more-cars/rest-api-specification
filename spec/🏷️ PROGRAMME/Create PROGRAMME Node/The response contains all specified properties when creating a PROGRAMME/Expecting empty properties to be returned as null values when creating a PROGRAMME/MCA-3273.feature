@@ -10,8 +10,8 @@ Feature: Create PROGRAMME Node
     @TEST_MCA-3273 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a PROGRAMME
       When the user creates a "PROGRAMME" "Top Gear" with the following data
-        | key  | value    | datatype |
-        | name | Top Gear | string   |
+        | key  | value    |
+        | name | Top Gear |
       Then the response should contain the following properties
         | key                          | value    | datatype |
         | name                         | Top Gear | string   |

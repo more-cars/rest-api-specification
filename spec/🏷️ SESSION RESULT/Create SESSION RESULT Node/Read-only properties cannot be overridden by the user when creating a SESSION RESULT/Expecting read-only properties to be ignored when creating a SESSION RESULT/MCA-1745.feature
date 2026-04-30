@@ -10,18 +10,18 @@ Feature: Create SESSION RESULT Node
     @TEST_MCA-1745 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a SESSION RESULT
       When the user creates a "SESSION RESULT" "1st place" with the following data
-        | key         | value          | datatype |
-        | position    | 1              | number   |
-        | race_number | 44             | string   |
-        | driver_name | Lewis Hamilton | string   |
-        | team_name   | Mercedes       | string   |
-        | race_time   | PT1H23M45.678S | string   |
-        | laps        | 51             | number   |
-        | status      | finished       | string   |
-        | points      | 25             | number   |
-        | id          | 1234           | number   |
-        | created_at  | 2025-01-01     | string   |
-        | updated_at  | 2025-01-01     | string   |
+        | key         | value          |
+        | position    | 1              |
+        | race_number | 44             |
+        | driver_name | Lewis Hamilton |
+        | team_name   | Mercedes       |
+        | race_time   | PT1H23M45.678S |
+        | laps        | 51             |
+        | status      | finished       |
+        | points      | 25             |
+        | id          | 1234           |
+        | created_at  | 2025-01-01     |
+        | updated_at  | 2025-01-01     |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

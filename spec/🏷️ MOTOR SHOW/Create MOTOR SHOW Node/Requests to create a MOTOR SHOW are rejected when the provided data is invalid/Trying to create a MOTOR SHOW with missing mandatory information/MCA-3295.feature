@@ -10,5 +10,5 @@ Feature: Create MOTOR SHOW Node
     @TEST_MCA-3295 @implemented
     Scenario: Trying to create a MOTOR SHOW with missing mandatory information
       When the user tries to create a "MOTOR SHOW" "IAA 2017" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

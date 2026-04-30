@@ -10,8 +10,8 @@ Feature: Create CAR MODEL Node
     @TEST_MCA-10 @implemented
     Scenario: A new CAR MODEL is created when valid data was provided
       When the user creates a "CAR MODEL" "Testarossa" with the following data
-        | key  | value      | datatype |
-        | name | Testarossa | string   |
+        | key  | value      |
+        | name | Testarossa |
       Then the request should be confirmed with status code 201
       And the response should return the "CAR MODEL" "Testarossa"
       When the user requests the "CAR MODEL" "Testarossa"

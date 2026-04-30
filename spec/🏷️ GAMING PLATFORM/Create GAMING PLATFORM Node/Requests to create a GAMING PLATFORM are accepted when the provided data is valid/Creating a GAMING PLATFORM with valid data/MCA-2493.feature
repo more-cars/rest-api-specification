@@ -10,9 +10,9 @@ Feature: Create GAMING PLATFORM Node
     @TEST_MCA-2493 @implemented
     Scenario: Creating a GAMING PLATFORM with valid data
       When the user creates a "GAMING PLATFORM" "PlayStation 5" with the following data
-        | key          | value         | datatype |
-        | name         | PlayStation 5 | string   |
-        | release_year | 2020          | number   |
-        | manufacturer | Sony          | string   |
+        | key          | value         |
+        | name         | PlayStation 5 |
+        | release_year | 2020          |
+        | manufacturer | Sony          |
       Then the request should be confirmed with status code 201
       And the response should return the "GAMING PLATFORM" "PlayStation 5"

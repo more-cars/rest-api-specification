@@ -10,12 +10,12 @@ Feature: Create VIDEO Node
     @TEST_MCA-4220 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a VIDEO
       When the user creates a "VIDEO" "P1 vs F40" with the following data
-        | key            | value       | datatype |
-        | video_provider | youtube     | string   |
-        | external_id    | NqsBncRslsg | string   |
-        | id             | 1234        | number   |
-        | created_at     | 2025-01-01  | string   |
-        | updated_at     | 2025-01-01  | string   |
+        | key            | value       |
+        | video_provider | youtube     |
+        | external_id    | NqsBncRslsg |
+        | id             | 1234        |
+        | created_at     | 2025-01-01  |
+        | updated_at     | 2025-01-01  |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

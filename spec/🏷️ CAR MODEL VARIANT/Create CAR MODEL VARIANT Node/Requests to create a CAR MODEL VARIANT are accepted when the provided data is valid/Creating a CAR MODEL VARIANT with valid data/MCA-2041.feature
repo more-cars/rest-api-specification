@@ -10,42 +10,42 @@ Feature: Create CAR MODEL VARIANT Node
     @TEST_MCA-2041 @implemented
     Scenario: Creating a CAR MODEL VARIANT with valid data
       When the user creates a "CAR MODEL VARIANT" "BMW M3" with the following data
-        | key                    | value               | datatype |
-        | name                   | BMW M3              | string   |
-        | internal_code          | E46                 | string   |
-        | built_from             | 2000                | number   |
-        | built_to               | 2006                | number   |
-        | body_style             | coupe               | string   |
-        | drag_coefficient       | 0.31                | number   |
-        | doors                  | 2                   | number   |
-        | weight                 | 1549                | number   |
-        | weight_unit            | kg                  | string   |
-        | max_power              | 343                 | number   |
-        | max_power_unit         | PS                  | string   |
-        | max_torque             | 365                 | number   |
-        | max_torque_unit        | Nm                  | string   |
-        | cylinders              | 6                   | number   |
-        | engine_configuration   | inline              | string   |
-        | displacement           | 3246                | number   |
-        | displacement_unit      | ccm                 | string   |
-        | air_induction          | naturally aspirated | string   |
-        | engine_type            | otto                | string   |
-        | energy_source          | petrol              | string   |
-        | energy_source_2        |                     | string   |
-        | consumption            | 11.9                | number   |
-        | consumption_unit       | l                   | string   |
-        | consumption_2          |                     | number   |
-        | consumption_2_unit     |                     | string   |
-        | energy_capacity        | 63                  | number   |
-        | energy_capacity_unit   | l                   | string   |
-        | energy_capacity_2      |                     | number   |
-        | energy_capacity_2_unit |                     | string   |
-        | transmission           | sequential          | string   |
-        | gears                  | 6                   | number   |
-        | drivetrain             | rwd                 | string   |
-        | sprint_time_0_100_kmh  | 5.2                 | number   |
-        | top_speed              | 250                 | number   |
-        | top_speed_unit         | km/h                | string   |
-        | total_production       | 50000               | number   |
+        | key                    | value               |
+        | name                   | BMW M3              |
+        | internal_code          | E46                 |
+        | built_from             | 2000                |
+        | built_to               | 2006                |
+        | body_style             | coupe               |
+        | drag_coefficient       | 0.31                |
+        | doors                  | 2                   |
+        | weight                 | 1549                |
+        | weight_unit            | kg                  |
+        | max_power              | 343                 |
+        | max_power_unit         | PS                  |
+        | max_torque             | 365                 |
+        | max_torque_unit        | Nm                  |
+        | cylinders              | 6                   |
+        | engine_configuration   | inline              |
+        | displacement           | 3246                |
+        | displacement_unit      | ccm                 |
+        | air_induction          | naturally aspirated |
+        | engine_type            | otto                |
+        | energy_source          | petrol              |
+        | energy_source_2        |                     |
+        | consumption            | 11.9                |
+        | consumption_unit       | l                   |
+        | consumption_2          |                     |
+        | consumption_2_unit     |                     |
+        | energy_capacity        | 63                  |
+        | energy_capacity_unit   | l                   |
+        | energy_capacity_2      |                     |
+        | energy_capacity_2_unit |                     |
+        | transmission           | sequential          |
+        | gears                  | 6                   |
+        | drivetrain             | rwd                 |
+        | sprint_time_0_100_kmh  | 5.2                 |
+        | top_speed              | 250                 |
+        | top_speed_unit         | km/h                |
+        | total_production       | 50000               |
       Then the request should be confirmed with status code 201
       And the response should return the "CAR MODEL VARIANT" "BMW M3"

@@ -2,7 +2,7 @@
   "id": "MCA-1854",
   "parent_id": "MCA-1853",
   "title": "Expecting unknown properties to be ignored when creating a LAP TIME",
-  "gherkin": "When the user creates a \"LAP TIME\" \"AVUS record\" with the following data\n  | key | value | datatype |\n  | time | PT1M33.294S | string |\n  | driver_name | Klaus Ludwig | string |\n  | date | 1996-08-03 | string |\n  | thimbleweed | park | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | time | PT1M33.294S | string |\n  | driver_name | Klaus Ludwig | string |\n  | date | 1996-08-03 | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "gherkin": "When the user creates a \"LAP TIME\" \"AVUS record\" with the following data\n  | key         | value        |\n  | time        | PT1M33.294S  |\n  | driver_name | Klaus Ludwig |\n  | date        | 1996-08-03   |\n  | thimbleweed | park         |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | time | PT1M33.294S | string |\n  | driver_name | Klaus Ludwig | string |\n  | date | 1996-08-03 | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
   "labels": [
     "implemented"
   ],

@@ -10,8 +10,8 @@ Feature: Create RACING GAME Node
     @TEST_MCA-2306 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a RACING GAME
       When the user creates a "RACING GAME" "F1 2025" with the following data
-        | key  | value              | datatype |
-        | name | Forza Motorsport 7 | string   |
+        | key  | value              |
+        | name | Forza Motorsport 7 |
       Then the response should contain the following properties
         | key          | value              | datatype |
         | name         | Forza Motorsport 7 | string   |

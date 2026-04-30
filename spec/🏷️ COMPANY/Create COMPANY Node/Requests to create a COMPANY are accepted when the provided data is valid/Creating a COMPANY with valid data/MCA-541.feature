@@ -10,13 +10,13 @@ Feature: Create COMPANY Node
     @TEST_MCA-541 @implemented
     Scenario: Creating a COMPANY with valid data
       When the user creates a "COMPANY" "BMW AG" with the following data
-        | key                         | value  | datatype |
-        | name                        | BMW AG | string   |
-        | founded                     | 1916   | number   |
-        | defunct                     |        | number   |
-        | headquarters_location       | Munich | string   |
-        | hq_country_code             | DE     | string   |
-        | legal_headquarters_location | Munich | string   |
-        | legal_hq_country_code       | DE     | string   |
+        | key                         | value  |
+        | name                        | BMW AG |
+        | founded                     | 1916   |
+        | defunct                     |        |
+        | headquarters_location       | Munich |
+        | hq_country_code             | DE     |
+        | legal_headquarters_location | Munich |
+        | legal_hq_country_code       | DE     |
       Then the response should return the "COMPANY" "BMW AG"
       And the response should return with status code 201

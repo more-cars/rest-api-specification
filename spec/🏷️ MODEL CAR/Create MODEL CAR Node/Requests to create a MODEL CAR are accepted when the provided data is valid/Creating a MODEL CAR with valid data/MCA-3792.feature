@@ -10,11 +10,11 @@ Feature: Create MODEL CAR Node
     @TEST_MCA-3792 @implemented
     Scenario: Creating a MODEL CAR with valid data
       When the user creates a "MODEL CAR" "F40 Matchbox" with the following data
-        | key          | value    | datatype |
-        | name         | BMW 2002 | string   |
-        | product_code | DHX60    | string   |
-        | release_year | 2016     | number   |
-        | scale        | 1:64     | string   |
-        | series       | BMW      | string   |
+        | key          | value    |
+        | name         | BMW 2002 |
+        | product_code | DHX60    |
+        | release_year | 2016     |
+        | scale        | 1:64     |
+        | series       | BMW      |
       Then the request should be confirmed with status code 201
       And the response should return the "MODEL CAR" "F40 Matchbox"

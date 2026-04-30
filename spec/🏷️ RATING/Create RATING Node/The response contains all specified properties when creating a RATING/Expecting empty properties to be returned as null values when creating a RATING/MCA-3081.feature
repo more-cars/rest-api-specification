@@ -10,11 +10,11 @@ Feature: Create RATING Node
     @TEST_MCA-3081 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a RATING
       When the user creates a "RATING" "93 Percent" with the following data
-        | key             | value | datatype |
-        | rating_value    | 93    | number   |
-        | scale_minimum   | 0     | number   |
-        | scale_maximum   | 100   | number   |
-        | scale_direction | up    | string   |
+        | key             | value |
+        | rating_value    | 93    |
+        | scale_minimum   | 0     |
+        | scale_maximum   | 100   |
+        | scale_direction | up    |
       Then the response should contain the following properties
         | key             | value | datatype |
         | rating_value    | 93    | number   |

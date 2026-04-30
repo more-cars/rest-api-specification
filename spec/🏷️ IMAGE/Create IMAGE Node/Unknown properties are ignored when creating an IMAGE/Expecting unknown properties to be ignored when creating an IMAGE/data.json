@@ -2,7 +2,7 @@
   "id": "MCA-135",
   "parent_id": "MCA-112",
   "title": "Expecting unknown properties to be ignored when creating an IMAGE",
-  "gherkin": "When the user creates a \"IMAGE\" \"Ferrari logo\" with the following data\n  | key            | value     | datatype |\n  | image_provider | wikimedia | string   |\n  | external_id    | WM123456  | string   |\n  | my_property    | ABC       | string   |\nThen the response should contain the following properties\n  | key            | value     | datatype |\n  | image_provider | wikimedia | string   |\n  | external_id    | WM123456  | string   |\nBut the response should NOT contain the following keys\n  | key         |\n  | my_property |",
+  "gherkin": "When the user creates a \"IMAGE\" \"Ferrari logo\" with the following data\n  | key            | value     |\n  | image_provider | wikimedia |\n  | external_id    | WM123456  |\n  | my_property    | ABC       |\nThen the response should contain the following properties\n  | key            | value     | datatype |\n  | image_provider | wikimedia | string   |\n  | external_id    | WM123456  | string   |\nBut the response should NOT contain the following keys\n  | key         |\n  | my_property |",
   "labels": [
     "implemented"
   ],

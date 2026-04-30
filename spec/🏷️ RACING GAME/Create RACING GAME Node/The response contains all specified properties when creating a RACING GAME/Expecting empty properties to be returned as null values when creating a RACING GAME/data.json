@@ -2,7 +2,7 @@
   "id": "MCA-2306",
   "parent_id": "MCA-2304",
   "title": "Expecting empty properties to be returned as null values when creating a RACING GAME",
-  "gherkin": "When the user creates a \"RACING GAME\" \"F1 2025\" with the following data\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | string |\n  | release_year |  | number |\n  | developer |  | string |\n  | publisher |  | string |",
+  "gherkin": "When the user creates a \"RACING GAME\" \"F1 2025\" with the following data\n  | key  | value              |\n  | name | Forza Motorsport 7 |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | string |\n  | release_year |  | number |\n  | developer |  | string |\n  | publisher |  | string |",
   "labels": [
     "implemented"
   ],

@@ -10,11 +10,11 @@ Feature: Create LAP TIME Node
     @TEST_MCA-1854 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a LAP TIME
       When the user creates a "LAP TIME" "AVUS record" with the following data
-        | key         | value        | datatype |
-        | time        | PT1M33.294S  | string   |
-        | driver_name | Klaus Ludwig | string   |
-        | date        | 1996-08-03   | string   |
-        | thimbleweed | park         | string   |
+        | key         | value        |
+        | time        | PT1M33.294S  |
+        | driver_name | Klaus Ludwig |
+        | date        | 1996-08-03   |
+        | thimbleweed | park         |
       Then the response should contain the following properties
         | key         | value        | datatype |
         | time        | PT1M33.294S  | string   |

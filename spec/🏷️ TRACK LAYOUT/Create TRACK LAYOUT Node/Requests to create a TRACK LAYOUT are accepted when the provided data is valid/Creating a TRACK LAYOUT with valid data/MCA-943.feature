@@ -10,15 +10,15 @@ Feature: Create TRACK LAYOUT Node
     @TEST_MCA-943 @implemented
     Scenario: Creating a TRACK LAYOUT with valid data
       When the user creates a "TRACK LAYOUT" "GP Circuit" with the following data
-        | key                   | value      | datatype |
-        | name                  | GP Circuit | string   |
-        | year_from             | 1967       | number   |
-        | year_to               | 1999       | number   |
-        | length                | 5.397      | number   |
-        | length_unit           | km         | string   |
-        | direction             | clockwise  | string   |
-        | elevation_change      | 73         | number   |
-        | elevation_change_unit | m          | string   |
-        | surface               | asphalt    | string   |
+        | key                   | value      |
+        | name                  | GP Circuit |
+        | year_from             | 1967       |
+        | year_to               | 1999       |
+        | length                | 5.397      |
+        | length_unit           | km         |
+        | direction             | clockwise  |
+        | elevation_change      | 73         |
+        | elevation_change_unit | m          |
+        | surface               | asphalt    |
       Then the request should be confirmed with status code 201
       And the response should return the "TRACK LAYOUT" "GP Circuit"

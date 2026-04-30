@@ -10,9 +10,9 @@ Feature: Create LAP TIME Node
     @TEST_MCA-1852 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a LAP TIME
       When the user creates a "LAP TIME" "AVUS record" with the following data
-        | key         | value        | datatype |
-        | time        | PT1M33.294S  | string   |
-        | driver_name | Klaus Ludwig | string   |
+        | key         | value        |
+        | time        | PT1M33.294S  |
+        | driver_name | Klaus Ludwig |
       Then the response should contain the following properties
         | key         | value        | datatype |
         | time        | PT1M33.294S  | string   |

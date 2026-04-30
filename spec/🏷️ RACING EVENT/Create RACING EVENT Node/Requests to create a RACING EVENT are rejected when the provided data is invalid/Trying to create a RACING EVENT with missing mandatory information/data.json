@@ -2,7 +2,7 @@
   "id": "MCA-1158",
   "parent_id": "MCA-1157",
   "title": "Trying to create a RACING EVENT with missing mandatory information",
-  "gherkin": "When the user tries to create a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key | value | datatype |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

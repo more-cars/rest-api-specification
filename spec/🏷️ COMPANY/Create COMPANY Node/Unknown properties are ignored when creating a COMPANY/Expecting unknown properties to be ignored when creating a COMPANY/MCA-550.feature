@@ -10,15 +10,15 @@ Feature: Create COMPANY Node
     @TEST_MCA-550 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a COMPANY
       When the user creates a "COMPANY" "BMW AG" with the following data
-        | key                         | value  | datatype |
-        | name                        | BMW AG | string   |
-        | founded                     | 1916   | number   |
-        | defunct                     |        | number   |
-        | headquarters_location       | Munich | string   |
-        | hq_country_code             | DE     | string   |
-        | legal_headquarters_location | Munich | string   |
-        | legal_hq_country_code       | DE     | string   |
-        | thimbleweed                 | park   | string   |
+        | key                         | value  |
+        | name                        | BMW AG |
+        | founded                     | 1916   |
+        | defunct                     |        |
+        | headquarters_location       | Munich |
+        | hq_country_code             | DE     |
+        | legal_headquarters_location | Munich |
+        | legal_hq_country_code       | DE     |
+        | thimbleweed                 | park   |
       Then the response should contain the following properties
         | key                         | value  | datatype |
         | name                        | BMW AG | string   |

@@ -2,7 +2,7 @@
   "id": "MCA-3075",
   "parent_id": "MCA-3074",
   "title": "Creating a RATING with valid data",
-  "gherkin": "When the user creates a \"RATING\" \"93 Percent\" with the following data\n  | key | value | datatype |\n  | rating_value | 93 | number |\n  | scale_minimum | 0 | number |\n  | scale_maximum | 100 | number |\n  | scale_direction | up | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"RATING\" \"93 Percent\"",
+  "gherkin": "When the user creates a \"RATING\" \"93 Percent\" with the following data\n  | key             | value |\n  | rating_value    | 93    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 100   |\n  | scale_direction | up    |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"RATING\" \"93 Percent\"",
   "labels": [
     "implemented"
   ],

@@ -10,5 +10,5 @@ Feature: Create MAGAZINE Node
     @TEST_MCA-2633 @implemented
     Scenario: Trying to create a MAGAZINE with missing mandatory information
       When the user tries to create a "MAGAZINE" "Top Gear" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

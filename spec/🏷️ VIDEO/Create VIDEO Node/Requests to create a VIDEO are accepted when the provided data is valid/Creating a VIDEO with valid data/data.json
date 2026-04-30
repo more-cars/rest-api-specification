@@ -2,7 +2,7 @@
   "id": "MCA-4210",
   "parent_id": "MCA-4209",
   "title": "Creating a VIDEO with valid data",
-  "gherkin": "When the user creates a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key | value | datatype |\n  | video_provider | youtube | string |\n  | external_id | NqsBncRslsg | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"VIDEO\" \"P1 vs F40\"",
+  "gherkin": "When the user creates a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key            | value       |\n  | video_provider | youtube     |\n  | external_id    | NqsBncRslsg |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"VIDEO\" \"P1 vs F40\"",
   "labels": [
     "implemented"
   ],

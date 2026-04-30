@@ -2,7 +2,7 @@
   "id": "MCA-1161",
   "parent_id": "MCA-1160",
   "title": "Expecting all properties to be returned when creating a RACING EVENT",
-  "gherkin": "When the user creates a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key | value | datatype |\n  | name | GP Monaco | string |\n  | round | 7 | number |\n  | date_from | 2025-05-20 | string |\n  | date_to | 2025-05-22 | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | GP Monaco | string |\n  | round | 7 | number |\n  | date_from | 2025-05-20 | string |\n  | date_to | 2025-05-22 | string |",
+  "gherkin": "When the user creates a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key       | value      |\n  | name      | GP Monaco  |\n  | round     | 7          |\n  | date_from | 2025-05-20 |\n  | date_to   | 2025-05-22 |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | GP Monaco | string |\n  | round | 7 | number |\n  | date_from | 2025-05-20 | string |\n  | date_to | 2025-05-22 | string |",
   "labels": [
     "implemented"
   ],

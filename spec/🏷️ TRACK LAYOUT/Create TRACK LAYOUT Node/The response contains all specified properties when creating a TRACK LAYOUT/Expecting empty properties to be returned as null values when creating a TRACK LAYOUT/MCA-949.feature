@@ -10,8 +10,8 @@ Feature: Create TRACK LAYOUT Node
     @TEST_MCA-949 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a TRACK LAYOUT
       When the user creates a "TRACK LAYOUT" "GP Circuit" with the following data
-        | key  | value      | datatype |
-        | name | GP Circuit | string   |
+        | key  | value      |
+        | name | GP Circuit |
       Then the response should contain the following properties
         | key                   | value      | datatype |
         | name                  | GP Circuit | string   |

@@ -10,17 +10,17 @@ Feature: Create RACING SERIES Node
     @TEST_MCA-1153 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a RACING SERIES
       When the user creates a "RACING SERIES" "DTM" with the following data
-        | key          | value                        | datatype |
-        | name         | Deutsche Tourenwagen-Masters | string   |
-        | short_name   | DTM                          | string   |
-        | founded      | 2000                         | number   |
-        | defunct      |                              | number   |
-        | organized_by | ITR                          | string   |
-        | vehicle_type | touring cars                 | string   |
-        | country_code | US                           | string   |
-        | id           | 1234                         | number   |
-        | created_at   | 2025-01-01                   | string   |
-        | updated_at   | 2025-01-01                   | string   |
+        | key          | value                        |
+        | name         | Deutsche Tourenwagen-Masters |
+        | short_name   | DTM                          |
+        | founded      | 2000                         |
+        | defunct      |                              |
+        | organized_by | ITR                          |
+        | vehicle_type | touring cars                 |
+        | country_code | DE                           |
+        | id           | 1234                         |
+        | created_at   | 2025-01-01                   |
+        | updated_at   | 2025-01-01                   |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

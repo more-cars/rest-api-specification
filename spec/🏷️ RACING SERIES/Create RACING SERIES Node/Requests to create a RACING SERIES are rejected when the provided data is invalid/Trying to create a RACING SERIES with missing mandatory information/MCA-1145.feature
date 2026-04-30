@@ -10,5 +10,5 @@ Feature: Create RACING SERIES Node
     @TEST_MCA-1145 @implemented
     Scenario: Trying to create a RACING SERIES with missing mandatory information
       When the user tries to create a "RACING SERIES" "DTM" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

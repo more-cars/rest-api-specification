@@ -10,5 +10,5 @@ Feature: Create RACING GAME Node
     @TEST_MCA-2302 @implemented
     Scenario: Trying to create a RACING GAME with missing mandatory information
       When the user tries to create a "RACING GAME" "F1 2025" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

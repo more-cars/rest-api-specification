@@ -10,15 +10,15 @@ Feature: Create PROGRAMME EPISODE Node
     @TEST_MCA-3290 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a PROGRAMME EPISODE
       When the user creates a "PROGRAMME EPISODE" "Polar Special" with the following data
-        | key                   | value          | datatype |
-        | title                 | The Falls Guys | string   |
-        | season_number         | 2              | number   |
-        | season_episode_number | 2              | number   |
-        | original_air_date     | 2017-12-08     | string   |
-        | duration              | PT55M          | string   |
-        | id                    | 1234           | number   |
-        | created_at            | 2025-01-01     | string   |
-        | updated_at            | 2025-01-01     | string   |
+        | key                   | value          |
+        | title                 | The Falls Guys |
+        | season_number         | 2              |
+        | season_episode_number | 2              |
+        | original_air_date     | 2017-12-08     |
+        | duration              | PT55M          |
+        | id                    | 1234           |
+        | created_at            | 2025-01-01     |
+        | updated_at            | 2025-01-01     |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

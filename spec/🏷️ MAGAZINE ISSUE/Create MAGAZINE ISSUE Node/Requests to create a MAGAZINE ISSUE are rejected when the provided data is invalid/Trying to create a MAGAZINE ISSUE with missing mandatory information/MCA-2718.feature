@@ -10,5 +10,5 @@ Feature: Create MAGAZINE ISSUE Node
     @TEST_MCA-2718 @implemented
     Scenario: Trying to create a MAGAZINE ISSUE with missing mandatory information
       When the user tries to create a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

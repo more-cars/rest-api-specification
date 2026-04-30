@@ -2,7 +2,7 @@
   "id": "MCA-3299",
   "parent_id": "MCA-3297",
   "title": "Expecting empty properties to be returned as null values when creating a MOTOR SHOW",
-  "gherkin": "When the user creates a \"MOTOR SHOW\" \"IAA 2017\" with the following data\n  | key | value | datatype |\n  | name | 2017 IAA Frankfurt | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | 2017 IAA Frankfurt | string |\n  | date_from |  | string |\n  | date_until |  | string |\n  | location |  | string |\n  | target_audience |  | string |\n  | focus |  | string |\n  | country_code    |  | string   |",
+  "gherkin": "When the user creates a \"MOTOR SHOW\" \"IAA 2017\" with the following data\n  | key  | value              |\n  | name | 2017 IAA Frankfurt |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | 2017 IAA Frankfurt | string |\n  | date_from |  | string |\n  | date_until |  | string |\n  | location |  | string |\n  | target_audience |  | string |\n  | focus |  | string |\n  | country_code    |  | string   |",
   "labels": [
     "implemented"
   ],

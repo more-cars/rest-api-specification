@@ -2,7 +2,7 @@
   "id": "MCA-1571",
   "parent_id": "MCA-1570",
   "title": "Expecting all properties to be returned when creating a RACING SESSION",
-  "gherkin": "When the user creates a \"RACING SESSION\" \"Grand Prix\" with the following data\n  | key | value | datatype |\n  | name | Grand Prix | string |\n  | start_date | 2025-05-25 | string |\n  | start_time | 15:00 | string |\n  | duration | 120 | number |\n  | duration_unit | min | string |\n  | distance | 61 | number |\n  | distance_unit | laps | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Grand Prix | string |\n  | start_date | 2025-05-25 | string |\n  | start_time | 15:00 | string |\n  | duration | 120 | number |\n  | duration_unit | min | string |\n  | distance | 61 | number |\n  | distance_unit | laps | string |",
+  "gherkin": "When the user creates a \"RACING SESSION\" \"Grand Prix\" with the following data\n  | key           | value      |\n  | name          | Grand Prix |\n  | start_date    | 2025-05-25 |\n  | start_time    | 15:00      |\n  | duration      | 120        |\n  | duration_unit | min        |\n  | distance      | 61         |\n  | distance_unit | laps       |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Grand Prix | string |\n  | start_date | 2025-05-25 | string |\n  | start_time | 15:00 | string |\n  | duration | 120 | number |\n  | duration_unit | min | string |\n  | distance | 61 | number |\n  | distance_unit | laps | string |",
   "labels": [
     "implemented"
   ],

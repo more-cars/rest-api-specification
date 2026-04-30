@@ -10,8 +10,8 @@ Feature: Create VIDEO Node
     @TEST_MCA-4210 @implemented
     Scenario: Creating a VIDEO with valid data
       When the user creates a "VIDEO" "P1 vs F40" with the following data
-        | key            | value       | datatype |
-        | video_provider | youtube     | string   |
-        | external_id    | NqsBncRslsg | string   |
+        | key            | value       |
+        | video_provider | youtube     |
+        | external_id    | NqsBncRslsg |
       Then the request should be confirmed with status code 201
       And the response should return the "VIDEO" "P1 vs F40"

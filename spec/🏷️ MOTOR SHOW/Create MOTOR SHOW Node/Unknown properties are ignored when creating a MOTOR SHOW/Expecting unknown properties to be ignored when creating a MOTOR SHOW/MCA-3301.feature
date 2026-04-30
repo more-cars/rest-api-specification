@@ -10,15 +10,15 @@ Feature: Create MOTOR SHOW Node
     @TEST_MCA-3301 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a MOTOR SHOW
       When the user creates a "MOTOR SHOW" "IAA 2017" with the following data
-        | key             | value              | datatype |
-        | name            | 2017 IAA Frankfurt | string   |
-        | date_from       | 2017-09-14         | string   |
-        | date_until      | 2017-09-24         | string   |
-        | location        | Frankfurt          | string   |
-        | target_audience | international      | string   |
-        | focus           | new cars           | string   |
-        | country_code    | DE                 | string   |
-        | thimbleweed     | park               | string   |
+        | key             | value              |
+        | name            | 2017 IAA Frankfurt |
+        | date_from       | 2017-09-14         |
+        | date_until      | 2017-09-24         |
+        | location        | Frankfurt          |
+        | target_audience | international      |
+        | focus           | new cars           |
+        | country_code    | DE                 |
+        | thimbleweed     | park               |
       Then the response should contain the following properties
         | key             | value              | datatype |
         | name            | 2017 IAA Frankfurt | string   |

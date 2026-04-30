@@ -10,5 +10,5 @@ Feature: Create MODEL CAR Node
     @TEST_MCA-3794 @implemented
     Scenario: Trying to create a MODEL CAR with missing mandatory information
       When the user tries to create a "MODEL CAR" "F40 Matchbox" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

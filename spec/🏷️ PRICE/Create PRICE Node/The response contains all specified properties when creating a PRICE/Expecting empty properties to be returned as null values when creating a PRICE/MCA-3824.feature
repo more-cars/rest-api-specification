@@ -10,11 +10,11 @@ Feature: Create PRICE Node
     @TEST_MCA-3824 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a PRICE
       When the user creates a "PRICE" "Base Price" with the following data
-        | key           | value | datatype |
-        | price         | 59990 | number   |
-        | price_year    | 2020  | number   |
-        | currency_code | EUR   | string   |
-        | country_code  | DE    | string   |
+        | key           | value |
+        | price         | 59990 |
+        | price_year    | 2020  |
+        | currency_code | EUR   |
+        | country_code  | DE    |
       Then the response should contain the following properties
         | key           | value | datatype |
         | price         | 59990 | number   |

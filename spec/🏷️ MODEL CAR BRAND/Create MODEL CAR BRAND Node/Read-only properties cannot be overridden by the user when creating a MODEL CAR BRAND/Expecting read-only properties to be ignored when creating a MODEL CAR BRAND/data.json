@@ -2,7 +2,7 @@
   "id": "MCA-3815",
   "parent_id": "MCA-3814",
   "title": "Expecting read-only properties to be ignored when creating a MODEL CAR BRAND",
-  "gherkin": "When the user creates a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key | value | datatype |\n  | name | Hot Wheele | string |\n  | founded | 1968 | number |\n  | defunct |  | number |\n  | country_code | US         | string   |\n  | id         | 1234       | number   |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
+  "gherkin": "When the user creates a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key          | value      |\n  | name         | Hot Wheels |\n  | founded      | 1968       |\n  | defunct      |            |\n  | country_code | US         |\n  | id           | 1234       |\n  | created_at   | 2025-01-01 |\n  | updated_at   | 2025-01-01 |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
   "labels": [
     "implemented"
   ],

@@ -10,15 +10,15 @@ Feature: Create RACING SESSION Node
     @TEST_MCA-1574 @implemented
     Scenario: Expecting unknown properties to be ignored when creating a RACING SESSION
       When the user creates a "RACING SESSION" "Grand Prix" with the following data
-        | key           | value      | datatype |
-        | name          | Grand Prix | string   |
-        | start_date    | 2025-05-25 | string   |
-        | start_time    | 15:00      | string   |
-        | duration      | 120        | number   |
-        | duration_unit | min        | string   |
-        | distance      | 61         | number   |
-        | distance_unit | laps       | string   |
-        | thimbleweed   | park       | string   |
+        | key           | value      |
+        | name          | Grand Prix |
+        | start_date    | 2025-05-25 |
+        | start_time    | 15:00      |
+        | duration      | 120        |
+        | duration_unit | min        |
+        | distance      | 61         |
+        | distance_unit | laps       |
+        | thimbleweed   | park       |
       Then the response should contain the following properties
         | key           | value      | datatype |
         | name          | Grand Prix | string   |

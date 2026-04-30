@@ -10,13 +10,13 @@ Feature: Create RACE TRACK Node
     @TEST_MCA-912 @implemented
     Scenario: Creating a RACE TRACK with valid data
       When the user creates a "RACE TRACK" "Lausitzring" with the following data
-        | key          | value                | datatype |
-        | name         | Lausitzring          | string   |
-        | opened       | 2000                 | number   |
-        | closed       |                      | number   |
-        | type         | permanent race track | string   |
-        | location     | Klettwitz            | string   |
-        | geo_position | 51°32'0"N 13°55'10"E | string   |
-        | country_code | DE                   | string   |
+        | key          | value                |
+        | name         | Lausitzring          |
+        | opened       | 2000                 |
+        | closed       |                      |
+        | type         | permanent race track |
+        | location     | Klettwitz            |
+        | geo_position | 51°32'0"N 13°55'10"E |
+        | country_code | DE                   |
       Then the request should be confirmed with status code 201
       And the response should return the "RACE TRACK" "Lausitzring"

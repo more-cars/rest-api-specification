@@ -2,7 +2,7 @@
   "id": "MCA-3798",
   "parent_id": "MCA-3796",
   "title": "Expecting empty properties to be returned as null values when creating a MODEL CAR",
-  "gherkin": "When the user creates a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key | value | datatype |\n  | name | BMW 2002 | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | BMW 2002 | string |\n  | product_code |  | string |\n  | release_year |  | number |\n  | scale |  | string |\n  | series |  | string |",
+  "gherkin": "When the user creates a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key  | value    |\n  | name | BMW 2002 |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | BMW 2002 | string |\n  | product_code |  | string |\n  | release_year |  | number |\n  | scale |  | string |\n  | series |  | string |",
   "labels": [
     "implemented"
   ],

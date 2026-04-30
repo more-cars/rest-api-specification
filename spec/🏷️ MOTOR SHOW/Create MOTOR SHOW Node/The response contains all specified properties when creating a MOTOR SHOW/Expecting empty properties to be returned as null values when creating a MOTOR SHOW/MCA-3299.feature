@@ -10,8 +10,8 @@ Feature: Create MOTOR SHOW Node
     @TEST_MCA-3299 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a MOTOR SHOW
       When the user creates a "MOTOR SHOW" "IAA 2017" with the following data
-        | key  | value              | datatype |
-        | name | 2017 IAA Frankfurt | string   |
+        | key  | value              |
+        | name | 2017 IAA Frankfurt |
       Then the response should contain the following properties
         | key             | value              | datatype |
         | name            | 2017 IAA Frankfurt | string   |

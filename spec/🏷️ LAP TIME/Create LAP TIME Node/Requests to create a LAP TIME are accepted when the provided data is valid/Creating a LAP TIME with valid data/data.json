@@ -2,7 +2,7 @@
   "id": "MCA-1846",
   "parent_id": "MCA-1845",
   "title": "Creating a LAP TIME with valid data",
-  "gherkin": "When the user creates a \"LAP TIME\" \"AVUS record\" with the following data\n  | key | value | datatype |\n  | time | PT1M33.294S | string |\n  | driver_name | Klaus Ludwig | string |\n  | date | 1996-08-03 | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"LAP TIME\" \"AVUS record\"",
+  "gherkin": "When the user creates a \"LAP TIME\" \"AVUS record\" with the following data\n  | key         | value        |\n  | time        | PT1M33.294S  |\n  | driver_name | Klaus Ludwig |\n  | date        | 1996-08-03   |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"LAP TIME\" \"AVUS record\"",
   "labels": [
     "implemented"
   ],

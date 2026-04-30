@@ -10,19 +10,19 @@ Feature: Create MAGAZINE Node
     @TEST_MCA-2631 @implemented
     Scenario: Creating a MAGAZINE with valid data
       When the user creates a "MAGAZINE" "Top Gear" with the following data
-        | key                    | value                   | datatype |
-        | name                   | Top Gear                | string   |
-        | founded                | 1993                    | number   |
-        | defunct                |                         | number   |
-        | focus                  | sports cars             | string   |
-        | publication_frequency  | monthly                 | string   |
-        | single_copy_price      | 5.99                    | number   |
-        | single_copy_price_unit | £                       | string   |
-        | publication_format     | print                   | string   |
-        | circulation            | 150884                  | number   |
-        | circulation_year       | 2013                    | number   |
-        | publisher              | Immediate Media Company | string   |
-        | issn                   | 1350-9624               | string   |
-        | country_code           | GB                      | string   |
+        | key                    | value                   |
+        | name                   | Top Gear                |
+        | founded                | 1993                    |
+        | defunct                |                         |
+        | focus                  | sports cars             |
+        | publication_frequency  | monthly                 |
+        | single_copy_price      | 5.99                    |
+        | single_copy_price_unit | GBP                     |
+        | publication_format     | print                   |
+        | circulation            | 150884                  |
+        | circulation_year       | 2013                    |
+        | publisher              | Immediate Media Company |
+        | issn                   | 1350-9624               |
+        | country_code           | GB                      |
       Then the request should be confirmed with status code 201
       And the response should return the "MAGAZINE" "Top Gear"

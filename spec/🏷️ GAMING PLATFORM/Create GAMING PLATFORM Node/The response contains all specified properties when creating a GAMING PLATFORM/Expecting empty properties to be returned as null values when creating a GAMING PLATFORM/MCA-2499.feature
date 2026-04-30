@@ -10,8 +10,8 @@ Feature: Create GAMING PLATFORM Node
     @TEST_MCA-2499 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a GAMING PLATFORM
       When the user creates a "GAMING PLATFORM" "PlayStation 5" with the following data
-        | key  | value         | datatype |
-        | name | PlayStation 5 | string   |
+        | key  | value         |
+        | name | PlayStation 5 |
       Then the response should contain the following properties
         | key          | value         | datatype |
         | name         | PlayStation 5 | string   |

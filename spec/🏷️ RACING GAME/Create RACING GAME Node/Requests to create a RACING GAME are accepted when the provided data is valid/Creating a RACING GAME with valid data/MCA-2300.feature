@@ -10,10 +10,10 @@ Feature: Create RACING GAME Node
     @TEST_MCA-2300 @implemented
     Scenario: Creating a RACING GAME with valid data
       When the user creates a "RACING GAME" "F1 2025" with the following data
-        | key          | value              | datatype |
-        | name         | Forza Motorsport 7 | string   |
-        | release_year | 2017               | number   |
-        | developer    | Turn 10 Studios    | string   |
-        | publisher    | Microsoft Studios  | string   |
+        | key          | value              |
+        | name         | Forza Motorsport 7 |
+        | release_year | 2017               |
+        | developer    | Turn 10 Studios    |
+        | publisher    | Microsoft Studios  |
       Then the request should be confirmed with status code 201
       And the response should return the "RACING GAME" "F1 2025"

@@ -10,8 +10,8 @@ Feature: Create MAGAZINE Node
     @TEST_MCA-2637 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a MAGAZINE
       When the user creates a "MAGAZINE" "Top Gear" with the following data
-        | key  | value    | datatype |
-        | name | Top Gear | string   |
+        | key  | value    |
+        | name | Top Gear |
       Then the response should contain the following properties
         | key                    | value    | datatype |
         | name                   | Top Gear | string   |

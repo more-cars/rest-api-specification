@@ -2,7 +2,7 @@
   "id": "MCA-2302",
   "parent_id": "MCA-2301",
   "title": "Trying to create a RACING GAME with missing mandatory information",
-  "gherkin": "When the user tries to create a \"RACING GAME\" \"F1 2025\" with the following data\n  | key | value | datatype |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"RACING GAME\" \"F1 2025\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

@@ -10,5 +10,5 @@ Feature: Create RACING EVENT Node
     @TEST_MCA-1158 @implemented
     Scenario: Trying to create a RACING EVENT with missing mandatory information
       When the user tries to create a "RACING EVENT" "GP Monaco" with the following data
-        | key | value | datatype |
+        | key | value |
       Then the request should be rejected with status code 400

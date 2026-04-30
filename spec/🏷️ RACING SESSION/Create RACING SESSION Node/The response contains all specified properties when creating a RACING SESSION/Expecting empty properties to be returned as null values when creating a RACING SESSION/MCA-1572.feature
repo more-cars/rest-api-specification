@@ -10,8 +10,8 @@ Feature: Create RACING SESSION Node
     @TEST_MCA-1572 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a RACING SESSION
       When the user creates a "RACING SESSION" "Grand Prix" with the following data
-        | key  | value      | datatype |
-        | name | Grand Prix | string   |
+        | key  | value      |
+        | name | Grand Prix |
       Then the response should contain the following properties
         | key           | value      | datatype |
         | name          | Grand Prix | string   |

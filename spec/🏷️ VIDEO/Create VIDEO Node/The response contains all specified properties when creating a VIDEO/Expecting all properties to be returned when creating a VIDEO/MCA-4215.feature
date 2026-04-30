@@ -10,9 +10,9 @@ Feature: Create VIDEO Node
     @TEST_MCA-4215 @implemented
     Scenario: Expecting all properties to be returned when creating a VIDEO
       When the user creates a "VIDEO" "P1 vs F40" with the following data
-        | key            | value       | datatype |
-        | video_provider | youtube     | string   |
-        | external_id    | NqsBncRslsg | string   |
+        | key            | value       |
+        | video_provider | youtube     |
+        | external_id    | NqsBncRslsg |
       Then the response should contain the following keys
         | key              |
         | video_provider   |

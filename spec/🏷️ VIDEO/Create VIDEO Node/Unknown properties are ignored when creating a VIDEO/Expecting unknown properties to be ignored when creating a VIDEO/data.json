@@ -2,7 +2,7 @@
   "id": "MCA-4218",
   "parent_id": "MCA-4217",
   "title": "Expecting unknown properties to be ignored when creating a VIDEO",
-  "gherkin": "When the user creates a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key | value | datatype |\n  | video_provider | youtube | string |\n  | external_id | NqsBncRslsg | string |\n  | thimbleweed | park | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | video_provider | youtube | string |\n  | external_id | NqsBncRslsg | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "gherkin": "When the user creates a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key            | value       |\n  | video_provider | youtube     |\n  | external_id    | NqsBncRslsg |\n  | thimbleweed    | park        |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | video_provider | youtube | string |\n  | external_id | NqsBncRslsg | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
   "labels": [
     "implemented"
   ],

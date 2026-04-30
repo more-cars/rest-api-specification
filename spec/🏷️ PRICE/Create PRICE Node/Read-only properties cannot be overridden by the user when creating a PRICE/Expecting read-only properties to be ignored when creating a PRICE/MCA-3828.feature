@@ -10,14 +10,14 @@ Feature: Create PRICE Node
     @TEST_MCA-3828 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a PRICE
       When the user creates a "PRICE" "Base Price" with the following data
-        | key           | value      | datatype |
-        | price         | 59990      | number   |
-        | price_year    | 2020       | number   |
-        | currency_code | EUR        | string   |
-        | country_code  | DE         | string   |
-        | id            | 1234       | number   |
-        | created_at    | 2025-01-01 | string   |
-        | updated_at    | 2025-01-01 | string   |
+        | key           | value      |
+        | price         | 59990      |
+        | price_year    | 2020       |
+        | currency_code | EUR        |
+        | country_code  | DE         |
+        | id            | 1234       |
+        | created_at    | 2025-01-01 |
+        | updated_at    | 2025-01-01 |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |

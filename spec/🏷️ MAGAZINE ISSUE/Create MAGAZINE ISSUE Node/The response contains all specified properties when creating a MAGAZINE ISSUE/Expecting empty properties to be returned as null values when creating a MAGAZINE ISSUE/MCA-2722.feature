@@ -10,8 +10,8 @@ Feature: Create MAGAZINE ISSUE Node
     @TEST_MCA-2722 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a MAGAZINE ISSUE
       When the user creates a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
-        | key   | value        | datatype |
-        | title | Sieger-Typen | string   |
+        | key   | value        |
+        | title | Sieger-Typen |
       Then the response should contain the following properties
         | key                    | value        | datatype |
         | title                  | Sieger-Typen | string   |

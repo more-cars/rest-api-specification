@@ -10,11 +10,11 @@ Feature: Create RACING EVENT Node
     @TEST_MCA-1161 @implemented
     Scenario: Expecting all properties to be returned when creating a RACING EVENT
       When the user creates a "RACING EVENT" "GP Monaco" with the following data
-        | key       | value      | datatype |
-        | name      | GP Monaco  | string   |
-        | round     | 7          | number   |
-        | date_from | 2025-05-20 | string   |
-        | date_to   | 2025-05-22 | string   |
+        | key       | value      |
+        | name      | GP Monaco  |
+        | round     | 7          |
+        | date_from | 2025-05-20 |
+        | date_to   | 2025-05-22 |
       Then the response should contain the following properties
         | key       | value      | datatype |
         | name      | GP Monaco  | string   |

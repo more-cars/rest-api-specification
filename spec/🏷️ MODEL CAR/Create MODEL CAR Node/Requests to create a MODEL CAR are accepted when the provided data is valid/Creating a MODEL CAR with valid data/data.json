@@ -2,7 +2,7 @@
   "id": "MCA-3792",
   "parent_id": "MCA-3791",
   "title": "Creating a MODEL CAR with valid data",
-  "gherkin": "When the user creates a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key | value | datatype |\n  | name | BMW 2002 | string |\n  | product_code | DHX60 | string |\n  | release_year | 2016 | number |\n  | scale | 1:64 | string |\n  | series | BMW | string |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"MODEL CAR\" \"F40 Matchbox\"",
+  "gherkin": "When the user creates a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key          | value    |\n  | name         | BMW 2002 |\n  | product_code | DHX60    |\n  | release_year | 2016     |\n  | scale        | 1:64     |\n  | series       | BMW      |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"MODEL CAR\" \"F40 Matchbox\"",
   "labels": [
     "implemented"
   ],

@@ -10,10 +10,10 @@ Feature: Providing every CORE information for a CAR MODEL
     @TEST_MCA-31 @implemented
     Scenario: Invalid properties should be ignored when creating a CAR MODEL
       When the user creates a "CAR MODEL" "Test Car" with the following data
-        | key         | value    | datatype |
-        | name        | Test Car | string   |
-        | generattion | 3        | number   |
-        | code        | ABC      | string   |
+        | key         | value    |
+        | name        | Test Car |
+        | generattion | 3        |
+        | code        | ABC      |
       Then the following keys in the response object should be of value null
         | key           |
         | generation    |

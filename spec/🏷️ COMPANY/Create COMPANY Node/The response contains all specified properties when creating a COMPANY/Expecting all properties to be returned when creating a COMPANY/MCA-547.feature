@@ -10,14 +10,14 @@ Feature: Create COMPANY Node
     @TEST_MCA-547 @implemented
     Scenario: Expecting all properties to be returned when creating a COMPANY
       When the user creates a "COMPANY" "BMW AG" with the following data
-        | key                         | value  | datatype |
-        | name                        | BMW AG | string   |
-        | founded                     | 1916   | number   |
-        | defunct                     |        | number   |
-        | headquarters_location       | Munich | string   |
-        | hq_country_code             | DE     | string   |
-        | legal_headquarters_location | Munich | string   |
-        | legal_hq_country_code       | DE     | string   |
+        | key                         | value  |
+        | name                        | BMW AG |
+        | founded                     | 1916   |
+        | defunct                     |        |
+        | headquarters_location       | Munich |
+        | hq_country_code             | DE     |
+        | legal_headquarters_location | Munich |
+        | legal_hq_country_code       | DE     |
       Then the response should contain the following properties
         | key                         | value  | datatype |
         | name                        | BMW AG | string   |

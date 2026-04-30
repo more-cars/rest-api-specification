@@ -2,7 +2,7 @@
   "id": "MCA-1164",
   "parent_id": "MCA-1163",
   "title": "Expecting unknown properties to be ignored when creating a RACING EVENT",
-  "gherkin": "When the user creates a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key | value | datatype |\n  | name | GP Monaco | string |\n  | round | 7 | number |\n  | date_from | 2025-05-20 | string |\n  | date_to | 2025-05-22 | string |\n  | thimbleweed | park | string |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | GP Monaco | string |\n  | round | 7 | number |\n  | date_from | 2025-05-20 | string |\n  | date_to | 2025-05-22 | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "gherkin": "When the user creates a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key         | value      |\n  | name        | GP Monaco  |\n  | round       | 7          |\n  | date_from   | 2025-05-20 |\n  | date_to     | 2025-05-22 |\n  | thimbleweed | park       |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | GP Monaco | string |\n  | round | 7 | number |\n  | date_from | 2025-05-20 | string |\n  | date_to | 2025-05-22 | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
   "labels": [
     "implemented"
   ],

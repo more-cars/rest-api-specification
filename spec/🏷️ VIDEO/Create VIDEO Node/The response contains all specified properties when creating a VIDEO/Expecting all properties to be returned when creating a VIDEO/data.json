@@ -2,7 +2,7 @@
   "id": "MCA-4215",
   "parent_id": "MCA-4214",
   "title": "Expecting all properties to be returned when creating a VIDEO",
-  "gherkin": "When the user creates a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key            | value       | datatype |\n  | video_provider | youtube     | string   |\n  | external_id    | NqsBncRslsg | string   |\nThen the response should contain the following keys\n  | key              |\n  | video_provider   |\n  | external_id      |\n  | title            |\n  | description      |\n  | creator          |\n  | license          |\n  | tags             |\n  | source           |\n  | duration         |\n  | thumbnail_url_l  |\n  | thumbnail_url_m  |\n  | thumbnail_url_s  |\n  | thumbnail_url_xs |",
+  "gherkin": "When the user creates a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key            | value       |\n  | video_provider | youtube     |\n  | external_id    | NqsBncRslsg |\nThen the response should contain the following keys\n  | key              |\n  | video_provider   |\n  | external_id      |\n  | title            |\n  | description      |\n  | creator          |\n  | license          |\n  | tags             |\n  | source           |\n  | duration         |\n  | thumbnail_url_l  |\n  | thumbnail_url_m  |\n  | thumbnail_url_s  |\n  | thumbnail_url_xs |",
   "labels": [
     "implemented"
   ],

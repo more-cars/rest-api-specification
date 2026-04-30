@@ -10,18 +10,17 @@ Feature: Create PROGRAMME Node
     @TEST_MCA-3277 @implemented
     Scenario: Expecting read-only properties to be ignored when creating a PROGRAMME
       When the user creates a "PROGRAMME" "Top Gear" with the following data
-        | key                          | value      | datatype |
-        | name                         | Top Gear   | string   |
-        | aired_from_year              | 2002       | number   |
-        | aired_until_year             | 2022       | number   |
-        | channel                      | BBC Two    | string   |
-        | total_seasons                | 33         | number   |
-        | total_episodes               | 240        | number   |
-        | regular_episode_running_time | PT60M      | string   |
-        | country_code                 | GB         | string   |
-        | id                           | 1234       | number   |
-        | created_at                   | 2025-01-01 | string   |
-        | updated_at                   | 2025-01-01 | string   |
+        | key          | value                |
+        | name         | Lausitzring          |
+        | opened       | 2000                 |
+        | closed       |                      |
+        | type         | permanent race track |
+        | location     | Klettwitz            |
+        | geo_position | 51°32'0"N 13°55'10"E |
+        | country_code | DE                   |
+        | id           | 1234                 |
+        | created_at   | 2025-01-01           |
+        | updated_at   | 2025-01-01           |
       Then the response should contain an ID
       And the response should contain the following keys
         | key        |
