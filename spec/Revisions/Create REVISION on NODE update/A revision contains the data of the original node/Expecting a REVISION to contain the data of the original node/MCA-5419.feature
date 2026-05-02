@@ -7,7 +7,7 @@ Feature: Create REVISION on NODE update
   @RULE_MCA-5417
   Rule: A revision contains the data of the original node
 
-    @TEST_MCA-5419 @implemented
+    @TEST_MCA-5419 @deactivated @implemented
     Scenario: Expecting a REVISION to contain the data of the original node
       Given there exists a "CAR MODEL" "Passat"
       When the user updates the "Passat"

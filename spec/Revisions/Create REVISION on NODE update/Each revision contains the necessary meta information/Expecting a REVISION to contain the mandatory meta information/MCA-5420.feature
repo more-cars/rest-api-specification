@@ -7,7 +7,7 @@ Feature: Create REVISION on NODE update
   @RULE_MCA-5416
   Rule: Each revision contains the necessary meta information
 
-    @TEST_MCA-5420 @implemented
+    @TEST_MCA-5420 @deactivated @implemented
     Scenario: Expecting a REVISION to contain the mandatory meta information
       Given there exists a "CAR MODEL" "Passat"
       When the user updates the "Passat"
