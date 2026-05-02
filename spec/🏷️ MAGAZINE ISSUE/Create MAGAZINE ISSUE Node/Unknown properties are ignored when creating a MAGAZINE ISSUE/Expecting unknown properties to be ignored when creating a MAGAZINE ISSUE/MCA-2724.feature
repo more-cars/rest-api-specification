@@ -28,7 +28,7 @@ Feature: Create MAGAZINE ISSUE Node
         | issue_year             | 2025         | number   |
         | release_date           | 2025-10-01   | string   |
         | single_copy_price      | 5.4          | number   |
-        | single_copy_price_unit | €            | string   |
+        | single_copy_price_unit | EUR          | string   |
         | pages                  | 148          | number   |
       And the response should NOT contain the following keys
         | key         |

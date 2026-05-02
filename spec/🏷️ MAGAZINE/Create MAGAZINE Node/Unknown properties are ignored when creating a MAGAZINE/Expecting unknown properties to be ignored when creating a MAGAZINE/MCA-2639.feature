@@ -33,7 +33,7 @@ Feature: Create MAGAZINE Node
         | focus                  | sports cars             | string   |
         | publication_frequency  | monthly                 | string   |
         | single_copy_price      | 5.99                    | number   |
-        | single_copy_price_unit | £                       | string   |
+        | single_copy_price_unit | GBP                     | string   |
         | publication_format     | print                   | string   |
         | circulation            | 150884                  | number   |
         | circulation_year       | 2013                    | number   |
