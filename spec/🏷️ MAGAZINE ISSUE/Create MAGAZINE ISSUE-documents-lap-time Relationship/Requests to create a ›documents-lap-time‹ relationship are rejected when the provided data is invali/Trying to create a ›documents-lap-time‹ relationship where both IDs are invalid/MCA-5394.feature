@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-documents-lap-time Relationship
   @RULE_MCA-5391
   Rule: Requests to create a ›documents-lap-time‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5394
+    @TEST_MCA-5394 @implemented
     Scenario: Trying to create a ›documents-lap-time‹ relationship where both IDs are invalid
       Given "MAGAZINE ISSUE" "Top Gear 11_2025" does NOT exist
       And "LAP TIME" "fastest lap" does NOT exist

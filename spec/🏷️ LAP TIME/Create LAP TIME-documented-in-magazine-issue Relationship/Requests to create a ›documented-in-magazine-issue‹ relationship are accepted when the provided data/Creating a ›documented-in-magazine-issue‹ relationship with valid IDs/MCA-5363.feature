@@ -4,7 +4,7 @@ Feature: Create LAP TIME-documented-in-magazine-issue Relationship
   @RULE_MCA-5362
   Rule: Requests to create a ›documented-in-magazine-issue‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-5363
+    @TEST_MCA-5363 @implemented
     Scenario: Creating a ›documented-in-magazine-issue‹ relationship with valid IDs
       Given there exists a "LAP TIME" "fastest lap"
       And there exists a "MAGAZINE ISSUE" "Top Gear 11_2025"

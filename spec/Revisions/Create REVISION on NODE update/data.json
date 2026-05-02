@@ -1,0 +1,17 @@
+{
+  "id": "MCA-206",
+  "parent_id": "MCA-205",
+  "title": "Create REVISION on NODE update",
+  "user_story": "As a webmaster \\\nI want a copy to be created whenever a user updates a node \\\nSo I am able to restore data when it was accidentally removed or overwritten\n",
+  "description": "* a revision is automatically created whenever a node is updated (not on create, not on get, not on delete)\n* the revision stores the data as it was BEFORE the node was updated\n* the revision is created AFTER the node update was successful\n* the user is not informed about the creation of the revision, it happens transparently in the background\n* a revision can be created for all official node types (not internal node types, not revisions)\n* each revision is stored as a separate node (not within the original node)\n* each revision gets the node label REVISION (not the label of the original node) → otherwise the revision nodes would appear in all different places\n* the original node is not replaced → revisions are new nodes\n* the REVISION node stores the following:\n  * the data of the original node (all properties that are officially supported at that point in time)\n  * node\\_id, node\\_type, node\\_created\\_at, node\\_updated\\_at (original node)\n  * mc\\_id, created\\_at, updated\\_at (revision node)\n* there is no API endpoint to create revisions, they are only created internally (model layer and below)\n* revisions are not connected to each other (maybe in the future)\n  * the chain of updates can still be determined via `mc_id` + `revision_created_at`\n",
+  "api_verb": "PATCH",
+  "api_path": "/<node-type>/<node-id>",
+  "response_options": [
+    "N/A"
+  ],
+  "release_versions": [
+    "0.34.0"
+  ],
+  "created_at": "2025-06-10T12:51:03.861+0200",
+  "updated_at": "2026-05-02T14:49:19.543+0200"
+}

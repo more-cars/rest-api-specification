@@ -3,7 +3,9 @@
   "parent_id": "MCA-5407",
   "title": "Deleting the ›documents-lap-time‹ relationship when it actually exists",
   "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 11_2025\"\nAnd there exists a \"LAP TIME\" \"test lap\"\nAnd there exists a \"documents lap time\" relationship \"R\" between \"Top Gear 11_2025\" and \"test lap\"\nWhen the user deletes the \"documents lap time\" relationship between \"Top Gear 11_2025\" and \"test lap\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-04-26T10:29:54.363+0200",
-  "updated_at": "2026-04-26T10:29:57.574+0200"
+  "updated_at": "2026-05-02T14:47:02.377+0200"
 }

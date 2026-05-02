@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-documents-lap-time Relationship
   @RULE_MCA-5395
   Rule: The same ›documents-lap-time‹ relationship between the same nodes can only be created once
 
-    @TEST_MCA-5396
+    @TEST_MCA-5396 @implemented
     Scenario: Trying to create the same ›documents-lap-time‹ relationship again
       Given there exists a "MAGAZINE ISSUE" "Top Gear 11_2025"
       And there exists a "LAP TIME" "fastest lap"

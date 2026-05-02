@@ -4,7 +4,7 @@ Feature: Create MAGAZINE ISSUE-documents-lap-time Relationship
   @RULE_MCA-5397
   Rule: Each MAGAZINE ISSUE can be in a ›documents-lap-time‹ relationship with multiple LAP TIMES
 
-    @TEST_MCA-5398
+    @TEST_MCA-5398 @implemented
     Scenario: Creating multiple ›documents-lap-time‹ relationships
       Given there exists a "MAGAZINE ISSUE" "Top Gear 11_2025"
       And there exists a "LAP TIME" "fastest lap"

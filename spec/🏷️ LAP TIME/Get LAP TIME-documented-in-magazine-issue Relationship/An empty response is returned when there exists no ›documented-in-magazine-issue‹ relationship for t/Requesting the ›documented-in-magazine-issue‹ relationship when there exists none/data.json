@@ -3,7 +3,9 @@
   "parent_id": "MCA-5375",
   "title": "Requesting the ›documented-in-magazine-issue‹ relationship when there exists none",
   "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists NO \"documented in magazine issue\" relationship for \"fastest lap\"\nWhen the user requests the \"documented in magazine issue\" relationship for \"fastest lap\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-04-26T10:05:10.933+0200",
-  "updated_at": "2026-04-26T10:05:13.894+0200"
+  "updated_at": "2026-05-02T14:46:55.364+0200"
 }

@@ -7,7 +7,7 @@ Feature: Delete MAGAZINE ISSUE-documents-lap-time Relationship
   @RULE_MCA-5409
   Rule: Requests to delete the ›documents-lap-time‹ relationship are rejected when the provided data is invalid
 
-    @TEST_MCA-5410
+    @TEST_MCA-5410 @implemented
     Scenario: Trying to delete a ›documents-lap-time‹ relationship with invalid MAGAZINE ISSUE ID
       Given "MAGAZINE ISSUE" "Top Gear 11_2025" does NOT exist
       And there exists a "LAP TIME" "test lap"
