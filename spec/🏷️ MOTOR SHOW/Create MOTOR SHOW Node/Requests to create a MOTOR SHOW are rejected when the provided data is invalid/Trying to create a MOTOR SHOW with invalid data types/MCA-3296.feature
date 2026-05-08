@@ -9,13 +9,13 @@ Feature: Create MOTOR SHOW Node
 
     @TEST_MCA-3296 @implemented
     Scenario: Trying to create a MOTOR SHOW with invalid data types
-      When the user tries to create a "MOTOR SHOW" "IAA 2017" with the following data
-        | key             | value              | datatype |
-        | name            | 2017 IAA Frankfurt | boolean  |
-        | date_from       | 2017-09-14         | boolean  |
-        | date_until      | 2017-09-24         | boolean  |
-        | location        | Frankfurt          | boolean  |
-        | target_audience | international      | boolean  |
-        | focus           | new cars           | boolean  |
-        | country_code    | DE                 | boolean  |
+      When the user tries to create a "MOTOR SHOW" with the following data
+        | key             | value |
+        | name            | true  |
+        | date_from       | true  |
+        | date_until      | true  |
+        | location        | true  |
+        | target_audience | true  |
+        | focus           | true  |
+        | country_code    | true  |
       Then the request should be rejected with status code 400

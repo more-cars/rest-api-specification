@@ -9,6 +9,6 @@ Feature: Create PRICE Node
 
     @TEST_MCA-3820 @implemented
     Scenario: Trying to create a PRICE with missing mandatory information
-      When the user tries to create a "PRICE" "Base Price" with the following data
+      When the user tries to create a "PRICE" with the following data
         | key | value |
       Then the request should be rejected with status code 400

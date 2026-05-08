@@ -9,10 +9,10 @@ Feature: Create RATING Node
 
     @TEST_MCA-3078 @implemented
     Scenario: Trying to create a RATING with invalid data types
-      When the user tries to create a "RATING" "93 Percent" with the following data
-        | key             | value | datatype |
-        | rating_value    | 93    | boolean  |
-        | scale_minimum   | 0     | boolean  |
-        | scale_maximum   | 100   | boolean  |
-        | scale_direction | up    | boolean  |
+      When the user tries to create a "RATING" with the following data
+        | key             | value |
+        | rating_value    | true  |
+        | scale_minimum   | true  |
+        | scale_maximum   | true  |
+        | scale_direction | true  |
       Then the request should be rejected with status code 400

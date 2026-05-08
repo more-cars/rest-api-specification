@@ -2,7 +2,7 @@
   "id": "MCA-2043",
   "parent_id": "MCA-2042",
   "title": "Trying to create a CAR MODEL VARIANT with missing mandatory information",
-  "gherkin": "When the user tries to create a \"CAR MODEL VARIANT\" \"BMW M3\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"CAR MODEL VARIANT\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

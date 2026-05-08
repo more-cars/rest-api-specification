@@ -2,7 +2,7 @@
   "id": "MCA-2633",
   "parent_id": "MCA-2632",
   "title": "Trying to create a MAGAZINE with missing mandatory information",
-  "gherkin": "When the user tries to create a \"MAGAZINE\" \"Top Gear\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"MAGAZINE\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

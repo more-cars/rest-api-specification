@@ -2,7 +2,7 @@
   "id": "MCA-1159",
   "parent_id": "MCA-1157",
   "title": "Trying to create a RACING EVENT with invalid data types",
-  "gherkin": "When the user tries to create a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key | value | datatype |\n  | name | GP Monaco | boolean |\n  | round | 7 | boolean |\n  | date_from | 2025-05-20 | boolean |\n  | date_to | 2025-05-22 | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"RACING EVENT\" with the following data\n  | key       | value |\n  | name      | true  |\n  | round     | true  |\n  | date_from | true  |\n  | date_to   | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

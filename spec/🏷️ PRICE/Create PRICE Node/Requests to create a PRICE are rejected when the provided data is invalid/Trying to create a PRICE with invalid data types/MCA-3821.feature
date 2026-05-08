@@ -9,9 +9,9 @@ Feature: Create PRICE Node
 
     @TEST_MCA-3821 @implemented
     Scenario: Trying to create a PRICE with invalid data types
-      When the user tries to create a "PRICE" "Base Price" with the following data
-        | key           | value | datatype |
-        | price         | 59990 | boolean  |
-        | currency_code | EUR   | boolean  |
-        | country_code  | DE    | boolean  |
+      When the user tries to create a "PRICE" with the following data
+        | key           | value |
+        | price         | true  |
+        | currency_code | true  |
+        | country_code  | true  |
       Then the request should be rejected with status code 400

@@ -2,7 +2,7 @@
   "id": "MCA-3795",
   "parent_id": "MCA-3793",
   "title": "Trying to create a MODEL CAR with invalid data types",
-  "gherkin": "When the user tries to create a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key | value | datatype |\n  | name | BMW 2002 | boolean |\n  | product_code | DHX60 | boolean |\n  | release_year | 2016 | boolean |\n  | scale | 1:64 | boolean |\n  | series | BMW | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"MODEL CAR\" with the following data\n  | key          | value |\n  | name         | true  |\n  | product_code | true  |\n  | release_year | true  |\n  | scale        | true  |\n  | series       | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

@@ -9,10 +9,10 @@ Feature: Create RACING EVENT Node
 
     @TEST_MCA-1159 @implemented
     Scenario: Trying to create a RACING EVENT with invalid data types
-      When the user tries to create a "RACING EVENT" "GP Monaco" with the following data
-        | key       | value      | datatype |
-        | name      | GP Monaco  | boolean  |
-        | round     | 7          | boolean  |
-        | date_from | 2025-05-20 | boolean  |
-        | date_to   | 2025-05-22 | boolean  |
+      When the user tries to create a "RACING EVENT" with the following data
+        | key       | value |
+        | name      | true  |
+        | round     | true  |
+        | date_from | true  |
+        | date_to   | true  |
       Then the request should be rejected with status code 400

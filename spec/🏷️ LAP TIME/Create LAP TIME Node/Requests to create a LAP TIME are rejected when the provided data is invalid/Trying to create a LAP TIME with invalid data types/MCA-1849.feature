@@ -9,9 +9,9 @@ Feature: Create LAP TIME Node
 
     @TEST_MCA-1849 @implemented
     Scenario: Trying to create a LAP TIME with invalid data types
-      When the user tries to create a "LAP TIME" "AVUS record" with the following data
-        | key         | value        | datatype |
-        | time        | PT1M33.294S  | boolean  |
-        | driver_name | Klaus Ludwig | boolean  |
-        | date        | 1996-08-03   | boolean  |
+      When the user tries to create a "LAP TIME" with the following data
+        | key         | value |
+        | time        | true  |
+        | driver_name | true  |
+        | date        | true  |
       Then the request should be rejected with status code 400

@@ -2,7 +2,7 @@
   "id": "MCA-915",
   "parent_id": "MCA-913",
   "title": "Trying to create a RACE TRACK with invalid data types",
-  "gherkin": "When the user tries to create a \"RACE TRACK\" \"Lausitzring\" with the following data\n  | key | value | datatype |\n  | name | Lausitzring | boolean |\n  | opened | 2000 | boolean |\n  | closed |  | boolean |\n  | type | permanent race track | boolean |\n  | location | Klettwitz | boolean |\n  | geo_position | 51°32'0\"N 13°55'10\"E | boolean |\n  | country_code | DE                   | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"RACE TRACK\" with the following data\n  | key          | value |\n  | name         | true  |\n  | opened       | true  |\n  | closed       | true  |\n  | type         | true  |\n  | location     | true  |\n  | geo_position | true  |\n  | country_code | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

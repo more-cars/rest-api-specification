@@ -2,7 +2,7 @@
   "id": "MCA-3078",
   "parent_id": "MCA-3076",
   "title": "Trying to create a RATING with invalid data types",
-  "gherkin": "When the user tries to create a \"RATING\" \"93 Percent\" with the following data\n  | key | value | datatype |\n  | rating_value | 93 | boolean |\n  | scale_minimum | 0 | boolean |\n  | scale_maximum | 100 | boolean |\n  | scale_direction | up | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"RATING\" with the following data\n  | key             | value |\n  | rating_value    | true  |\n  | scale_minimum   | true  |\n  | scale_maximum   | true  |\n  | scale_direction | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

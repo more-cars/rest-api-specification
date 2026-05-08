@@ -9,13 +9,13 @@ Feature: Create COMPANY Node
 
     @TEST_MCA-544 @implemented
     Scenario: Trying to create a COMPANY with invalid data types
-      When the user tries to create a "COMPANY" "BMW AG" with the following data
-        | key                         | value  | datatype |
-        | name                        | BMW AG | boolean  |
-        | founded                     | 1916   | boolean  |
-        | defunct                     |        | boolean  |
-        | headquarters_location       | Munich | boolean  |
-        | hq_country_code             | DE     | boolean  |
-        | legal_headquarters_location | Munich | boolean  |
-        | legal_hq_country_code       | DE     | boolean  |
+      When the user tries to create a "COMPANY" with the following data
+        | key                         | value |
+        | name                        | true  |
+        | founded                     | true  |
+        | defunct                     | true  |
+        | headquarters_location       | true  |
+        | hq_country_code             | true  |
+        | legal_headquarters_location | true  |
+        | legal_hq_country_code       | true  |
       Then the response should return with status code 400

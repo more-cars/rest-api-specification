@@ -2,7 +2,7 @@
   "id": "MCA-4213",
   "parent_id": "MCA-4211",
   "title": "Trying to create a VIDEO with invalid data types",
-  "gherkin": "When the user tries to create a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key | value | datatype |\n  | video_provider | youtube | boolean |\n  | external_id | NqsBncRslsg | boolean |\n  | title | P1 vs F40 | boolean |\n  | description | Drag Race - P1 vs F40 | boolean |\n  | creator | Lovecars | boolean |\n  | license | youtube | boolean |\n  | tags | F40, P1 | boolean |\n  | source | https://www.youtube.com/watch?v=NqsBncRslsg | boolean |\n  | duration | PT7M24S | boolean |\n  | thumbnail_url_l | https://i.ytimg.com/vi/NqsBncRslsg/maxresdefault.jpg | boolean |\n  | thumbnail_url_m | https://i.ytimg.com/vi/NqsBncRslsg/sddefault.jpg | boolean |\n  | thumbnail_url_s | https://i.ytimg.com/vi/NqsBncRslsg/mqdefault.jpg | boolean |\n  | thumbnail_url_xs | https://i.ytimg.com/vi/NqsBncRslsg/default.jpg | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"VIDEO\" with the following data\n  | key              | value |\n  | video_provider   | true  |\n  | external_id      | true  |\n  | title            | true  |\n  | description      | true  |\n  | creator          | true  |\n  | license          | true  |\n  | tags             | true  |\n  | source           | true  |\n  | duration         | true  |\n  | thumbnail_url_l  | true  |\n  | thumbnail_url_m  | true  |\n  | thumbnail_url_s  | true  |\n  | thumbnail_url_xs | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

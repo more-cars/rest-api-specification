@@ -9,6 +9,6 @@ Feature: Create PROGRAMME Node
 
     @TEST_MCA-3269 @implemented
     Scenario: Trying to create a PROGRAMME with missing mandatory information
-      When the user tries to create a "PROGRAMME" "Top Gear" with the following data
+      When the user tries to create a "PROGRAMME" with the following data
         | key | value |
       Then the request should be rejected with status code 400

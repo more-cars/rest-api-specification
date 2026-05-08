@@ -9,14 +9,14 @@ Feature: Create MAGAZINE ISSUE Node
 
     @TEST_MCA-2719 @implemented
     Scenario: Trying to create a MAGAZINE ISSUE with invalid data types
-      When the user tries to create a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
-        | key                    | value        | datatype |
-        | title                  | Sieger-Typen | boolean  |
-        | consecutive_number     |              | boolean  |
-        | issue_number           | 11           | boolean  |
-        | issue_year             | 2025         | boolean  |
-        | release_date           | 2025-10-01   | boolean  |
-        | single_copy_price      | 5.4          | boolean  |
-        | single_copy_price_unit | €            | boolean  |
-        | pages                  | 148          | boolean  |
+      When the user tries to create a "MAGAZINE ISSUE" with the following data
+        | key                    | value |
+        | title                  | true  |
+        | consecutive_number     | true  |
+        | issue_number           | true  |
+        | issue_year             | true  |
+        | release_date           | true  |
+        | single_copy_price      | true  |
+        | single_copy_price_unit | true  |
+        | pages                  | true  |
       Then the request should be rejected with status code 400

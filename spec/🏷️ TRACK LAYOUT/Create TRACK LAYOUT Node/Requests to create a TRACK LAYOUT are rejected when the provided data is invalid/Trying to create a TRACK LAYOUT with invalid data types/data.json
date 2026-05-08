@@ -2,7 +2,7 @@
   "id": "MCA-946",
   "parent_id": "MCA-944",
   "title": "Trying to create a TRACK LAYOUT with invalid data types",
-  "gherkin": "When the user tries to create a \"TRACK LAYOUT\" \"GP Circuit\" with the following data\n  | key | value | datatype |\n  | name | GP Circuit | boolean |\n  | year_from | 1967 | boolean |\n  | year_to | 1999 | boolean |\n  | length | 5.397 | boolean |\n  | length_unit | km | boolean |\n  | direction | clockwise | boolean |\n  | elevation_change | 73 | boolean |\n  | elevation_change_unit | m | boolean |\n  | surface | asphalt | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"TRACK LAYOUT\" with the following data\n  | key                   | value |\n  | name                  | true  |\n  | year_from             | true  |\n  | year_to               | true  |\n  | length                | true  |\n  | length_unit           | true  |\n  | direction             | true  |\n  | elevation_change      | true  |\n  | elevation_change_unit | true  |\n  | surface               | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

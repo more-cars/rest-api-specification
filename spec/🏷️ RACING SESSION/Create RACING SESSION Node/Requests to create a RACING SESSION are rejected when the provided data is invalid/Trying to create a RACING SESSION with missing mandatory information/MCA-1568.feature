@@ -9,6 +9,6 @@ Feature: Create RACING SESSION Node
 
     @TEST_MCA-1568 @implemented
     Scenario: Trying to create a RACING SESSION with missing mandatory information
-      When the user tries to create a "RACING SESSION" "Grand Prix" with the following data
+      When the user tries to create a "RACING SESSION" with the following data
         | key | value |
       Then the request should be rejected with status code 400

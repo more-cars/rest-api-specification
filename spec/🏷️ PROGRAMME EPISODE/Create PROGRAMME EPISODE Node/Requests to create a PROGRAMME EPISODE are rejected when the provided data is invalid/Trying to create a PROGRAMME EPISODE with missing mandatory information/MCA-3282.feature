@@ -9,6 +9,6 @@ Feature: Create PROGRAMME EPISODE Node
 
     @TEST_MCA-3282 @implemented
     Scenario: Trying to create a PROGRAMME EPISODE with missing mandatory information
-      When the user tries to create a "PROGRAMME EPISODE" "Polar Special" with the following data
+      When the user tries to create a "PROGRAMME EPISODE" with the following data
         | key | value |
       Then the request should be rejected with status code 400

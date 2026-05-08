@@ -2,7 +2,7 @@
   "id": "MCA-3807",
   "parent_id": "MCA-3806",
   "title": "Trying to create a MODEL CAR BRAND with missing mandatory information",
-  "gherkin": "When the user tries to create a \"MODEL CAR BRAND\" \"Hot Wheels\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"MODEL CAR BRAND\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

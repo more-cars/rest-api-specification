@@ -2,7 +2,7 @@
   "id": "MCA-2303",
   "parent_id": "MCA-2301",
   "title": "Trying to create a RACING GAME with invalid data types",
-  "gherkin": "When the user tries to create a \"RACING GAME\" \"F1 2025\" with the following data\n  | key | value | datatype |\n  | name | Forza Motorsport 7 | boolean |\n  | release_year | 2017 | boolean |\n  | developer | Turn 10 Studios | boolean |\n  | publisher | Microsoft Studios | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"RACING GAME\" with the following data\n  | key          | value |\n  | name         | true  |\n  | release_year | true  |\n  | developer    | true  |\n  | publisher    | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

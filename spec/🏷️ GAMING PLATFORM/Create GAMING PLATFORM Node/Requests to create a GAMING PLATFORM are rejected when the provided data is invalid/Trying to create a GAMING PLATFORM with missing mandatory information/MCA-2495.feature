@@ -9,6 +9,6 @@ Feature: Create GAMING PLATFORM Node
 
     @TEST_MCA-2495 @implemented
     Scenario: Trying to create a GAMING PLATFORM with missing mandatory information
-      When the user tries to create a "GAMING PLATFORM" "PlayStation 5" with the following data
+      When the user tries to create a "GAMING PLATFORM" with the following data
         | key | value |
       Then the request should be rejected with status code 400

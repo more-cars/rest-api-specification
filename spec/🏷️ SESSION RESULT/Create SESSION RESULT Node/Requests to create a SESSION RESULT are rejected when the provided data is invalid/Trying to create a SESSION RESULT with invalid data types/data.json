@@ -2,7 +2,7 @@
   "id": "MCA-1738",
   "parent_id": "MCA-1736",
   "title": "Trying to create a SESSION RESULT with invalid data types",
-  "gherkin": "When the user tries to create a \"SESSION RESULT\" \"1st place\" with the following data\n  | key | value | datatype |\n  | position | 1 | boolean |\n  | race_number | 44 | boolean |\n  | driver_name | Lewis Hamilton | boolean |\n  | team_name | Mercedes | boolean |\n  | race_time | PT1H23M45.678S | boolean |\n  | laps | 51 | boolean |\n  | status | finished | boolean |\n  | points | 25 | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"SESSION RESULT\" with the following data\n  | key         | value |\n  | position    | true  |\n  | race_number | true  |\n  | driver_name | true  |\n  | team_name   | true  |\n  | race_time   | true  |\n  | laps        | true  |\n  | status      | true  |\n  | points      | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

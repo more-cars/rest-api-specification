@@ -2,7 +2,7 @@
   "id": "MCA-544",
   "parent_id": "MCA-542",
   "title": "Trying to create a COMPANY with invalid data types",
-  "gherkin": "When the user tries to create a \"COMPANY\" \"BMW AG\" with the following data\n  | key | value | datatype |\n  | name | BMW AG | boolean |\n  | founded | 1916 | boolean |\n  | defunct |  | boolean |\n  | headquarters_location | Munich | boolean |\n  | hq_country_code             | DE         | boolean   |\n  | legal_headquarters_location | Munich | boolean |\n  | legal_hq_country_code             | DE         | boolean   |\nThen the response should return with status code 400",
+  "gherkin": "When the user tries to create a \"COMPANY\" with the following data\n  | key                         | value |\n  | name                        | true  |\n  | founded                     | true  |\n  | defunct                     | true  |\n  | headquarters_location       | true  |\n  | hq_country_code             | true  |\n  | legal_headquarters_location | true  |\n  | legal_hq_country_code       | true  |\nThen the response should return with status code 400",
   "labels": [
     "implemented"
   ],

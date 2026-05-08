@@ -9,13 +9,13 @@ Feature: Create RACING SESSION Node
 
     @TEST_MCA-1569 @implemented
     Scenario: Trying to create a RACING SESSION with invalid data types
-      When the user tries to create a "RACING SESSION" "Grand Prix" with the following data
-        | key           | value      | datatype |
-        | name          | Grand Prix | boolean  |
-        | start_date    | 2025-05-25 | boolean  |
-        | start_time    | 15:00      | boolean  |
-        | duration      | 120        | boolean  |
-        | duration_unit | min        | boolean  |
-        | distance      | 61         | boolean  |
-        | distance_unit | laps       | boolean  |
+      When the user tries to create a "RACING SESSION" with the following data
+        | key           | value |
+        | name          | true  |
+        | start_date    | true  |
+        | start_time    | true  |
+        | duration      | true  |
+        | duration_unit | true  |
+        | distance      | true  |
+        | distance_unit | true  |
       Then the request should be rejected with status code 400

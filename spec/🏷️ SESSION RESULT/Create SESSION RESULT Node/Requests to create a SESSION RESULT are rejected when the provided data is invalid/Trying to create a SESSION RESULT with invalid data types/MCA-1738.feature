@@ -9,14 +9,14 @@ Feature: Create SESSION RESULT Node
 
     @TEST_MCA-1738 @implemented
     Scenario: Trying to create a SESSION RESULT with invalid data types
-      When the user tries to create a "SESSION RESULT" "1st place" with the following data
-        | key         | value          | datatype |
-        | position    | 1              | boolean  |
-        | race_number | 44             | boolean  |
-        | driver_name | Lewis Hamilton | boolean  |
-        | team_name   | Mercedes       | boolean  |
-        | race_time   | PT1H23M45.678S | boolean  |
-        | laps        | 51             | boolean  |
-        | status      | finished       | boolean  |
-        | points      | 25             | boolean  |
+      When the user tries to create a "SESSION RESULT" with the following data
+        | key         | value |
+        | position    | true  |
+        | race_number | true  |
+        | driver_name | true  |
+        | team_name   | true  |
+        | race_time   | true  |
+        | laps        | true  |
+        | status      | true  |
+        | points      | true  |
       Then the request should be rejected with status code 400

@@ -2,7 +2,7 @@
   "id": "MCA-1569",
   "parent_id": "MCA-1567",
   "title": "Trying to create a RACING SESSION with invalid data types",
-  "gherkin": "When the user tries to create a \"RACING SESSION\" \"Grand Prix\" with the following data\n  | key | value | datatype |\n  | name | Grand Prix | boolean |\n  | start_date | 2025-05-25 | boolean |\n  | start_time | 15:00 | boolean |\n  | duration | 120 | boolean |\n  | duration_unit | min | boolean |\n  | distance | 61 | boolean |\n  | distance_unit | laps | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"RACING SESSION\" with the following data\n  | key           | value |\n  | name          | true  |\n  | start_date    | true  |\n  | start_time    | true  |\n  | duration      | true  |\n  | duration_unit | true  |\n  | distance      | true  |\n  | distance_unit | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

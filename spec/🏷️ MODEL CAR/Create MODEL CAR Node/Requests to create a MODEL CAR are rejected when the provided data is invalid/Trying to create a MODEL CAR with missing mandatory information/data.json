@@ -2,7 +2,7 @@
   "id": "MCA-3794",
   "parent_id": "MCA-3793",
   "title": "Trying to create a MODEL CAR with missing mandatory information",
-  "gherkin": "When the user tries to create a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key | value | \nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"MODEL CAR\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

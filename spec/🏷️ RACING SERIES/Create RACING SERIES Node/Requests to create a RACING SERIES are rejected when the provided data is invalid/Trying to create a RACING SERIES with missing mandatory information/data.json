@@ -2,7 +2,7 @@
   "id": "MCA-1145",
   "parent_id": "MCA-1144",
   "title": "Trying to create a RACING SERIES with missing mandatory information",
-  "gherkin": "When the user tries to create a \"RACING SERIES\" \"DTM\" with the following data\n  | key | value | \nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"RACING SERIES\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

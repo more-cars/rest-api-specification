@@ -2,7 +2,7 @@
   "id": "MCA-1849",
   "parent_id": "MCA-1847",
   "title": "Trying to create a LAP TIME with invalid data types",
-  "gherkin": "When the user tries to create a \"LAP TIME\" \"AVUS record\" with the following data\n  | key | value | datatype |\n  | time | PT1M33.294S | boolean |\n  | driver_name | Klaus Ludwig | boolean |\n  | date | 1996-08-03 | boolean |\nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"LAP TIME\" with the following data\n  | key         | value |\n  | time        | true  |\n  | driver_name | true  |\n  | date        | true  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

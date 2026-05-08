@@ -2,7 +2,7 @@
   "id": "MCA-4212",
   "parent_id": "MCA-4211",
   "title": "Trying to create a VIDEO with missing mandatory information",
-  "gherkin": "When the user tries to create a \"VIDEO\" \"P1 vs F40\" with the following data\n  | key | value | \nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"VIDEO\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

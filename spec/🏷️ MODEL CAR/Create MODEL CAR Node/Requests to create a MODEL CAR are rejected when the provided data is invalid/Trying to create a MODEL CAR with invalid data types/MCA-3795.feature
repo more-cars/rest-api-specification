@@ -9,11 +9,11 @@ Feature: Create MODEL CAR Node
 
     @TEST_MCA-3795 @implemented
     Scenario: Trying to create a MODEL CAR with invalid data types
-      When the user tries to create a "MODEL CAR" "F40 Matchbox" with the following data
-        | key          | value    | datatype |
-        | name         | BMW 2002 | boolean  |
-        | product_code | DHX60    | boolean  |
-        | release_year | 2016     | boolean  |
-        | scale        | 1:64     | boolean  |
-        | series       | BMW      | boolean  |
+      When the user tries to create a "MODEL CAR" with the following data
+        | key          | value |
+        | name         | true  |
+        | product_code | true  |
+        | release_year | true  |
+        | scale        | true  |
+        | series       | true  |
       Then the request should be rejected with status code 400

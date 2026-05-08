@@ -9,14 +9,14 @@ Feature: Create PROGRAMME Node
 
     @TEST_MCA-3270 @implemented
     Scenario: Trying to create a PROGRAMME with invalid data types
-      When the user tries to create a "PROGRAMME" "Top Gear" with the following data
-        | key                          | value    | datatype |
-        | name                         | Top Gear | boolean  |
-        | aired_from_year              | 2002     | boolean  |
-        | aired_until_year             | 2022     | boolean  |
-        | channel                      | BBC Two  | boolean  |
-        | total_seasons                | 33       | boolean  |
-        | total_episodes               | 240      | boolean  |
-        | regular_episode_running_time | PT60M    | boolean  |
-        | country_code                 | GB       | boolean  |
+      When the user tries to create a "PROGRAMME" with the following data
+        | key                          | value |
+        | name                         | true  |
+        | aired_from_year              | true  |
+        | aired_until_year             | true  |
+        | channel                      | true  |
+        | total_seasons                | true  |
+        | total_episodes               | true  |
+        | regular_episode_running_time | true  |
+        | country_code                 | true  |
       Then the request should be rejected with status code 400

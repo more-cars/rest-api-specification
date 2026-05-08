@@ -9,11 +9,11 @@ Feature: Create PROGRAMME EPISODE Node
 
     @TEST_MCA-3283 @implemented
     Scenario: Trying to create a PROGRAMME EPISODE with invalid data types
-      When the user tries to create a "PROGRAMME EPISODE" "Polar Special" with the following data
-        | key                   | value          | datatype |
-        | title                 | The Falls Guys | boolean  |
-        | season_number         | 2              | boolean  |
-        | season_episode_number | 2              | boolean  |
-        | original_air_date     | 2017-12-08     | boolean  |
-        | duration              | PT55M          | boolean  |
+      When the user tries to create a "PROGRAMME EPISODE" with the following data
+        | key                   | value |
+        | title                 | true  |
+        | season_number         | true  |
+        | season_episode_number | true  |
+        | original_air_date     | true  |
+        | duration              | true  |
       Then the request should be rejected with status code 400

@@ -9,19 +9,19 @@ Feature: Create VIDEO Node
 
     @TEST_MCA-4213 @implemented
     Scenario: Trying to create a VIDEO with invalid data types
-      When the user tries to create a "VIDEO" "P1 vs F40" with the following data
-        | key              | value                                                | datatype |
-        | video_provider   | youtube                                              | boolean  |
-        | external_id      | NqsBncRslsg                                          | boolean  |
-        | title            | P1 vs F40                                            | boolean  |
-        | description      | Drag Race - P1 vs F40                                | boolean  |
-        | creator          | Lovecars                                             | boolean  |
-        | license          | youtube                                              | boolean  |
-        | tags             | F40, P1                                              | boolean  |
-        | source           | https://www.youtube.com/watch?v=NqsBncRslsg          | boolean  |
-        | duration         | PT7M24S                                              | boolean  |
-        | thumbnail_url_l  | https://i.ytimg.com/vi/NqsBncRslsg/maxresdefault.jpg | boolean  |
-        | thumbnail_url_m  | https://i.ytimg.com/vi/NqsBncRslsg/sddefault.jpg     | boolean  |
-        | thumbnail_url_s  | https://i.ytimg.com/vi/NqsBncRslsg/mqdefault.jpg     | boolean  |
-        | thumbnail_url_xs | https://i.ytimg.com/vi/NqsBncRslsg/default.jpg       | boolean  |
+      When the user tries to create a "VIDEO" with the following data
+        | key              | value |
+        | video_provider   | true  |
+        | external_id      | true  |
+        | title            | true  |
+        | description      | true  |
+        | creator          | true  |
+        | license          | true  |
+        | tags             | true  |
+        | source           | true  |
+        | duration         | true  |
+        | thumbnail_url_l  | true  |
+        | thumbnail_url_m  | true  |
+        | thumbnail_url_s  | true  |
+        | thumbnail_url_xs | true  |
       Then the request should be rejected with status code 400

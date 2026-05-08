@@ -9,9 +9,9 @@ Feature: Create GAMING PLATFORM Node
 
     @TEST_MCA-2496 @implemented
     Scenario: Trying to create a GAMING PLATFORM with invalid data types
-      When the user tries to create a "GAMING PLATFORM" "PlayStation 5" with the following data
-        | key          | value         |
-        | name         | PlayStation 5 |
-        | release_year | 2020          |
-        | manufacturer | Sony          |
+      When the user tries to create a "GAMING PLATFORM" with the following data
+        | key          | value |
+        | name         | true  |
+        | release_year | true  |
+        | manufacturer | true  |
       Then the request should be rejected with status code 400

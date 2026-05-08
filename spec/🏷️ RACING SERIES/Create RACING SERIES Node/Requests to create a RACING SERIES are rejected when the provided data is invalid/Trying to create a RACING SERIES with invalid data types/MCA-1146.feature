@@ -9,13 +9,13 @@ Feature: Create RACING SERIES Node
 
     @TEST_MCA-1146 @implemented
     Scenario: Trying to create a RACING SERIES with invalid data types
-      When the user tries to create a "RACING SERIES" "DTM" with the following data
-        | key          | value                        | datatype |
-        | name         | Deutsche Tourenwagen-Masters | boolean  |
-        | short_name   | DTM                          | boolean  |
-        | founded      | 2000                         | boolean  |
-        | defunct      |                              | boolean  |
-        | organized_by | ITR                          | boolean  |
-        | vehicle_type | touring cars                 | boolean  |
-        | country_code | US                           | boolean  |
+      When the user tries to create a "RACING SERIES" with the following data
+        | key          | value |
+        | name         | true  |
+        | short_name   | true  |
+        | founded      | true  |
+        | defunct      | true  |
+        | organized_by | true  |
+        | vehicle_type | true  |
+        | country_code | true  |
       Then the request should be rejected with status code 400

@@ -2,7 +2,7 @@
   "id": "MCA-3295",
   "parent_id": "MCA-3294",
   "title": "Trying to create a MOTOR SHOW with missing mandatory information",
-  "gherkin": "When the user tries to create a \"MOTOR SHOW\" \"IAA 2017\" with the following data\n  | key | value | \nThen the request should be rejected with status code 400",
+  "gherkin": "When the user tries to create a \"MOTOR SHOW\" with the following data\n  | key | value |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

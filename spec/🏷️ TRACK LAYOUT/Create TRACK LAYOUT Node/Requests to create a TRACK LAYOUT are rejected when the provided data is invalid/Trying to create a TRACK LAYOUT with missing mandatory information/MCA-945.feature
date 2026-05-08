@@ -9,6 +9,6 @@ Feature: Create TRACK LAYOUT Node
 
     @TEST_MCA-945 @implemented
     Scenario: Trying to create a TRACK LAYOUT with missing mandatory information
-      When the user tries to create a "TRACK LAYOUT" "GP Circuit" with the following data
+      When the user tries to create a "TRACK LAYOUT" with the following data
         | key | value |
       Then the request should be rejected with status code 400

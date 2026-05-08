@@ -9,13 +9,13 @@ Feature: Create RACE TRACK Node
 
     @TEST_MCA-915 @implemented
     Scenario: Trying to create a RACE TRACK with invalid data types
-      When the user tries to create a "RACE TRACK" "Lausitzring" with the following data
-        | key          | value                | datatype |
-        | name         | Lausitzring          | boolean  |
-        | opened       | 2000                 | boolean  |
-        | closed       |                      | boolean  |
-        | type         | permanent race track | boolean  |
-        | location     | Klettwitz            | boolean  |
-        | geo_position | 51°32'0"N 13°55'10"E | boolean  |
-        | country_code | DE                   | boolean  |
+      When the user tries to create a "RACE TRACK" with the following data
+        | key          | value |
+        | name         | true  |
+        | opened       | true  |
+        | closed       | true  |
+        | type         | true  |
+        | location     | true  |
+        | geo_position | true  |
+        | country_code | true  |
       Then the request should be rejected with status code 400

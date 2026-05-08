@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5428",
+  "parent_id": "MCA-5421",
+  "title": "Requests to update a COMPANY are rejected when the provided data is invalid",
+  "description": "Data is invalid when its structure is incorrect or has syntax errors. Mandatory fields may not not deleted (via null value).\n",
+  "release_version": "0.35.0",
+  "created_at": "2026-05-04T16:16:06.650+0200",
+  "updated_at": "2026-05-07T09:47:35.378+0200"
+}

@@ -9,15 +9,15 @@ Feature: Create TRACK LAYOUT Node
 
     @TEST_MCA-946 @implemented
     Scenario: Trying to create a TRACK LAYOUT with invalid data types
-      When the user tries to create a "TRACK LAYOUT" "GP Circuit" with the following data
-        | key                   | value      | datatype |
-        | name                  | GP Circuit | boolean  |
-        | year_from             | 1967       | boolean  |
-        | year_to               | 1999       | boolean  |
-        | length                | 5.397      | boolean  |
-        | length_unit           | km         | boolean  |
-        | direction             | clockwise  | boolean  |
-        | elevation_change      | 73         | boolean  |
-        | elevation_change_unit | m          | boolean  |
-        | surface               | asphalt    | boolean  |
+      When the user tries to create a "TRACK LAYOUT" with the following data
+        | key                   | value |
+        | name                  | true  |
+        | year_from             | true  |
+        | year_to               | true  |
+        | length                | true  |
+        | length_unit           | true  |
+        | direction             | true  |
+        | elevation_change      | true  |
+        | elevation_change_unit | true  |
+        | surface               | true  |
       Then the request should be rejected with status code 400

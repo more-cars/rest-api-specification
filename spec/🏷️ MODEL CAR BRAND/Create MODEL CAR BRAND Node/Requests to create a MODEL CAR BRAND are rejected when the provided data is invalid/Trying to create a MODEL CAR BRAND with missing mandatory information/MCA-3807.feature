@@ -9,6 +9,6 @@ Feature: Create MODEL CAR BRAND Node
 
     @TEST_MCA-3807 @implemented
     Scenario: Trying to create a MODEL CAR BRAND with missing mandatory information
-      When the user tries to create a "MODEL CAR BRAND" "Hot Wheels" with the following data
+      When the user tries to create a "MODEL CAR BRAND" with the following data
         | key | value |
       Then the request should be rejected with status code 400
