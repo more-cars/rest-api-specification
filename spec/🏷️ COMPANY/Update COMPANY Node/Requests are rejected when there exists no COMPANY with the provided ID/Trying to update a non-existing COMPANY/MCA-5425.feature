@@ -7,7 +7,7 @@ Feature: Update COMPANY Node
   @RULE_MCA-5424
   Rule: Requests are rejected when there exists no COMPANY with the provided ID
 
-    @TEST_MCA-5425
+    @TEST_MCA-5425 @implemented
     Scenario: Trying to update a non-existing COMPANY
       Given "COMPANY" "BMW AG" does NOT exist
       When the user updates the node "BMW AG"

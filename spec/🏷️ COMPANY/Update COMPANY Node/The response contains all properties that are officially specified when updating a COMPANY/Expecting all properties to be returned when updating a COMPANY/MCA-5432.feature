@@ -7,7 +7,7 @@ Feature: Update COMPANY Node
   @RULE_MCA-5431
   Rule: The response contains all properties that are officially specified when updating a COMPANY
 
-    @TEST_MCA-5432
+    @TEST_MCA-5432 @implemented
     Scenario: Expecting all properties to be returned when updating a COMPANY
       Given there exists a "COMPANY" "BMW AG"
       When the user updates the node "BMW AG" with the following data
@@ -16,9 +16,9 @@ Feature: Update COMPANY Node
         | founded                     | 1918     |
         | defunct                     |          |
         | headquarters_location       | Munich_2 |
-        | hq_country_code             | DE_2     |
+        | hq_country_code             | AT       |
         | legal_headquarters_location | Munich_2 |
-        | legal_hq_country_code       | DE_2     |
+        | legal_hq_country_code       | AT       |
       Then the request should be confirmed with status code 201
       And the response should contain the following properties
         | key                         | value    |
@@ -26,6 +26,6 @@ Feature: Update COMPANY Node
         | founded                     | 1918     |
         | defunct                     |          |
         | headquarters_location       | Munich_2 |
-        | hq_country_code             | DE_2     |
+        | hq_country_code             | AT       |
         | legal_headquarters_location | Munich_2 |
-        | legal_hq_country_code       | DE_2     |
+        | legal_hq_country_code       | AT       |

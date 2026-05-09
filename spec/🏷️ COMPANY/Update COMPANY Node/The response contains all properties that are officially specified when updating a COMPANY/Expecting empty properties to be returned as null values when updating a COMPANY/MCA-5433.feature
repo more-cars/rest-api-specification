@@ -7,7 +7,7 @@ Feature: Update COMPANY Node
   @RULE_MCA-5431
   Rule: The response contains all properties that are officially specified when updating a COMPANY
 
-    @TEST_MCA-5433
+    @TEST_MCA-5433 @implemented
     Scenario: Expecting empty properties to be returned as null values when updating a COMPANY
       Given there exists a "COMPANY" "BMW AG"
       When the user updates the node "BMW AG" with the following data

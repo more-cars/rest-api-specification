@@ -7,7 +7,7 @@ Feature: Update COMPANY Node
   @RULE_MCA-5436
   Rule: Read-only properties cannot be overridden by the user when updating a COMPANY
 
-    @TEST_MCA-5437
+    @TEST_MCA-5437 @implemented
     Scenario: Expecting read-only properties to be ignored when updating a COMPANY
       Given there exists a "COMPANY" "BMW AG"
       When the user updates the node "BMW AG" with the following data

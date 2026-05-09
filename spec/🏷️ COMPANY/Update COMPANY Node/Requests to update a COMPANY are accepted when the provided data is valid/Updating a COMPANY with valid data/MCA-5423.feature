@@ -7,7 +7,7 @@ Feature: Update COMPANY Node
   @RULE_MCA-5422
   Rule: Requests to update a COMPANY are accepted when the provided data is valid
 
-    @TEST_MCA-5423
+    @TEST_MCA-5423 @implemented
     Scenario: Updating a COMPANY with valid data
       Given there exists a "COMPANY" "BMW AG"
       When the user updates the node "BMW AG" with the following data
@@ -16,7 +16,7 @@ Feature: Update COMPANY Node
         | founded                     | 1918     |
         | defunct                     |          |
         | headquarters_location       | Munich_2 |
-        | hq_country_code             | DE_2     |
+        | hq_country_code             | AT       |
         | legal_headquarters_location | Munich_2 |
-        | legal_hq_country_code       | DE_2     |
+        | legal_hq_country_code       | AT       |
       Then the request should be confirmed with status code 201

@@ -3,7 +3,9 @@
   "parent_id": "MCA-5436",
   "title": "Expecting read-only properties to be ignored when updating a COMPANY",
   "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nWhen the user updates the node \"BMW AG\" with the following data\n  | key        | value      |\n  | id         | 1234       |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-05-04T16:16:42.995+0200",
-  "updated_at": "2026-05-04T16:16:46.980+0200"
+  "updated_at": "2026-05-09T11:12:09.805+0200"
 }

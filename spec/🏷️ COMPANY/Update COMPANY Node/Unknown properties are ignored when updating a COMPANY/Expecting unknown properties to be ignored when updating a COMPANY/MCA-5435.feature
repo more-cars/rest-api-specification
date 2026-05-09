@@ -7,7 +7,7 @@ Feature: Update COMPANY Node
   @RULE_MCA-5434
   Rule: Unknown properties are ignored when updating a COMPANY
 
-    @TEST_MCA-5435
+    @TEST_MCA-5435 @implemented
     Scenario: Expecting unknown properties to be ignored when updating a COMPANY
       Given there exists a "COMPANY" "BMW AG"
       When the user updates the node "BMW AG" with the following data

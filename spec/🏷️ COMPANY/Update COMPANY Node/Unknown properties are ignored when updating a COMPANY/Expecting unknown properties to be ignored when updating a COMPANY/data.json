@@ -3,7 +3,9 @@
   "parent_id": "MCA-5434",
   "title": "Expecting unknown properties to be ignored when updating a COMPANY",
   "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nWhen the user updates the node \"BMW AG\" with the following data\n  | key | value |\n  | thimbleweed | park |\nThen the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-05-04T16:16:35.294+0200",
-  "updated_at": "2026-05-04T16:16:39.430+0200"
+  "updated_at": "2026-05-09T11:22:37.254+0200"
 }

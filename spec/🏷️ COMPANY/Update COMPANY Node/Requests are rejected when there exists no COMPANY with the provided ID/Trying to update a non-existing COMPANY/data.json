@@ -3,7 +3,9 @@
   "parent_id": "MCA-5424",
   "title": "Trying to update a non-existing COMPANY",
   "gherkin": "Given \"COMPANY\" \"BMW AG\" does NOT exist\nWhen the user updates the node \"BMW AG\"\nThen the request should be rejected with status code 404",
-  "labels": [],
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-05-04T16:15:52.188+0200",
-  "updated_at": "2026-05-04T16:15:56.460+0200"
+  "updated_at": "2026-05-09T11:37:18.354+0200"
 }

@@ -2,8 +2,10 @@
   "id": "MCA-5423",
   "parent_id": "MCA-5422",
   "title": "Updating a COMPANY with valid data",
-  "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nWhen the user updates the node \"BMW AG\" with the following data\n  | key | value |\n  | name | BMW AG_2 |\n  | founded | 1918 |\n  | defunct |  |\n  | headquarters_location | Munich_2 |\n  | hq_country_code | DE_2 |\n  | legal_headquarters_location | Munich_2 |\n  | legal_hq_country_code | DE_2 |\nThen the request should be confirmed with status code 201",
-  "labels": [],
+  "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nWhen the user updates the node \"BMW AG\" with the following data\n  | key                         | value    |\n  | name                        | BMW AG_2 |\n  | founded                     | 1918     |\n  | defunct                     |          |\n  | headquarters_location       | Munich_2 |\n  | hq_country_code             | AT       |\n  | legal_headquarters_location | Munich_2 |\n  | legal_hq_country_code       | AT       |\nThen the request should be confirmed with status code 201",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2026-05-04T16:15:44.891+0200",
-  "updated_at": "2026-05-04T16:15:49.218+0200"
+  "updated_at": "2026-05-09T11:21:24.071+0200"
 }

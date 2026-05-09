@@ -7,16 +7,16 @@ Feature: Update COMPANY Node
   @RULE_MCA-5428
   Rule: Requests to update a COMPANY are rejected when the provided data is invalid
 
-    @TEST_MCA-5430
-    Scenario: Trying to update a COMPANY with invalid data types
-      Given there exists a "COMPANY" "BMW AG"
-      When the user tries to update the node "BMW AG" with the following data
-        | key                         | value |
-        | name                        | 1234  |
-        | founded                     | TEST  |
-        | defunct                     | TEST  |
-        | headquarters_location       | 1234  |
-        | hq_country_code             | 1234  |
-        | legal_headquarters_location | 1234  |
-        | legal_hq_country_code       | 1234  |
-      Then the request should be rejected with status code 400
+  @TEST_MCA-5430 @implemented
+  Scenario: Trying to update a COMPANY with invalid data types
+    Given there exists a "COMPANY" "BMW AG"
+    When the user updates the node "BMW AG" with the following data
+      | key                         | value |
+      | name                        | 1234  |
+      | founded                     | TEST  |
+      | defunct                     | TEST  |
+      | headquarters_location       | 1234  |
+      | hq_country_code             | 1234  |
+      | legal_headquarters_location | 1234  |
+      | legal_hq_country_code       | 1234  |
+    Then the request should be rejected with status code 400

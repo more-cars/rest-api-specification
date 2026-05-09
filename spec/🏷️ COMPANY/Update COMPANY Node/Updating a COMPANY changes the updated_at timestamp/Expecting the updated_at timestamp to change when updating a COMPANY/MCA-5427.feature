@@ -7,7 +7,7 @@ Feature: Update COMPANY Node
   @RULE_MCA-5426
   Rule: Updating a COMPANY changes the updated_at timestamp
 
-    @TEST_MCA-5427
+    @TEST_MCA-5427 @implemented
     Scenario: Expecting the updated_at timestamp to change when updating a COMPANY
       Given there exists a "COMPANY" "BMW AG"
       When the user updates the node "BMW AG"
