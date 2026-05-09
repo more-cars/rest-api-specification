@@ -2,7 +2,7 @@
   "id": "MCA-5430",
   "parent_id": "MCA-5428",
   "title": "Trying to update a COMPANY with invalid data types",
-  "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nWhen the user tries to update the node \"BMW AG\" with the following data\n  | key | value |\n  | name | 1234 |\n  | founded | TEST |\n  | defunct | TEST |\n  | headquarters_location | 1234 |\n  | hq_country_code | 1234 |\n  | legal_headquarters_location | 1234 |\n  | legal_hq_country_code | 1234 |\nThen the request should be rejected with status code 400",
+  "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nWhen the user updates the node \"BMW AG\" with the following data\n  | key                         | value |\n  | name                        | 1234  |\n  | founded                     | TEST  |\n  | defunct                     | TEST  |\n  | headquarters_location       | 1234  |\n  | hq_country_code             | 1234  |\n  | legal_headquarters_location | 1234  |\n  | legal_hq_country_code       | 1234  |\nThen the request should be rejected with status code 400",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCA-1735",
   "parent_id": "MCA-1734",
   "title": "Creating a SESSION RESULT with valid data",
-  "gherkin": "When the user creates a \"SESSION RESULT\" \"1st place\" with the following data\n  | key         | value          |\n  | position    | 1              |\n  | race_number | 44             |\n  | driver_name | Lewis Hamilton |\n  | team_name   | Mercedes       |\n  | race_time   | PT1H23M45.678S |\n  | laps        | 51             |\n  | status      | finished       |\n  | points      | 25             |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"SESSION RESULT\" \"1st place\"",
+  "gherkin": "When the user creates a \"SESSION RESULT\" \"1st place\" with the following data\n  | key         | value          |\n  | position    | 1              |\n  | race_number | #44             |\n  | driver_name | Lewis Hamilton |\n  | team_name   | Mercedes       |\n  | race_time   | PT1H23M45.678S |\n  | laps        | 51             |\n  | status      | finished       |\n  | points      | 25             |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"SESSION RESULT\" \"1st place\"",
   "labels": [
     "implemented"
   ],

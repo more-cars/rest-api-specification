@@ -16,7 +16,7 @@ Feature: Create BRAND Node
         | founded      | 1916            |
         | defunct      | 1966            |
         | wmi          |                 |
-        | hsn          | 0010            |
+        | hsn          | A010            |
         | country_code | DE              |
       Then the response should contain the following data
         | key          | value           |
@@ -25,5 +25,5 @@ Feature: Create BRAND Node
         | founded      | 1916            |
         | defunct      | 1966            |
         | wmi          |                 |
-        | hsn          | 0010            |
+        | hsn          | A010            |
         | country_code | DE              |

@@ -16,7 +16,7 @@ Feature: Create BRAND Node
         | founded      | 1916            |
         | defunct      | 1966            |
         | wmi          |                 |
-        | hsn          | 0010            |
+        | hsn          | A010            |
         | country_code | DE              |
       Then the request should be confirmed with status code 201
       And the response should return the "BRAND" "DKW"
