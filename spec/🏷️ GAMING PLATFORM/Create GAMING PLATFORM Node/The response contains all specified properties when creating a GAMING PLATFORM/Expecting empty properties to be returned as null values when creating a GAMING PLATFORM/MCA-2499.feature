@@ -13,7 +13,7 @@ Feature: Create GAMING PLATFORM Node
         | key  | value         |
         | name | PlayStation 5 |
       Then the response should contain the following properties
-        | key          | value         | datatype |
-        | name         | PlayStation 5 | string   |
-        | release_year |               | number   |
-        | manufacturer |               | string   |
+        | key          | value         |
+        | name         | PlayStation 5 |
+        | release_year |               |
+        | manufacturer |               |

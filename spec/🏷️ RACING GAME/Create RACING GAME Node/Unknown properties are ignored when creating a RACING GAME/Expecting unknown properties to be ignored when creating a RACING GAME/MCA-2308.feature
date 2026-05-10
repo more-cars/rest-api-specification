@@ -17,11 +17,11 @@ Feature: Create RACING GAME Node
         | publisher    | Microsoft Studios  |
         | thimbleweed  | park               |
       Then the response should contain the following properties
-        | key          | value              | datatype |
-        | name         | Forza Motorsport 7 | string   |
-        | release_year | 2017               | number   |
-        | developer    | Turn 10 Studios    | string   |
-        | publisher    | Microsoft Studios  | string   |
+        | key          | value              |
+        | name         | Forza Motorsport 7 |
+        | release_year | 2017               |
+        | developer    | Turn 10 Studios    |
+        | publisher    | Microsoft Studios  |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

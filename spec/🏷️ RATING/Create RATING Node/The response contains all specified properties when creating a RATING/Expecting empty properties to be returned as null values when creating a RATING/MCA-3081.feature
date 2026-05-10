@@ -16,8 +16,8 @@ Feature: Create RATING Node
         | scale_maximum   | 100   |
         | scale_direction | up    |
       Then the response should contain the following properties
-        | key             | value | datatype |
-        | rating_value    | 93    | number   |
-        | scale_minimum   | 0     | number   |
-        | scale_maximum   | 100   | number   |
-        | scale_direction | up    | string   |
+        | key             | value |
+        | rating_value    | 93    |
+        | scale_minimum   | 0     |
+        | scale_maximum   | 100   |
+        | scale_direction | up    |

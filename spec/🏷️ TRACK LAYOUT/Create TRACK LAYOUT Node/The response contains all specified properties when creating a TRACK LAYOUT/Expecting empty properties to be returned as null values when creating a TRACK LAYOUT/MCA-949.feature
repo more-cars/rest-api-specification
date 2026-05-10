@@ -13,13 +13,13 @@ Feature: Create TRACK LAYOUT Node
         | key  | value      |
         | name | GP Circuit |
       Then the response should contain the following properties
-        | key                   | value      | datatype |
-        | name                  | GP Circuit | string   |
-        | year_from             |            | number   |
-        | year_to               |            | number   |
-        | length                |            | number   |
-        | length_unit           |            | string   |
-        | direction             |            | string   |
-        | elevation_change      |            | number   |
-        | elevation_change_unit |            | string   |
-        | surface               |            | string   |
+        | key                   | value      |
+        | name                  | GP Circuit |
+        | year_from             |            |
+        | year_to               |            |
+        | length                |            |
+        | length_unit           |            |
+        | direction             |            |
+        | elevation_change      |            |
+        | elevation_change_unit |            |
+        | surface               |            |

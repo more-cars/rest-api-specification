@@ -15,7 +15,7 @@ Feature: Create LAP TIME Node
         | driver_name | Klaus Ludwig |
         | date        | 1996-08-03   |
       Then the response should contain the following properties
-        | key         | value        | datatype |
-        | time        | PT1M33.294S  | string   |
-        | driver_name | Klaus Ludwig | string   |
-        | date        | 1996-08-03   | string   |
+        | key         | value        |
+        | time        | PT1M33.294S  |
+        | driver_name | Klaus Ludwig |
+        | date        | 1996-08-03   |

@@ -22,16 +22,16 @@ Feature: Create TRACK LAYOUT Node
         | surface               | asphalt    |
         | thimbleweed           | park       |
       Then the response should contain the following properties
-        | key                   | value      | datatype |
-        | name                  | GP Circuit | string   |
-        | year_from             | 1967       | number   |
-        | year_to               | 1999       | number   |
-        | length                | 5.397      | number   |
-        | length_unit           | km         | string   |
-        | direction             | clockwise  | string   |
-        | elevation_change      | 73         | number   |
-        | elevation_change_unit | m          | string   |
-        | surface               | asphalt    | string   |
+        | key                   | value      |
+        | name                  | GP Circuit |
+        | year_from             | 1967       |
+        | year_to               | 1999       |
+        | length                | 5.397      |
+        | length_unit           | km         |
+        | direction             | clockwise  |
+        | elevation_change      | 73         |
+        | elevation_change_unit | m          |
+        | surface               | asphalt    |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

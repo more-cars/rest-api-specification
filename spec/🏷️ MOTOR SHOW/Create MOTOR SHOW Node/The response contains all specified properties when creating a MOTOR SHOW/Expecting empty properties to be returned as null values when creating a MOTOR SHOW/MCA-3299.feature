@@ -13,11 +13,11 @@ Feature: Create MOTOR SHOW Node
         | key  | value              |
         | name | 2017 IAA Frankfurt |
       Then the response should contain the following properties
-        | key             | value              | datatype |
-        | name            | 2017 IAA Frankfurt | string   |
-        | date_from       |                    | string   |
-        | date_until      |                    | string   |
-        | location        |                    | string   |
-        | target_audience |                    | string   |
-        | focus           |                    | string   |
-        | country_code    |                    | string   |
+        | key             | value              |
+        | name            | 2017 IAA Frankfurt |
+        | date_from       |                    |
+        | date_until      |                    |
+        | location        |                    |
+        | target_audience |                    |
+        | focus           |                    |
+        | country_code    |                    |

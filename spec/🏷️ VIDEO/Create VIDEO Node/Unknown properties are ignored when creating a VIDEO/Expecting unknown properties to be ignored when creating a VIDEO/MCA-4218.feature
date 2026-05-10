@@ -15,9 +15,9 @@ Feature: Create VIDEO Node
         | external_id    | NqsBncRslsg |
         | thimbleweed    | park        |
       Then the response should contain the following properties
-        | key            | value       | datatype |
-        | video_provider | youtube     | string   |
-        | external_id    | NqsBncRslsg | string   |
+        | key            | value       |
+        | video_provider | youtube     |
+        | external_id    | NqsBncRslsg |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

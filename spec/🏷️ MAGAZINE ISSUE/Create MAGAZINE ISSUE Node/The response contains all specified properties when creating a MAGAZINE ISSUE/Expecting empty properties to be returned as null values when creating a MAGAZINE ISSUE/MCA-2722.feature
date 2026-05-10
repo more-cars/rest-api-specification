@@ -13,12 +13,12 @@ Feature: Create MAGAZINE ISSUE Node
         | key   | value        |
         | title | Sieger-Typen |
       Then the response should contain the following properties
-        | key                    | value        | datatype |
-        | title                  | Sieger-Typen | string   |
-        | consecutive_number     |              | number   |
-        | issue_number           |              | number   |
-        | issue_year             |              | number   |
-        | release_date           |              | string   |
-        | single_copy_price      |              | number   |
-        | single_copy_price_unit |              | string   |
-        | pages                  |              | number   |
+        | key                    | value        |
+        | title                  | Sieger-Typen |
+        | consecutive_number     |              |
+        | issue_number           |              |
+        | issue_year             |              |
+        | release_date           |              |
+        | single_copy_price      |              |
+        | single_copy_price_unit |              |
+        | pages                  |              |

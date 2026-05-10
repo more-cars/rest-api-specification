@@ -18,7 +18,7 @@ Feature: Create BRAND Node
         | wmi          |                 |
         | hsn          | A010            |
         | country_code | DE              |
-      Then the response should contain the following data
+      Then the response should contain the following properties
         | key          | value           |
         | name         | DKW             |
         | full_name    | Dampfkraftwagen |

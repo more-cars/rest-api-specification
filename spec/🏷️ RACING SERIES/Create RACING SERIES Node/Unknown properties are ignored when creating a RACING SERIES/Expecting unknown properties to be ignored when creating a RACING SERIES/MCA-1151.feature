@@ -20,14 +20,14 @@ Feature: Create RACING SERIES Node
         | country_code | DE                           |
         | thimbleweed  | park                         |
       Then the response should contain the following properties
-        | key          | value                        | datatype |
-        | name         | Deutsche Tourenwagen-Masters | string   |
-        | short_name   | DTM                          | string   |
-        | founded      | 2000                         | number   |
-        | defunct      |                              | number   |
-        | organized_by | ITR                          | string   |
-        | vehicle_type | touring cars                 | string   |
-        | country_code | DE                           | string   |
+        | key          | value                        |
+        | name         | Deutsche Tourenwagen-Masters |
+        | short_name   | DTM                          |
+        | founded      | 2000                         |
+        | defunct      |                              |
+        | organized_by | ITR                          |
+        | vehicle_type | touring cars                 |
+        | country_code | DE                           |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

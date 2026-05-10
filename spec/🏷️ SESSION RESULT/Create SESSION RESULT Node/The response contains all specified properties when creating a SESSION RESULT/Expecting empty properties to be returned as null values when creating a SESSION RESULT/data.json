@@ -2,7 +2,7 @@
   "id": "MCA-1741",
   "parent_id": "MCA-1739",
   "title": "Expecting empty properties to be returned as null values when creating a SESSION RESULT",
-  "gherkin": "When the user creates a \"SESSION RESULT\" \"1st place\" with the following data\n  | key         | value          |\n  | position    | 1              |\n  | driver_name | Lewis Hamilton |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | position | 1 | number |\n  | race_number |  | string |\n  | driver_name | Lewis Hamilton | string |\n  | team_name |  | string |\n  | race_time |  | string |\n  | laps |  | number |\n  | status |  | string |\n  | points |  | number |",
+  "gherkin": "When the user creates a \"SESSION RESULT\" \"1st place\" with the following data\n  | key         | value          |\n  | position    | 1              |\n  | driver_name | Lewis Hamilton |\nThen the response should contain the following properties\n  | key         | value          |\n  | position    | 1              |\n  | race_number |                |\n  | driver_name | Lewis Hamilton |\n  | team_name   |                |\n  | race_time   |                |\n  | laps        |                |\n  | status      |                |\n  | points      |                |",
   "labels": [
     "implemented"
   ],

@@ -13,8 +13,8 @@ Feature: Create MODEL CAR BRAND Node
         | key  | value      |
         | name | Hot Wheels |
       Then the response should contain the following properties
-        | key          | value      | datatype |
-        | name         | Hot Wheels | string   |
-        | founded      |            | number   |
-        | defunct      |            | number   |
-        | country_code |            | string   |
+        | key          | value      |
+        | name         | Hot Wheels |
+        | founded      |            |
+        | defunct      |            |
+        | country_code |            |

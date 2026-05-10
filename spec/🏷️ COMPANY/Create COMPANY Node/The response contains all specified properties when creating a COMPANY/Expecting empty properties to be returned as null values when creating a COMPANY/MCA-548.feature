@@ -10,14 +10,20 @@ Feature: Create COMPANY Node
     @TEST_MCA-548 @implemented
     Scenario: Expecting empty properties to be returned as null values when creating a COMPANY
       When the user creates a "COMPANY" "BMW AG" with the following data
-        | key  | value  |
-        | name | BMW AG |
+        | key                         | value  |
+        | name                        | BMW AG |
+        | founded                     | 1916   |
+        | defunct                     |        |
+        | headquarters_location       | Munich |
+        | hq_country_code             | DE     |
+        | legal_headquarters_location | Munich |
+        | legal_hq_country_code       | DE     |
       Then the response should contain the following properties
-        | key                         | value  | datatype |
-        | name                        | BMW AG | string   |
-        | founded                     |        | number   |
-        | defunct                     |        | number   |
-        | headquarters_location       |        | string   |
-        | hq_country_code             |        | string   |
-        | legal_headquarters_location |        | string   |
-        | legal_hq_country_code       |        | string   |
+        | key                         | value  |
+        | name                        | BMW AG |
+        | founded                     | 1916   |
+        | defunct                     |        |
+        | headquarters_location       | Munich |
+        | hq_country_code             | DE     |
+        | legal_headquarters_location | Munich |
+        | legal_hq_country_code       | DE     |

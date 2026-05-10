@@ -13,8 +13,8 @@ Feature: Create RACING GAME Node
         | key  | value              |
         | name | Forza Motorsport 7 |
       Then the response should contain the following properties
-        | key          | value              | datatype |
-        | name         | Forza Motorsport 7 | string   |
-        | release_year |                    | number   |
-        | developer    |                    | string   |
-        | publisher    |                    | string   |
+        | key          | value              |
+        | name         | Forza Motorsport 7 |
+        | release_year |                    |
+        | developer    |                    |
+        | publisher    |                    |

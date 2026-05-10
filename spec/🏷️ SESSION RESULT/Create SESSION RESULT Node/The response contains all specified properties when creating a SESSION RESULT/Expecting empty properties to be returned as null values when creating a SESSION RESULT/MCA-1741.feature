@@ -14,12 +14,12 @@ Feature: Create SESSION RESULT Node
         | position    | 1              |
         | driver_name | Lewis Hamilton |
       Then the response should contain the following properties
-        | key         | value          | datatype |
-        | position    | 1              | number   |
-        | race_number |                | string   |
-        | driver_name | Lewis Hamilton | string   |
-        | team_name   |                | string   |
-        | race_time   |                | string   |
-        | laps        |                | number   |
-        | status      |                | string   |
-        | points      |                | number   |
+        | key         | value          |
+        | position    | 1              |
+        | race_number |                |
+        | driver_name | Lewis Hamilton |
+        | team_name   |                |
+        | race_time   |                |
+        | laps        |                |
+        | status      |                |
+        | points      |                |

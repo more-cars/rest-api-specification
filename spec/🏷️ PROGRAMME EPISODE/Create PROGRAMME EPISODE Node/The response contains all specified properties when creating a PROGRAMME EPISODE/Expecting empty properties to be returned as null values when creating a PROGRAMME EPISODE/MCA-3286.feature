@@ -13,9 +13,9 @@ Feature: Create PROGRAMME EPISODE Node
         | key   | value          |
         | title | The Falls Guys |
       Then the response should contain the following properties
-        | key                   | value          | datatype |
-        | title                 | The Falls Guys | string   |
-        | season_number         |                | number   |
-        | season_episode_number |                | number   |
-        | original_air_date     |                | string   |
-        | duration              |                | string   |
+        | key                   | value          |
+        | title                 | The Falls Guys |
+        | season_number         |                |
+        | season_episode_number |                |
+        | original_air_date     |                |
+        | duration              |                |

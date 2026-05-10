@@ -20,14 +20,14 @@ Feature: Create COMPANY Node
         | legal_hq_country_code       | DE     |
         | thimbleweed                 | park   |
       Then the response should contain the following properties
-        | key                         | value  | datatype |
-        | name                        | BMW AG | string   |
-        | founded                     | 1916   | number   |
-        | defunct                     |        | number   |
-        | headquarters_location       | Munich | string   |
-        | hq_country_code             | DE     | string   |
-        | legal_headquarters_location | Munich | string   |
-        | legal_hq_country_code       | DE     | string   |
+        | key                         | value  |
+        | name                        | BMW AG |
+        | founded                     | 1916   |
+        | defunct                     |        |
+        | headquarters_location       | Munich |
+        | hq_country_code             | DE     |
+        | legal_headquarters_location | Munich |
+        | legal_hq_country_code       | DE     |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

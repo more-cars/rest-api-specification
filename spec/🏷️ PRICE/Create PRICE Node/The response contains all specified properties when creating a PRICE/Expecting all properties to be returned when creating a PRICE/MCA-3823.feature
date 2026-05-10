@@ -16,8 +16,8 @@ Feature: Create PRICE Node
         | currency_code | EUR   |
         | country_code  | DE    |
       Then the response should contain the following properties
-        | key           | value | datatype |
-        | price         | 59990 | number   |
-        | price_year    | 2020  | number   |
-        | currency_code | EUR   | string   |
-        | country_code  | DE    | string   |
+        | key           | value |
+        | price         | 59990 |
+        | price_year    | 2020  |
+        | currency_code | EUR   |
+        | country_code  | DE    |

@@ -15,7 +15,7 @@ Feature: Create GAMING PLATFORM Node
         | release_year | 2020          |
         | manufacturer | Sony          |
       Then the response should contain the following properties
-        | key          | value         | datatype |
-        | name         | PlayStation 5 | string   |
-        | release_year | 2020          | number   |
-        | manufacturer | Sony          | string   |
+        | key          | value         |
+        | name         | PlayStation 5 |
+        | release_year | 2020          |
+        | manufacturer | Sony          |

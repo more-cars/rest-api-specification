@@ -13,11 +13,11 @@ Feature: Create RACING SERIES Node
         | key  | value                        |
         | name | Deutsche Tourenwagen-Masters |
       Then the response should contain the following properties
-        | key          | value                        | datatype |
-        | name         | Deutsche Tourenwagen-Masters | string   |
-        | short_name   |                              | string   |
-        | founded      |                              | number   |
-        | defunct      |                              | number   |
-        | organized_by |                              | string   |
-        | vehicle_type |                              | string   |
-        | country_code |                              | string   |
+        | key          | value                        |
+        | name         | Deutsche Tourenwagen-Masters |
+        | short_name   |                              |
+        | founded      |                              |
+        | defunct      |                              |
+        | organized_by |                              |
+        | vehicle_type |                              |
+        | country_code |                              |

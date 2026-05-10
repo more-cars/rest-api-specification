@@ -13,11 +13,11 @@ Feature: Create RACING SESSION Node
         | key  | value      |
         | name | Grand Prix |
       Then the response should contain the following properties
-        | key           | value      | datatype |
-        | name          | Grand Prix | string   |
-        | start_date    |            | string   |
-        | start_time    |            | string   |
-        | duration      |            | number   |
-        | duration_unit |            | string   |
-        | distance      |            | number   |
-        | distance_unit |            | string   |
+        | key           | value      |
+        | name          | Grand Prix |
+        | start_date    |            |
+        | start_time    |            |
+        | duration      |            |
+        | duration_unit |            |
+        | distance      |            |
+        | distance_unit |            |

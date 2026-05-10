@@ -2,7 +2,7 @@
   "id": "MCA-3080",
   "parent_id": "MCA-3079",
   "title": "Expecting all properties to be returned when creating a RATING",
-  "gherkin": "When the user creates a \"RATING\" \"93 Percent\" with the following data\n  | key             | value |\n  | rating_value    | 93    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 100   |\n  | scale_direction | up    |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | rating_value | 93 | number |\n  | scale_minimum | 0 | number |\n  | scale_maximum | 100 | number |\n  | scale_direction | up | string |",
+  "gherkin": "When the user creates a \"RATING\" \"93 Percent\" with the following data\n  | key             | value |\n  | rating_value    | 93    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 100   |\n  | scale_direction | up    |\nThen the response should contain the following properties\n  | key             | value |\n  | rating_value    | 93    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 100   |\n  | scale_direction | up    |",
   "labels": [
     "implemented"
   ],

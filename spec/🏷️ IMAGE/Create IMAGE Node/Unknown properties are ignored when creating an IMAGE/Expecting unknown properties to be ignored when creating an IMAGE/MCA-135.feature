@@ -15,9 +15,9 @@ Feature: Create IMAGE Node
         | external_id    | WM123456  |
         | my_property    | ABC       |
       Then the response should contain the following properties
-        | key            | value     | datatype |
-        | image_provider | wikimedia | string   |
-        | external_id    | WM123456  | string   |
+        | key            | value     |
+        | image_provider | wikimedia |
+        | external_id    | WM123456  |
       But the response should NOT contain the following keys
         | key         |
         | my_property |

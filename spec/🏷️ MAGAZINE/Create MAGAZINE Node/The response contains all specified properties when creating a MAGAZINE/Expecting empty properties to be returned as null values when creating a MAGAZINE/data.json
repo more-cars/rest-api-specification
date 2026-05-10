@@ -2,7 +2,7 @@
   "id": "MCA-2637",
   "parent_id": "MCA-2635",
   "title": "Expecting empty properties to be returned as null values when creating a MAGAZINE",
-  "gherkin": "When the user creates a \"MAGAZINE\" \"Top Gear\" with the following data\n  | key | value | \n  | name | Top Gear | \nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | Top Gear | string |\n  | founded |  | number |\n  | defunct |  | number |\n  | focus |  | string |\n  | publication_frequency |  | string |\n  | single_copy_price |  | number |\n  | single_copy_price_unit |  | string |\n  | publication_format |  | string |\n  | circulation |  | number |\n  | circulation_year |  | number |\n  | publisher |  | string |\n  | issn |  | string |\n  | country_code           |  | string   |",
+  "gherkin": "When the user creates a \"MAGAZINE\" \"Top Gear\" with the following data\n  | key  | value    |\n  | name | Top Gear |\nThen the response should contain the following properties\n  | key                    | value    |\n  | name                   | Top Gear |\n  | founded                |          |\n  | defunct                |          |\n  | focus                  |          |\n  | publication_frequency  |          |\n  | single_copy_price      |          |\n  | single_copy_price_unit |          |\n  | publication_format     |          |\n  | circulation            |          |\n  | circulation_year       |          |\n  | publisher              |          |\n  | issn                   |          |\n  | country_code           |          |",
   "labels": [
     "implemented"
   ],

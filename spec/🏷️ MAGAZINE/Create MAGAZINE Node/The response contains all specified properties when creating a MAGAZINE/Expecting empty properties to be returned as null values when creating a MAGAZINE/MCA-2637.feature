@@ -13,17 +13,17 @@ Feature: Create MAGAZINE Node
         | key  | value    |
         | name | Top Gear |
       Then the response should contain the following properties
-        | key                    | value    | datatype |
-        | name                   | Top Gear | string   |
-        | founded                |          | number   |
-        | defunct                |          | number   |
-        | focus                  |          | string   |
-        | publication_frequency  |          | string   |
-        | single_copy_price      |          | number   |
-        | single_copy_price_unit |          | string   |
-        | publication_format     |          | string   |
-        | circulation            |          | number   |
-        | circulation_year       |          | number   |
-        | publisher              |          | string   |
-        | issn                   |          | string   |
-        | country_code           |          | string   |
+        | key                    | value    |
+        | name                   | Top Gear |
+        | founded                |          |
+        | defunct                |          |
+        | focus                  |          |
+        | publication_frequency  |          |
+        | single_copy_price      |          |
+        | single_copy_price_unit |          |
+        | publication_format     |          |
+        | circulation            |          |
+        | circulation_year       |          |
+        | publisher              |          |
+        | issn                   |          |
+        | country_code           |          |

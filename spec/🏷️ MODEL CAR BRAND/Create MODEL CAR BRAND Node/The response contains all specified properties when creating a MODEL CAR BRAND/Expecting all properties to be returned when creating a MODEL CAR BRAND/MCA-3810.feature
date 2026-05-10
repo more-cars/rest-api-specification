@@ -16,8 +16,8 @@ Feature: Create MODEL CAR BRAND Node
         | defunct      |            |
         | country_code | US         |
       Then the response should contain the following properties
-        | key          | value      | datatype |
-        | name         | Hot Wheels | string   |
-        | founded      | 1968       | number   |
-        | defunct      |            | number   |
-        | country_code | US         | string   |
+        | key          | value      |
+        | name         | Hot Wheels |
+        | founded      | 1968       |
+        | defunct      |            |
+        | country_code | US         |

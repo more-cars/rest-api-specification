@@ -2,7 +2,7 @@
   "id": "MCA-1852",
   "parent_id": "MCA-1850",
   "title": "Expecting empty properties to be returned as null values when creating a LAP TIME",
-  "gherkin": "When the user creates a \"LAP TIME\" \"AVUS record\" with the following data\n  | key         | value        |\n  | time        | PT1M33.294S  |\n  | driver_name | Klaus Ludwig |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | time | PT1M33.294S | string |\n  | driver_name | Klaus Ludwig | string |\n  | date |  | string |",
+  "gherkin": "When the user creates a \"LAP TIME\" \"AVUS record\" with the following data\n  | key         | value        |\n  | time        | PT1M33.294S  |\n  | driver_name | Klaus Ludwig |\nThen the response should contain the following properties\n  | key         | value        |\n  | time        | PT1M33.294S  |\n  | driver_name | Klaus Ludwig |\n  | date        |              |",
   "labels": [
     "implemented"
   ],

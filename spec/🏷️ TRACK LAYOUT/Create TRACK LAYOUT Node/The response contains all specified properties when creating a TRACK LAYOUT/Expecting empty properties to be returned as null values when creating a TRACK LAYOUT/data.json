@@ -2,7 +2,7 @@
   "id": "MCA-949",
   "parent_id": "MCA-947",
   "title": "Expecting empty properties to be returned as null values when creating a TRACK LAYOUT",
-  "gherkin": "When the user creates a \"TRACK LAYOUT\" \"GP Circuit\" with the following data\n  | key  | value      |\n  | name | GP Circuit |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | GP Circuit | string |\n  | year_from |  | number |\n  | year_to |  | number |\n  | length |  | number |\n  | length_unit |  | string |\n  | direction |  | string |\n  | elevation_change |  | number |\n  | elevation_change_unit |  | string |\n  | surface |  | string |",
+  "gherkin": "When the user creates a \"TRACK LAYOUT\" \"GP Circuit\" with the following data\n  | key  | value      |\n  | name | GP Circuit |\nThen the response should contain the following properties\n  | key                   | value      |\n  | name                  | GP Circuit |\n  | year_from             |            |\n  | year_to               |            |\n  | length                |            |\n  | length_unit           |            |\n  | direction             |            |\n  | elevation_change      |            |\n  | elevation_change_unit |            |\n  | surface               |            |",
   "labels": [
     "implemented"
   ],

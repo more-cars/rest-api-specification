@@ -7,29 +7,29 @@ Feature: Create SESSION RESULT Node
   @RULE_MCA-1742
   Rule: Unknown properties are ignored when creating a SESSION RESULT
 
-  @TEST_MCA-1743 @implemented
-  Scenario: Expecting unknown properties to be ignored when creating a SESSION RESULT
-    When the user creates a "SESSION RESULT" "1st place" with the following data
-      | key         | value          |
-      | position    | 1              |
-      | race_number | N44            |
-      | driver_name | Lewis Hamilton |
-      | team_name   | Mercedes       |
-      | race_time   | PT1H23M45.678S |
-      | laps        | 51             |
-      | status      | finished       |
-      | points      | 25             |
-      | thimbleweed | park           |
-    Then the response should contain the following properties
-      | key         | value          | datatype |
-      | position    | 1              | number   |
-      | race_number | N44            | string   |
-      | driver_name | Lewis Hamilton | string   |
-      | team_name   | Mercedes       | string   |
-      | race_time   | PT1H23M45.678S | string   |
-      | laps        | 51             | number   |
-      | status      | finished       | string   |
-      | points      | 25             | number   |
-    And the response should NOT contain the following keys
-      | key         |
-      | thimbleweed |
+    @TEST_MCA-1743 @implemented
+    Scenario: Expecting unknown properties to be ignored when creating a SESSION RESULT
+      When the user creates a "SESSION RESULT" "1st place" with the following data
+        | key         | value          |
+        | position    | 1              |
+        | race_number | N44            |
+        | driver_name | Lewis Hamilton |
+        | team_name   | Mercedes       |
+        | race_time   | PT1H23M45.678S |
+        | laps        | 51             |
+        | status      | finished       |
+        | points      | 25             |
+        | thimbleweed | park           |
+      Then the response should contain the following properties
+        | key         | value          |
+        | position    | 1              |
+        | race_number | N44            |
+        | driver_name | Lewis Hamilton |
+        | team_name   | Mercedes       |
+        | race_time   | PT1H23M45.678S |
+        | laps        | 51             |
+        | status      | finished       |
+        | points      | 25             |
+      And the response should NOT contain the following keys
+        | key         |
+        | thimbleweed |

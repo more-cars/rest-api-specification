@@ -13,12 +13,12 @@ Feature: Create PROGRAMME Node
         | key  | value    |
         | name | Top Gear |
       Then the response should contain the following properties
-        | key                          | value    | datatype |
-        | name                         | Top Gear | string   |
-        | aired_from_year              |          | number   |
-        | aired_until_year             |          | number   |
-        | channel                      |          | string   |
-        | total_seasons                |          | number   |
-        | total_episodes               |          | number   |
-        | regular_episode_running_time |          | string   |
-        | country_code                 |          | string   |
+        | key                          | value    |
+        | name                         | Top Gear |
+        | aired_from_year              |          |
+        | aired_until_year             |          |
+        | channel                      |          |
+        | total_seasons                |          |
+        | total_episodes               |          |
+        | regular_episode_running_time |          |
+        | country_code                 |          |

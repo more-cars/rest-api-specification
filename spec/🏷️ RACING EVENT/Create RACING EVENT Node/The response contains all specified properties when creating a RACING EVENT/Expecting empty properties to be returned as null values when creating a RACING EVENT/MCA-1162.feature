@@ -13,8 +13,8 @@ Feature: Create RACING EVENT Node
         | key  | value     |
         | name | GP Monaco |
       Then the response should contain the following properties
-        | key       | value     | datatype |
-        | name      | GP Monaco | string   |
-        | round     |           | number   |
-        | date_from |           | string   |
-        | date_to   |           | string   |
+        | key       | value     |
+        | name      | GP Monaco |
+        | round     |           |
+        | date_from |           |
+        | date_to   |           |

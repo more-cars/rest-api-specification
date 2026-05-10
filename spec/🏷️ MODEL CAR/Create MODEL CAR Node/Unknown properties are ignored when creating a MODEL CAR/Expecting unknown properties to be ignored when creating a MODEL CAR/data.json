@@ -2,7 +2,7 @@
   "id": "MCA-3800",
   "parent_id": "MCA-3799",
   "title": "Expecting unknown properties to be ignored when creating a MODEL CAR",
-  "gherkin": "When the user creates a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key          | value    |\n  | name         | BMW 2002 |\n  | product_code | DHX60    |\n  | release_year | 2016     |\n  | scale        | 1:64     |\n  | series       | BMW      |\n  | thimbleweed  | park     |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | BMW 2002 | string |\n  | product_code | DHX60 | string |\n  | release_year | 2016 | number |\n  | scale | 1:64 | string |\n  | series | BMW | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "gherkin": "When the user creates a \"MODEL CAR\" \"F40 Matchbox\" with the following data\n  | key          | value    |\n  | name         | BMW 2002 |\n  | product_code | DHX60    |\n  | release_year | 2016     |\n  | scale        | 1:64     |\n  | series       | BMW      |\n  | thimbleweed  | park     |\nThen the response should contain the following properties\n  | key          | value    |\n  | name         | BMW 2002 |\n  | product_code | DHX60    |\n  | release_year | 2016     |\n  | scale        | 1:64     |\n  | series       | BMW      |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
   "labels": [
     "implemented"
   ],

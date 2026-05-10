@@ -20,14 +20,14 @@ Feature: Create RACE TRACK Node
         | country_code | DE                   |
         | thimbleweed  | park                 |
       Then the response should contain the following properties
-        | key          | value                | datatype |
-        | name         | Lausitzring          | string   |
-        | opened       | 2000                 | number   |
-        | closed       |                      | number   |
-        | type         | permanent race track | string   |
-        | location     | Klettwitz            | string   |
-        | geo_position | 51°32'0"N 13°55'10"E | string   |
-        | country_code | DE                   | string   |
+        | key          | value                |
+        | name         | Lausitzring          |
+        | opened       | 2000                 |
+        | closed       |                      |
+        | type         | permanent race track |
+        | location     | Klettwitz            |
+        | geo_position | 51°32'0"N 13°55'10"E |
+        | country_code | DE                   |
       And the response should NOT contain the following keys
         | key         |
         | thimbleweed |

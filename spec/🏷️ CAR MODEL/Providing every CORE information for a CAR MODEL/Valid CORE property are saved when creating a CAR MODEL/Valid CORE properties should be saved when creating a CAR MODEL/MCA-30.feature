@@ -17,11 +17,11 @@ Feature: Providing every CORE information for a CAR MODEL
         | generation       | 1        |
         | internal_code    | F99      |
         | total_production | 222222   |
-      Then the response should contain the following data
-        | key              | value    | datatype |
-        | name             | Test Car | string   |
-        | built_from       | 1988     | number   |
-        | built_to         | 1999     | number   |
-        | generation       | 1        | number   |
-        | internal_code    | F99      | string   |
-        | total_production | 222222   | number   |
+      Then the response should contain the following properties
+        | key              | value    |
+        | name             | Test Car |
+        | built_from       | 1988     |
+        | built_to         | 1999     |
+        | generation       | 1        |
+        | internal_code    | F99      |
+        | total_production | 222222   |

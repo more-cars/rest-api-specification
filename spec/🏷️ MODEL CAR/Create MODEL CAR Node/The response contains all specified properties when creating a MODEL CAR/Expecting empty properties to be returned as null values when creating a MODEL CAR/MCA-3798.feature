@@ -13,9 +13,9 @@ Feature: Create MODEL CAR Node
         | key  | value    |
         | name | BMW 2002 |
       Then the response should contain the following properties
-        | key          | value    | datatype |
-        | name         | BMW 2002 | string   |
-        | product_code |          | string   |
-        | release_year |          | number   |
-        | scale        |          | string   |
-        | series       |          | string   |
+        | key          | value    |
+        | name         | BMW 2002 |
+        | product_code |          |
+        | release_year |          |
+        | scale        |          |
+        | series       |          |

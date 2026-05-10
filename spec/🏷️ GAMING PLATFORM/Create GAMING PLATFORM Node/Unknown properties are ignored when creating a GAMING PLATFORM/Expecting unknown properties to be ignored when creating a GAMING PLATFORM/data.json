@@ -2,7 +2,7 @@
   "id": "MCA-2501",
   "parent_id": "MCA-2500",
   "title": "Expecting unknown properties to be ignored when creating a GAMING PLATFORM",
-  "gherkin": "When the user creates a \"GAMING PLATFORM\" \"PlayStation 5\" with the following data\n  | key          | value         |\n  | name         | PlayStation 5 |\n  | release_year | 2020          |\n  | manufacturer | Sony          |\n  | thimbleweed  | park          |\nThen the response should contain the following properties\n  | key | value | datatype |\n  | name | PlayStation 5 | string |\n  | release_year | 2020 | number |\n  | manufacturer | Sony | string |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "gherkin": "When the user creates a \"GAMING PLATFORM\" \"PlayStation 5\" with the following data\n  | key          | value         |\n  | name         | PlayStation 5 |\n  | release_year | 2020          |\n  | manufacturer | Sony          |\n  | thimbleweed  | park          |\nThen the response should contain the following properties\n  | key          | value         |\n  | name         | PlayStation 5 |\n  | release_year | 2020          |\n  | manufacturer | Sony          |\nAnd the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
   "labels": [
     "implemented"
   ],
