@@ -1,7 +1,7 @@
 {
   "id": "MCA-219",
   "title": "🏷️ GAMING PLATFORM",
-  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"name\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"PlayStation 5\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"release\\_year\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"2020\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"manufacturer\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"Sony\"\n&#x20; }\n]\n",
+  "data_structure": "```\n[\n    {\n        name: 'name',\n        datatype: 'string',\n        mandatory: true,\n        example: 'PlayStation 5',\n        scope: 'user',\n        validation: ['mandatory', 'string'],\n    },\n    {\n        name: 'release_year',\n        datatype: 'number',\n        mandatory: false,\n        example: 2020,\n        scope: 'user',\n        validation: ['number'],\n    },\n    {\n        name: 'manufacturer',\n        datatype: 'string',\n        mandatory: false,\n        example: 'Sony',\n        scope: 'user',\n        validation: ['string'],\n    },\n]\n```\n",
   "created_at": "2025-06-10T14:40:21.971+0200",
-  "updated_at": "2026-03-05T18:33:31.447+0100"
+  "updated_at": "2026-05-11T10:58:06.532+0200"
 }

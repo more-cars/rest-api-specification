@@ -1,7 +1,7 @@
 {
   "id": "MCA-232",
   "title": "🏷️ MODEL CAR",
-  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"name\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"BMW 2002\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"product\\_code\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"DHX60\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"release\\_year\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"2016\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"scale\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"1:64\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"series\",\n&#x20;   \"mandatory\": false,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"BMW\"\n&#x20; }\n]\n",
+  "data_structure": "```\n[\n    {\n        name: 'name',\n        datatype: 'string',\n        mandatory: true,\n        example: 'BMW 2002',\n        scope: 'user',\n        validation: ['mandatory', 'string'],\n    },\n    {\n        name: 'product_code',\n        datatype: 'string',\n        mandatory: false,\n        example: 'DHX60',\n        scope: 'user',\n        validation: ['string'],\n    },\n    {\n        name: 'release_year',\n        datatype: 'number',\n        mandatory: false,\n        example: 2016,\n        scope: 'user',\n        validation: ['number'],\n    },\n    {\n        name: 'scale',\n        datatype: 'string',\n        mandatory: false,\n        example: '1:64',\n        scope: 'user',\n        validation: ['string'],\n    },\n    {\n        name: 'series',\n        datatype: 'string',\n        mandatory: false,\n        example: 'BMW',\n        scope: 'user',\n        validation: ['string'],\n    },\n]\n```\n",
   "created_at": "2025-06-10T15:03:27.633+0200",
-  "updated_at": "2026-03-21T11:05:54.995+0100"
+  "updated_at": "2026-05-11T11:00:19.455+0200"
 }

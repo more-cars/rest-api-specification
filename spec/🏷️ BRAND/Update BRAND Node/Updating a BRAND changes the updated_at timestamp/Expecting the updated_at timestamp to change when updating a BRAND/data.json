@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5445",
+  "parent_id": "MCA-5444",
+  "title": "Expecting the updated_at timestamp to change when updating a BRAND",
+  "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nWhen the user updates the node \"BMW\"\nThen both timestamps in the response should be different",
+  "labels": [],
+  "created_at": "2026-05-11T11:09:05.904+0200",
+  "updated_at": "2026-05-11T11:09:09.921+0200"
+}

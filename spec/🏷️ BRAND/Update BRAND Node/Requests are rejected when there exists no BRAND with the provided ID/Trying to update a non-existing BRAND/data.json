@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5443",
+  "parent_id": "MCA-5442",
+  "title": "Trying to update a non-existing BRAND",
+  "gherkin": "Given \"BRAND\" \"BMW\" does NOT exist\nWhen the user updates the node \"BMW\"\nThen the request should be rejected with status code 404",
+  "labels": [],
+  "created_at": "2026-05-11T11:08:57.882+0200",
+  "updated_at": "2026-05-11T11:09:02.810+0200"
+}

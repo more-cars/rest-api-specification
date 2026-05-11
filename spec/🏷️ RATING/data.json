@@ -1,7 +1,7 @@
 {
   "id": "MCA-220",
   "title": "🏷️ RATING",
-  "data_structure": "\\[\n&#x20; {\n&#x20;   \"name\": \"rating\\_value\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"93\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"scale\\_minimum\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"0\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"scale\\_maximum\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"number\",\n&#x20;   \"example\": \"100\"\n&#x20; },\n&#x20; {\n&#x20;   \"name\": \"scale\\_direction\",\n&#x20;   \"mandatory\": true,\n&#x20;   \"datatype\": \"string\",\n&#x20;   \"example\": \"up\"\n&#x20; }\n]\n",
+  "data_structure": "```typescript\n[\n    {\n        name: 'rating_value',\n        datatype: 'number',\n        mandatory: true,\n        example: 93,\n        scope: 'user',\n        validation: ['mandatory', 'number'],\n    },\n    {\n        name: 'scale_minimum',\n        datatype: 'number',\n        mandatory: true,\n        example: 0,\n        scope: 'user',\n        validation: ['mandatory', 'number'],\n    },\n    {\n        name: 'scale_maximum',\n        datatype: 'number',\n        mandatory: true,\n        example: 100,\n        scope: 'user',\n        validation: ['mandatory', 'number'],\n    },\n    {\n        name: 'scale_direction',\n        datatype: 'string',\n        mandatory: true,\n        example: 'up',\n        scope: 'user',\n        validation: ['mandatory', 'string'],\n    },\n]\n```\n",
   "created_at": "2025-06-10T14:52:01.493+0200",
-  "updated_at": "2026-03-06T17:51:03.900+0100"
+  "updated_at": "2026-05-11T11:04:58.566+0200"
 }
