@@ -1,7 +1,6 @@
-import axios from "axios"
+import type {JiraStory} from "./types/JiraStory"
 import {getJiraApiBaseUrl} from "./getJiraApiBaseUrl"
 import {getJiraApiAuthKey} from "./getJiraApiAuthKey"
-import type {JiraStory} from "./types/JiraStory"
 
 export async function downloadStories() {
     let results: Array<JiraStory> = []
@@ -10,9 +9,9 @@ export async function downloadStories() {
 
     try {
         do {
-            const response = await requestNextPage(nextPageToken)
-            results = results.concat(response.data.issues)
-            nextPageToken = response.data.nextPageToken
+            const data = await requestNextPage(nextPageToken)
+            results = results.concat(data.issues)
+            nextPageToken = data.nextPageToken
             moreResultsPagesAreAvailable = !!nextPageToken
         } while (moreResultsPagesAreAvailable)
     } catch (e) {
@@ -23,8 +22,13 @@ export async function downloadStories() {
 }
 
 async function requestNextPage(nextPageToken: string | null) {
-    return axios
-        .post(getJiraApiBaseUrl() + 'search/jql', {
+    const response = await fetch(getJiraApiBaseUrl() + 'search/jql', {
+        method: 'POST',
+        headers: {
+            'Authorization': `Basic ${getJiraApiAuthKey()}`,
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
             "jql": 'project = MCA AND issuetype = Story AND status IN ("Ready for Implementation", "In Development", "In Approval", "In Release", "Done")',
             "fields": [
                 "parent",
@@ -40,10 +44,8 @@ async function requestNextPage(nextPageToken: string | null) {
             ],
             nextPageToken,
             "maxResults": 100,
-        }, {
-            headers: {
-                'Authorization': `Basic ${getJiraApiAuthKey()}`,
-                'Content-Type': 'application/json',
-            }
         })
+    })
+
+    return response.json()
 }

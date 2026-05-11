@@ -1,4 +1,3 @@
-import axios from "axios"
 import type {XrayTest} from "./types/XrayTest"
 import {loadGraphqlQuery} from "./loadGraphqlQuery"
 import {getXrayGraphqlUrl} from "./getXrayGraphqlUrl"
@@ -11,9 +10,9 @@ export async function downloadTests() {
 
     try {
         do {
-            const response = await requestNextPage(startIndex)
-            results = results.concat(response.data.data.getTests.results)
-            const totalResults = response.data.data.getTests.total
+            const data = await requestNextPage(startIndex)
+            results = results.concat(data.data.getTests.results)
+            const totalResults = data.data.getTests.total
             startIndex = startIndex + 100
             moreResultsPagesAreAvailable = (startIndex < totalResults)
         } while (moreResultsPagesAreAvailable)
@@ -28,12 +27,16 @@ async function requestNextPage(startIndex: number) {
     let query = loadGraphqlQuery('getTests.gql')
     query = query.replace('$start', String(startIndex))
 
-    return axios
-        .post(getXrayGraphqlUrl(), {
-            query
-        }, {
-            headers: {
-                'Authorization': `Bearer ${await obtainXrayApiToken()}`
-            }
-        })
+    const response = await fetch(getXrayGraphqlUrl(), {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${await obtainXrayApiToken()}`,
+        },
+        body: JSON.stringify({
+            query: query,
+        }),
+    })
+
+    return response.json()
 }

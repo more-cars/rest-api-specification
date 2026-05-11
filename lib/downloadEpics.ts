@@ -1,4 +1,3 @@
-import axios from "axios"
 import type {JiraEpic} from "./types/JiraEpic"
 import {getJiraApiBaseUrl} from "./getJiraApiBaseUrl"
 import {getJiraApiAuthKey} from "./getJiraApiAuthKey"
@@ -10,9 +9,9 @@ export async function downloadEpics(): Promise<false | Array<JiraEpic>> {
 
     try {
         do {
-            const response = await requestNextPage(nextPageToken)
-            results = results.concat(response.data.issues)
-            nextPageToken = response.data.nextPageToken
+            const data = await requestNextPage(nextPageToken)
+            results = results.concat(data.issues)
+            nextPageToken = data.nextPageToken
             moreResultsPagesAreAvailable = !!nextPageToken
         } while (moreResultsPagesAreAvailable)
     } catch (e) {
@@ -23,8 +22,13 @@ export async function downloadEpics(): Promise<false | Array<JiraEpic>> {
 }
 
 async function requestNextPage(nextPageToken: string | null) {
-    return axios
-        .post(getJiraApiBaseUrl() + 'search/jql', {
+    const response = await fetch(getJiraApiBaseUrl() + 'search/jql', {
+        method: 'POST',
+        headers: {
+            'Authorization': `Basic ${getJiraApiAuthKey()}`,
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
             "jql": 'project = MCA AND issuetype = Epic AND status IN ("In Progress", "Done")',
             "fields": [
                 "summary",
@@ -34,10 +38,8 @@ async function requestNextPage(nextPageToken: string | null) {
             ],
             nextPageToken,
             "maxResults": 100,
-        }, {
-            headers: {
-                'Authorization': `Basic ${getJiraApiAuthKey()}`,
-                'Content-Type': 'application/json',
-            }
         })
+    })
+
+    return response.json()
 }
