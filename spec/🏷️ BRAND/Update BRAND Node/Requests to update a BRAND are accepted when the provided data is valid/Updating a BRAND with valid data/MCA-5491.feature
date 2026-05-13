@@ -17,6 +17,6 @@ Feature: Update BRAND Node
         | founded      | 1918                       |
         | defunct      |                            |
         | wmi          | WBA_2                      |
-        | hsn          | 0005_2                     |
-        | country_code | DE_2                       |
+        | hsn          | A005_2                     |
+        | country_code | AT                         |
       Then the request should be confirmed with status code 201
