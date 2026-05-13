@@ -9,7 +9,9 @@
   "response_options": [
     "N/A"
   ],
-  "release_versions": [],
+  "release_versions": [
+    "0.34.0"
+  ],
   "created_at": "2025-06-10T12:51:03.861+0200",
-  "updated_at": "2026-05-02T15:10:55.228+0200"
+  "updated_at": "2026-05-12T17:54:02.841+0200"
 }

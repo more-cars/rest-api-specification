@@ -1,9 +1,11 @@
 {
-  "id": "MCA-5447",
-  "parent_id": "MCA-5446",
+  "id": "MCA-5497",
+  "parent_id": "MCA-5496",
   "title": "Trying to update a BRAND with invalid data types",
   "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nWhen the user updates the node \"BMW\" with the following data\n  | key | value |\n  | name | 1234 |\n  | full_name | 1234 |\n  | founded | TEST |\n  | defunct | TEST |\n  | wmi | 1234 |\n  | hsn | 1234 |\n  | country_code | 1234 |\nThen the request should be rejected with status code 400",
-  "labels": [],
-  "created_at": "2026-05-11T11:09:13.579+0200",
-  "updated_at": "2026-05-11T11:09:17.565+0200"
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-11T18:06:07.320+0200",
+  "updated_at": "2026-05-13T17:31:37.437+0200"
 }

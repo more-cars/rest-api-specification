@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5543",
+  "parent_id": "MCA-5415",
+  "title": "Expecting a REVISION to be created whenever a NODE has been updated",
+  "gherkin": "Given there exists a \"COMPANY\" \"BMW AG\"\nWhen the user updates the \"BMW AG\" as \"BMW 2 AG\"\nThen there should exist a REVISION for \"BMW AG\"\nBut there should exist no REVISION for \"BMW 2 AG\"",
+  "labels": [
+    "manual_test"
+  ],
+  "created_at": "2026-05-12T17:56:54.290+0200",
+  "updated_at": "2026-05-12T18:14:08.569+0200"
+}

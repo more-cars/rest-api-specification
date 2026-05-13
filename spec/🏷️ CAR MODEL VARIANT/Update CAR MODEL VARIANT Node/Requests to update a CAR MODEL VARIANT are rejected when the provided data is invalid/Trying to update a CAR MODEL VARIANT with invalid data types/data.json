@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5533",
+  "parent_id": "MCA-5532",
+  "title": "Trying to update a CAR MODEL VARIANT with invalid data types",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nWhen the user updates the node \"BMW M3 CSL\" with the following data\n  | key | value |\n  | name | 1234 |\n  | internal_code | 1234 |\n  | built_from | TEST |\n  | built_to | TEST |\n  | body_style | 1234 |\n  | drag_coefficient | TEST |\n  | doors | TEST |\n  | weight | TEST |\n  | weight_unit | 1234 |\n  | max_power | TEST |\n  | max_power_unit | 1234 |\n  | max_torque | TEST |\n  | max_torque_unit | 1234 |\n  | cylinders | TEST |\n  | engine_configuration | 1234 |\n  | displacement | TEST |\n  | displacement_unit | 1234 |\n  | air_induction | 1234 |\n  | engine_type | 1234 |\n  | energy_source | 1234 |\n  | energy_source_2 | 1234 |\n  | consumption | TEST |\n  | consumption_unit | 1234 |\n  | consumption_2 | TEST |\n  | consumption_2_unit | 1234 |\n  | energy_capacity | TEST |\n  | energy_capacity_unit | 1234 |\n  | energy_capacity_2 | TEST |\n  | energy_capacity_2_unit | 1234 |\n  | transmission | 1234 |\n  | gears | TEST |\n  | drivetrain | 1234 |\n  | sprint_time_0_100_kmh | TEST |\n  | top_speed | TEST |\n  | top_speed_unit | 1234 |\n  | total_production | TEST |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-11T18:17:37.677+0200",
+  "updated_at": "2026-05-13T17:31:46.787+0200"
+}

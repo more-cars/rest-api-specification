@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5542",
+  "parent_id": "MCA-5541",
+  "title": "Trying to delete a mandatory field while updating a CAR MODEL VARIANT.",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nWhen the user updates the node \"BMW M3 CSL\" with the following data\n  | key | value |\n  | name |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-11T18:18:08.973+0200",
+  "updated_at": "2026-05-13T17:31:49.289+0200"
+}

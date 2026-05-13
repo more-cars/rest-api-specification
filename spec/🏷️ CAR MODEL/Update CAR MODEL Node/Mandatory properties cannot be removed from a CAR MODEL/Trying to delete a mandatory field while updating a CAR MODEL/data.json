@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5524",
+  "parent_id": "MCA-5523",
+  "title": "Trying to delete a mandatory field while updating a CAR MODEL.",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Corolla\"\nWhen the user updates the node \"Corolla\" with the following data\n  | key | value |\n  | name |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-11T18:09:37.981+0200",
+  "updated_at": "2026-05-13T17:31:44.383+0200"
+}

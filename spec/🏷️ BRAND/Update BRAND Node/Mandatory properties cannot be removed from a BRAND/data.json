@@ -1,9 +1,9 @@
 {
-  "id": "MCA-5455",
-  "parent_id": "MCA-5439",
+  "id": "MCA-5505",
+  "parent_id": "MCA-5489",
   "title": "Mandatory properties cannot be removed from a BRAND",
   "description": "A mandatory property may be updated, but not be deleted.\n",
-  "release_version": null,
-  "created_at": "2026-05-11T11:09:44.164+0200",
-  "updated_at": "2026-05-11T11:09:50.170+0200"
+  "release_version": "0.36.0",
+  "created_at": "2026-05-11T18:06:40.167+0200",
+  "updated_at": "2026-05-13T17:25:28.158+0200"
 }

@@ -36,6 +36,5 @@ Feature: Providing IDs for all NODEs
         | PROGRAMME         |
         | PROGRAMME EPISODE |
         | MOTOR SHOW        |
-
-#      | IMAGE             |
-#      | VIDEO             |
+        | IMAGE             |
+        | VIDEO             |

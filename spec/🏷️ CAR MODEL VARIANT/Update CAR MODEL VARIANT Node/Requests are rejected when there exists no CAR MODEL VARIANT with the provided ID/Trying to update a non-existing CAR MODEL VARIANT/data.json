@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5529",
+  "parent_id": "MCA-5528",
+  "title": "Trying to update a non-existing CAR MODEL VARIANT",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"BMW M3 CSL\" does NOT exist\nWhen the user updates the node \"BMW M3 CSL\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-11T18:17:17.630+0200",
+  "updated_at": "2026-05-13T17:31:45.596+0200"
+}

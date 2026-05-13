@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5531",
+  "parent_id": "MCA-5530",
+  "title": "Expecting the updated_at timestamp to change when updating a CAR MODEL VARIANT",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nWhen the user updates the node \"BMW M3 CSL\"\nThen both timestamps in the response should be different",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-11T18:17:24.367+0200",
+  "updated_at": "2026-05-13T17:31:46.102+0200"
+}

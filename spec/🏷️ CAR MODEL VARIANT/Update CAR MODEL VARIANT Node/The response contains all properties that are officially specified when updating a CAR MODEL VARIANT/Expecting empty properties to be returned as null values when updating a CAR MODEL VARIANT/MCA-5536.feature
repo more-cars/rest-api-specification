@@ -1,0 +1,88 @@
+@REQ_MCA-5525
+Feature: Update CAR MODEL VARIANT Node
+  As an API contributor
+  I want to be able to update a CAR MODEL VARIANT
+  So I can add missing information or fix incorrect data
+
+  @RULE_MCA-5534
+  Rule: The response contains all properties that are officially specified when updating a CAR MODEL VARIANT
+
+    @TEST_MCA-5536 @implemented
+    Scenario: Expecting empty properties to be returned as null values when updating a CAR MODEL VARIANT
+      Given there exists a "CAR MODEL VARIANT" "BMW M3 CSL"
+      When the user updates the node "BMW M3 CSL" with the following data
+        | key                    | value    |
+        | name                   | BMW M3_2 |
+        | internal_code          |          |
+        | built_from             |          |
+        | built_to               |          |
+        | body_style             |          |
+        | drag_coefficient       |          |
+        | doors                  |          |
+        | weight                 |          |
+        | weight_unit            |          |
+        | max_power              |          |
+        | max_power_unit         |          |
+        | max_torque             |          |
+        | max_torque_unit        |          |
+        | cylinders              |          |
+        | engine_configuration   |          |
+        | displacement           |          |
+        | displacement_unit      |          |
+        | air_induction          |          |
+        | engine_type            |          |
+        | energy_source          |          |
+        | energy_source_2        |          |
+        | consumption            |          |
+        | consumption_unit       |          |
+        | consumption_2          |          |
+        | consumption_2_unit     |          |
+        | energy_capacity        |          |
+        | energy_capacity_unit   |          |
+        | energy_capacity_2      |          |
+        | energy_capacity_2_unit |          |
+        | transmission           |          |
+        | gears                  |          |
+        | drivetrain             |          |
+        | sprint_time_0_100_kmh  |          |
+        | top_speed              |          |
+        | top_speed_unit         |          |
+        | total_production       |          |
+      Then the response should contain the following properties
+        | key                    | value    |
+        | name                   | BMW M3_2 |
+        | internal_code          |          |
+        | built_from             |          |
+        | built_to               |          |
+        | body_style             |          |
+        | drag_coefficient       |          |
+        | doors                  |          |
+        | weight                 |          |
+        | weight_unit            |          |
+        | max_power              |          |
+        | max_power_unit         |          |
+        | max_torque             |          |
+        | max_torque_unit        |          |
+        | cylinders              |          |
+        | engine_configuration   |          |
+        | displacement           |          |
+        | displacement_unit      |          |
+        | air_induction          |          |
+        | engine_type            |          |
+        | energy_source          |          |
+        | energy_source_2        |          |
+        | consumption            |          |
+        | consumption_unit       |          |
+        | consumption_2          |          |
+        | consumption_2_unit     |          |
+        | energy_capacity        |          |
+        | energy_capacity_unit   |          |
+        | energy_capacity_2      |          |
+        | energy_capacity_2_unit |          |
+        | transmission           |          |
+        | gears                  |          |
+        | drivetrain             |          |
+        | sprint_time_0_100_kmh  |          |
+        | top_speed              |          |
+        | top_speed_unit         |          |
+        | total_production       |          |

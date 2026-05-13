@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5538",
+  "parent_id": "MCA-5537",
+  "title": "Expecting unknown properties to be ignored when updating a CAR MODEL VARIANT",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nWhen the user updates the node \"BMW M3 CSL\" with the following data\n  | key | value |\n  | thimbleweed | park |\nThen the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-11T18:17:55.932+0200",
+  "updated_at": "2026-05-13T17:31:48.081+0200"
+}
