@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5552",
+  "parent_id": "MCA-5551",
+  "title": "Trying to update a PRICE with invalid data types",
+  "gherkin": "Given there exists a \"PRICE\" \"Base price\"\nWhen the user updates the node \"Base price\" with the following data\n  | key | value |\n  | price | TEST |\n  | price_year | TEST |\n  | currency_code | 1234 |\n  | country_code | 1234 |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:39:59.203+0200",
+  "updated_at": "2026-05-14T16:10:56.074+0200"
+}

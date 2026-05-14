@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5676",
+  "parent_id": "MCA-5675",
+  "title": "Expecting the updated_at timestamp to change when updating a LAP TIME",
+  "gherkin": "Given there exists a \"LAP TIME\" \"Fastest lap\"\nWhen the user updates the node \"Fastest lap\"\nThen both timestamps in the response should be different",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:57:14.693+0200",
+  "updated_at": "2026-05-14T16:11:29.492+0200"
+}

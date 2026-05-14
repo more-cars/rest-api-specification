@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5660",
+  "parent_id": "MCA-5659",
+  "title": "Trying to update a SESSION RESULT with invalid data types",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nWhen the user updates the node \"1st place\" with the following data\n  | key | value |\n  | position | TEST |\n  | race_number | 1234 |\n  | driver_name | 1234 |\n  | team_name | 1234 |\n  | race_time | 1234 |\n  | laps | TEST |\n  | status | 1234 |\n  | points | TEST |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:34:41.013+0200",
+  "updated_at": "2026-05-14T16:11:25.052+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5669",
+  "parent_id": "MCA-5668",
+  "title": "Trying to delete a mandatory field while updating a SESSION RESULT.",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nWhen the user updates the node \"1st place\" with the following data\n  | key | value |\n  | position |       |\n  | driver_name |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:35:14.300+0200",
+  "updated_at": "2026-05-14T16:11:27.560+0200"
+}

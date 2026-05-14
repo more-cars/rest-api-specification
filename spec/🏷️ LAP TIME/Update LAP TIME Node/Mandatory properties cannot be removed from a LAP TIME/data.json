@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5686",
+  "parent_id": "MCA-5670",
+  "title": "Mandatory properties cannot be removed from a LAP TIME",
+  "description": "A mandatory property may be updated, but not be deleted.\n",
+  "release_version": "0.36.0",
+  "created_at": "2026-05-14T10:58:11.417+0200",
+  "updated_at": "2026-05-14T15:48:00.239+0200"
+}

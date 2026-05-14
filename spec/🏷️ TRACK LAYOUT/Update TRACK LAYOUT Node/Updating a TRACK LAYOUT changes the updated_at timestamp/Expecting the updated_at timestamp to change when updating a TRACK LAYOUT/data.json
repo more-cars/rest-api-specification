@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5586",
+  "parent_id": "MCA-5585",
+  "title": "Expecting the updated_at timestamp to change when updating a TRACK LAYOUT",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nWhen the user updates the node \"Grand Prix Circuit\"\nThen both timestamps in the response should be different",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:53:13.815+0200",
+  "updated_at": "2026-05-14T16:11:05.678+0200"
+}

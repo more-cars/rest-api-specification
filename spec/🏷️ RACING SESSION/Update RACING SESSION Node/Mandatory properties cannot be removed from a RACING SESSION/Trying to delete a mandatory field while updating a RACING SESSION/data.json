@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5651",
+  "parent_id": "MCA-5650",
+  "title": "Trying to delete a mandatory field while updating a RACING SESSION.",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user updates the node \"Qualifying\" with the following data\n  | key | value |\n  | name |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:25:12.139+0200",
+  "updated_at": "2026-05-14T16:11:22.843+0200"
+}

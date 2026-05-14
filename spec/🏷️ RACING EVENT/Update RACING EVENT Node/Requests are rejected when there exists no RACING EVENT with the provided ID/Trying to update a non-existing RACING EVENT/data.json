@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5620",
+  "parent_id": "MCA-5619",
+  "title": "Trying to update a non-existing RACING EVENT",
+  "gherkin": "Given \"RACING EVENT\" \"GP Monaco\" does NOT exist\nWhen the user updates the node \"GP Monaco\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:19:33.420+0200",
+  "updated_at": "2026-05-14T16:11:14.477+0200"
+}

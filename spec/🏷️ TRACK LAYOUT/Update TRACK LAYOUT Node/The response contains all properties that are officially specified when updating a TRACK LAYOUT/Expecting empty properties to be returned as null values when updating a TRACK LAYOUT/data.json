@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5591",
+  "parent_id": "MCA-5589",
+  "title": "Expecting empty properties to be returned as null values when updating a TRACK LAYOUT",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nWhen the user updates the node \"Grand Prix Circuit\" with the following data\n  | key | value |\n  | name | GP Circuit_2 |\n  | year_from |       |\n  | year_to |       |\n  | length |       |\n  | length_unit |       |\n  | direction |       |\n  | elevation_change |       |\n  | elevation_change_unit |       |\n  | surface |       |\nThen the response should contain the following properties\n  | key | value |\n  | name | GP Circuit_2 |\n  | year_from |       |\n  | year_to |       |\n  | length |       |\n  | length_unit |       |\n  | direction |       |\n  | elevation_change |       |\n  | elevation_change_unit |       |\n  | surface |       |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:53:33.255+0200",
+  "updated_at": "2026-05-14T16:11:06.981+0200"
+}

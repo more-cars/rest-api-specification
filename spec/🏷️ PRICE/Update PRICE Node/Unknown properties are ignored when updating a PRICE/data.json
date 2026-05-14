@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5556",
+  "parent_id": "MCA-5544",
+  "title": "Unknown properties are ignored when updating a PRICE",
+  "description": "The user can provide properties that are not specified in the epic MCA-222, but they will be completely ignored. They will not be processed and there will be no info, warning or error that they were skipped.\n",
+  "release_version": "0.36.0",
+  "created_at": "2026-05-14T09:40:16.152+0200",
+  "updated_at": "2026-05-14T15:48:30.374+0200"
+}

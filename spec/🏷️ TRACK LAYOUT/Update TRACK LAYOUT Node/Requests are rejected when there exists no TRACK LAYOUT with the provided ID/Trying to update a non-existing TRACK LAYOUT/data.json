@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5584",
+  "parent_id": "MCA-5583",
+  "title": "Trying to update a non-existing TRACK LAYOUT",
+  "gherkin": "Given \"TRACK LAYOUT\" \"Grand Prix Circuit\" does NOT exist\nWhen the user updates the node \"Grand Prix Circuit\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:53:06.863+0200",
+  "updated_at": "2026-05-14T16:11:05.046+0200"
+}

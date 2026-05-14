@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5662",
+  "parent_id": "MCA-5661",
+  "title": "Expecting all properties to be returned when updating a SESSION RESULT",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nWhen the user updates the node \"1st place\" with the following data\n  | key | value |\n  | position | 3 |\n  | race_number | 44_2 |\n  | driver_name | Lewis Hamilton_2 |\n  | team_name | Mercedes_2 |\n  | race_time | PT1H23M45.678S_2 |\n  | laps | 53 |\n  | status | finished_2 |\n  | points | 27 |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | position | 3 |\n  | race_number | 44_2 |\n  | driver_name | Lewis Hamilton_2 |\n  | team_name | Mercedes_2 |\n  | race_time | PT1H23M45.678S_2 |\n  | laps | 53 |\n  | status | finished_2 |\n  | points | 27 |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:34:47.547+0200",
+  "updated_at": "2026-05-14T16:11:25.756+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5645",
+  "parent_id": "MCA-5643",
+  "title": "Expecting empty properties to be returned as null values when updating a RACING SESSION",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user updates the node \"Qualifying\" with the following data\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date |       |\n  | start_time |       |\n  | duration |       |\n  | duration_unit |       |\n  | distance |       |\n  | distance_unit |       |\nThen the response should contain the following properties\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date |       |\n  | start_time |       |\n  | duration |       |\n  | duration_unit |       |\n  | distance |       |\n  | distance_unit |       |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:24:51.357+0200",
+  "updated_at": "2026-05-14T16:11:21.443+0200"
+}

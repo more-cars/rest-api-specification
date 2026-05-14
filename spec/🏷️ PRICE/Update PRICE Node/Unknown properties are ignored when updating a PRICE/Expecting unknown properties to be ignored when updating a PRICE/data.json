@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5557",
+  "parent_id": "MCA-5556",
+  "title": "Expecting unknown properties to be ignored when updating a PRICE",
+  "gherkin": "Given there exists a \"PRICE\" \"Base price\"\nWhen the user updates the node \"Base price\" with the following data\n  | key | value |\n  | thimbleweed | park |\nThen the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:40:19.475+0200",
+  "updated_at": "2026-05-14T16:10:57.896+0200"
+}

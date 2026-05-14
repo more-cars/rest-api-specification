@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5644",
+  "parent_id": "MCA-5643",
+  "title": "Expecting all properties to be returned when updating a RACING SESSION",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user updates the node \"Qualifying\" with the following data\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date | 2025-05-25_2 |\n  | start_time | 15:00_2 |\n  | duration | 122 |\n  | duration_unit | min_2 |\n  | distance | 63 |\n  | distance_unit | laps_2 |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date | 2025-05-25_2 |\n  | start_time | 15:00_2 |\n  | duration | 122 |\n  | duration_unit | min_2 |\n  | distance | 63 |\n  | distance_unit | laps_2 |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:24:47.069+0200",
+  "updated_at": "2026-05-14T16:11:20.558+0200"
+}

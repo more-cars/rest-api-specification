@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5667",
+  "parent_id": "MCA-5666",
+  "title": "Expecting read-only properties to be ignored when updating a SESSION RESULT",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nWhen the user updates the node \"1st place\" with the following data\n  | key        | value      |\n  | id         | 1234       |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T10:35:07.040+0200",
+  "updated_at": "2026-05-14T16:11:27.102+0200"
+}

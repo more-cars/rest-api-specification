@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5579",
+  "parent_id": "MCA-5578",
+  "title": "Trying to delete a mandatory field while updating a RACE TRACK.",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Norisring\"\nWhen the user updates the node \"Norisring\" with the following data\n  | key | value |\n  | name |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:48:33.342+0200",
+  "updated_at": "2026-05-14T16:11:03.898+0200"
+}

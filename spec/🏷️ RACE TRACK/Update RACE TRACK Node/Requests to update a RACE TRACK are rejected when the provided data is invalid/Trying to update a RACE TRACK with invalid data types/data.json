@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5570",
+  "parent_id": "MCA-5569",
+  "title": "Trying to update a RACE TRACK with invalid data types",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Norisring\"\nWhen the user updates the node \"Norisring\" with the following data\n  | key | value |\n  | name | 1234 |\n  | opened | TEST |\n  | closed | TEST |\n  | type | 1234 |\n  | location | 1234 |\n  | geo_position | 1234 |\n  | country_code | 1234 |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:47:59.110+0200",
+  "updated_at": "2026-05-14T16:11:01.064+0200"
+}

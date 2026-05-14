@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5548",
+  "parent_id": "MCA-5547",
+  "title": "Trying to update a non-existing PRICE",
+  "gherkin": "Given \"PRICE\" \"Base price\" does NOT exist\nWhen the user updates the node \"Base price\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:39:44.141+0200",
+  "updated_at": "2026-05-14T16:10:55.120+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5588",
+  "parent_id": "MCA-5587",
+  "title": "Trying to update a TRACK LAYOUT with invalid data types",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nWhen the user updates the node \"Grand Prix Circuit\" with the following data\n  | key | value |\n  | name | 1234 |\n  | year_from | TEST |\n  | year_to | TEST |\n  | length | TEST |\n  | length_unit | 1234 |\n  | direction | 1234 |\n  | elevation_change | TEST |\n  | elevation_change_unit | 1234 |\n  | surface | 1234 |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-14T09:53:20.999+0200",
+  "updated_at": "2026-05-14T16:11:06.153+0200"
+}
