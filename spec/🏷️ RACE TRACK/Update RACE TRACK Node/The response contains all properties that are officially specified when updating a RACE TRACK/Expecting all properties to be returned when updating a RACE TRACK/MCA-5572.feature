@@ -18,7 +18,7 @@ Feature: Update RACE TRACK Node
         | type         | permanent race track_2 |
         | location     | Klettwitz_2            |
         | geo_position | 51°32’0”N 13°55’10”E_2 |
-        | country_code | DE_2                   |
+        | country_code | AT                     |
       Then the request should be confirmed with status code 201
       And the response should contain the following properties
         | key          | value                  |
@@ -28,4 +28,4 @@ Feature: Update RACE TRACK Node
         | type         | permanent race track_2 |
         | location     | Klettwitz_2            |
         | geo_position | 51°32’0”N 13°55’10”E_2 |
-        | country_code | DE_2                   |
+        | country_code | AT                     |

@@ -2,7 +2,7 @@
   "id": "MCA-5572",
   "parent_id": "MCA-5571",
   "title": "Expecting all properties to be returned when updating a RACE TRACK",
-  "gherkin": "Given there exists a \"RACE TRACK\" \"Norisring\"\nWhen the user updates the node \"Norisring\" with the following data\n  | key | value |\n  | name | Lausitzring_2 |\n  | opened | 2002 |\n  | closed |  |\n  | type | permanent race track_2 |\n  | location | Klettwitz_2 |\n  | geo_position | 51°32’0”N 13°55’10”E_2 |\n  | country_code | DE_2 |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | name | Lausitzring_2 |\n  | opened | 2002 |\n  | closed |  |\n  | type | permanent race track_2 |\n  | location | Klettwitz_2 |\n  | geo_position | 51°32’0”N 13°55’10”E_2 |\n  | country_code | DE_2 |",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Norisring\"\nWhen the user updates the node \"Norisring\" with the following data\n  | key | value |\n  | name | Lausitzring_2 |\n  | opened | 2002 |\n  | closed |  |\n  | type | permanent race track_2 |\n  | location | Klettwitz_2 |\n  | geo_position | 51°32’0”N 13°55’10”E_2 |\n  | country_code | AT |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | name | Lausitzring_2 |\n  | opened | 2002 |\n  | closed |  |\n  | type | permanent race track_2 |\n  | location | Klettwitz_2 |\n  | geo_position | 51°32’0”N 13°55’10”E_2 |\n  | country_code | AT |",
   "labels": [
     "implemented"
   ],

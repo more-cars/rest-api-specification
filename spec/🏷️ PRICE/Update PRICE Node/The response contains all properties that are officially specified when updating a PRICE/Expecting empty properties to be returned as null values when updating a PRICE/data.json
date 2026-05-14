@@ -2,7 +2,7 @@
   "id": "MCA-5555",
   "parent_id": "MCA-5553",
   "title": "Expecting empty properties to be returned as null values when updating a PRICE",
-  "gherkin": "Given there exists a \"PRICE\" \"Base price\"\nWhen the user updates the node \"Base price\" with the following data\n  | key | value |\n  | price | 59992 |\n  | price_year | 2022 |\n  | currency_code | EUR_2 |\n  | country_code | DE_2 |\nThen the response should contain the following properties\n  | key | value |\n  | price | 59992 |\n  | price_year | 2022 |\n  | currency_code | EUR_2 |\n  | country_code | DE_2 |",
+  "gherkin": "Given there exists a \"PRICE\" \"Base price\"\nWhen the user updates the node \"Base price\" with the following data\n  | key | value |\n  | price | 59992 |\n  | price_year | 2022 |\n  | currency_code | EUR |\n  | country_code | AT |\nThen the response should contain the following properties\n  | key | value |\n  | price | 59992 |\n  | price_year | 2022 |\n  | currency_code | EUR |\n  | country_code | AT |",
   "labels": [
     "implemented"
   ],

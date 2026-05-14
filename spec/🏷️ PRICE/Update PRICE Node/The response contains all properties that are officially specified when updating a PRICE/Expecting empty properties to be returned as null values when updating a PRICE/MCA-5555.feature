@@ -14,11 +14,11 @@ Feature: Update PRICE Node
         | key           | value |
         | price         | 59992 |
         | price_year    | 2022  |
-        | currency_code | EUR_2 |
-        | country_code  | DE_2  |
+        | currency_code | EUR   |
+        | country_code  | AT    |
       Then the response should contain the following properties
         | key           | value |
         | price         | 59992 |
         | price_year    | 2022  |
-        | currency_code | EUR_2 |
-        | country_code  | DE_2  |
+        | currency_code | EUR   |
+        | country_code  | AT    |
