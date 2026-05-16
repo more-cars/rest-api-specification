@@ -13,7 +13,7 @@ Feature: Update RATING Node
       When the user updates the node "93 Percent" with the following data
         | key             | value |
         | rating_value    | 95    |
-        | scale_minimum   |       |
+        | scale_minimum   | 0     |
         | scale_maximum   | 102   |
-        | scale_direction | up_2  |
+        | scale_direction | down  |
       Then the request should be confirmed with status code 201

@@ -19,5 +19,5 @@ Feature: Update PROGRAMME Node
         | total_seasons                | 35         |
         | total_episodes               | 242        |
         | regular_episode_running_time | PT60M_2    |
-        | country_code                 | GB_2       |
+        | country_code                 | DE         |
       Then the request should be confirmed with status code 201

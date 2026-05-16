@@ -18,7 +18,7 @@ Feature: Update MOTOR SHOW Node
         | location        | Frankfurt_2          |
         | target_audience | international_2      |
         | focus           | new cars_2           |
-        | country_code    | DE_2                 |
+        | country_code    | AT                   |
       Then the request should be confirmed with status code 201
       And the response should contain the following properties
         | key             | value                |
@@ -28,4 +28,4 @@ Feature: Update MOTOR SHOW Node
         | location        | Frankfurt_2          |
         | target_audience | international_2      |
         | focus           | new cars_2           |
-        | country_code    | DE_2                 |
+        | country_code    | AT                   |

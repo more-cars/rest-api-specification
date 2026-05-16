@@ -15,5 +15,5 @@ Feature: Update MODEL CAR BRAND Node
         | name         | Hot Wheels_2 |
         | founded      | 1970         |
         | defunct      |              |
-        | country_code | US_2         |
+        | country_code | DE           |
       Then the request should be confirmed with status code 201

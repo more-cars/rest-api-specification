@@ -2,7 +2,7 @@
   "id": "MCA-5752",
   "parent_id": "MCA-5751",
   "title": "Expecting all properties to be returned when updating a MODEL CAR BRAND",
-  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nWhen the user updates the node \"Hot Wheels\" with the following data\n  | key | value |\n  | name | Hot Wheels_2 |\n  | founded | 1970 |\n  | defunct |  |\n  | country_code | US_2 |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | name | Hot Wheels_2 |\n  | founded | 1970 |\n  | defunct |  |\n  | country_code | US_2 |",
+  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nWhen the user updates the node \"Hot Wheels\" with the following data\n  | key | value |\n  | name | Hot Wheels_2 |\n  | founded | 1970 |\n  | defunct |  |\n  | country_code | DE |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | name | Hot Wheels_2 |\n  | founded | 1970 |\n  | defunct |  |\n  | country_code | DE |",
   "labels": [
     "implemented"
   ],

@@ -18,6 +18,6 @@ Feature: Update MAGAZINE ISSUE Node
         | issue_year             | 2027           |
         | release_date           | 2025-10-01_2   |
         | single_copy_price      | 7.4            |
-        | single_copy_price_unit | EUR_2          |
+        | single_copy_price_unit | GBP            |
         | pages                  | 150            |
       Then the request should be confirmed with status code 201
