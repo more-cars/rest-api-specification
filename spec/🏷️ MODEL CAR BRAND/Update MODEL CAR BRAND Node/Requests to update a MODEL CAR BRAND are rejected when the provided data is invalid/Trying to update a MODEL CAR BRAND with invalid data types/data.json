@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5750",
+  "parent_id": "MCA-5749",
+  "title": "Trying to update a MODEL CAR BRAND with invalid data types",
+  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nWhen the user updates the node \"Hot Wheels\" with the following data\n  | key | value |\n  | name | 1234 |\n  | founded | TEST |\n  | defunct | TEST |\n  | country_code | 1234 |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:32:28.349+0200",
+  "updated_at": "2026-05-16T10:30:04.919+0200"
+}

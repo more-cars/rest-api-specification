@@ -1,0 +1,19 @@
+{
+  "id": "MCA-5814",
+  "parent_id": "MCA-224",
+  "title": "Update PROGRAMME Node",
+  "user_story": "As an API contributor\nI want to be able to update a PROGRAMME\nSo I can add missing information or fix incorrect data\n",
+  "description": "* A PROGRAMME node is successfully updated when the request contains valid data. The required data structure is specified in parent (epic) ticket MCA-224. -> Status Code \\`201\\`\n* A successful request returns the updated node with all properties that are officially specified.\n* The \\`updated\\_at\\` timestamp will be updated, the \\`created\\_at\\` timestamp not.\n* Mandatory properties can be overwritten, but not removed. -> Status Code \\`400\\`\n* Optional properties can be overwritten or removed. -> Status Code \\`201\\`\n* Unknown properties are ignored. They are not processed. They do not produce any info, warning or error messages for the user. -> Status Code \\`201\\`\n* Read-only properties (\\`id\\`, \\`created\\_at\\`, \\`updated\\_at\\`) are ignored. They are not processed. They do not produce any info, warning or error messages for the user. -> Status Code \\`201\\`\n* Requests with invalid ID are rejected. This case can happen when there exists no node with that ID or when the node is not from type PROGRAMME. -> Status Code \\`404\\`\n* Requests with invalid data are rejected. Cases for invalid data include: syntax errors, wrong data types, wrong data structure or trying to remove a mandatory field. -> Status Code \\`400\\`\n",
+  "api_verb": "PATCH",
+  "api_path": "/programmes/<programme-id>",
+  "response_options": [
+    "201",
+    "400",
+    "404"
+  ],
+  "release_versions": [
+    "0.36.0"
+  ],
+  "created_at": "2026-05-15T11:02:07.859+0200",
+  "updated_at": "2026-05-16T09:21:00.865+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5816",
+  "parent_id": "MCA-5815",
+  "title": "Updating a PROGRAMME with valid data",
+  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nWhen the user updates the node \"The Grand Tour\" with the following data\n  | key | value |\n  | name | Top Gear_2 |\n  | aired_from_year | 2004 |\n  | aired_until_year | 2024 |\n  | channel | BBC Two_2 |\n  | total_seasons | 35 |\n  | total_episodes | 242 |\n  | regular_episode_running_time | PT60M_2 |\n  | country_code | GB_2 |\nThen the request should be confirmed with status code 201",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:02:14.158+0200",
+  "updated_at": "2026-05-16T10:30:19.116+0200"
+}

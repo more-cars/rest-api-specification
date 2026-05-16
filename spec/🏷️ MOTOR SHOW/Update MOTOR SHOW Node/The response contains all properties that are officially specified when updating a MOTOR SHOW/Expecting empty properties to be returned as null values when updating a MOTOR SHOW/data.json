@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5861",
+  "parent_id": "MCA-5859",
+  "title": "Expecting empty properties to be returned as null values when updating a MOTOR SHOW",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nWhen the user updates the node \"IAA Frankfurt\" with the following data\n  | key | value |\n  | name | 2017 IAA Frankfurt_2 |\n  | date_from |       |\n  | date_until |       |\n  | location |       |\n  | target_audience |       |\n  | focus |       |\n  | country_code |       |\nThen the response should contain the following properties\n  | key | value |\n  | name | 2017 IAA Frankfurt_2 |\n  | date_from |       |\n  | date_until |       |\n  | location |       |\n  | target_audience |       |\n  | focus |       |\n  | country_code |       |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:26:52.935+0200",
+  "updated_at": "2026-05-16T10:30:29.887+0200"
+}

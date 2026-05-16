@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5822",
+  "parent_id": "MCA-5821",
+  "title": "Trying to update a PROGRAMME with invalid data types",
+  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nWhen the user updates the node \"The Grand Tour\" with the following data\n  | key | value |\n  | name | 1234 |\n  | aired_from_year | TEST |\n  | aired_until_year | TEST |\n  | channel | 1234 |\n  | total_seasons | TEST |\n  | total_episodes | TEST |\n  | regular_episode_running_time | 1234 |\n  | country_code | 1234 |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:02:35.572+0200",
+  "updated_at": "2026-05-16T10:30:20.797+0200"
+}

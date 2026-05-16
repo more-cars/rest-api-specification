@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5782",
+  "parent_id": "MCA-5781",
+  "title": "Trying to update a non-existing MAGAZINE ISSUE",
+  "gherkin": "Given \"MAGAZINE ISSUE\" \"sport auto 2_2026\" does NOT exist\nWhen the user updates the node \"sport auto 2_2026\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:50:45.934+0200",
+  "updated_at": "2026-05-16T10:30:10.919+0200"
+}

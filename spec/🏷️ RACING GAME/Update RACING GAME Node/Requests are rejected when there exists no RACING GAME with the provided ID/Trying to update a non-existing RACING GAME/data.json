@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5692",
+  "parent_id": "MCA-5691",
+  "title": "Trying to update a non-existing RACING GAME",
+  "gherkin": "Given \"RACING GAME\" \"Assetto Corsa\" does NOT exist\nWhen the user updates the node \"Assetto Corsa\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T09:33:47.827+0200",
+  "updated_at": "2026-05-16T10:29:51.205+0200"
+}

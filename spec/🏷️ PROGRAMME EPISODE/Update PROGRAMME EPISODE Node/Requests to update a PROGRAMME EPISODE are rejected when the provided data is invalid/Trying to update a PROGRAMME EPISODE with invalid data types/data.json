@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5840",
+  "parent_id": "MCA-5839",
+  "title": "Trying to update a PROGRAMME EPISODE with invalid data types",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nWhen the user updates the node \"The Holy Trinity\" with the following data\n  | key | value |\n  | title | 1234 |\n  | season_number | TEST |\n  | season_episode_number | TEST |\n  | original_air_date | 1234 |\n  | duration | 1234 |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:05:53.096+0200",
+  "updated_at": "2026-05-16T10:30:45.968+0200"
+}

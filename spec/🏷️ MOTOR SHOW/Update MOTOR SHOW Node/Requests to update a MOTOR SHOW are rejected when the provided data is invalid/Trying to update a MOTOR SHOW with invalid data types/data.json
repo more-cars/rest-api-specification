@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5858",
+  "parent_id": "MCA-5857",
+  "title": "Trying to update a MOTOR SHOW with invalid data types",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nWhen the user updates the node \"IAA Frankfurt\" with the following data\n  | key | value |\n  | name | 1234 |\n  | date_from | 1234 |\n  | date_until | 1234 |\n  | location | 1234 |\n  | target_audience | 1234 |\n  | focus | 1234 |\n  | country_code | 1234 |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:26:40.690+0200",
+  "updated_at": "2026-05-16T10:30:28.758+0200"
+}

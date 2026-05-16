@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5723",
+  "parent_id": "MCA-5722",
+  "title": "Trying to delete a mandatory field while updating a GAMING PLATFORM.",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nWhen the user updates the node \"PlayStation 5\" with the following data\n  | key | value |\n  | name |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:23:18.906+0200",
+  "updated_at": "2026-05-16T10:29:58.476+0200"
+}

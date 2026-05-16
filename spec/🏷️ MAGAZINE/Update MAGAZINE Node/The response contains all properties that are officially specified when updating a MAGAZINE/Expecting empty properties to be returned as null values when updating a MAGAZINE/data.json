@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5771",
+  "parent_id": "MCA-5769",
+  "title": "Expecting empty properties to be returned as null values when updating a MAGAZINE",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"sport auto\"\nWhen the user updates the node \"sport auto\" with the following data\n  | key | value |\n  | name | Top Gear_2 |\n  | founded |       |\n  | defunct |       |\n  | focus |       |\n  | publication_frequency |       |\n  | single_copy_price |       |\n  | single_copy_price_unit |       |\n  | publication_format |       |\n  | circulation |       |\n  | circulation_year |       |\n  | publisher |       |\n  | issn |       |\n  | country_code |       |\nThen the response should contain the following properties\n  | key | value |\n  | name | Top Gear_2 |\n  | founded |       |\n  | defunct |       |\n  | focus |       |\n  | publication_frequency |       |\n  | single_copy_price |       |\n  | single_copy_price_unit |       |\n  | publication_format |       |\n  | circulation |       |\n  | circulation_year |       |\n  | publisher |       |\n  | issn |       |\n  | country_code |       |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:38:18.917+0200",
+  "updated_at": "2026-05-16T10:30:10.641+0200"
+}

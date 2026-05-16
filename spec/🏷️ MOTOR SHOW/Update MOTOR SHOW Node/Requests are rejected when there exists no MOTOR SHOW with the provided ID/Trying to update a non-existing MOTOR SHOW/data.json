@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5854",
+  "parent_id": "MCA-5853",
+  "title": "Trying to update a non-existing MOTOR SHOW",
+  "gherkin": "Given \"MOTOR SHOW\" \"IAA Frankfurt\" does NOT exist\nWhen the user updates the node \"IAA Frankfurt\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:26:26.469+0200",
+  "updated_at": "2026-05-16T10:30:27.830+0200"
+}

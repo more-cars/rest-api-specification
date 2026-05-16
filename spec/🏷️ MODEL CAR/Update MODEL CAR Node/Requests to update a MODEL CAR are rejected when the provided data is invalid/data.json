@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5731",
+  "parent_id": "MCA-5724",
+  "title": "Requests to update a MODEL CAR are rejected when the provided data is invalid",
+  "description": "Data is invalid when its structure is incorrect or has syntax errors. Mandatory fields may not not deleted (via null value).\n",
+  "release_version": "0.36.0",
+  "created_at": "2026-05-15T10:28:01.291+0200",
+  "updated_at": "2026-05-16T10:00:34.759+0200"
+}

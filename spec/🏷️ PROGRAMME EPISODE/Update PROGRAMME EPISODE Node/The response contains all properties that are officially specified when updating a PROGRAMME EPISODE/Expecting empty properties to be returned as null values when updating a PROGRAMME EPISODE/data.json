@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5843",
+  "parent_id": "MCA-5841",
+  "title": "Expecting empty properties to be returned as null values when updating a PROGRAMME EPISODE",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nWhen the user updates the node \"The Holy Trinity\" with the following data\n  | key | value |\n  | title | The Falls Guys_2 |\n  | season_number |       |\n  | season_episode_number |       |\n  | original_air_date |       |\n  | duration |       |\nThen the response should contain the following properties\n  | key | value |\n  | title | The Falls Guys_2 |\n  | season_number |       |\n  | season_episode_number |       |\n  | original_air_date |       |\n  | duration |       |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:06:06.110+0200",
+  "updated_at": "2026-05-16T10:30:26.489+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5775",
+  "parent_id": "MCA-5774",
+  "title": "Expecting read-only properties to be ignored when updating a MAGAZINE",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"sport auto\"\nWhen the user updates the node \"sport auto\" with the following data\n  | key        | value      |\n  | id         | 1234       |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:38:32.482+0200",
+  "updated_at": "2026-05-16T10:30:12.501+0200"
+}

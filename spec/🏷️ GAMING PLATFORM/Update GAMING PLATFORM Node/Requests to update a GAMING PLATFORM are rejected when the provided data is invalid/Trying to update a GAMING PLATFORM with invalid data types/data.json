@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5714",
+  "parent_id": "MCA-5713",
+  "title": "Trying to update a GAMING PLATFORM with invalid data types",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nWhen the user updates the node \"PlayStation 5\" with the following data\n  | key | value |\n  | name | 1234 |\n  | release_year | TEST |\n  | manufacturer | 1234 |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:22:43.914+0200",
+  "updated_at": "2026-05-16T10:29:56.257+0200"
+}

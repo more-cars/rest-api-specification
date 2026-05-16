@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5770",
+  "parent_id": "MCA-5769",
+  "title": "Expecting all properties to be returned when updating a MAGAZINE",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"sport auto\"\nWhen the user updates the node \"sport auto\" with the following data\n  | key | value |\n  | name | Top Gear_2 |\n  | founded | 1995 |\n  | defunct |  |\n  | focus | sports cars_2 |\n  | publication_frequency | monthly_2 |\n  | single_copy_price | 7.99 |\n  | single_copy_price_unit | GBP_2 |\n  | publication_format | print_2 |\n  | circulation | 150886 |\n  | circulation_year | 2015 |\n  | publisher | Immediate Media Company_2 |\n  | issn | 1350-9624_2 |\n  | country_code | GB_2 |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | name | Top Gear_2 |\n  | founded | 1995 |\n  | defunct |  |\n  | focus | sports cars_2 |\n  | publication_frequency | monthly_2 |\n  | single_copy_price | 7.99 |\n  | single_copy_price_unit | GBP_2 |\n  | publication_format | print_2 |\n  | circulation | 150886 |\n  | circulation_year | 2015 |\n  | publisher | Immediate Media Company_2 |\n  | issn | 1350-9624_2 |\n  | country_code | GB_2 |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:38:13.784+0200",
+  "updated_at": "2026-05-16T10:30:10.025+0200"
+}

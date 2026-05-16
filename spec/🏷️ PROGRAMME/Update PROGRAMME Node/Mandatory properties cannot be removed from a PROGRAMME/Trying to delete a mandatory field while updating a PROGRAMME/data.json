@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5831",
+  "parent_id": "MCA-5830",
+  "title": "Trying to delete a mandatory field while updating a PROGRAMME.",
+  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nWhen the user updates the node \"The Grand Tour\" with the following data\n  | key | value |\n  | name |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:03:08.546+0200",
+  "updated_at": "2026-05-16T10:30:40.261+0200"
+}

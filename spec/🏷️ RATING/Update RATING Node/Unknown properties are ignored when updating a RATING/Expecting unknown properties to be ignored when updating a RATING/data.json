@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5809",
+  "parent_id": "MCA-5808",
+  "title": "Expecting unknown properties to be ignored when updating a RATING",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nWhen the user updates the node \"93 Percent\" with the following data\n  | key | value |\n  | thimbleweed | park |\nThen the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:59:56.783+0200",
+  "updated_at": "2026-05-16T10:30:17.747+0200"
+}

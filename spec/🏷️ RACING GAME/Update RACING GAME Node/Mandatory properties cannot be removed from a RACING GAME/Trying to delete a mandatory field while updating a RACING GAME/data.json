@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5705",
+  "parent_id": "MCA-5704",
+  "title": "Trying to delete a mandatory field while updating a RACING GAME.",
+  "gherkin": "Given there exists a \"RACING GAME\" \"Assetto Corsa\"\nWhen the user updates the node \"Assetto Corsa\" with the following data\n  | key | value |\n  | name |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T09:34:39.546+0200",
+  "updated_at": "2026-05-16T10:29:54.209+0200"
+}

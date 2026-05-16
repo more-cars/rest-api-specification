@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5807",
+  "parent_id": "MCA-5805",
+  "title": "Expecting empty properties to be returned as null values when updating a RATING",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nWhen the user updates the node \"93 Percent\" with the following data\n  | key | value |\n  | rating_value | 95 |\n  | scale_minimum |  |\n  | scale_maximum | 102 |\n  | scale_direction | up_2 |\nThen the response should contain the following properties\n  | key | value |\n  | rating_value | 95 |\n  | scale_minimum |  |\n  | scale_maximum | 102 |\n  | scale_direction | up_2 |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:59:50.159+0200",
+  "updated_at": "2026-05-16T10:30:17.223+0200"
+}

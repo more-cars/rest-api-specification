@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5699",
+  "parent_id": "MCA-5697",
+  "title": "Expecting empty properties to be returned as null values when updating a RACING GAME",
+  "gherkin": "Given there exists a \"RACING GAME\" \"Assetto Corsa\"\nWhen the user updates the node \"Assetto Corsa\" with the following data\n  | key | value |\n  | name | Forza Motorsport 7_2 |\n  | release_year |       |\n  | developer |       |\n  | publisher |       |\nThen the response should contain the following properties\n  | key | value |\n  | name | Forza Motorsport 7_2 |\n  | release_year |       |\n  | developer |       |\n  | publisher |       |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T09:34:16.558+0200",
+  "updated_at": "2026-05-16T10:29:52.965+0200"
+}

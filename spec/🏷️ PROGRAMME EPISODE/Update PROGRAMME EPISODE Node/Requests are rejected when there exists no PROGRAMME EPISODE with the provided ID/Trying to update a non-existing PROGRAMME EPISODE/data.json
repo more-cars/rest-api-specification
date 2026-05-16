@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5836",
+  "parent_id": "MCA-5835",
+  "title": "Trying to update a non-existing PROGRAMME EPISODE",
+  "gherkin": "Given \"PROGRAMME EPISODE\" \"The Holy Trinity\" does NOT exist\nWhen the user updates the node \"The Holy Trinity\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:05:38.455+0200",
+  "updated_at": "2026-05-16T10:30:24.522+0200"
+}

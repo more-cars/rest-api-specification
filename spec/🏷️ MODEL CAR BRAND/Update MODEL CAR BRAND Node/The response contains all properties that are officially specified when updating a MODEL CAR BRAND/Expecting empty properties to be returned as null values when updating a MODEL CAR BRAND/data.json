@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5753",
+  "parent_id": "MCA-5751",
+  "title": "Expecting empty properties to be returned as null values when updating a MODEL CAR BRAND",
+  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nWhen the user updates the node \"Hot Wheels\" with the following data\n  | key | value |\n  | name | Hot Wheels_2 |\n  | founded |       |\n  | defunct |       |\n  | country_code |       |\nThen the response should contain the following properties\n  | key | value |\n  | name | Hot Wheels_2 |\n  | founded |       |\n  | defunct |       |\n  | country_code |       |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:32:40.530+0200",
+  "updated_at": "2026-05-16T10:30:05.121+0200"
+}

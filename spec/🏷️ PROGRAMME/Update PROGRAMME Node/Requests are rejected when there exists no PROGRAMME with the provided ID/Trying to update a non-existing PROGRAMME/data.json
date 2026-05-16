@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5818",
+  "parent_id": "MCA-5817",
+  "title": "Trying to update a non-existing PROGRAMME",
+  "gherkin": "Given \"PROGRAMME\" \"The Grand Tour\" does NOT exist\nWhen the user updates the node \"The Grand Tour\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T11:02:21.288+0200",
+  "updated_at": "2026-05-16T10:30:19.569+0200"
+}

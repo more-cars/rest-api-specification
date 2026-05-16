@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5784",
+  "parent_id": "MCA-5783",
+  "title": "Expecting the updated_at timestamp to change when updating a MAGAZINE ISSUE",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"sport auto 2_2026\"\nWhen the user updates the node \"sport auto 2_2026\"\nThen both timestamps in the response should be different",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:50:52.786+0200",
+  "updated_at": "2026-05-16T10:30:11.691+0200"
+}

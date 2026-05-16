@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5740",
+  "parent_id": "MCA-5724",
+  "title": "Mandatory properties cannot be removed from a MODEL CAR",
+  "description": "A mandatory property may be updated, but not be deleted.\n",
+  "release_version": "0.36.0",
+  "created_at": "2026-05-15T10:28:33.918+0200",
+  "updated_at": "2026-05-16T10:00:33.079+0200"
+}

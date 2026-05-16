@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5786",
+  "parent_id": "MCA-5785",
+  "title": "Trying to update a MAGAZINE ISSUE with invalid data types",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"sport auto 2_2026\"\nWhen the user updates the node \"sport auto 2_2026\" with the following data\n  | key | value |\n  | title | 1234 |\n  | consecutive_number | TEST |\n  | issue_number | TEST |\n  | issue_year | TEST |\n  | release_date | 1234 |\n  | single_copy_price | TEST |\n  | single_copy_price_unit | 1234 |\n  | pages | TEST |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:50:59.946+0200",
+  "updated_at": "2026-05-16T10:30:12.639+0200"
+}

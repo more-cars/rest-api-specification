@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5744",
+  "parent_id": "MCA-5743",
+  "title": "Updating a MODEL CAR BRAND with valid data",
+  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nWhen the user updates the node \"Hot Wheels\" with the following data\n  | key | value |\n  | name | Hot Wheels_2 |\n  | founded | 1970 |\n  | defunct |  |\n  | country_code | US_2 |\nThen the request should be confirmed with status code 201",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-15T10:32:06.685+0200",
+  "updated_at": "2026-05-16T10:30:02.280+0200"
+}
