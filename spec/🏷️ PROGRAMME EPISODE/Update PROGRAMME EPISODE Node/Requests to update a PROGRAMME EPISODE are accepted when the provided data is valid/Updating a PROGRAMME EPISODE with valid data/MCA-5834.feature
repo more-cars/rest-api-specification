@@ -17,4 +17,4 @@ Feature: Update PROGRAMME EPISODE Node
         | season_episode_number | 4                |
         | original_air_date     | 2017-12-08_2     |
         | duration              | PT55M_2          |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200

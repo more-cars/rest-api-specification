@@ -19,4 +19,4 @@ Feature: Update BRAND Node
         | wmi          | WBA_2                      |
         | hsn          | A005_2                     |
         | country_code | AT                         |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200

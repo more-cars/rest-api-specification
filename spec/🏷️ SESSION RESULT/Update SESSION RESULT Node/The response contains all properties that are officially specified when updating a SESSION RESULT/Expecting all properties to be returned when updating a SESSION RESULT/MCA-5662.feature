@@ -20,7 +20,7 @@ Feature: Update SESSION RESULT Node
         | laps        | 53               |
         | status      | finished_2       |
         | points      | 27               |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key         | value            |
         | position    | 3                |

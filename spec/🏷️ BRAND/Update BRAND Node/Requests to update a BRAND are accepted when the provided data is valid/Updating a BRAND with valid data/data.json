@@ -2,7 +2,7 @@
   "id": "MCA-5491",
   "parent_id": "MCA-5490",
   "title": "Updating a BRAND with valid data",
-  "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nWhen the user updates the node \"BMW\" with the following data\n  | key | value |\n  | name | BMW_2 |\n  | full_name | Bayerische Motoren Werke_2 |\n  | founded | 1918 |\n  | defunct |  |\n  | wmi | WBA_2 |\n  | hsn | A005_2 |\n  | country_code | AT |\nThen the request should be confirmed with status code 201",
+  "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nWhen the user updates the node \"BMW\" with the following data\n  | key | value |\n  | name | BMW_2 |\n  | full_name | Bayerische Motoren Werke_2 |\n  | founded | 1918 |\n  | defunct |  |\n  | wmi | WBA_2 |\n  | hsn | A005_2 |\n  | country_code | AT |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

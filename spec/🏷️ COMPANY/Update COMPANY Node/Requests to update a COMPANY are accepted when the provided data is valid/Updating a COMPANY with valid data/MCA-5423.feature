@@ -19,4 +19,4 @@ Feature: Update COMPANY Node
         | hq_country_code             | AT       |
         | legal_headquarters_location | Munich_2 |
         | legal_hq_country_code       | AT       |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200

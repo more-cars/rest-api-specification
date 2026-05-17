@@ -19,4 +19,4 @@ Feature: Update MOTOR SHOW Node
         | target_audience | international_2      |
         | focus           | new cars_2           |
         | country_code    | AT                   |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200

@@ -2,7 +2,7 @@
   "id": "MCA-5499",
   "parent_id": "MCA-5498",
   "title": "Expecting all properties to be returned when updating a BRAND",
-  "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nWhen the user updates the node \"BMW\" with the following data\n  | key | value |\n  | name | BMW_2 |\n  | full_name | Bayerische Motoren Werke_2 |\n  | founded | 1918 |\n  | defunct |  |\n  | wmi | WBA_2 |\n  | hsn | A005_2 |\n  | country_code | AT |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | name | BMW_2 |\n  | full_name | Bayerische Motoren Werke_2 |\n  | founded | 1918 |\n  | defunct |  |\n  | wmi | WBA_2 |\n  | hsn | A005_2 |\n  | country_code | AT |",
+  "gherkin": "Given there exists a \"BRAND\" \"BMW\"\nWhen the user updates the node \"BMW\" with the following data\n  | key | value |\n  | name | BMW_2 |\n  | full_name | Bayerische Motoren Werke_2 |\n  | founded | 1918 |\n  | defunct |  |\n  | wmi | WBA_2 |\n  | hsn | A005_2 |\n  | country_code | AT |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | BMW_2 |\n  | full_name | Bayerische Motoren Werke_2 |\n  | founded | 1918 |\n  | defunct |  |\n  | wmi | WBA_2 |\n  | hsn | A005_2 |\n  | country_code | AT |",
   "labels": [
     "implemented"
   ],

@@ -5,5 +5,5 @@
   "description": "The user can provide properties that are not specified in the epic MCA-232, but they will be completely ignored. They will not be processed and there will be no info, warning or error that they were skipped.\n",
   "release_version": "0.36.0",
   "created_at": "2026-05-15T10:28:20.102+0200",
-  "updated_at": "2026-05-16T10:00:33.885+0200"
+  "updated_at": "2026-05-17T16:49:42.990+0200"
 }

@@ -2,7 +2,7 @@
   "id": "MCA-5806",
   "parent_id": "MCA-5805",
   "title": "Expecting all properties to be returned when updating a RATING",
-  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nWhen the user updates the node \"93 Percent\" with the following data\n  | key             | value |\n  | rating_value    | 95    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 102   |\n  | scale_direction | down  |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key             | value |\n  | rating_value    | 95    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 102   |\n  | scale_direction | down  |",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nWhen the user updates the node \"93 Percent\" with the following data\n  | key             | value |\n  | rating_value    | 95    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 102   |\n  | scale_direction | down  |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key             | value |\n  | rating_value    | 95    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 102   |\n  | scale_direction | down  |",
   "labels": [
     "implemented"
   ],

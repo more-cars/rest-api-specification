@@ -2,7 +2,7 @@
   "id": "MCA-5582",
   "parent_id": "MCA-5581",
   "title": "Updating a TRACK LAYOUT with valid data",
-  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nWhen the user updates the node \"Grand Prix Circuit\" with the following data\n  | key | value |\n  | name | GP Circuit_2 |\n  | year_from | 1969 |\n  | year_to | 2001 |\n  | length | 7.397 |\n  | length_unit | km_2 |\n  | direction | clockwise_2 |\n  | elevation_change | 75 |\n  | elevation_change_unit | m_2 |\n  | surface | asphalt_2 |\nThen the request should be confirmed with status code 201",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nWhen the user updates the node \"Grand Prix Circuit\" with the following data\n  | key | value |\n  | name | GP Circuit_2 |\n  | year_from | 1969 |\n  | year_to | 2001 |\n  | length | 7.397 |\n  | length_unit | km_2 |\n  | direction | clockwise_2 |\n  | elevation_change | 75 |\n  | elevation_change_unit | m_2 |\n  | surface | asphalt_2 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCA-5780",
   "parent_id": "MCA-5779",
   "title": "Updating a MAGAZINE ISSUE with valid data",
-  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"sport auto 2_2026\"\nWhen the user updates the node \"sport auto 2_2026\" with the following data\n  | key | value |\n  | title | Sieger-Typen_2 |\n  | consecutive_number |  |\n  | issue_number | 13 |\n  | issue_year | 2027 |\n  | release_date | 2025-10-01_2 |\n  | single_copy_price | 7.4 |\n  | single_copy_price_unit | GBP |\n  | pages | 150 |\nThen the request should be confirmed with status code 201",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"sport auto 2_2026\"\nWhen the user updates the node \"sport auto 2_2026\" with the following data\n  | key | value |\n  | title | Sieger-Typen_2 |\n  | consecutive_number |  |\n  | issue_number | 13 |\n  | issue_year | 2027 |\n  | release_date | 2025-10-01_2 |\n  | single_copy_price | 7.4 |\n  | single_copy_price_unit | GBP |\n  | pages | 150 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

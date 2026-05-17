@@ -2,7 +2,7 @@
   "id": "MCA-5708",
   "parent_id": "MCA-5707",
   "title": "Updating a GAMING PLATFORM with valid data",
-  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nWhen the user updates the node \"PlayStation 5\" with the following data\n  | key | value |\n  | name | PlayStation 5_2 |\n  | release_year | 2022 |\n  | manufacturer | Sony_2 |\nThen the request should be confirmed with status code 201",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nWhen the user updates the node \"PlayStation 5\" with the following data\n  | key | value |\n  | name | PlayStation 5_2 |\n  | release_year | 2022 |\n  | manufacturer | Sony_2 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

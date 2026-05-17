@@ -16,7 +16,7 @@ Feature: Update MODEL CAR BRAND Node
         | founded      | 1970         |
         | defunct      |              |
         | country_code | DE           |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key          | value        |
         | name         | Hot Wheels_2 |

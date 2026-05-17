@@ -2,7 +2,7 @@
   "id": "MCA-5798",
   "parent_id": "MCA-5797",
   "title": "Updating a RATING with valid data",
-  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nWhen the user updates the node \"93 Percent\" with the following data\n  | key             | value |\n  | rating_value    | 95    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 102   |\n  | scale_direction | down  |\nThen the request should be confirmed with status code 201",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nWhen the user updates the node \"93 Percent\" with the following data\n  | key             | value |\n  | rating_value    | 95    |\n  | scale_minimum   | 0     |\n  | scale_maximum   | 102   |\n  | scale_direction | down  |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

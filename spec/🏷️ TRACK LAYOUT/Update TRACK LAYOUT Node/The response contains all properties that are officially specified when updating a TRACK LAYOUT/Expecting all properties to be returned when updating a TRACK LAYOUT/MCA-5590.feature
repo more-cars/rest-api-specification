@@ -21,7 +21,7 @@ Feature: Update TRACK LAYOUT Node
         | elevation_change      | 75           |
         | elevation_change_unit | m_2          |
         | surface               | asphalt_2    |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key                   | value        |
         | name                  | GP Circuit_2 |

@@ -2,7 +2,7 @@
   "id": "MCA-5716",
   "parent_id": "MCA-5715",
   "title": "Expecting all properties to be returned when updating a GAMING PLATFORM",
-  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nWhen the user updates the node \"PlayStation 5\" with the following data\n  | key | value |\n  | name | PlayStation 5_2 |\n  | release_year | 2022 |\n  | manufacturer | Sony_2 |\nThen the request should be confirmed with status code 201\nAnd the response should contain the following properties\n  | key | value |\n  | name | PlayStation 5_2 |\n  | release_year | 2022 |\n  | manufacturer | Sony_2 |",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nWhen the user updates the node \"PlayStation 5\" with the following data\n  | key | value |\n  | name | PlayStation 5_2 |\n  | release_year | 2022 |\n  | manufacturer | Sony_2 |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | PlayStation 5_2 |\n  | release_year | 2022 |\n  | manufacturer | Sony_2 |",
   "labels": [
     "implemented"
   ],

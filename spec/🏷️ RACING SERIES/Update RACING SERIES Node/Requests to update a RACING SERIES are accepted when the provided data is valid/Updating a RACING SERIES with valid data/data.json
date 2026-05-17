@@ -2,7 +2,7 @@
   "id": "MCA-5600",
   "parent_id": "MCA-5599",
   "title": "Updating a RACING SERIES with valid data",
-  "gherkin": "Given there exists a \"RACING SERIES\" \"Formula 1\"\nWhen the user updates the node \"Formula 1\" with the following data\n  | key | value |\n  | name | Deutsche Tourenwagen-Masters_2 |\n  | short_name | DTM_2 |\n  | founded | 2002 |\n  | defunct |  |\n  | organized_by | ITR_2 |\n  | vehicle_type | touring cars_2 |\n  | country_code | AT |\nThen the request should be confirmed with status code 201",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"Formula 1\"\nWhen the user updates the node \"Formula 1\" with the following data\n  | key | value |\n  | name | Deutsche Tourenwagen-Masters_2 |\n  | short_name | DTM_2 |\n  | founded | 2002 |\n  | defunct |  |\n  | organized_by | ITR_2 |\n  | vehicle_type | touring cars_2 |\n  | country_code | AT |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

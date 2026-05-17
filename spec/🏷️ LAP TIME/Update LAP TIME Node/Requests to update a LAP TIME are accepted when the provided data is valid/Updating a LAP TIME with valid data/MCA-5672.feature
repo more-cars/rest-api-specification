@@ -15,4 +15,4 @@ Feature: Update LAP TIME Node
         | time        | PT1M33.294S_2  |
         | driver_name | Klaus Ludwig_2 |
         | date        | 1996-08-03_2   |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200

@@ -15,7 +15,7 @@ Feature: Update GAMING PLATFORM Node
         | name         | PlayStation 5_2 |
         | release_year | 2022            |
         | manufacturer | Sony_2          |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key          | value           |
         | name         | PlayStation 5_2 |

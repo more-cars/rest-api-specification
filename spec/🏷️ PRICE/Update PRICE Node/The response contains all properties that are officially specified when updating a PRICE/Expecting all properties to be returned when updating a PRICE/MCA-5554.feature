@@ -16,7 +16,7 @@ Feature: Update PRICE Node
         | price_year    | 2022  |
         | currency_code | EUR   |
         | country_code  | AT    |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key           | value |
         | price         | 59992 |

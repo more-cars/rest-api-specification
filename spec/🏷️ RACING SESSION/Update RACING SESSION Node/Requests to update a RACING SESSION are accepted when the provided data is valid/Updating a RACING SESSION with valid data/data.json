@@ -2,7 +2,7 @@
   "id": "MCA-5636",
   "parent_id": "MCA-5635",
   "title": "Updating a RACING SESSION with valid data",
-  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user updates the node \"Qualifying\" with the following data\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date | 2025-05-25_2 |\n  | start_time | 15:00_2 |\n  | duration | 122 |\n  | duration_unit | min_2 |\n  | distance | 63 |\n  | distance_unit | laps_2 |\nThen the request should be confirmed with status code 201",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user updates the node \"Qualifying\" with the following data\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date | 2025-05-25_2 |\n  | start_time | 15:00_2 |\n  | duration | 122 |\n  | duration_unit | min_2 |\n  | distance | 63 |\n  | distance_unit | laps_2 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

@@ -16,4 +16,4 @@ Feature: Update RACING GAME Node
         | release_year | 2019                 |
         | developer    | Turn 10 Studios_2    |
         | publisher    | Microsoft Studios_2  |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200

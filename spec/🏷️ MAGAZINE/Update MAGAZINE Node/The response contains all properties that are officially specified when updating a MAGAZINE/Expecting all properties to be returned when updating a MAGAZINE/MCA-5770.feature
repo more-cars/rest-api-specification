@@ -25,7 +25,7 @@ Feature: Update MAGAZINE Node
         | publisher              | Immediate Media Company_2 |
         | issn                   | 1350-9624                 |
         | country_code           | DE                        |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key                    | value                     |
         | name                   | Top Gear_2                |

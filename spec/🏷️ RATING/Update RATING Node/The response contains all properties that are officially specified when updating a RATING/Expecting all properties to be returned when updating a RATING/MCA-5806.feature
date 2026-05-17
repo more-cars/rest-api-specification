@@ -16,7 +16,7 @@ Feature: Update RATING Node
         | scale_minimum   | 0     |
         | scale_maximum   | 102   |
         | scale_direction | down  |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key             | value |
         | rating_value    | 95    |

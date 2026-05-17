@@ -19,7 +19,7 @@ Feature: Update RACING SESSION Node
         | duration_unit | min_2        |
         | distance      | 63           |
         | distance_unit | laps_2       |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key           | value        |
         | name          | Grand Prix_2 |

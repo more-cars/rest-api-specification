@@ -20,7 +20,7 @@ Feature: Update PROGRAMME Node
         | total_episodes               | 242        |
         | regular_episode_running_time | PT60M_2    |
         | country_code                 | DE         |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key                          | value      |
         | name                         | Top Gear_2 |

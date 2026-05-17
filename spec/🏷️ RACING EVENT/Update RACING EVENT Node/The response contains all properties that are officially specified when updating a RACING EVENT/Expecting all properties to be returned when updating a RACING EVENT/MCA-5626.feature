@@ -16,7 +16,7 @@ Feature: Update RACING EVENT Node
         | round     | 9            |
         | date_from | 2025-05-20_2 |
         | date_to   | 2025-05-22_2 |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key       | value        |
         | name      | GP Monaco_2  |

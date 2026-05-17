@@ -2,7 +2,7 @@
   "id": "MCA-5509",
   "parent_id": "MCA-5508",
   "title": "Updating a CAR MODEL with valid data",
-  "gherkin": "Given there exists a \"CAR MODEL\" \"Corolla\"\nWhen the user updates the node \"Corolla\" with the following data\n  | key | value |\n  | name | Corvette_2 |\n  | built_from | 1978 |\n  | built_to | 1989 |\n  | generation | 5 |\n  | internal_code | C3_2 |\n  | total_production | 1234569 |\nThen the request should be confirmed with status code 201",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Corolla\"\nWhen the user updates the node \"Corolla\" with the following data\n  | key | value |\n  | name | Corvette_2 |\n  | built_from | 1978 |\n  | built_to | 1989 |\n  | generation | 5 |\n  | internal_code | C3_2 |\n  | total_production | 1234569 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

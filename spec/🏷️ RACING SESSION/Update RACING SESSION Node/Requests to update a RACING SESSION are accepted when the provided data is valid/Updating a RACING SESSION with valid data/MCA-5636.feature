@@ -19,4 +19,4 @@ Feature: Update RACING SESSION Node
         | duration_unit | min_2        |
         | distance      | 63           |
         | distance_unit | laps_2       |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200

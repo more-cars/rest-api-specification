@@ -18,4 +18,4 @@ Feature: Update CAR MODEL Node
         | generation       | 5          |
         | internal_code    | C3_2       |
         | total_production | 1234569    |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200

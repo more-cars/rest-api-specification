@@ -20,7 +20,7 @@ Feature: Update MAGAZINE ISSUE Node
         | single_copy_price      | 7.4            |
         | single_copy_price_unit | GBP            |
         | pages                  | 150            |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key                    | value          |
         | title                  | Sieger-Typen_2 |
