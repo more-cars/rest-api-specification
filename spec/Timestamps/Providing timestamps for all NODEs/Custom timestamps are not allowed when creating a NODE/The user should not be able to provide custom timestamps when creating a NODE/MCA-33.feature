@@ -25,7 +25,7 @@ Feature: Providing timestamps for all NODEs
         | rating_value    | 93                   |
         | scale_minimum   | 0                    |
         | scale_maximum   | 100                  |
-        | scale_direction | ASC                  |
+        | scale_direction | up                   |
         | time            | PT2M                 |
         | created_at      | 2022-07-23T03:00:00Z |
         | updated_at      | 2022-07-23T03:00:00Z |

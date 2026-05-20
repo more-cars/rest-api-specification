@@ -28,7 +28,7 @@ Feature: 8-digit IDs
         | rating_value    | 93        |
         | scale_minimum   | 0         |
         | scale_maximum   | 100       |
-        | scale_direction | ASC       |
+        | scale_direction | up        |
         | time            | PT2M      |
       Then the response should return with status code 201
       And the response should NOT contain the ID 1234
