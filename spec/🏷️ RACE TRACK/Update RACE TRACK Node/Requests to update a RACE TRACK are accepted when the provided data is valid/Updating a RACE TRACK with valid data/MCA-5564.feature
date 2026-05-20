@@ -11,12 +11,12 @@ Feature: Update RACE TRACK Node
     Scenario: Updating a RACE TRACK with valid data
       Given there exists a "RACE TRACK" "Norisring"
       When the user updates the node "Norisring" with the following data
-        | key          | value                  |
-        | name         | Lausitzring_2          |
-        | opened       | 2002                   |
-        | closed       |                        |
-        | type         | permanent race track_2 |
-        | location     | Klettwitz_2            |
-        | geo_position | 51°32’0”N 13°55’10”E_2 |
-        | country_code | AT                     |
+        | key          | value                |
+        | name         | Lausitzring_2        |
+        | opened       | 2002                 |
+        | closed       |                      |
+        | type         | permanent race track |
+        | location     | Klettwitz_2          |
+        | geo_position | 51°32′0″N 13°55′10″E |
+        | country_code | AT                   |
       Then the request should be confirmed with status code 200

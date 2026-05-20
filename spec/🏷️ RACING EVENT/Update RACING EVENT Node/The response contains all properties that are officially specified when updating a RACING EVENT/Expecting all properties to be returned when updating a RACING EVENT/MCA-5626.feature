@@ -11,15 +11,15 @@ Feature: Update RACING EVENT Node
     Scenario: Expecting all properties to be returned when updating a RACING EVENT
       Given there exists a "RACING EVENT" "GP Monaco"
       When the user updates the node "GP Monaco" with the following data
-        | key       | value        |
-        | name      | GP Monaco_2  |
-        | round     | 9            |
-        | date_from | 2025-05-20_2 |
-        | date_to   | 2025-05-22_2 |
+        | key       | value       |
+        | name      | GP Monaco_2 |
+        | round     | 9           |
+        | date_from | 2025-05-20  |
+        | date_to   | 2025-05-22  |
       Then the request should be confirmed with status code 200
       And the response should contain the following properties
-        | key       | value        |
-        | name      | GP Monaco_2  |
-        | round     | 9            |
-        | date_from | 2025-05-20_2 |
-        | date_to   | 2025-05-22_2 |
+        | key       | value       |
+        | name      | GP Monaco_2 |
+        | round     | 9           |
+        | date_from | 2025-05-20  |
+        | date_to   | 2025-05-22  |

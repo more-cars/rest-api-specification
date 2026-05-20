@@ -2,7 +2,7 @@
   "id": "MCA-5618",
   "parent_id": "MCA-5617",
   "title": "Updating a RACING EVENT with valid data",
-  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nWhen the user updates the node \"GP Monaco\" with the following data\n  | key | value |\n  | name | GP Monaco_2 |\n  | round | 9 |\n  | date_from | 2025-05-20_2 |\n  | date_to | 2025-05-22_2 |\nThen the request should be confirmed with status code 200",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nWhen the user updates the node \"GP Monaco\" with the following data\n  | key | value |\n  | name | GP Monaco_2 |\n  | round | 9 |\n  | date_from | 2025-05-20 |\n  | date_to | 2025-05-22 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

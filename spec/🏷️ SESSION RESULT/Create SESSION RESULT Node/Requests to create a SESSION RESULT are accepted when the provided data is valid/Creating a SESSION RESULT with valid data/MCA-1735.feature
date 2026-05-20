@@ -17,7 +17,7 @@ Feature: Create SESSION RESULT Node
         | team_name   | Mercedes       |
         | race_time   | PT1H23M45.678S |
         | laps        | 51             |
-        | status      | finished       |
+        | status      | Finished       |
         | points      | 25             |
       Then the request should be confirmed with status code 201
       And the response should return the "SESSION RESULT" "1st place"

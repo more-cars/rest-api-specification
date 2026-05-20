@@ -15,13 +15,13 @@ Feature: Update PROGRAMME EPISODE Node
         | title                 | The Falls Guys_2 |
         | season_number         | 4                |
         | season_episode_number | 4                |
-        | original_air_date     | 2017-12-08_2     |
-        | duration              | PT55M_2          |
+        | original_air_date     | 2017-12-08       |
+        | duration              | PT55M            |
       Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key                   | value            |
         | title                 | The Falls Guys_2 |
         | season_number         | 4                |
         | season_episode_number | 4                |
-        | original_air_date     | 2017-12-08_2     |
-        | duration              | PT55M_2          |
+        | original_air_date     | 2017-12-08       |
+        | duration              | PT55M            |

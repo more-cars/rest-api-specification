@@ -2,7 +2,7 @@
   "id": "MCA-5860",
   "parent_id": "MCA-5859",
   "title": "Expecting all properties to be returned when updating a MOTOR SHOW",
-  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nWhen the user updates the node \"IAA Frankfurt\" with the following data\n  | key | value |\n  | name | 2017 IAA Frankfurt_2 |\n  | date_from | 2017-09-14_2 |\n  | date_until | 2017-09-24_2 |\n  | location | Frankfurt_2 |\n  | target_audience | international_2 |\n  | focus | new cars_2 |\n  | country_code | AT |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | 2017 IAA Frankfurt_2 |\n  | date_from | 2017-09-14_2 |\n  | date_until | 2017-09-24_2 |\n  | location | Frankfurt_2 |\n  | target_audience | international_2 |\n  | focus | new cars_2 |\n  | country_code | AT |",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nWhen the user updates the node \"IAA Frankfurt\" with the following data\n  | key | value |\n  | name | 2017 IAA Frankfurt_2 |\n  | date_from | 2017-09-14 |\n  | date_until | 2017-09-24 |\n  | location | Frankfurt_2 |\n  | target_audience | international |\n  | focus | new_cars |\n  | country_code | AT |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | 2017 IAA Frankfurt_2 |\n  | date_from | 2017-09-14 |\n  | date_until | 2017-09-24 |\n  | location | Frankfurt_2 |\n  | target_audience | international |\n  | focus | new_cars |\n  | country_code | AT |",
   "labels": [
     "implemented"
   ],

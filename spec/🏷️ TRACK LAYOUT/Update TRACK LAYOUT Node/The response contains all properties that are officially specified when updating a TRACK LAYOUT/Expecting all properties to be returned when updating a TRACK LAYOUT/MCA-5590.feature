@@ -16,11 +16,11 @@ Feature: Update TRACK LAYOUT Node
         | year_from             | 1969         |
         | year_to               | 2001         |
         | length                | 7.397        |
-        | length_unit           | km_2         |
-        | direction             | clockwise_2  |
+        | length_unit           | km           |
+        | direction             | clockwise    |
         | elevation_change      | 75           |
-        | elevation_change_unit | m_2          |
-        | surface               | asphalt_2    |
+        | elevation_change_unit | m            |
+        | surface               | asphalt      |
       Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key                   | value        |
@@ -28,8 +28,8 @@ Feature: Update TRACK LAYOUT Node
         | year_from             | 1969         |
         | year_to               | 2001         |
         | length                | 7.397        |
-        | length_unit           | km_2         |
-        | direction             | clockwise_2  |
+        | length_unit           | km           |
+        | direction             | clockwise    |
         | elevation_change      | 75           |
-        | elevation_change_unit | m_2          |
-        | surface               | asphalt_2    |
+        | elevation_change_unit | m            |
+        | surface               | asphalt      |

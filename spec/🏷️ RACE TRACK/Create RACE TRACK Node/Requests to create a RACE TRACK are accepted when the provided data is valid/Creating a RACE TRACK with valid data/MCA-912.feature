@@ -16,7 +16,7 @@ Feature: Create RACE TRACK Node
         | closed       |                      |
         | type         | permanent race track |
         | location     | Klettwitz            |
-        | geo_position | 51°32'0"N 13°55'10"E |
+        | geo_position | 51°32′0″N 13°55′10″E |
         | country_code | DE                   |
       Then the request should be confirmed with status code 201
       And the response should return the "RACE TRACK" "Lausitzring"

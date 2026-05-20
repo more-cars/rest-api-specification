@@ -16,7 +16,7 @@ Feature: Create MOTOR SHOW Node
         | date_until      | 2017-09-24         |
         | location        | Frankfurt          |
         | target_audience | international      |
-        | focus           | new cars           |
+        | focus           | new_cars           |
         | country_code    | DE                 |
         | thimbleweed     | park               |
       Then the response should contain the following properties
@@ -26,7 +26,7 @@ Feature: Create MOTOR SHOW Node
         | date_until      | 2017-09-24         |
         | location        | Frankfurt          |
         | target_audience | international      |
-        | focus           | new cars           |
+        | focus           | new_cars           |
         | country_code    | DE                 |
       And the response should NOT contain the following keys
         | key         |

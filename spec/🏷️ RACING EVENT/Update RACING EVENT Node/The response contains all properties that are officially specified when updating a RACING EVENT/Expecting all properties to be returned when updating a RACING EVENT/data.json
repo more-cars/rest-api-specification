@@ -2,7 +2,7 @@
   "id": "MCA-5626",
   "parent_id": "MCA-5625",
   "title": "Expecting all properties to be returned when updating a RACING EVENT",
-  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nWhen the user updates the node \"GP Monaco\" with the following data\n  | key | value |\n  | name | GP Monaco_2 |\n  | round | 9 |\n  | date_from | 2025-05-20_2 |\n  | date_to | 2025-05-22_2 |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | GP Monaco_2 |\n  | round | 9 |\n  | date_from | 2025-05-20_2 |\n  | date_to | 2025-05-22_2 |",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nWhen the user updates the node \"GP Monaco\" with the following data\n  | key | value |\n  | name | GP Monaco_2 |\n  | round | 9 |\n  | date_from | 2025-05-20 |\n  | date_to | 2025-05-22 |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | GP Monaco_2 |\n  | round | 9 |\n  | date_from | 2025-05-20 |\n  | date_to | 2025-05-22 |",
   "labels": [
     "implemented"
   ],

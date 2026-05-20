@@ -2,7 +2,7 @@
   "id": "MCA-5824",
   "parent_id": "MCA-5823",
   "title": "Expecting all properties to be returned when updating a PROGRAMME",
-  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nWhen the user updates the node \"The Grand Tour\" with the following data\n  | key | value |\n  | name | Top Gear_2 |\n  | aired_from_year | 2004 |\n  | aired_until_year | 2024 |\n  | channel | BBC Two_2 |\n  | total_seasons | 35 |\n  | total_episodes | 242 |\n  | regular_episode_running_time | PT60M_2 |\n  | country_code | DE |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | Top Gear_2 |\n  | aired_from_year | 2004 |\n  | aired_until_year | 2024 |\n  | channel | BBC Two_2 |\n  | total_seasons | 35 |\n  | total_episodes | 242 |\n  | regular_episode_running_time | PT60M_2 |\n  | country_code | DE |",
+  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nWhen the user updates the node \"The Grand Tour\" with the following data\n  | key | value |\n  | name | Top Gear_2 |\n  | aired_from_year | 2004 |\n  | aired_until_year | 2024 |\n  | channel | BBC Two_2 |\n  | total_seasons | 35 |\n  | total_episodes | 242 |\n  | regular_episode_running_time | PT60M |\n  | country_code | DE |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | Top Gear_2 |\n  | aired_from_year | 2004 |\n  | aired_until_year | 2024 |\n  | channel | BBC Two_2 |\n  | total_seasons | 35 |\n  | total_episodes | 242 |\n  | regular_episode_running_time | PT60M |\n  | country_code | DE |",
   "labels": [
     "implemented"
   ],

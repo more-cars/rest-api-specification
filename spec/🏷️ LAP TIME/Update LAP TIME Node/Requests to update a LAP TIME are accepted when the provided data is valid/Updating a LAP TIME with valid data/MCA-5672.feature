@@ -12,7 +12,7 @@ Feature: Update LAP TIME Node
       Given there exists a "LAP TIME" "Fastest lap"
       When the user updates the node "Fastest lap" with the following data
         | key         | value          |
-        | time        | PT1M33.294S_2  |
+        | time        | PT1M33.294S    |
         | driver_name | Klaus Ludwig_2 |
-        | date        | 1996-08-03_2   |
+        | date        | 1996-08-03     |
       Then the request should be confirmed with status code 200

@@ -17,7 +17,7 @@ Feature: Create SESSION RESULT Node
         | team_name   | Mercedes       |
         | race_time   | PT1H23M45.678S |
         | laps        | 51             |
-        | status      | finished       |
+        | status      | Finished       |
         | points      | 25             |
         | id          | 1234           |
         | created_at  | 2025-01-01     |

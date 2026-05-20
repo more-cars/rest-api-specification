@@ -15,11 +15,11 @@ Feature: Update MAGAZINE Node
         | name                   | Top Gear_2                |
         | founded                | 1995                      |
         | defunct                |                           |
-        | focus                  | sports cars_2             |
-        | publication_frequency  | monthly_2                 |
+        | focus                  | sports cars               |
+        | publication_frequency  | monthly                   |
         | single_copy_price      | 7.99                      |
         | single_copy_price_unit | EUR                       |
-        | publication_format     | print_2                   |
+        | publication_format     | print                     |
         | circulation            | 150886                    |
         | circulation_year       | 2015                      |
         | publisher              | Immediate Media Company_2 |
@@ -31,11 +31,11 @@ Feature: Update MAGAZINE Node
         | name                   | Top Gear_2                |
         | founded                | 1995                      |
         | defunct                |                           |
-        | focus                  | sports cars_2             |
-        | publication_frequency  | monthly_2                 |
+        | focus                  | sports cars               |
+        | publication_frequency  | monthly                   |
         | single_copy_price      | 7.99                      |
         | single_copy_price_unit | EUR                       |
-        | publication_format     | print_2                   |
+        | publication_format     | print                     |
         | circulation            | 150886                    |
         | circulation_year       | 2015                      |
         | publisher              | Immediate Media Company_2 |

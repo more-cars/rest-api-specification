@@ -13,10 +13,10 @@ Feature: Update RACING SESSION Node
       When the user updates the node "Qualifying" with the following data
         | key           | value        |
         | name          | Grand Prix_2 |
-        | start_date    | 2025-05-25_2 |
-        | start_time    | 15:00_2      |
+        | start_date    | 2025-05-25   |
+        | start_time    | 15:00        |
         | duration      | 122          |
-        | duration_unit | min_2        |
+        | duration_unit | min          |
         | distance      | 63           |
-        | distance_unit | laps_2       |
+        | distance_unit | laps         |
       Then the request should be confirmed with status code 200

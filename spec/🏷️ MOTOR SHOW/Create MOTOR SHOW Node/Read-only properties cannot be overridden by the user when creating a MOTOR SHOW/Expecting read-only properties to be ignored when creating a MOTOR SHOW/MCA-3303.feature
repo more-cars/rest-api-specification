@@ -16,7 +16,7 @@ Feature: Create MOTOR SHOW Node
         | date_until      | 2017-09-24         |
         | location        | Frankfurt          |
         | target_audience | international      |
-        | focus           | new cars           |
+        | focus           | new_cars           |
         | country_code    | DE                 |
         | id              | 1234               |
         | created_at      | 2025-01-01         |

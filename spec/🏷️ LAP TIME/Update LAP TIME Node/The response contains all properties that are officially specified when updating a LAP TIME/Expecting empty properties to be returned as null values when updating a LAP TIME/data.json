@@ -2,7 +2,7 @@
   "id": "MCA-5681",
   "parent_id": "MCA-5679",
   "title": "Expecting empty properties to be returned as null values when updating a LAP TIME",
-  "gherkin": "Given there exists a \"LAP TIME\" \"Fastest lap\"\nWhen the user updates the node \"Fastest lap\" with the following data\n  | key | value |\n  | time | PT1M33.294S_2 |\n  | driver_name | Klaus Ludwig_2 |\n  | date |       |\nThen the response should contain the following properties\n  | key | value |\n  | time | PT1M33.294S_2 |\n  | driver_name | Klaus Ludwig_2 |\n  | date |       |",
+  "gherkin": "Given there exists a \"LAP TIME\" \"Fastest lap\"\nWhen the user updates the node \"Fastest lap\" with the following data\n  | key | value |\n  | time | PT1M33.294S |\n  | driver_name | Klaus Ludwig_2 |\n  | date |       |\nThen the response should contain the following properties\n  | key | value |\n  | time | PT1M33.294S |\n  | driver_name | Klaus Ludwig_2 |\n  | date |       |",
   "labels": [
     "implemented"
   ],

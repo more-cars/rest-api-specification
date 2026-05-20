@@ -2,7 +2,7 @@
   "id": "MCA-912",
   "parent_id": "MCA-911",
   "title": "Creating a RACE TRACK with valid data",
-  "gherkin": "When the user creates a \"RACE TRACK\" \"Lausitzring\" with the following data\n  | key          | value                |\n  | name         | Lausitzring          |\n  | opened       | 2000                 |\n  | closed       |                      |\n  | type         | permanent race track |\n  | location     | Klettwitz            |\n  | geo_position | 51°32'0\"N 13°55'10\"E |\n  | country_code | DE                   |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"RACE TRACK\" \"Lausitzring\"",
+  "gherkin": "When the user creates a \"RACE TRACK\" \"Lausitzring\" with the following data\n  | key          | value                |\n  | name         | Lausitzring          |\n  | opened       | 2000                 |\n  | closed       |                      |\n  | type         | permanent race track |\n  | location     | Klettwitz            |\n  | geo_position | 51°32′0″N 13°55′10″E |\n  | country_code | DE                   |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"RACE TRACK\" \"Lausitzring\"",
   "labels": [
     "implemented"
   ],

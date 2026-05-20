@@ -18,7 +18,7 @@ Feature: Update PROGRAMME Node
         | channel                      | BBC Two_2  |
         | total_seasons                | 35         |
         | total_episodes               | 242        |
-        | regular_episode_running_time | PT60M_2    |
+        | regular_episode_running_time | PT60M      |
         | country_code                 | DE         |
       Then the request should be confirmed with status code 200
       And the response should contain the following properties
@@ -29,5 +29,5 @@ Feature: Update PROGRAMME Node
         | channel                      | BBC Two_2  |
         | total_seasons                | 35         |
         | total_episodes               | 242        |
-        | regular_episode_running_time | PT60M_2    |
+        | regular_episode_running_time | PT60M      |
         | country_code                 | DE         |

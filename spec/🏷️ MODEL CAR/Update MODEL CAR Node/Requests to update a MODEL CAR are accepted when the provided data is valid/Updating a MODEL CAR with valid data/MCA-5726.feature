@@ -15,6 +15,6 @@ Feature: Update MODEL CAR Node
         | name         | BMW 2002_2 |
         | product_code | DHX60_2    |
         | release_year | 2018       |
-        | scale        | 1:64_2     |
+        | scale        | 1:64       |
         | series       | BMW_2      |
       Then the request should be confirmed with status code 200

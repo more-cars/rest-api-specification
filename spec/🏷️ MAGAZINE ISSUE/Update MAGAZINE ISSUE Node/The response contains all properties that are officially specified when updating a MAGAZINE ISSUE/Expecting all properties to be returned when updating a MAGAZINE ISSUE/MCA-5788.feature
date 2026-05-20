@@ -16,7 +16,7 @@ Feature: Update MAGAZINE ISSUE Node
         | consecutive_number     |                |
         | issue_number           | 13             |
         | issue_year             | 2027           |
-        | release_date           | 2025-10-01_2   |
+        | release_date           | 2025-10-01     |
         | single_copy_price      | 7.4            |
         | single_copy_price_unit | GBP            |
         | pages                  | 150            |
@@ -27,7 +27,7 @@ Feature: Update MAGAZINE ISSUE Node
         | consecutive_number     |                |
         | issue_number           | 13             |
         | issue_year             | 2027           |
-        | release_date           | 2025-10-01_2   |
+        | release_date           | 2025-10-01     |
         | single_copy_price      | 7.4            |
         | single_copy_price_unit | GBP            |
         | pages                  | 150            |

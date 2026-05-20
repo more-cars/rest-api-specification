@@ -48,7 +48,7 @@ Feature: Update CAR MODEL VARIANT Node
         | top_speed              | 252        |
         | top_speed_unit         | km/h       |
         | total_production       | 50002      |
-      Then the request should be confirmed with status code 201
+      Then the request should be confirmed with status code 200
       And the response should contain the following properties
         | key                    | value      |
         | name                   | BMW M3_2   |

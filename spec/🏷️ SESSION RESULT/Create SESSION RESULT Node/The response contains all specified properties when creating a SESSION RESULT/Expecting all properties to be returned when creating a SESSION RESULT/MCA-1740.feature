@@ -17,7 +17,7 @@ Feature: Create SESSION RESULT Node
         | team_name   | Mercedes       |
         | race_time   | PT1H23M45.678S |
         | laps        | 51             |
-        | status      | finished       |
+        | status      | Finished       |
         | points      | 25             |
       Then the response should contain the following properties
         | key         | value          |
@@ -27,5 +27,5 @@ Feature: Create SESSION RESULT Node
         | team_name   | Mercedes       |
         | race_time   | PT1H23M45.678S |
         | laps        | 51             |
-        | status      | finished       |
+        | status      | Finished       |
         | points      | 25             |

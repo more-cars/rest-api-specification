@@ -2,7 +2,7 @@
   "id": "MCA-5834",
   "parent_id": "MCA-5833",
   "title": "Updating a PROGRAMME EPISODE with valid data",
-  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nWhen the user updates the node \"The Holy Trinity\" with the following data\n  | key | value |\n  | title | The Falls Guys_2 |\n  | season_number | 4 |\n  | season_episode_number | 4 |\n  | original_air_date | 2017-12-08_2 |\n  | duration | PT55M_2 |\nThen the request should be confirmed with status code 200",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nWhen the user updates the node \"The Holy Trinity\" with the following data\n  | key | value |\n  | title | The Falls Guys_2 |\n  | season_number | 4 |\n  | season_episode_number | 4 |\n  | original_air_date | 2017-12-08 |\n  | duration | PT55M |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

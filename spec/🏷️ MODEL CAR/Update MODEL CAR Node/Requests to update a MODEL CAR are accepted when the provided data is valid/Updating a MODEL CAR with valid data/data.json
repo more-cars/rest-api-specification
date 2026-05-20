@@ -2,7 +2,7 @@
   "id": "MCA-5726",
   "parent_id": "MCA-5725",
   "title": "Updating a MODEL CAR with valid data",
-  "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Matchbox\"\nWhen the user updates the node \"F40 Matchbox\" with the following data\n  | key | value |\n  | name | BMW 2002_2 |\n  | product_code | DHX60_2 |\n  | release_year | 2018 |\n  | scale | 1:64_2 |\n  | series | BMW_2 |\nThen the request should be confirmed with status code 200",
+  "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Matchbox\"\nWhen the user updates the node \"F40 Matchbox\" with the following data\n  | key | value |\n  | name | BMW 2002_2 |\n  | product_code | DHX60_2 |\n  | release_year | 2018 |\n  | scale | 1:64 |\n  | series | BMW_2 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

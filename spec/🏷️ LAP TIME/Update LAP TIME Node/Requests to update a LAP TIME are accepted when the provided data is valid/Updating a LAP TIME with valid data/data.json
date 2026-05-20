@@ -2,7 +2,7 @@
   "id": "MCA-5672",
   "parent_id": "MCA-5671",
   "title": "Updating a LAP TIME with valid data",
-  "gherkin": "Given there exists a \"LAP TIME\" \"Fastest lap\"\nWhen the user updates the node \"Fastest lap\" with the following data\n  | key | value |\n  | time | PT1M33.294S_2 |\n  | driver_name | Klaus Ludwig_2 |\n  | date | 1996-08-03_2 |\nThen the request should be confirmed with status code 200",
+  "gherkin": "Given there exists a \"LAP TIME\" \"Fastest lap\"\nWhen the user updates the node \"Fastest lap\" with the following data\n  | key | value |\n  | time | PT1M33.294S |\n  | driver_name | Klaus Ludwig_2 |\n  | date | 1996-08-03 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

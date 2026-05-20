@@ -16,8 +16,8 @@ Feature: Update SESSION RESULT Node
         | race_number | 44_2             |
         | driver_name | Lewis Hamilton_2 |
         | team_name   | Mercedes_2       |
-        | race_time   | PT1H23M45.678S_2 |
+        | race_time   | PT1H23M45.678S   |
         | laps        | 53               |
-        | status      | finished_2       |
+        | status      | Finished         |
         | points      | 27               |
       Then the request should be confirmed with status code 200
