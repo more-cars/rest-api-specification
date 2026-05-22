@@ -2,7 +2,7 @@
   "id": "MCA-3888",
   "parent_id": "MCA-3887",
   "title": "Requesting the ›made-by-model-car-brand‹ relationship when there exists none",
-  "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Scale Model\"\nAnd there exists NO \"made by model car brand\" relationship for \"F40 Scale Model\"\nWhen the user requests the \"made by model car brand\" relationship for \"F40 Scale Model\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Scale Model\"\nAnd there exists NO \"made by model car brand\" relationship for \"F40 Scale Model\"\nWhen the user requests the \"made by model car brand\" relationship for \"F40 Scale Model\"\nThen the request should be confirmed with status code 200\nBut the response should contain no data",
   "labels": [
     "implemented"
   ],

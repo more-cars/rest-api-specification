@@ -2,7 +2,7 @@
   "id": "MCA-2953",
   "parent_id": "MCA-2952",
   "title": "Requesting the ›followed-by-issue‹ relationship when there exists none",
-  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd there exists NO \"followed by issue\" relationship for \"Top Gear 3_2025\"\nWhen the user requests the \"followed by issue\" relationship for \"Top Gear 3_2025\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd there exists NO \"followed by issue\" relationship for \"Top Gear 3_2025\"\nWhen the user requests the \"followed by issue\" relationship for \"Top Gear 3_2025\"\nThen the request should be confirmed with status code 200\nBut the response should contain no data",
   "labels": [
     "implemented"
   ],

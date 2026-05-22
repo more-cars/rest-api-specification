@@ -10,4 +10,4 @@ Feature: Get PROGRAMME EPISODE-follows-episode Relationship
       And there exists NO "follows episode" relationship for "Funeral for a Ford"
       When the user requests the "follows episode" relationship for "Funeral for a Ford"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

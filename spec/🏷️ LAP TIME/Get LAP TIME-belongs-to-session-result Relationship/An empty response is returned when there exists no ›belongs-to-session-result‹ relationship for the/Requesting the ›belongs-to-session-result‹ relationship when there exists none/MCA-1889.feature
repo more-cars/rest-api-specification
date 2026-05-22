@@ -10,4 +10,4 @@ Feature: Get LAP TIME-belongs-to-session-result Relationship
       And there exists NO "belongs to session result" relationship for "fastest lap"
       When the user requests the "belongs to session result" relationship for "fastest lap"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

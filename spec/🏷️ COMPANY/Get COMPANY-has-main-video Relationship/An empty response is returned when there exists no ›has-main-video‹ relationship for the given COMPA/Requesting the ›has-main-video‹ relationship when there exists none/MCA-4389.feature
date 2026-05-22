@@ -13,4 +13,4 @@ Feature: Get COMPANY-has-main-video Relationship
       And there exists NO "has-main-video" relationship for "BMW AG"
       When the user requests the "has-main-video" relationship for "BMW AG"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

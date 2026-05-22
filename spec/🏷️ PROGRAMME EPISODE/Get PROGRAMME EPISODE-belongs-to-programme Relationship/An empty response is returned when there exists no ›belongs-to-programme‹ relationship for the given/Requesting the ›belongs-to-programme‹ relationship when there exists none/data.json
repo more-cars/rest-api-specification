@@ -2,7 +2,7 @@
   "id": "MCA-3425",
   "parent_id": "MCA-3424",
   "title": "Requesting the ›belongs-to-programme‹ relationship when there exists none",
-  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists NO \"belongs to programme\" relationship for \"The Holy Trinity\"\nWhen the user requests the \"belongs to programme\" relationship for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists NO \"belongs to programme\" relationship for \"The Holy Trinity\"\nWhen the user requests the \"belongs to programme\" relationship for \"The Holy Trinity\"\nThen the request should be confirmed with status code 200\nBut the response should contain no data",
   "labels": [
     "implemented"
   ],

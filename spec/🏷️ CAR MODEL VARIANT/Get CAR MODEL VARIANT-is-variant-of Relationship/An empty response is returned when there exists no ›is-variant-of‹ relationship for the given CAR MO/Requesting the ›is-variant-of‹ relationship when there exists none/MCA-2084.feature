@@ -10,4 +10,4 @@ Feature: Get CAR MODEL VARIANT-is-variant-of Relationship
       And there exists NO "is variant of" relationship for "BMW M3"
       When the user requests the "is variant of" relationship for "BMW M3"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

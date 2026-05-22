@@ -10,4 +10,4 @@ Feature: Get CAR MODEL-is-successor-of Relationship
       And there exists NO "is successor of" relationship for "Aventador"
       When the user requests the "is successor of" relationship for "Aventador"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

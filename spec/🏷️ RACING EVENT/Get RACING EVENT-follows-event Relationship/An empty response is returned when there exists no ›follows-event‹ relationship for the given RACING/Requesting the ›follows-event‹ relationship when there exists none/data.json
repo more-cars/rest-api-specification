@@ -2,7 +2,7 @@
   "id": "MCA-1351",
   "parent_id": "MCA-1350",
   "title": "Requesting the ›follows-event‹ relationship when there exists none",
-  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Austria\"\nAnd there exists NO \"follows event\" relationship for \"GP Austria\"\nWhen the user requests the \"follows event\" relationship for \"GP Austria\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Austria\"\nAnd there exists NO \"follows event\" relationship for \"GP Austria\"\nWhen the user requests the \"follows event\" relationship for \"GP Austria\"\nThen the request should be confirmed with status code 200\nBut the response should contain no data",
   "labels": [
     "implemented"
   ],

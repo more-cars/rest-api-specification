@@ -10,4 +10,4 @@ Feature: Get TRACK LAYOUT-belongs-to-race-track Relationship
       And there exists NO "belongs to race track" relationship for "Club Circuit"
       When the user requests the "belongs to race track" relationship for "Club Circuit"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

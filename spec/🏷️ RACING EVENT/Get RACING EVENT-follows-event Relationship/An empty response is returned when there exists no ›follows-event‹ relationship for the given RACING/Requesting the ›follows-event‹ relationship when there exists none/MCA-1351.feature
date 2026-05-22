@@ -10,4 +10,4 @@ Feature: Get RACING EVENT-follows-event Relationship
       And there exists NO "follows event" relationship for "GP Austria"
       When the user requests the "follows event" relationship for "GP Austria"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

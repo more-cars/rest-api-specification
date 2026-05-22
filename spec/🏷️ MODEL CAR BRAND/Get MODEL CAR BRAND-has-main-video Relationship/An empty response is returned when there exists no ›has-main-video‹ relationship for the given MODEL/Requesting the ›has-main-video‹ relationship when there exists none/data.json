@@ -2,7 +2,7 @@
   "id": "MCA-5059",
   "parent_id": "MCA-5058",
   "title": "Requesting the ›has-main-video‹ relationship when there exists none",
-  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nAnd there exists NO \"has-main-video\" relationship for \"Hot Wheels\"\nWhen the user requests the \"has-main-video\" relationship for \"Hot Wheels\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nAnd there exists NO \"has-main-video\" relationship for \"Hot Wheels\"\nWhen the user requests the \"has-main-video\" relationship for \"Hot Wheels\"\nThen the request should be confirmed with status code 200\nBut the response should contain no data",
   "labels": [
     "implemented"
   ],

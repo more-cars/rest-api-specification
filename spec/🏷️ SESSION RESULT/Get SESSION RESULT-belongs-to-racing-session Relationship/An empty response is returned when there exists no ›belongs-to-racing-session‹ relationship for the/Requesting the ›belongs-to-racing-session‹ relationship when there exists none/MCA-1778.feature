@@ -10,4 +10,4 @@ Feature: Get SESSION RESULT-belongs-to-racing-session Relationship
       And there exists NO "belongs to racing session" relationship for "1st place"
       When the user requests the "belongs to racing session" relationship for "1st place"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

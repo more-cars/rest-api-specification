@@ -10,4 +10,4 @@ Feature: Get MAGAZINE ISSUE-belongs-to-magazine Relationship
       And there exists NO "belongs to magazine" relationship for "Sieger-Typen"
       When the user requests the "belongs to magazine" relationship for "Sieger-Typen"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

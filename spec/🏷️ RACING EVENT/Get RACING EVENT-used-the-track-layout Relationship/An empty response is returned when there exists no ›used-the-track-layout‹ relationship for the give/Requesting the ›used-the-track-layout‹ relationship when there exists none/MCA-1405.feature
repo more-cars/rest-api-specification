@@ -10,4 +10,4 @@ Feature: Get RACING EVENT-used-the-track-layout Relationship
       And there exists NO "used the track layout" relationship for "GP Austria"
       When the user requests the "used the track layout" relationship for "GP Austria"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

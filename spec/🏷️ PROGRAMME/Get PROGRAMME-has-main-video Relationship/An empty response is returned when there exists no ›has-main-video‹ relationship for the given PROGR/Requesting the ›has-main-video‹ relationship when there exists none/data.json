@@ -2,7 +2,7 @@
   "id": "MCA-5221",
   "parent_id": "MCA-5220",
   "title": "Requesting the ›has-main-video‹ relationship when there exists none",
-  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nAnd there exists NO \"has-main-video\" relationship for \"The Grand Tour\"\nWhen the user requests the \"has-main-video\" relationship for \"The Grand Tour\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "gherkin": "Given there exists a \"PROGRAMME\" \"The Grand Tour\"\nAnd there exists NO \"has-main-video\" relationship for \"The Grand Tour\"\nWhen the user requests the \"has-main-video\" relationship for \"The Grand Tour\"\nThen the request should be confirmed with status code 200\nBut the response should contain no data",
   "labels": [
     "implemented"
   ],

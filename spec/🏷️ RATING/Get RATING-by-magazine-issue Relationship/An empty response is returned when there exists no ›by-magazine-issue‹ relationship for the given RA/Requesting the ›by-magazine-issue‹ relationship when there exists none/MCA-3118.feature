@@ -10,4 +10,4 @@ Feature: Get RATING-by-magazine-issue Relationship
       And there exists NO "by magazine issue" relationship for "93 Percent"
       When the user requests the "by magazine issue" relationship for "93 Percent"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

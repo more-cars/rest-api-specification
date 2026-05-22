@@ -13,4 +13,4 @@ Feature: Get MOTOR SHOW-has-main-video Relationship
       And there exists NO "has-main-video" relationship for "IAA Frankfurt"
       When the user requests the "has-main-video" relationship for "IAA Frankfurt"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

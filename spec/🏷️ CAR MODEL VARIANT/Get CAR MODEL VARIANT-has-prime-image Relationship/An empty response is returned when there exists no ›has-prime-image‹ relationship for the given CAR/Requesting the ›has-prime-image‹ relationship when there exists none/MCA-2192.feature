@@ -10,4 +10,4 @@ Feature: Get CAR MODEL VARIANT-has-prime-image Relationship
       And there exists NO "has prime image" relationship for "BMW M3"
       When the user requests the "has prime image" relationship for "BMW M3"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

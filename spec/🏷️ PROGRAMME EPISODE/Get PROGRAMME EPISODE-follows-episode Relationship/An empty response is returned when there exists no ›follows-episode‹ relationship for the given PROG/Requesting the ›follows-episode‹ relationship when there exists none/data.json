@@ -2,7 +2,7 @@
   "id": "MCA-3506",
   "parent_id": "MCA-3505",
   "title": "Requesting the ›follows-episode‹ relationship when there exists none",
-  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"Funeral for a Ford\"\nAnd there exists NO \"follows episode\" relationship for \"Funeral for a Ford\"\nWhen the user requests the \"follows episode\" relationship for \"Funeral for a Ford\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"Funeral for a Ford\"\nAnd there exists NO \"follows episode\" relationship for \"Funeral for a Ford\"\nWhen the user requests the \"follows episode\" relationship for \"Funeral for a Ford\"\nThen the request should be confirmed with status code 200\nBut the response should contain no data",
   "labels": [
     "implemented"
   ],

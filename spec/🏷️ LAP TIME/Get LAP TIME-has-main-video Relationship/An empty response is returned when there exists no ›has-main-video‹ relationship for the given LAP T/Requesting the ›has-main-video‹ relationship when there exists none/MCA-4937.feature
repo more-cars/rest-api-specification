@@ -13,4 +13,4 @@ Feature: Get LAP TIME-has-main-video Relationship
       And there exists NO "has-main-video" relationship for "Fastest Lap"
       When the user requests the "has-main-video" relationship for "Fastest Lap"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

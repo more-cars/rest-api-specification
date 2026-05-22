@@ -10,4 +10,4 @@ Feature: Get LAP TIME-documented-in-magazine-issue Relationship
       And there exists NO "documented in magazine issue" relationship for "fastest lap"
       When the user requests the "documented in magazine issue" relationship for "fastest lap"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

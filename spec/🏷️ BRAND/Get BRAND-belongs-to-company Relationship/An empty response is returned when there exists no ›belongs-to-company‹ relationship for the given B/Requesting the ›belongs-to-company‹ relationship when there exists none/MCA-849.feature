@@ -10,4 +10,4 @@ Feature: Get BRAND-belongs-to-company Relationship
       And there exists NO "belongs to company" relationship for "Audi"
       When the user requests the "belongs to company" relationship for "Audi"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

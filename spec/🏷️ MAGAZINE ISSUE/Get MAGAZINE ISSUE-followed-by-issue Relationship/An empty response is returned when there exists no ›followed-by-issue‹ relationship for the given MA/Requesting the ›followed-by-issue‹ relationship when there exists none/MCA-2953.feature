@@ -10,4 +10,4 @@ Feature: Get MAGAZINE ISSUE-followed-by-issue Relationship
       And there exists NO "followed by issue" relationship for "Top Gear 3_2025"
       When the user requests the "followed by issue" relationship for "Top Gear 3_2025"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

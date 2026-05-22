@@ -10,4 +10,4 @@ Feature: Get RACING SERIES-has-prime-image Relationship
       And there exists NO "has prime image" relationship for "BTCC"
       When the user requests the "has prime image" relationship for "BTCC"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

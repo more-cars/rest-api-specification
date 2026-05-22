@@ -13,4 +13,4 @@ Feature: Get CAR MODEL-belongs-to-brand Relationship
       And there exists NO "belongs to brand" relationship for "Yaris"
       When the user requests the "belongs to brand" relationship for "Yaris"
       Then the response should return with status code 200
-      And the response should return an empty body
+      But the response should contain no data

@@ -10,4 +10,4 @@ Feature: Get LAP TIME-achieved-with-car-model-variant Relationship
       And there exists NO "achieved with car model variant" relationship for "fastest lap"
       When the user requests the "achieved with car model variant" relationship for "fastest lap"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

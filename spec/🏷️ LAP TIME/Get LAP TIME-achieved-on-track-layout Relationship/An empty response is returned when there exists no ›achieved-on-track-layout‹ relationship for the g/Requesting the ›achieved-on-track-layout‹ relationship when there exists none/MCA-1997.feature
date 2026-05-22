@@ -10,4 +10,4 @@ Feature: Get LAP TIME-achieved-on-track-layout Relationship
       And there exists NO "achieved on track layout" relationship for "fastest lap"
       When the user requests the "achieved on track layout" relationship for "fastest lap"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

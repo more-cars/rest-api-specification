@@ -2,7 +2,7 @@
   "id": "MCA-661",
   "parent_id": "MCA-660",
   "title": "Requesting the ›has-prime-image‹ relationship when there exists none",
-  "gherkin": "Given there exists a \"BRAND\" \"Bentley\"\nAnd there exists NO \"has prime image\" relationship for \"Bentley\"\nWhen the user requests the \"has prime image\" relationship for \"Bentley\"\nThen the request should be confirmed with status code 200\nBut the response should return an empty body",
+  "gherkin": "Given there exists a \"BRAND\" \"Bentley\"\nAnd there exists NO \"has prime image\" relationship for \"Bentley\"\nWhen the user requests the \"has prime image\" relationship for \"Bentley\"\nThen the request should be confirmed with status code 200\nBut the response should contain no data",
   "labels": [
     "implemented"
   ],

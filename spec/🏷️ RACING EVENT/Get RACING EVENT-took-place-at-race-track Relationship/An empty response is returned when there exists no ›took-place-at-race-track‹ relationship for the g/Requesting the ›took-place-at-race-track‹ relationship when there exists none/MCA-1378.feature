@@ -10,4 +10,4 @@ Feature: Get RACING EVENT-took-place-at-race-track Relationship
       And there exists NO "took place at race track" relationship for "GP Austria"
       When the user requests the "took place at race track" relationship for "GP Austria"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

@@ -10,4 +10,4 @@ Feature: Get MODEL CAR-is-scale-model-of-car-model-variant Relationship
       And there exists NO "is scale model of car model variant" relationship for "F40 Matchbox"
       When the user requests the "is scale model of car model variant" relationship for "F40 Matchbox"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

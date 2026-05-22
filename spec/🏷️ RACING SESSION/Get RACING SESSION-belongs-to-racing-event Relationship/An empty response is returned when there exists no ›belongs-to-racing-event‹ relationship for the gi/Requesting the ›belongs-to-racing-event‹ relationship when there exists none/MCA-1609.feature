@@ -10,4 +10,4 @@ Feature: Get RACING SESSION-belongs-to-racing-event Relationship
       And there exists NO "belongs to racing event" relationship for "Qualifying"
       When the user requests the "belongs to racing event" relationship for "Qualifying"
       Then the request should be confirmed with status code 200
-      But the response should return an empty body
+      But the response should contain no data

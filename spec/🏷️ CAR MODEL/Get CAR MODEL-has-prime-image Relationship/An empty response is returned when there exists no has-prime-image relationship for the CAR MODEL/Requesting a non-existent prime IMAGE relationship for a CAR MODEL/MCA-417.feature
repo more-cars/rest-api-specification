@@ -14,4 +14,4 @@ Feature: Get CAR MODEL-has-prime-image Relationship
       And there exists NO "has prime image" relationship for "Mondeo"
       When the user requests the "has prime image" relationship for "Mondeo"
       Then the response should return with status code 200
-      And the response should return an empty body
+      But the response should contain no data
