@@ -10,4 +10,4 @@ Feature: Get all MAGAZINE-has-image Relationships
       And there exist 0 "has image" relationships for "Top Gear"
       When the user requests all "has image" relationships for "Top Gear"
       Then the request should be confirmed with status code 200
-      But the response should contain no data
+      And the response should return an empty list
