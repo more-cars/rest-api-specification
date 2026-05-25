@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5945",
+  "parent_id": "MCA-5944",
+  "title": "Trying to delete a mandatory field while updating a BOOK.",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nWhen the user updates the node \"F1 in Numbers\" with the following data\n  | key | value |\n  | title |       |\nThen the request should be rejected with status code 400",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:31:09.272+0200",
+  "updated_at": "2026-05-25T12:36:50.763+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5912",
+  "parent_id": "MCA-5911",
+  "title": "Expecting all properties to be returned when creating a BOOK",
+  "gherkin": "When the user creates a \"BOOK\" \"F1 in Numbers\" with the following data\n  | key | value |\n  | title | Living the Supercar Dream |\n  | author | Tim Burton |\n  | publisher | Blink Publishing |\n  | year_of_publication | 2016 |\n  | isbn | 9783868528893 |\n  | pages | 256 |\n  | language | en |\nThen the response should contain the following properties\n  | key | value |\n  | title | Living the Supercar Dream |\n  | author | Tim Burton |\n  | publisher | Blink Publishing |\n  | year_of_publication | 2016 |\n  | isbn | 9783868528893 |\n  | pages | 256 |\n  | language | en |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:13:48.086+0200",
+  "updated_at": "2026-05-25T12:36:43.547+0200"
+}

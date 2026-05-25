@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5947",
+  "parent_id": "MCA-5946",
+  "title": "Hard-deleting a BOOK permanently deletes it",
+  "description": "The only way to recover a hard-deleted node is to restore the database.\n",
+  "release_version": "0.37.0",
+  "created_at": "2026-05-23T15:32:16.648+0200",
+  "updated_at": "2026-05-25T12:23:13.803+0200"
+}

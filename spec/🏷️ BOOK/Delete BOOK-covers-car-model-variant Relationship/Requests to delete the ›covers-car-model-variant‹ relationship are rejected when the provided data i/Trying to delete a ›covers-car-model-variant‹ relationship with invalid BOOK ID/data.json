@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5975",
+  "parent_id": "MCA-5974",
+  "title": "Trying to delete a ›covers-car-model-variant‹ relationship with invalid BOOK ID",
+  "gherkin": "Given \"BOOK\" \"F1 in Numbers\" does NOT exist\nAnd there exists a \"CAR MODEL VARIANT\" \"Toyota Corolla\"\nWhen the user deletes the \"covers car model variant\" relationship between \"F1 in Numbers\" and \"Toyota Corolla\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:40:17.981+0200",
+  "updated_at": "2026-05-25T12:36:56.708+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5952",
+  "parent_id": "MCA-5951",
+  "title": "Expecting all attached relationships to be removed when hard-deleting a BOOK",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists a \"has image\" relationship \"R1\" for \"F1 in Numbers\"\nAnd there exists a \"has prime image\" relationship \"R2\" for \"F1 in Numbers\"\nWhen the user hard-deletes the \"BOOK\" \"F1 in Numbers\"\nThen the \"BOOK\" \"F1 in Numbers\" should not exist anymore\nAnd the relationship \"R1\" should not exist anymore\nAnd the relationship \"R2\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:32:31.642+0200",
+  "updated_at": "2026-05-25T12:36:52.041+0200"
+}

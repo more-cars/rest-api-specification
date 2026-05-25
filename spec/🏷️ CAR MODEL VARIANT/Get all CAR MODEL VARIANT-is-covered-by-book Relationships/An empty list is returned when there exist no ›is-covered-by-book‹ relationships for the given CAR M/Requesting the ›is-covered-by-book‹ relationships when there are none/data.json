@@ -1,0 +1,11 @@
+{
+  "id": "MCA-6103",
+  "parent_id": "MCA-6102",
+  "title": "Requesting the ›is-covered-by-book‹ relationships when there are none",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Ferrari SF-25\"\nAnd there exist 0 \"is covered by book\" relationships for \"Ferrari SF-25\"\nWhen the user requests all \"is covered by book\" relationships for \"Ferrari SF-25\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-25T11:47:10.592+0200",
+  "updated_at": "2026-05-25T12:37:25.819+0200"
+}

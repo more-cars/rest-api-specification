@@ -1,0 +1,11 @@
+{
+  "id": "MCA-6011",
+  "parent_id": "MCA-6010",
+  "title": "Trying to create a ›has-main-video‹ relationship with invalid BOOK ID",
+  "gherkin": "Given \"BOOK\" \"F1 in Numbers\" does NOT exist\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"F1 in Numbers\" and \"Promo Video\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:43:02.887+0200",
+  "updated_at": "2026-05-25T12:37:05.148+0200"
+}

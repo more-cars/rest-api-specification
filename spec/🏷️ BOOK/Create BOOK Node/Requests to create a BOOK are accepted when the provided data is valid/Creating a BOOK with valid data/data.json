@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5907",
+  "parent_id": "MCA-5906",
+  "title": "Creating a BOOK with valid data",
+  "gherkin": "When the user creates a \"BOOK\" \"F1 in Numbers\" with the following data\n  | key | value |\n  | title | Living the Supercar Dream |\n  | author | Tim Burton |\n  | publisher | Blink Publishing |\n  | year_of_publication | 2016 |\n  | isbn | 9783868528893 |\n  | pages | 256 |\n  | language | en |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"BOOK\" \"F1 in Numbers\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:13:31.458+0200",
+  "updated_at": "2026-05-25T12:36:41.982+0200"
+}

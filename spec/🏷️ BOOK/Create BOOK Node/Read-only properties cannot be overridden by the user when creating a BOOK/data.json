@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5916",
+  "parent_id": "MCA-5905",
+  "title": "Read-only properties cannot be overridden by the user when creating a BOOK",
+  "description": "Read-only properties are for example \\`ID\\`, \\`created\\_at\\` and \\`updated\\_at\\`. Analog to unknown properties, those fields will be ignored. They will not be processed and there will be no info, warning or error that they were skipped.\n",
+  "release_version": "0.37.0",
+  "created_at": "2026-05-23T15:14:02.339+0200",
+  "updated_at": "2026-05-25T12:23:19.830+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-6105",
+  "parent_id": "MCA-6104",
+  "title": "Trying to fetch the ›is-covered-by-book‹ relationships with an invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"Ferrari SF-25\" does NOT exist\nWhen the user requests all \"is covered by book\" relationships for \"Ferrari SF-25\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-25T11:47:16.886+0200",
+  "updated_at": "2026-05-25T12:37:26.253+0200"
+}

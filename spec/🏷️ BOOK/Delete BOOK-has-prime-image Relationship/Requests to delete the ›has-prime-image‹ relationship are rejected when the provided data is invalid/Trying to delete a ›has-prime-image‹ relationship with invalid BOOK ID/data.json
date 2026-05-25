@@ -1,0 +1,11 @@
+{
+  "id": "MCA-6083",
+  "parent_id": "MCA-6082",
+  "title": "Trying to delete a ›has-prime-image‹ relationship with invalid BOOK ID",
+  "gherkin": "Given \"BOOK\" \"F1 in Numbers\" does NOT exist\nAnd there exists a \"IMAGE\" \"Detail photo\"\nWhen the user deletes the \"has-prime-image\" relationship between \"F1 in Numbers\" and \"Detail photo\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-24T09:47:24.887+0200",
+  "updated_at": "2026-05-25T12:37:21.023+0200"
+}

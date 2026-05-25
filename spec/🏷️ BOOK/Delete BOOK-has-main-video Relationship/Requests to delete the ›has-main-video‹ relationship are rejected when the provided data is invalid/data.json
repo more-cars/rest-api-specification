@@ -1,0 +1,9 @@
+{
+  "id": "MCA-6028",
+  "parent_id": "MCA-6025",
+  "title": "Requests to delete the ›has-main-video‹ relationship are rejected when the provided data is invalid",
+  "description": "There exists no BOOK with the provided ID? -> rejected.\nThere exists no VIDEO with the provided ID? -> rejected.\n",
+  "release_version": "0.37.0",
+  "created_at": "2026-05-23T15:43:53.846+0200",
+  "updated_at": "2026-05-25T12:22:59.435+0200"
+}

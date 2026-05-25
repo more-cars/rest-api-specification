@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5941",
+  "parent_id": "MCA-5940",
+  "title": "Expecting unknown properties to be ignored when updating a BOOK",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nWhen the user updates the node \"F1 in Numbers\" with the following data\n  | key | value |\n  | thimbleweed | park |\nThen the response should NOT contain the following keys\n  | key         |\n  | thimbleweed |",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:30:56.119+0200",
+  "updated_at": "2026-05-25T12:36:49.790+0200"
+}

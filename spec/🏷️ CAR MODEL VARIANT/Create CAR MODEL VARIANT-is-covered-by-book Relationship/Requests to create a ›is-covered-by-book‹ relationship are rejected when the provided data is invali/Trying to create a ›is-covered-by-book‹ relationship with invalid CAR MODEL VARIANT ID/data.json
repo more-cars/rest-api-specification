@@ -1,0 +1,11 @@
+{
+  "id": "MCA-6092",
+  "parent_id": "MCA-6091",
+  "title": "Trying to create a ›is-covered-by-book‹ relationship with invalid CAR MODEL VARIANT ID",
+  "gherkin": "Given \"CAR MODEL VARIANT\" \"Ferrari SF-25\" does NOT exist\nAnd there exists a \"BOOK\" \"F1 in Numbers\"\nWhen the user creates a \"is covered by book\" relationship between \"Ferrari SF-25\" and \"F1 in Numbers\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-25T11:44:47.530+0200",
+  "updated_at": "2026-05-25T12:37:23.201+0200"
+}

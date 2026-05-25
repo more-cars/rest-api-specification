@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5994",
+  "parent_id": "MCA-5991",
+  "title": "An empty list is returned when there exist no ›has-video‹ relationships for the given BOOK",
+  "description": "",
+  "release_version": "0.37.0",
+  "created_at": "2026-05-23T15:42:10.485+0200",
+  "updated_at": "2026-05-25T12:23:05.522+0200"
+}

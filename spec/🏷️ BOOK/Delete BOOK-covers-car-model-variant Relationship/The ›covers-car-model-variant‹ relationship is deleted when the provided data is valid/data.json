@@ -1,0 +1,9 @@
+{
+  "id": "MCA-5972",
+  "parent_id": "MCA-5971",
+  "title": "The ›covers-car-model-variant‹ relationship is deleted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the first node needs to be a BOOK and the second node needs to be a CAR MODEL VARIANT.\n",
+  "release_version": "0.37.0",
+  "created_at": "2026-05-23T15:40:08.623+0200",
+  "updated_at": "2026-05-25T12:23:09.204+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-6047",
+  "parent_id": "MCA-6046",
+  "title": "Requesting the ›has-image‹ relationships when at least one exists",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exist 3 \"has-image\" relationships for \"F1 in Numbers\"\nWhen the user requests all \"has-image\" relationships for \"F1 in Numbers\"\nThen the request should be confirmed with status code 200\nAnd the response should return a collection with 3 \"has-image\" relationships",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-24T09:45:27.266+0200",
+  "updated_at": "2026-05-25T12:37:13.330+0200"
+}

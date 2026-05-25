@@ -1,0 +1,9 @@
+{
+  "id": "MCA-6075",
+  "parent_id": "MCA-6072",
+  "title": "An empty response is returned when there exists no ›has-prime-image‹ relationship for the given BOOK",
+  "description": "",
+  "release_version": "0.37.0",
+  "created_at": "2026-05-24T09:47:00.161+0200",
+  "updated_at": "2026-05-25T12:22:51.546+0200"
+}

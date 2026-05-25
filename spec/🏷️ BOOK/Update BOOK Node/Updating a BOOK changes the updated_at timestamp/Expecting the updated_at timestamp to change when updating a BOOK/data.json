@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5934",
+  "parent_id": "MCA-5933",
+  "title": "Expecting the updated_at timestamp to change when updating a BOOK",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nWhen the user updates the node \"F1 in Numbers\"\nThen both timestamps in the response should be different",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:30:33.825+0200",
+  "updated_at": "2026-05-25T12:36:47.908+0200"
+}

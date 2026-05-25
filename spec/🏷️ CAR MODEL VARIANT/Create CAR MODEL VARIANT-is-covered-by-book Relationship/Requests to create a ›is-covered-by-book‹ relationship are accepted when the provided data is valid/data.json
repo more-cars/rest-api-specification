@@ -1,0 +1,9 @@
+{
+  "id": "MCA-6089",
+  "parent_id": "MCA-6088",
+  "title": "Requests to create a ›is-covered-by-book‹ relationship are accepted when the provided data is valid",
+  "description": "To be valid there need to exist nodes for the provided IDs and the nodes need to be from type CAR MODEL VARIANT resp. BOOK.\n",
+  "release_version": "0.37.0",
+  "created_at": "2026-05-25T11:44:35.389+0200",
+  "updated_at": "2026-05-25T12:22:49.088+0200"
+}

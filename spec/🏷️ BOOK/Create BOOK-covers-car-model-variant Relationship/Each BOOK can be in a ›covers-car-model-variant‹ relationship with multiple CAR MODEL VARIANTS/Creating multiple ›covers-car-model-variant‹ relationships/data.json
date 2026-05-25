@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5963",
+  "parent_id": "MCA-5962",
+  "title": "Creating multiple ›covers-car-model-variant‹ relationships",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari SF-25\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari SF-25 (Alternative)\"\nWhen the user creates a \"covers car model variant\" relationship between \"F1 in Numbers\" and \"Ferrari SF-25\"\nAnd the user creates a \"covers car model variant\" relationship between \"F1 in Numbers\" and \"Ferrari SF-25 (Alternative)\"\nThen there should exist a \"covers car model variant\" relationship between \"F1 in Numbers\" and \"Ferrari SF-25\"\nAnd there should exist a \"covers car model variant\" relationship between \"F1 in Numbers\" and \"Ferrari SF-25 (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:36:26.824+0200",
+  "updated_at": "2026-05-25T12:36:54.474+0200"
+}

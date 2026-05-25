@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5995",
+  "parent_id": "MCA-5994",
+  "title": "Requesting the ›has-video‹ relationships when there are none",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exist 0 \"has-video\" relationships for \"F1 in Numbers\"\nWhen the user requests all \"has-video\" relationships for \"F1 in Numbers\"\nThen the request should be confirmed with status code 200\nAnd the response should return an empty list",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:42:13.379+0200",
+  "updated_at": "2026-05-25T12:37:01.430+0200"
+}

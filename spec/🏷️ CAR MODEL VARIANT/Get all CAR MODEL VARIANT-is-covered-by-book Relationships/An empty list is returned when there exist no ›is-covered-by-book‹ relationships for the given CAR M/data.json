@@ -1,0 +1,9 @@
+{
+  "id": "MCA-6102",
+  "parent_id": "MCA-6099",
+  "title": "An empty list is returned when there exist no ›is-covered-by-book‹ relationships for the given CAR MODEL VARIANT",
+  "description": "",
+  "release_version": "0.37.0",
+  "created_at": "2026-05-25T11:47:07.905+0200",
+  "updated_at": "2026-05-25T12:22:46.616+0200"
+}

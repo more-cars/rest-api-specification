@@ -1,0 +1,11 @@
+{
+  "id": "MCA-6114",
+  "parent_id": "MCA-6113",
+  "title": "Trying to delete a non-existent ›is-covered-by-book‹ relationship",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Toyota Corolla\"\nAnd there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists NO \"is covered by book\" relationship between \"Toyota Corolla\" and \"F1 in Numbers\"\nWhen the user deletes the \"is covered by book\" relationship between \"Toyota Corolla\" and \"F1 in Numbers\"\nThen the request should be rejected with status code 404",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-25T11:48:42.117+0200",
+  "updated_at": "2026-05-25T12:37:28.297+0200"
+}

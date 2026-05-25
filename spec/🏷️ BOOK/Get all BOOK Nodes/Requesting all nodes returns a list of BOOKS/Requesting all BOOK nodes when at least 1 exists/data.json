@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5925",
+  "parent_id": "MCA-5924",
+  "title": "Requesting all BOOK nodes when at least 1 exists",
+  "gherkin": "Given there exist 3 \"BOOK\"s\nWhen the user requests a \"BOOK\" collection\nThen the response should return a collection of 3 \"BOOK\"s\nAnd the response should return with status code 200",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:29:04.197+0200",
+  "updated_at": "2026-05-25T12:36:46.194+0200"
+}

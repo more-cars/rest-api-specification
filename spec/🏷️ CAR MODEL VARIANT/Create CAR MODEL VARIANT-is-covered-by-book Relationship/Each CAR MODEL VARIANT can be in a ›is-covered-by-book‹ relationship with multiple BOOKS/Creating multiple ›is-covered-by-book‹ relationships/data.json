@@ -1,0 +1,11 @@
+{
+  "id": "MCA-6098",
+  "parent_id": "MCA-6097",
+  "title": "Creating multiple ›is-covered-by-book‹ relationships",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Ferrari SF-25\"\nAnd there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists a \"BOOK\" \"F1 in Numbers (Alternative)\"\nWhen the user creates a \"is covered by book\" relationship between \"Ferrari SF-25\" and \"F1 in Numbers\"\nAnd the user creates a \"is covered by book\" relationship between \"Ferrari SF-25\" and \"F1 in Numbers (Alternative)\"\nThen there should exist a \"is covered by book\" relationship between \"Ferrari SF-25\" and \"F1 in Numbers\"\nAnd there should exist a \"is covered by book\" relationship between \"Ferrari SF-25\" and \"F1 in Numbers (Alternative)\"",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-25T11:45:10.674+0200",
+  "updated_at": "2026-05-25T12:37:25.001+0200"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5930",
+  "parent_id": "MCA-5929",
+  "title": "Updating a BOOK with valid data",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nWhen the user updates the node \"F1 in Numbers\" with the following data\n  | key | value |\n  | title | Living the Supercar Dream_2 |\n  | author | Tim Burton_2 |\n  | publisher | Blink Publishing_2 |\n  | year_of_publication | 2018 |\n  | isbn | 9783868528893_2 |\n  | pages | 258 |\n  | language | en_2 |\nThen the request should be confirmed with status code 200",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:30:21.457+0200",
+  "updated_at": "2026-05-25T12:36:47.093+0200"
+}

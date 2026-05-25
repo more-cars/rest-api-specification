@@ -1,0 +1,11 @@
+{
+  "id": "MCA-5973",
+  "parent_id": "MCA-5972",
+  "title": "Deleting the ›covers-car-model-variant‹ relationship when it actually exists",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Toyota Corolla\"\nAnd there exists a \"covers car model variant\" relationship \"R\" between \"F1 in Numbers\" and \"Toyota Corolla\"\nWhen the user deletes the \"covers car model variant\" relationship between \"F1 in Numbers\" and \"Toyota Corolla\"\nThen the request should be confirmed with status code 204\nAnd the relationship \"R\" should not exist anymore",
+  "labels": [
+    "implemented"
+  ],
+  "created_at": "2026-05-23T15:40:11.223+0200",
+  "updated_at": "2026-05-25T12:36:56.209+0200"
+}
