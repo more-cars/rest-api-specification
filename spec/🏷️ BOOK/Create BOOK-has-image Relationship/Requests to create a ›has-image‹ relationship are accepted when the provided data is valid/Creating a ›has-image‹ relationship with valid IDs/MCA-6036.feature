@@ -13,4 +13,4 @@ Feature: Create BOOK-has-image Relationship
       And there exists a "IMAGE" "Detail photo"
       When the user creates a "has-image" relationship between "F1 in Numbers" and "Detail photo"
       Then the request should be confirmed with status code 201
-      And the response should return the "IMAGE" "Detail photo"
+      And the response should return a relationship with "IMAGE" "Detail photo"

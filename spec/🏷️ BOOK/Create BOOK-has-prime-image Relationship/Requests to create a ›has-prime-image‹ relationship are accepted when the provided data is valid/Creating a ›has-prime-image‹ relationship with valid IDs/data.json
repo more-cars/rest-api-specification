@@ -2,7 +2,7 @@
   "id": "MCA-6063",
   "parent_id": "MCA-6062",
   "title": "Creating a ›has-prime-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists a \"IMAGE\" \"Detail photo\"\nWhen the user creates a \"has-prime-image\" relationship between \"F1 in Numbers\" and \"Detail photo\"\nThen the request should be confirmed with status code 201\nAnd the response should return the \"IMAGE\" \"Detail photo\"",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists a \"IMAGE\" \"Detail photo\"\nWhen the user creates a \"has-prime-image\" relationship between \"F1 in Numbers\" and \"Detail photo\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"Detail photo\"",
   "labels": [
     "implemented"
   ],

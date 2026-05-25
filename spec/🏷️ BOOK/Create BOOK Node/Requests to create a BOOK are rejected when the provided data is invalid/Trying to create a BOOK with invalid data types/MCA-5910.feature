@@ -9,7 +9,7 @@ Feature: Create BOOK Node
 
     @TEST_MCA-5910 @implemented
     Scenario: Trying to create a BOOK with invalid data types
-      When the user tries to create a "BOOK" "F1 in Numbers" with the following data
+      When the user tries to create a "BOOK" with the following data
         | key                 | value |
         | title               | true  |
         | author              | true  |

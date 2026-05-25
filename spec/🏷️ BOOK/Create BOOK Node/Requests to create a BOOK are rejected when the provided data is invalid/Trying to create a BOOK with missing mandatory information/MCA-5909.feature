@@ -9,6 +9,6 @@ Feature: Create BOOK Node
 
     @TEST_MCA-5909 @implemented
     Scenario: Trying to create a BOOK with missing mandatory information
-      When the user tries to create a "BOOK" "F1 in Numbers" with the following data
+      When the user tries to create a "BOOK" with the following data
         | key | value |
       Then the request should be rejected with status code 400
