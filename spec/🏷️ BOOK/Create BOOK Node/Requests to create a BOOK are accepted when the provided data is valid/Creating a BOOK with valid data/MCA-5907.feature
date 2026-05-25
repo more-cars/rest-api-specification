@@ -15,7 +15,7 @@ Feature: Create BOOK Node
         | author              | Tim Burton                |
         | publisher           | Blink Publishing          |
         | year_of_publication | 2016                      |
-        | isbn                | 9783868528893             |
+        | isbn                | 978-3-86-852889-3         |
         | pages               | 256                       |
         | language            | en                        |
       Then the request should be confirmed with status code 201
