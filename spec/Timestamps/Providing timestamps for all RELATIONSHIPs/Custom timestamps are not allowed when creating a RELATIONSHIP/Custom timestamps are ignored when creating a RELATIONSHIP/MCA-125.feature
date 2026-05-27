@@ -7,7 +7,7 @@ Feature: Providing timestamps for all RELATIONSHIPs
   @RULE_MCA-109
   Rule: Custom timestamps are not allowed when creating a RELATIONSHIP
 
-    @TEST_MCA-125 @implemented
+    @TEST_MCA-125 @manual_test
     Scenario: Custom timestamps are ignored when creating a RELATIONSHIP
       When the user creates a relationship with the following data
         | key        | value                |

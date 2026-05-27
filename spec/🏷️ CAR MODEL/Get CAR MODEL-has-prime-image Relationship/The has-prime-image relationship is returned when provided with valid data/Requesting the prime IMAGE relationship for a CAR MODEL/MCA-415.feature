@@ -13,5 +13,5 @@ Feature: Get CAR MODEL-has-prime-image Relationship
       Given there exists a "CAR MODEL" "Mondeo"
       And there exists a "has prime image" relationship "R" for "Mondeo"
       When the user requests the "has prime image" relationship for "Mondeo"
-      Then the response should return with status code 200
-      And the response should contain the id of relationship "R"
+      Then the request should be confirmed with status code 200
+      And the response should return the relationship "R"

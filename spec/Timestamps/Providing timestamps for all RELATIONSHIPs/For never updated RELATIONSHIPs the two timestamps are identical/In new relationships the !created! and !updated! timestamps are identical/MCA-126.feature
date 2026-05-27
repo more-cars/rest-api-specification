@@ -7,7 +7,7 @@ Feature: Providing timestamps for all RELATIONSHIPs
   @RULE_MCA-108
   Rule: For never updated RELATIONSHIPs the two timestamps are identical
 
-    @TEST_MCA-126 @implemented
+    @TEST_MCA-126 @manual_test
     Scenario: In new relationships the "created" and "updated" timestamps are identical
       When the user creates a relationship
       Then the properties "created_at" and "updated_at" in the response should be identical

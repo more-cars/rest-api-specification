@@ -2,7 +2,7 @@
   "id": "MCA-415",
   "parent_id": "MCA-399",
   "title": "Requesting the prime IMAGE relationship for a CAR MODEL",
-  "gherkin": "Given there exists a \"CAR MODEL\" \"Mondeo\"\nAnd there exists a \"has prime image\" relationship \"R\" for \"Mondeo\"\nWhen the user requests the \"has prime image\" relationship for \"Mondeo\"\nThen the response should return with status code 200\nAnd the response should contain the id of relationship \"R\"",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Mondeo\"\nAnd there exists a \"has prime image\" relationship \"R\" for \"Mondeo\"\nWhen the user requests the \"has prime image\" relationship for \"Mondeo\"\nThen the request should be confirmed with status code 200\nAnd the response should return the relationship \"R\"",
   "labels": [
     "implemented"
   ],

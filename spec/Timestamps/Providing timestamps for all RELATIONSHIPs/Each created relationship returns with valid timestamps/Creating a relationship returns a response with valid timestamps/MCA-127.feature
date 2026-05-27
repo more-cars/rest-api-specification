@@ -7,7 +7,7 @@ Feature: Providing timestamps for all RELATIONSHIPs
   @RULE_MCA-107
   Rule: Each created relationship returns with valid timestamps
 
-    @TEST_MCA-127 @implemented
+    @TEST_MCA-127 @manual_test
     Scenario: Creating a relationship returns a response with valid timestamps
       When the user creates a relationship
       Then the property "created_at" in the response should be an ISO 8601 formatted timestamp

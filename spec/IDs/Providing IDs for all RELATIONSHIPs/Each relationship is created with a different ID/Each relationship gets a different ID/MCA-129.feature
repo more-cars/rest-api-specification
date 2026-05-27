@@ -7,7 +7,7 @@ Feature: Providing IDs for all RELATIONSHIPs
   @RULE_MCA-105
   Rule: Each relationship is created with a different ID
 
-    @TEST_MCA-129 @implemented
+    @TEST_MCA-129 @manual_test
     Scenario: Each relationship gets a different ID
       When the user creates a set of 20 relationships "R"
       Then each relationship in the set "R" should contain a different ID

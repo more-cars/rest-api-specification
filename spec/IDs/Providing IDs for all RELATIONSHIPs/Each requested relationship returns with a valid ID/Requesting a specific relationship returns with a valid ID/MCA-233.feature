@@ -7,7 +7,7 @@ Feature: Providing IDs for all RELATIONSHIPs
   @RULE_MCA-104
   Rule: Each requested relationship returns with a valid ID
 
-    @TEST_MCA-233 @implemented
+    @TEST_MCA-233 @manual_test
     Scenario: Requesting a specific relationship returns with a valid ID
       Given there exists an "BRAND" "BMW"
       And there exists an "COMPANY" "BMW AG"
