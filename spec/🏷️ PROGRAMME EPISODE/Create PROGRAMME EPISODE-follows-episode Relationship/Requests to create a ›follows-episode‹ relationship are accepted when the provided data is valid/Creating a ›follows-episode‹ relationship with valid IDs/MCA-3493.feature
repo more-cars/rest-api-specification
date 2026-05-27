@@ -10,8 +10,4 @@ Feature: Create PROGRAMME EPISODE-follows-episode Relationship
       And there exists a "PROGRAMME EPISODE" "It is a gas, gas, gas"
       When the user creates a "follows episode" relationship between "Blasts from the past" and "It is a gas, gas, gas"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "PROGRAMME EPISODE" "It is a gas, gas, gas"

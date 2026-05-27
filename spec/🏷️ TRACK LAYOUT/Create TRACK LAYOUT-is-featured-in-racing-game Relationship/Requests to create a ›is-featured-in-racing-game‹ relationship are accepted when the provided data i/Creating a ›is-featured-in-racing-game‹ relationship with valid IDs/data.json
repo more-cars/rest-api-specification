@@ -2,7 +2,7 @@
   "id": "MCA-2466",
   "parent_id": "MCA-2465",
   "title": "Creating a ›is-featured-in-racing-game‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nAnd there exists a \"RACING GAME\" \"Assetto Corsa EVO\"\nWhen the user creates a \"is featured in racing game\" relationship between \"Nordschleife\" and \"Assetto Corsa EVO\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nAnd there exists a \"RACING GAME\" \"Assetto Corsa EVO\"\nWhen the user creates a \"is featured in racing game\" relationship between \"Nordschleife\" and \"Assetto Corsa EVO\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"RACING GAME\" \"Assetto Corsa EVO\"",
   "labels": [
     "implemented"
   ],

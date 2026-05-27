@@ -10,8 +10,4 @@ Feature: Create LAP TIME-belongs-to-session-result Relationship
       And there exists a "SESSION RESULT" "Grand Prix"
       When the user creates a "belongs to session result" relationship between "fastest lap" and "Grand Prix"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "SESSION RESULT" "Grand Prix"

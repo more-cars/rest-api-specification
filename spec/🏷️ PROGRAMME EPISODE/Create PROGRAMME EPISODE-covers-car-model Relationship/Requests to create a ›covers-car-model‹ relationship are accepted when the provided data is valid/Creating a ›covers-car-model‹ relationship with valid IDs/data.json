@@ -2,7 +2,7 @@
   "id": "MCA-3439",
   "parent_id": "MCA-3438",
   "title": "Creating a ›covers-car-model‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"CAR MODEL\" \"LaFerrari\"\nWhen the user creates a \"covers car model\" relationship between \"The Holy Trinity\" and \"LaFerrari\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"CAR MODEL\" \"LaFerrari\"\nWhen the user creates a \"covers car model\" relationship between \"The Holy Trinity\" and \"LaFerrari\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"CAR MODEL\" \"LaFerrari\"",
   "labels": [
     "implemented"
   ],

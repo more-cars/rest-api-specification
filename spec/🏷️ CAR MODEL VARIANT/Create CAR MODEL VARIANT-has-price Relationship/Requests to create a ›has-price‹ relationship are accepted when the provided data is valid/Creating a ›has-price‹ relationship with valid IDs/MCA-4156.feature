@@ -10,8 +10,4 @@ Feature: Create CAR MODEL VARIANT-has-price Relationship
       And there exists a "PRICE" "base price"
       When the user creates a "has price" relationship between "BMW M3" and "base price"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "PRICE" "base price"

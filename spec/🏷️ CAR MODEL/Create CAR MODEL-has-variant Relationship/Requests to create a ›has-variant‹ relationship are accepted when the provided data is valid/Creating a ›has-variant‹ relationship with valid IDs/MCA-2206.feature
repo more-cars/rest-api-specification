@@ -10,8 +10,4 @@ Feature: Create CAR MODEL-has-variant Relationship
       And there exists a "CAR MODEL VARIANT" "VW Golf GTI"
       When the user creates a "has variant" relationship between "Golf" and "VW Golf GTI"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "CAR MODEL VARIANT" "VW Golf GTI"

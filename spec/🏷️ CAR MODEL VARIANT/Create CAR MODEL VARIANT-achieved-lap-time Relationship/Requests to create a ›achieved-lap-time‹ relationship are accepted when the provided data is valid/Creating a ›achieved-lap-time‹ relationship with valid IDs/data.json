@@ -2,7 +2,7 @@
   "id": "MCA-2125",
   "parent_id": "MCA-2124",
   "title": "Creating a ›achieved-lap-time‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nWhen the user creates a \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"fastest lap\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 GTR\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nWhen the user creates a \"achieved lap time\" relationship between \"BMW M3 GTR\" and \"fastest lap\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"LAP TIME\" \"fastest lap\"",
   "labels": [
     "implemented"
   ],

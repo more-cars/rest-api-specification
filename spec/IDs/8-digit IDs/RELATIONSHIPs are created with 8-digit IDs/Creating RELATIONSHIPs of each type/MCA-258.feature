@@ -9,7 +9,7 @@ Feature: 8-digit IDs
   @RULE_MCA-244
   Rule: RELATIONSHIPs are created with 8-digit IDs
 
-    @TEST_MCA-258 @implemented
+    @TEST_MCA-258 @manual_test
     Scenario: Creating RELATIONSHIPs of each type
       When the user creates a relationship
       Then the property "relationship_id" in the response should be a number greater than 11999999

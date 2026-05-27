@@ -13,9 +13,4 @@ Feature: Create CAR MODEL VARIANT-has-main-video Relationship
       And there exists a "VIDEO" "Promo Video"
       When the user creates a "has-main-video" relationship between "BMW M3 CSL" and "Promo Video"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | start_node        |
-        | partner_node      |
+      And the response should return a relationship with "VIDEO" "Promo Video"

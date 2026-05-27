@@ -10,8 +10,4 @@ Feature: Create MOTOR SHOW-presents-car-model-variant Relationship
       And there exists a "CAR MODEL VARIANT" "BMW M760Li"
       When the user creates a "presents car model variant" relationship between "IAA Frankfurt" and "BMW M760Li"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "CAR MODEL VARIANT" "BMW M760Li"

@@ -2,7 +2,7 @@
   "id": "MCA-1392",
   "parent_id": "MCA-1391",
   "title": "Creating a ›used-the-track-layout‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Austria\"\nAnd there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nWhen the user creates a \"used the track layout\" relationship between \"GP Austria\" and \"Grand Prix Circuit\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Austria\"\nAnd there exists a \"TRACK LAYOUT\" \"Grand Prix Circuit\"\nWhen the user creates a \"used the track layout\" relationship between \"GP Austria\" and \"Grand Prix Circuit\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"TRACK LAYOUT\" \"Grand Prix Circuit\"",
   "labels": [
     "implemented"
   ],

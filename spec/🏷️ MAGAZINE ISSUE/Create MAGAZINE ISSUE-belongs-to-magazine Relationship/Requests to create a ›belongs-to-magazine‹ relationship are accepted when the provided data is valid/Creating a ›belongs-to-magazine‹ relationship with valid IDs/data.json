@@ -2,7 +2,7 @@
   "id": "MCA-2746",
   "parent_id": "MCA-2745",
   "title": "Creating a ›belongs-to-magazine‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Sieger-Typen\"\nAnd there exists a \"MAGAZINE\" \"Classic Cars\"\nWhen the user creates a \"belongs to magazine\" relationship between \"Sieger-Typen\" and \"Classic Cars\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Sieger-Typen\"\nAnd there exists a \"MAGAZINE\" \"Classic Cars\"\nWhen the user creates a \"belongs to magazine\" relationship between \"Sieger-Typen\" and \"Classic Cars\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"MAGAZINE\" \"Classic Cars\"",
   "labels": [
     "implemented"
   ],

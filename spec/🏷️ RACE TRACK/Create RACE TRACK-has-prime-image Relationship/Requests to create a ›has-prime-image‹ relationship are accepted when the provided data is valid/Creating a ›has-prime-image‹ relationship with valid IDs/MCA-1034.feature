@@ -10,8 +10,4 @@ Feature: Create RACE TRACK-has-prime-image Relationship
       And there exists a "IMAGE" "first-corner"
       When the user creates a "has prime image" relationship between "Hockenheimring" and "first-corner"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "IMAGE" "first-corner"

@@ -10,8 +10,4 @@ Feature: Create MAGAZINE-has-issue Relationship
       And there exists a "MAGAZINE ISSUE" "Best Sportscars 2015"
       When the user creates a "has issue" relationship between "Top Gear" and "Best Sportscars 2015"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "MAGAZINE ISSUE" "Best Sportscars 2015"

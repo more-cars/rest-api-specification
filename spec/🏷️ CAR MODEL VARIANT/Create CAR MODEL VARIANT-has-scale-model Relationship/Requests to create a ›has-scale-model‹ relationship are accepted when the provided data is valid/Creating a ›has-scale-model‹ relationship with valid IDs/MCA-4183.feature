@@ -10,8 +10,4 @@ Feature: Create CAR MODEL VARIANT-has-scale-model Relationship
       And there exists a "MODEL CAR" "Hotwheels M3"
       When the user creates a "has scale model" relationship between "BMW M3 CSL" and "Hotwheels M3"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "MODEL CAR" "Hotwheels M3"

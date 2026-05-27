@@ -10,8 +10,4 @@ Feature: Create MAGAZINE ISSUE-follows-issue Relationship
       And there exists a "MAGAZINE ISSUE" "Top Gear 2_2025"
       When the user creates a "follows issue" relationship between "Top Gear 3_2025" and "Top Gear 2_2025"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "MAGAZINE ISSUE" "Top Gear 2_2025"

@@ -10,8 +10,4 @@ Feature: Create RACE TRACK-has-layout Relationship
       And there exists a "TRACK LAYOUT" "GP Circuit"
       When the user creates a "has layout" relationship between "Hockenheimring" and "GP Circuit"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "TRACK LAYOUT" "GP Circuit"

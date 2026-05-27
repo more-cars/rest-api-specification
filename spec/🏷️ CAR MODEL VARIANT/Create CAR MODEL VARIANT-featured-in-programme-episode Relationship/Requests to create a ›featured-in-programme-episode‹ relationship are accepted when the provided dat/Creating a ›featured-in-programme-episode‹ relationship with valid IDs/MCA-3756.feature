@@ -10,8 +10,4 @@ Feature: Create CAR MODEL VARIANT-featured-in-programme-episode Relationship
       And there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       When the user creates a "featured in programme episode" relationship between "McLaren P1" and "The Holy Trinity"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "PROGRAMME EPISODE" "The Holy Trinity"

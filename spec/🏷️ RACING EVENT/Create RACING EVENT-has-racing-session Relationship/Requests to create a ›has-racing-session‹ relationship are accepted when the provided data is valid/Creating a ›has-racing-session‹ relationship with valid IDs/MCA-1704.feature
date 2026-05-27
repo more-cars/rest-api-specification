@@ -10,8 +10,4 @@ Feature: Create RACING EVENT-has-racing-session Relationship
       And there exists a "RACING SESSION" "Qualifying"
       When the user creates a "has racing session" relationship between "GP Monaco" and "Qualifying"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "RACING SESSION" "Qualifying"

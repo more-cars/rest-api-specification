@@ -10,8 +10,4 @@ Feature: Create CAR MODEL VARIANT-presented-at-motor-show Relationship
       And there exists a "MOTOR SHOW" "IAA Frankfurt"
       When the user creates a "presented at motor show" relationship between "BMW i8" and "IAA Frankfurt"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "MOTOR SHOW" "IAA Frankfurt"

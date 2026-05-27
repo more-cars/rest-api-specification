@@ -10,8 +10,4 @@ Feature: Create LAP TIME-achieved-with-car-model-variant Relationship
       And there exists a "CAR MODEL VARIANT" "Opel Calibra V6"
       When the user creates a "achieved with car model variant" relationship between "fastest lap" and "Opel Calibra V6"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "CAR MODEL VARIANT" "Opel Calibra V6"

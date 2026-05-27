@@ -10,8 +10,4 @@ Feature: Create RACING EVENT-has-image Relationship
       And there exists a "IMAGE" "starting grid"
       When the user creates a "has image" relationship between "GP Silverstone" and "starting grid"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "IMAGE" "starting grid"

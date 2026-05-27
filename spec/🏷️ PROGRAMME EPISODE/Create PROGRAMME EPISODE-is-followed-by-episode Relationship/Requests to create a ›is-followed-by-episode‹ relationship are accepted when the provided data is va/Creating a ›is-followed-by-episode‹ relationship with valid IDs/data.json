@@ -2,7 +2,7 @@
   "id": "MCA-3520",
   "parent_id": "MCA-3519",
   "title": "Creating a ›is-followed-by-episode‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"PROGRAMME EPISODE\" \"Operation Desert Stumble\"\nWhen the user creates a \"is followed by episode\" relationship between \"The Holy Trinity\" and \"Operation Desert Stumble\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"The Holy Trinity\"\nAnd there exists a \"PROGRAMME EPISODE\" \"Operation Desert Stumble\"\nWhen the user creates a \"is followed by episode\" relationship between \"The Holy Trinity\" and \"Operation Desert Stumble\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"PROGRAMME EPISODE\" \"Operation Desert Stumble\"",
   "labels": [
     "implemented"
   ],

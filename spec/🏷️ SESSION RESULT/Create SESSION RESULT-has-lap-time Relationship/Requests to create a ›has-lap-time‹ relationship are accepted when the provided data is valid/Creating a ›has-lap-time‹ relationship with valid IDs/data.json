@@ -2,7 +2,7 @@
   "id": "MCA-1903",
   "parent_id": "MCA-1902",
   "title": "Creating a ›has-lap-time‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"SESSION RESULT\" \"Grand Prix\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nWhen the user creates a \"has lap time\" relationship between \"Grand Prix\" and \"fastest lap\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"Grand Prix\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nWhen the user creates a \"has lap time\" relationship between \"Grand Prix\" and \"fastest lap\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"LAP TIME\" \"fastest lap\"",
   "labels": [
     "implemented"
   ],

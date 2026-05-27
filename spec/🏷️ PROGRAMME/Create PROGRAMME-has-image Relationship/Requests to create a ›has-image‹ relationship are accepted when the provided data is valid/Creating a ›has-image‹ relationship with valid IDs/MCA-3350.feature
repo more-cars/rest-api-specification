@@ -10,8 +10,4 @@ Feature: Create PROGRAMME-has-image Relationship
       And there exists a "IMAGE" "TGT logo"
       When the user creates a "has image" relationship between "The Grand Tour" and "TGT logo"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "IMAGE" "TGT logo"

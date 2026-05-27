@@ -10,8 +10,4 @@ Feature: Create TRACK LAYOUT-is-featured-in-racing-game Relationship
       And there exists a "RACING GAME" "Assetto Corsa EVO"
       When the user creates a "is featured in racing game" relationship between "Nordschleife" and "Assetto Corsa EVO"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "RACING GAME" "Assetto Corsa EVO"

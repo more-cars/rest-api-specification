@@ -2,7 +2,7 @@
   "id": "MCA-836",
   "parent_id": "MCA-835",
   "title": "Creating a ›belongs-to-company‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"BRAND\" \"Bentley\"\nAnd there exists a \"COMPANY\" \"VW AG\"\nWhen the user creates a \"belongs to company\" relationship between \"Bentley\" and \"VW AG\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"BRAND\" \"Bentley\"\nAnd there exists a \"COMPANY\" \"VW AG\"\nWhen the user creates a \"belongs to company\" relationship between \"Bentley\" and \"VW AG\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"COMPANY\" \"VW AG\"",
   "labels": [
     "implemented"
   ],

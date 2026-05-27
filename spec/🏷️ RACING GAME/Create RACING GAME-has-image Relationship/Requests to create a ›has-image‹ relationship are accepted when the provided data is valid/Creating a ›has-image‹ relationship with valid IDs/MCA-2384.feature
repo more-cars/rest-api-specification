@@ -10,8 +10,4 @@ Feature: Create RACING GAME-has-image Relationship
       And there exists a "IMAGE" "dvd cover"
       When the user creates a "has image" relationship between "F1 2025" and "dvd cover"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "IMAGE" "dvd cover"

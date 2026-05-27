@@ -10,8 +10,4 @@ Feature: Create RACING EVENT-belongs-to-racing-series Relationship
       And there exists a "RACING SERIES" "Formula 1"
       When the user creates a "belongs to racing series" relationship between "Silverstone GP" and "Formula 1"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "RACING SERIES" "Formula 1"

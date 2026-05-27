@@ -10,8 +10,4 @@ Feature: Create MODEL CAR-has-image Relationship
       And there exists a "IMAGE" "F40 Matchbox photo"
       When the user creates a "has image" relationship between "F40 Scale Model" and "F40 Matchbox photo"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "IMAGE" "F40 Matchbox photo"

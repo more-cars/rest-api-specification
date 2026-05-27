@@ -2,7 +2,7 @@
   "id": "MCA-2330",
   "parent_id": "MCA-2329",
   "title": "Creating a ›features-car-model-variant‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Aston Martin DB7\"\nWhen the user creates a \"features car model variant\" relationship between \"Gran Turismo\" and \"Aston Martin DB7\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"RACING GAME\" \"Gran Turismo\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Aston Martin DB7\"\nWhen the user creates a \"features car model variant\" relationship between \"Gran Turismo\" and \"Aston Martin DB7\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"CAR MODEL VARIANT\" \"Aston Martin DB7\"",
   "labels": [
     "implemented"
   ],

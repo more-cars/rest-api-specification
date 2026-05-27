@@ -10,8 +10,4 @@ Feature: Create VIDEO-is-main-video-of-node Relationship
       And there exists a "NODE" "McLaren P1"
       When the user creates a "is main video of node" relationship between "P1 vs F40" and "McLaren P1"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "NODE" "McLaren P1"

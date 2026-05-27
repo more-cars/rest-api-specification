@@ -10,8 +10,4 @@ Feature: Create CAR MODEL-covered-by-magazine-issue Relationship
       And there exists a "MAGAZINE ISSUE" "50 Jahre GTI"
       When the user creates a "covered by magazine issue" relationship between "Golf" and "50 Jahre GTI"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "MAGAZINE ISSUE" "50 Jahre GTI"

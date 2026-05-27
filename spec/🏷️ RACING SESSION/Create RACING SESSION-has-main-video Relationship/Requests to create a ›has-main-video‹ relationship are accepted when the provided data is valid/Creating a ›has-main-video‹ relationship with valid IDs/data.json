@@ -2,7 +2,7 @@
   "id": "MCA-4870",
   "parent_id": "MCA-4869",
   "title": "Creating a ›has-main-video‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"Qualifying\" and \"Promo Video\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| start_node           |\n| partner_node         |",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"Qualifying\" and \"Promo Video\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"VIDEO\" \"Promo Video\"",
   "labels": [
     "implemented"
   ],

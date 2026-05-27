@@ -10,8 +10,4 @@ Feature: Create RACING SERIES-has-image Relationship
       And there exists a "IMAGE" "BMW M4 DTM poster"
       When the user creates a "has image" relationship between "DTM" and "BMW M4 DTM poster"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "IMAGE" "BMW M4 DTM poster"

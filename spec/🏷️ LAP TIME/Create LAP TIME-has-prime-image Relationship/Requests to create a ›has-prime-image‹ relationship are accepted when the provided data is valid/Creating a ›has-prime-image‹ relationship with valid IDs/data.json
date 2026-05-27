@@ -2,7 +2,7 @@
   "id": "MCA-1957",
   "parent_id": "MCA-1956",
   "title": "Creating a ›has-prime-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"IMAGE\" \"track record\"\nWhen the user creates a \"has prime image\" relationship between \"fastest lap\" and \"track record\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"IMAGE\" \"track record\"\nWhen the user creates a \"has prime image\" relationship between \"fastest lap\" and \"track record\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"track record\"",
   "labels": [
     "implemented"
   ],

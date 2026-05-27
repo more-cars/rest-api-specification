@@ -10,8 +10,4 @@ Feature: Create MAGAZINE ISSUE-covers-racing-event Relationship
       And there exists a "RACING EVENT" "F1 GP Australia 2026"
       When the user creates a "covers racing event" relationship between "F1 Saison Start" and "F1 GP Australia 2026"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "RACING EVENT" "F1 GP Australia 2026"

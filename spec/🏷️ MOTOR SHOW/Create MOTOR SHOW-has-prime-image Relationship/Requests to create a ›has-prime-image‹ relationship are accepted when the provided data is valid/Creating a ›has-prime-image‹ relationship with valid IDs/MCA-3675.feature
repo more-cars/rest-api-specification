@@ -10,8 +10,4 @@ Feature: Create MOTOR SHOW-has-prime-image Relationship
       And there exists a "IMAGE" "IAA logo"
       When the user creates a "has prime image" relationship between "IAA Frankfurt" and "IAA logo"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "IMAGE" "IAA logo"

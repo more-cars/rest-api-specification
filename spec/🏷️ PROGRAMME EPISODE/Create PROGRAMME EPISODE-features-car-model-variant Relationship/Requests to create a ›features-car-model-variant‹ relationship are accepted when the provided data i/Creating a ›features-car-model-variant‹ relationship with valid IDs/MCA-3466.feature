@@ -10,8 +10,4 @@ Feature: Create PROGRAMME EPISODE-features-car-model-variant Relationship
       And there exists a "CAR MODEL VARIANT" "Ferrari LaFerrari"
       When the user creates a "features car model variant" relationship between "The Holy Trinity" and "Ferrari LaFerrari"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "CAR MODEL VARIANT" "Ferrari LaFerrari"

@@ -10,8 +10,4 @@ Feature: Create TRACK LAYOUT-has-lap-time Relationship
       And there exists a "LAP TIME" "fastest lap"
       When the user creates a "has lap time" relationship between "Club Circuit" and "fastest lap"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "LAP TIME" "fastest lap"

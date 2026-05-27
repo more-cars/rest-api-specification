@@ -10,8 +10,4 @@ Feature: Create PRICE-for-car-model-variant Relationship
       And there exists a "CAR MODEL VARIANT" "Porsche Carrera GT"
       When the user creates a "for car model variant" relationship between "Brand New" and "Porsche Carrera GT"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "CAR MODEL VARIANT" "Porsche Carrera GT"

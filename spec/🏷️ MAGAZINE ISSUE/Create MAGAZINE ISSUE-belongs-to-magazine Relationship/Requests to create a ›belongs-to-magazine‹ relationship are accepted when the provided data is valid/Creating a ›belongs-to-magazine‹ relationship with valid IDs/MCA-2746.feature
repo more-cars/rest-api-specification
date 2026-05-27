@@ -10,8 +10,4 @@ Feature: Create MAGAZINE ISSUE-belongs-to-magazine Relationship
       And there exists a "MAGAZINE" "Classic Cars"
       When the user creates a "belongs to magazine" relationship between "Sieger-Typen" and "Classic Cars"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "MAGAZINE" "Classic Cars"

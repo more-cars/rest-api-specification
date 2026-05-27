@@ -10,8 +10,4 @@ Feature: Create CAR MODEL VARIANT-reviewed-by-magazine-issue-with-rating Relatio
       And there exists a "RATING" "93 Percent"
       When the user creates a "reviewed by magazine issue with rating" relationship between "McLaren 750S" and "93 Percent"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "RATING" "93 Percent"

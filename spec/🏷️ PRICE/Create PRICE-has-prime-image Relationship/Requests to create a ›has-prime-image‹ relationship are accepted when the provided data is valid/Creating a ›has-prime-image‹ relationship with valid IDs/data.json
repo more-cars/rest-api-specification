@@ -2,7 +2,7 @@
   "id": "MCA-4125",
   "parent_id": "MCA-4124",
   "title": "Creating a ›has-prime-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"PRICE\" \"Brand New\"\nAnd there exists a \"IMAGE\" \"Price tag\"\nWhen the user creates a \"has prime image\" relationship between \"Brand New\" and \"Price tag\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "gherkin": "Given there exists a \"PRICE\" \"Brand New\"\nAnd there exists a \"IMAGE\" \"Price tag\"\nWhen the user creates a \"has prime image\" relationship between \"Brand New\" and \"Price tag\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"Price tag\"",
   "labels": [
     "implemented"
   ],

@@ -10,8 +10,4 @@ Feature: Create TRACK LAYOUT-has-prime-image Relationship
       And there exists a "IMAGE" "latest circuit map"
       When the user creates a "has prime image" relationship between "GP Circuit" and "latest circuit map"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "IMAGE" "latest circuit map"

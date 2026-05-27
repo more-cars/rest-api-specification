@@ -13,8 +13,4 @@ Feature: Create BRAND-has-car-model Relationship
       And there exists a "CAR MODEL" "Jetta"
       When the user creates a "has-car-model" relationship between "VW" and "Jetta"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "CAR MODEL" "Jetta"

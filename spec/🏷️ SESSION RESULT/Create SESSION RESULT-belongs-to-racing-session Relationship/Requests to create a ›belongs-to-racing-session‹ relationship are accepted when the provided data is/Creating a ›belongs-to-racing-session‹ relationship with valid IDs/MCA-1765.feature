@@ -10,8 +10,4 @@ Feature: Create SESSION RESULT-belongs-to-racing-session Relationship
       And there exists a "RACING SESSION" "Grand Prix"
       When the user creates a "belongs to racing session" relationship between "1st place" and "Grand Prix"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "RACING SESSION" "Grand Prix"

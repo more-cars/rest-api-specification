@@ -10,8 +10,4 @@ Feature: Create BRAND-belongs-to-company Relationship
       And there exists a "COMPANY" "VW AG"
       When the user creates a "belongs to company" relationship between "Bentley" and "VW AG"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "COMPANY" "VW AG"

@@ -10,8 +10,4 @@ Feature: Create MODEL CAR BRAND-created-model-car Relationship
       And there exists a "MODEL CAR" "Camaro Hot Wheels"
       When the user creates a "created model car" relationship between "Hot Wheels" and "Camaro Hot Wheels"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "MODEL CAR" "Camaro Hot Wheels"

@@ -10,8 +10,4 @@ Feature: Create SESSION RESULT-has-prime-image Relationship
       And there exists a "IMAGE" "finish line"
       When the user creates a "has prime image" relationship between "1st place" and "finish line"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "IMAGE" "finish line"

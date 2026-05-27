@@ -2,7 +2,7 @@
   "id": "MCA-2357",
   "parent_id": "MCA-2356",
   "title": "Creating a ›features-track-layout‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACING GAME\" \"Assetto Corsa EVO\"\nAnd there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nWhen the user creates a \"features track layout\" relationship between \"Assetto Corsa EVO\" and \"Nordschleife\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"RACING GAME\" \"Assetto Corsa EVO\"\nAnd there exists a \"TRACK LAYOUT\" \"Nordschleife\"\nWhen the user creates a \"features track layout\" relationship between \"Assetto Corsa EVO\" and \"Nordschleife\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"TRACK LAYOUT\" \"Nordschleife\"",
   "labels": [
     "implemented"
   ],

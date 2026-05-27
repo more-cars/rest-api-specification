@@ -10,8 +10,4 @@ Feature: Create PROGRAMME EPISODE-is-followed-by-episode Relationship
       And there exists a "PROGRAMME EPISODE" "Operation Desert Stumble"
       When the user creates a "is followed by episode" relationship between "The Holy Trinity" and "Operation Desert Stumble"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "PROGRAMME EPISODE" "Operation Desert Stumble"

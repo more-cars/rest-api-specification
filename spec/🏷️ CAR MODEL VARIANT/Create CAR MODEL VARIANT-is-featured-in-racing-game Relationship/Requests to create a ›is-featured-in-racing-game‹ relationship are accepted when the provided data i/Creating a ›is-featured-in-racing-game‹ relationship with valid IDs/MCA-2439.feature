@@ -10,8 +10,4 @@ Feature: Create CAR MODEL VARIANT-is-featured-in-racing-game Relationship
       And there exists a "RACING GAME" "Gran Turismo"
       When the user creates a "is featured in racing game" relationship between "Aston Martin DB7" and "Gran Turismo"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "RACING GAME" "Gran Turismo"

@@ -10,8 +10,4 @@ Feature: Create IMAGE-is-prime-image-of-node Relationship
       And there exists a "BRAND" "BMW"
       When the user creates a "is prime image of node" relationship between "BMW Logo" and "BMW"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "BRAND" "BMW"

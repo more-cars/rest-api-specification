@@ -10,8 +10,4 @@ Feature: Create CAR MODEL-has-successor Relationship
       And there exists a "CAR MODEL" "Diablo"
       When the user creates a "has successor" relationship between "Countach" and "Diablo"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "CAR MODEL" "Diablo"

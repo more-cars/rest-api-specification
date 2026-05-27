@@ -2,7 +2,7 @@
   "id": "MCA-3159",
   "parent_id": "MCA-3158",
   "title": "Creating a ›has-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists a \"IMAGE\" \"Top Rating\"\nWhen the user creates a \"has image\" relationship between \"93 Percent\" and \"Top Rating\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists a \"IMAGE\" \"Top Rating\"\nWhen the user creates a \"has image\" relationship between \"93 Percent\" and \"Top Rating\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"Top Rating\"",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCA-6090",
   "parent_id": "MCA-6089",
   "title": "Creating a ›is-covered-by-book‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Ferrari SF-25\"\nAnd there exists a \"BOOK\" \"F1 in Numbers\"\nWhen the user creates a \"is covered by book\" relationship between \"Ferrari SF-25\" and \"F1 in Numbers\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| partner_node |",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Ferrari SF-25\"\nAnd there exists a \"BOOK\" \"F1 in Numbers\"\nWhen the user creates a \"is covered by book\" relationship between \"Ferrari SF-25\" and \"F1 in Numbers\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"BOOK\" \"F1 in Numbers\"",
   "labels": [
     "implemented"
   ],

@@ -10,8 +10,4 @@ Feature: Create RACING EVENT-took-place-at-race-track Relationship
       And there exists a "RACE TRACK" "Red Bull Ring"
       When the user creates a "took place at race track" relationship between "GP Austria" and "Red Bull Ring"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "RACE TRACK" "Red Bull Ring"

@@ -10,8 +10,4 @@ Feature: Create BOOK-covers-car-model-variant Relationship
       And there exists a "CAR MODEL VARIANT" "Ferrari SF-25"
       When the user creates a "covers car model variant" relationship between "F1 in Numbers" and "Ferrari SF-25"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "CAR MODEL VARIANT" "Ferrari SF-25"

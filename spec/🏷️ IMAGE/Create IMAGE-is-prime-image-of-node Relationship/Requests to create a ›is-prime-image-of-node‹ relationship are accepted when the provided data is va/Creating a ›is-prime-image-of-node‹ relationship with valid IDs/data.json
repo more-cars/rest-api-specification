@@ -2,7 +2,7 @@
   "id": "MCA-1539",
   "parent_id": "MCA-1538",
   "title": "Creating a ›is-prime-image-of-node‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"IMAGE\" \"BMW Logo\"\nAnd there exists a \"BRAND\" \"BMW\"\nWhen the user creates a \"is prime image of node\" relationship between \"BMW Logo\" and \"BMW\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"IMAGE\" \"BMW Logo\"\nAnd there exists a \"BRAND\" \"BMW\"\nWhen the user creates a \"is prime image of node\" relationship between \"BMW Logo\" and \"BMW\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"BRAND\" \"BMW\"",
   "labels": [
     "implemented"
   ],

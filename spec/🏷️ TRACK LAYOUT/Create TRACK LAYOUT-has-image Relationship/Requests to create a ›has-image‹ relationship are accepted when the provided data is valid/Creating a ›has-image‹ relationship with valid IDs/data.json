@@ -2,7 +2,7 @@
   "id": "MCA-1088",
   "parent_id": "MCA-1087",
   "title": "Creating a ›has-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exists a \"IMAGE\" \"circuit map\"\nWhen the user creates a \"has image\" relationship between \"GP Circuit\" and \"circuit map\"\nThen the request should be confirmed with status code 201\nAnd the response should contain the following keys\n| key                  |\n| relationship_id      |\n| relationship_name    |\n| relationship_partner |",
+  "gherkin": "Given there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nAnd there exists a \"IMAGE\" \"circuit map\"\nWhen the user creates a \"has image\" relationship between \"GP Circuit\" and \"circuit map\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"circuit map\"",
   "labels": [
     "implemented"
   ],

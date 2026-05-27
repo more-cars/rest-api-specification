@@ -10,8 +10,4 @@ Feature: Create PROGRAMME-has-episode Relationship
       And there exists a "PROGRAMME EPISODE" "The Holy Trinity"
       When the user creates a "has episode" relationship between "The Grand Tour" and "The Holy Trinity"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "PROGRAMME EPISODE" "The Holy Trinity"

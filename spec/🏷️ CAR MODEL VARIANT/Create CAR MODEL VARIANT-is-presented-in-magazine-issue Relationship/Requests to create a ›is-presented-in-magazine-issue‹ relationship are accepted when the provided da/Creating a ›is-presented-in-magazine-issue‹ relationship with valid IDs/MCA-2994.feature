@@ -10,8 +10,4 @@ Feature: Create CAR MODEL VARIANT-is-presented-in-magazine-issue Relationship
       And there exists a "MAGAZINE ISSUE" "Best Supercars 2025"
       When the user creates a "is presented in magazine issue" relationship between "McLaren 750S" and "Best Supercars 2025"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "MAGAZINE ISSUE" "Best Supercars 2025"

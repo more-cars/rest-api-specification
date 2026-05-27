@@ -10,8 +10,4 @@ Feature: Create CAR MODEL VARIANT-is-variant-of Relationship
       And there exists a "CAR MODEL" "3-series"
       When the user creates a "is variant of" relationship between "BMW M3" and "3-series"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key                  |
-        | relationship_id      |
-        | relationship_name    |
-        | relationship_partner |
+      And the response should return a relationship with "CAR MODEL" "3-series"

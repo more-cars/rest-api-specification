@@ -10,8 +10,4 @@ Feature: Create MAGAZINE ISSUE-documents-lap-time Relationship
       And there exists a "LAP TIME" "fastest lap"
       When the user creates a "documents lap time" relationship between "Top Gear 11_2025" and "fastest lap"
       Then the request should be confirmed with status code 201
-      And the response should contain the following keys
-        | key               |
-        | relationship_id   |
-        | relationship_name |
-        | partner_node      |
+      And the response should return a relationship with "LAP TIME" "fastest lap"
