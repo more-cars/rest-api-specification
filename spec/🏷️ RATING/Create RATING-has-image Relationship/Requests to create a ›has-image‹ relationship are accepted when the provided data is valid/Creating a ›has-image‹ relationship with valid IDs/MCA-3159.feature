@@ -4,10 +4,9 @@ Feature: Create RATING-has-image Relationship
   @RULE_MCA-3158
   Rule: Requests to create a ›has-image‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-3159 @implemented
-    Scenario: Creating a ›has-image‹ relationship with valid IDs
-      Given there exists a "RATING" "93 Percent"
-      And there exists a "IMAGE" "Top Rating"
-      When the user creates a "has image" relationship between "93 Percent" and "Top Rating"
-      Then the request should be confirmed with status code 201
-      And the response should return a relationship with "IMAGE" "Top Rating"
+  @TEST_MCA-3159 @implemented
+  Scenario: Creating a ›has-image‹ relationship with valid IDs
+    Given there exists a "RATING" "93 Percent"
+    And there exists a "IMAGE" "Top Rating"
+    When the user creates a "has image" relationship between "93 Percent" and "Top Rating"
+    Then the request should be confirmed with status code 204

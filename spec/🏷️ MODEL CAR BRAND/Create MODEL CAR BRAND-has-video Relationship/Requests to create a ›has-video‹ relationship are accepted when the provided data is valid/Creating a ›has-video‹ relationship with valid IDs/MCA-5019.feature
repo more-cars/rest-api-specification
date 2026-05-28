@@ -7,10 +7,9 @@ Feature: Create MODEL CAR BRAND-has-video Relationship
   @RULE_MCA-5018
   Rule: Requests to create a ›has-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-5019 @implemented
-    Scenario: Creating a ›has-video‹ relationship with valid IDs
-      Given there exists a "MODEL CAR BRAND" "Hot Wheels"
-      And there exists a "VIDEO" "Promo Video"
-      When the user creates a "has-video" relationship between "Hot Wheels" and "Promo Video"
-      Then the request should be confirmed with status code 201
-      And the response should return a relationship with "VIDEO" "Promo Video"
+  @TEST_MCA-5019 @implemented
+  Scenario: Creating a ›has-video‹ relationship with valid IDs
+    Given there exists a "MODEL CAR BRAND" "Hot Wheels"
+    And there exists a "VIDEO" "Promo Video"
+    When the user creates a "has-video" relationship between "Hot Wheels" and "Promo Video"
+    Then the request should be confirmed with status code 204

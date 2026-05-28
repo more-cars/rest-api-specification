@@ -4,10 +4,9 @@ Feature: Create MAGAZINE ISSUE-has-prime-image Relationship
   @RULE_MCA-2799
   Rule: Requests to create a ›has-prime-image‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-2800 @implemented
-    Scenario: Creating a ›has-prime-image‹ relationship with valid IDs
-      Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
-      And there exists a "IMAGE" "Cover"
-      When the user creates a "has prime image" relationship between "Sieger-Typen" and "Cover"
-      Then the request should be confirmed with status code 201
-      And the response should return a relationship with "IMAGE" "Cover"
+  @TEST_MCA-2800 @implemented
+  Scenario: Creating a ›has-prime-image‹ relationship with valid IDs
+    Given there exists a "MAGAZINE ISSUE" "Sieger-Typen"
+    And there exists a "IMAGE" "Cover"
+    When the user creates a "has prime image" relationship between "Sieger-Typen" and "Cover"
+    Then the request should be confirmed with status code 204

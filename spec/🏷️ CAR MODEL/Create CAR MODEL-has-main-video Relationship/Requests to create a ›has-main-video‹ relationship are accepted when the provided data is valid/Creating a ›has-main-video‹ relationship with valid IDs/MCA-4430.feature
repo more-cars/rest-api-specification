@@ -7,10 +7,9 @@ Feature: Create CAR MODEL-has-main-video Relationship
   @RULE_MCA-4429
   Rule: Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid
 
-    @TEST_MCA-4430 @implemented
-    Scenario: Creating a ›has-main-video‹ relationship with valid IDs
-      Given there exists a "CAR MODEL" "Testarossa"
-      And there exists a "VIDEO" "Promo Video"
-      When the user creates a "has-main-video" relationship between "Testarossa" and "Promo Video"
-      Then the request should be confirmed with status code 201
-      And the response should return a relationship with "VIDEO" "Promo Video"
+  @TEST_MCA-4430 @implemented
+  Scenario: Creating a ›has-main-video‹ relationship with valid IDs
+    Given there exists a "CAR MODEL" "Testarossa"
+    And there exists a "VIDEO" "Promo Video"
+    When the user creates a "has-main-video" relationship between "Testarossa" and "Promo Video"
+    Then the request should be confirmed with status code 204

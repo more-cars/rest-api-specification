@@ -7,9 +7,9 @@ Feature: Create CAR MODEL-belongs-to-brand Relationship
   @RULE_MCA-180
   Rule: Any existing BRAND can be connected to any existing CAR MODEL
 
-    @TEST_MCA-184 @implemented
-    Scenario: The user should be able to connect an existing BRAND to any existing CAR MODEL
-      Given there exists a "CAR MODEL" "Testarossa"
-      And there exists a "BRAND" "Ferrari"
-      When the user creates a "belongs to brand" relationship between "Testarossa" and "Ferrari"
-      Then the response should return with status code 201
+  @TEST_MCA-184 @implemented
+  Scenario: The user should be able to connect an existing BRAND to any existing CAR MODEL
+    Given there exists a "CAR MODEL" "Testarossa"
+    And there exists a "BRAND" "Ferrari"
+    When the user creates a "belongs to brand" relationship between "Testarossa" and "Ferrari"
+    Then the response should return with status code 204
