@@ -7,34 +7,35 @@ Feature: Providing IDs for all NODEs
   @RULE_MCA-102
   Rule: Each node is created with a different ID
 
-    @TEST_MCA-130 @implemented
-    Scenario Outline: Each node gets a different ID
-      When the user creates a set "A" of 10 "<node_type>"s
-      Then all nodes of set "A" should have a different ID
+  @TEST_MCA-130 @implemented
+  Scenario Outline: Each node gets a different ID
+    When the user creates a set "A" of 10 "<node_type>"s
+    Then all nodes of set "A" should have a different ID
 
-      Examples:
-        | node_type         |
-        | COMPANY           |
-        | BRAND             |
-        | CAR MODEL         |
-        | CAR MODEL VARIANT |
-        | PRICE             |
-        | RACE TRACK        |
-        | TRACK LAYOUT      |
-        | RACING SERIES     |
-        | RACING EVENT      |
-        | RACING SESSION    |
-        | SESSION RESULT    |
-        | LAP TIME          |
-        | RACING GAME       |
-        | GAMING PLATFORM   |
-        | MODEL CAR         |
-        | MODEL CAR BRAND   |
-        | MAGAZINE          |
-        | MAGAZINE ISSUE    |
-        | RATING            |
-        | PROGRAMME         |
-        | PROGRAMME EPISODE |
-        | MOTOR SHOW        |
-        | IMAGE             |
-        | VIDEO             |
+    Examples:
+      | node_type         |
+      | COMPANY           |
+      | BRAND             |
+      | CAR MODEL         |
+      | CAR MODEL VARIANT |
+      | PRICE             |
+      | RACE TRACK        |
+      | TRACK LAYOUT      |
+      | RACING SERIES     |
+      | RACING EVENT      |
+      | RACING SESSION    |
+      | SESSION RESULT    |
+      | LAP TIME          |
+      | RACING GAME       |
+      | GAMING PLATFORM   |
+      | MODEL CAR         |
+      | MODEL CAR BRAND   |
+      | MAGAZINE          |
+      | MAGAZINE ISSUE    |
+      | RATING            |
+      | PROGRAMME         |
+      | PROGRAMME EPISODE |
+      | MOTOR SHOW        |
+      | BOOK              |
+      | IMAGE             |
+      | VIDEO             |
