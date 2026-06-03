@@ -16,7 +16,7 @@ Feature: Create RACING SERIES Node
         | founded      | 2000                         |
         | defunct      |                              |
         | organized_by | ITR                          |
-        | vehicle_type | touring cars                 |
+        | vehicle_type | touring-cars                 |
         | country_code | DE                           |
       Then the request should be confirmed with status code 201
       And the response should return the "RACING SERIES" "DTM"

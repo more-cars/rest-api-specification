@@ -15,8 +15,7 @@ Feature: Update RACING SESSION Node
         | name          | Grand Prix_2 |
         | start_date    | 2025-05-25   |
         | start_time    | 15:00        |
-        | duration      | 122          |
-        | duration_unit | min          |
+        | duration      | PT122M       |
         | distance      | 63           |
         | distance_unit | laps         |
       Then the request should be confirmed with status code 200

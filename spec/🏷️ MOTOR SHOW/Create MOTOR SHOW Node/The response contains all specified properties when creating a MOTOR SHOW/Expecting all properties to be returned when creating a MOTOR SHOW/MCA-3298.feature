@@ -16,7 +16,7 @@ Feature: Create MOTOR SHOW Node
         | date_until      | 2017-09-24         |
         | location        | Frankfurt          |
         | target_audience | international      |
-        | focus           | new_cars           |
+        | focus           | new-cars           |
         | country_code    | DE                 |
       Then the response should contain the following properties
         | key             | value              |
@@ -25,5 +25,5 @@ Feature: Create MOTOR SHOW Node
         | date_until      | 2017-09-24         |
         | location        | Frankfurt          |
         | target_audience | international      |
-        | focus           | new_cars           |
+        | focus           | new-cars           |
         | country_code    | DE                 |

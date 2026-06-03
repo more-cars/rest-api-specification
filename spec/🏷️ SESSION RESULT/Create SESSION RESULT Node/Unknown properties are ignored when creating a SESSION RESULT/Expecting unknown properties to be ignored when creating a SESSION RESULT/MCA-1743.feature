@@ -17,7 +17,7 @@ Feature: Create SESSION RESULT Node
         | team_name   | Mercedes       |
         | race_time   | PT1H23M45.678S |
         | laps        | 51             |
-        | status      | Finished       |
+        | status      | finished       |
         | points      | 25             |
         | thimbleweed | park           |
       Then the response should contain the following properties
@@ -28,7 +28,7 @@ Feature: Create SESSION RESULT Node
         | team_name   | Mercedes       |
         | race_time   | PT1H23M45.678S |
         | laps        | 51             |
-        | status      | Finished       |
+        | status      | finished       |
         | points      | 25             |
       And the response should NOT contain the following keys
         | key         |

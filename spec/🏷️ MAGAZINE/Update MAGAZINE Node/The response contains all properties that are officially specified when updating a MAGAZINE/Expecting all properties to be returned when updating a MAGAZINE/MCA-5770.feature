@@ -15,7 +15,7 @@ Feature: Update MAGAZINE Node
         | name                   | Top Gear_2                |
         | founded                | 1995                      |
         | defunct                |                           |
-        | focus                  | sports cars               |
+        | focus                  | sports-cars               |
         | publication_frequency  | monthly                   |
         | single_copy_price      | 7.99                      |
         | single_copy_price_unit | EUR                       |
@@ -31,7 +31,7 @@ Feature: Update MAGAZINE Node
         | name                   | Top Gear_2                |
         | founded                | 1995                      |
         | defunct                |                           |
-        | focus                  | sports cars               |
+        | focus                  | sports-cars               |
         | publication_frequency  | monthly                   |
         | single_copy_price      | 7.99                      |
         | single_copy_price_unit | EUR                       |

@@ -18,6 +18,5 @@ Feature: Create RACING SESSION Node
         | start_date    |            |
         | start_time    |            |
         | duration      |            |
-        | duration_unit |            |
         | distance      |            |
         | distance_unit |            |

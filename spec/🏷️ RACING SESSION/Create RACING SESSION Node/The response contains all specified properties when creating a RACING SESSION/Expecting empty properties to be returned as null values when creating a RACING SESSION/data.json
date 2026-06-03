@@ -2,7 +2,7 @@
   "id": "MCA-1572",
   "parent_id": "MCA-1570",
   "title": "Expecting empty properties to be returned as null values when creating a RACING SESSION",
-  "gherkin": "When the user creates a \"RACING SESSION\" \"Grand Prix\" with the following data\n  | key  | value      |\n  | name | Grand Prix |\nThen the response should contain the following properties\n  | key           | value      |\n  | name          | Grand Prix |\n  | start_date    |            |\n  | start_time    |            |\n  | duration      |            |\n  | duration_unit |            |\n  | distance      |            |\n  | distance_unit |            |",
+  "gherkin": "When the user creates a \"RACING SESSION\" \"Grand Prix\" with the following data\n  | key  | value      |\n  | name | Grand Prix |\nThen the response should contain the following properties\n  | key           | value      |\n  | name          | Grand Prix |\n  | start_date    |            |\n  | start_time    |            |\n  | duration      |            |\n  | distance      |            |\n  | distance_unit |            |",
   "labels": [
     "implemented"
   ],

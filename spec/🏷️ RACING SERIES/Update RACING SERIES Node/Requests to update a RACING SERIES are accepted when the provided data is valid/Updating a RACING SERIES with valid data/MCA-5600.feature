@@ -17,6 +17,6 @@ Feature: Update RACING SERIES Node
         | founded      | 2002                           |
         | defunct      |                                |
         | organized_by | ITR_2                          |
-        | vehicle_type | touring cars                   |
+        | vehicle_type | touring-cars                   |
         | country_code | AT                             |
       Then the request should be confirmed with status code 200

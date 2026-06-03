@@ -17,6 +17,6 @@ Feature: Update MOTOR SHOW Node
         | date_until      | 2017-09-24           |
         | location        | Frankfurt_2          |
         | target_audience | international        |
-        | focus           | new_cars             |
+        | focus           | new-cars             |
         | country_code    | AT                   |
       Then the request should be confirmed with status code 200

@@ -15,7 +15,7 @@ Feature: Update RACE TRACK Node
         | name         | Lausitzring_2        |
         | opened       | 2002                 |
         | closed       |                      |
-        | type         | permanent race track |
+        | type         | permanent-race-track |
         | location     | Klettwitz_2          |
         | geo_position | 51°32′0″N 13°55′10″E |
         | country_code | AT                   |
@@ -25,7 +25,7 @@ Feature: Update RACE TRACK Node
         | name         | Lausitzring_2        |
         | opened       | 2002                 |
         | closed       |                      |
-        | type         | permanent race track |
+        | type         | permanent-race-track |
         | location     | Klettwitz_2          |
         | geo_position | 51°32′0″N 13°55′10″E |
         | country_code | AT                   |

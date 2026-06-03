@@ -14,7 +14,7 @@ Feature: Create RACE TRACK Node
         | name         | Lausitzring          |
         | opened       | 2000                 |
         | closed       |                      |
-        | type         | permanent race track |
+        | type         | permanent-race-track |
         | location     | Klettwitz            |
         | geo_position | 51°32′0″N 13°55′10″E |
         | country_code | DE                   |

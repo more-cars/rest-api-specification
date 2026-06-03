@@ -2,7 +2,7 @@
   "id": "MCA-5644",
   "parent_id": "MCA-5643",
   "title": "Expecting all properties to be returned when updating a RACING SESSION",
-  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user updates the node \"Qualifying\" with the following data\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date | 2025-05-25 |\n  | start_time | 15:00 |\n  | duration | 122 |\n  | duration_unit | min |\n  | distance | 63 |\n  | distance_unit | laps |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date | 2025-05-25 |\n  | start_time | 15:00 |\n  | duration | 122 |\n  | duration_unit | min |\n  | distance | 63 |\n  | distance_unit | laps |",
+  "gherkin": "Given there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user updates the node \"Qualifying\" with the following data\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date | 2025-05-25 |\n  | start_time | 15:00 |\n  | duration | PT122M |\n  | distance | 63 |\n  | distance_unit | laps |\nThen the request should be confirmed with status code 200\nAnd the response should contain the following properties\n  | key | value |\n  | name | Grand Prix_2 |\n  | start_date | 2025-05-25 |\n  | start_time | 15:00 |\n  | duration | PT122M |\n  | distance | 63 |\n  | distance_unit | laps |",
   "labels": [
     "implemented"
   ],

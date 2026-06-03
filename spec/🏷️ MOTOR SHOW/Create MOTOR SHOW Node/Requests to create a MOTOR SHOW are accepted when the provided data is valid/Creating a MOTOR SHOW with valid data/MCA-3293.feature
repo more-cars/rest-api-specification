@@ -16,7 +16,7 @@ Feature: Create MOTOR SHOW Node
         | date_until      | 2017-09-24         |
         | location        | Frankfurt          |
         | target_audience | international      |
-        | focus           | new_cars           |
+        | focus           | new-cars           |
         | country_code    | DE                 |
       Then the request should be confirmed with status code 201
       And the response should return the "MOTOR SHOW" "IAA 2017"

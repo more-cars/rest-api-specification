@@ -16,7 +16,7 @@ Feature: Create RACING SERIES Node
         | founded      | 2000                         |
         | defunct      |                              |
         | organized_by | ITR                          |
-        | vehicle_type | touring cars                 |
+        | vehicle_type | touring-cars                 |
         | country_code | DE                           |
       Then the response should contain the following properties
         | key          | value                        |
@@ -25,5 +25,5 @@ Feature: Create RACING SERIES Node
         | founded      | 2000                         |
         | defunct      |                              |
         | organized_by | ITR                          |
-        | vehicle_type | touring cars                 |
+        | vehicle_type | touring-cars                 |
         | country_code | DE                           |

@@ -2,7 +2,7 @@
   "id": "MCA-5654",
   "parent_id": "MCA-5653",
   "title": "Updating a SESSION RESULT with valid data",
-  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nWhen the user updates the node \"1st place\" with the following data\n  | key | value |\n  | position | 3 |\n  | race_number | 44_2 |\n  | driver_name | Lewis Hamilton_2 |\n  | team_name | Mercedes_2 |\n  | race_time | PT1H23M45.678S |\n  | laps | 53 |\n  | status | Finished |\n  | points | 27 |\nThen the request should be confirmed with status code 200",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nWhen the user updates the node \"1st place\" with the following data\n  | key | value |\n  | position | 3 |\n  | race_number | H44_2 |\n  | driver_name | Lewis Hamilton_2 |\n  | team_name | Mercedes_2 |\n  | race_time | PT1H23M45.678S |\n  | laps | 53 |\n  | status | finished |\n  | points | 27 |\nThen the request should be confirmed with status code 200",
   "labels": [
     "implemented"
   ],

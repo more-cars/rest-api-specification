@@ -14,8 +14,7 @@ Feature: Create RACING SESSION Node
         | name          | Grand Prix |
         | start_date    | 2025-05-25 |
         | start_time    | 15:00      |
-        | duration      | 120        |
-        | duration_unit | min        |
+        | duration      | PT120M     |
         | distance      | 61         |
         | distance_unit | laps       |
         | thimbleweed   | park       |
@@ -24,8 +23,7 @@ Feature: Create RACING SESSION Node
         | name          | Grand Prix |
         | start_date    | 2025-05-25 |
         | start_time    | 15:00      |
-        | duration      | 120        |
-        | duration_unit | min        |
+        | duration      | PT120M     |
         | distance      | 61         |
         | distance_unit | laps       |
       And the response should NOT contain the following keys

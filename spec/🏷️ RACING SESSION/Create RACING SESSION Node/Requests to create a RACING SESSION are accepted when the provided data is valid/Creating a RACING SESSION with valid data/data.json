@@ -2,7 +2,7 @@
   "id": "MCA-1566",
   "parent_id": "MCA-1565",
   "title": "Creating a RACING SESSION with valid data",
-  "gherkin": "When the user creates a \"RACING SESSION\" \"Grand Prix\" with the following data\n  | key           | value      |\n  | name          | Grand Prix |\n  | start_date    | 2025-05-25 |\n  | start_time    | 15:00      |\n  | duration      | 120        |\n  | duration_unit | min        |\n  | distance      | 61         |\n  | distance_unit | laps       |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"RACING SESSION\" \"Grand Prix\"",
+  "gherkin": "When the user creates a \"RACING SESSION\" \"Grand Prix\" with the following data\n  | key           | value      |\n  | name          | Grand Prix |\n  | start_date    | 2025-05-25 |\n  | start_time    | 15:00      |\n  | duration      | PT120M        |\n  | distance      | 61         |\n  | distance_unit | laps       |\nThen the request should be confirmed with status code 201\nAnd the response should return the \"RACING SESSION\" \"Grand Prix\"",
   "labels": [
     "implemented"
   ],

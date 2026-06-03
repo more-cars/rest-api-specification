@@ -16,7 +16,6 @@ Feature: Update RACING SESSION Node
         | start_date    |              |
         | start_time    |              |
         | duration      |              |
-        | duration_unit |              |
         | distance      |              |
         | distance_unit |              |
       Then the response should contain the following properties
@@ -25,6 +24,5 @@ Feature: Update RACING SESSION Node
         | start_date    |              |
         | start_time    |              |
         | duration      |              |
-        | duration_unit |              |
         | distance      |              |
         | distance_unit |              |

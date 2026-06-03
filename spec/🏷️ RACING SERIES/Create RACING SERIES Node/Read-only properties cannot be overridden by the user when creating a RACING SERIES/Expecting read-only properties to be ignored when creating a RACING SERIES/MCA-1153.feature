@@ -16,7 +16,7 @@ Feature: Create RACING SERIES Node
         | founded      | 2000                         |
         | defunct      |                              |
         | organized_by | ITR                          |
-        | vehicle_type | touring cars                 |
+        | vehicle_type | touring-cars                 |
         | country_code | DE                           |
         | id           | 1234                         |
         | created_at   | 2025-01-01                   |

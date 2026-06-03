@@ -14,7 +14,7 @@ Feature: Create MAGAZINE Node
         | name                   | Top Gear                |
         | founded                | 1993                    |
         | defunct                |                         |
-        | focus                  | sports cars             |
+        | focus                  | sports-cars             |
         | publication_frequency  | monthly                 |
         | single_copy_price      | 5.99                    |
         | single_copy_price_unit | GBP                     |
@@ -29,7 +29,7 @@ Feature: Create MAGAZINE Node
         | name                   | Top Gear                |
         | founded                | 1993                    |
         | defunct                |                         |
-        | focus                  | sports cars             |
+        | focus                  | sports-cars             |
         | publication_frequency  | monthly                 |
         | single_copy_price      | 5.99                    |
         | single_copy_price_unit | GBP                     |
