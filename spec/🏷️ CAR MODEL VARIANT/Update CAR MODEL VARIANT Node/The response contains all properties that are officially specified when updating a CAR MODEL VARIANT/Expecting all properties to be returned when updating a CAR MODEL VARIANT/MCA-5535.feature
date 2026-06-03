@@ -29,7 +29,7 @@ Feature: Update CAR MODEL VARIANT Node
         | engine_configuration   | v            |
         | displacement           | 3248         |
         | displacement_unit      | ccm          |
-        | air_induction          | turbocharger |
+        | air_induction          | turbocharged |
         | engine_type            | otto         |
         | energy_source          | petrol       |
         | energy_source_2        |              |
@@ -68,7 +68,7 @@ Feature: Update CAR MODEL VARIANT Node
         | engine_configuration   | v            |
         | displacement           | 3248         |
         | displacement_unit      | ccm          |
-        | air_induction          | turbocharger |
+        | air_induction          | turbocharged |
         | engine_type            | otto         |
         | energy_source          | petrol       |
         | energy_source_2        |              |

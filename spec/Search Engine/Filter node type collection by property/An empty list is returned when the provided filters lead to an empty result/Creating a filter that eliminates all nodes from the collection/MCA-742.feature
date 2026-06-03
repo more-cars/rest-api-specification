@@ -20,6 +20,7 @@ Feature: Filter node type collection by property
         | BRAND             |
         | CAR MODEL         |
         | CAR MODEL VARIANT |
+        | PRICE             |
         | RACE TRACK        |
         | TRACK LAYOUT      |
         | RACING SERIES     |
@@ -29,4 +30,14 @@ Feature: Filter node type collection by property
         | LAP TIME          |
         | RACING GAME       |
         | GAMING PLATFORM   |
+        | MODEL CAR         |
+        | MODEL CAR BRAND   |
+        | MAGAZINE          |
+        | MAGAZINE ISSUE    |
+        | RATING            |
+        | PROGRAMME         |
+        | PROGRAMME EPISODE |
+        | MOTOR SHOW        |
+        | BOOK              |
         | IMAGE             |
+        | VIDEO             |
