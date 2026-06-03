@@ -4,9 +4,9 @@ Feature: Create RACING EVENT-has-image Relationship
   @RULE_MCA-1418
   Rule: Requests to create a ›has-image‹ relationship are accepted when the provided data is valid
 
-  @TEST_MCA-1419 @implemented
-  Scenario: Creating a ›has-image‹ relationship with valid IDs
-    Given there exists a "RACING EVENT" "GP Silverstone"
-    And there exists a "IMAGE" "starting grid"
-    When the user creates a "has image" relationship between "GP Silverstone" and "starting grid"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-1419 @implemented
+    Scenario: Creating a ›has-image‹ relationship with valid IDs
+      Given there exists a "RACING EVENT" "GP Silverstone"
+      And there exists a "IMAGE" "starting grid"
+      When the user creates a "has image" relationship between "GP Silverstone" and "starting grid"
+      Then the request should be confirmed with status code 204

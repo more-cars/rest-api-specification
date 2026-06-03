@@ -2,7 +2,7 @@
   "id": "MCA-2832",
   "parent_id": "MCA-2831",
   "title": "Creating a ›has-issue‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Best Sportscars 2015\"\nWhen the user creates a \"has issue\" relationship between \"Top Gear\" and \"Best Sportscars 2015\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"MAGAZINE ISSUE\" \"Best Sportscars 2015\"",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Best Sportscars 2015\"\nWhen the user creates a \"has issue\" relationship between \"Top Gear\" and \"Best Sportscars 2015\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

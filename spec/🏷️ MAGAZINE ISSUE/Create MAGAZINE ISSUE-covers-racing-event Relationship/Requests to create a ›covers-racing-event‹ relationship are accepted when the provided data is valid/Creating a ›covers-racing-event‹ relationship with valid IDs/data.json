@@ -2,7 +2,7 @@
   "id": "MCA-2913",
   "parent_id": "MCA-2912",
   "title": "Creating a ›covers-racing-event‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"F1 Saison Start\"\nAnd there exists a \"RACING EVENT\" \"F1 GP Australia 2026\"\nWhen the user creates a \"covers racing event\" relationship between \"F1 Saison Start\" and \"F1 GP Australia 2026\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"RACING EVENT\" \"F1 GP Australia 2026\"",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"F1 Saison Start\"\nAnd there exists a \"RACING EVENT\" \"F1 GP Australia 2026\"\nWhen the user creates a \"covers racing event\" relationship between \"F1 Saison Start\" and \"F1 GP Australia 2026\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

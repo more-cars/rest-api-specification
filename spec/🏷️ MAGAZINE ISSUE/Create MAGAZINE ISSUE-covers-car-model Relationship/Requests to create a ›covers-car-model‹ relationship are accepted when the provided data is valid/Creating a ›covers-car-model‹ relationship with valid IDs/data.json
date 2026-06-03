@@ -2,7 +2,7 @@
   "id": "MCA-2886",
   "parent_id": "MCA-2885",
   "title": "Creating a ›covers-car-model‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI\"\nAnd there exists a \"CAR MODEL\" \"Golf\"\nWhen the user creates a \"covers car model\" relationship between \"50 Jahre GTI\" and \"Golf\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"CAR MODEL\" \"Golf\"",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"50 Jahre GTI\"\nAnd there exists a \"CAR MODEL\" \"Golf\"\nWhen the user creates a \"covers car model\" relationship between \"50 Jahre GTI\" and \"Golf\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

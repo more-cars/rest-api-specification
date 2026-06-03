@@ -2,7 +2,7 @@
   "id": "MCA-1704",
   "parent_id": "MCA-1703",
   "title": "Creating a ›has-racing-session‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nAnd there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user creates a \"has racing session\" relationship between \"GP Monaco\" and \"Qualifying\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"RACING SESSION\" \"Qualifying\"",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Monaco\"\nAnd there exists a \"RACING SESSION\" \"Qualifying\"\nWhen the user creates a \"has racing session\" relationship between \"GP Monaco\" and \"Qualifying\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

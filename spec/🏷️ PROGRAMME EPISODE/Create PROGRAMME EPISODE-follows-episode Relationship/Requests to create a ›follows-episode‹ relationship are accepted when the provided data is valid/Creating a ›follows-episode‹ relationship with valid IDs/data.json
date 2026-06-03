@@ -2,7 +2,7 @@
   "id": "MCA-3493",
   "parent_id": "MCA-3492",
   "title": "Creating a ›follows-episode‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"Blasts from the past\"\nAnd there exists a \"PROGRAMME EPISODE\" \"It is a gas, gas, gas\"\nWhen the user creates a \"follows episode\" relationship between \"Blasts from the past\" and \"It is a gas, gas, gas\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"PROGRAMME EPISODE\" \"It is a gas, gas, gas\"",
+  "gherkin": "Given there exists a \"PROGRAMME EPISODE\" \"Blasts from the past\"\nAnd there exists a \"PROGRAMME EPISODE\" \"It is a gas, gas, gas\"\nWhen the user creates a \"follows episode\" relationship between \"Blasts from the past\" and \"It is a gas, gas, gas\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

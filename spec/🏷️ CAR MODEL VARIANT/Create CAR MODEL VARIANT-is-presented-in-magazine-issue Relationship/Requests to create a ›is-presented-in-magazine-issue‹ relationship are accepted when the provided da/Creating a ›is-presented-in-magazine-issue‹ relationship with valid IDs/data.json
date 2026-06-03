@@ -2,7 +2,7 @@
   "id": "MCA-2994",
   "parent_id": "MCA-2993",
   "title": "Creating a ›is-presented-in-magazine-issue‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Best Supercars 2025\"\nWhen the user creates a \"is presented in magazine issue\" relationship between \"McLaren 750S\" and \"Best Supercars 2025\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"MAGAZINE ISSUE\" \"Best Supercars 2025\"",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Best Supercars 2025\"\nWhen the user creates a \"is presented in magazine issue\" relationship between \"McLaren 750S\" and \"Best Supercars 2025\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

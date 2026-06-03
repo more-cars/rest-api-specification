@@ -2,7 +2,7 @@
   "id": "MCA-2233",
   "parent_id": "MCA-2232",
   "title": "Creating a ›achieved-with-car-model-variant‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari 499P\"\nWhen the user creates a \"achieved with car model variant\" relationship between \"1st place\" and \"Ferrari 499P\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"CAR MODEL VARIANT\" \"Ferrari 499P\"",
+  "gherkin": "Given there exists a \"SESSION RESULT\" \"1st place\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari 499P\"\nWhen the user creates a \"achieved with car model variant\" relationship between \"1st place\" and \"Ferrari 499P\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

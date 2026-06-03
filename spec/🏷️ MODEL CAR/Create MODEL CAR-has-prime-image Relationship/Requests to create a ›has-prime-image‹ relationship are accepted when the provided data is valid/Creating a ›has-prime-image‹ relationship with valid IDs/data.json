@@ -2,7 +2,7 @@
   "id": "MCA-3929",
   "parent_id": "MCA-3928",
   "title": "Creating a ›has-prime-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Scale Model\"\nAnd there exists a \"IMAGE\" \"F40 Matchbox photo\"\nWhen the user creates a \"has prime image\" relationship between \"F40 Scale Model\" and \"F40 Matchbox photo\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"F40 Matchbox photo\"",
+  "gherkin": "Given there exists a \"MODEL CAR\" \"F40 Scale Model\"\nAnd there exists a \"IMAGE\" \"F40 Matchbox photo\"\nWhen the user creates a \"has prime image\" relationship between \"F40 Scale Model\" and \"F40 Matchbox photo\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

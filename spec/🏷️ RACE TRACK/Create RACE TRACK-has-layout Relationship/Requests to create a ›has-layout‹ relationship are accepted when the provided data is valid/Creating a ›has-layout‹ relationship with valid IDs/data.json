@@ -2,7 +2,7 @@
   "id": "MCA-973",
   "parent_id": "MCA-972",
   "title": "Creating a ›has-layout‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nWhen the user creates a \"has layout\" relationship between \"Hockenheimring\" and \"GP Circuit\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"TRACK LAYOUT\" \"GP Circuit\"",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Hockenheimring\"\nAnd there exists a \"TRACK LAYOUT\" \"GP Circuit\"\nWhen the user creates a \"has layout\" relationship between \"Hockenheimring\" and \"GP Circuit\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

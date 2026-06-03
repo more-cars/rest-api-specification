@@ -7,9 +7,9 @@ Feature: Create CAR MODEL-has-image Relationship
   @RULE_MCA-249
   Rule: Any existing IMAGE can be connected to any existing CAR MODEL
 
-  @TEST_MCA-253 @implemented
-  Scenario: Connecting an IMAGE to a CAR MODEL
-    Given there exists a "CAR MODEL" "Impreza"
-    And there exists an "IMAGE" "rear spoiler"
-    When the user creates a "has image" relationship between "Impreza" and "rear spoiler"
-    Then the response should return with status code 204
+    @TEST_MCA-253 @implemented
+    Scenario: Connecting an IMAGE to a CAR MODEL
+      Given there exists a "CAR MODEL" "Impreza"
+      And there exists an "IMAGE" "rear spoiler"
+      When the user creates a "has image" relationship between "Impreza" and "rear spoiler"
+      Then the response should return with status code 204

@@ -7,28 +7,28 @@ Feature: Create MAGAZINE ISSUE Node
   @RULE_MCA-2725
   Rule: Read-only properties cannot be overridden by the user when creating a MAGAZINE ISSUE
 
-  @TEST_MCA-2726 @implemented
-  Scenario: Expecting read-only properties to be ignored when creating a MAGAZINE ISSUE
-    When the user creates a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
-      | key                    | value        |
-      | title                  | Sieger-Typen |
-      | consecutive_number     |              |
-      | issue_number           | 11           |
-      | issue_year             | 2025         |
-      | release_date           | 2025-10-01   |
-      | single_copy_price      | 5.4          |
-      | single_copy_price_unit | EUR          |
-      | pages                  | 148          |
-      | id                     | 1234         |
-      | created_at             | 2025-01-01   |
-      | updated_at             | 2025-01-01   |
-    Then the response should contain an ID
-    And the response should contain the following keys
-      | key        |
-      | created_at |
-      | updated_at |
-    But the response should NOT contain the ID 1234
-    And the response should NOT contain the following properties
-      | key        | value      |
-      | created_at | 2025-01-01 |
-      | updated_at | 2025-01-01 |
+    @TEST_MCA-2726 @implemented
+    Scenario: Expecting read-only properties to be ignored when creating a MAGAZINE ISSUE
+      When the user creates a "MAGAZINE ISSUE" "Sieger-Typen" with the following data
+        | key                    | value        |
+        | title                  | Sieger-Typen |
+        | consecutive_number     |              |
+        | issue_number           | 11           |
+        | issue_year             | 2025         |
+        | release_date           | 2025-10-01   |
+        | single_copy_price      | 5.4          |
+        | single_copy_price_unit | EUR          |
+        | pages                  | 148          |
+        | id                     | 1234         |
+        | created_at             | 2025-01-01   |
+        | updated_at             | 2025-01-01   |
+      Then the response should contain an ID
+      And the response should contain the following keys
+        | key        |
+        | created_at |
+        | updated_at |
+      But the response should NOT contain the ID 1234
+      And the response should NOT contain the following properties
+        | key        | value      |
+        | created_at | 2025-01-01 |
+        | updated_at | 2025-01-01 |

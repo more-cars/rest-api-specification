@@ -7,9 +7,9 @@ Feature: Create TRACK LAYOUT-has-main-video Relationship
   @RULE_MCA-4591
   Rule: Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid
 
-  @TEST_MCA-4592 @implemented
-  Scenario: Creating a ›has-main-video‹ relationship with valid IDs
-    Given there exists a "TRACK LAYOUT" "Nordschleife"
-    And there exists a "VIDEO" "Promo Video"
-    When the user creates a "has-main-video" relationship between "Nordschleife" and "Promo Video"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-4592 @implemented
+    Scenario: Creating a ›has-main-video‹ relationship with valid IDs
+      Given there exists a "TRACK LAYOUT" "Nordschleife"
+      And there exists a "VIDEO" "Promo Video"
+      When the user creates a "has-main-video" relationship between "Nordschleife" and "Promo Video"
+      Then the request should be confirmed with status code 204

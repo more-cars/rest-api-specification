@@ -4,9 +4,9 @@ Feature: Create SESSION RESULT-has-image Relationship
   @RULE_MCA-1791
   Rule: Requests to create a ›has-image‹ relationship are accepted when the provided data is valid
 
-  @TEST_MCA-1792 @implemented
-  Scenario: Creating a ›has-image‹ relationship with valid IDs
-    Given there exists a "SESSION RESULT" "1st place"
-    And there exists a "IMAGE" "podium"
-    When the user creates a "has image" relationship between "1st place" and "podium"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-1792 @implemented
+    Scenario: Creating a ›has-image‹ relationship with valid IDs
+      Given there exists a "SESSION RESULT" "1st place"
+      And there exists a "IMAGE" "podium"
+      When the user creates a "has image" relationship between "1st place" and "podium"
+      Then the request should be confirmed with status code 204

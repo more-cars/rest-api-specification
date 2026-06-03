@@ -2,7 +2,7 @@
   "id": "MCA-1166",
   "parent_id": "MCA-1165",
   "title": "Expecting read-only properties to be ignored when creating a RACING EVENT",
-  "gherkin": "When the user creates a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key        | value      |\n  | name       | GP Monaco  |\n  | round      | 7          |\n  | date_from  | 2025-05-20 |\n  | date_to    | 2025-05-22 |\n  | id         | 1234       |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      | datatype |\n  | created_at | 2025-01-01 | string   |\n  | updated_at | 2025-01-01 | string   |",
+  "gherkin": "When the user creates a \"RACING EVENT\" \"GP Monaco\" with the following data\n  | key        | value      |\n  | name       | GP Monaco  |\n  | round      | 7          |\n  | date_from  | 2025-05-20 |\n  | date_to    | 2025-05-22 |\n  | id         | 1234       |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |\nThen the response should contain an ID\nAnd the response should contain the following keys\n  | key        |\n  | created_at |\n  | updated_at |\nBut the response should NOT contain the ID 1234\nAnd the response should NOT contain the following properties\n  | key        | value      |\n  | created_at | 2025-01-01 |\n  | updated_at | 2025-01-01 |",
   "labels": [
     "implemented"
   ],

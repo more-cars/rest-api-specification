@@ -7,9 +7,9 @@ Feature: Create CAR MODEL-has-prime-image Relationship
   @RULE_MCA-394
   Rule: The has-prime-image relationship is created when provided with valid data
 
-  @TEST_MCA-408 @implemented
-  Scenario: Connecting an IMAGE as prime image to a CAR MODEL
-    Given there exists a "CAR MODEL" "Mondeo"
-    And there exists an "IMAGE" "front-left.jpg"
-    When the user creates a "has prime image" relationship between "Mondeo" and "front-left.jpg"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-408 @implemented
+    Scenario: Connecting an IMAGE as prime image to a CAR MODEL
+      Given there exists a "CAR MODEL" "Mondeo"
+      And there exists an "IMAGE" "front-left.jpg"
+      When the user creates a "has prime image" relationship between "Mondeo" and "front-left.jpg"
+      Then the request should be confirmed with status code 204

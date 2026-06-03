@@ -2,7 +2,7 @@
   "id": "MCA-3132",
   "parent_id": "MCA-3131",
   "title": "Creating a ›for-car-model-variant‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nWhen the user creates a \"for car model variant\" relationship between \"93 Percent\" and \"McLaren 750S\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"CAR MODEL VARIANT\" \"McLaren 750S\"",
+  "gherkin": "Given there exists a \"RATING\" \"93 Percent\"\nAnd there exists a \"CAR MODEL VARIANT\" \"McLaren 750S\"\nWhen the user creates a \"for car model variant\" relationship between \"93 Percent\" and \"McLaren 750S\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

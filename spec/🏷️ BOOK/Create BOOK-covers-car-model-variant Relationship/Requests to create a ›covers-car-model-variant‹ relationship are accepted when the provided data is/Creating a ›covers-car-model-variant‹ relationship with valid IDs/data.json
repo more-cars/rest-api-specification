@@ -2,7 +2,7 @@
   "id": "MCA-5955",
   "parent_id": "MCA-5954",
   "title": "Creating a ›covers-car-model-variant‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari SF-25\"\nWhen the user creates a \"covers car model variant\" relationship between \"F1 in Numbers\" and \"Ferrari SF-25\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"CAR MODEL VARIANT\" \"Ferrari SF-25\"",
+  "gherkin": "Given there exists a \"BOOK\" \"F1 in Numbers\"\nAnd there exists a \"CAR MODEL VARIANT\" \"Ferrari SF-25\"\nWhen the user creates a \"covers car model variant\" relationship between \"F1 in Numbers\" and \"Ferrari SF-25\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

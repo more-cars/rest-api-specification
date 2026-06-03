@@ -2,7 +2,7 @@
   "id": "MCA-2206",
   "parent_id": "MCA-2205",
   "title": "Creating a ›has-variant‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"CAR MODEL\" \"Golf\"\nAnd there exists a \"CAR MODEL VARIANT\" \"VW Golf GTI\"\nWhen the user creates a \"has variant\" relationship between \"Golf\" and \"VW Golf GTI\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"CAR MODEL VARIANT\" \"VW Golf GTI\"",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Golf\"\nAnd there exists a \"CAR MODEL VARIANT\" \"VW Golf GTI\"\nWhen the user creates a \"has variant\" relationship between \"Golf\" and \"VW Golf GTI\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

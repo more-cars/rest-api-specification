@@ -7,9 +7,9 @@ Feature: Create GAMING PLATFORM-has-main-video Relationship
   @RULE_MCA-4699
   Rule: Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid
 
-  @TEST_MCA-4700 @implemented
-  Scenario: Creating a ›has-main-video‹ relationship with valid IDs
-    Given there exists a "GAMING PLATFORM" "Xbox"
-    And there exists a "VIDEO" "Promo Video"
-    When the user creates a "has-main-video" relationship between "Xbox" and "Promo Video"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-4700 @implemented
+    Scenario: Creating a ›has-main-video‹ relationship with valid IDs
+      Given there exists a "GAMING PLATFORM" "Xbox"
+      And there exists a "VIDEO" "Promo Video"
+      When the user creates a "has-main-video" relationship between "Xbox" and "Promo Video"
+      Then the request should be confirmed with status code 204

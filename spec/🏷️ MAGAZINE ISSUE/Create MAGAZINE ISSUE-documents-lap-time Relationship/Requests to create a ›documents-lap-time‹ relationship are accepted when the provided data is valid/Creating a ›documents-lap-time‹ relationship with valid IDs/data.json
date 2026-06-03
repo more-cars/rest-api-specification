@@ -2,7 +2,7 @@
   "id": "MCA-5390",
   "parent_id": "MCA-5389",
   "title": "Creating a ›documents-lap-time‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 11_2025\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nWhen the user creates a \"documents lap time\" relationship between \"Top Gear 11_2025\" and \"fastest lap\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"LAP TIME\" \"fastest lap\"",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 11_2025\"\nAnd there exists a \"LAP TIME\" \"fastest lap\"\nWhen the user creates a \"documents lap time\" relationship between \"Top Gear 11_2025\" and \"fastest lap\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

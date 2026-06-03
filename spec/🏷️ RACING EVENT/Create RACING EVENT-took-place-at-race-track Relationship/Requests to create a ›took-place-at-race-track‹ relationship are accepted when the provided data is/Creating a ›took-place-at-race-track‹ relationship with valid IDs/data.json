@@ -2,7 +2,7 @@
   "id": "MCA-1365",
   "parent_id": "MCA-1364",
   "title": "Creating a ›took-place-at-race-track‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Austria\"\nAnd there exists a \"RACE TRACK\" \"Red Bull Ring\"\nWhen the user creates a \"took place at race track\" relationship between \"GP Austria\" and \"Red Bull Ring\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"RACE TRACK\" \"Red Bull Ring\"",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"GP Austria\"\nAnd there exists a \"RACE TRACK\" \"Red Bull Ring\"\nWhen the user creates a \"took place at race track\" relationship between \"GP Austria\" and \"Red Bull Ring\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCA-2967",
   "parent_id": "MCA-2966",
   "title": "Creating a ›follows-issue‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Top Gear 2_2025\"\nWhen the user creates a \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"MAGAZINE ISSUE\" \"Top Gear 2_2025\"",
+  "gherkin": "Given there exists a \"MAGAZINE ISSUE\" \"Top Gear 3_2025\"\nAnd there exists a \"MAGAZINE ISSUE\" \"Top Gear 2_2025\"\nWhen the user creates a \"follows issue\" relationship between \"Top Gear 3_2025\" and \"Top Gear 2_2025\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

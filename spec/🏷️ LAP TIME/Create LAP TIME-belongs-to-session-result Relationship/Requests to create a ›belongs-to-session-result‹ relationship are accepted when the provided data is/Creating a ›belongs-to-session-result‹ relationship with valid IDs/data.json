@@ -2,7 +2,7 @@
   "id": "MCA-1876",
   "parent_id": "MCA-1875",
   "title": "Creating a ›belongs-to-session-result‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"SESSION RESULT\" \"Grand Prix\"\nWhen the user creates a \"belongs to session result\" relationship between \"fastest lap\" and \"Grand Prix\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"SESSION RESULT\" \"Grand Prix\"",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"SESSION RESULT\" \"Grand Prix\"\nWhen the user creates a \"belongs to session result\" relationship between \"fastest lap\" and \"Grand Prix\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

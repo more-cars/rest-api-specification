@@ -7,9 +7,9 @@ Feature: Create COMPANY-has-video Relationship
   @RULE_MCA-4348
   Rule: Requests to create a ›has-video‹ relationship are accepted when the provided data is valid
 
-  @TEST_MCA-4349 @implemented
-  Scenario: Creating a ›has-video‹ relationship with valid IDs
-    Given there exists a "COMPANY" "BMW AG"
-    And there exists a "VIDEO" "Promo Video"
-    When the user creates a "has-video" relationship between "BMW AG" and "Promo Video"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-4349 @implemented
+    Scenario: Creating a ›has-video‹ relationship with valid IDs
+      Given there exists a "COMPANY" "BMW AG"
+      And there exists a "VIDEO" "Promo Video"
+      When the user creates a "has-video" relationship between "BMW AG" and "Promo Video"
+      Then the request should be confirmed with status code 204

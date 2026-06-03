@@ -2,7 +2,7 @@
   "id": "MCA-2523",
   "parent_id": "MCA-2522",
   "title": "Creating a ›features-racing-game‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nAnd there exists a \"RACING GAME\" \"WRC 10\"\nWhen the user creates a \"features racing game\" relationship between \"PlayStation 5\" and \"WRC 10\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"RACING GAME\" \"WRC 10\"",
+  "gherkin": "Given there exists a \"GAMING PLATFORM\" \"PlayStation 5\"\nAnd there exists a \"RACING GAME\" \"WRC 10\"\nWhen the user creates a \"features racing game\" relationship between \"PlayStation 5\" and \"WRC 10\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

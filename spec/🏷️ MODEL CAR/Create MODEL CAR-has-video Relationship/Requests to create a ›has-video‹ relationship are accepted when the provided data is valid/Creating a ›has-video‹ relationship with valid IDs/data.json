@@ -2,7 +2,7 @@
   "id": "MCA-4951",
   "parent_id": "MCA-4950",
   "title": "Creating a ›has-video‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MODEL CAR\" \"Hot Wheels F40\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-video\" relationship between \"Hot Wheels F40\" and \"Promo Video\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"VIDEO\" \"Promo Video\"",
+  "gherkin": "Given there exists a \"MODEL CAR\" \"Hot Wheels F40\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-video\" relationship between \"Hot Wheels F40\" and \"Promo Video\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

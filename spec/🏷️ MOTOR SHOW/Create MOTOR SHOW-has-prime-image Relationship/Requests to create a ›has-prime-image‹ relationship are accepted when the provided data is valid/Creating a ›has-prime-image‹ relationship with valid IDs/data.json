@@ -2,7 +2,7 @@
   "id": "MCA-3675",
   "parent_id": "MCA-3674",
   "title": "Creating a ›has-prime-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"IMAGE\" \"IAA logo\"\nWhen the user creates a \"has prime image\" relationship between \"IAA Frankfurt\" and \"IAA logo\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"IAA logo\"",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"IMAGE\" \"IAA logo\"\nWhen the user creates a \"has prime image\" relationship between \"IAA Frankfurt\" and \"IAA logo\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

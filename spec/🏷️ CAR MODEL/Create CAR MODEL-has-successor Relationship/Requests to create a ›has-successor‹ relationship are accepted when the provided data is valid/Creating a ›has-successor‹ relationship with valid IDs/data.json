@@ -2,7 +2,7 @@
   "id": "MCA-823",
   "parent_id": "MCA-822",
   "title": "Creating a ›has-successor‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"CAR MODEL\" \"Countach\"\nAnd there exists a \"CAR MODEL\" \"Diablo\"\nWhen the user creates a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"CAR MODEL\" \"Diablo\"",
+  "gherkin": "Given there exists a \"CAR MODEL\" \"Countach\"\nAnd there exists a \"CAR MODEL\" \"Diablo\"\nWhen the user creates a \"has successor\" relationship between \"Countach\" and \"Diablo\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

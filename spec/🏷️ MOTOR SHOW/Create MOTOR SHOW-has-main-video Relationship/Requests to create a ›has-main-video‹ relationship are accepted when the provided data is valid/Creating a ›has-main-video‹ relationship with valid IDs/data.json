@@ -2,7 +2,7 @@
   "id": "MCA-5316",
   "parent_id": "MCA-5315",
   "title": "Creating a ›has-main-video‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"IAA Frankfurt\" and \"Promo Video\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"VIDEO\" \"Promo Video\"",
+  "gherkin": "Given there exists a \"MOTOR SHOW\" \"IAA Frankfurt\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"IAA Frankfurt\" and \"Promo Video\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

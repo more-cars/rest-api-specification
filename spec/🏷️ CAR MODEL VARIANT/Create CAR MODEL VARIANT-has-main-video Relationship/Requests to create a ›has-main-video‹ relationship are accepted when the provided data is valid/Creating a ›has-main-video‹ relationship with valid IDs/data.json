@@ -2,7 +2,7 @@
   "id": "MCA-4484",
   "parent_id": "MCA-4483",
   "title": "Creating a ›has-main-video‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"VIDEO\" \"Promo Video\"",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3 CSL\"\nAnd there exists a \"VIDEO\" \"Promo Video\"\nWhen the user creates a \"has-main-video\" relationship between \"BMW M3 CSL\" and \"Promo Video\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCA-1473",
   "parent_id": "MCA-1472",
   "title": "Creating a ›hosted-racing-event‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACE TRACK\" \"Red Bull Ring\"\nAnd there exists a \"RACING EVENT\" \"GP Austria\"\nWhen the user creates a \"hosted racing event\" relationship between \"Red Bull Ring\" and \"GP Austria\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"RACING EVENT\" \"GP Austria\"",
+  "gherkin": "Given there exists a \"RACE TRACK\" \"Red Bull Ring\"\nAnd there exists a \"RACING EVENT\" \"GP Austria\"\nWhen the user creates a \"hosted racing event\" relationship between \"Red Bull Ring\" and \"GP Austria\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

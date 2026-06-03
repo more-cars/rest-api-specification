@@ -2,7 +2,7 @@
   "id": "MCA-3021",
   "parent_id": "MCA-3020",
   "title": "Creating a ›covered-by-magazine-issue‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACING EVENT\" \"F1 GP Australia\"\nAnd there exists a \"MAGAZINE ISSUE\" \"F1 Season Start\"\nWhen the user creates a \"covered by magazine issue\" relationship between \"F1 GP Australia\" and \"F1 Season Start\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"MAGAZINE ISSUE\" \"F1 Season Start\"",
+  "gherkin": "Given there exists a \"RACING EVENT\" \"F1 GP Australia\"\nAnd there exists a \"MAGAZINE ISSUE\" \"F1 Season Start\"\nWhen the user creates a \"covered by magazine issue\" relationship between \"F1 GP Australia\" and \"F1 Season Start\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

@@ -2,7 +2,7 @@
   "id": "MCA-2439",
   "parent_id": "MCA-2438",
   "title": "Creating a ›is-featured-in-racing-game‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Aston Martin DB7\"\nAnd there exists a \"RACING GAME\" \"Gran Turismo\"\nWhen the user creates a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"RACING GAME\" \"Gran Turismo\"",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"Aston Martin DB7\"\nAnd there exists a \"RACING GAME\" \"Gran Turismo\"\nWhen the user creates a \"is featured in racing game\" relationship between \"Aston Martin DB7\" and \"Gran Turismo\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

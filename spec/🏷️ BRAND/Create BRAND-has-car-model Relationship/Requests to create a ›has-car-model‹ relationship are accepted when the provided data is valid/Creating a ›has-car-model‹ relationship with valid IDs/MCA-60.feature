@@ -7,9 +7,9 @@ Feature: Create BRAND-has-car-model Relationship
   @RULE_MCA-54
   Rule: Requests to create a ›has-car-model‹ relationship are accepted when the provided data is valid
 
-  @TEST_MCA-60 @implemented
-  Scenario: Creating a ›has-car-model‹ relationship with valid IDs
-    Given there exists a "BRAND" "VW"
-    And there exists a "CAR MODEL" "Jetta"
-    When the user creates a "has-car-model" relationship between "VW" and "Jetta"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-60 @implemented
+    Scenario: Creating a ›has-car-model‹ relationship with valid IDs
+      Given there exists a "BRAND" "VW"
+      And there exists a "CAR MODEL" "Jetta"
+      When the user creates a "has-car-model" relationship between "VW" and "Jetta"
+      Then the request should be confirmed with status code 204

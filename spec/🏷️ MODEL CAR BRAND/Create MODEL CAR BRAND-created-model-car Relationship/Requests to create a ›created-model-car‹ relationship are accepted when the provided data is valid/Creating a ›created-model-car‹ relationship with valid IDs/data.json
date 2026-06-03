@@ -2,7 +2,7 @@
   "id": "MCA-3973",
   "parent_id": "MCA-3972",
   "title": "Creating a ›created-model-car‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nAnd there exists a \"MODEL CAR\" \"Camaro Hot Wheels\"\nWhen the user creates a \"created model car\" relationship between \"Hot Wheels\" and \"Camaro Hot Wheels\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"MODEL CAR\" \"Camaro Hot Wheels\"",
+  "gherkin": "Given there exists a \"MODEL CAR BRAND\" \"Hot Wheels\"\nAnd there exists a \"MODEL CAR\" \"Camaro Hot Wheels\"\nWhen the user creates a \"created model car\" relationship between \"Hot Wheels\" and \"Camaro Hot Wheels\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

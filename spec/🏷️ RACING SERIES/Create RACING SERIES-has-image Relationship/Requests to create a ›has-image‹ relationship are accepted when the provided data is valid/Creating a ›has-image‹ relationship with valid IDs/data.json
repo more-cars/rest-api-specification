@@ -2,7 +2,7 @@
   "id": "MCA-1213",
   "parent_id": "MCA-1212",
   "title": "Creating a ›has-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"RACING SERIES\" \"DTM\"\nAnd there exists a \"IMAGE\" \"BMW M4 DTM poster\"\nWhen the user creates a \"has image\" relationship between \"DTM\" and \"BMW M4 DTM poster\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"BMW M4 DTM poster\"",
+  "gherkin": "Given there exists a \"RACING SERIES\" \"DTM\"\nAnd there exists a \"IMAGE\" \"BMW M4 DTM poster\"\nWhen the user creates a \"has image\" relationship between \"DTM\" and \"BMW M4 DTM poster\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

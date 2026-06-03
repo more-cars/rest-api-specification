@@ -7,9 +7,9 @@ Feature: Create COMPANY-has-prime-image Relationship
   @RULE_MCA-665
   Rule: Requests to create a ›has-prime-image‹ relationship are accepted when the provided data is valid
 
-  @TEST_MCA-666 @implemented
-  Scenario: Creating a ›has-prime-image‹ relationship with valid IDs
-    Given there exists a "COMPANY" "Bugatti"
-    And there exists a "IMAGE" "logo"
-    When the user creates a "has-prime-image" relationship between "Bugatti" and "logo"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-666 @implemented
+    Scenario: Creating a ›has-prime-image‹ relationship with valid IDs
+      Given there exists a "COMPANY" "Bugatti"
+      And there exists a "IMAGE" "logo"
+      When the user creates a "has-prime-image" relationship between "Bugatti" and "logo"
+      Then the request should be confirmed with status code 204

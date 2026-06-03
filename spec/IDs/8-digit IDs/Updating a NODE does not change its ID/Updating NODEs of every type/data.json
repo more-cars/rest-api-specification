@@ -2,8 +2,10 @@
   "id": "MCA-261",
   "parent_id": "MCA-247",
   "title": "Updating NODEs of every type",
-  "gherkin": "Given there exists a \"<node_type>\" \"A\"\nWhen the user updates node \"A\"\nThen the response should return with status code 201\nAnd the response should contain the id of node \"A\"\n\nExamples:\n  | node_type     |\n  | COMPANY       |\n  | BRAND         |\n  | CAR MODEL     |\n  | RACE TRACK    |\n  | TRACK LAYOUT  |\n  | RACING SERIES |\n  | RACING EVENT  |\n  | IMAGE         |",
-  "labels": [],
+  "gherkin": "Given there exists a \"<node_type>\" \"A\"\nWhen the user updates the node \"A\"\nThen the response should return with status code 200\nAnd the response should return a variation of \"<node_type>\" \"A\"\n\nExamples:\n  | node_type         |\n  | COMPANY           |\n  | BRAND             |\n  | CAR MODEL         |\n  | CAR MODEL VARIANT |\n  | PRICE             |\n  | RACE TRACK        |\n  | TRACK LAYOUT      |\n  | RACING SERIES     |\n  | RACING EVENT      |\n  | RACING SESSION    |\n  | SESSION RESULT    |\n  | LAP TIME          |\n  | RACING GAME       |\n  | GAMING PLATFORM   |\n  | MODEL CAR         |\n  | MODEL CAR BRAND   |\n  | MAGAZINE          |\n  | MAGAZINE ISSUE    |\n  | RATING            |\n  | PROGRAMME         |\n  | PROGRAMME EPISODE |\n  | MOTOR SHOW        |\n  | BOOK              |",
+  "labels": [
+    "implemented"
+  ],
   "created_at": "2025-07-04T11:11:18.702+0200",
-  "updated_at": "2025-07-04T12:01:26.800+0200"
+  "updated_at": "2026-05-29T08:24:29.515+0200"
 }

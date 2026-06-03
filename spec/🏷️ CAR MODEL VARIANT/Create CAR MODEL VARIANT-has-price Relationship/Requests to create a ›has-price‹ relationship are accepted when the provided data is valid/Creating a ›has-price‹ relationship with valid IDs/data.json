@@ -2,7 +2,7 @@
   "id": "MCA-4156",
   "parent_id": "MCA-4155",
   "title": "Creating a ›has-price‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists a \"PRICE\" \"base price\"\nWhen the user creates a \"has price\" relationship between \"BMW M3\" and \"base price\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"PRICE\" \"base price\"",
+  "gherkin": "Given there exists a \"CAR MODEL VARIANT\" \"BMW M3\"\nAnd there exists a \"PRICE\" \"base price\"\nWhen the user creates a \"has price\" relationship between \"BMW M3\" and \"base price\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

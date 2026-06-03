@@ -7,9 +7,9 @@ Feature: Create BRAND-has-image Relationship
   @RULE_MCA-269
   Rule: Any existing IMAGE can be connected to any existing BRAND
 
-  @TEST_MCA-273 @implemented
-  Scenario: Connecting an IMAGE to a BRAND
-    Given there exists a "BRAND" "Maserati"
-    And there exists an "IMAGE" "logo"
-    When the user creates a "has image" relationship between "Maserati" and "logo"
-    Then the response should return with status code 204
+    @TEST_MCA-273 @implemented
+    Scenario: Connecting an IMAGE to a BRAND
+      Given there exists a "BRAND" "Maserati"
+      And there exists an "IMAGE" "logo"
+      When the user creates a "has image" relationship between "Maserati" and "logo"
+      Then the response should return with status code 204

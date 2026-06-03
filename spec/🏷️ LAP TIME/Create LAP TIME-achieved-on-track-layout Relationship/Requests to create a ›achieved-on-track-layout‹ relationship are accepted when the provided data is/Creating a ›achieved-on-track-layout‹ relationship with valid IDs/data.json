@@ -2,7 +2,7 @@
   "id": "MCA-1984",
   "parent_id": "MCA-1983",
   "title": "Creating a ›achieved-on-track-layout‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nWhen the user creates a \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"TRACK LAYOUT\" \"Club Circuit\"",
+  "gherkin": "Given there exists a \"LAP TIME\" \"fastest lap\"\nAnd there exists a \"TRACK LAYOUT\" \"Club Circuit\"\nWhen the user creates a \"achieved on track layout\" relationship between \"fastest lap\" and \"Club Circuit\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

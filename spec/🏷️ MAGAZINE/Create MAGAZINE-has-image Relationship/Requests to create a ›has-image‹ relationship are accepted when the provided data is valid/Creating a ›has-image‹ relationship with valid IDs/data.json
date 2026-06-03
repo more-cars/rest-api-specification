@@ -2,7 +2,7 @@
   "id": "MCA-2661",
   "parent_id": "MCA-2660",
   "title": "Creating a ›has-image‹ relationship with valid IDs",
-  "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nAnd there exists a \"IMAGE\" \"cover\"\nWhen the user creates a \"has image\" relationship between \"Top Gear\" and \"cover\"\nThen the request should be confirmed with status code 201\nAnd the response should return a relationship with \"IMAGE\" \"cover\"",
+  "gherkin": "Given there exists a \"MAGAZINE\" \"Top Gear\"\nAnd there exists a \"IMAGE\" \"cover\"\nWhen the user creates a \"has image\" relationship between \"Top Gear\" and \"cover\"\nThen the request should be confirmed with status code 204",
   "labels": [
     "implemented"
   ],

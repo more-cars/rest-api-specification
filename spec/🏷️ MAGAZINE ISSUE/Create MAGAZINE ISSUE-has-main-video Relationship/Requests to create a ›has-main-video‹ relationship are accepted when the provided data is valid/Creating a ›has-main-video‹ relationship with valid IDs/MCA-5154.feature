@@ -7,9 +7,9 @@ Feature: Create MAGAZINE ISSUE-has-main-video Relationship
   @RULE_MCA-5153
   Rule: Requests to create a ›has-main-video‹ relationship are accepted when the provided data is valid
 
-  @TEST_MCA-5154 @implemented
-  Scenario: Creating a ›has-main-video‹ relationship with valid IDs
-    Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
-    And there exists a "VIDEO" "Promo Video"
-    When the user creates a "has-main-video" relationship between "Top Gear 03_2026" and "Promo Video"
-    Then the request should be confirmed with status code 204
+    @TEST_MCA-5154 @implemented
+    Scenario: Creating a ›has-main-video‹ relationship with valid IDs
+      Given there exists a "MAGAZINE ISSUE" "Top Gear 03_2026"
+      And there exists a "VIDEO" "Promo Video"
+      When the user creates a "has-main-video" relationship between "Top Gear 03_2026" and "Promo Video"
+      Then the request should be confirmed with status code 204
