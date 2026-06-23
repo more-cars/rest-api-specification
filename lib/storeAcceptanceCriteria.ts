@@ -1,11 +1,11 @@
 import fs from "fs"
+import filenamify from "filenamify"
 import type {AcceptanceCriterion} from "./types/AcceptanceCriterion"
 import type {ReferenceTicket} from "./types/ReferenceTicket"
 import {findReferenceTicket} from "./findReferenceTicket"
-import filenamify from "filenamify"
 
-export function storeAcceptanceCriteria(data: Array<AcceptanceCriterion>, referenceTickets: Array<ReferenceTicket> = [], basepath: string = __dirname + '/../spec/') {
-    const processedTickets: Array<ReferenceTicket> = []
+export function storeAcceptanceCriteria(data: AcceptanceCriterion[], referenceTickets: ReferenceTicket[] = [], basepath = __dirname + '/../spec/') {
+    const processedTickets: ReferenceTicket[] = []
 
     data.forEach(ac => {
         const parentSubPath = findReferenceTicket(ac.parent_id, referenceTickets)?.sub_path ?? ''

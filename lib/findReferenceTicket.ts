@@ -1,6 +1,6 @@
 import type {ReferenceTicket} from "./types/ReferenceTicket"
 
-export function findReferenceTicket(ticketId: string, tickets: Array<ReferenceTicket>): ReferenceTicket | null {
+export function findReferenceTicket(ticketId: string, tickets: ReferenceTicket[]): ReferenceTicket | null {
     const ref = tickets.find((item) => item.id === ticketId)
 
     if (!ref) {

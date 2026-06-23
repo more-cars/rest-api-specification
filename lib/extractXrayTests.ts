@@ -1,8 +1,8 @@
 import type {XrayTest} from "./types/XrayTest"
 import type {Test} from "./types/Test"
 
-export function extractXrayTests(tests: Array<XrayTest>): Array<Test> {
-    const extractedTests: Array<Test> = []
+export function extractXrayTests(tests: XrayTest[]): Test[] {
+    const extractedTests: Test[] = []
 
     tests.forEach(xrayTest => {
         extractedTests.push({

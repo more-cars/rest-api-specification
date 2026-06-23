@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "node --env-file=.env -r ts-node/register download-specification.ts",
-    "test": "vitest run -c tests/vite.config.ts"
+    "test": "vitest run -c tests/vite.config.ts",
+    "lint": "npx eslint lib"
   }
 }

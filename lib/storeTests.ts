@@ -1,11 +1,11 @@
 import fs from "fs"
+import filenamify from "filenamify"
 import type {Test} from "./types/Test"
 import type {ReferenceTicket} from "./types/ReferenceTicket"
 import {findReferenceTicket} from "./findReferenceTicket"
-import filenamify from "filenamify"
 
-export function storeTests(data: Array<Test>, referenceTickets: Array<ReferenceTicket> = [], basepath: string = __dirname + '/../spec/') {
-    const processedTickets: Array<ReferenceTicket> = []
+export function storeTests(data: Test[], referenceTickets: ReferenceTicket[] = [], basepath = __dirname + '/../spec/') {
+    const processedTickets: ReferenceTicket[] = []
 
     data.forEach(test => {
         const parentSubPath = findReferenceTicket(test.parent_id, referenceTickets)?.sub_path ?? ''

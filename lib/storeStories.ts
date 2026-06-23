@@ -1,11 +1,11 @@
 import fs from "fs"
+import filenamify from "filenamify"
 import type {Story} from "./types/Story"
 import type {ReferenceTicket} from "./types/ReferenceTicket"
 import {findReferenceTicket} from "./findReferenceTicket"
-import filenamify from "filenamify"
 
-export function storeStories(data: Array<Story>, referenceTickets: Array<ReferenceTicket> = [], basepath: string = __dirname + '/../spec/') {
-    const processedTickets: Array<ReferenceTicket> = []
+export function storeStories(data: Story[], referenceTickets: ReferenceTicket[] = [], basepath = __dirname + '/../spec/') {
+    const processedTickets: ReferenceTicket[] = []
 
     data.forEach(story => {
         const parentSubPath = findReferenceTicket(story.parent_id, referenceTickets)?.sub_path ?? ''

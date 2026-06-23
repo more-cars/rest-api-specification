@@ -3,11 +3,11 @@ import {getJiraApiBaseUrl} from "./getJiraApiBaseUrl"
 import {getJiraApiAuthKey} from "./getJiraApiAuthKey"
 
 export async function downloadAcceptanceCriteria() {
-    let results: Array<JiraAcceptanceCriterion> = []
+    let results: JiraAcceptanceCriterion[] = []
     let nextPageToken = null
-    let moreResultsPagesAreAvailable = true
 
     try {
+        let moreResultsPagesAreAvailable = true
         do {
             const data = await requestNextPage(nextPageToken)
             results = results.concat(data.issues)

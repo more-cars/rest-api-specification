@@ -1,10 +1,10 @@
+import {toMarkdown} from "mdast-util-to-markdown"
+import {fromADF} from "mdast-util-from-adf"
 import type {JiraStory} from "./types/JiraStory"
 import type {Story} from "./types/Story"
-import {fromADF} from "mdast-util-from-adf"
-import {toMarkdown} from "mdast-util-to-markdown"
 
-export function extractJiraStories(stories: Array<JiraStory>): Array<Story> {
-    const extractedStories: Array<Story> = []
+export function extractJiraStories(stories: JiraStory[]): Story[] {
+    const extractedStories: Story[] = []
 
     stories.forEach(jiraStory => {
         extractedStories.push({

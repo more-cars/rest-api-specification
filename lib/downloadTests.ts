@@ -4,11 +4,11 @@ import {getXrayGraphqlUrl} from "./getXrayGraphqlUrl"
 import {obtainXrayApiToken} from "./obtainXrayApiToken"
 
 export async function downloadTests() {
-    let results: Array<XrayTest> = []
+    let results: XrayTest[] = []
     let startIndex = 0
-    let moreResultsPagesAreAvailable = true
 
     try {
+        let moreResultsPagesAreAvailable = true
         do {
             const data = await requestNextPage(startIndex)
             results = results.concat(data.data.getTests.results)

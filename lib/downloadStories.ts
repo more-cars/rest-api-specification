@@ -3,11 +3,11 @@ import {getJiraApiBaseUrl} from "./getJiraApiBaseUrl"
 import {getJiraApiAuthKey} from "./getJiraApiAuthKey"
 
 export async function downloadStories() {
-    let results: Array<JiraStory> = []
+    let results: JiraStory[] = []
     let nextPageToken = null
-    let moreResultsPagesAreAvailable = true
 
     try {
+        let moreResultsPagesAreAvailable = true
         do {
             const data = await requestNextPage(nextPageToken)
             results = results.concat(data.issues)

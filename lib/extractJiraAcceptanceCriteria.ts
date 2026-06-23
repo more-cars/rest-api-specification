@@ -1,10 +1,10 @@
-import type {AcceptanceCriterion} from "./types/AcceptanceCriterion"
-import type {JiraAcceptanceCriterion} from "./types/JiraAcceptanceCriterion"
-import {fromADF} from "mdast-util-from-adf"
 import {toMarkdown} from "mdast-util-to-markdown"
+import {fromADF} from "mdast-util-from-adf"
+import type {JiraAcceptanceCriterion} from "./types/JiraAcceptanceCriterion"
+import type {AcceptanceCriterion} from "./types/AcceptanceCriterion"
 
-export function extractJiraAcceptanceCriteria(acs: Array<JiraAcceptanceCriterion>): Array<AcceptanceCriterion> {
-    const extractedAcs: Array<AcceptanceCriterion> = []
+export function extractJiraAcceptanceCriteria(acs: JiraAcceptanceCriterion[]): AcceptanceCriterion[] {
+    const extractedAcs: AcceptanceCriterion[] = []
 
     acs.forEach(jiraAc => {
         extractedAcs.push({
